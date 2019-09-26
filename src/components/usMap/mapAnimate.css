@@ -1,0 +1,14 @@
+path {
+    pointer-events: all;
+    -webkit-transition: color 1s ease;
+    -moz-transition:    color 1s ease;
+    -ms-transition:     color 1s ease;
+    -o-transition:      color 1s ease;
+    transition:         color 1s ease;
+  }
+  path:hover {
+    opacity: 0.50;
+    cursor: pointer;
+  }
+
+  .my-cool-select-top { top: auto; bottom: 100%; }

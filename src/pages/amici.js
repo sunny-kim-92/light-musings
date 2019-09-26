@@ -1,14 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
-// import Gallery from 'components/gallery';
-// import IOExample from 'components/io-example';
 import USMap from 'components/usMap';
-
-// import Modal from 'containers/modal';
-import { graphql } from 'gatsby';
 import TestBarChart from 'components/testBarChart';
 import TestTable from 'components/TestTable';
 import StateHighTotalBarChart from 'components/StateHighTotalBarChart';
@@ -22,9 +19,6 @@ const Index = ({ data }) => (
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
     </Box>
-    {/* <Gallery items={data.homeJson.gallery} /> */}
-    {/* <div style={{ height: '50vh' }} /> */}
-
     <USMap />
     <TestBarChart />
     <TestTable />
@@ -40,24 +34,13 @@ Index.propTypes = {
 export default Index;
 
 export const query = graphql`
-  query HomepageQuery {
+  query AmiciQuery {
     homeJson {
       title
       content {
         childMarkdownRemark {
           html
           rawMarkdownBody
-        }
-      }
-      gallery {
-        title
-        copy
-        image {
-          childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
         }
       }
     }
