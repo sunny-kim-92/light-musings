@@ -18,7 +18,7 @@ export const Text = styled.span`
 
 export const MapContainer = styled.div`
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 `;
 
 export const DropdownContainer = styled.div`

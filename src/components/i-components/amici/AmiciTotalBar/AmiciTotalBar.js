@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { HorizontalBar } from 'react-chartjs-2';
+import 'array-flat-polyfill';
 
-class StateHighTotalBarChart extends Component {
+class AmiciTotalBar extends Component {
   constructor(props) {
     super(props);
   }
@@ -142,6 +143,9 @@ class StateHighTotalBarChart extends Component {
       scales: {
         yAxes: [
           {
+            ticks: {
+              fontSize: 10
+            },
             scaleLabel: {
               display: true,
               labelString: 'State',
@@ -169,4 +173,4 @@ class StateHighTotalBarChart extends Component {
   }
 }
 
-export default StateHighTotalBarChart;
+export default AmiciTotalBar;

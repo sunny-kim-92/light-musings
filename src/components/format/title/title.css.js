@@ -6,7 +6,7 @@ export const Text = styled.span`
   font-weight: ${({ size }) => () => {
     switch (size) {
       case 'large':
-        return '400';
+        return '600';
       default:
         return '500';
     }

@@ -1,19 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Layout from 'components/layout';
-import Box from 'components/box';
-import Title from 'components/title';
-// import Gallery from 'components/gallery';
-// import IOExample from 'components/io-example';
-import USMap from 'components/usMap';
-
-// import Modal from 'containers/modal';
+import Layout from 'components/format/layout';
+import Box from 'components/format/box';
+import Title from 'components/format/title';
+import Gallery from 'components/format/gallery';
+import IOExample from 'components/io-example';
 import { graphql } from 'gatsby';
-import TestBarChart from 'components/testBarChart';
-import TestTable from 'components/TestTable';
-import StateHighTotalBarChart from 'components/StateHighTotalBarChart';
-import SankeyChart from 'components/SankeyChart';
-
 
 const Index = ({ data }) => (
   <Layout>
@@ -22,14 +14,9 @@ const Index = ({ data }) => (
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
     </Box>
-    {/* <Gallery items={data.homeJson.gallery} /> */}
-    {/* <div style={{ height: '50vh' }} /> */}
-
-    <USMap />
-    <TestBarChart />
-    <TestTable />
-    <StateHighTotalBarChart />
-    <SankeyChart />
+    <Gallery items={data.homeJson.gallery} />
+    <div style={{ height: '50vh' }} />
+    <IOExample />
   </Layout>
 );
 

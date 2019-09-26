@@ -1,7 +1,7 @@
 {
   "name": "gatsby-universal",
   "license": "MIT",
-  "author": "Fabian Schultz <desk@fabianschultz.com>",
+  "author": "Sunny Kim",
   "scripts": {
     "develop": "gatsby develop",
     "serve": "gatsby serve",
@@ -29,6 +29,7 @@
     "@reach/dialog": "^0.2.0",
     "@reach/router": "^1.2.1",
     "@reach/visually-hidden": "^0.1.1",
+    "array-flat-polyfill": "^1.0.1",
     "babel-plugin-styled-components": "^1.10.0",
     "chart.js": "^2.8.0",
     "gatsby": "^2.3.26",

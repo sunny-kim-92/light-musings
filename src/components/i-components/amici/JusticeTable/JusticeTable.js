@@ -7,7 +7,6 @@ import {
 } from '@devexpress/dx-react-grid-material-ui';
 import { data } from './tableData';
 import { SortingState, IntegratedSorting } from '@devexpress/dx-react-grid';
-import tableStyle from './testTable.module.css';
 
 const HighlightedCell = ({ value, style, ...restProps }) => (
   <Table.Cell
@@ -49,7 +48,7 @@ export default () => {
   const rows = data;
 
   return (
-    <Paper className={tableStyle.table}>
+    <Paper>
       <Grid rows={rows} columns={columns}>
         <SortingState
           defaultSorting={[{ columnName: 'State', direction: 'asc' }]}

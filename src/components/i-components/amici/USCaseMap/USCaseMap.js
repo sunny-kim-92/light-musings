@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 import USAMap from 'react-usa-map';
 import Dropdown from 'react-select';
 import 'react-dropdown/style.css';
-import { Container, Text, MapContainer, DropdownContainer } from './usMap.css';
+import {
+  Container,
+  Text,
+  MapContainer,
+  DropdownContainer,
+} from './USCaseMap.css';
 import './mapAnimate.css';
 
 const stateData = require('./data');
