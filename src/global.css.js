@@ -90,5 +90,17 @@ export default createGlobalStyle`
 
   p {
     margin-bottom: 2rem;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  strong {
+    display: block;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.3;
   }
 `;

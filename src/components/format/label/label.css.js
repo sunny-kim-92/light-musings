@@ -10,4 +10,5 @@ export const Text = styled.span`
 export const Container = styled.div`
   padding-left: 7vw;
   padding-top: 2vh;
+  padding-bottom: 1vh;
 `;

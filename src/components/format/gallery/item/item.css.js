@@ -16,3 +16,7 @@ export const Copy = styled.p`
     margin-bottom: 4rem;
   `};
 `;
+
+export const FCaption = styled.figcaption`
+  position: fixed;
+`;

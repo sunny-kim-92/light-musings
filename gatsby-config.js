@@ -9,13 +9,18 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     `gatsby-transformer-json`,
-    `gatsby-transformer-remark`,
     `gatsby-plugin-eslint`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `content`,
         path: `${__dirname}/content`,
+      },
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: ['gatsby-remark-component'],
       },
     },
     `gatsby-plugin-sharp`,

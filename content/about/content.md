@@ -1,3 +1,10 @@
+---
+type: 'not-post'
+title: 'Amicus Stuff'
+tags: []
+frontimg: '../images/gallery/page-transitions.jpg'
+---
+
 Find the repository [on GitHub](https://github.com/fabe/gatsby-universal).
 
 ```
@@ -19,3 +26,5 @@ yarn format
 # To generate favicons (included in `build`)
 yarn build:favicons
 ```
+
+<both-bar></both-bar>

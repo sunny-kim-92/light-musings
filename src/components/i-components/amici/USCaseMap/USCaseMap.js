@@ -12,7 +12,7 @@ import './mapAnimate.css';
 
 const stateData = require('./data');
 
-class USMap extends Component {
+class USCaseMap extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -103,4 +103,4 @@ class USMap extends Component {
   }
 }
 
-export default USMap;
+export default USCaseMap;
