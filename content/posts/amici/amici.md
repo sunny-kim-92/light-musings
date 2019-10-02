@@ -1,7 +1,7 @@
 ---
 type: 'blog-post'
-link: '/amici/'
-title: 'Amicus Stuff'
+link: '/states-as-friends-of-the-court/'
+title: 'States as Friends of the Court'
 date: '2019-10-02'
 subtitle: 'Analysis of State-filed Amicus Briefs During SCOTUS October 2018 Term'
 tags: ['law']
