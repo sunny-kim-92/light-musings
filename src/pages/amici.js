@@ -14,7 +14,7 @@ import JusticeTable from 'components/i-components/amici/JusticeTable';
 import AmiciTotalBar from 'components/i-components/amici/AmiciTotalBar';
 import SankeyChart from 'components/i-components/amici/SankeyChart';
 import CaseBar from 'components/i-components/amici/CaseBar';
-import Comorbtable from 'components/i-components/amici/ComorbTable/ComorbTable.js';
+import Comorbtable from 'components/i-components/amici/ComorbTable';
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
