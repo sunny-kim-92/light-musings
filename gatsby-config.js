@@ -11,6 +11,13 @@ module.exports = {
     `gatsby-transformer-json`,
     `gatsby-plugin-eslint`,
     {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `tomato`,
+        showSpinner: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `content`,
@@ -20,7 +27,14 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: ['gatsby-remark-component'],
+        plugins: ['gatsby-remark-component',
+        {
+          resolve: "gatsby-remark-external-links",
+          options: {
+            target: "_self",
+            rel: "nofollow"
+          }
+        }],
       },
     },
     `gatsby-plugin-sharp`,

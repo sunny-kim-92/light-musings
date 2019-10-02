@@ -103,4 +103,8 @@ export default createGlobalStyle`
     font-size: 1.6rem;
     line-height: 1.3;
   }
+
+  em {
+    font-style: italic;
+  }
 `;

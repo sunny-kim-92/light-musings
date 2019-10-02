@@ -17,6 +17,8 @@ export const Copy = styled.p`
   `};
 `;
 
-export const FCaption = styled.figcaption`
-  position: fixed;
+export const DateForm = styled.span`
+  font-size: 1.5rem;
+  font-weight: 1000;
+  margin: 2rem 2rem 10rem;
 `;

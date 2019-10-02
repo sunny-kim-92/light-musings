@@ -42,11 +42,9 @@ const HighlightedCell = ({ value, style, ...restProps }) => (
     }}
   >
     <span
-      style={
-        {
-          color: value < 0 ? 'white' : 'black',
-        }
-      }
+      style={{
+        color: value < 0 ? 'white' : 'black',
+      }}
     >
       {value}
     </span>
@@ -120,7 +118,6 @@ export default () => {
   colArr.forEach(val => {
     final.push({ name: val.replace(/\s/g, ''), title: val });
   });
-  console.log(final);
   const rows = data;
 
   return (

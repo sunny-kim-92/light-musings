@@ -17,7 +17,7 @@ const posColors = [
   '#54FF54',
   '#38FF38',
   '#1CFF1C',
-  '#00FF00'
+  '#00FF00',
 ];
 
 const negColors = [
@@ -29,15 +29,20 @@ const negColors = [
   '#FF5454',
   '#FF3838',
   '#FF1C1C',
-  '#FF0000'
-]
+  '#FF0000',
+];
 
 const HighlightedCell = ({ value, style, ...restProps }) => (
   <Table.Cell
     {...restProps}
     style={{
       fontSize: 12,
-      backgroundColor: value < 0 ? negColors[Math.floor((value * -100) / 10)] : value > 0 ? posColors[Math.floor((value*100) / 10)] : 'white',
+      backgroundColor:
+        value < 0
+          ? negColors[Math.floor((value * -100) / 10)]
+          : value > 0
+          ? posColors[Math.floor((value * 100) / 10)]
+          : 'white',
       ...style,
     }}
   >

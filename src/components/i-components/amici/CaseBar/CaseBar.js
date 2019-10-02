@@ -23,7 +23,10 @@ class CaseBar extends Component {
         'Virginia Uranium v Warren',
         ['PDR Network, LLC v.', 'Carlton & Harris Chiropractic Inc.'],
         'McDonough v. Smith',
-        ['Dept. of Commerce v. U.S. District Court', 'for the Southern District of New York'],
+        [
+          'Dept. of Commerce v. U.S. District Court',
+          'for the Southern District of New York',
+        ],
         'US v Haymond',
         ['Tennessee Wine & Spirits', 'Retailers Association v. Blair'],
         ['The American Legion v.', 'American Humanist Association'],
@@ -35,7 +38,10 @@ class CaseBar extends Component {
         'Sturgeon v Frost',
         'Franchise Tax Board of California v Hyatt',
         ['Weyerhaeuser Company v.', 'U.S. Fish and Wildlife Service'],
-        ['North Carolina Dept. of Revenue v.', 'Kimberley Rice Kaestner 1992 Family Trust'],
+        [
+          'North Carolina Dept. of Revenue v.',
+          'Kimberley Rice Kaestner 1992 Family Trust',
+        ],
         'New Prime, Inc. v Oliveira',
         'Mitchell v Wisconsin',
         'Frank v Gaos',
@@ -100,7 +106,7 @@ class CaseBar extends Component {
           {
             ticks: {
               fontSize: 10,
-              lineHeight: .9
+              lineHeight: 0.9,
             },
             scaleLabel: {
               display: true,

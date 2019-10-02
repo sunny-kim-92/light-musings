@@ -6,7 +6,10 @@ const Nav = () => (
   <Container>
     <ul>
       <li>
-        <Link to="/amici">Amici</Link>
+        <Link to="/about">About</Link>
+      </li>
+      <li>
+        <a href="https://github.com/sunny-kim-92">GitHub</a>
       </li>
     </ul>
   </Container>

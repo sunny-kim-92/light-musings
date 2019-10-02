@@ -1,30 +1,16 @@
 ---
 type: 'not-post'
-title: 'Amicus Stuff'
+title: 'About Page'
 tags: []
 frontimg: '../images/gallery/page-transitions.jpg'
 ---
 
-Find the repository [on GitHub](https://github.com/fabe/gatsby-universal).
+Sunny Kim
 
-```
-# Installation
-gatsby new my-site https://github.com/fabe/gatsby-universal
+Software Developer | Data Journalist | News Junkie | Sports Fan
 
-# To develop
-yarn develop
+GitHub - https://github.com/sunny-kim-92
 
-# To build
-yarn build
+LinkedIn - https://www.linkedin.com/in/sunnykim92/
 
-# To test SSR (for Lighthouse etc.)
-yarn ssr
-
-# To format JS (precommit)
-yarn format
-
-# To generate favicons (included in `build`)
-yarn build:favicons
-```
-
-<both-bar></both-bar>
+Site adapted from Gatsby Universal Starter - https://www.gatsbyjs.org/starters/fabe/gatsby-universal/

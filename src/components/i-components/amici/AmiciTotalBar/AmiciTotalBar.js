@@ -144,7 +144,7 @@ class AmiciTotalBar extends Component {
         yAxes: [
           {
             ticks: {
-              fontSize: 10
+              fontSize: 10,
             },
             scaleLabel: {
               display: true,

@@ -4,13 +4,9 @@ import { graphql } from 'gatsby';
 
 import Layout from 'components/format/layout';
 import Box from 'components/format/box';
-import Head from 'components/format/head';
 import Title from 'components/format/title';
 import rehypeReact from 'rehype-react';
-// import Paragraph from 'components/format/paragraph';
 import BlogPadding from 'components/format/blogpadding';
-// import Linebreak from 'components/format/Linebreak';
-// import Label from 'components/format/label';
 
 import USCaseMap from 'components/i-components/amici/USCaseMap';
 import BothBar from 'components/i-components/amici/BothBar';

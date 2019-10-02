@@ -1,20 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
-import { Title, Copy, FCaption } from './item.css';
+import { Title, Copy, DateForm } from './item.css';
 
-const Item = ({ title, copy, image }) => (
+const Item = ({ title, subtitle, date, frontimg }) => (
   <figure>
-    <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
-    <FCaption>
+    <Img fluid={frontimg ? frontimg.childImageSharp.fluid : {}} alt={title} />
+    <figcaption>
       <Title>{title}</Title>
-      <Copy>{copy}</Copy>
-    </FCaption>
+      <DateForm>{date}</DateForm>
+      <Copy>{subtitle}</Copy>
+    </figcaption>
   </figure>
 );
 
 Item.propTypes = {
   title: PropTypes.string,
+  subtitle: PropTypes.string,
   copy: PropTypes.string,
   image: PropTypes.object.isRequired,
 };

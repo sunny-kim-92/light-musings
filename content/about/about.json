@@ -1,4 +1,16 @@
 {
   "title": "About",
-  "content": "content.md"
+  "content": "content.md",
+  "name": "Sunny",
+  "info": "Software Developer | Data Journalist | News Junkie | Sports Fan",
+  "val": [{
+    "name": "GitHub",
+    "link": "https://github.com/sunny-kim-92"
+  },{
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/sunnykim92/"
+  },{
+    "name": "Site adapted from Gatsby Universal Starter",
+    "link": "https://www.gatsbyjs.org/starters/fabe/gatsby-universal/"
+  }]
 }
