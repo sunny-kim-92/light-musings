@@ -80,7 +80,7 @@ export default () => {
     <Paper>
       <Grid rows={rows} columns={columns}>
         <SortingState
-          defaultSorting={[{ columnName: 'State', direction: 'asc' }]}
+          defaultSorting={[{ columnName: 'State', direction: 'desc' }]}
         />
         <IntegratedSorting />
         <Table cellComponent={Cell} />
