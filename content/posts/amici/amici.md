@@ -58,7 +58,7 @@ In addition to the relationship between states and justices, we can attempt to a
 
 <br></br>
 
-**Given that states filed on opposing sides on only 4 of the 28 cases, a negative co-morbidity score represents a particularly sharp divide in litigation this term. The following Sankey diagram displays states pairs with negative co-morbidity scores:**
+**Given that states filed on opposing sides on only 4 of the 28 cases, a negative net agreement score represents a particularly sharp divide in litigation this term. The following Sankey diagram displays states pairs with negative scores:**
 
 <sankey-chart></sankey-chart>
 
