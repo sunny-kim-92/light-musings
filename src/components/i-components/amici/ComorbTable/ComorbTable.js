@@ -29,6 +29,12 @@ const colors = [
   '#1CFF1C',
   '#0EFF0E',
   '#00FF00',
+  '#00FF00',
+  '#00FF00',
+  '#00FF00',
+  '#00FF00',
+  '#00FF00',
+  '#00FF00',
 ];
 
 const HighlightedCell = ({ value, style, ...restProps }) => (
@@ -57,70 +63,70 @@ const Cell = props => {
 };
 
 export default () => {
-    const columns = [{
-      name: 'State', value: 'State'
-    },
-  ];
+  //   const columns = [{
+  //     name: 'State', title: 'State'
+  //   },
+  // ];
 
   const colArr = [
-    // { name: 'State', value: 'State' },
-    // { name: 'Texas', value: 'Texas' },
-    // { name: 'Louisiana', value: 'Louisiana' },
-    // { name: 'Indiana', value: 'Indiana' },
-    // { name: 'Nebraska', value: 'Nebraska' },
-    // { name: 'SouthCarolina', value: 'South Carolina' },
-    // { name: 'Oklahoma', value: 'Oklahoma' },
-    // { name: 'Arkansas', value: 'Arkansas' },
-    // { name: 'Kansas', value: 'Kansas' },
-    // { name: 'Georgia', value: 'Georgia' },
-    // { name: 'Utah', value: 'Utah' },
-    // { name: 'Alabama', value: 'Alabama' },
-    // { name: 'Michigan', value: 'Michigan' },
-    // { name: 'Idaho', value: 'Idaho' },
-    // { name: 'SouthDakota', value: 'South Dakota' },
-    // { name: 'RhodeIsland', value: 'Rhode Island' },
-    // { name: 'Colorado', value: 'Colorado' },
-    // { name: 'Wyoming', value: 'Wyoming' },
-    // { name: 'Ohio', value: 'Ohio' },
-    // { name: 'Montana', value: 'Montana' },
-    // { name: 'California', value: 'California' },
-    // { name: 'Washington', value: 'Washington' },
-    // { name: 'Florida', value: 'Florida' },
-    // { name: 'Oregon', value: 'Oregon' },
-    // { name: 'Minnesota', value: 'Minnesota' },
-    // { name: 'Alaska', value: 'Alaska' },
-    // { name: 'NorthDakota', value: 'North Dakota' },
-    // { name: 'NewJersey', value: 'New Jersey' },
-    // { name: 'Massachusetts', value: 'Massachusetts' },
-    // { name: 'Maryland', value: 'Maryland' },
-    // { name: 'Iowa', value: 'Iowa' },
-    // { name: 'Connecticut', value: 'Connecticut' },
-    // { name: 'Pennsylvania', value: 'Pennsylvania' },
-    // { name: 'Arizona', value: 'Arizona' },
-    // { name: 'Illinois', value: 'Illinois' },
-    // { name: 'Wisconsin', value: 'Wisconsin' },
-    // { name: 'Mississippi', value: 'Mississippi' },
-    // { name: 'NewYork', value: 'New York' },
-    // { name: 'WestVirginia', value: 'West Virginia' },
-    // { name: 'Vermont', value: 'Vermont' },
-    // { name: 'NorthCarolina', value: 'North Carolina' },
-    // { name: 'Nevada', value: 'North Carolina' },
-    // { name: 'DistrictofColumbia', value: 'District of Columbia' },
-    // { name: 'Missouri', value: 'Missouri' },
-    // { name: 'Hawaii', value: 'Hawaii' },
-    // { name: 'Kentucky', value: 'Kentucky' },
-    // { name: 'Virginia', value: 'Virginia' },
-    // { name: 'Tennessee', value: 'Tennessee' },
-    // { name: 'Maine', value: 'Maine' },
-    // { name: 'Delaware', value: 'Delaware' },
-    // { name: 'NewMexico', value: 'New Mexico' },
-    // { name: 'NewHampshire', value: 'New Hampshire' },
+    { name: 'State', title: 'State' },
+    { name: 'Texas', title: 'Texas' },
+    { name: 'Louisiana', title: 'Louisiana' },
+    { name: 'Indiana', title: 'Indiana' },
+    { name: 'Nebraska', title: 'Nebraska' },
+    { name: 'SouthCarolina', title: 'South Carolina' },
+    { name: 'Oklahoma', title: 'Oklahoma' },
+    { name: 'Arkansas', title: 'Arkansas' },
+    { name: 'Kansas', title: 'Kansas' },
+    { name: 'Georgia', title: 'Georgia' },
+    { name: 'Utah', title: 'Utah' },
+    { name: 'Alabama', title: 'Alabama' },
+    { name: 'Michigan', title: 'Michigan' },
+    { name: 'Idaho', title: 'Idaho' },
+    { name: 'SouthDakota', title: 'South Dakota' },
+    { name: 'RhodeIsland', title: 'Rhode Island' },
+    { name: 'Colorado', title: 'Colorado' },
+    { name: 'Wyoming', title: 'Wyoming' },
+    { name: 'Ohio', title: 'Ohio' },
+    { name: 'Montana', title: 'Montana' },
+    { name: 'California', title: 'California' },
+    { name: 'Washington', title: 'Washington' },
+    { name: 'Florida', title: 'Florida' },
+    { name: 'Oregon', title: 'Oregon' },
+    { name: 'Minnesota', title: 'Minnesota' },
+    { name: 'Alaska', title: 'Alaska' },
+    { name: 'NorthDakota', title: 'North Dakota' },
+    { name: 'NewJersey', title: 'New Jersey' },
+    { name: 'Massachusetts', title: 'Massachusetts' },
+    { name: 'Maryland', title: 'Maryland' },
+    { name: 'Iowa', title: 'Iowa' },
+    { name: 'Connecticut', title: 'Connecticut' },
+    { name: 'Pennsylvania', title: 'Pennsylvania' },
+    { name: 'Arizona', title: 'Arizona' },
+    { name: 'Illinois', title: 'Illinois' },
+    { name: 'Wisconsin', title: 'Wisconsin' },
+    { name: 'Mississippi', title: 'Mississippi' },
+    { name: 'NewYork', title: 'New York' },
+    { name: 'WestVirginia', title: 'West Virginia' },
+    { name: 'Vermont', title: 'Vermont' },
+    { name: 'NorthCarolina', title: 'North Carolina' },
+    { name: 'Nevada', title: 'North Carolina' },
+    { name: 'DistrictofColumbia', title: 'District of Columbia' },
+    { name: 'Missouri', title: 'Missouri' },
+    { name: 'Hawaii', title: 'Hawaii' },
+    { name: 'Kentucky', title: 'Kentucky' },
+    { name: 'Virginia', title: 'Virginia' },
+    { name: 'Tennessee', title: 'Tennessee' },
+    { name: 'Maine', title: 'Maine' },
+    { name: 'Delaware', title: 'Delaware' },
+    { name: 'NewMexico', title: 'New Mexico' },
+    { name: 'NewHampshire', title: 'New Hampshire' },
   ];
 
-  const final = [];
-  colArr.forEach(val => {
-    final.push({ name: val.replace(/\s/g, ''), title: val });
-  });
+  // const final = [];
+  // colArr.forEach(val => {
+  //   final.push({ name: val.replace(/\s/g, ''), title: val });
+  // });
   const rows = data;
 
   return (

@@ -18,6 +18,7 @@ const posColors = [
   '#38FF38',
   '#1CFF1C',
   '#00FF00',
+  '#00FF00',
 ];
 
 const negColors = [
@@ -30,6 +31,7 @@ const negColors = [
   '#FF3838',
   '#FF1C1C',
   '#FF0000',
+  '#FF0000',
 ];
 
 const HighlightedCell = ({ value, style, ...restProps }) => (
@@ -38,11 +40,15 @@ const HighlightedCell = ({ value, style, ...restProps }) => (
     style={{
       fontSize: 12,
       backgroundColor:
-        value < 0
+        value === -1
+          ? '#FF0000'
+          : value === 1
+          ? '#00FF00'
+          : value === 0
+          ? 'white'
+          : value < 0
           ? negColors[Math.floor((value * -100) / 10)]
-          : value > 0
-          ? posColors[Math.floor((value * 100) / 10)]
-          : 'white',
+          : posColors[Math.floor((value * 100) / 10)],
       ...style,
     }}
   >
@@ -80,7 +86,7 @@ export default () => {
     <Paper>
       <Grid rows={rows} columns={columns}>
         <SortingState
-          defaultSorting={[{ columnName: 'State', direction: 'desc' }]}
+          defaultSorting={[{ columnName: 'Sotomayor', direction: 'desc' }]}
         />
         <IntegratedSorting />
         <Table cellComponent={Cell} />

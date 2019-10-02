@@ -25,4 +25,5 @@ export const DropdownContainer = styled.div`
   align-content: center;
   padding-left: 10vw;
   padding-right: 10vw;
+  padding-bottom: 3vh;
 `;

@@ -78,6 +78,15 @@ class USCaseMap extends Component {
   render() {
     return (
       <Container>
+        <DropdownContainer>
+          <Dropdown
+            menuPlacement="auto"
+            options={this.state.options}
+            onChange={this._onSelect}
+            value={this.state.activeCase}
+            placeholder="Select a case or Type to Search"
+          />
+        </DropdownContainer>
         <Text side={'p'}>{this.state.activeCase.split(' v. ')[0]}</Text>
         <Text side={'v'}> v. </Text>
         <Text side={'r'}>{this.state.activeCase.split(' v. ')[1]}</Text>
@@ -89,15 +98,6 @@ class USCaseMap extends Component {
             onClick={this.mapHandler}
           />
         </MapContainer>
-        <DropdownContainer>
-          <Dropdown
-            menuPlacement="top"
-            options={this.state.options}
-            onChange={this._onSelect}
-            value={this.state.activeCase}
-            placeholder="Select a case or Type to Search"
-          />
-        </DropdownContainer>
       </Container>
     );
   }

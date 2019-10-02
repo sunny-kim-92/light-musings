@@ -20,6 +20,8 @@ States play an important role in the litigation and outcome of Supreme Court cas
 <amici-total-bar></amici-total-bar>
 <case-bar></case-bar>
 
+<br></br>
+
 **Use the following map to explore which states filed amicus briefs for each case. You can search or select from the dropdown menu:**
 
 <us-case-map></us-case-map>
