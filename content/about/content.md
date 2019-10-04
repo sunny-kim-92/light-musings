@@ -2,7 +2,7 @@
 type: 'not-post'
 title: 'About Page'
 tags: []
-frontimg: '../images/gallery/page-transitions.jpg'
+frontimg: '../images/amici/scotus.jpeg'
 ---
 
 Sunny Kim

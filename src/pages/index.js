@@ -6,6 +6,7 @@ import { graphql } from 'gatsby';
 
 const Index = ({ data }) => {
   const posts = [];
+  console.log(data)
   data.allMarkdownRemark.edges.forEach(val => {
     val.node.frontmatter.type === 'blog-post' ? posts.push(val.node) : null;
   });

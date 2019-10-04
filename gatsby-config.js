@@ -27,15 +27,17 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: ['gatsby-remark-component',
-        {
-          resolve: "gatsby-remark-external-links",
-          options: {
-            target: "_self",
-            rel: "nofollow"
-          }
-        }],
-      },
+        plugins: [
+          {
+            resolve: 'gatsby-remark-external-links',
+            options: {
+              target: '_self',
+              rel: 'nofollow',
+            },
+          },
+          'gatsby-remark-component',
+        ]
+      }
     },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,

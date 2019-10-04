@@ -5,6 +5,7 @@ import { graphql } from 'gatsby';
 import Layout from 'components/format/layout';
 import Box from 'components/format/box';
 import Title from 'components/format/title';
+import Date from 'components/format/date';
 import rehypeReact from 'rehype-react';
 import BlogPadding from 'components/format/blogpadding';
 
@@ -16,6 +17,9 @@ import SankeyChart from 'components/i-components/amici/SankeyChart';
 import CaseBar from 'components/i-components/amici/CaseBar';
 import Comorbtable from 'components/i-components/amici/ComorbTable';
 
+import Guice2015Table from 'components/i-components/ir-report/Guice2015Table';
+import Guice2016Table from 'components/i-components/ir-report/Guice2016Table';
+
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
@@ -26,6 +30,8 @@ const renderAst = new rehypeReact({
     'sankey-chart': SankeyChart,
     'case-bar': CaseBar,
     'comorb-table': Comorbtable,
+    'guice-2015-table': Guice2015Table,
+    'guice-2016-table': Guice2016Table,
   },
 }).Compiler;
 
@@ -35,6 +41,7 @@ const Amici = ({ data }) => (
       <Title as="h2" size="large">
         {data.amiciJson.title}
       </Title>
+      <Date>{data.amiciJson.date}</Date>
     </Box>
     <BlogPadding>
       <div>{renderAst(data.amiciJson.content.childMarkdownRemark.htmlAst)}</div>
@@ -52,6 +59,7 @@ export const query = graphql`
   query AmiciQuery {
     amiciJson {
       title
+      date
       content {
         childMarkdownRemark {
           htmlAst

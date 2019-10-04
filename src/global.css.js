@@ -97,13 +97,6 @@ export default createGlobalStyle`
     font-weight: 400;
   }
 
-  strong {
-    display: block;
-    font-weight: 700;
-    font-size: 1.6rem;
-    line-height: 1.3;
-  }
-
   em {
     font-style: italic;
   }
