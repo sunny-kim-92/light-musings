@@ -1,6 +1,9 @@
 ---
 type: 'not-post'
+link: '/about/'
 title: 'About Page'
+date: '2019-10-04'
+subtitle: 'Have an open IR spot on your fantasy football roster? Take a look at these available targets...'
 frontimg: '../images/amici/scotus.jpeg'
 ---
 
