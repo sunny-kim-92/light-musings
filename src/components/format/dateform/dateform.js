@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Text } from './date.css';
+import { Text } from './dateform.css';
 
-const Date = ({ children }) => {
+const DateForm = ({ children }) => {
   return (
   <Text>{children}</Text>
   );
 };
 
-Date.propTypes = {
+DateForm.propTypes = {
   children: PropTypes.string.isRequired,
 };
 
-export default Date;
+export default DateForm;

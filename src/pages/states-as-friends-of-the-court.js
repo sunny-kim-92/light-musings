@@ -5,7 +5,7 @@ import { graphql } from 'gatsby';
 import Layout from 'components/format/layout';
 import Box from 'components/format/box';
 import Title from 'components/format/title';
-import Date from 'components/format/date';
+import DateForm from 'components/format/dateform';
 import rehypeReact from 'rehype-react';
 import BlogPadding from 'components/format/blogpadding';
 
@@ -36,7 +36,7 @@ const Amici = ({ data }) => (
       <Title as="h2" size="large">
         {data.amiciJson.title}
       </Title>
-      <Date>{data.amiciJson.date}</Date>
+      <DateForm>{data.amiciJson.date}</DateForm>
     </Box>
     <BlogPadding>
       <div>{renderAst(data.amiciJson.content.childMarkdownRemark.htmlAst)}</div>
