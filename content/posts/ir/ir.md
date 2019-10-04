@@ -28,8 +28,6 @@ That 2016 season, during which the starting job rotated between Guice and Leonar
 
 ### Jordan Reed (TE - Washington)
 
-![Geoff Burke-USA TODAY Sports](../../images/ir/jordan-reed.jpeg)
-
 The injury history of Jordan Reed reads (forgive me, pun purists) like a novel. Since entering the league in 2013, Reed has never maintained active roster status for a full season. In fact, out of the 96 regular season games the Redskins played since 2013, Reed suited up for just 65 (67.7%) of them. But within his spotty health record lie flashes of success. In 2015, during which Reed scored 11 touchdowns off 87 catches, 114 targets, and 952 receiving yards (all career highs), Reed ended as the 2nd-best TE in PPR (behind Gronkowski) and 3rd-best in Standard (behind Gronkowski and Gary Barnidge(!!)). Excitement for him undoubtedly cooled following an overall poor showing last season, where he finished with career lows in a number of efficiency categories, including receptions per game and catch rate. But it’s hardly a stretch to chalk some of these troubles to the carousel of quarterbacks Washington was forced to start. Of the 4 players to start at QB for the Redskins last year, 2 (Josh Johnson and Mark Sanchez) are no longer in the league.
 
 It remains to be seen whether Dwayne Haskins overtakes Case Keenum as the every-week QB, but there’s enough intrigue to keep Reed as an IR stash.
