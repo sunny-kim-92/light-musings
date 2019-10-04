@@ -4,7 +4,6 @@ link: '/10-2-states-as-friends-of-the-court/'
 title: 'States as Friends of the Court'
 date: '2019-10-02'
 subtitle: 'Analysis of State-filed Amicus Briefs During SCOTUS October 2018 Term'
-tags: ['Law', 'Data-Analysis']
 frontimg: '../../images/amici/scotus.jpeg'
 ---
 States play an important role in the litigation and outcome of Supreme Court cases by authoring amicus briefs, which allow parties not directly involved with the case the ability to provide input on particular topics of legal interests that a given case covers. These briefs are provided to Supreme Court Justices, who often cite these texts during oral arguments and opinions. To analyze the breadth of states and their amicus filings, I explored amicus briefs filed by states during the October 2018 Supreme Court term. Through this, we can identify a number of relationships both among states and between states and justices.

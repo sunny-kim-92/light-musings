@@ -1,7 +1,6 @@
 ---
 type: 'not-post'
 title: 'About Page'
-tags: []
 frontimg: '../images/amici/scotus.jpeg'
 ---
 

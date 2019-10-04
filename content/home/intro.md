@@ -1,7 +1,6 @@
 ---
 type: 'not-post'
 title: ''
-tags: ['']
 frontimg: '../images/amici/scotus.jpeg'
 ---
 

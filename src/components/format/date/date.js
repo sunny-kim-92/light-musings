@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import { Text } from './date.css';
 
 const Date = ({ children }) => {
-  return <Text>{children}</Text>;
+  return (
+  <Text>{children}</Text>
+  );
 };
 
 Date.propTypes = {
