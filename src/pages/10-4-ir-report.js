@@ -17,8 +17,8 @@ const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
     'foles-chart': FolesChart,
-    'guice-2015': Guice2015Table,
-    'guice-2016': Guice2016Table,
+    'guice-first': Guice2015Table,
+    'guice-sec': Guice2016Table,
   },
 }).Compiler;
 
@@ -28,7 +28,7 @@ const IR = ({ data }) => (
       <Title as="h2" size="large">
         {data.irJson.title}
       </Title>
-      <Date>{data.irJson.date} </Date>
+      <Date>{data.irJson.date}</Date>
     </Box>
     <BlogPadding>
       <div>{renderAst(data.irJson.content.childMarkdownRemark.htmlAst)}</div>

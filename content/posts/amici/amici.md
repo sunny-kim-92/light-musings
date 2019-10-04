@@ -6,6 +6,7 @@ date: '2019-10-02'
 subtitle: 'Analysis of State-filed Amicus Briefs During SCOTUS October 2018 Term'
 frontimg: '../../images/amici/scotus.jpeg'
 ---
+
 States play an important role in the litigation and outcome of Supreme Court cases by authoring amicus briefs, which allow parties not directly involved with the case the ability to provide input on particular topics of legal interests that a given case covers. These briefs are provided to Supreme Court Justices, who often cite these texts during oral arguments and opinions. To analyze the breadth of states and their amicus filings, I explored amicus briefs filed by states during the October 2018 Supreme Court term. Through this, we can identify a number of relationships both among states and between states and justices.
 
 *Since I don’t have access to major legal database tools like LexisNexus or CaseText, I wrote a number of programs for accumulating the data used for this article. I chiefly used web-scraping techniques designed for SCOTUSblog.com. [The code can be found here.](https://github.com/sunny-kim-92/amici-link) The total accumulated raw data, as well as numerous charts and tables, detailing the data collected [can be found here.](https://docs.google.com/spreadsheets/d/19ms2JFLqjp2bGO2YD_4uz_V35Wy2kYkLSMb_2pixFb0/edit?usp=sharing)*

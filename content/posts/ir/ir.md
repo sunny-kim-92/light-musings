@@ -6,6 +6,7 @@ date: '2019-10-04'
 subtitle: 'Have an open IR spot on your fantasy football roster? Take a look at these available targets...'
 frontimg: '../../images/ir/nick-foles.jpg'
 ---
+
 IR-eligible players on the waiver wire are, by definition, slim pickings. Even in perfect scenarios, the likelihood of these players making a fantasy impact in anything but the deepest formats is minute. But in leagues that provide roster spots for injured players, IR-eligibility represents a free lottery ticket, unburdened by the opportunity cost of rostering a healthy contributor. For those with an open IR spot, it couldn’t hurt to take a stab at these players:
 
 ### Derrius Guice (RB - Washington)
@@ -13,13 +14,13 @@ An ACL tear last offseason, coupled with a meniscus tear in Week 1 this year, ro
 
 **2015 Totals and Averages - Derrius Guice and Leonard Fournette**
 
-<guice-2015></guice-2015>
+<guice-first></guice-first>
 
 <br></br>
 
 **2016 Totals and Averages - Derrius Guice and Leonard Fournette**
 
-<guice-2016></guice-2016>
+<guice-sec></guice-sec>
 
 <br></br>
 
