@@ -10,15 +10,15 @@ import rehypeReact from 'rehype-react';
 import BlogPadding from 'components/format/blogpadding';
 
 import FolesChart from 'components/i-components/ir-report/FolesChart';
-import Guice2015Table from 'components/i-components/ir-report/Guice2015Table';
-import Guice2016Table from 'components/i-components/ir-report/Guice2016Table';
+import GuiceFirstTable from 'components/i-components/ir-report/GuiceFirstTable';
+import GuiceSecTable from 'components/i-components/ir-report/GuiceSecTable';
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
     'foles-chart': FolesChart,
-    'guice-first': Guice2015Table,
-    'guice-sec': Guice2016Table,
+    'guice-first': GuiceFirstTable,
+    'guice-sec': GuiceSecTable,
   },
 }).Compiler;
 
