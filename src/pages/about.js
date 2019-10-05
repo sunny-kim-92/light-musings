@@ -47,9 +47,8 @@ const About = ({ data }) => (
         Tables developed with{' '}
         <a href="https://devexpress.github.io/devextreme-reactive/react/grid/">
           DX React
-        </a>
-        {' '}and{' '}
-        <a href="https://material-ui.com/">Material UI</a>
+        </a>{' '}
+        and <a href="https://material-ui.com/">Material UI</a>
       </p>
     </BlogPadding>
   </Layout>

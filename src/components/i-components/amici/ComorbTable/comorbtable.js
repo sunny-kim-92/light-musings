@@ -1,3 +1,4 @@
+/* eslint react/prop-types: 0 */
 import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import {
@@ -58,16 +59,10 @@ const HighlightedCell = ({ value, style, ...restProps }) => (
 );
 
 const Cell = props => {
-  const { column } = props;
   return <HighlightedCell {...props} />;
 };
 
 export default () => {
-  //   const columns = [{
-  //     name: 'State', title: 'State'
-  //   },
-  // ];
-
   const colArr = [
     { name: 'State', title: 'State' },
     { name: 'Texas', title: 'Texas' },

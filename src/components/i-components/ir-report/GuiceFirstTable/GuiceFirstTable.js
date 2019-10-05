@@ -1,3 +1,4 @@
+/* eslint react/prop-types: 0 */
 import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import {
@@ -30,10 +31,7 @@ const HighlightedCell = ({ value, style, ...restProps }) => (
   </Table.Cell>
 );
 
-const Cell = props => {
-  const { column } = props;
-  return <HighlightedCell {...props} />;
-};
+const Cell = props => <HighlightedCell {...props} />;
 
 export default () => {
   const columns = [

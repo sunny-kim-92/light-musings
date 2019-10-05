@@ -3,7 +3,7 @@ type: 'not-post'
 link: '/about/'
 title: 'About Page'
 date: '2019-10-04'
-subtitle: 'Dummy sub'
+subtitle: 'About Page'
 frontimg: '../images/amici/scotus.jpeg'
 ---
 

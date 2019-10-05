@@ -1,3 +1,4 @@
+/* eslint no-unused-vars: 0 */
 import React, { Component } from 'react';
 import USAMap from 'react-usa-map';
 import Dropdown from 'react-select';

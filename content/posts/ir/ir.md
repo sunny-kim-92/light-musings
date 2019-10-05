@@ -8,10 +8,10 @@ frontimg: '../../images/ir/nick-foles.jpeg'
 tags: ['Fantasy Football', 'Sports', 'Data Analysis']
 ---
 
-IR-eligible players on the waiver wire are, by definition, slim pickings. Even in perfect scenarios, the likelihood of these players making a fantasy impact in anything but the deepest formats is minute. But in leagues that provide roster spots for injured players, IR-eligibility represents a free lottery ticket, unburdened by the opportunity cost of rostering a healthy contributor. For those with an open IR spot, it couldn’t hurt to take a stab at these players:
+IR-eligible players on the waiver wire are by definition slim pickings. The likelihood of these players making a fantasy impact in anything but the deepest formats is minimal. But in leagues that provide roster spots for injured players, IR-eligibility represents a free lottery ticket, unburdened by the opportunity cost of rostering a healthy contributor. For those with an open IR spot, it couldn’t hurt to take a stab at these players:
 
 ### Derrius Guice (RB - Washington)
-An ACL tear last offseason, coupled with a meniscus tear in Week 1 this year, robbed Guice of the opportunity to display the formidable talent he showed during a productive career at LSU. He has virtually no body of work as a professional, but frankly, his college numbers speak for themselves. Compare Guice’s numbers with those of current NFL workhorse and LSU teammate, Leonard Fournette:
+An ACL tear last offseason, coupled with a meniscus tear in Week 1 this year, has robbed Guice of a fair chance to display the formidable talent he showed during a productive career at LSU. He has virtually no body of work as a professional, but frankly, his college numbers speak for themselves. See how Guice’s numbers compare with those of current NFL workhorse and fellow teammate at LSU, Leonard Fournette:
 
 **2015 Totals and Averages - Derrius Guice and Leonard Fournette**
 
@@ -25,23 +25,23 @@ An ACL tear last offseason, coupled with a meniscus tear in Week 1 this year, ro
 
 <br></br>
 
-That 2016 season, during which the starting job rotated between Guice and Leonard when the latter battled through various injuries, provides insight into the Redskins’ hopes for Guice. That he out-averaged Fournette in yards per carry by over a full yard is no small feat. Derrius won't be eligible for return until Week 9, and even still Washington has not timetable on his recovery. But if he can take the field in earnest this season, the potential is there.
+That 2016 season, during which the starting job rotated between Guice and Leonard when the latter battled through various injuries, provides insight into Washington's hopes for Derrius. That he outgained Fournette in yards per carry by over a full yard both seasons is no small feat. Guice won't be eligible for return until Week 9, and even still the team has not provided a timetable on his recovery. But if he can take the field in earnest this season, the potential is there.
 
 ### Jordan Reed (TE - Washington)
 
-The injury history of Jordan Reed reads (forgive me, pun purists) like a novel. Since entering the league in 2013, Reed has never maintained active roster status for a full season. In fact, out of the 96 regular season games the Redskins played since 2013, Reed suited up for just 65 (67.7%) of them. But within his spotty health record lie flashes of success. In 2015, during which Reed scored 11 touchdowns off 87 catches, 114 targets, and 952 receiving yards (all career highs), Reed ended as the 2nd-best TE in PPR (behind Gronkowski) and 3rd-best in Standard (behind Gronkowski and Gary Barnidge(!!)). Excitement for him undoubtedly cooled following an overall poor showing last season, where he finished with career lows in a number of efficiency categories, including receptions per game and catch rate. But it’s hardly a stretch to chalk some of these troubles to the carousel of quarterbacks Washington was forced to start. Of the 4 players to start at QB for the Redskins last year, 2 (Josh Johnson and Mark Sanchez) are no longer in the league.
+The injury history of Jordan Reed reads (forgive me, pun purists) like a novel. Since entering the league in 2013, Reed has never maintained active roster status for a full season. In fact, out of the 96 regular season games the Redskins played since 2013, Reed suited up for just 65 (67.7%) of them. But within his spotty health record lie flashes of success. In 2015, during which Reed scored 11 touchdowns off 87 catches, 114 targets, and 952 receiving yards (all career highs), Reed ended as the 2nd-best TE in PPR (behind Gronkowski) and 3rd-best in Standard (behind Gronkowski and Gary Barnidge(!!)). Excitement for him undoubtedly cooled following an overall poor showing last season, where he finished with career lows in a number of efficiency categories, including receptions per game and catch rate. But it’s hardly a stretch to chalk some of these troubles to the carousel of quarterbacks Reed was forced to contend with. Of the 4 players to start at QB for the Washington last year, two (Alex Smith and Colt McCoy) are now backups, while the other two (Josh Johnson and Mark Sanchez) are no longer in the league.
 
-It remains to be seen whether Dwayne Haskins overtakes Case Keenum as the every-week QB, but there’s enough intrigue to keep Reed as an IR stash.
+It remains to be seen whether Dwayne Haskins overtakes Case Keenum as the every-week started. The early returns of the Haskins experience [were not inspiring](https://www.cbssports.com/nfl/news/redskins-at-giants-final-score-daniel-jones-outlasts-dwayne-haskins-as-giants-defense-comes-alive/), but there’s enough intrigue for Reed to maintain IR-stash status.
 
 ### Trent Williams (OT - Washington)
 
-No, I'm not suggesting you should pick up Williams, or any offensive lineman. But his absence and potential return plays such a critical factor in the values of both Jordan Reed and Derrius Guice, he deserves a dedicated section.
+I'm definitely not suggesting you should (or can) pick up any offensive lineman. But Trent Williams and his and potential return plays such a critical factor in the values of both Jordan Reed and Derrius Guice, he deserves a dedicated section.
 
-Much has been made about the ostensibly rising trend of high-profile holdouts. Melvin Gordon (unsuccessful), Ezekiel Elliot ([successful, after a month-long sojourn in Cabo during Cowboys training camp](https://www.usatoday.com/story/sports/nfl/cowboys/2019/08/23/dallas-cowboys-ezekiel-elliott-cabo-holdout-contract/2097188001/)), and Julio Jones (successful, after a holdout so brief it hardly registered on the radar) provided the headlines this season. We all remember Le’Veon Bell’s full season boycott last year.
+Much has been made about the ostensibly rising trend of high-profile holdouts. Melvin Gordon (unsuccessful), Ezekiel Elliot ([successful, after a month-long sojourn in Cabo during Cowboys training camp](https://www.usatoday.com/story/sports/nfl/cowboys/2019/08/23/dallas-cowboys-ezekiel-elliott-cabo-holdout-contract/2097188001/)), and Julio Jones (successful, after a holdout so brief it hardly registered on the radar) provided headlines this season. We all remember Le’Veon Bell’s full season boycott last year.
 
 But lost in the media shuffle is the last remaining holdout for this season, Washington OT Trent Williams. Make no mistake, his absence is immense. According to Pro Football Focus, Williams has only allowed one sack in the past 2 seasons (23 starts), while [earning an 80+ overall grade in each of the past 6 seasons](https://www.pff.com/news/pro-nfl-offensive-line-rankings-all-32-teams-units-entering-2019?utm_source=PFF+Newsletter&utm_campaign=3609a90333-EMAIL_CAMPAIGN_2019_06_28_02_31_COPY_01&utm_medium=email&utm_term=0_ae3f4210bf-3609a90333-191487901)
 
-This is pure speculation, but I think there’s a good chance Williams will suit up for the Redskins at some point this season. Much like Melvin Gordon (and unlike Le’veon Bell last season), Williams has a year remaining on his contract. If he does not return [by Week 10](https://www.cbssports.com/g00/nfl/news/melvin-gordon-ezekiel-elliott-holdouts-two-interesting-twists-to-rbs-refusing-to-report-to-teams/?i10c.ua=1&i10c.encReferrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8%3d&i10c.dv=22), Williams’s contract will toll, meaning the Redskins can retain control over Williams for another season. He may choose to sit the entire year; by all accounts, he is serious about his next contract (which may be the last for the 31 year old). But the economic cost is great.
+This is pure speculation, but I think there’s a good chance Williams will suit up for the Redskins at some point this season. Much like Melvin Gordon (and unlike Le’veon Bell last season), Williams has a year remaining on his contract. If he does not return [by Week 10](https://www.cbssports.com/g00/nfl/news/melvin-gordon-ezekiel-elliott-holdouts-two-interesting-twists-to-rbs-refusing-to-report-to-teams/?i10c.ua=1&i10c.encReferrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8%3d&i10c.dv=22), Williams’s contract will toll, meaning the Redskins can retain control over Williams for another season. He may choose to sit the entire year; by all accounts, he is serious about his next contract ([which may be the last for the 31 year old](https://www.cbssports.com/nfl/news/agents-take-a-first-hand-look-at-redskins-gm-bruce-allen-handling-a-holdout-as-trent-williams-continues-to-sit/)). But doing so would come at significant economic cost in the short-term.
 
 His replacement at left tackle, Donald Penn, has an Overall Grade of 64 from Pro Football Focus, not exceedingly poor, but certainly a downgrade. If Williams returns this season, [the entire Washington offense stand to benefit](https://www.pff.com/news/pro-the-redskins-would-be-wise-to-come-to-terms-with-lt-trent-williams).
 
@@ -57,11 +57,11 @@ Since 2017, Nick Foles played in 7 full (both started and finished) regular seas
 
 <br></br>
 
-The bad news? In 5 of the games, Foles ended with downright regrettable performances.
+The bad news? In 5 of the games, Foles's performance was regrettable.
 
 The good news? In the other 2, Foles produced top-5 finishes.
 
-Foles is inconsistent, but when he hits, he hits big. Gardner Minshew is currently [nursing an injury of his own](https://jaguarswire.usatoday.com/2019/10/03/week-5-injury-report-3-jaguars-sit-out-thursday-including-jalen-ramsey/). Why not roll the dice on someone who at least one reporter proclaims is [the greatest Eagles quarterback of all time](https://www.nbcsports.com/philadelphia/eagles/greatest-eagles-qb-ever-theres-only-one-answer-and-its-nick-foles)?
+Foles is inconsistent, but when he hits, he hits big. Gardner Minshew is currently [nursing an injury of his own](https://jaguarswire.usatoday.com/2019/10/03/week-5-injury-report-3-jaguars-sit-out-thursday-including-jalen-ramsey/). If you're tasked with filling at an empty IR spot, why not roll the dice on someone who at least one reporter proclaims is [the greatest Eagles quarterback of all time](https://www.nbcsports.com/philadelphia/eagles/greatest-eagles-qb-ever-theres-only-one-answer-and-its-nick-foles)?
 
 *References*
 

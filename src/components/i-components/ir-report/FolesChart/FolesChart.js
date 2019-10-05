@@ -10,13 +10,13 @@ class FolesChart extends Component {
   render() {
     const data = {
       labels: [
-        '@NYG\n2017 Week 15',
-        'OAK\n2017 Week 16',
-        'ATL\n2018 Week 1',
-        '@TB\n2018 Week 2',
-        '@LAR\n2018 Week 15',
-        'HOU\n2018 Week 16',
-        '@WAS\n2018 Week 17',
+        '@NYG, 2017 Week 15',
+        'OAK, 2017 Week 16',
+        'ATL, 2018 Week 1',
+        '@TB, 2018 Week 2',
+        '@LAR, 2018 Week 15',
+        'HOU, 2018 Week 16',
+        '@WAS, 2018 Week 17',
       ],
       datasets: [
         {
@@ -55,7 +55,10 @@ class FolesChart extends Component {
               min: 0,
               max: 34,
             },
-            // gridLines: false,
+            scaleLabel: {
+              display: true,
+              labelString: 'Points',
+            },
           },
           {
             id: 'B',
@@ -66,7 +69,10 @@ class FolesChart extends Component {
               min: 1,
               max: 35,
             },
-            // gridLines: false
+            scaleLabel: {
+              display: true,
+              labelString: 'Weekly Rank',
+            },
           },
         ],
       },

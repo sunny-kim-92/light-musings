@@ -3,9 +3,7 @@ import PropTypes from 'prop-types';
 import { Text } from './dateform.css';
 
 const DateForm = ({ children }) => {
-  return (
-  <Text>{children}</Text>
-  );
+  return <Text>{children}</Text>;
 };
 
 DateForm.propTypes = {

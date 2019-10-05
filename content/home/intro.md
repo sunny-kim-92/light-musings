@@ -1,9 +1,9 @@
 ---
 type: 'not-post'
 link: '/'
-title: 'Dummy Title'
+title: 'Home Page'
 date: '2019-10-02'
-subtitle: 'home page'
+subtitle: 'Home Page'
 frontimg: '../images/amici/scotus.jpeg'
 ---
 
