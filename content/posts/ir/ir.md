@@ -5,6 +5,7 @@ title: 'IR-Eligible Fantasy Football Waiver Targets'
 date: '2019-10-04'
 subtitle: 'Have an open IR spot on your fantasy football roster? Take a look at these available targets...'
 frontimg: '../../images/ir/nick-foles.jpeg'
+tags: ['Fantasy Football', 'Sports', 'Data Analysis']
 ---
 
 IR-eligible players on the waiver wire are, by definition, slim pickings. Even in perfect scenarios, the likelihood of these players making a fantasy impact in anything but the deepest formats is minute. But in leagues that provide roster spots for injured players, IR-eligibility represents a free lottery ticket, unburdened by the opportunity cost of rostering a healthy contributor. For those with an open IR spot, it couldn’t hurt to take a stab at these players:
@@ -61,3 +62,13 @@ The bad news? In 5 of the games, Foles ended with downright regrettable performa
 The good news? In the other 2, Foles produced top-5 finishes.
 
 Foles is inconsistent, but when he hits, he hits big. Gardner Minshew is currently [nursing an injury of his own](https://jaguarswire.usatoday.com/2019/10/03/week-5-injury-report-3-jaguars-sit-out-thursday-including-jalen-ramsey/). Why not roll the dice on someone who at least one reporter proclaims is [the greatest Eagles quarterback of all time](https://www.nbcsports.com/philadelphia/eagles/greatest-eagles-qb-ever-theres-only-one-answer-and-its-nick-foles)?
+
+*References*
+
+*www.cbssports.com*
+
+*www.nfl.com*
+
+*www.pff.com*
+
+*www.pro-football-reference.com*

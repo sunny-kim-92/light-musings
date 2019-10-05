@@ -4,6 +4,7 @@ export const Container = styled.div`
   padding-top: 8vh;
   padding-left: 1vw;
   padding-right: 2vw;
+  padding-bottom: 8vh;
 
   strong {
     display: block;

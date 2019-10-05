@@ -21,18 +21,36 @@ const About = ({ data }) => (
         Who I am - Software Developer | Data Journalist | News Junkie | Sports
         Fan
       </p>
-      <a href="https://github.com/sunny-kim-92">
-        <p>GitHub - https://github.com/sunny-kim-92</p>
-      </a>
-      <a href="https://www.linkedin.com/in/sunnykim92/">
-        <p>LinkedIn - https://www.linkedin.com/in/sunnykim92/</p>
-      </a>
-      <a href="https://www.gatsbyjs.org/starters/fabe/gatsby-universal">
-        <p>
-          Site adapted from Gatsby Universal Starter -
+      <p>
+        GitHub -{' '}
+        <a href="https://github.com/sunny-kim-92">
+          https://github.com/sunny-kim-92
+        </a>
+      </p>
+      <p>
+        LinkedIn -{' '}
+        <a href="https://www.linkedin.com/in/sunnykim92/">
+          https://www.linkedin.com/in/sunnykim92/
+        </a>
+      </p>
+      <p>
+        Site adapted from Gatsby Universal Starter -{' '}
+        <a href="https://www.gatsbyjs.org/starters/fabe/gatsby-universal">
           https://www.gatsbyjs.org/starters/fabe/gatsby-universal/
-        </p>
-      </a>
+        </a>
+      </p>
+      <p>
+        Graphs (unless otherwise noted) developed with{' '}
+        <a href="https://github.com/jerairrest/react-chartjs-2">ChartJS</a>
+      </p>
+      <p>
+        Tables developed with{' '}
+        <a href="https://devexpress.github.io/devextreme-reactive/react/grid/">
+          DX React
+        </a>
+        {' '}and{' '}
+        <a href="https://material-ui.com/">Material UI</a>
+      </p>
     </BlogPadding>
   </Layout>
 );

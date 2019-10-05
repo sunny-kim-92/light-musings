@@ -5,6 +5,7 @@ title: 'States as Friends of the Court'
 date: '2019-10-02'
 subtitle: 'Analysis of State-filed Amicus Briefs During SCOTUS October 2018 Term'
 frontimg: '../../images/amici/scotus.jpeg'
+tags: ['Law', 'Data Analysis']
 ---
 
 States play an important role in the litigation and outcome of Supreme Court cases by authoring amicus briefs, which allow parties not directly involved with the case the ability to provide input on particular topics of legal interests that a given case covers. These briefs are provided to Supreme Court Justices, who often cite these texts during oral arguments and opinions. To analyze the breadth of states and their amicus filings, I explored amicus briefs filed by states during the October 2018 Supreme Court term. Through this, we can identify a number of relationships both among states and between states and justices.
@@ -65,6 +66,16 @@ In addition to the relationship between states and justices, we can attempt to a
 
 <br></br>
 
-There are a number of surprising alignments of political ideology among the scores. Iowa, a state in which the Republican Party holds complete state-wide (Governor, State Senate, State House) control and one that voted for Donald Trump in 2016, has positive scores with a number of Democratic states. Perhaps one function of this is Tom Miller, Iowa’s Attorney General. He has held the office since 1995, weathering multiple electoral shifts on both the national and state levels to win nine straight Attorney General elections. His 24 years at the position is the longest continuous service among the 50 states. (Interestingly, the Attorney General with the second-longest active streak, Jim Hood of Mississippi, is also a Democrat in a more consistently Republican state.)
+There are a number of surprising alignments of political ideology among the scores. Iowa, a state in which the Republican Party holds complete state-wide (Governor, State Senate, State House) control and one that voted for Donald Trump in 2016, has positive scores with a number of Democratic states. Perhaps one function of this is Tom Miller, Iowa’s Attorney General. He has held the office since 1995, weathering multiple electoral shifts on both the national and state levels to win nine straight Attorney General elections. His 24 years at the position is the longest continuous service among the 50 states. Interestingly, the Attorney General with the second-longest active streak, Jim Hood of Mississippi, is also a Democrat in a consistently Republican state.
 
 Notably, in addition to a general correlation between justices and like-minded states, there is a broad trend of lower scores for liberal justices than those of conservative justices. This is perhaps a function of the conservative justices’ more favorable view towards federalism and the rights of states. Such cases prompt a larger, more unified response from states, and in turn provides a noticeable aggregate impact on the state-justice data.
+
+<br></br>
+
+*References*
+
+*Programs developed for data collection can be found at www.github.com/sunny-kim-92/amici-link*
+
+*www.scotusblog.com*
+
+*www.ballotopedia.org*
