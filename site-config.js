@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: `Some Light Musings`,
   siteTitleShort: `GatsbyU`,
   siteDescription: `An opinionated starter for Gatsby.`,
-  siteUrl: `https://gu.fabianschultz.com`,
+  siteUrl: `https://some-light-musings.netlify.com`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
