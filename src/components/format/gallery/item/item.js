@@ -22,8 +22,8 @@ const Item = ({ title, subtitle, date, frontimg }) => (
 Item.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,
-  copy: PropTypes.string,
-  image: PropTypes.object.isRequired,
+  date: PropTypes.string,
+  frontimg: PropTypes.object.isRequired,
 };
 
 export default Item;
