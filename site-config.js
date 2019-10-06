@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Some Light Musings`,
-  siteTitleShort: `GatsbyU`,
-  siteDescription: `An opinionated starter for Gatsby.`,
-  siteUrl: `https://some-light-musings.netlify.com`,
+  siteTitle: `Light Musings`,
+  siteTitleShort: `LM`,
+  siteDescription: `Musings in blog form, often supported with data, always supported with kindness`,
+  siteUrl: `https://light-musings.netlify.com`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
