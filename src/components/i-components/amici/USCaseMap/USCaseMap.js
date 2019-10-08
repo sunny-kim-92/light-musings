@@ -85,7 +85,7 @@ class USCaseMap extends Component {
             options={this.state.options}
             onChange={this._onSelect}
             value={this.state.activeCase}
-            placeholder="Select a case or Type to Search"
+            placeholder="Select a Case or Type to Search"
           />
         </DropdownContainer>
         <Text side={'p'}>{this.state.activeCase.split(' v. ')[0]}</Text>
