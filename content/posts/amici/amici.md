@@ -44,7 +44,7 @@ We can attempt to measure the relationships between states and justices. We calc
 
 <br></br>
 
-**The following sortable table provides normalized net agreement scores. Ranging from -1 to 1, these scores measure the difference between cases in which a justice voted with the side of a state's amicus filing with cases in wich justice voted against a state, divided by the total number of cases in which any state filed an amicus brief (28):**
+**The following sortable table provides normalized net agreement scores. Ranging from -1 to 1, these scores measure the difference between cases in which a justice voted with the side of a state's amicus filing with cases in which justice voted against a state, divided by the total number of cases in which that state filed an amicus brief:**
 
 <justice-table></justice-table>
 
