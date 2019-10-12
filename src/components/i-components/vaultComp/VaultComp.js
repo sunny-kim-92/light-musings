@@ -1,113 +1,118 @@
 import React from 'react';
-import styled from 'styled-components';
-const { useState } = React;
+import ReactDOM from 'react-dom';
+import { AnimateGroup } from 'react-animate-mount';
 
-const VaultComp = () => {
-  const [select, setSelect] = useState('betterPriceOnly');
-  const handleSelectChange = event => {
-    const value = event.target.value;
-    setSelect(value);
-  };
-  return (
-    <Wrapper>
-      <Item>
-        <RadioButton
-          type="radio"
-          name="radio"
-          value="betterPriceOnly"
-          checked={select === 'betterPriceOnly'}
-          onChange={event => handleSelectChange(event)}
-        />
-        <RadioButtonLabel />
-        <div>Auto accept better price only</div>
-      </Item>
-      <Item>
-        <RadioButton
-          type="radio"
-          name="radio"
-          value="anyPriceChange"
-          checked={select === 'anyPriceChange'}
-          onChange={event => handleSelectChange(event)}
-        />
-        <RadioButtonLabel />
-        <div>Auto accept any price change</div>
-      </Item>
-      <Item>
-        <RadioButton
-          type="radio"
-          name="radio"
-          value="neverAutoAccept"
-          checked={select === 'neverAutoAccept'}
-          onChange={event => handleSelectChange(event)}
-        />
-        <RadioButtonLabel />
-        <div>Never auto accept a price change</div>
-      </Item>
-    </Wrapper>
-  );
+import './styles.css';
+import test from 'ava';
+
+const buttonStyle = {
+  marginVertical: 20,
 };
 
-const Wrapper = styled.div`
-  height: auto;
-  width: 100%;
-  padding: 0px 16px 24px 16px;
-  box-sizing: border-box;
-`;
-
-const Item = styled.div`
-  display: flex;
-  align-items: center;
-  height: 48px;
-  position: relative;
-  transition: 0.3s;
-  &:hover {
-    background: blue;
+class VaultComp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      items: [],
+      dir: 'f',
+      fTurn: 'z',
+      salto: 'z',
+      sTurn: 'z',
+      bp: 's',
+      backFlag: 'f',
+      complete: 'f',
+      activePage: 1,
+      switch: false,
+    };
+    this._next = this._next.bind(this);
+    this._back = this._back.bind(this);
+    this._testSwitch = this._testSwitch.bind(this);
+    this._testAdd = this._testAdd.bind(this);
+    this._testSubtract = this._testSubtract.bind(this);
+    this.parseQuestion = this.parseQuestion.bind(this)
   }
-`;
 
-const RadioButtonLabel = styled.label`
-  position: absolute;
-  top: 25%;
-  left: 4px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: white;
-  border: 1px solid #bebebe;
-`;
-const RadioButton = styled.input`
-  opacity: 0;
-  z-index: 1;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin-right: 10px;
-  &:hover ~ ${RadioButtonLabel} {
-    background: #bebebe;
-    &::after {
-      content: '';
-      display: block;
-      border-radius: 50%;
-      width: 12px;
-      height: 12px;
-      margin: 6px;
-      background: #eeeeee;
+  componentDidUpdate() {
+    if (this.state.switch) {
+      setTimeout(() => {
+        let hope = this.state.items;
+        hope.push({ first: 'afss', second: 'afasldf' });
+        this.setState({ items: hope, switch: false });
+      }, 1000);
     }
   }
-  &:checked + ${RadioButtonLabel} {
-    background: #db7290;
-    border: 1px solid #db7290;
-    &::after {
-      content: '';
-      display: block;
-      border-radius: 50%;
-      width: 12px;
-      height: 12px;
-      margin: 6px;
-      box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.1);
-      background: white;
+
+  _next = e => {
+    const curr = this.state.activePage + 1;
+    this.setState({
+      activePage: curr,
+    });
+  };
+
+  _back = e => {
+    const curr = this.state.activePage - 1;
+    this.setState({
+      activePage: curr,
+    });
+  };
+
+  _testSwitch = e => {
+    let hold = this.state.items;
+    hold.pop();
+    this.setState({ items: hold, switch: true });
+  };
+
+  _testAdd = e => {
+    let hold = this.state.items;
+    hold.push({ first: 'sure', second: 'k' });
+    this.setState({ items: hold });
+  };
+
+  _testSubtract = e => {
+    let hold = this.state.items;
+    hold.pop();
+    this.setState({ items: hold });
+  };
+
+  parseQuestion = e => {
+    if (this.state.activePage === 1){
+      return {
+        q: 'How many turns will you take from springboard to aparatus?',
+        aText: [0, 1],
+        aVal: ['z', 'o'],
+        setter: _testSubtract,
+
+      }
     }
   }
-`;
+
+  render() {
+    const { items } = this.state;
+    return (
+      <div>
+        <button type="button" onClick={this._testSwitch}>
+          switch
+        </button>
+        <button type="button" onClick={this._testAdd}>
+          add
+        </button>
+        <button type="button" onClick={this._testSubtract}>
+          subtract
+        </button>
+        <AnimateGroup type="fade" duration={500}>
+          {items.map((item, i) => (
+            <p key={i}>{item.first}</p>
+          ))}
+        </AnimateGroup>
+        <button type="button" onClick={this._back}>
+          Back
+        </button>
+        <button type="button" onClick={this._next}>
+          Next
+        </button>
+      </div>
+    );
+  }
+}
 
 export default VaultComp;

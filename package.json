@@ -55,6 +55,7 @@
     "prop-types": "^15.6.2",
     "rainbowvis.js": "^1.0.1",
     "react": "^16.8.6",
+    "react-animate-mount": "^1.0.1",
     "react-chartjs-2": "^2.8.0",
     "react-dom": "^16.8.6",
     "react-dropdown": "^1.6.4",
