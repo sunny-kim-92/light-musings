@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { AnimateGroup } from 'react-animate-mount';
+import { parseThree, parseFour, final } from './helper';
 
 import './styles.css';
-import test from 'ava';
 
 const buttonStyle = {
   marginVertical: 20,
@@ -29,7 +29,7 @@ class VaultComp extends React.Component {
     this._testSwitch = this._testSwitch.bind(this);
     this._testAdd = this._testAdd.bind(this);
     this._testSubtract = this._testSubtract.bind(this);
-    this.parseQuestion = this.parseQuestion.bind(this)
+    this.parseQuestion = this.parseQuestion.bind(this);
   }
 
   componentDidUpdate() {
@@ -42,49 +42,56 @@ class VaultComp extends React.Component {
     }
   }
 
-  _next = e => {
+  _next = () => {
     const curr = this.state.activePage + 1;
     this.setState({
       activePage: curr,
     });
   };
 
-  _back = e => {
+  _back = () => {
     const curr = this.state.activePage - 1;
     this.setState({
       activePage: curr,
     });
   };
 
-  _testSwitch = e => {
+  _testSwitch = () => {
     let hold = this.state.items;
     hold.pop();
     this.setState({ items: hold, switch: true });
   };
 
-  _testAdd = e => {
+  _testAdd = () => {
     let hold = this.state.items;
     hold.push({ first: 'sure', second: 'k' });
     this.setState({ items: hold });
   };
 
-  _testSubtract = e => {
+  _testSubtract = () => {
     let hold = this.state.items;
     hold.pop();
     this.setState({ items: hold });
   };
 
-  parseQuestion = e => {
-    if (this.state.activePage === 1){
-      return {
-        q: 'How many turns will you take from springboard to aparatus?',
-        aText: [0, 1],
-        aVal: ['z', 'o'],
-        setter: _testSubtract,
-
+  handleNext = () => {
+    if (this.state.activePage === 1) {
+      this.setState({ activePage: 2 });
+    }
+    if (this.state.activePage === 2) {
+      this.setState({ activePage: 3 });
+    }
+    if (this.state.activePage === 3) {
+      let res = parseThree(
+        this.state.dir + this.state.fTurn + this.state.salto
+      );
+      if (typeof res === 'string') {
+        if (res === 'finished'){
+          final(this.state.dir + this.state.fTurn + this.state.salto + this.state.bp + this.state.sTurn)
+        }
       }
     }
-  }
+  };
 
   render() {
     const { items } = this.state;
