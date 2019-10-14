@@ -8,6 +8,8 @@ import Title from 'components/format/title';
 import BlogPadding from 'components/format/blogpadding';
 
 import VaultComp from 'components/i-components/vaultComp/VaultComp.js';
+// import VaultComp from 'components/i-components/vaultComp/testfile.js';
+
 
 const Vault = ({ data }) => (
   <Layout>

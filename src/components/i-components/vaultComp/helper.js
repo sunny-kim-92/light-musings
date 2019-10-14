@@ -6,19 +6,19 @@ export const parseThree = combo => {
     };
   }
   if (combo === 'foz') {
-    return 'straight';
+    return 's';
   }
   if (combo === 'ftz') {
-    return 'straight';
+    return 's';
   }
   if (combo === 'bzz') {
-    return 'straight';
+    return 'finished';
   }
   if (combo === 'boz') {
-    return 'straight';
+    return 's';
   }
   if (combo === 'btz') {
-    return 'straight';
+    return 's';
   }
   if (combo === 'fzo') {
     return {
@@ -33,7 +33,7 @@ export const parseThree = combo => {
     };
   }
   if (combo === 'fzt') {
-    return 'tucked';
+    return 'finished';
   }
   if (combo === 'foo') {
     return {
@@ -353,171 +353,319 @@ export const final = str => {
     ];
   }
   if (str === 'fzotzero') {
-    return ['Handspring fwd on – 1⁄2 turn (180°) off', 2.10, 4.00];
+    return ['Handspring fwd on – 1⁄2 turn (180°) off', 2.1, 4.0];
   }
   if (str === 'fzotone') {
-    return ['Handspring fwd on – tucked salto fwd with 1⁄2 turn (180°) off, also – 1⁄2 turn (180°) and tucked salto bwd off', 2.11, 4.40];
+    return [
+      'Handspring fwd on – tucked salto fwd with 1⁄2 turn (180°) off, also – 1⁄2 turn (180°) and tucked salto bwd off',
+      2.11,
+      4.4,
+    ];
   }
   if (str === 'fzottwo') {
-    return ['Handspring fwd on – tucked salto fwd with 1/1 turn (360°) off', 2.12, 4.80];
+    return [
+      'Handspring fwd on – tucked salto fwd with 1/1 turn (360°) off',
+      2.12,
+      4.8,
+    ];
   }
   if (str === 'fzotthree') {
-    return ['Handspring fwd on – tucked salto fwd with 11⁄2 turn (540°) off', 2.13, 5.20];
+    return [
+      'Handspring fwd on – tucked salto fwd with 11⁄2 turn (540°) off',
+      2.13,
+      5.2,
+    ];
   }
   if (str === 'fzopzero') {
-    return ['Handspring fwd on – piked salto fwd off', 2.20, 4.20];
+    return ['Handspring fwd on – piked salto fwd off', 2.2, 4.2];
   }
   if (str === 'fzopone') {
-    return ['Handspring fwd on – piked salto fwd with 1⁄2 turn (180°) off, also – 1⁄2 turn (180°) and piked salto bwd off', 2.21, 4.60];
+    return [
+      'Handspring fwd on – piked salto fwd with 1⁄2 turn (180°) off, also – 1⁄2 turn (180°) and piked salto bwd off',
+      2.21,
+      4.6,
+    ];
   }
   if (str === 'fzoptwo') {
-    return ['Handspring fwd on – piked salto fwd with 1/1 turn (360°) off', 2.22, 5.00];
+    return [
+      'Handspring fwd on – piked salto fwd with 1/1 turn (360°) off',
+      2.22,
+      5.0,
+    ];
   }
   if (str === 'fzoszero') {
-    return ['Handspring fwd on – stretched salto fwd off', 2.30, 4.60];
+    return ['Handspring fwd on – stretched salto fwd off', 2.3, 4.6];
   }
   if (str === 'fzosone') {
-    return ['Handspring fwd on – stretched salto fwd with 1⁄2 turn (180°) off', 2.31, 5.00];
+    return [
+      'Handspring fwd on – stretched salto fwd with 1⁄2 turn (180°) off',
+      2.31,
+      5.0,
+    ];
   }
   if (str === 'fzostwo') {
-    return ['Handspring fwd on – stretched salto fwd with 1/1 turn (360°) off', 2.32, 5.40];
+    return [
+      'Handspring fwd on – stretched salto fwd with 1/1 turn (360°) off',
+      2.32,
+      5.4,
+    ];
   }
   if (str === 'fzosthree') {
-    return ['Handspring fwd on – stretched salto fwd with 1 1/2 turn (540°) off', 2.33, 5.80];
+    return [
+      'Handspring fwd on – stretched salto fwd with 1 1/2 turn (540°) off',
+      2.33,
+      5.8,
+    ];
   }
   if (str === 'ftotzero') {
-    return ['Handspring fwd with 1/1 turn (360°) on - tucked salto fwd off', 2.40, 5.20];
+    return [
+      'Handspring fwd with 1/1 turn (360°) on - tucked salto fwd off',
+      2.4,
+      5.2,
+    ];
   }
   if (str === 'ftopzero') {
-    return ['Handspring fwd with 1/1 turn (360°) on - piked salto fwd off', 2.41, 5.60];
+    return [
+      'Handspring fwd with 1/1 turn (360°) on - piked salto fwd off',
+      2.41,
+      5.6,
+    ];
   }
-  if (str[0,2] === 'fot') {
-    return ['Handspring fwd on – tucked double salto fwd off', 2.50, 6.40];
+  if (str[(0, 2)] === 'fot') {
+    return ['Handspring fwd on – tucked double salto fwd off', 2.5, 6.4];
   }
   if (str === 'footzero') {
-    return ['Tsukahara tucked', 3.10, 3.50];
+    return ['Tsukahara tucked', 3.1, 3.5];
   }
   if (str === 'footone') {
-    return ['Tsukahara tucked with 1/2 turn (180°) off', 3.11, 3.80];
+    return ['Tsukahara tucked with 1/2 turn (180°) off', 3.11, 3.8];
   }
   if (str === 'foottwo') {
-    return ['Tsukahara tucked with 1/1 turn (360°) off', 3.12, 4.10];
+    return ['Tsukahara tucked with 1/1 turn (360°) off', 3.12, 4.1];
   }
   if (str === 'footthree') {
-    return ['Tsukahara tucked with 1 1⁄2 turn (540°) off', 3.13, 4.40];
+    return ['Tsukahara tucked with 1 1⁄2 turn (540°) off', 3.13, 4.4];
   }
   if (str === 'footfour') {
-    return ['Tsukahara tucked with 2/1 turn (720°) off', 3.14, 4.90];
+    return ['Tsukahara tucked with 2/1 turn (720°) off', 3.14, 4.9];
   }
-  if (str[0,3] === 'foop') {
-    return ['Tsukahara piked', 3.20, 3.70];
+  if (str[(0, 3)] === 'foop') {
+    return ['Tsukahara piked', 3.2, 3.7];
   }
   if (str === 'fooszero') {
-    return ['Tsukahara stretched', 3.30, 4.20];
+    return ['Tsukahara stretched', 3.3, 4.2];
   }
   if (str === 'foosone') {
-    return ['Tsukahara stretched with 1⁄2 turn (180°) off', 3.31, 4.40];
+    return ['Tsukahara stretched with 1⁄2 turn (180°) off', 3.31, 4.4];
   }
   if (str === 'foostwo') {
-    return ['Tsukahara stretched with 1⁄1 turn (360°) off', 3.32, 4.80];
+    return ['Tsukahara stretched with 1⁄1 turn (360°) off', 3.32, 4.8];
   }
   if (str === 'foosthree') {
-    return ['Tsukahara stretched with 1 1⁄2 turn (540°) off', 3.33, 5.20];
+    return ['Tsukahara stretched with 1 1⁄2 turn (540°) off', 3.33, 5.2];
   }
   if (str === 'foosfour') {
-    return ['Tsukahara stretched with 2/1 turn (720°) off', 3.34, 5.60];
+    return ['Tsukahara stretched with 2/1 turn (720°) off', 3.34, 5.6];
   }
   if (str === 'foosfive') {
-    return ['Tsukahara stretched with 2 1/2 turn (900°) off', 3.35, 6.00];
+    return ['Tsukahara stretched with 2 1/2 turn (900°) off', 3.35, 6.0];
   }
   if (str === 'bzotzero') {
-    return ['Round-off, flic-flac on – tucked salto bwd off', 4.10, 3.30];
+    return ['Round-off, flic-flac on – tucked salto bwd off', 4.1, 3.3];
   }
   if (str === 'bzotone') {
-    return ['Round-off, flic-flac on – tucked salto bwd with 1⁄2 turn (180°) off', 4.11, 3.60];
+    return [
+      'Round-off, flic-flac on – tucked salto bwd with 1⁄2 turn (180°) off',
+      4.11,
+      3.6,
+    ];
   }
   if (str === 'bzottwo') {
-    return ['Round-off, flic-flac on - tucked salto bwd with 1/1 turn (360°) off', 4.12, 3.90];
+    return [
+      'Round-off, flic-flac on - tucked salto bwd with 1/1 turn (360°) off',
+      4.12,
+      3.9,
+    ];
   }
   if (str === 'bzotthree') {
-    return ['Round-off, flic-flac on - tucked salto bwd with 1 1/2 turn (540°) off', 4.13, 4.20];
+    return [
+      'Round-off, flic-flac on - tucked salto bwd with 1 1/2 turn (540°) off',
+      4.13,
+      4.2,
+    ];
   }
   if (str === 'bzotfour') {
-    return ['Round-off, flic-flac on - tucked salto bwd with 2/1 turn (720°) off', 4.14, 4.70];
+    return [
+      'Round-off, flic-flac on - tucked salto bwd with 2/1 turn (720°) off',
+      4.14,
+      4.7,
+    ];
   }
-  if (str[0,3] === 'bzop') {
-    return ['Round-off, flic-flac on – piked salto bwd off', 4.20, 3.50];
+  if (str[(0, 3)] === 'bzop') {
+    return ['Round-off, flic-flac on – piked salto bwd off', 4.2, 3.5];
   }
   if (str === 'bzoszero') {
-    return ['Round-off, flic-flac on – stretched salto bwd off', 4.30, 4.00];
+    return ['Round-off, flic-flac on – stretched salto bwd off', 4.3, 4.0];
   }
   if (str === 'bzosone') {
-    return ['Round-off, flic-flac on – stretched salto bwd with 1⁄2 turn (180°) off', 4.31, 4.20];
+    return [
+      'Round-off, flic-flac on – stretched salto bwd with 1⁄2 turn (180°) off',
+      4.31,
+      4.2,
+    ];
   }
   if (str === 'bzostwo') {
-    return ['Round-off, flic-flac on – stretched salto bwd with 1/1 turn (360°) off', 4.32, 4.60];
+    return [
+      'Round-off, flic-flac on – stretched salto bwd with 1/1 turn (360°) off',
+      4.32,
+      4.6,
+    ];
   }
   if (str === 'bzosthree') {
-    return ['Round-off, flic-flac on – stretched salto bwd with 11⁄2 turn (540°) off', 4.33, 5.00];
+    return [
+      'Round-off, flic-flac on – stretched salto bwd with 11⁄2 turn (540°) off',
+      4.33,
+      5.0,
+    ];
   }
   if (str === 'bzosfour') {
-    return ['Round-off, flic-flac on – stretched salto bwd with 2/1 turn (720°) off', 4.34, 5.40];
+    return [
+      'Round-off, flic-flac on – stretched salto bwd with 2/1 turn (720°) off',
+      4.34,
+      5.4,
+    ];
   }
   if (str === 'bzosfive') {
-    return ['Round-off, flic-flac on –stretched salto bwd with 21⁄2 turn (900°) off', 4.35, 5.80];
+    return [
+      'Round-off, flic-flac on –stretched salto bwd with 21⁄2 turn (900°) off',
+      4.35,
+      5.8,
+    ];
   }
   if (str === 'btotzero') {
-    return ['Round-off, flic-flac with 1/1 turn (360°) on – tucked salto bwd off', 4.40, 4.00];
+    return [
+      'Round-off, flic-flac with 1/1 turn (360°) on – tucked salto bwd off',
+      4.4,
+      4.0,
+    ];
   }
   if (str === 'btotone') {
-    return ['Round-off, flic-flac with 1/1 turn (360°) on – tucked salto bwd with 1⁄2 turn (180°) off', 4.41, 4.40];
+    return [
+      'Round-off, flic-flac with 1/1 turn (360°) on – tucked salto bwd with 1⁄2 turn (180°) off',
+      4.41,
+      4.4,
+    ];
   }
   if (str === 'btottwo') {
-    return ['Round-off, flic-flac with 1/1 turn (360°) on – tucked salto bwd with 1⁄1 turn (360°) off', 4.42, 4.80];
+    return [
+      'Round-off, flic-flac with 1/1 turn (360°) on – tucked salto bwd with 1⁄1 turn (360°) off',
+      4.42,
+      4.8,
+    ];
   }
   if (str === 'btopzero') {
-    return ['Round-off, flic-flac 1/1 turn (360°) on – piked salto bwd off', 4.50, 4.20];
+    return [
+      'Round-off, flic-flac 1/1 turn (360°) on – piked salto bwd off',
+      4.5,
+      4.2,
+    ];
   }
   if (str === 'btoszero') {
-    return ['Round-off, flic-flac 1/1 turn (360°) on – stretched salto bwd off', 4.51, 4.60];
+    return [
+      'Round-off, flic-flac 1/1 turn (360°) on – stretched salto bwd off',
+      4.51,
+      4.6,
+    ];
   }
   if (str === 'btosone') {
-    return ['Round-off, flic-flac 1/1 turn (360°) on – stretched salto bwd with 1⁄2 turn (180°) off', 4.52, 5.00];
+    return [
+      'Round-off, flic-flac 1/1 turn (360°) on – stretched salto bwd with 1⁄2 turn (180°) off',
+      4.52,
+      5.0,
+    ];
   }
   if (str === 'btostwo') {
-    return ['Round-off, flic-flac 1/1 turn (360°) on – stretched salto bwd with 1⁄1 turn (360°) off', 4.53, 5.40];
+    return [
+      'Round-off, flic-flac 1/1 turn (360°) on – stretched salto bwd with 1⁄1 turn (360°) off',
+      4.53,
+      5.4,
+    ];
   }
   if (str === 'bootzero') {
-    return ['Round-off, flic-flac with 1⁄2 turn (180°) on – tucked salto fwd off', 5.10, 4.20];
+    return [
+      'Round-off, flic-flac with 1⁄2 turn (180°) on – tucked salto fwd off',
+      5.1,
+      4.2,
+    ];
   }
   if (str === 'bootone') {
-    return ['Round-off, flic-flac with 1⁄2 turn (180°) on – tucked salto fwd with 1⁄2 turn (180°) off, also – 1⁄2 turn (180°) and tucked salto bwd off', 5.11, 4.60];
+    return [
+      'Round-off, flic-flac with 1⁄2 turn (180°) on – tucked salto fwd with 1⁄2 turn (180°) off, also – 1⁄2 turn (180°) and tucked salto bwd off',
+      5.11,
+      4.6,
+    ];
   }
   if (str === 'boottwo') {
-    return ['Round-off, flic-flac with 1⁄2 turn (180°) on – tucked salto fwd with 1⁄1 turn (360°) off', 5.12, 5.00];
+    return [
+      'Round-off, flic-flac with 1⁄2 turn (180°) on – tucked salto fwd with 1⁄1 turn (360°) off',
+      5.12,
+      5.0,
+    ];
   }
   if (str === 'bootthree') {
-    return ['Round-off, flic-flac with 1⁄2 turn (180°) on – tucked salto fwd with 1 1/2 turn (540°) off', 5.13, 5.40];
+    return [
+      'Round-off, flic-flac with 1⁄2 turn (180°) on – tucked salto fwd with 1 1/2 turn (540°) off',
+      5.13,
+      5.4,
+    ];
   }
   if (str === 'boopzero') {
-    return ['Round-off, flic-flac with 1⁄2 turn (180°) on – piked salto fwd off', 5.20, 4.40];
+    return [
+      'Round-off, flic-flac with 1⁄2 turn (180°) on – piked salto fwd off',
+      5.2,
+      4.4,
+    ];
   }
   if (str === 'boopone') {
-    return ['Round-off, flic-flac with 1⁄2 turn (180°) on – piked salto fwd with 1⁄2 turn (180°) off, also – 1⁄2 turn (180°) and piked salto bwd off', 5.21, 4.80];
+    return [
+      'Round-off, flic-flac with 1⁄2 turn (180°) on – piked salto fwd with 1⁄2 turn (180°) off, also – 1⁄2 turn (180°) and piked salto bwd off',
+      5.21,
+      4.8,
+    ];
   }
   if (str === 'booptwo') {
-    return ['Round-off, flic-flac with 1⁄2 turn (180°) on – piked salto fwd with 1/1 turn (360°) off', 5.22, 5.20];
+    return [
+      'Round-off, flic-flac with 1⁄2 turn (180°) on – piked salto fwd with 1/1 turn (360°) off',
+      5.22,
+      5.2,
+    ];
   }
   if (str === 'booszero') {
-    return ['Round-off, flic-flac with 1⁄2 turn (180°) on – stretched salto fwd off', 5.30, 4.80];
+    return [
+      'Round-off, flic-flac with 1⁄2 turn (180°) on – stretched salto fwd off',
+      5.3,
+      4.8,
+    ];
   }
   if (str === 'boosone') {
-    return ['Round-off, flic-flac with 1⁄2 turn (180°) on – salto fwd stretched with 1⁄2 turn (180°) off', 5.31, 5.20];
+    return [
+      'Round-off, flic-flac with 1⁄2 turn (180°) on – salto fwd stretched with 1⁄2 turn (180°) off',
+      5.31,
+      5.2,
+    ];
   }
   if (str === 'boostwo') {
-    return ['Round-off, flic-flac with 1⁄2 turn (180°) on – salto fwd stretched with 1⁄1 turn (360°) off', 5.32, 5.60];
+    return [
+      'Round-off, flic-flac with 1⁄2 turn (180°) on – salto fwd stretched with 1⁄1 turn (360°) off',
+      5.32,
+      5.6,
+    ];
   }
   if (str === 'boosthree') {
-    return ['Round-off, flic-flac with 1⁄2 turn (180°) on – salto fwd stretched with 1 1/2 turn (540°) off', 5.33, 6.00];
+    return [
+      'Round-off, flic-flac with 1⁄2 turn (180°) on – salto fwd stretched with 1 1/2 turn (540°) off',
+      5.33,
+      6.0,
+    ];
   }
 };
