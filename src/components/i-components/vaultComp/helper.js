@@ -61,10 +61,9 @@ export const parseThree = combo => {
   }
 };
 
-export const parseFour = () => {
-  let tri = this.state.dir + this.state.fTurn + this.state.salto;
-  let quad =
-    this.state.dir + this.state.fTurn + this.state.salto + this.state.bp;
+export const parseFour = (combo) => {
+  let tri = combo[0,2]
+  let quad = combo
   if (quad === 'fzzs') {
     return {
       names: [
@@ -227,7 +226,7 @@ export const parseFour = () => {
   }
 };
 
-export const final = str => {
+export const finalVault = str => {
   if (str === 'fzzszero') {
     return ['Handspring forward', 1.0, 2.0];
   }
