@@ -5,6 +5,16 @@ display: block;
 height: 25vh;
 `
 
+export const FlexBottom = styled.div`
+display: flex;
+justify-content: space-evenly;
+`
+
+// export const FlexButton = styled.div`
+// margin-left: 5vw;
+// margin-right: 5vw;
+// `
+
 export const Question = styled.h1`
 font-size: 4rem;
 padding-bottom: 5vh;

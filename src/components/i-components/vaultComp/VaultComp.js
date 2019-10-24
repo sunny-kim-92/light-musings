@@ -31,7 +31,6 @@ class VaultComp extends React.Component {
       sTurn: 'z',
       bp: 's',
       backFlag: false,
-      complete: 'f',
       activePage: 1,
       switch: false,
       finished: false,
@@ -106,13 +105,14 @@ class VaultComp extends React.Component {
           };
         } else if (count === 4) {
           setObj.nextItem = {
-            q: 'What body position will you maintain from apparatus to landing?',
+            q:
+              'What body position will you maintain from apparatus to landing?',
             names: resThree.names,
             values: resThree.values,
           };
         }
         setTimeout(() => {
-          this.setState({...this.state, ...setObj});
+          this.setState({ ...this.state, ...setObj });
         }, 500);
       } else {
         if (!this.state.finished) {
@@ -137,7 +137,8 @@ class VaultComp extends React.Component {
             setObj.backQ = arr;
             if (currNum === 1) {
               setObj.nextItem = {
-                q: 'How many turns will you take from springboard to apparatus?',
+                q:
+                  'How many turns will you take from springboard to apparatus?',
                 names: ['0', '1 (180°)', '2 (360°)'],
                 values: ['z', 'o', 't'],
               };
@@ -174,7 +175,8 @@ class VaultComp extends React.Component {
                   setObj.activePage = 5;
                   setObj.bp = resThree;
                   setObj.nextItem = {
-                    q: 'How many turns will you take from apparatus to landing?',
+                    q:
+                      'How many turns will you take from apparatus to landing?',
                     names: skipParse.names,
                     values: skipParse.values,
                   };
@@ -210,8 +212,8 @@ class VaultComp extends React.Component {
                 setObj.activePage = 5;
                 setObj.nextItem = {
                   q: 'How many turns will you make from apparatus to landing?',
-                  ...resFour
-                }
+                  ...resFour,
+                };
               }
             } else {
               let finalAns = finalVault(
@@ -221,16 +223,16 @@ class VaultComp extends React.Component {
                   this.state.bp +
                   this.state.sTurn
               );
-              setObj.finished = true
-              setObj.items = []
-              setObj.finalV = finalAns
+              setObj.finished = true;
+              setObj.items = [];
+              setObj.finalV = finalAns;
             }
-          setTimeout(() => {
-            this.setState({
-              ...this.state,
-              ...setObj,
-            });
-          }, 500);
+            setTimeout(() => {
+              this.setState({
+                ...this.state,
+                ...setObj,
+              });
+            }, 500);
           }
         } else {
           setTimeout(() => {
@@ -285,8 +287,9 @@ class VaultComp extends React.Component {
   };
 
   render() {
-    const items = this.state.items != [] ? this.state.items[0] : null;
-    let currNum = this.state.activePage;
+    const currState = this.state;
+    const items = currState.items != [] ? currState.items[0] : null;
+    const currNum = currState.activePage;
     const currQ =
       currNum === 1
         ? 'dir'
@@ -299,21 +302,21 @@ class VaultComp extends React.Component {
         : 'sTurn';
     return (
       <Container>
-        <Animate show={!this.state.switch} type="slide" duration={500}>
-          {!this.state.finished && this.state.final != [] ? (
+        <Animate show={!currState.switch} type="slide" duration={500}>
+          {!currState.finished && currState.final != [] ? (
             <Wrapper>
-              {!this.state.changing ? (
-                <Question>{this.state.items[0].q}</Question>
+              {!currState.changing ? (
+                <Question>{currState.items[0].q}</Question>
               ) : null}
-              {!this.state.changing
+              {!currState.changing
                 ? items.values.map((aItem, aI) => {
                     return (
                       <Item key={items.names[aI] + aI}>
                         <RadioButton
                           type="radio"
-                          name={this.state.activePage}
+                          name={currState.activePage}
                           value={aItem}
-                          checked={this.state[currQ] === aItem}
+                          checked={currState[currQ] === aItem}
                           onChange={event => {
                             currNum === 1
                               ? this._handleDir(event)
@@ -335,19 +338,58 @@ class VaultComp extends React.Component {
             </Wrapper>
           ) : (
             <div>
-              <h1>{this.state.final[0]}</h1>
-              <h1>{this.state.final[1]}</h1>
-              <h1>{this.state.final[2]}</h1>
+              <h1>{currState.final[0]}</h1>
+              <h1>{currState.final[1]}</h1>
+              <h1>{currState.final[2]}</h1>
             </div>
           )}
-          {!this.state.finished ? (
+          {!currState.finished ? (
             <div>
-              <button type="button" onClick={this._handleBack}>
-                Back
-              </button>
-              <button type="button" onClick={this._handleNext}>
-                Next
-              </button>
+              <div>
+                {currState.activePage > 1 ? (
+                  <h1>
+                    Direction: {currState.dir === 'f' ? 'Forward' : 'Backward'}
+                  </h1>
+                ) : null}
+                {currState.activePage > 2 ? (
+                  <h1>
+                    Turns On:
+                    {currState.fTurn === 'z'
+                      ? '0'
+                      : currState.fTurn === 'o'
+                      ? '1'
+                      : '2'}
+                  </h1>
+                ) : null}
+                {currState.activePage > 3 ? (
+                  <h1>
+                    Saltos:
+                    {currState.dir === 'z'
+                      ? '0'
+                      : currState.dir === 'o'
+                      ? '1'
+                      : '2'}
+                  </h1>
+                ) : null}
+                {currState.activePage > 4 ? (
+                  <h1>
+                    Body Position:
+                    {currState.bp === 's'
+                      ? 'Straight'
+                      : currState.fTurn === 't'
+                      ? 'Tucked'
+                      : 'Piked'}
+                  </h1>
+                ) : null}
+              </div>
+              <div>
+                <button type="button" onClick={this._handleBack}>
+                  Back
+                </button>
+                <button type="button" onClick={this._handleNext}>
+                  Next
+                </button>
+              </div>
             </div>
           ) : (
             <div>
