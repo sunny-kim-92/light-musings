@@ -1,5 +1,15 @@
 import styled from 'styled-components';
 
+export const Container = styled.div`
+display: block;
+height: 25vh;
+`
+
+export const Question = styled.h1`
+font-size: 4rem;
+padding-bottom: 5vh;
+`
+
 export const Big = styled.span`
 display: block;
 font-size: 4rem;
@@ -18,6 +28,8 @@ export const Wrapper = styled.div`
 
 export const Item = styled.div`
   display: flex;
+  font-size: 1.5em;
+  font-weight: 500;
   align-items: center;
   height: 48px;
   position: relative;
