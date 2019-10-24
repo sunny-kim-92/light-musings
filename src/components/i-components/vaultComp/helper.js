@@ -1,3 +1,21 @@
+export function parseTwo(combo){
+  if (combo === 'ft'){
+    return {
+      names: ['0', '1'],
+      values: ['z', 'o']
+    }
+  }
+  else if (combo === 'bt'){
+    return 'z'
+  }
+  else {
+    return {
+      names: ['0', '1', '2'],
+      values: ['z', 'o', 't']
+    }
+  }
+}
+
 export function parseThree(combo) {
   if (combo === 'fzz') {
     return {

@@ -8,8 +8,12 @@ import {
   RadioButtonLabel,
   Container,
   Question,
+  ButtonGrid,
+  FlexBottom,
+  FinalContainer,
+  ListText,
 } from './VaultComp.css.js';
-import { parseThree, parseFour, finalVault } from './helper.js';
+import { parseTwo, parseThree, parseFour, finalVault } from './helper.js';
 
 import './styles.css';
 
@@ -28,7 +32,7 @@ class VaultComp extends React.Component {
       dir: 'f',
       fTurn: 'z',
       salto: 'z',
-      sTurn: 'z',
+      sTurn: 'zero',
       bp: 's',
       backFlag: false,
       activePage: 1,
@@ -48,6 +52,9 @@ class VaultComp extends React.Component {
     this._handleBP = this._handleBP.bind(this);
     this._handleSTurn = this._handleSTurn.bind(this);
     this._handleReset = this._handleReset.bind(this);
+    this._parseSingle = this._parseSingle.bind(this);
+    this._parseBP = this._parseBP.bind(this);
+    this._parseSTurn = this._parseSTurn.bind(this);
   }
 
   componentDidUpdate() {
@@ -144,12 +151,23 @@ class VaultComp extends React.Component {
               };
               setObj.activePage = 2;
             } else if (currNum === 2) {
+              let resTwo = parseTwo(this.state.dir + this.state.fTurn)
+              if (typeof resTwo === 'string'){
+                setObj.activePage = 5
+                setObj.nextItem = {
+                  q: "How many turns will you take from apparatus to landing?",
+                  names: ['0', '1 (180°)', '2 (360°)'],
+                  values: ['zero', 'one', 'two']
+                }
+              }
+              else{
               setObj.activePage = 3;
               setObj.nextItem = {
                 q: 'How many saltos will you perform?',
-                names: ['0', '1', '2'],
-                values: ['z', 'o', 't'],
+                names: resTwo.names,
+                values: resTwo.values
               };
+            }
             } else if (currNum === 3) {
               let resThree = parseThree(
                 this.state.dir + this.state.fTurn + this.state.salto
@@ -247,6 +265,42 @@ class VaultComp extends React.Component {
     }
   }
 
+  _parseSingle = lt => {
+    if (lt === 'z') {
+      return 0;
+    } else if (lt === 'o') {
+      return 1;
+    } else {
+      return 2;
+    }
+  };
+
+  _parseBP = lt => {
+    if (lt === 's') {
+      return 'Straight';
+    } else if (lt === '5') {
+      return 'Tucked';
+    } else {
+      return 'Piked';
+    }
+  };
+
+  _parseSTurn = lt => {
+    if (lt === 'zero') {
+      return 'Zero';
+    } else if (lt === 'one') {
+      return 'One';
+    } else if (lt === 'two') {
+      return 'Two';
+    } else if (lt === 'three') {
+      return 'Three';
+    } else if (lt === 'four') {
+      return 'Four';
+    } else if (lt === 'five') {
+      return 'Five';
+    }
+  };
+
   _handleDir = event => {
     const value = event.target.value;
     this.setState({ dir: value });
@@ -337,66 +391,145 @@ class VaultComp extends React.Component {
                 : null}
             </Wrapper>
           ) : (
-            <div>
+            <FinalContainer>
               <h1>{currState.final[0]}</h1>
-              <h1>{currState.final[1]}</h1>
-              <h1>{currState.final[2]}</h1>
-            </div>
+              <h2>
+                FIG Code of Points Value:{' '}
+                <font color="red">{currState.final[2]}</font>
+              </h2>
+              <br />
+              <h2>
+                Direction:{' '}
+                <font color="green">{this._parseSingle(currState.dir)}</font>
+              </h2>
+              <h2>
+                Pre-Flight Turns:{' '}
+                <font color="purple">{this._parseSingle(currState.fTurn)}</font>
+              </h2>
+              <h2>
+                Saltos:{' '}
+                <font color="orange">{this._parseSingle(currState.salto)}</font>
+              </h2>
+              <h2>
+                Body Position:{' '}
+                <font color="pink">{this._parseSingle(currState.bp)}</font>
+              </h2>
+              <h2>
+                Post-Flight Turns:{' '}
+                <font color="yellow">{this._parseSingle(currState.sTurn)}</font>
+              </h2>
+
+              <h2>
+                FIG Code of Points ID:{' '}
+                <font color="blue">{currState.final[1]}</font>
+              </h2>
+            </FinalContainer>
           )}
           {!currState.finished ? (
-            <div>
+            <FlexBottom>
               <div>
                 {currState.activePage > 1 ? (
-                  <h1>
-                    Direction: {currState.dir === 'f' ? 'Forward' : 'Backward'}
-                  </h1>
+                  <ListText>
+                    <font color="green">
+                      Direction:{' '}
+                      {currState.dir === 'f' ? 'Forward' : 'Backward'}
+                    </font>
+                  </ListText>
                 ) : null}
                 {currState.activePage > 2 ? (
-                  <h1>
-                    Turns On:
-                    {currState.fTurn === 'z'
-                      ? '0'
-                      : currState.fTurn === 'o'
-                      ? '1'
-                      : '2'}
-                  </h1>
+                  <ListText>
+                    <font color="purple">
+                    Turns On:{' '}
+                      {currState.fTurn === 'z'
+                        ? '0'
+                        : currState.fTurn === 'o'
+                        ? '1'
+                        : '2'}
+                    </font>
+                  </ListText>
                 ) : null}
                 {currState.activePage > 3 ? (
-                  <h1>
-                    Saltos:
-                    {currState.dir === 'z'
-                      ? '0'
-                      : currState.dir === 'o'
-                      ? '1'
-                      : '2'}
-                  </h1>
+                  <ListText>
+                    <font color="orange">
+                    Saltos:{' '}
+                      {currState.salto === 'z'
+                        ? '0'
+                        : currState.salto === 'o'
+                        ? '1'
+                        : '2'}
+                    </font>
+                  </ListText>
                 ) : null}
                 {currState.activePage > 4 ? (
-                  <h1>
-                    Body Position:
-                    {currState.bp === 's'
-                      ? 'Straight'
-                      : currState.fTurn === 't'
-                      ? 'Tucked'
-                      : 'Piked'}
-                  </h1>
+                  <ListText>
+                    <font color="pink">
+                    Body Position:{' '}
+                      {currState.bp === 's'
+                        ? 'Straight'
+                        : currState.fTurn === 't'
+                        ? 'Tucked'
+                        : 'Piked'}
+                    </font>
+                  </ListText>
                 ) : null}
               </div>
-              <div>
-                <button type="button" onClick={this._handleBack}>
-                  Back
-                </button>
-                <button type="button" onClick={this._handleNext}>
-                  Next
-                </button>
-              </div>
-            </div>
+              <ButtonGrid>
+                {currNum != 1 ?
+                <span
+                  onClick={this._handleBack}
+                  onKeyDown={this._handleBack}
+                  role="button"
+                  aria-label="Special button"
+                  tabIndex={0}
+                >
+                  <img
+                    src="https://www.liveabout.com/thmb/HJNApQyetRcGJeE8uGdS3Sf27gQ=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-500100722-58e07c4b3df78c5162d3a807.jpg"
+                    alt="my stuff"
+                    width="100%"
+                    height="100%"
+                    max-height="2vh"
+                    max-width="2vw"
+                  />
+                </span>
+                : <div></div>
+                }
+                <span
+                  onClick={this._handleNext}
+                  onKeyDown={this._handleBack}
+                  role="button"
+                  aria-label="Special button"
+                  tabIndex={0}
+                >
+                  <img
+                    src="http://www3.pictures.zimbio.com/gi/Olympics+Day+2+Gymnastics+Artistic+hwjs0Agqdoal.jpg"
+                    alt="my"
+                    width="100%"
+                    height="100%"
+                    max-height="2vh"
+                    max-width="2vw"
+                  />
+                </span>
+              </ButtonGrid>
+            </FlexBottom>
           ) : (
-            <div>
-              <button type="button" onClick={this._handleReset}>
-                Build Another Vault!
-              </button>
-            </div>
+            <span
+            onClick={this._handleReset}
+            onKeyDown={this._handleReset}
+            role="button"
+            aria-label="Special button"
+            tabIndex={0}
+            display="block"
+            align-content="center"
+          >
+            <img
+              src="https://www.liveabout.com/thmb/HJNApQyetRcGJeE8uGdS3Sf27gQ=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-500100722-58e07c4b3df78c5162d3a807.jpg"
+              alt="my stuff"
+              width="100%"
+              height="100%"
+              max-height="2vh"
+              max-width="2vw"
+            />
+          </span>
           )}
         </Animate>
       </Container>

@@ -3,17 +3,46 @@ import styled from 'styled-components';
 export const Container = styled.div`
 display: block;
 height: 25vh;
+margin: 0 2.8vw;
 `
 
 export const FlexBottom = styled.div`
-display: flex;
-justify-content: space-evenly;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 4rem;
+margin: 2rem;
 `
 
-// export const FlexButton = styled.div`
-// margin-left: 5vw;
-// margin-right: 5vw;
-// `
+export const FinalContainer = styled.div`
+  padding-left: 4vw;
+  padding-right: 4vw;
+
+  h1 {
+    display: block;
+    padding-bottom: 6vh;
+    font-weight: 500;
+    font-size: 7rem;
+  }
+  h2 {
+    display: block;
+    font-weight: 500;
+    font-size: 4rem;
+  }
+`;
+
+export const ListText = styled.h1`
+font-size: 3.5rem;
+font-weight: 450;
+padding-bottom: 2vh;
+`
+
+export const ButtonGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  padding: 0 4rem;
+  margin: 2rem 0;
+`
 
 export const Question = styled.h1`
 font-size: 4rem;
@@ -39,7 +68,7 @@ export const Wrapper = styled.div`
 export const Item = styled.div`
   display: flex;
   font-size: 1.5em;
-  font-weight: 500;
+  font-weight: 400;
   align-items: center;
   height: 48px;
   position: relative;
