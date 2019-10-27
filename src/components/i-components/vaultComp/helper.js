@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 export function parseTwo(combo){
   if (combo === 'ft'){
     return {

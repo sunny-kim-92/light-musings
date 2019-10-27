@@ -10,21 +10,21 @@ import DateForm from 'components/format/dateform';
 import rehypeReact from 'rehype-react';
 import BlogPadding from 'components/format/blogpadding';
 
-import FolesChart from 'components/i-components/ir-report/FolesChart';
-import GuiceFirstTable from 'components/i-components/ir-report/GuiceFirstTable';
-import GuiceSecTable from 'components/i-components/ir-report/GuiceSecTable';
+import Direction from 'components/i-components/vaultComp/galleries/direction'
+import FTurn from 'components/i-components/vaultComp/galleries/FTurn'
+import BP from 'components/i-components/vaultComp/galleries/BP'
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
-    'foles-chart': FolesChart,
-    'guice-first': GuiceFirstTable,
-    'guice-sec': GuiceSecTable,
-  },
+    'dire': Direction,
+    'fturn': FTurn,
+    'bp': BP
+  }
 }).Compiler;
 
-const IR = ({ data }) => {
-  const info = data.irJson;
+const VaultArticle = ({ data }) => {
+  const info = data.vaultarticleJson;
   return (
     <Layout>
       <Img
@@ -34,10 +34,10 @@ const IR = ({ data }) => {
             : {}
         }
         alt={info.headerAlt}
-        style={{ maxHeight: '40vh'}}
+        style={{ maxHeight: '40vh' }}
       />
       <Box>
-        <Title as="h1" size="large">
+        <Title as="h2" size="large">
           {info.title}
         </Title>
         <DateForm>{info.date}</DateForm>
@@ -49,15 +49,15 @@ const IR = ({ data }) => {
   );
 };
 
-IR.propTypes = {
+VaultArticle.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default IR;
+export default VaultArticle;
 
 export const query = graphql`
-  query IRQuery {
-    irJson {
+  query VaultArticleQuery {
+    vaultarticleJson {
       title
       date
       content {

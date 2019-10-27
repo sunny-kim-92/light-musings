@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { AnimateGroup, Animate } from 'react-animate-mount';
+import { Animate } from 'react-animate-mount';
 import {
   Wrapper,
   Item,
@@ -70,10 +70,9 @@ class VaultComp extends React.Component {
             dir: 'f',
             fTurn: 'z',
             salto: 'z',
-            sTurn: 'z',
+            sTurn: 'zero',
             bp: 's',
             backFlag: false,
-            complete: 'f',
             activePage: 1,
             finished: false,
             changing: true,
@@ -151,23 +150,22 @@ class VaultComp extends React.Component {
               };
               setObj.activePage = 2;
             } else if (currNum === 2) {
-              let resTwo = parseTwo(this.state.dir + this.state.fTurn)
-              if (typeof resTwo === 'string'){
-                setObj.activePage = 5
+              let resTwo = parseTwo(this.state.dir + this.state.fTurn);
+              if (typeof resTwo === 'string') {
+                setObj.activePage = 5;
                 setObj.nextItem = {
-                  q: "How many turns will you take from apparatus to landing?",
+                  q: 'How many turns will you take from apparatus to landing?',
                   names: ['0', '1 (180°)', '2 (360°)'],
-                  values: ['zero', 'one', 'two']
-                }
+                  values: ['zero', 'one', 'two'],
+                };
+              } else {
+                setObj.activePage = 3;
+                setObj.nextItem = {
+                  q: 'How many saltos will you perform?',
+                  names: resTwo.names,
+                  values: resTwo.values,
+                };
               }
-              else{
-              setObj.activePage = 3;
-              setObj.nextItem = {
-                q: 'How many saltos will you perform?',
-                names: resTwo.names,
-                values: resTwo.values
-              };
-            }
             } else if (currNum === 3) {
               let resThree = parseThree(
                 this.state.dir + this.state.fTurn + this.state.salto
@@ -415,7 +413,7 @@ class VaultComp extends React.Component {
                 <font color="pink">{this._parseSingle(currState.bp)}</font>
               </h2>
               <h2>
-                Post-Flight Turns:{' '}
+                Flight Turns:{' '}
                 <font color="yellow">{this._parseSingle(currState.sTurn)}</font>
               </h2>
 
@@ -439,7 +437,7 @@ class VaultComp extends React.Component {
                 {currState.activePage > 2 ? (
                   <ListText>
                     <font color="purple">
-                    Turns On:{' '}
+                      Turns On:{' '}
                       {currState.fTurn === 'z'
                         ? '0'
                         : currState.fTurn === 'o'
@@ -451,7 +449,7 @@ class VaultComp extends React.Component {
                 {currState.activePage > 3 ? (
                   <ListText>
                     <font color="orange">
-                    Saltos:{' '}
+                      Saltos:{' '}
                       {currState.salto === 'z'
                         ? '0'
                         : currState.salto === 'o'
@@ -463,7 +461,7 @@ class VaultComp extends React.Component {
                 {currState.activePage > 4 ? (
                   <ListText>
                     <font color="pink">
-                    Body Position:{' '}
+                      Body Position:{' '}
                       {currState.bp === 's'
                         ? 'Straight'
                         : currState.fTurn === 't'
@@ -474,25 +472,26 @@ class VaultComp extends React.Component {
                 ) : null}
               </div>
               <ButtonGrid>
-                {currNum != 1 ?
-                <span
-                  onClick={this._handleBack}
-                  onKeyDown={this._handleBack}
-                  role="button"
-                  aria-label="Special button"
-                  tabIndex={0}
-                >
-                  <img
-                    src="https://www.liveabout.com/thmb/HJNApQyetRcGJeE8uGdS3Sf27gQ=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-500100722-58e07c4b3df78c5162d3a807.jpg"
-                    alt="my stuff"
-                    width="100%"
-                    height="100%"
-                    max-height="2vh"
-                    max-width="2vw"
-                  />
-                </span>
-                : <div></div>
-                }
+                {currNum != 1 ? (
+                  <span
+                    onClick={this._handleBack}
+                    onKeyDown={this._handleBack}
+                    role="button"
+                    aria-label="Special button"
+                    tabIndex={0}
+                  >
+                    <img
+                      src="https://www.liveabout.com/thmb/HJNApQyetRcGJeE8uGdS3Sf27gQ=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-500100722-58e07c4b3df78c5162d3a807.jpg"
+                      alt="my stuff"
+                      width="100%"
+                      height="100%"
+                      max-height="2vh"
+                      max-width="2vw"
+                    />
+                  </span>
+                ) : (
+                  <div></div>
+                )}
                 <span
                   onClick={this._handleNext}
                   onKeyDown={this._handleBack}
@@ -513,23 +512,23 @@ class VaultComp extends React.Component {
             </FlexBottom>
           ) : (
             <span
-            onClick={this._handleReset}
-            onKeyDown={this._handleReset}
-            role="button"
-            aria-label="Special button"
-            tabIndex={0}
-            display="block"
-            align-content="center"
-          >
-            <img
-              src="https://www.liveabout.com/thmb/HJNApQyetRcGJeE8uGdS3Sf27gQ=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-500100722-58e07c4b3df78c5162d3a807.jpg"
-              alt="my stuff"
-              width="100%"
-              height="100%"
-              max-height="2vh"
-              max-width="2vw"
-            />
-          </span>
+              onClick={this._handleReset}
+              onKeyDown={this._handleReset}
+              role="button"
+              aria-label="Special button"
+              tabIndex={0}
+              display="block"
+              align-content="center"
+            >
+              <img
+                src="https://www.liveabout.com/thmb/HJNApQyetRcGJeE8uGdS3Sf27gQ=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-500100722-58e07c4b3df78c5162d3a807.jpg"
+                alt="my stuff"
+                width="100%"
+                height="100%"
+                max-height="2vh"
+                max-width="2vw"
+              />
+            </span>
           )}
         </Animate>
       </Container>

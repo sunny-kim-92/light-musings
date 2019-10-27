@@ -5,17 +5,19 @@ import { Container } from './gallery.css';
 import { Link } from 'gatsby';
 
 const Gallery = ({ items }) => (
-  <Container>
-    {items.map((item, i) => (
-      <Link
-        key={i}
-        style={{ textDecoration: 'none' }}
-        to={item.frontmatter.link}
-      >
-        <Item {...item.frontmatter} key={i} />
-      </Link>
-    ))}
-  </Container>
+  <div>
+      <Container>
+        {items.map((item, i) => (
+          <Link
+            key={i}
+            style={{ textDecoration: 'none' }}
+            to={item.frontmatter.link}
+          >
+            <Item {...item.frontmatter} key={i} />
+          </Link>
+        ))}
+      </Container>
+  </div>
 );
 
 Gallery.propTypes = {

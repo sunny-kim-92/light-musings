@@ -1,0 +1,47 @@
+{
+  "title": "Making an Elite Gymnastics Vault",
+  "date": "October 24, 2019",
+  "content": "vaultarticle.md",
+  "headerImg": "../../images/vault/bilesvault.jpg",
+  "headerAlt": "Simone Biles",
+  "galleries": {
+    "dir": [
+      {
+        "title": "Forward",
+        "testimg": "../../images/vault/Forward.png"
+      },
+      {
+        "title": "Backward / Roundoff",
+        "testimg": "../../images/vault/RoundOff.png"
+      }
+    ],
+    "fTurn": [
+      {
+        "title": "Zero",
+        "testimg": "../../images/vault/ZeroFTurn.png"
+      },
+      {
+        "title": "Half (1/2, 180°)",
+        "testimg": "../../images/vault/OneFTurn.png"
+      },
+      {
+        "title": "Full (1/1, 360°)",
+        "testimg": "../../images/vault/TwoFTurn.png"
+      }
+    ],
+    "bp": [
+      {
+        "title": "Straight",
+        "testimg": "../../images/vault/Straight.png"
+      },
+      {
+        "title": "Tucked",
+        "testimg": "../../images/vault/Tuck.png"
+      },
+      {
+        "title": "Piked",
+        "testimg": "../../images/vault/Pike.png"
+      }
+    ]
+  }
+}

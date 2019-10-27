@@ -8,8 +8,7 @@ const Item = ({ title, subtitle, date, frontimg }) => (
     <Img
       fluid={frontimg ? frontimg.childImageSharp.fluid : {}}
       alt={title}
-      style={{ margin: '1rem', maxHeight: '80vh' }}
-      imgStyle={{ objectFit: 'contain' }}
+      style={{ margin: '1rem', maxHeight: '40vh' }}
     />
     <figcaption>
       <Title>{title}</Title>

@@ -2,19 +2,19 @@ import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
 
 export const Text = styled.span`
-  display: block;
+  display: inline;
   font-weight: ${({ size }) => () => {
     switch (size) {
       case 'large':
-        return '600';
+        return '550';
       default:
-        return '500';
+        return '450';
     }
   }};
   font-size: ${({ size }) => () => {
     switch (size) {
       case 'large':
-        return '4rem';
+        return '4.2rem';
       default:
         return '2rem';
     }

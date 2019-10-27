@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 import Layout from 'components/format/layout';
 import Box from 'components/format/box';
@@ -30,19 +31,31 @@ const renderAst = new rehypeReact({
   },
 }).Compiler;
 
-const Amici = ({ data }) => (
-  <Layout>
-    <Box>
-      <Title as="h2" size="large">
-        {data.amiciJson.title}
-      </Title>
-      <DateForm>{data.amiciJson.date}</DateForm>
-    </Box>
-    <BlogPadding>
-      <div>{renderAst(data.amiciJson.content.childMarkdownRemark.htmlAst)}</div>
-    </BlogPadding>
-  </Layout>
-);
+const Amici = ({ data }) => {
+  const info = data.amiciJson;
+  return (
+    <Layout>
+      <Img
+        fluid={
+          info.headerImg.childImageSharp.fluid
+            ? info.headerImg.childImageSharp.fluid
+            : {}
+        }
+        alt={info.headerAlt}
+        style={{ maxHeight: '40vh' }}
+      />
+      <Box>
+        <Title as="h2" size="large">
+          {info.title}
+        </Title>
+        <DateForm>{info.date}</DateForm>
+      </Box>
+      <BlogPadding>
+        <div>{renderAst(info.content.childMarkdownRemark.htmlAst)}</div>
+      </BlogPadding>
+    </Layout>
+  );
+};
 
 Amici.propTypes = {
   data: PropTypes.object.isRequired,
@@ -60,6 +73,14 @@ export const query = graphql`
           htmlAst
         }
       }
+      headerImg {
+        childImageSharp {
+          fluid(maxHeight: 500, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      headerAlt
     }
   }
 `;
