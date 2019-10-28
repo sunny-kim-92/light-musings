@@ -28,6 +28,8 @@ Think twists! Officially referred to as "Longitudinal axis turns" in the CoP, tu
 ### Step 3 - Saltos
 Think somersaults or flips! Saltos are the official term for rotations made along a gymnast's axis across the waist.
 
+<salto></salto>
+
 ### Step 4 - Body Position
 Refers to the aligment of the gymnast's legs as he or she transitions from apparatus to landing.
 
@@ -35,6 +37,8 @@ Refers to the aligment of the gymnast's legs as he or she transitions from appar
 
 ### Step 5 - Flight Turns
 Just like pre-flight turns, only these occur from apparatus to landing.
+
+<sturn></sturn>
 
 The CoP provides starting point values and ID numbers for each vault. Note that not all combinations of these 5 elements create a valid vault. For example, out of the 80 vaults, only one (the Tucked Double Salto AKA Produnova AKA [Flying Circus of Death](https://balancebeamsituation.com/elite-skill-database/produnova/)) involves 2 saltos. The vault builder hopefully accounts for compatible options as you move through the selections.
 

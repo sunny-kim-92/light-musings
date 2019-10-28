@@ -42,6 +42,46 @@
         "title": "Piked",
         "testimg": "../../images/vault/Pike.png"
       }
+    ],
+    "salto": [
+      {
+        "title": "Zero",
+        "testimg": "../../images/vault/0Salto.png"
+      },
+      {
+        "title": "One",
+        "testimg": "../../images/vault/1Salto.png"
+      },
+      {
+        "title": "Two",
+        "testimg": "../../images/vault/2Salto.png"
+      }
+    ],
+    "sTurn": [
+      {
+        "title": "Zero",
+        "testimg": "../../images/vault/0STurn.png"
+      },
+      {
+        "title": "One",
+        "testimg": "../../images/vault/1STurn.png"
+      },
+      {
+        "title": "Two",
+        "testimg": "../../images/vault/2STurn.png"
+      },
+      {
+        "title": "Three",
+        "testimg": "../../images/vault/3STurn.png"
+      },
+      {
+        "title": "Four",
+        "testimg": "../../images/vault/4STurn.png"
+      },
+      {
+        "title": "Five",
+        "testimg": "../../images/vault/5STurn.png"
+      }
     ]
   }
 }

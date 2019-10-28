@@ -7,8 +7,7 @@ export const Container = styled.div`
 : props.columns === 3 ? "repeat(3, 1fr)"
 : null};
   grid-gap: 4rem;
-  padding: 0 4rem;
-  margin: 2rem 0;
+  padding: 0 15rem 10rem;
   ${MEDIA.TABLET`
     display: block;
   `};

@@ -14,7 +14,7 @@ const Vault = ({ data }) => (
     <Head pageTitle={data.vaultJson.title} />
     <Box>
       <Title as="h2" size="large">
-        Build Your Own Elite Vault!
+        Build Your Own Gymnastics Vault!
       </Title>
     </Box>
     <BlogPadding>

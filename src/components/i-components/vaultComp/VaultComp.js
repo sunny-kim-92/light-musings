@@ -12,8 +12,12 @@ import {
   FlexBottom,
   FinalContainer,
   ListText,
+  NextBottom,
+  Intro,
 } from './VaultComp.css.js';
 import { parseTwo, parseThree, parseFour, finalVault } from './helper.js';
+
+import Button from '@material-ui/core/Button';
 
 import './styles.css';
 
@@ -35,7 +39,7 @@ class VaultComp extends React.Component {
       sTurn: 'zero',
       bp: 's',
       backFlag: false,
-      activePage: 1,
+      activePage: 0,
       switch: false,
       finished: false,
       changing: false,
@@ -141,7 +145,14 @@ class VaultComp extends React.Component {
             let arr = this.state.backQ;
             arr.push(currNum);
             setObj.backQ = arr;
-            if (currNum === 1) {
+            if (currNum === 0) {
+              (setObj.nextItem = {
+                q: 'What direction will you face jumping off the springboard?',
+                names: ['Forward', 'Backward'],
+                values: ['f', 'b'],
+              }),
+                (setObj.activePage = 1);
+            } else if (currNum === 1) {
               setObj.nextItem = {
                 q:
                   'How many turns will you take from springboard to apparatus?',
@@ -356,44 +367,67 @@ class VaultComp extends React.Component {
       <Container>
         <Animate show={!currState.switch} type="slide" duration={500}>
           {!currState.finished && currState.final != [] ? (
-            <Wrapper>
-              {!currState.changing ? (
-                <Question>{currState.items[0].q}</Question>
-              ) : null}
-              {!currState.changing
-                ? items.values.map((aItem, aI) => {
-                    return (
-                      <Item key={items.names[aI] + aI}>
-                        <RadioButton
-                          type="radio"
-                          name={currState.activePage}
-                          value={aItem}
-                          checked={currState[currQ] === aItem}
-                          onChange={event => {
-                            currNum === 1
-                              ? this._handleDir(event)
-                              : currNum === 2
-                              ? this._handleFTurn(event)
-                              : currNum === 3
-                              ? this._handleSalto(event)
-                              : currNum === 4
-                              ? this._handleBP(event)
-                              : this._handleSTurn(event);
-                          }}
-                        />
-                        <RadioButtonLabel />
-                        <div>{items.names[aI]}</div>
-                      </Item>
-                    );
-                  })
-                : null}
-            </Wrapper>
+            currNum === 0 ? (
+              <Intro>
+                <h1>
+                  Explore the 80 vaults defined by the Code of Points for
+                  Women&apos;s Artistic Gymnastics. Each result includes
+                  starting point values and ID number.
+                </h1>
+                <img
+                  src="https://www.liveabout.com/thmb/ILcFJXnpmtdDf7j9309TxNG9rJc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-519267358-5ac51be11d6404003c974ecd.jpg"
+                  alt="intro"
+                  style={{ width: '40vw', height: '40vh' }}
+                />
+              </Intro>
+            ) : (
+              <Wrapper>
+                {!currState.changing ? (
+                  <Question>{currState.items[0].q}</Question>
+                ) : null}
+                {!currState.changing
+                  ? items.values.map((aItem, aI) => {
+                      return (
+                        <Item key={items.names[aI] + aI}>
+                          <RadioButton
+                            type="radio"
+                            name={currState.activePage}
+                            value={aItem}
+                            checked={currState[currQ] === aItem}
+                            onChange={event => {
+                              currNum === 1
+                                ? this._handleDir(event)
+                                : currNum === 2
+                                ? this._handleFTurn(event)
+                                : currNum === 3
+                                ? this._handleSalto(event)
+                                : currNum === 4
+                                ? this._handleBP(event)
+                                : this._handleSTurn(event);
+                            }}
+                          />
+                          <RadioButtonLabel />
+                          <div>{items.names[aI]}</div>
+                        </Item>
+                      );
+                    })
+                  : null}
+              </Wrapper>
+            )
           ) : (
             <FinalContainer>
               <h1>{currState.final[0]}</h1>
               <h2>
                 FIG Code of Points Value:{' '}
                 <font color="red">{currState.final[2]}</font>
+              </h2>
+              <h2>
+                FIG Code of Points ID:{' '}
+                <font color="blue">
+                  {currState.final.length > 0
+                    ? currState.final[1].toFixed(2)
+                    : null}
+                </font>
               </h2>
               <br />
               <h2>
@@ -416,15 +450,10 @@ class VaultComp extends React.Component {
                 Flight Turns:{' '}
                 <font color="yellow">{this._parseSingle(currState.sTurn)}</font>
               </h2>
-
-              <h2>
-                FIG Code of Points ID:{' '}
-                <font color="blue">{currState.final[1]}</font>
-              </h2>
             </FinalContainer>
           )}
           {!currState.finished ? (
-            <FlexBottom>
+            <NextBottom>
               <div>
                 {currState.activePage > 1 ? (
                   <ListText>
@@ -472,63 +501,39 @@ class VaultComp extends React.Component {
                 ) : null}
               </div>
               <ButtonGrid>
-                {currNum != 1 ? (
-                  <span
+                {currNum > 1 ? (
+                  <Button
+                    variant="contained"
+                    size="large"
+                    color="primary"
                     onClick={this._handleBack}
-                    onKeyDown={this._handleBack}
-                    role="button"
-                    aria-label="Special button"
-                    tabIndex={0}
                   >
-                    <img
-                      src="https://www.liveabout.com/thmb/HJNApQyetRcGJeE8uGdS3Sf27gQ=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-500100722-58e07c4b3df78c5162d3a807.jpg"
-                      alt="my stuff"
-                      width="100%"
-                      height="100%"
-                      max-height="2vh"
-                      max-width="2vw"
-                    />
-                  </span>
+                    Back
+                  </Button>
                 ) : (
                   <div></div>
                 )}
-                <span
+                <Button
+                  variant="contained"
+                  size="large"
+                  color="primary"
                   onClick={this._handleNext}
-                  onKeyDown={this._handleBack}
-                  role="button"
-                  aria-label="Special button"
-                  tabIndex={0}
                 >
-                  <img
-                    src="http://www3.pictures.zimbio.com/gi/Olympics+Day+2+Gymnastics+Artistic+hwjs0Agqdoal.jpg"
-                    alt="my"
-                    width="100%"
-                    height="100%"
-                    max-height="2vh"
-                    max-width="2vw"
-                  />
-                </span>
+                  {currNum === 0 ? "Start!" : "Next"}
+                </Button>
               </ButtonGrid>
-            </FlexBottom>
+            </NextBottom>
           ) : (
-            <span
-              onClick={this._handleReset}
-              onKeyDown={this._handleReset}
-              role="button"
-              aria-label="Special button"
-              tabIndex={0}
-              display="block"
-              align-content="center"
-            >
-              <img
-                src="https://www.liveabout.com/thmb/HJNApQyetRcGJeE8uGdS3Sf27gQ=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-500100722-58e07c4b3df78c5162d3a807.jpg"
-                alt="my stuff"
-                width="100%"
-                height="100%"
-                max-height="2vh"
-                max-width="2vw"
-              />
-            </span>
+            <FlexBottom>
+              <Button
+                variant="contained"
+                size="large"
+                color="primary"
+                onClick={this._handleReset}
+              >
+                Build Another Vault!
+              </Button>
+            </FlexBottom>
           )}
         </Animate>
       </Container>

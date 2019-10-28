@@ -6,11 +6,38 @@ height: 25vh;
 margin: 0 2.8vw;
 `
 
+export const Intro = styled.div`
+display: block;
+
+h1 {
+  font-size: 4rem;
+}
+
+h5 {
+  font-side: 4rem;
+}
+`
+
 export const FlexBottom = styled.div`
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-gap: 4rem;
-margin: 2rem;
+margin: 3rem 5rem;
+
+span {
+  font-size: 3rem;
+}
+`
+
+export const NextBottom = styled.div`
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 4rem;
+margin: 3rem 2rem;
+
+span {
+  font-size: 3rem;
+}
 `
 
 export const FinalContainer = styled.div`
@@ -21,12 +48,12 @@ export const FinalContainer = styled.div`
     display: block;
     padding-bottom: 6vh;
     font-weight: 500;
-    font-size: 7rem;
+    font-size: 10rem;
   }
   h2 {
     display: block;
     font-weight: 500;
-    font-size: 4rem;
+    font-size: 5rem;
   }
 `;
 

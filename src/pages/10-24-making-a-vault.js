@@ -13,13 +13,17 @@ import BlogPadding from 'components/format/blogpadding';
 import Direction from 'components/i-components/vaultComp/galleries/direction'
 import FTurn from 'components/i-components/vaultComp/galleries/FTurn'
 import BP from 'components/i-components/vaultComp/galleries/BP'
+import Salto from 'components/i-components/vaultComp/galleries/salto'
+import STurn from 'components/i-components/vaultComp/galleries/STurn'
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
     'dire': Direction,
     'fturn': FTurn,
-    'bp': BP
+    'bp': BP,
+    'salto': Salto,
+    'sturn': STurn
   }
 }).Compiler;
 
@@ -34,7 +38,7 @@ const VaultArticle = ({ data }) => {
             : {}
         }
         alt={info.headerAlt}
-        style={{ maxHeight: '40vh' }}
+        style={{ margin: '1rem 0 0 0', maxHeight: '40vh' }}
       />
       <Box>
         <Title as="h2" size="large">
