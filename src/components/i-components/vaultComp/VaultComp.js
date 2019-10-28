@@ -374,11 +374,6 @@ class VaultComp extends React.Component {
                   Women&apos;s Artistic Gymnastics. Each result includes
                   starting point values and ID number.
                 </h1>
-                <img
-                  src="https://www.liveabout.com/thmb/ILcFJXnpmtdDf7j9309TxNG9rJc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-519267358-5ac51be11d6404003c974ecd.jpg"
-                  alt="intro"
-                  style={{ width: '40vw', height: '40vh' }}
-                />
               </Intro>
             ) : (
               <Wrapper>

@@ -1,6 +1,6 @@
 ---
 type: 'blog-post'
-link: '/10-24-making-a-vault/'
+link: '/10-27-making-a-vault/'
 title: "Build Your Own Women's Gymnastics Vault"
 date: '2019-10-24'
 subtitle: "Explore the Many Vaults of Elite Women's Gymnastics, then Build Your Own!"
@@ -40,6 +40,4 @@ Just like pre-flight turns, only these occur from apparatus to landing.
 
 <sturn></sturn>
 
-The CoP provides starting point values and ID numbers for each vault. Note that not all combinations of these 5 elements create a valid vault. For example, out of the 80 vaults, only one (the Tucked Double Salto AKA Produnova AKA [Flying Circus of Death](https://balancebeamsituation.com/elite-skill-database/produnova/)) involves 2 saltos. The vault builder hopefully accounts for compatible options as you move through the selections.
-
-I've for the most part defaulted to terms as listed in the official CoP.
+Note that not all combinations of these 5 elements create a valid vault. For example, out of the 80 vaults, only one (the Tucked Double Salto AKA Produnova AKA [Flying Circus of Death](https://balancebeamsituation.com/elite-skill-database/produnova/)) involves 2 saltos. The vault builder  accounts for compatible options as you move through the selections.

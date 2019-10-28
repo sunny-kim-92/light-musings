@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 
 import Layout from 'components/format/layout';
@@ -9,6 +9,7 @@ import Title from 'components/format/title';
 import DateForm from 'components/format/dateform';
 import rehypeReact from 'rehype-react';
 import BlogPadding from 'components/format/blogpadding';
+import LinkBox from 'components/format/LinkBox'
 
 import Direction from 'components/i-components/vaultComp/galleries/direction'
 import FTurn from 'components/i-components/vaultComp/galleries/FTurn'
@@ -47,6 +48,9 @@ const VaultArticle = ({ data }) => {
         <DateForm>{info.date}</DateForm>
       </Box>
       <BlogPadding>
+        <LinkBox>
+        <Link to="/vault">Go to the Vault Builder App!</Link>
+        </LinkBox>
         <div>{renderAst(info.content.childMarkdownRemark.htmlAst)}</div>
       </BlogPadding>
     </Layout>
