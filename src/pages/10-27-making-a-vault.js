@@ -9,13 +9,13 @@ import Title from 'components/format/title';
 import DateForm from 'components/format/dateform';
 import rehypeReact from 'rehype-react';
 import BlogPadding from 'components/format/blogpadding';
-import LinkBox from 'components/format/LinkBox'
+import LinkBox from 'components/format/linkbox'
 
 import Direction from 'components/i-components/vaultComp/galleries/direction'
-import FTurn from 'components/i-components/vaultComp/galleries/FTurn'
-import BP from 'components/i-components/vaultComp/galleries/BP'
+import FTurn from 'components/i-components/vaultComp/galleries/fTurn'
+import BP from 'components/i-components/vaultComp/galleries/bp'
 import Salto from 'components/i-components/vaultComp/galleries/salto'
-import STurn from 'components/i-components/vaultComp/galleries/STurn'
+import STurn from 'components/i-components/vaultComp/galleries/sTurn'
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Unit from 'components/format/PageGal/Unit';
+import Unit from 'components/format/PageGal/unit';
 import { Container } from './PageGal.css';
 
 const PageGal = ({ items, num }) => (
