@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Radar } from 'react-chartjs-2';
+import Dropdown from 'react-select';
 import 'array-flat-polyfill';
+import { Container, DropdownContainer, RadarContainer } from './ChessChart.css';
 
 import { data } from './data';
 
@@ -8,53 +10,78 @@ class ChessChart extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      player: 'Carlsen, Magnus',
+      playerOne: null,
+      playerTwo: null,
+      playerOptions: [
+        {value: 'Magnus Carlsen', label: 'Magnus Carlsen'},
+        {value: 'Anish Giri', label: 'Anish Giri'},
+      ],
       color: 'white',
       map: {},
       moves: [],
       labels: [],
       datasets: [],
     };
-    this.handleClick = this.handleClick.bind(this);
+    this.handlePlayerChange = this.handlePlayerChange.bind(this);
+    this.handlePlayerOneChange = this.handlePlayerOneChange.bind(this);
+    this.handlePlayerTwoChange = this.handlePlayerTwoChange.bind(this);
+    this.handleMoveSelect = this.handleMoveSelect.bind(this);
+
   }
 
-  componentDidMount() {
-    this.handleClick();
+  componentDidMount(){
+    this.setState({
+      playerOne: 'Magnus Carlsen',
+      playerTwo: 'Anish Giri'
+    })
+    this.handlePlayerChange()
   }
 
-  handleClick() {
+  handlePlayerOneChange = (event) => {
+    this.setState({
+      playerOne: event.value
+    }, () => {
+      this.handlePlayerChange()
+    })
+  }
+
+  handlePlayerTwoChange = (event) => {
+    this.setState({
+      playerTwo: event.value
+    }, () => {
+      this.handlePlayerChange()
+    })
+  }
+
+  handlePlayerChange = (event) => {
     let newMap = {};
     let newLabels = [];
     let newDatasets = [];
     data.forEach(entry => {
       if (entry.search("['p']") != -1) {
         let moveString = entry.substring(entry.indexOf("['p']") + 7);
-        // console.log('in game string');
-        // console.log(moveString);
         let moves = moveString.split(' ');
         if (!newMap[moves[1]]) {
           newMap[moves[1]] = 1;
         } else {
           newMap[moves[1]]++;
         }
-        // console.log(newMap);
-        // moves.forEach(move => {
-        //   console.log(move)
-        //   if(move.search('.') == -1)
-        //   if (!newMap[move]) {
-        //     newMap[move] = 1;
-        //   } else {
-        //     newMap[move]++;
-        //   }
-        // });
       }
     });
-    // console.log(newMap)
 
+    let tempArr = []
     for (let i in newMap) {
-      newLabels.push(i);
-      newDatasets.push(newMap[i]);
+      tempArr.push({move: i, count: newMap[i]})
     }
+
+    tempArr.sort((a, b) => {
+      return b.count - a.count
+    })
+
+    tempArr.forEach((move) => {
+      newLabels.push(move.move);
+      newDatasets.push(move.count);
+    })
 
     this.setState({
       labels: newLabels,
@@ -66,21 +93,48 @@ class ChessChart extends Component {
     });
   }
 
+  handleMoveSelect = (event) => {
+    console.log(event)
+  }
+
   render() {
-    // let testSet = {
-    //   datasets: [
-    //     {
-    //       data: [19, 33, 3, 1],
-    //     },
-    //   ],
-    //   labels: ['d4', 'e4', 'c4', 'Nf3'],
-    // };
     let data = {
-      labels: this.labels,
-      datasets: this.datasets,
+      labels: this.state.labels,
+      datasets: this.state.datasets,
     };
-    console.log(data)
-    return <Radar data={data}></Radar>;
+
+    let options = {
+      legend: {
+        display: false,
+      },
+      // onClick: this.handleMoveSelect(event)
+    };
+
+    return (
+      <Container>
+        <DropdownContainer>
+          <Dropdown
+            menuPlacement="auto"
+            options={this.state.playerOptions}
+            onChange={this.handlePlayerOneChange}
+            value={this.state.playerOne}
+            placeholder="Select a Player"
+          />
+        </DropdownContainer>
+        <DropdownContainer>
+          <Dropdown
+            menuPlacement="auto"
+            options={this.state.playerOptions}
+            onChange={this.handlePlayerTwoChange}
+            value={this.state.playerTwo}
+            placeholder="Select a Player"
+          />
+        </DropdownContainer>
+        <RadarContainer>
+          <Radar data={data} options={options} onElementsClick={(evt) => {this.handleMoveSelect(evt)}}></Radar>
+        </RadarContainer>
+      </Container>
+    );
   }
 }
 
