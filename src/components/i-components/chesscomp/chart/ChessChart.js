@@ -33,16 +33,146 @@ class ChessChart extends Component {
     this.handlePlayerThreeChange = this.handlePlayerThreeChange.bind(this);
     this.handlePlayerFourChange = this.handlePlayerFourChange.bind(this);
     this.handleMoveSelect = this.handleMoveSelect.bind(this);
-    // this.calculateData = this.calculateData.bind(this)
+    this.generateChart = this.generateChart.bind(this);
   }
 
-  onMount = () => {
+  generateChart = (totalMoveCountMap, playersMoveCountMap, newGames) => {
+    let newLabels = [];
+    let newDatasets = [];
+
+    let tempArr = [];
+    for (let i in totalMoveCountMap) {
+      tempArr.push({ move: i, count: totalMoveCountMap[i] });
+    }
+
+    tempArr.sort((a, b) => {
+      return b.count - a.count;
+    });
+
+    tempArr.forEach(move => {
+      newLabels.push(move.move);
+    });
+
+    let tempOpponentMap = {};
+    for (let i in playersMoveCountMap) {
+      tempOpponentMap = {};
+      tempOpponentMap['label'] = i;
+      tempOpponentMap['data'] = [];
+      newLabels.forEach(move => {
+        tempOpponentMap['data'].push(playersMoveCountMap[i][move]);
+      });
+
+      if (i == this.state.playerTwo) {
+        tempOpponentMap['backgroundColor'] = 'rgba(255, 0, 0, 0.1)';
+      } else if (i == this.state.playerThree) {
+        tempOpponentMap['backgroundColor'] = 'rgba(0, 255, 0, 0.1)';
+      } else {
+        tempOpponentMap['backgroundColor'] = 'rgba(0, 0, 255, 0.1)';
+      }
+      newDatasets.push(tempOpponentMap);
+    }
+
+    this.setState({
+      game: newGames,
+      labels: newLabels,
+      datasets: newDatasets,
+    });
+  };
+
+  handlePlayerOneChange = event => {
+    this.setState({ playerOne: event.value }, () => {
+      this.handlePlayerChange();
+    });
+  };
+
+  handlePlayerTwoChange = event => {
+    this.setState({ playerTwo: event.value }, () => {
+      this.handlePlayerChange();
+    });
+  };
+
+  handlePlayerThreeChange = event => {
+    this.setState({ playerTjree: event.value }, () => {
+      this.handlePlayerChange();
+    });
+  };
+
+  handlePlayerFourChange = event => {
+    this.setState({ playerTjree: event.value }, () => {
+      this.handlePlayerChange();
+    });
+  };
+
+  handlePlayerChange = event => {};
+
+  handleReset = () => {
+    this.setState({
+      moves: [],
+      labels: [],
+      datasets: [
+        {
+          data: [],
+        },
+      ],
+    });
+  };
+
+  handleMoveSelect = event => {
+    if (event[0]) {
+      let moves = this.state.moves;
+      moves.push(this.state.labels[event[0]._index]);
+      let moveNumber = moves.length;
+
+      let totalMoveCountMap = {};
+      let playersMoveCountMap = {};
+      let newLabels = [];
+      let newDatasets = [];
+      let isEqual = false;
+      let opponentName = '';
+      let newGames = this.state.games;
+      newGames.filter(game => {
+        isEqual = true;
+        moves.some((move, key) => {
+          if (game.moves[key] != move) {
+            isEqual = false;
+            return false;
+          }
+        });
+        if (isEqual) {
+          if (!totalMoveCountMap[game.moves[moveNumber]]) {
+            totalMoveCountMap[game.moves[moveNumber]] = 1;
+          } else {
+            totalMoveCountMap[game.moves[moveNumber]]++;
+          }
+
+          if (this.state.playerOne == game.w) {
+            opponentName = game.b;
+          } else {
+            opponentName = game.w;
+          }
+
+          if (!playersMoveCountMap[opponentName]) {
+            playersMoveCountMap[opponentName] = {};
+          }
+          if (!playersMoveCountMap[opponentName][game.moves[moveNumber]]) {
+            playersMoveCountMap[opponentName][game.moves[moveNumber]] = 1;
+          } else {
+            playersMoveCountMap[opponentName][game.moves[moveNumber]]++;
+          }
+          return true;
+        }
+        return false;
+      });
+
+      this.generateChart(totalMoveCountMap, playersMoveCountMap, newGames);
+    }
+  };
+
+  componentDidMount() {
     let totalMoveCountMap = {};
     let playersMoveCountMap = {};
 
-    let games = [];
-    let newLabels = [];
-    let newDatasets = [];
+    let newGames = [];
     let opponentName = '';
 
     data.forEach(entry => {
@@ -84,187 +214,12 @@ class ChessChart extends Component {
         } else {
           playersMoveCountMap[opponentName][moves[0]]++;
         }
-        games.push(tempGame);
+        newGames.push(tempGame);
       }
     });
 
-    let tempArr = [];
-    for (let i in totalMoveCountMap) {
-      tempArr.push({ move: i, count: totalMoveCountMap[i] });
-    }
-
-    tempArr.sort((a, b) => {
-      return b.count - a.count;
-    });
-
-    tempArr.forEach(move => {
-      newLabels.push(move.move);
-    });
-
-    let tempOpponentMap = {};
-    for (let i in playersMoveCountMap) {
-      tempOpponentMap = {};
-      tempOpponentMap['label'] = i;
-      tempOpponentMap['data'] = [];
-      newLabels.forEach(move => {
-        // if (!playersMoveCountMap[i][move]) {
-        //   tempOpponentMap['data'].push(0);
-        // } else {
-          tempOpponentMap['data'].push(playersMoveCountMap[i][move]);
-        // }
-      });
-
-      if(i == this.state.playerTwo){
-        tempOpponentMap['backgroundColor'] = 'rgba(255, 0, 0, 0.1)'
-      } else if (i == this.state.playerThree){
-        tempOpponentMap['backgroundColor'] = 'rgba(0, 255, 0, 0.1)'
-      } else {
-        tempOpponentMap['backgroundColor'] = 'rgba(0, 0, 255, 0.1)'
-      }
-      newDatasets.push(tempOpponentMap);
-    }
-
-    this.setState({
-      games: games,
-      labels: newLabels,
-      datasets: newDatasets,
-    });
-  };
-
-  componentDidMount() {
-    this.onMount();
+    this.generateChart(totalMoveCountMap, playersMoveCountMap, newGames);
   }
-
-  handlePlayerOneChange = event => {
-    this.setState({ playerOne: event.value }, () => {
-      this.handlePlayerChange();
-    });
-  };
-
-  handlePlayerTwoChange = event => {
-    this.setState({ playerTwo: event.value }, () => {
-      this.handlePlayerChange();
-    });
-  };
-
-  handlePlayerThreeChange = event => {
-    this.setState({ playerTjree: event.value }, () => {
-      this.handlePlayerChange();
-    });
-  };
-
-  handlePlayerFourChange = event => {
-    this.setState({ playerTjree: event.value }, () => {
-      this.handlePlayerChange();
-    });
-  };
-
-  handlePlayerChange = event => {};
-
-  handleMoveSelect = event => {
-    if (event[0]) {
-      let moves = this.state.moves;
-      moves.push(this.state.labels[event[0]._index]);
-      let moveNumber = moves.length;
-
-      let totalMoveCountMap = {};
-      let playersMoveCountMap = {};
-      let newLabels = [];
-      let newDatasets = [];
-      let isEqual = false;
-      let opponentName = ''
-      let newGames = this.state.games
-      newGames.filter(game => {
-        isEqual = true;
-        moves.some((move, key) => {
-          if (game.moves[key] != move) {
-            isEqual = false;
-            return false;
-          }
-        });
-        if (isEqual) {
-          if (!totalMoveCountMap[game.moves[moveNumber]]) {
-            totalMoveCountMap[game.moves[moveNumber]] = 1;
-          } else {
-            totalMoveCountMap[game.moves[moveNumber]]++;
-          }
-
-          if (this.state.playerOne == game.w) {
-            opponentName = game.b;
-          } else {
-            opponentName = game.w;
-          }
-
-          if (!playersMoveCountMap[opponentName]) {
-            playersMoveCountMap[opponentName] = {};
-          }
-          if (!playersMoveCountMap[opponentName][game.moves[moveNumber]]) {
-            playersMoveCountMap[opponentName][game.moves[moveNumber]] = 1;
-          } else {
-            playersMoveCountMap[opponentName][game.moves[moveNumber]]++;
-          }
-          return true;
-        }
-        return false;
-      });
-
-      let tempArr = [];
-      for (let i in totalMoveCountMap) {
-        tempArr.push({ move: i, count: totalMoveCountMap[i] });
-      }
-
-      tempArr.sort((a, b) => {
-        return b.count - a.count;
-      });
-
-
-      tempArr.forEach(move => {
-        newLabels.push(move.move);
-      });
-
-      let tempOpponentMap = {};
-      for (let i in playersMoveCountMap) {
-        tempOpponentMap = {};
-        tempOpponentMap['label'] = i;
-        tempOpponentMap['data'] = [];
-        newLabels.forEach(move => {
-          // if (!playersMoveCountMap[i][move]) {
-          //   tempOpponentMap['data'].push(0);
-          // } else {
-            tempOpponentMap['data'].push(playersMoveCountMap[i][move]);
-          // }
-        });
-
-        if(i == this.state.playerTwo){
-          tempOpponentMap['backgroundColor'] = 'rgba(255, 0, 0, 0.1)'
-        } else if (i == this.state.playerThree){
-          tempOpponentMap['backgroundColor'] = 'rgba(0, 255, 0, 0.1)'
-        } else {
-          tempOpponentMap['backgroundColor'] = 'rgba(0, 0, 255, 0.1)'
-        }
-        newDatasets.push(tempOpponentMap);
-      }
-
-      this.setState({
-        games: newGames,
-        moves: moves,
-        labels: newLabels,
-        datasets: newDatasets,
-      });
-    }
-  };
-
-  handleReset = () => {
-    this.setState({
-      moves: [],
-      labels: [],
-      datasets: [
-        {
-          data: [],
-        },
-      ],
-    });
-  };
 
   render() {
     let data = {
