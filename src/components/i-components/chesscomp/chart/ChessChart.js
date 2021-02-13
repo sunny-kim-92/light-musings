@@ -4,20 +4,22 @@ import Dropdown from 'react-select';
 import 'array-flat-polyfill';
 import { Container, DropdownContainer, RadarContainer } from './ChessChart.css';
 
-import { data } from './data';
+import { data } from './complete';
 
 class ChessChart extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      playerOne: null,
-      playerTwo: null,
-      playerThree: null,
+      playerOne: 'Magnus_Carlsen',
+      playerTwo: 'Anish_Giri',
+      playerThree: 'Fabiano_Caruana',
       playerFour: null,
       playerOptions: [
-        { value: 'Magnus Carlsen', label: 'Magnus Carlsen' },
-        { value: 'Anish Giri', label: 'Anish Giri' },
-        { value: 'Fabiano Caruana', label: 'Fabiano Caruana' },
+        { value: 'Magnus_Carlsen', label: 'Magnus Carlsen' },
+        { value: 'Anish_Giri', label: 'Anish Giri' },
+        { value: 'Fabiano_Caruana', label: 'Fabiano Caruana' },
+        { value: 'Hikaru_Nakamura', label: 'Hikaru Nakamura' },
+        { value: 'Alireza_Firouzja', label: 'Alireza_Firouzja' },
       ],
       color: 'white',
       games: [],
@@ -28,37 +30,67 @@ class ChessChart extends Component {
     this.handlePlayerChange = this.handlePlayerChange.bind(this);
     this.handlePlayerOneChange = this.handlePlayerOneChange.bind(this);
     this.handlePlayerTwoChange = this.handlePlayerTwoChange.bind(this);
+    this.handlePlayerThreeChange = this.handlePlayerThreeChange.bind(this);
+    this.handlePlayerFourChange = this.handlePlayerFourChange.bind(this);
     this.handleMoveSelect = this.handleMoveSelect.bind(this);
+    // this.calculateData = this.calculateData.bind(this)
   }
 
   onMount = () => {
-    let newMap = {};
+    let totalMoveCountMap = {};
+    let playersMoveCountMap = {};
+
     let games = [];
     let newLabels = [];
     let newDatasets = [];
+    let opponentName = '';
+
     data.forEach(entry => {
-      if (entry.search("['p']") != -1) {
-        let tempGame = {};
-        let moveString = entry.substring(entry.indexOf("['p']") + 7);
+      if (
+        (entry.w == this.state.playerOne || entry.b == this.state.playerOne) &&
+        (entry.w == this.state.playerTwo ||
+          entry.b == this.state.playerTwo ||
+          entry.w == this.state.playerThree ||
+          entry.b == this.state.playerThree ||
+          entry.w == this.state.playerFour ||
+          entry.b == this.state.playerFour)
+      ) {
+        let tempGame = entry;
+        let moveString = entry.moves;
         let moves = moveString.split(' ');
-        tempGame['moves'] = moves
-        for(let i = 0; i < moves.length; i++){
-          if(moves[i].indexOf('.') != -1){
+        tempGame['moves'] = moves;
+        for (let i = 0; i < moves.length; i++) {
+          if (moves[i].indexOf('.') != -1) {
             moves.splice(i, 1);
           }
         }
-        if (!newMap[moves[0]]) {
-          newMap[moves[0]] = 1;
+        if (!totalMoveCountMap[moves[0]]) {
+          totalMoveCountMap[moves[0]] = 1;
         } else {
-          newMap[moves[0]]++;
+          totalMoveCountMap[moves[0]]++;
         }
-        games.push(tempGame)
+
+        if (this.state.playerOne == entry.w) {
+          opponentName = entry.b;
+        } else {
+          opponentName = entry.w;
+        }
+
+        if (!playersMoveCountMap[opponentName]) {
+          playersMoveCountMap[opponentName] = {};
+        }
+        if (!playersMoveCountMap[opponentName][moves[0]]) {
+          playersMoveCountMap[opponentName][moves[0]] = 1;
+        } else {
+          playersMoveCountMap[opponentName][moves[0]]++;
+        }
+        games.push(tempGame);
       }
     });
 
     let tempArr = [];
-    for (let i in newMap) {
-      tempArr.push({ move: i, count: newMap[i] });
+    for (let i in totalMoveCountMap) {
+      tempArr.push({ move: i, count: totalMoveCountMap[i] });
     }
 
     tempArr.sort((a, b) => {
@@ -67,87 +99,112 @@ class ChessChart extends Component {
 
     tempArr.forEach(move => {
       newLabels.push(move.move);
-      newDatasets.push(move.count);
     });
+
+    let tempOpponentMap = {};
+    for (let i in playersMoveCountMap) {
+      tempOpponentMap = {};
+      tempOpponentMap['label'] = i;
+      tempOpponentMap['data'] = [];
+      newLabels.forEach(move => {
+        if (!playersMoveCountMap[i][move]) {
+          tempOpponentMap['data'].push(0);
+        } else {
+          tempOpponentMap['data'].push(playersMoveCountMap[i][move]);
+        }
+      });
+      newDatasets.push(tempOpponentMap);
+    }
 
     this.setState({
       games: games,
       labels: newLabels,
-      datasets: [
-        {
-          data: newDatasets,
-        },
-      ],
+      datasets: newDatasets,
     });
-  }
+  };
 
   componentDidMount() {
-    this.setState({
-      playerOne: 'Magnus Carlsen',
-      playerTwo: 'Anish Giri',
-    });
     this.onMount();
   }
 
   handlePlayerOneChange = event => {
-    this.setState({playerOne: event.value},
-      () => {this.handlePlayerChange();});
+    this.setState({ playerOne: event.value }, () => {
+      this.handlePlayerChange();
+    });
   };
 
   handlePlayerTwoChange = event => {
-    this.setState({playerTwo: event.value},
-      () => {this.handlePlayerChange();});
+    this.setState({ playerTwo: event.value }, () => {
+      this.handlePlayerChange();
+    });
   };
 
   handlePlayerThreeChange = event => {
-    this.setState({playerTjree: event.value},
-      () => {this.handlePlayerChange();});
+    this.setState({ playerTjree: event.value }, () => {
+      this.handlePlayerChange();
+    });
   };
 
   handlePlayerFourChange = event => {
-    this.setState({playerFour: event.value},
-      () => {this.handlePlayerChange();});
+    this.setState({ playerTjree: event.value }, () => {
+      this.handlePlayerChange();
+    });
   };
 
-  handlePlayerChange = event => {
-
-  };
+  handlePlayerChange = event => {};
 
   handleMoveSelect = event => {
     if (event[0]) {
       let moves = this.state.moves;
-      moves.push(this.state.labels[event[0]._index])
-      console.log(moves)
-      let moveNumber = moves.length
+      moves.push(this.state.labels[event[0]._index]);
+      let moveNumber = moves.length;
 
-      let newMap = {};
+      let totalMoveCountMap = {};
+      let playersMoveCountMap = {};
       let newLabels = [];
       let newDatasets = [];
       let isEqual = false;
-      this.state.games.forEach((movelist) => {
-        isEqual = true
+      let opponentName = ''
+      let newGames = this.state.games
+      newGames.filter(game => {
+        isEqual = true;
         moves.some((move, key) => {
-          // console.log('game move: ' + movelist.moves[key])
-          // console.log('selected game: ' + move)
-          if(movelist.moves[key] != move){
-            // console.log('not match')
-            isEqual = false
-            return false
+          if (game.moves[key] != move) {
+            isEqual = false;
+            return false;
           }
-        })
-        if(isEqual){
-          console.log('is equal')
-          if (!newMap[movelist.moves[moveNumber]]) {
-            newMap[movelist.moves[moveNumber]] = 1;
+        });
+        if (isEqual) {
+          console.log(moves[moveNumber])
+          if (!totalMoveCountMap[game.moves[moveNumber]]) {
+            totalMoveCountMap[game.moves[moveNumber]] = 1;
           } else {
-            newMap[movelist.moves[moveNumber]]++;
+            totalMoveCountMap[game.moves[moveNumber]]++;
           }
+
+          if (this.state.playerOne == game.w) {
+            opponentName = game.b;
+          } else {
+            opponentName = game.w;
+          }
+
+          if (!playersMoveCountMap[opponentName]) {
+            playersMoveCountMap[opponentName] = {};
+          }
+          if (!playersMoveCountMap[opponentName][moves[moveNumber]]) {
+            playersMoveCountMap[opponentName][moves[moveNumber]] = 1;
+          } else {
+            playersMoveCountMap[opponentName][moves[moveNumber]]++;
+          }
+          return true;
         }
+        return false;
       });
+      console.log(playersMoveCountMap)
 
       let tempArr = [];
-      for (let i in newMap) {
-        tempArr.push({ move: i, count: newMap[i] });
+      for (let i in totalMoveCountMap) {
+        tempArr.push({ move: i, count: totalMoveCountMap[i] });
       }
 
       tempArr.sort((a, b) => {
@@ -156,17 +213,32 @@ class ChessChart extends Component {
 
       tempArr.forEach(move => {
         newLabels.push(move.move);
-        newDatasets.push(move.count);
       });
 
+      tempArr.forEach(move => {
+        newLabels.push(move.move);
+      });
+
+      let tempOpponentMap = {};
+      for (let i in playersMoveCountMap) {
+        tempOpponentMap = {};
+        tempOpponentMap['label'] = i;
+        tempOpponentMap['data'] = [];
+        newLabels.forEach(move => {
+          if (!playersMoveCountMap[i][move]) {
+            tempOpponentMap['data'].push(0);
+          } else {
+            tempOpponentMap['data'].push(playersMoveCountMap[i][move]);
+          }
+        });
+        newDatasets.push(tempOpponentMap);
+      }
+
       this.setState({
+        games: newGames,
         moves: moves,
         labels: newLabels,
-        datasets: [
-          {
-            data: newDatasets,
-          },
-        ],
+        datasets: newDatasets,
       });
     }
   };
@@ -181,7 +253,7 @@ class ChessChart extends Component {
         },
       ],
     });
-  }
+  };
 
   render() {
     let data = {
@@ -190,9 +262,6 @@ class ChessChart extends Component {
     };
 
     let options = {
-      legend: {
-        display: false,
-      },
       // onClick: this.handleMoveSelect(event)
     };
 
@@ -225,7 +294,7 @@ class ChessChart extends Component {
             placeholder="Select a Player"
           />
         </DropdownContainer>
-        {/* <DropdownContainer>
+        <DropdownContainer>
           <Dropdown
             menuPlacement="auto"
             options={this.state.playerOptions}
@@ -233,7 +302,7 @@ class ChessChart extends Component {
             value={this.state.playerFour}
             placeholder="Select a Player"
           />
-        </DropdownContainer> */}
+        </DropdownContainer>
         <RadarContainer>
           <Radar
             data={data}
