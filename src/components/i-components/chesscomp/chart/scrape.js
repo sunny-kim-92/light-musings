@@ -2,123 +2,58 @@ const cheerio = require('cheerio');
 const got = require('got');
 const { find } = require('lodash');
 
-(async () => {
+async function getGames() {
   try {
     const res = await got(
       'https://www.365chess.com/search_result.php?wlname=carlsen&wname=&open=&blname=giri&bname=&eco=&nocolor=on&yeari=&yeare=&sply=1&ply=&res=&submit_search=1'
     );
-    // console.log(res.body)
-    const regex = /<script>(.*)<\/script>/g
-    const found = res.body.match(regex);
-    console.log(found)
+    console.log(res.body)
+    const dateRegex = /<td align="center" id="col-dat">(.*)<\/td>/g
+    const dates = res.body.match(dateRegex)
+    // console.log(dates)
 
-    // console.log(res.body)
+    const gameRegex = /<script>(.*)<\/script>/g;
+    const games = res.body.match(gameRegex);
+    // console.log(games);
 
-    // const $ = cheerio.load(res.body, { xmlMode: true });
+    let finalGames = [];
+    let tempObj = {};
 
-    // const $ = cheerio.load(res.body);
+    // const whiteRegex = /\['w'\]="(.*)";g\[([0-9]*)\]\['b'\]/g;
+    // const blackRegex = /\['b'\]="(.*)";g\[([0-9]*)\]\['r'\]/g;
+    // const resultRegex = /\['r'\]="(.*)";g\[([0-9]*)\]\['e'\]/g;
+    // const ecoRegex = /\['e'\]="(.*)";g\[([0-9]*)\]\['t'\]/g;
+    // const tournamentRegex = /\['t'\]="(.*)";g\[([0-9]*)\]\['p'\]/g;
+    // const movesRegex = /\['p'\]="(.*)";<\/script>/g;
+    // const idRegex = /\[([0-9]*)\]/g;
+    // const yearRegex = /<script>(.*)";g\[/g
 
-    // let scripts = $(`script:not([src])`)
-    // console.log(typeof scripts)
-    // scripts.forEach((val) => {
-    //   console.log(val.children[0].data)
-    // })
-
-
-
-    // scripts.forEach((val) => {
-    //   console.log(val)
-    // console.log(val[0].children.data)
-    // })
-    // console.log(scripts);
-
-
-
-    // var textNode = $('script:not([src])')
-    //   .map((i, x) => x.children[0])
-    //   .get(0);
-
-    // if (textNode) {
-    //   var scriptText = textNode.data
-      //   .replace(/\r?\n|\r/g, '')
-      //   .replace(/file:/g, '"file":')
-      //   .replace(/label:/g, '"label":');
-      // var jsonString = /sources:(.*)}\);/.exec(scriptText)[1];
-      // var sources = JSON.parse(jsonString);
-      // console.log(source);
-    // }
-
-
-
-    // $('script:not([src])').each((idx, elem) => console.log(elem.text()));
-
+    games.forEach((game) => {
+      if (game.indexOf("['w']") != -1) {
+        let white = /\['w'\]="(.*)";g\[([0-9]*)\]\['b'\]/.exec(game);
+        if (white) {
+          tempObj = {
+            white: white[1],
+            black: /\['b'\]="(.*)";g\[([0-9]*)\]\['r'\]/.exec(game)[1],
+            result: /\['r'\]="(.*)";g\[([0-9]*)\]\['e'\]/.exec(game)[1],
+            eco: /\['e'\]="(.*)";g\[([0-9]*)\]\['t'\]/.exec(game)[1],
+            tournament: /\['t'\]="(.*)";g\[([0-9]*)\]\['p'\]/.exec(game)[1],
+            moves: /\['p'\]="(.*)";<\/script>/.exec(game)[1],
+            id: /\[([0-9]*)\]/.exec(game)[1],
+          }
+          finalGames.push(tempObj)
+          // console.log(tempObj)
+        }
+      }
+    });
+    finalGames.forEach((game) => {
+      game['year'] = />([0-9]*)</g.exec(dates.shift())[1]
+    })
+    return finalGames
+    // console.log(finalGames)
   } catch (err) {
     console.log(err.response.data);
   }
-})();
+}
 
-//   .then(res => {
-//     let links = cheerio.load(res);
-//     return links;
-//   })
-//   .then($ => {
-//     let titlesArr = []
-//     let linksArr = [];
-//     $(`td`)
-//       .find(`a`)
-//       .attr(`href`, (i, val) => {
-//         linksArr.push(val);
-//       });
-//     $(`a.case-title`).text((i, val) => {
-//       titlesArr.push([i, val])
-//     })
-//     console.log(titlesArr)
-//     return linksArr;
-//   })
-//   .then(arr => {
-//     let final = arr.filter(url => {
-//       if (typeof url === "string") {
-//         return (
-//           url.substring(0, 43) ===
-//           "https://www.scotusblog.com/case-files/cases"
-//         );
-//       } else return false;
-//     });
-//     console.log(final)
-//     return final;
-//   })
-//   .then(caseLinks => {
-//     let tempObj = {};
-//     let tempPetitioner = [];
-//     let tempRespondent = [];
-//     let tempName = "";
-//     caseLinks.forEach((url, index) => {
-//       tempObj = {};
-//       rp(url)
-//         .then(res => {
-//           let final = cheerio.load(res);
-//           return final;
-//         })
-//         .then($ => {
-//           tempName = 'Case ' + index
-//           tempHold = {}
-//           tempPetitioner = [];
-//           tempRespondent = [];
-//           $(`tr.color6`)
-//             .find(`a`)
-//             .attr(`title`, (i, val) => {
-//               tempPetitioner.push(val.replace('Brief amici curiae of ', '').replace('Brief amicus curiae of ', '').replace(' filed.', '').replace(' (Distributed)', '')
-//               .replace(' VIDED.', ''))
-//             });
-//           $(`tr.color7`)
-//             .find(`a`)
-//             .attr(`title`, (i, val) => {
-//               tempRespondent.push(val.replace('Brief amici curiae of ', '').replace('Brief amicus curiae of ', '').replace(' filed.', '').replace(' (Distributed)', '')
-//               .replace(' VIDED.', ''))
-//             });
-//             tempHold['Respondent'] = tempRespondent
-//             tempHold['Petitioner'] = tempPetitioner
-//             tempObj[tempName] = tempHold
-//         });
-//     })
-//   })
+getGames();
