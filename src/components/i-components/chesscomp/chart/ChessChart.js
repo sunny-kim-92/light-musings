@@ -13,7 +13,7 @@ class ChessChart extends Component {
       playerOne: 'Magnus_Carlsen',
       playerTwo: 'Anish_Giri',
       playerThree: 'Fabiano_Caruana',
-      playerFour: null,
+      playerFour: 'Hikaru_Nakamura',
       playerOptions: [
         { value: 'Magnus_Carlsen', label: 'Magnus Carlsen' },
         { value: 'Anish_Giri', label: 'Anish Giri' },
@@ -107,12 +107,20 @@ class ChessChart extends Component {
       tempOpponentMap['label'] = i;
       tempOpponentMap['data'] = [];
       newLabels.forEach(move => {
-        if (!playersMoveCountMap[i][move]) {
-          tempOpponentMap['data'].push(0);
-        } else {
+        // if (!playersMoveCountMap[i][move]) {
+        //   tempOpponentMap['data'].push(0);
+        // } else {
           tempOpponentMap['data'].push(playersMoveCountMap[i][move]);
-        }
+        // }
       });
+
+      if(i == this.state.playerTwo){
+        tempOpponentMap['backgroundColor'] = 'rgba(255, 0, 0, 0.1)'
+      } else if (i == this.state.playerThree){
+        tempOpponentMap['backgroundColor'] = 'rgba(0, 255, 0, 0.1)'
+      } else {
+        tempOpponentMap['backgroundColor'] = 'rgba(0, 0, 255, 0.1)'
+      }
       newDatasets.push(tempOpponentMap);
     }
 
@@ -175,7 +183,6 @@ class ChessChart extends Component {
           }
         });
         if (isEqual) {
-          console.log(moves[moveNumber])
           if (!totalMoveCountMap[game.moves[moveNumber]]) {
             totalMoveCountMap[game.moves[moveNumber]] = 1;
           } else {
@@ -191,16 +198,15 @@ class ChessChart extends Component {
           if (!playersMoveCountMap[opponentName]) {
             playersMoveCountMap[opponentName] = {};
           }
-          if (!playersMoveCountMap[opponentName][moves[moveNumber]]) {
-            playersMoveCountMap[opponentName][moves[moveNumber]] = 1;
+          if (!playersMoveCountMap[opponentName][game.moves[moveNumber]]) {
+            playersMoveCountMap[opponentName][game.moves[moveNumber]] = 1;
           } else {
-            playersMoveCountMap[opponentName][moves[moveNumber]]++;
+            playersMoveCountMap[opponentName][game.moves[moveNumber]]++;
           }
           return true;
         }
         return false;
       });
-      console.log(playersMoveCountMap)
 
       let tempArr = [];
       for (let i in totalMoveCountMap) {
@@ -211,9 +217,6 @@ class ChessChart extends Component {
         return b.count - a.count;
       });
 
-      tempArr.forEach(move => {
-        newLabels.push(move.move);
-      });
 
       tempArr.forEach(move => {
         newLabels.push(move.move);
@@ -225,12 +228,20 @@ class ChessChart extends Component {
         tempOpponentMap['label'] = i;
         tempOpponentMap['data'] = [];
         newLabels.forEach(move => {
-          if (!playersMoveCountMap[i][move]) {
-            tempOpponentMap['data'].push(0);
-          } else {
+          // if (!playersMoveCountMap[i][move]) {
+          //   tempOpponentMap['data'].push(0);
+          // } else {
             tempOpponentMap['data'].push(playersMoveCountMap[i][move]);
-          }
+          // }
         });
+
+        if(i == this.state.playerTwo){
+          tempOpponentMap['backgroundColor'] = 'rgba(255, 0, 0, 0.1)'
+        } else if (i == this.state.playerThree){
+          tempOpponentMap['backgroundColor'] = 'rgba(0, 255, 0, 0.1)'
+        } else {
+          tempOpponentMap['backgroundColor'] = 'rgba(0, 0, 255, 0.1)'
+        }
         newDatasets.push(tempOpponentMap);
       }
 
