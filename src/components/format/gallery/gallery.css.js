@@ -11,3 +11,15 @@ export const Container = styled.div`
     display: block;
   `};
 `;
+
+export const Divider = styled.span`
+  ${({ type }) =>
+    type == 'projects' &&
+    `
+display: block;
+height: 1px;
+width:85%;
+margin: 0 auto 5rem;
+background-color: #757575;
+`}
+`;

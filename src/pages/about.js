@@ -40,10 +40,6 @@ const About = ({ data }) => (
         </a>
       </p>
       <p>
-        Graphs (unless otherwise noted) developed with{' '}
-        <a href="https://github.com/jerairrest/react-chartjs-2">ChartJS</a>
-      </p>
-      <p>
         Tables developed with{' '}
         <a href="https://devexpress.github.io/devextreme-reactive/react/grid/">
           DX React

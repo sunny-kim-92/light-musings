@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Item from 'components/format/gallery/item';
 import Title from 'components/format/title';
-import { Container } from './gallery.css';
+import { Container, Divider } from './gallery.css';
 import { Link } from 'gatsby';
 
 const Gallery = ({ type, items }) => (
@@ -21,6 +21,7 @@ const Gallery = ({ type, items }) => (
         </Link>
       ))}
     </Container>
+    <Divider type={type}></Divider>
   </div>
 );
 

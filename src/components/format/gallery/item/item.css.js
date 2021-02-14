@@ -11,11 +11,7 @@ export const Title = styled.span`
 export const Copy = styled.p`
   font-size: 1.5rem;
   color: #757575;
-  margin: 1rem 2rem 2rem;
-
-  ${MEDIA.TABLET`
-    margin-bottom: 4rem;
-  `};
+  margin: 1.5rem 2rem 3rem;
 `;
 
 export const DateForm = styled.span`

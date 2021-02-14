@@ -12,7 +12,7 @@ const Item = ({ title, subtitle, date, frontimg }) => (
     />
     <figcaption>
       <Title>{title}</Title>
-      <DateForm>{date}</DateForm>
+      {date  && <DateForm>{date}</DateForm>}
       <Copy>{subtitle}</Copy>
     </figcaption>
   </figure>
