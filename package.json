@@ -32,6 +32,8 @@
     "array-flat-polyfill": "^1.0.1",
     "babel-plugin-styled-components": "^1.12.0",
     "chart.js": "^2.9.4",
+    "chess.js": "^0.11.0",
+    "chessboardjsx": "^2.4.2",
     "gatsby": "^2.32.3",
     "gatsby-image": "^2.11.0",
     "gatsby-mdx": "^1.0.0",

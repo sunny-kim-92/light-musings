@@ -1,14 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import { Radar } from 'react-chartjs-2';
 import Dropdown from 'react-select';
 import 'array-flat-polyfill';
 import { Container, DropdownContainer, RadarContainer } from './ChessChart.css';
+import Chessboard from 'chessboardjsx';
+import Chess, { setFen } from 'chess.js';
 
 import { data } from './complete';
 
 class ChessChart extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
       playerOne: 'Magnus_Carlsen',
       playerTwo: 'Anish_Giri',
@@ -22,9 +25,10 @@ class ChessChart extends Component {
         { value: 'Alireza_Firouzja', label: 'Alireza Firouzja' },
         { value: 'Liren_Ding', label: 'Ding Liren' },
         { value: 'Ian_Nepomniachtchi', label: 'Ian Nepomniachtchi' },
-
       ],
       color: 'white',
+      chessObject: new Chess(),
+      fen: 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1',
       games: [],
       moves: [],
       labels: [],
@@ -39,7 +43,7 @@ class ChessChart extends Component {
     this.generateChart = this.generateChart.bind(this);
   }
 
-  generateChart = (totalMoveCountMap, playersMoveCountMap, newGames) => {
+  generateChart = (totalMoveCountMap, playersMoveCountMap, newGames, newMove = null) => {
     let newLabels = [];
     let newDatasets = [];
 
@@ -75,7 +79,15 @@ class ChessChart extends Component {
       newDatasets.push(tempOpponentMap);
     }
 
+    let chessObject = this.state.chessObject
+    let fen = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
+    if(newMove){
+      chessObject.move(newMove)
+      fen = chessObject.fen()
+    }
+
     this.setState({
+      fen: fen,
       games: newGames,
       labels: newLabels,
       datasets: newDatasets,
@@ -123,13 +135,12 @@ class ChessChart extends Component {
   handleMoveSelect = event => {
     if (event[0]) {
       let moves = this.state.moves;
+      let newMove = this.state.labels[event[0]._index];
       moves.push(this.state.labels[event[0]._index]);
       let moveNumber = moves.length;
 
       let totalMoveCountMap = {};
       let playersMoveCountMap = {};
-      let newLabels = [];
-      let newDatasets = [];
       let isEqual = false;
       let opponentName = '';
       let newGames = this.state.games;
@@ -167,7 +178,7 @@ class ChessChart extends Component {
         return false;
       });
 
-      this.generateChart(totalMoveCountMap, playersMoveCountMap, newGames);
+      this.generateChart(totalMoveCountMap, playersMoveCountMap, newGames, newMove);
     }
   };
 
@@ -230,10 +241,6 @@ class ChessChart extends Component {
       datasets: this.state.datasets,
     };
 
-    let options = {
-      // onClick: this.handleMoveSelect(event)
-    };
-
     return (
       <Container>
         <DropdownContainer>
@@ -275,12 +282,12 @@ class ChessChart extends Component {
         <RadarContainer>
           <Radar
             data={data}
-            options={options}
             onElementsClick={evt => {
               this.handleMoveSelect(evt);
             }}
           ></Radar>
         </RadarContainer>
+        <Chessboard position={this.state.fen}></Chessboard>
       </Container>
     );
   }
