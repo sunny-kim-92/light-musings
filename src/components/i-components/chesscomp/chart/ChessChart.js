@@ -43,7 +43,12 @@ class ChessChart extends Component {
     this.generateChart = this.generateChart.bind(this);
   }
 
-  generateChart = (totalMoveCountMap, playersMoveCountMap, newGames, newMove = null) => {
+  generateChart = (
+    totalMoveCountMap,
+    playersMoveCountMap,
+    newGames,
+    newMove = null
+  ) => {
     let newLabels = [];
     let newDatasets = [];
 
@@ -79,11 +84,11 @@ class ChessChart extends Component {
       newDatasets.push(tempOpponentMap);
     }
 
-    let chessObject = this.state.chessObject
-    let fen = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
-    if(newMove){
-      chessObject.move(newMove)
-      fen = chessObject.fen()
+    let chessObject = this.state.chessObject;
+    let fen = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1';
+    if (newMove) {
+      chessObject.move(newMove);
+      fen = chessObject.fen();
     }
 
     this.setState({
@@ -107,13 +112,13 @@ class ChessChart extends Component {
   };
 
   handlePlayerThreeChange = event => {
-    this.setState({ playerTjree: event.value }, () => {
+    this.setState({ playerThree: event.value }, () => {
       this.handlePlayerChange();
     });
   };
 
   handlePlayerFourChange = event => {
-    this.setState({ playerTjree: event.value }, () => {
+    this.setState({ playerFour: event.value }, () => {
       this.handlePlayerChange();
     });
   };
@@ -159,10 +164,10 @@ class ChessChart extends Component {
             totalMoveCountMap[game.moves[moveNumber]]++;
           }
 
-          if (this.state.playerOne == game.w) {
-            opponentName = game.b;
+          if (this.state.playerOne == game.white) {
+            opponentName = game.black;
           } else {
-            opponentName = game.w;
+            opponentName = game.white;
           }
 
           if (!playersMoveCountMap[opponentName]) {
@@ -178,7 +183,12 @@ class ChessChart extends Component {
         return false;
       });
 
-      this.generateChart(totalMoveCountMap, playersMoveCountMap, newGames, newMove);
+      this.generateChart(
+        totalMoveCountMap,
+        playersMoveCountMap,
+        newGames,
+        newMove
+      );
     }
   };
 
@@ -191,13 +201,13 @@ class ChessChart extends Component {
 
     data.forEach(entry => {
       if (
-        (entry.w == this.state.playerOne || entry.b == this.state.playerOne) &&
-        (entry.w == this.state.playerTwo ||
-          entry.b == this.state.playerTwo ||
-          entry.w == this.state.playerThree ||
-          entry.b == this.state.playerThree ||
-          entry.w == this.state.playerFour ||
-          entry.b == this.state.playerFour)
+        (entry.white == this.state.playerOne || entry.black == this.state.playerOne) &&
+        (entry.white == this.state.playerTwo ||
+          entry.black == this.state.playerTwo ||
+          entry.white == this.state.playerThree ||
+          entry.black == this.state.playerThree ||
+          entry.white == this.state.playerFour ||
+          entry.black == this.state.playerFour)
       ) {
         let tempGame = entry;
         let moveString = entry.moves;
@@ -214,10 +224,10 @@ class ChessChart extends Component {
           totalMoveCountMap[moves[0]]++;
         }
 
-        if (this.state.playerOne == entry.w) {
-          opponentName = entry.b;
+        if (this.state.playerOne == entry.white) {
+          opponentName = entry.black;
         } else {
-          opponentName = entry.w;
+          opponentName = entry.white;
         }
 
         if (!playersMoveCountMap[opponentName]) {
