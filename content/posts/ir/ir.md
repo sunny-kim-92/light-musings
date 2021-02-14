@@ -1,5 +1,5 @@
 ---
-type: 'blog-post'
+type: 'article'
 link: '/10-4-ir-report/'
 title: 'IR-Eligible Fantasy Football Waiver Targets'
 date: '2019-10-04'

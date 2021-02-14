@@ -117,6 +117,11 @@ export default () => {
     { name: 'NewMexico', title: 'New Mexico' },
     { name: 'NewHampshire', title: 'New Hampshire' },
   ];
+
+  // const final = [];
+  // colArr.forEach(val => {
+  //   final.push({ name: val.replace(/\s/g, ''), title: val });
+  // });
   const rows = data;
 
   return (

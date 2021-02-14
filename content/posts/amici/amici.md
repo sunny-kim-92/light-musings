@@ -1,5 +1,5 @@
 ---
-type: 'blog-post'
+type: 'article'
 link: '/10-2-states-as-friends-of-the-court/'
 title: 'States as Friends of the Court'
 date: '2019-10-02'

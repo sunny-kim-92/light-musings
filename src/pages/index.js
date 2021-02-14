@@ -5,13 +5,20 @@ import Gallery from 'components/format/gallery';
 import { graphql } from 'gatsby';
 
 const Index = ({ data }) => {
-  const posts = [];
+  const articles = [];
+  const projects = [];
+
   data.allMarkdownRemark.edges.forEach(val => {
-    val.node.frontmatter.type === 'blog-post' ? posts.push(val.node) : null;
+    if (val.node.frontmatter.type == 'project') {
+      projects.push(val.node);
+    } else if (val.node.frontmatter.type == 'article') {
+      articles.push(val.node);
+    }
   });
   return (
     <Layout>
-      <Gallery items={posts} />
+      <Gallery type='projects' items={projects} />
+      <Gallery type='articles' items={articles} />
     </Layout>
   );
 };

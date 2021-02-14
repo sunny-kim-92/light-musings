@@ -1,5 +1,5 @@
 ---
-type: 'blog-post'
+type: 'project'
 link: '/02-12-chess-comp/'
 title: 'Chess Graph'
 date: '2021-02-12'

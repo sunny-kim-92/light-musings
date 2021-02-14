@@ -1,5 +1,5 @@
 ---
-type: 'blog-post'
+type: 'article'
 link: '/10-27-making-a-vault/'
 title: "Build Your Own Women's Gymnastics Vault"
 date: '2019-10-24'
