@@ -13,13 +13,16 @@ class ChessChart extends Component {
       playerOne: 'Magnus_Carlsen',
       playerTwo: 'Anish_Giri',
       playerThree: 'Fabiano_Caruana',
-      playerFour: 'Hikaru_Nakamura',
+      playerFour: 'Liren_Ding',
       playerOptions: [
         { value: 'Magnus_Carlsen', label: 'Magnus Carlsen' },
         { value: 'Anish_Giri', label: 'Anish Giri' },
         { value: 'Fabiano_Caruana', label: 'Fabiano Caruana' },
         { value: 'Hikaru_Nakamura', label: 'Hikaru Nakamura' },
-        { value: 'Alireza_Firouzja', label: 'Alireza_Firouzja' },
+        { value: 'Alireza_Firouzja', label: 'Alireza Firouzja' },
+        { value: 'Liren_Ding', label: 'Ding Liren' },
+        { value: 'Ian_Nepomniachtchi', label: 'Ian Nepomniachtchi' },
+
       ],
       color: 'white',
       games: [],
@@ -73,7 +76,7 @@ class ChessChart extends Component {
     }
 
     this.setState({
-      game: newGames,
+      games: newGames,
       labels: newLabels,
       datasets: newDatasets,
     });

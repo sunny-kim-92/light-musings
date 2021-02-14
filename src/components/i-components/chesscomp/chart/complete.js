@@ -1,6 +1,8485 @@
 module.exports = {
   data: [
     {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'C67',
+      t: 'Opera Euro Rapid Prelim',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 Ke8 10. h3 h5 11. Bf4 Be6 12. Ng5 Bc4 13. Rfd1 Bb4 14. Nce4 Be2 15. Rdc1 Bc4 16. b3 Bd5 17. Rd1 Be7 18. c4 Bxe4 19. Nxe4 c5 20. Rd3 Rd8 21. Rad1 b6 22. e6 fxe6 23. Bxc7 Rxd3 24. Rxd3 Kf7 25. Be5 Rd8 26. Rxd8 Bxd8 27. Kf1 g6 28. Ke2 Ke8 29. Kf3 Ne7 30. Nd6+ Kf8 31. Nb7 Nc6 32. Nxd8 Nxd8 33. Kf4 Nc6 34. Bc3 Kf7 35. f3 a6 36. a4 a5 37. h4 Ke7 38. g4 Kf7 39. Ke4 Ke7 40. Bb2 Nd8 41. Be5 Kd7 42. gxh5 gxh5 43. f4 Nf7 44. f5 Nh6 45. fxe6+ Kxe6 46. Bc7 Nf5 47. Bxb6 Nxh4 48. Bxc5 Nf5 49. Bb6 Nd6+ 50. Kf4 Nb7 51. Kg5 Ke5 52. Kxh5 Ke4 53. Kg6 Kd3 54. c5 Nxc5 55. Bxc5 Kc3 56. b4 Kc4 57. b5 Kxc5 58. Kf7 Kb6 59. Ke8 Ka7 60. Ke7 Kb7 61. Kd7 Kb6 62. Kc8 Ka7 63. Kc7 Ka8 64. Kb6 1-0',
+      id: '4279104',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'C19',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 cxd4 8.  Qxg7 Rg8 9. Qxh7 Qc7 10. Qd3 dxc3 11. Nf3 b6 12. h4 Ba6 13. Qd4 Bxf1 14. Kxf1  Nd7 15. h5 Rc8 16. h6 Qc4+ 17. Qxc4 Rxc4 18. Bg5 Rh8 19. g3 Rh7 20. Kg2 Nc6 21.  Rae1 b5 22. Bf6 Nxf6 23. exf6 Rg4 24. Rh5 Rg6 25. Rxd5 Rxf6 26. Rc5 Ne7 27. Rxb5  Rfxh6 28. Rb8+ Kd7 29. Ne5+ Kc7 30. Reb1 Nc6 31. R8b7+ Kd6 32. Nxf7+ Rxf7 33.  Rxf7 1-0',
+      id: '4260773',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. c5 c6 8. h3 b6  9. b4 a5 10. a3 h6 11. Qc1 Bb7 12. Bd3 Qc8 13. O-O Ba6 14. Bxa6 Rxa6 15. Qc2 Qb7  16. Rab1 axb4 17. axb4 Rfa8 18. Rfc1 b5 19. Qb2 Ne4 20. Ra1 Qa7 21. Rxa6 Qxa6  22. Nxe4 dxe4 23. Nd2 f5 24. Nb3 Nf6 25. Bd6 Bd8 26. Ra1 Qb7 27. Ra3 Ra4 28. Qa2  Qa7 29. Rxa4 Qxa4 30. Qxa4 bxa4 31. Nc1 Nd5 32. Na2 g5 33. g3 Kf7 34. Kf1 Bc7  35. Bxc7 Nxc7 36. Ke2 Nd5 37. Kd2 h5 38. Nc3 a3 39. Kc2 Nxb4+ 40. Kb3 Nd3 41.  Nd1 h4 42. gxh4 gxh4 43. Kxa3 Ke7 44. Kb3 Ne1 45. Nc3 Nd3 46. Nd1 f4 47. exf4  Nxf4 48. Nc3 Nxh3 49. Nxe4 Nf4 50. Kc2 h3 51. Ng3 Kf6 52. Kd2 Kg5 53. Ke3 Kg4  54. Nf1 Nd5+ 55. Ke4 Nc3+ 56. Ke3 Nd1+ 57. Ke2 Nb2 58. Ke3 Nc4+ 59. Kd3 Kf3 60.  Kxc4 Kxf2 61. Nh2 Kg2 62. Ng4 Kg3 63. Ne3 Kf3 64. Nf1 Kf2 65. Nh2 Kg2 66. Ng4  Kg3 67. Ne3 Kf3 68. Nf1 Kf2 1/2-1/2',
+      id: '4260775',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B51',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. Ba4 Nf6 5. O-O a6 6. c4 e5 7. d3 g6 8. Nc3 Bg7  9. a3 O-O 10. b4 h6 11. Rb1 Qc7 12. Bd2 b6 13. Ne1 Nb8 14. Nc2 Nc6 15. bxc5 bxc5  16. Bxc6 Qxc6 17. Ne3 Ra7 18. Ncd5 Nh5 19. Rb6 Qd7 20. Rb8 Rb7 21. Nb6 Qe6 22.  Rxc8 Rxc8 23. Nxc8 Qxc8 24. Nd5 Kh7 25. Qa4 Rb2 26. Bc3 Rb8 27. Bd2 Nf6 28. Nc3  Nd7 29. Qc2 h5 30. Rb1 Bh6 31. Be1 Nf8 32. Nd5 Ne6 33. Bc3 Nf4 34. Nxf4 Bxf4 35.  Rxb8 Qxb8 36. Qb2 Qxb2 37. Bxb2 Kg7 38. h3 Kf6 39. Bc3 Bc1 40. a4 Ke6 1/2-1/2',
+      id: '4260777',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. a3 c5 8. cxd5  Nxd5 9. Nxd5 exd5 10. dxc5 Nxc5 11. Be5 Bf6 12. Be2 Bf5 13. Bxf6 Qxf6 14. Qd4  Qd6 15. Rd1 Rfd8 16. Qd2 Nb3 17. Qc3 Qb6 18. Nd4 Nxd4 19. Qxd4 Qxd4 20. Rxd4  Rac8 21. g4 Rc1+ 22. Rd1 Rxd1+ 23. Bxd1 Be6 24. f4 f5 25. gxf5 Bxf5 26. Bb3 Kf8  27. O-O d4 28. Rd1 d3 29. Kf2 Rd6 30. Kf3 Rb6 31. Bd5 Rxb2 32. e4 Bd7 33. Rxd3  Rxh2 34. Rd4 Rh3+ 35. Kf2 Rxa3 36. Bxb7 Ra2+ 37. Ke3 Ra3+ 38. Kd2 Ra2+ 39. Kc3  Ke7 40. Bd5 Ra3+ 41. Kd2 Ra4 42. Rd3 Be6 43. Ba8 Ra2+ 44. Ke3 Rb2 45. f5 Bf7 46.  Kf4 g6 47. Ra3 gxf5 48. Rxa7+ Kf8 49. exf5 Rb4+ 50. Kg5 Rb6 51. Be4 h6+ 52. Kg4  Rb4 53. Kf3 h5 54. Ke3 Bb3 55. Rh7 Ba2 56. Rxh5 Bb1 57. Bd5 Kg7 58. Be6 Kf6 59.  Bd7 Ke5 60. Bc8 Rb3+ 61. Kf2 Rb8 62. Bd7 Rd8 63. Be6 Bxf5 64. Bxf5 Rf8 65. Ke3  Rxf5 66. Rxf5+ Kxf5 1/2-1/2',
+      id: '4260779',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'D37',
+      t: 'Online Nations Cup Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. c5 c6 8. h3 b6  9. b4 a5 10. a3 h6 11. Qc1 Bb7 12. Bd3 Qc8 13. O-O Ba6 14. Bxa6 Rxa6 15. Qb2 Qb7  16. Rfb1 axb4 17. axb4 Rxa1 18. Qxa1 Ra8 19. Qb2 Nh5 20. Bh2 Bd8 21. Ra1 Nhf6  22. g4 Ne8 23. Rxa8 Qxa8 24. Qa2 Qb7 25. Qa4 b5 26. Qa1 Bc7 27. Bxc7 Nxc7 28.  Qa5 f6 29. Ne2 Kf7 30. Nc1 g5 31. Nd3 Ke7 32. Nd2 Kd8 33. Nb3 Qa6 34. f4 Qxa5  35. Nxa5 Nb8 36. Kf2 Ne8 37. Kg3 Kc7 38. h4 Nd7 39. Nb3 gxh4+ 40. Kxh4 Ng7 41.  Nd2 Nf8 42. Nf3 Ng6+ 43. Kg3 Kd8 44. Nh4 Ne7 45. Kf3 Ke8 46. Nc1 Kf7 47. Nb3 h5  48. Na5 hxg4+ 49. Kxg4 Ne8 50. f5 Nc7 51. fxe6+ Kxe6 52. Ng2 Ne8 53. Nf4+ Kd7  54. Nh5 Kc7 55. Nb3 Kd7 56. Nc1 Ke6 57. Nf4+ Kf7 58. Nb3 Ng7 59. Na5 Ngf5 60.  Kf3 Nh4+ 61. Kg3 Nhf5+ 62. Kf2 Ng7 63. Nb7 Ke8 64. Kf3 Kd7 65. Na5 Nef5 66. Kf2  Ne7 67. Kf3 Nef5 68. Nb3 Nh4+ 69. Kf2 Nhf5 70. Nd2 Ke7 71. Nf3 Kf7 72. Nh2 Ke7  73. Ng4 Kf7 74. Kf3 Nh4+ 75. Ke2 Nhf5 76. Nf2 Ng3+ 77. Kf3 N3f5 78. Nd1 Nh4+ 79.  Kf2 Nhf5 80. Nc3 Ne8 81. Kf3 Nc7 82. Nce2 Na6 83. Nd3 Nc7 84. Nec1 Ne6 85. Nb3  Ke8 86. Nf2 Kf7 87. Na5 Nd8 88. Ng4 Kg6 89. Nf2 Kf7 90. Nd3 Kg6 91. Nf4+ Kf7 92.  Ng2 Kg6 93. Kf4 Ne6+ 94. Kg4 Nh6+ 95. Kf3 Nd8 96. Nf4+ Kf5 97. Nh5 Kg6 98. Ng3  Nhf7 99. e4 Ng5+ 100. Ke3 dxe4 101. Nxe4 Nge6 102. Nc3 Nc7 103. Kf4 Na6 104. Na2  Nc7 105. Ke4 f5+ 106. Ke5 Nf7+ 107. Kf4 Nd5+ 108. Kf3 Nd8 109. Kg3 Kh5 110. Kf3  Kg5 111. Kg3 f4+ 112. Kf3 Kf5 113. Nc1 Nxb4 114. Ne2 Nd5 115. Nc1 Nc7 116. Nd3  Nce6 117. Nb3 Ng5+ 118. Kf2 Ke4 119. Nb4 Nge6 120. d5 cxd5 121. c6 Ke5 122. Na5  Nc7 123. Kf3 Nde6 124. Nd3+ Kd4 125. Nxf4 Nxf4 126. Kxf4 Kc3 127. Nb7 b4 128.  Nc5 Kc4 129. Na4 Kb5 130. Nb2 Kxc6 131. Ke5 Kc5 132. Na4+ Kc4 133. Kd6 d4 134.  Kxc7 d3 135. Kb6 d2 136. Nb2+ Kb3 137. Nd1 Kc2 138. Ne3+ Kc1 0-1',
+      id: '4260861',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'D85',
+      t: 'Online Nations Cup Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Na4 e5 6. dxe5 Bb4+ 7. Bd2 Qe7 8.  Nf3 Nc6 9. a3 Bxd2+ 10. Qxd2 Nb6 11. Nxb6 axb6 12. Qf4 O-O 13. e3 Ra5 14. Be2  Nxe5 15. O-O Bg4 16. Rfd1 Nxf3+ 17. Bxf3 Bxf3 18. Qxf3 c6 19. Rd4 Rd8 20. Rad1  Rxd4 21. Rxd4 Rb5 22. b4 Rf5 23. Qd1 c5 24. Rd7 Qf6 25. f4 cxb4 26. axb4 Qc3 27.  Kf2 Rf6 28. Qe1 Qb2+ 29. Rd2 Qe5 30. Rd8+ Kg7 31. Qd2 Qa1 32. h4 Rc6 33. Kg3 Qc3  34. Qd4+ Qxd4 35. Rxd4 h5 36. Kf3 Rc1 37. Rd6 Rc6 38. Rd5 Rc4 39. Rb5 Rc6 40. f5  f6 41. fxg6 Kxg6 42. e4 Re6 43. g3 Rc6 44. Ke3 Rc3+ 45. Kf4 Rc6 46. g4 hxg4 47.  Kxg4 Re6 48. Kf3 Rc6 49. Kf4 Re6 50. h5+ Kh6 51. Rd5 Rc6 52. Kf5 Rc4 53. b5 Rb4  54. Kxf6 Rxe4 55. Re5 Rc4 56. Ke7 Kh7 57. Re6 Rc5 58. Rxb6 Rxh5 59. Rxb7 Kg6 60.  Rb8 Kf5 61. Kd6 Ke4 62. b6 Kd4 63. Rd8 1-0',
+      id: '4260921',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'B50',
+      t: 'Saint Louis Rapid 2020',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Nc3 Nf6 4. h3 a6 5. a4 Nc6 6. d4 cxd4 7. Nxd4 Bd7 8. Nb3 g6 9. a5 Bg7 10. Be3 O-O 11. Be2 Be6 12. Bb6 Qc8 13. O-O Nd7 14. Na4 Rb8 15. c4 Nxb6 16. Nxb6 Qd8 17. Qd2 Ne5 18. f4 Nd7 19. f5 Bxf5 20. exf5 Nxb6 21. c5 Nc8 22. Rad1 Qe8 23. Qf4 Be5 24. Qe4 Qc6 25. Qe3 Bxb2 26. Bc4 dxc5 27. fxg6 hxg6 28. Qh6 Nd6 29. Nd4 Qe4 30. Rf4 Qxf4 31. Qxf4 Bxd4+ 32. Rxd4 cxd4 33. Bd3 Rbc8 34. Qxd4 Rfd8 35. Qe5 e6 36. h4 Nf5 37. Bxf5 exf5 38. h5 Re8 39. Qd5 gxh5 40. Qxb7 Rc1+ 41. Kh2 h4 42. Qd5 Re6 43. Qd8+ Kh7 44. Qd7 Rf6 45. Qe7 Rcc6 46. Kh3 Kg7 47. Kxh4 Rce6 48. Qc5 Re2 49. Kg3 Rg6+ 50. Kf3 Rexg2 51. Qe5+ Kh7 52. Qxf5 Rg3+ 53. Kf2 Kg8 54. Qd5 R3g5 55. Qd8+ Kg7 56. Qc7 Re6 57. Qc3+ Kh7 58. Qd3+ Kh6 59. Qc3 Rf5+ 0-1',
+      id: '4270314',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'A01',
+      t: 'Saint Louis Blitz 2020',
+      moves:
+        '1. b3 d5 2. Bb2 c5 3. Nf3 f6 4. e3 e5 5. d4 cxd4 6. exd4 e4 7. Nfd2 f5 8. c4 Nf6 9. Nc3 Be6 10. cxd5 Nxd5 11. Bb5+ Nc6 12. O-O Be7 13. Nc4 O-O 14. Bxc6 bxc6 15. Ne5 Nxc3 16. Bxc3 Bd5 17. f4 exf3 18. Nxf3 Bd6 19. Qd2 Rf6 20. Ne5 Bxe5 21. dxe5 Rg6 22. Rf2 Qh4 23. Re1 Re8 24. e6 Be4 25. Qd7 Rexe6 26. Qc8+ Kf7 27. Rd1 Re8 28. Rd7+ Re7 29. Rd8 Rge6 30. Rg8 Rg6 31. Rf8# 1-0',
+      id: '4270372',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B50',
+      t: 'Saint Louis Blitz 2020',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Nc3 Nf6 4. h3 a6 5. a4 Nc6 6. d4 cxd4 7. Nxd4 Bd7 8. Nb3 g6 9. a5 Bg7 10. Be3 O-O 11. Be2 Be6 12. Bb6 Qc8 13. O-O Nd7 14. Na4 Bxb3 15. cxb3 Qe8 16. Qd2 Nxb6 17. Nxb6 Rd8 18. b4 Nd4 19. Bc4 e6 20. Rfe1 Qe7 21. Rad1 Rfe8 22. Re3 Qg5 23. Rd3 Qxd2 24. R3xd2 Nc6 25. Rxd6 Bxb2 26. Rxd8 1/2-1/2',
+      id: '4270404',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B90',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bd3 e5 7. Nde2 Be7 8. O-O O-O 9. Ng3 Be6 10. Nd5 Bxd5 11. exd5 g6 12. c4 Nbd7 13. a3 Nc5 14. Bc2 b5 15. b4 Nb7 16. cxb5 axb5 17. Bh6 Re8 18. Bd3 Nxd5 19. Qf3 Nc3 20. Qxb7 d5 21. Bd2 Rb8 22. Qa7 Ne4 23. Bxe4 dxe4 24. Rfd1 f5 25. Bc3 Bd6 26. Qe3 Qf6 27. Bb2 Bc7 28. Qb3+ Kh8 29. Rd7 Bb6 30. Rad1 Re6 31. Bc1 Rbe8 32. Be3 Bxe3 33. fxe3 h5 34. Rc7 h4 35. Ne2 f4 36. exf4 exf4 37. Nxf4 Rf8 38. Qxe6 Qxf4 39. Qb6 h3 40. Qd4+ Rf6 41. Rc6 1-0',
+      id: '4274634',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B51',
+      t: 'Airthings Masters Prelim',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. c4 e5 5. O-O g6 6. b4 b6 7. bxc5 bxc5 8. d3 Bg7 9. Nc3 Ne7 10. Nd5 O-O 11. Rb1 Nb6 12. Nxe7+ Qxe7 13. a4 Rb8 14. a5 Na8 15. Bg5 f6 16. Bd2 Nc7 17. Bc6 Bd7 18. Bxd7 Qxd7 19. Qc2 Qc6 20. Rxb8 Rxb8 21. Rb1 Rb7 22. Bc3 Bh6 23. Qa2 Kf8 24. Rb3 Na6 25. Qb1 Rxb3 26. Qxb3 Nb4 27. Ne1 f5 28. exf5 gxf5 29. d4 exd4 30. Bxb4 Qe4 31. Kf1 cxb4 32. Qxb4 Bf4 33. Qb8+ Kg7 34. Qxa7+ Kg6 35. Qb8 d3 36. Qg8+ Kh6 37. Qf8+ Kg6 38. Qg8+ Kh6 39. Qf8+ Kg6 40. Qg8+ 1/2-1/2',
+      id: '4276946',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'A29',
+      t: "Cote d'Ivoire Rapid 2019",
+      moves:
+        '1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8. a3 O-O 9. d3 Be6 10. b4 a5 11. b5 Nd4 12. Nd2 Qc8 13. e3 Nf5 14. a4 Rd8 15. Qc2 c6 16. bxc6 bxc6 17. Ba3 Qd7 18. Rfb1 Qxd3 19. Qxd3 Rxd3 20. Rxb6 Rxc3 21. Bxe7 Nxe7 22. Rab1 h6 23. Rb8+ Rxb8 24. Rxb8+ Kh7 25. Ra8 Rc1+ 26. Nf1 Rc5 27. Nd2 Nd5 28. Ra7 Rc1+ 29. Nf1 Nc3 30. Rxa5 e4 31. f4 Bc4 32. g4 Bd3 33. Kf2 Rc2+ 34. Kg3 c5 35. Ra7 c4 36. Rxf7 Ne2+ 37. Kh3 c3 38. Rc7 Ra2 39. f5 c2 40. f6 c1=Q 0-1',
+      id: '4193609',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 c5 7. dxc5 Bxc5 8. cxd5 Nxd5 9. Nxd5 exd5 10. Bd3 Bb4+ 11. Nd2 d4 12. e4 Na6 13. O-O Nc5 14. Nb3 Be6 15. Nxc5 Bxc5 16. Rc1 Rc8 17. a3 a5 18. h3 Qb6 19. Qe2 Be7 20. Be5 Rfe8 21. Qd2 Bf8 22. Rxc8 Bxc8 23. Bg3 Bd7 24. e5 g6 25. f4 Bb5 26. f5 gxf5 27. Rxf5 Bxd3 28. Qxd3 Bg7 29. Rg5 Qxb2 30. Kh2 Re6 31. Qc4 Qc3 32. Qd5 Qxa3 33. Qxd4 Qe7 34. Rf5 Qe8 35. Qa7 b6 36. Rg5 h6 37. Rg4 Kh7 38. Qb7 Qe7 39. Qe4+ Rg6 40. Rxg6 fxg6 41. Qd5 a4 42. e6 Bf8 43. Qd7 a3 44. Qd5 b5 45. Be5 b4 46. Kh1 Bg7 47. Bd6 Qa7 48. Bc5 a2 49. Bxa7 a1=Q+ 50. Bg1 Qe1 51. Qd7 b3 52. e7 b2 53. e8=Q Qxe8 1/2-1/2',
+      id: '4193644',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'C60',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 g6 4. c3 a6 5. Ba4 Bg7 6. d4 exd4 7. cxd4 b5 8. Bb3 Nge7 9. O-O d6 10. d5 Na5 11. Bc2 c5 12. Nc3 O-O 13. h3 h6 14. Re1 g5 15. e5 dxe5 16. Nxe5 b4 17. Na4 Qxd5 18. Qxd5 Nxd5 19. Be4 Be6 20. Nxc5 Bxe5 21. Bxd5 Bxd5 22. Rxe5 Rfd8 23. Re1 b3 24. Bd2 Nc4 25. Bc3 bxa2 26. Rxa2 Rac8 27. Rxa6 Rxc5 28. Rxh6 f6 29. Bxf6 Rd7 30. Rh8+ Kf7 31. Rh7+ Kxf6 32. Rxd7 Be6 33. Rb7 Ne5 34. Rb6 Kf5 35. b4 Rd5 36. Rb8 Nd7 37. Rd8 Rb5 38. Re8 Rb6 39. Re7 Ne5 40. Rb1 Nc6 41. Re8 Rxb4 42. Ra1 Nd4 43. Rf8+ Kg6 44. Re1 Kg7 45. Ra8 Kf6 46. Ra6 Kf5 47. Kh2 Rb2 48. Ra5+ Kf6 49. Re4 Nc6 50. Rc5 Rb6 51. h4 gxh4 52. Rxh4 Ne7 53. Rf4+ Kg7 54. Re4 Kf6 55. Re3 Nf5 56. Re2 Ne7 57. f3 Ng6 58. Rd2 Ne5 59. Kg3 Nf7 60. Ra5 Rc6 61. Rd4 Rb6 62. Kh4 Nh6 63. g4 Nf7 64. Rf4+ Kg7 65. Kg3 Rb1 66. Re4 Rb6 67. f4 Bb3 68. Re7 Kf8 69. Rc7 Bd1 70. Rf5 Bb3 71. g5 Kg7 72. Ra5 Rd6 73. f5 Rd3+ 74. Kf4 Rd4+ 75. Ke3 Rc4 76. Rb7 Rc3+ 77. Kd4 Rg3 78. g6 Rg4+ 79. Ke3 Rg1 80. Raa7 Bd5 81. Rxf7+ Bxf7 82. Rxf7+ Kg8 83. Kf4 Rf1+ 84. Kg5 Rg1+ 85. Kf6 Ra1 86. Rb7 1-0',
+      id: '4193689',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Na4 Bf5 6. f3 Nb6 7. e4 Nxa4 8.  Qxa4+ Bd7 9. Qb3 Bg7 10. Be3 O-O 11. d5 b6 12. Rd1 Qe8 13. Rd2 c6 14. Ne2 e6 15.  dxc6 Nxc6 16. Qa3 Ne5 17. Nc3 b5 18. Qa6 b4 19. Nd1 Qe7 20. Be2 Rfd8 21. O-O Bc8  22. Rxd8+ Qxd8 23. Qa4 a5 24. Nf2 Bd7 25. Qd1 Nc6 26. b3 Be8 27. Qxd8 Rxd8 28.  Rd1 Bd4 29. Bxd4 Nxd4 30. Kf1 Kf8 31. e5 Bc6 32. Ng4 Ke7 33. Nf6 h5 34. Rc1 Kf8  35. Kf2 a4 36. bxa4 Bxa4 37. Rc7 b3 38. axb3 Bxb3 39. Ke3 Ba4 40. Bd3 Nc6 41.  Nd7+ Ke8 42. Nf6+ Kf8 43. Bc2 Bb5 44. Kf4 Ne7 45. Nh7+ Ke8 46. Nf6+ Kf8 47. Be4  Rc8 48. Ra7 Bc6 49. Kg5 Bxe4 50. Nxe4 Nc6 51. Rb7 Kg7 52. Nd6 Rf8 53. f4 Nd4 54.  Rd7 Nf5 55. Nxf5+ gxf5 56. Rd3 Ra8 57. Rg3 f6+ 58. Kxh5+ Kf7 59. Rg6 fxe5 60.  fxe5 Ra5 61. Kh6 Rxe5 62. Rg7+ Kf6 63. Rg6+ Kf7 64. Rg7+ Kf6 65. Rg6+ 1/2-1/2',
+      id: '4200125',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'C50',
+      t: 'Grand Chess Tour Blitz Paris 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 O-O 6. h3 d5 7. exd5 Nxd5 8. Re1  Be6 9. Nbd2 f6 10. Nb3 Bb6 11. a4 a6 12. a5 Ba7 13. d4 Kh8 14. dxe5 Nxe5 15.  Bxd5 Bxd5 16. Nxe5 fxe5 17. Be3 Bxb3 18. Bxa7 Qxd1 19. Raxd1 Bxc2 20. Rd2 Ba4  21. Bc5 Rfe8 22. Rde2 Bc6 23. Rxe5 Rxe5 24. Rxe5 Re8 25. Rf5 Kg8 26. Bd4 Rd8 27.  Rf4 Rd5 28. Rg4 g6 29. Bc3 Kf7 30. f3 h5 31. Rc4 Ke6 32. Kf2 Kf7 33. g4 hxg4 34.  hxg4 g5 35. Ke3 Rd7 36. Rc5 Rd5 37. Rc4 Rd7 38. f4 Bd5 39. Rb4 c5 40. Ra4 Re7+  41. Kf2 Bb3 42. Ra3 Bd1 43. fxg5 Bxg4 44. Ra4 Be6 45. Rh4 Kg6 46. Bd2 Rh7 47.  Rxh7 Kxh7 1/2-1/2',
+      id: '4208530',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: 'Grand Chess Tour Blitz Paris 2019',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bb5+ c6 8.  Ba4 a5 9. Nf3 b5 10. Bb3 a4 11. Bc2 O-O 12. O-O c5 13. Rb1 Nc6 14. Be3 cxd4 15.  cxd4 Bg4 16. Rxb5 Bxf3 17. gxf3 Bxd4 18. Rd5 Bxe3 19. Rxd8 Rfxd8 20. Qe2 Bf4 21.  Bxa4 Nd4 22. Qd1 Ra5 23. h4 Rh5 24. Kg2 Ne6 25. Qc2 Be5 26. Rd1 Rb8 27. Bb3 Nf4+  28. Kg1 Rxh4 29. Qc5 Ne2+ 30. Kf1 Nf4 31. Kg1 Ne2+ 32. Kf1 Nf4 33. Kg1 1/2-1/2',
+      id: '4208480',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'D85',
+      t: 'Grand Chess Tour Rapid Paris 2019',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Be3 c5 8.  Qd2 Qa5 9. Rc1 Nd7 10. Nf3 O-O 11. Bd3 e5 12. d5 f5 13. Qc2 f4 14. Bd2 b5 15. c4  b4 16. O-O Qc7 17. a3 a5 18. axb4 axb4 19. Ra1 Ra7 20. Rxa7 Qxa7 21. Bc1 Nb6 22.  Bb2 Qe7 23. Ra1 g5 24. Ne1 g4 25. Bf1 Bd7 26. Nd3 Ra8 27. Rxa8+ Nxa8 28. Qc1 Nb6  29. Qa1 Nxc4 30. Nxb4 cxb4 31. Bxc4 Qc5 32. Bb3 g3 33. Qe1 Bf6 34. hxg3 fxg3 35.  Qe2 Bh4 36. Bc4 Qxf2+ 37. Qxf2 gxf2+ 38. Kh2 Ba4 39. g3 Bb3 40. Bf1 Bd8 41. Kg2  Bc2 42. Kf3 Bc7 43. Kxf2 Bxe4 44. Bc4 Kg7 45. Bb3 Kf6 46. Bc1 Bb6+ 47. Ke2 Bc5  48. g4 Bb1 49. Bd2 Bg6 50. Bh6 Be8 51. Kf3 Kg6 52. Bd2 Bd6 53. Bc1 Bb5 54. Bc2+  Kg7 55. Ke4 Be8 56. Kf3 Bg6 57. Bb3 Kf6 58. Be3 Bd3 59. Bb6 Kg5 60. Bd8+ Kg6 61.  Ke3 Bb1 62. Kf3 e4+ 63. Ke3 Bc5+ 64. Kf4 e3 65. Bh4 e2 66. d6 Bxd6+ 67. Ke3 Be7  68. Be1 Kg5 69. Be6 Bc2 70. Bd2 Bd1 71. Kf2+ Kf6 72. Bc4 b3 73. Bxe2 Bc5+ 74.  Ke1 Bxe2 75. Kxe2 Bd4 76. Kd3 b2 77. Kc2 Ke5 78. Bg5 Ke4 79. Bd8 Kf3 80. g5 Kg4  81. Bf6 Be3 82. Bxb2 Bxg5 83. Kd3 Kf3 84. Bc3 h5 85. Be1 Bf6 86. Kd2 Bg5+ 87.  Kd3 Bd8 88. Kd4 Bb6+ 89. Ke5 Bc7+ 90. Kf5 Bg3 91. Bc3 h4 92. Bd4 h3 93. Bg1 Bf2 0-1',
+      id: '4208459',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'D37',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 c5 7. dxc5 Bxc5 8. cxd5  Nxd5 9. Nxd5 exd5 10. Bd3 Bb4+ 11. Nd2 Nc6 12. O-O Be7 13. Rc1 Qb6 14. Qc2 Nb4  15. Bxh7+ Kh8 16. Qc7 Qxc7 17. Rxc7 Bd8 18. Bd6 Bxc7 19. Bxf8 a5 20. Bb1 Be5 21.  b3 Bg4 22. Bc5 Rc8 23. Bb6 Nxa2 24. Bxa2 Rc2 25. Nf3 Bxf3 26. gxf3 Rxa2 27. Rd1  Ra1 28. Rxa1 Bxa1 29. Bxa5 f5 30. Kf1 Kg8 31. Ke2 Kf7 32. Kd3 Be5 33. Bc3 Bd6  34. e4 dxe4+ 35. fxe4 Ke6 36. Bxg7 Bxh2 37. Bd4 b5 38. Bb6 Be5 39. Ke3 Bb2 40.  Bd4 Bc1+ 41. Kd3 Ba3 42. Bb6 Bb2 43. Bc7 Bf6 44. Ba5 Be5 45. Bb4 Bf6 46. Bc5 Be5  47. Ba7 Bf6 48. Bd4 Be7 49. Ke3 Bg5+ 50. f4 Be7 51. Bb6 Ba3 52. Kd3 Bc1 53. Bc7  Bb2 54. Bb8 Bf6 55. Ke3 Bb2 56. Be5 Bc1+ 57. Kd3 b4 58. Bb8 Kf6 59. Bd6 Ke6 60.  Be5 Ba3 61. Bd4 Bc1 62. Be3 Bb2 63. Bd2 fxe4+ 64. Kxe4 Ba3 65. Kd4 Kf5 66. Kd5  Kf6 67. Kc5 Kf5 68. Kb5 Ke4 69. Bxb4 1-0',
+      id: '4211821',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B51',
+      t: 'Tata Steel India Rapid',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. Ba4 Nf6 5. O-O e6 6. Re1 a6 7. c3 b5 8. Bc2 c4 9. a4 Bb7 10. d4 cxd3 11. Qxd3 Nc5 12. Qe2 bxa4 13. Be3 Nfd7 14. Bd4 e5 15. Bxc5 Nxc5 16. Rxa4 Be7 17. Ra2 O-O 18. Nbd2 a5 19. Nb3 Ba6 20. Qd1 Bc4 21. Nfd2 Be6 22. Ra1 Nd7 23. Nc1 Qb6 24. Bb3 Nc5 25. Bxe6 fxe6 26. Nc4 Qb5 27. Qe2 a4 28. Na2 Rfc8 29. Na3 1/2-1/2',
+      id: '4230925',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A45',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. d4 Nf6 2. Bg5 e6 3. e4 h6 4. Bxf6 Qxf6 5. c3 b6 6. g3 Bb7 7. Bg2 Qe7 8. Nd2 g6 9. Ngf3 Bg7 10. O-O O-O 11. Re1 d6 12. e5 Nd7 13. exd6 cxd6 14. a4 a6 15. Nh4 Nf6 16. Qe2 Rab8 17. Bxb7 Qxb7 18. Ng2 b5 19. axb5 axb5 20. Ne3 b4 21. c4 Ne4 22. Nf3 f5 23. Ra5 Kh7 24. Rea1 Ra8 25. Nf1 Rxa5 26. Rxa5 Ra8 27. Rxa8 Qxa8 28. b3 Qa1 29. Qe3 g5 30. h3 Qc3 31. Kg2 Kg6 32. g4 h5 33. gxh5+ Kh6 34. d5 exd5 35. cxd5 Kxh5 36. Ng3+ Kg6 37. Nxe4 Qxe3 38. fxe3 fxe4 39. Nd2 Kf5 40. Nc4 Be5 41. Na5 Bc3 42. Nc4 Be5 43. Kf2 Kf6 44. Na5 Kf5 45. Nc4 1/2-1/2',
+      id: '4230953',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'C50',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 O-O 6. c3 d6 7. h3 h6 8. Re1 a5 9. Nbd2 Ne7 10. Nf1 Ng6 11. Ng3 c6 12. d4 exd4 13. cxd4 Bb4 14. Bd2 d5 15. Bxb4 axb4 16. Bb3 dxe4 17. Nxe4 Nxe4 18. Rxe4 Bf5 19. Re3 Qd6 20. Qe1 Nf4 21. Ne5 Be6 22. Nc4 Qxd4 23. Rd1 Qf6 24. Nb6 Rae8 25. Bxe6 Rxe6 26. Qxb4 Qg5 27. g4 Rxe3 28. fxe3 Nxh3+ 29. Kh2 Nf2 30. Rd4 c5 0-1',
+      id: '4232217',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'E60',
+      t: '11th Tal Mem Rapid 2018',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. e3 O-O 5. Be2 c5 6. d5 e6 7. Nc3 b6 8. O-O exd5  9. cxd5 Re8 10. Nd2 Ba6 11. Re1 d6 12. e4 Qc8 13. a4 c4 14. b4 cxb3 15. Bb2 Bxe2  16. Rxe2 Nh5 17. Rc1 Na6 18. Nb5 Qg4 19. Bxg7 Kxg7 20. Nxd6 Red8 21. h3 Qg5 22.  Nf3 Qf4 23. e5 Nc5 24. Rc4 Qh6 25. Rh4 Kg8 26. g4 b2 27. gxh5 Qc1 28. Re1 Qxd1  29. Rxd1 Nd3 30. hxg6 hxg6 31. Rd4 Nc1 32. Rb4 Ne2+ 33. Kg2 Nc3 34. Re1 b1=Q 35.  Rbxb1 Nxb1 36. Rxb1 f6 37. Rc1 fxe5 38. Rc6 1-0',
+      id: '4101960',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'C67',
+      t: '11th Tal Mem Blitz 2018',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nf5 8.  Nf3 O-O 9. d4 d5 10. c3 Re8 11. b3 Nd6 12. Nbd2 Bf5 13. Bb2 Ne4 14. Nxe4 Bxe4  15. Bd3 Bd6 16. Bxe4 dxe4 17. Nd2 f5 18. Nc4 Qh4 19. Nxd6 cxd6 20. c4 Nb4 21.  Re3 Nd3 22. Qd2 f4 23. Rh3 Qf6 24. Rf1 d5 25. cxd5 Rad8 26. Rh5 Qg6 27. Re5 Nxe5  28. dxe5 f3 29. g3 Qe6 30. Kh1 Rxd5 31. Qc2 Qc6 32. Qb1 Rd2 33. Bc1 Rd3 34. Be3  Rxe5 35. h4 Qd7 36. Kh2 Rxe3 37. fxe3 Qd2+ 38. Kh3 h5 39. Rg1 f2 40. Rf1 Qxe3  41. Qc2 Rf5 42. Qc8+ Rf8 43. Qe6+ Kh7 44. Qe5 Qf3 0-1',
+      id: '4102049',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'A17',
+      t: 'World Rapid 2018',
+      moves:
+        '1. c4 Nf6 2. Nc3 e6 3. Nf3 d5 4. e3 Be7 5. b3 c5 6. cxd5 Nxd5 7. Bb2 Nxc3 8. Bxc3 O-O 9. h4 Bf6 10. Qc2 Bxc3 11. dxc3 Nc6 12. Bd3 f5 13. O-O-O Qa5 14. e4 b5 15. exf5 exf5 16. Rhe1 Rb8 17. Ne5 Nxe5 18. Rxe5 Qc7 19. Qe2 a6 20. Bc2 c4 21. Kb2 Qc6 22. f4 Rb6 23. b4 Qf6 24. g3 Re6 25. Rdd5 Rfe8 26. Rxe6 Rxe6 27. Qd2 Re8 28. a4 Be6 29. Re5 Rd8 30. Qe3 Bd7 31. a5 g6 32. h5 Qd6 33. hxg6 hxg6 34. g4 Rf8 35. gxf5 gxf5 36. Qg3+ Kf7 37. Qf3 Rh8 38. Rd5 Qe7 39. Qf2 Be6 40. Re5 Qd7 41. Re1 Rh6 42. Rd1 Qb7 43. Rd2 Rh3 44. Qc5 Qf3 45. Qc7+ Kg6 46. Qe5 Qe3 47. Rg2+ Kf7 48. Rg7+ 1-0',
+      id: '4161947',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A06',
+      t: 'World Blitz 2018',
+      moves:
+        '1. Nf3 d5 2. b3 Nf6 3. Bb2 e6 4. g3 b6 5. Bg2 Bb7 6. O-O Be7 7. c4 O-O 8. cxd5 Nxd5 9. d4 Nd7 10. a3 c5 11. Nbd2 Rc8 12. Re1 cxd4 13. Nxd4 Nc3 14. Bxc3 Bxg2 15. Kxg2 Rxc3 16. Ne4 Rc8 17. a4 Nc5 18. Nxc5 Bxc5 19. Nf3 Qe7 20. Qd3 Rfd8 21. Qa6 h6 1/2-1/2',
+      id: '4165815',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D31',
+      t: '6th Zurich Opening Blitz',
+      moves:
+        '1. c4 e6 2. Nc3 d5 3. d4 Be7 4. cxd5 exd5 5. Bf4 Nf6 6. e3 Bf5 7. Nge2 O-O 8. Ng3 Bg6 9. h4 h6 10. h5 Bh7 11. Bd3 c6 12. Bxh7+ Nxh7 13. Nf5 Nd7 14. g4 Re8 15. Qc2 b5 16. Ne2 Rc8 17. Bd6 Bf8 18. Bxf8 Ndxf8 19. f3 a5 20. O-O-O Ne6 21. Kb1 Nhg5 22. Rhf1 b4 23. Nc1 c5 24. dxc5 Nxc5 25. Qd2 Qc7 26. Qxd5 Rcd8 27. Qc4 Rxd1 28. Rxd1 Nxf3 29. Nb3 Ne6 30. Qxc7 Nxc7 31. Nxa5 g6 32. Nd4 Rxe3 33. hxg6 fxg6 34. Nc4 Re1 35. Rxe1 Nxe1 36. Kc1 h5 37. gxh5 gxh5 38. Kd2 Ng2 39. Ke2 Nf4+ 40. Kf3 Nd3 41. Kg3 Nc1 42. Kh4 Nxa2 1/2-1/2',
+      id: '4044337',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'A48',
+      t: 'Zurich Korchnoi CC 2017',
+      moves:
+        '1. d4 Nf6 2. Nf3 g6 3. e3 Bg7 4. c4 O-O 5. Be2 b6 6. O-O Bb7 7. Nc3 d5 8. cxd5 Nxd5 9. Bd2 Nd7 10. Nxd5 Bxd5 11. Bc3 c5 12. Rc1 e6 13. Qa4 a6 14. Qa3 Qb8 15. dxc5 Bxc3 16. Qxc3 bxc5 17. Nd2 a5 18. a4 Qb7 19. e4 Bc6 20. b3 Rfb8 21. Qe3 Qc7 22. Rfd1 Rb4 23. Nc4 Rab8 24. Rc3 Nf6 25. f3 Nd7 26. Qd2 Nb6 27. Qg5 Nxc4 28. Bxc4 e5 29. h4 Kg7 30. h5 h6 31. Qe3 Rd8 32. Rxd8 Qxd8 33. hxg6 fxg6 34. Qxc5 Qb6 35. Bb5 1-0',
+      id: '4044365',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'C50',
+      t: 'Zurich Korchnoi CC Blitz',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 d6 6. h3 a6 7. a4 O-O 8. c3 Ba7 9. Re1 Ne7 10. d4 Ng6 11. Bd3 Re8 12. Qc2 Be6 13. Be3 d5 14. dxe5 dxe4 15. Bxe4 Nxe4 16. Bxa7 Rxa7 17. Qxe4 Bd5 18. Qe3 Bxf3 19. Qxf3 Nxe5 1/2-1/2',
+      id: '4044393',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B97',
+      t: 'Moscow Grand Prix 2017',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8. a3 Nc6 9. Nb3 Be7 10. Qd2 O-O 11. O-O-O Rd8 12. Bd3 h6 13. h4 Bd7 14. Qe2 Kf8 15. e5 dxe5 16. fxe5 hxg5 17. exf6 Bxf6 18. hxg5 Bxg5+ 19. Kb1 Qe3 20. Qh5 Bh6 21. Rhf1 Be8 22. Rde1 Qg5 23. Qh3 Ne5 24. Nc5 Kg8 25. Nxe6 fxe6 26. Qxe6+ Nf7 27. Bg6 Kh8 28. Bxf7 Bxf7 29. Qxf7 Qxg2 30. Rg1 Qd2 31. Rd1 Qf4 32. Qxb7 Rdb8 33. Qe4 Qf8 34. Rg6 Ra7 35. Qd4 1-0',
+      id: '4048720',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'D37',
+      t: '5th Sinquefield Cup 2017',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 c5 7. dxc5 Bxc5 8. cxd5 Nxd5 9. Nxd5 exd5 10. Bd3 Bb4+ 11. Nd2 Nc6 12. O-O Be6 13. Nf3 Be7 14. Rc1 Bf6 15. a3 Qe7 16. b4 a6 17. h3 Rac8 18. Rc5 a5 19. Qb1 axb4 20. axb4 b6 21. Rcc1 g6 22. Ba6 Nxb4 23. Bxc8 Rxc8 24. Rxc8+ Bxc8 25. Rc1 Bf5 26. Qb3 Nd3 27. Rc7 Qd8 28. Bg3 h5 29. Qxb6 h4 30. Bd6 Be4 31. Qc6 Kg7 32. Rc8 d4 33. Qxe4 1-0',
+      id: '4061788',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B92',
+      t: 'Saint Louis Rapid 2017',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. Be3  Be6 9. Bf3 O-O 10. O-O Nbd7 11. a4 Rc8 12. a5 Re8 13. Qd2 Rc4 14. Rfd1 Bf8 15.  Qd3 Rb4 16. Qd2 Rc4 17. Qe1 Qc7 18. Be2 Rc6 19. f3 Rc8 20. Bf1 Bc4 21. Bxc4 Rxc4  22. Nc1 d5 23. exd5 Bb4 24. N1e2 Bxa5 25. Qf2 Bb4 26. Kh1 Bf8 27. Ng3 b5 28.  Rxa6 b4 29. Nce4 Rxc2 30. Qf1 Rxb2 31. Rc6 Qb7 32. Qc4 Nxd5 33. Rxc8 Nxe3 34.  Nd6 Nxc4 35. Nxb7 Ne3 36. Rg1 f5 37. h4 g6 38. Rd8 Nf6 39. Nc5 Kf7 40. Nd3 Be7  41. Ra8 Rd2 42. Nxe5+ Ke6 43. f4 b3 44. Nf3 Nfg4 45. Ne4 Rb2 46. Ned2 Bb4 47.  Rb1 Rxb1+ 48. Nxb1 Nf1 49. g3 Kd5 50. Rd8+ Kc5 51. Rc8+ Kd5 52. Rd8+ Ke4 53.  Nfd2+ Nxd2 54. Nxd2+ Bxd2 55. Rxd2 Kf3 56. Rd3+ Kf2 57. Rxb3 h5 58. Rb6 Kxg3 59.  Rxg6 Kxf4 60. Kg2 Ne5 61. Rg3 Ng4 62. Rf3+ Ke5 63. Ra3 Ke4 64. Ra4+ Ke3 65. Ra5  Ke4 66. Ra8 Kf4 67. Rh8 Nf6 68. Rh6 Ke5 69. Kf3 f4 70. Rh8 Kf5 71. Rf8 Ke5 72.  Ra8 Nd5 73. Rg8 Nf6 74. Rg5+ Ke6 75. Kxf4 Nd5+ 76. Kf3 Nf6 77. Ra5 Nd5 78. Ke4  Nf6+ 79. Kf4 Kf7 80. Kf5 Ng4 81. Ra7+ Kg8 82. Kg6 Ne5+ 83. Kxh5 Nf7 84. Kg6 Ne5+  85. Kf5 Nf7 86. Kf6 Nd6 87. Kg6 Kf8 88. Ra8+ Ke7 89. h5 1-0',
+      id: '4063737',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A05',
+      t: 'Saint Louis Blitz 2017',
+      moves:
+        '1. Nf3 Nf6 2. b3 b6 3. Bb2 Bb7 4. e3 e6 5. d4 d5 6. c4 Nbd7 7. Nbd2 Bd6 8. Bd3  Ne4 9. Rc1 O-O 10. O-O Qe7 11. Ne5 Nxd2 12. Qxd2 Nxe5 13. dxe5 Bb4 14. Qc2 h6  15. cxd5 Bxd5 16. e4 Bb7 17. Qxc7 Rfd8 18. Qxe7 Bxe7 19. Rcd1 Rd7 20. Bb5 Rxd1  21. Rxd1 Bxe4 22. Rd7 Rd8 23. Rxd8+ Bxd8 24. Kf1 Be7 25. f3 Bd5 26. Bd4 g6 27.  Ke2 h5 28. Bd3 Kf8 29. Bb5 Kg8 30. Bd3 Kf8 31. Bb5 1/2-1/2',
+      id: '4063777',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'B76',
+      t: 'Saint Louis Blitz 2017',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2  Nc6 9. O-O-O d5 10. Nxc6 bxc6 11. Bh6 Qb6 12. h4 dxe4 13. Bxg7 e3 14. Qe1 Kxg7  15. Na4 Qc7 16. Qxe3 h5 17. Bc4 Bf5 18. Rhe1 Qg3 19. Qg5 Qc7 20. Qe3 Qg3 21. Qg5  Qc7 22. Nc5 Rad8 23. Qe3 Qg3 24. Rxd8 Rxd8 25. Bxf7 Qxh4 26. Bb3 Nd5 27. Qe5+  Qf6 28. Nb7 Rd7 29. Nc5 Rd8 30. Nb7 Rd7 31. Nc5 Rd6 32. Bxd5 Rxd5 33. Qe3 Kf7  34. a3 a5 35. Ne4 Bxe4 36. Qxe4 Rd6 37. Kb1 Rd5 38. Qc4 Kg7 39. Qe4 Kf7 40. Qc4  Kg7 41. Qe4 Kf7 1/2-1/2',
+      id: '4063822',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B91',
+      t: '9th London Classic 2017',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. g3 g6 7. Bg2 Bg7 8. O-O O-O 9. b3 Bd7 10. Bb2 Nc6 11. Nd5 Re8 12. c4 Nxd5 13. exd5 Nxd4 14. Bxd4 b5 15. Bxg7 Kxg7 16. Qd4+ Kg8 17. Rfc1 Qa5 18. h4 h5 19. c5 dxc5 20. Rxc5 Rac8 21. b4 Qb6 22. Rac1 Qd6 23. f4 Ra8 24. Rc7 Rac8 25. Rxc8 Rxc8 26. Rc5 Ra8 27. Qe5 Ra7 28. Rc3 f6 29. Qe3 Ra8 30. Qc5 Rc8 31. Qxd6 exd6 32. Rxc8+ Bxc8 1/2-1/2',
+      id: '4084158',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D27',
+      t: 'FIDE World Cup 2015',
+      moves:
+        '1. d4 d5 2. c4 dxc4 3. e3 e6 4. Bxc4 a6 5. Nf3 c5 6. O-O Nf6 7. dxc5 Qxd1 8. Rxd1 Bxc5 9. b3 b6 10. Bb2 Bb7 11. Nbd2 Nbd7 12. Be2 O-O 13. Rac1 Rfd8 14. Nc4 Bd5 15. Bd4 Rac8 16. Bxc5 Rxc5 17. Nce5 Bxf3 18. Nxf3 Rxc1 19. Rxc1 a5 20. Rc6 Kf8 21. g3 h6 22. Bc4 Rb8 23. Rc7 Ke7 24. Nd4 g5 25. f3 Ra8 26. Bb5 Kd6 27. Rc6+ Ke7 28. Kf2 Ne8 29. Ba4 Kd8 30. f4 Nef6 31. Kf3 g4+ 32. Ke2 Rc8 33. a3 Ne4 34. Rxc8+ Kxc8 35. Bc6 Ndf6 36. Kd3 Nc5+ 37. Kc4 Nfe4 38. b4 Nd6+ 39. Kc3 axb4+ 40. axb4 Nce4+ 1/2-1/2',
+      id: '3957699',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: 'FIDE World Cup 2015',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Be3 c5 8. Rc1 Qa5 9. Qd2 Nd7 10. Nf3 O-O 11. Bh6 Nf6 12. Bd3 Rd8 13. d5 c4 14. Bb1 e6 15. O-O exd5 16. e5 Ne4 17. Qf4 Bh8 18. Rfe1 Re8 19. Bxe4 dxe4 20. Qxe4 Be6 21. Nd4 Qd5 22. Nxe6 Qxe4 23. Rxe4 Rxe6 24. f4 f6 25. Rxc4 fxe5 26. Rc7 exf4 27. Bxf4 Rf6 28. Be3 Rf7 29. Rxf7 Kxf7 30. c4 1/2-1/2',
+      id: '3957715',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B22',
+      t: 'FIDE World Cup 2015',
+      moves:
+        '1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. Nf3 Nc6 5. Bc4 Nb6 6. Bb3 d5 7. exd6 Qxd6 8. Na3 Be6 9. O-O Bxb3 10. Qxb3 e6 11. d4 Qd7 12. Rd1 cxd4 13. Nxd4 Na5 14. Qb5 Bxa3 15. Qxa5 Bd6 16. Qh5 a6 17. Nf3 Qc7 18. Ng5 g6 19. Qh3 Be7 20. Qh6 Bf8 21. Qh4 Be7 22. Qh6 Bf8 23. Qh3 Be7 24. Qf3 O-O 25. Qh3 h5 26. Be3 Qc6 27. g4 Bxg5 28. Bxg5 f6 29. Be3 Nc4 30. gxh5 Rf7 31. Qg3 g5 32. b3 Ne5 33. Kf1 Kh7 34. h3 Rg8 35. Qg2 Nf3 36. Ke2 Nd4+ 37. Kf1 Nf3 38. Ke2 Nd4+ 39. Kf1 Nf3 40. Ke2 Nd4+ 41. Kf1 1/2-1/2',
+      id: '3957731',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'FIDE World Cup 2015',
+      moves:
+        '1. d4 Nf6 2. Nf3 e6 3. c4 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 b6 7. Qc2 Bb7 8. cxd5 Nxd5 9. Nxd5 Qxd5 10. Bd3 h6 11. e4 Qa5+ 12. Bd2 Bb4 13. Rc1 c5 14. dxc5 Nd7 15. c6 Rac8 16. Bxb4 Qxb4+ 17. Qd2 Qxd2+ 18. Kxd2 Bxc6 19. Nd4 Bb7 20. f3 Rfd8 21. Ke3 Nc5 22. Be2 Na4 23. Rxc8 Rxc8 24. Rb1 a6 25. Bd1 Nc5 26. Rc1 Kf8 27. f4 Rd8 28. Bf3 a5 29. Rc3 Ke7 30. a3 g5 31. g3 gxf4+ 32. gxf4 Rg8 33. b4 axb4 34. axb4 Na6 35. Be2 Rc8 36. Rxc8 Bxc8 37. Nc6+ Kd6 38. Ne5 f5 39. Nc4+ Kc7 40. b5 Nc5 41. e5 Ne4 42. Bf3 Nc3 43. Nd6 Bd7 44. Be2 Nxe2 45. Kxe2 Kd8 46. Kf2 Be8 47. Kg3 Bh5 48. Kh4 Be2 49. Kg3 Bh5 50. Kf2 Kc7 51. Ke3 Kd8 52. Nc4 Kc7 53. Kd4 Be8 54. Nd6 Bh5 55. Ke3 Kd8 1/2-1/2',
+      id: '3957738',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B22',
+      t: 'FIDE World Cup 2015',
+      moves:
+        '1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. Nf3 Nc6 5. Bc4 Nb6 6. Bb3 d5 7. exd6 Qxd6 8. Na3 Be6 9. d4 Bxb3 10. Qxb3 cxd4 11. Nb5 Qb8 12. Nbxd4 e6 13. O-O Be7 14. a4 Nd5 15. a5 Nxd4 16. Nxd4 a6 17. Qa4+ Kf8 18. c4 Nf6 19. b3 h5 20. Nf3 h4 21. h3 Rh5 22. Be3 Qc7 23. Bb6 Qf4 24. Rad1 e5 25. Be3 Qf5 26. c5 Qc8 27. b4 e4 28. Nd4 Nd5 29. Qb3 Kg8 30. Rfe1 Bf6 31. Bc1 Qe8 32. Qc4 Rd8 33. Ne2 e3 34. fxe3 Re5 35. Nc3 Nxc3 36. Qxc3 Red5 37. Qc2 Qb5 38. Rxd5 Rxd5 39. Bd2 Rd3 40. Re2 Ra3 41. Re1 Qd7 42. Rc1 Rd3 43. Be1 Rxe3 44. Bf2 Rd3 45. Re1 g6 46. Qc4 Rd2 47. Qf4 Kg7 48. Bxh4 Qd4+ 49. Qxd4 Bxd4+ 50. Kf1 Rb2 51. Re4 Rxb4 52. Be1 Rc4 53. Rxd4 Rxc5 54. Rd6 1-0',
+      id: '3957744',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'A25',
+      t: 'FIDE World Cup 2015',
+      moves:
+        '1. c4 e5 2. Nc3 Nc6 3. g3 Bc5 4. Bg2 d6 5. e3 a6 6. Nge2 Nge7 7. a3 h5 8. h3 Ba7 9. b4 h4 10. g4 f5 11. gxf5 Bxf5 12. Qb3 Qd7 13. Bb2 Rb8 14. O-O-O Bd3 15. Be4 Bxe4 16. Nxe4 Qf5 17. N2c3 b5 18. cxb5 axb5 19. d3 Kd7 20. Rdg1 g6 21. Rg5 Qe6 22. Qc2 d5 23. Nd2 Rhf8 24. Nd1 Rf5 25. Rg4 Rbf8 26. Rh2 g5 27. Nb3 Kc8 28. Nc5 Bxc5 29. Qxc5 d4 30. Qxb5 dxe3 31. Qa6+ Kd7 32. fxe3 Rf1 33. Rc4 Nd5 34. Re2 R8f3 35. b5 Nce7 36. Kd2 Nb6 37. Rc3 Qd5 38. Qa7 Nc4+ 39. Kc2 Nc8 40. Qb8 e4 41. Rd2 Rxd1 42. Rxd1 Nxe3+ 43. Kb1 Qd6 44. Rdc1 Nd5 45. Rc6 Qh2 46. R6c2 Qf4 47. dxe4 Qxe4 48. Ka1 Nce7 49. Qb7 Re3 50. b6 Re1 51. bxc7 Rxc1+ 52. Rxc1 Nc8 53. Rd1 1-0',
+      id: '3957747',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'A16',
+      t: 'FIDE World Cup 2015',
+      moves:
+        '1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 d6 5. Nf3 O-O 6. O-O Nc6 7. Rb1 e5 8. b4 Be6 9. d3 h6 10. b5 Ne7 11. a4 Qd7 12. Ba3 Rfe8 13. Nd2 Rab8 14. a5 b6 15. Nde4 Nh7 16. axb6 axb6 17. Bb2 f5 18. Nd2 Nf6 19. Ra1 d5 20. cxd5 Nexd5 21. Nxd5 Bxd5 22. Bxd5+ Qxd5 23. Qb3 Qxb3 24. Nxb3 e4 25. dxe4 Rxe4 26. Nd4 Ne8 27. e3 Nd6 28. Rab1 Nc4 29. Rfc1 Nd2 30. Ra1 Bxd4 31. Bxd4 Nb3 32. Rxc7 Nxa1 33. Bxa1 Ra8 34. Bd4 Re6 35. Rg7+ Kf8 36. Rh7 Ra5 37. Rxh6 Rxb5 38. h4 Kf7 39. Rh7+ Ke8 40. Kg2 Kd8 41. h5 gxh5 42. Rxh5 Kd7 43. g4 Rg6 44. g5 Ke6 45. Rh6 Kf7 46. Rh7+ Kg8 47. Rh8+ Kf7 48. f4 Rb1 49. Rc8 b5 50. Rc5 Ra6 51. Rxf5+ Kg6 52. Rd5 b4 53. Kf3 Rf1+ 54. Ke4 Re6+ 55. Kd3 b3 56. Rb5 Kh5 57. Rxb3 Rd1+ 58. Kc4 Kg4 59. Kd5 Re8 60. g6 Kf5 61. g7 Rd8+ 62. Kc4 Ke4 63. Rb5 Rc8+ 64. Rc5 Rc1+ 65. Kb3 Rb8+ 66. Ka2 Rg1 67. f5 Kd3 68. Rc3+ Ke4 69. f6 Rf1 70. Rc7 Ra8+ 71. Ra7 Rc8 72. f7 Kd3 73. g8=Q Rc2+ 74. Ka3 1-0',
+      id: '3957750',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B51',
+      t: 'FIDE World Cup 2015',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. O-O a6 5. Bd3 Ngf6 6. c3 b5 7. Bc2 Bb7 8. Re1 Rc8 9. a4 b4 10. a5 e6 11. d3 bxc3 12. bxc3 Be7 13. h3 O-O 14. Bf4 Bc6 15. Nbd2 Bb5 16. Bh2 Re8 17. Bb3 Bxd3 18. c4 d5 19. cxd5 exd5 20. e5 c4 21. Bc2 Ne4 22. Bxd3 cxd3 23. Nxe4 dxe4 24. Rxe4 Nc5 25. Rd4 Qc7 26. e6 Qb7 27. Rb1 Qa8 28. exf7+ Kxf7 29. Ne5+ Kg8 30. Rxd3 Bf6 31. Re3 Rcd8 32. Qe2 Qd5 33. Ng4 Rxe3 34. Nxf6+ gxf6 35. Qxe3 Qd1+ 36. Qe1 Qxe1+ 37. Rxe1 Kf7 38. Bc7 Rd5 39. Rb1 Ne6 40. Bb6 Nc5 41. Kf1 Nb7 42. Ra1 h5 43. g3 Kg6 44. Kg2 Rb5 45. Ra4 Kf7 46. Kf3 Rb3+ 47. Kg2 Rb5 48. g4 hxg4 49. hxg4 Kg7 50. f4 Kf7 51. f5 Rd5 52. Kg3 Kg7 53. Kh4 Nd6 54. Rb4 Nb7 55. Rc4 Nxa5 56. Rc7+ Kg8 57. Kh5 Nb3 58. Kg6 Kf8 59. Rc3 Rb5 60. Be3 Ke7 61. Rc6 Re5 62. Rc3 Rb5 63. Rc7+ Kd6 64. Bf4+ Kd5 65. Kxf6 a5 66. Ra7 Nd4 67. Kg6 Ke4 68. Bh2 Kf3 69. Rd7 Nc6 70. g5 a4 71. f6 Rb6 72. Kg7 1-0',
+      id: '3957752',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'A16',
+      t: 'FIDE World Cup 2015',
+      moves:
+        '1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 d6 5. Nf3 O-O 6. O-O Nc6 7. Rb1 e5 8. b4 Be6 9. d3 h6 10. Nd2 Qc8 11. b5 Ne7 12. a4 Bh3 13. Bb2 Bxg2 14. Kxg2 Kh7 15. Nf3 c5 16. bxc6 Qxc6 17. Qb3 g5 18. e4 Nd7 19. Ba3 b6 20. Qb5 Nc5 21. Rfd1 f5 22. Bxc5 dxc5 23. a5 Qf6 24. Ne1 f4 25. Rd2 Nc6 26. Nd5 Qd6 27. axb6 axb6 28. Qb2 Rab8 29. f3 h5 30. Nc2 g4 31. Rf1 Qg6 32. Rdf2 Rf7 33. Qc1 Bh6 34. Qd1 Rg8 35. fxg4 hxg4 36. gxf4 g3 37. hxg3 Qxg3+ 38. Kh1 Rg4 39. Rh2 Rh4 40. Qe2 Rxh2+ 41. Qxh2 Qxd3 42. Re1 exf4 43. Qh5 Ne5 44. Rg1 Qf3+ 45. Qxf3 Nxf3 46. Rd1 Ne5 47. Nxb6 f3 48. Kg1 Ng4 49. Nd5 Bf4 50. Nxf4 Rxf4 51. Rd7+ Kg6 52. Rd6+ Kg5 53. Rd5+ Kh4 54. Kf1 Kg3 55. Ne1 Ne3+ 56. Kg1 f2+ 0-1',
+      id: '3957754',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A45',
+      t: 'FIDE World Rapid 2014',
+      moves:
+        '1. d4 Nf6 2. Nc3 d5 3. Bf4 Bf5 4. f3 e6 5. g4 Bg6 6. h4 h6 7. e3 a6 8. Bd3 Bxd3 9. Qxd3 c5 10. Nce2 Nc6 11. c3 Bd6 12. O-O-O Qe7 13. Bxd6 Qxd6 14. Nh3 O-O-O 15. Kb1 Kb8 16. g5 hxg5 17. hxg5 Nd7 18. g6 f6 19. Nhf4 Ne7 20. Rh7 Rxh7 21. gxh7 Rh8 22. Ng6 Nxg6 23. Qxg6 Qh2 24. Nf4 cxd4 25. cxd4 Qxh7 26. Qxh7 Rxh7 27. Nxe6 g5 28. f4 Rh3 29. Re1 Rg3 30. Kc2 Rg2+ 31. Kc3 Nb6 32. Nc5 Rg3 33. fxg5 fxg5 34. Kd3 Kc7 35. b3 Nd7 36. Rf1 Nxc5+ 37. dxc5 Rg2 38. a3 g4 39. Rf6 g3 40. Rg6 Rg1 41. Kc2 g2 1/2-1/2',
+      id: '3899013',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'C11',
+      t: 'FIDE World Blitz 2014',
+      moves:
+        '1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Rb8 8. Qd2 a6 9. Be2 b5 10. Nd1 f5 11. exf6 Nxf6 12. Nf2 c4 13. O-O Bd6 14. Ne5 Ne7 15. g4 O-O 16. c3 b4 17. Bd1 a5 18. Bc2 Qe8 19. Rae1 a4 20. h3 Ba6 21. Qd1 a3 22. bxa3 bxc3 23. g5 Nh5 24. Bxh7+ Kxh7 25. g6+ Kg8 26. Qxh5 Rf5 27. Qh7+ Kf8 28. Nfg4 Ng8 29. Bf2 c2 30. Ne3 c3 31. Nxf5 exf5 32. Nc4 Qd7 33. Nxd6 Bxf1 34. Kxf1 Rb1 35. Be3 Qxd6 36. a4 Rxe1+ 37. Kxe1 Qe6 38. Kf2 Qxe3+ 39. Kxe3 c1=Q+ 40. Kf3 Qd1+ 0-1',
+      id: '3899770',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'B12',
+      t: '73rd Tata Steel GMA',
+      moves:
+        '1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h5 5. c4 e6 6. Nc3 Ne7 7. Nge2 Bg4 8. f3 Bf5 9. Ng3 Bg6 10. Bg5 Qb6 11. Qd2 Nd7 12. a3 f6 13. Be3 Qb3 14. cxd5 Nxd5 15. Nxd5 Qxd5 16. Rc1 Nb6 17. Ne2 fxe5 18. dxe5 Qxe5 19. Bd4 Qc7 20. Qg5 Bf5 21. g4 hxg4 22. fxg4 Be4 23. Rh3 Be7 24. Qxg7 Rh7 25. Qe5 Qxe5 26. Bxe5 Bxh4+ 27. Ng3 Nd7 28. Bd4 Bf3 29. g5 Bg4 30. g6 Rh6 31. Rxh4 Rxh4 32. Rc3 Bf3 33. Rxf3 Rxd4 34. Bh3 Ne5 35. Rf6 Nd3+ 36. Ke2 Nf4+ 37. Ke3 e5 38. Rf7 Rd3+ 39. Ke4 Rxg3 40. Bd7+ Kd8 41. Bf5 Nxg6 42. Rg7 Rb8 43. b4 b5 44. Bxg6 Rg5 0-1',
+      id: '3758291',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'B70',
+      t: '6th Tal Memorial',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be2 Bg7 7. O-O O-O 8. Re1 Nc6 9. Nb3 Be6 10. Bf1 a5 11. Nd2 a4 12. Ndb1 Ra5 13. Na3 d5 14. exd5 Nxd5 15. Ncb5 Qc8 16. c3 Rd8 17. Qe2 Nc7 18. Rd1 Nxb5 19. Nxb5 Ne5 20. Na3 Rad5 21. Rxd5 Rxd5 22. Be3 Ng4 23. h3 Nxe3 24. Qxe3 Qc6 25. Nc2 Qc7 26. a3 Be5 27. Nb4 Rd8 28. Nd3 Bd6 29. Re1 Bf5 30. g3 Bxd3 31. Bxd3 Bc5 32. Qf3 Rd6 33. Re4 Rb6 34. Bc4 e6 35. Re2 Bxa3 36. Bxe6 Bxb2 37. Bxf7+ Qxf7 38. Qd3 Re6 39. Qd8+ Kg7 40. Qd4+ Kg8 41. Qd8+ Qf8 42. Qd5 Qd6 43. Qxd6 Rxd6 44. Rxb2 a3 45. Ra2 Ra6 46. Kf1 Kf7 47. Ke2 Ke6 48. Kd3 Kd5 49. f4 h5 50. g4 h4 51. c4+ Kc5 52. Kc3 Re6 53. Rf2 Re3+ 54. Kc2 Kxc4 55. f5 g5 56. f6 Re8 57. f7 Rf8 58. Kb1 Kd5 59. Rf5+ Ke6 60. Rxg5 Rxf7 61. Rh5 b5 62. Rxb5 Rf3 63. Rb6+ Ke5 64. Rb5+ Ke6 65. Rb6+ Kd5 66. g5 Rxh3 67. Rb4 Ke5 68. g6 Kf6 69. Rg4 Kg7 70. Ka2 Kh8 71. Rf4 Kg7 72. Rg4 Rh1 73. Rb4 h3 74. Rb3 Kxg6 75. Rg3+ Kf5 76. Rc3 Ke5 77. Rxa3 Rh2+ 78. Ka1 Kf4 79. Rb3 Rh1+ 80. Ka2 Rh2+ 81. Ka1 Rh1+ 82. Ka2 Kg4 83. Rb4+ Kg3 84. Rb3+ Kg4 85. Rb4+ Kg3 1/2-1/2',
+      id: '3791502',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'B01',
+      t: 'VI World Blitz',
+      moves:
+        '1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 c6 5. Nf3 Nf6 6. Bd2 Bf5 7. Bc4 e6 8. Nd5 Qd8 9. Nxf6+ gxf6 10. Bb3 Nd7 11. Nh4 Bg6 12. Nxg6 hxg6 13. Qe2 Qc7 14. h4 O-O-O 15. O-O-O Bh6 16. Bxh6 Rxh6 17. g3 Rdh8 18. Rhe1 g5 19. hxg5 fxg5 20. Qe3 Qd8 21. c4 Kb8 22. d5 cxd5 23. cxd5 e5 24. d6 f5 25. Kb1 Qb6 26. Qxb6 axb6 27. Ba4 Nc5 28. Bc2 e4 29. g4 fxg4 30. b4 Nd7 31. Bxe4 Rf8 32. Re2 Rff6 33. Red2 Rf4 34. Rd4 Rxf2 35. Rc4 Re6 36. Rc7 Rxe4 37. Rxd7 Rxb4+ 38. Ka1 Rbb2 39. Rd8+ Ka7 40. d7 Rbd2 41. Rxd2 Rxd2 42. Rg8 Rxd7 43. Rxg5 Rd4 44. Kb2 Ka6 45. Kc3 Ra4 46. Kb3 b5 47. a3 Rf4 48. Rg8 Ka5 49. Rg6 Rf3+ 50. Kb2 g3 51. Rg4 Rf2+ 52. Kb3 g2 53. Rg6 Re2 54. Kc3 b6 55. Kb3 Rf2 56. Rg7 Ka6 57. Kc3 Re2 58. Kb3 Rf2 59. Kc3 b4+ 1/2-1/2',
+      id: '3753128',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B90',
+      t: 'Opera Euro Rapid Prelim',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. a4 e5 7. Nf3 h6 8. g3 Be7 9. Bg2 Nc6 10. O-O O-O 11. Re1 Rb8 12. b3 b5 13. axb5 axb5 14. Nd5 Bg4 15. Bb2 Nxd5 16. exd5 Nd4 17. Bxd4 exd4 18. Qd3 Bxf3 19. Bxf3 Re8 20. Ra6 Bf8 21. Rf1 Qf6 22. h4 g6 23. h5 Re5 24. hxg6 fxg6 25. Be4 h5 26. Qxd4 Qf7 27. Bxg6 Qxd5 28. Qxd5+ Rxd5 29. Ra7 Rg5 30. Bh7+ Kh8 31. Bd3 Bg7 32. Kg2 Kg8 33. f4 Rc5 34. Re1 h4 35. g4 Rf8 36. Ree7 Bd4 37. Rad7 1-0',
+      id: '4279088',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'A33',
+      t: 'FIDE Candidates 2020',
+      moves:
+        '1. Nf3 Nf6 2. c4 c5 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 e6 6. g3 Qb6 7. Ndb5 Ne5 8.  Bf4 Nfg4 9. e3 a6 10. h3 axb5 11. hxg4 Nxc4 12. Rc1 d5 13. b3 Bb4 14. bxc4 Ra3  15. Be5 f6 16. Bd4 Qa5 17. Be2 Bxc3+ 18. Rxc3 Rxc3 19. Kf1 b4 20. g5 e5 21. Bxc3  bxc3 22. gxf6 gxf6 23. Qb1 Qc7 24. Qd3 b5 25. Qxc3 bxc4 26. e4 dxe4 27. Rh4 Be6  28. Rxe4 O-O 29. Bxc4 Kg7 30. Qb3 Rb8 31. Bxe6 Rxb3 32. Rg4+ Kf8 33. Bxb3 Qc1+  34. Kg2 Qc6+ 35. Kg1 h5 36. Rg8+ Ke7 37. Rg7+ Kd6 38. Rh7 Qf3 39. Rh8 e4 40.  Rd8+ Ke7 41. Bd1 Qc3 42. Rd5 h4 43. gxh4 f5 44. Rxf5 Qe1+ 45. Kg2 Qxd1 46. Rg5  Qa1 47. Rg4 Qb1 48. Rg3 Qxa2 49. Rh3 Qd5 50. Kf1 Qd1+ 51. Kg2 Qg4+ 52. Rg3 Qh5  53. Ra3 Qd5 54. Kg1 Kf6 55. Rg3 Qd1+ 56. Kg2 Kf5 57. Rg5+ Kf4 58. Rg3 Qd5 59.  Kf1 Qd2 60. Kg2 Qd1 61. Re3 Kf5 62. Rg3 Kf6 63. Rh3 Kg6 64. Rg3+ Kh5 65. Rh3 Qb1  66. Re3 Kxh4 67. Rg3 Kh5 68. Rh3+ Kg4 69. Rg3+ Kf4 70. Re3 Qd1 71. Ra3 Ke5 72.  Rg3 Kd4 73. Re3 Qd3 0-1',
+      id: '4259914',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D87',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8.  Ne2 O-O 9. O-O Nc6 10. Be3 b6 11. Rc1 Bb7 12. Bb5 Rc8 13. Qd2 e6 14. Rfd1 cxd4  15. cxd4 Qd6 16. h4 Qb4 17. Qd3 Rfd8 18. a3 Qe7 19. Bg5 Bf6 20. Qe3 h6 21. Bxh6  Nxd4 22. Rxc8 Nxe2+ 23. Bxe2 Bxc8 24. h5 Rxd1+ 25. Bxd1 Qd8 26. Bc2 Qc7 27. Bd1  Qd8 28. Bc2 Qc7 29. Bd1 Qd8 1/2-1/2',
+      id: '4260757',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'A29',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Bc5 7. Qc2 Ndb4 8.  Qa4 Bd7 9. Qd1 Nd4 10. O-O Nxf3+ 11. Bxf3 Nc6 12. d3 O-O 13. Be3 Nd4 14. Bxb7  Rb8 15. Bg2 Rxb2 16. Rb1 Qb8 17. Bxd4 Bxd4 18. Nd5 Bg4 19. Ne7+ Kh8 20. Nc6 Qb6  21. Nxd4 exd4 22. Bf3 Bh3 23. Rxb2 Qxb2 24. Qc1 Rb8 25. Qxc7 Bxf1 26. Kxf1 f6  27. Qxa7 Qb6 28. Qf7 Qc5 29. Kg2 Rf8 30. Qd7 Qa3 31. Qe6 f5 32. h4 h6 33. Qc4  Kh7 34. h5 Rf6 35. Bd5 Qc3 36. Qb5 Qc8 37. Bf3 Qa6 38. Qb3 Qa5 39. a4 Ra6 40.  Qf7 Rd6 41. Qe7 Rd8 42. Bc6 Kh8 43. Kh2 Rc8 44. Qe6 Qa6 45. Bd7 Qxe6 46. Bxe6  Re8 47. Bxf5 Rxe2 48. Kg2 Ra2 49. Bd7 g6 50. hxg6 Kg7 51. Be8 Ra3 52. Bb5 Kxg6  53. f4 Ra1 54. Kf3 Kf6 55. g4 Ke6 56. Ke4 Rg1 57. Ba6 Ra1 58. Bc4+ Kf6 59. Bb5  Rg1 60. a5 Rxg4 61. a6 Rg7 62. Bc6 Ra7 63. Bb7 h5 64. Kxd4 h4 65. Kc5 h3 66. Kb6  Rxb7+ 67. axb7 h2 68. b8=Q h1=Q 69. Qe5+ Kf7 70. Qe4 Qh6+ 71. Kc7 Qg7 72. Qe5  Qg3 73. d4 Qb3 74. f5 Qc4+ 75. Qc5 Qa4 76. Qd5+ Kf6 77. Qc6+ 1-0',
+      id: '4260759',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D87',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8.  Ne2 O-O 9. O-O Nc6 10. Be3 b6 11. Rc1 Bb7 12. Bb5 Rc8 13. Qd2 e6 14. Rfd1 cxd4  15. cxd4 Na5 16. Rxc8 Qxc8 17. Bg5 a6 18. Bd3 Qd7 19. Bh6 Rc8 20. Bxg7 Kxg7 21.  h4 Nc4 22. Bxc4 Rxc4 23. h5 f6 24. Qe3 Qa4 25. Rb1 Qc2 26. Rxb6 Qxe4 27. h6+ Kf7  28. Nf4 e5 29. dxe5 fxe5 30. Qxe4 Bxe4 31. Nh3 Bd5 32. Ng5+ Ke7 33. Nxh7 Rg4 34.  g3 Rc4 35. Rb1 Rc8 36. Re1 Rh8 37. Rxe5+ Kd6 38. Rg5 Rxh7 39. Rxg6+ Ke5 40. Rxa6  Bf3 41. Kh2 Kf5 42. a4 Kg5 43. Rb6 Ra7 44. Rb3 Bc6 45. Rc3 Bxa4 46. Ra3 Kxh6 47.  f3 1/2-1/2',
+      id: '4260761',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'B51',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. d4 cxd4 5. Qxd4 a6 6. Bxd7+ Bxd7 7. O-O Nf6 8.  c4 g6 9. Nc3 Bg7 10. Bg5 O-O 11. Rad1 h6 12. Bxf6 Bxf6 13. e5 Bg7 14. Qe3 Bc6  15. exd6 exd6 16. Nd4 Re8 17. Nxc6 bxc6 18. Qd3 Qa5 19. Qxd6 Bxc3 20. bxc3 Qxa2  21. Qxc6 Rac8 22. Ra1 Qxf2+ 23. Rxf2 Rxc6 24. Rfa2 Ree6 25. Ra4 h5 26. c5 Kf8  27. Rc4 Ke7 28. Rb1 Rc7 29. Rb8 Rec6 30. Ra8 Rxc5 31. Re4+ Kf6 32. Rxa6+ Kg7 33.  Re3 Rxc3 34. Rxc3 Rxc3 35. h4 Rc4 36. g3 Rc2 37. Rb6 Kf8 38. Ra6 Ke7 39. Rb6 Rd2  40. Ra6 f6 41. Rb6 Rd6 42. Rb5 Ke6 43. Kf2 Rd5 44. Rb4 Kf5 45. Rf4+ Ke5 46. Ra4  Rb5 47. Rc4 g5 48. hxg5 fxg5 49. Ra4 Rd5 50. Rb4 g4 51. Rb2 Ke4 52. Re2+ Kd3 53.  Re8 Rf5+ 54. Kg2 Rc5 55. Rd8+ Ke4 56. Re8+ Re5 57. Ra8 Rc5 58. Re8+ Kf5 59. Rf8+  Kg6 60. Rg8+ Kf7 61. Ra8 Rc2+ 62. Kg1 Re2 63. Ra5 Kg6 64. Rb5 Re6 65. Kg2 Rf6  66. Rb8 Re6 67. Rb5 Rd6 68. Ra5 Rf6 69. Ra8 Kg5 70. Rg8+ Rg6 71. Ra8 Re6 72.  Ra5+ Kg6 73. Rb5 1/2-1/2',
+      id: '4260763',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'D78',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 Nf6 2. Nf3 g6 3. g3 Bg7 4. Bg2 d5 5. O-O O-O 6. c4 c6 7. Qb3 Qb6 8. Nc3  Rd8 9. Bd2 dxc4 10. Qxc4 Be6 11. Qa4 Bf5 12. Rfc1 Nbd7 13. b4 Ne4 14. e3 Nxc3  15. Bxc3 Be4 16. Qb3 Bd5 17. Qc2 Nf6 18. Ne5 Bxg2 19. Kxg2 Nd5 20. Nd3 Qc7 21.  a4 Rac8 22. Rab1 h5 23. h3 h4 24. gxh4 Bf6 25. h5 g5 26. Nc5 Kg7 27. Ne4 Rh8 28.  Qe2 Rh6 29. b5 Rch8 30. Ng3 e6 31. Bd2 Be7 32. bxc6 bxc6 33. Qa6 Qd8 34. Qxc6  Nf6 35. Rb7 Nxh5 36. Rd7 Qf8 37. d5 Nxg3 38. fxg3 Rxh3 39. Bc3+ Kg6 40. Bxh8  Qxh8 41. dxe6 Rh2+ 42. Kg1 f5 43. Rxe7 Qh3 44. Qe8+ Kf6 45. Rf7+ Ke5 46. Rc5+  Ke4 47. Qc6+ Kxe3 48. Re5+ 1-0',
+      id: '4263873',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A46',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 Nf6 2. Nf3 e6 3. Bf4 c5 4. e3 Be7 5. dxc5 Bxc5 6. Nbd2 d5 7. Bd3 Nc6 8.  O-O O-O 9. c4 b6 10. Qe2 Bb7 11. Rad1 h6 12. cxd5 Nxd5 13. Bg3 Bd6 14. Nc4 Bxg3  15. hxg3 b5 16. Ncd2 a6 17. e4 Nde7 18. Qe3 Qc7 19. Bb1 Rad8 20. Nb3 Na5 21.  Nxa5 Qxa5 22. Ne5 Qc7 23. Nd3 Nc6 24. Nc5 Ne5 25. b4 Nd7 26. Nb3 Nb6 27. Qc5 Rc8  28. Qxc7 Rxc7 29. Nc5 Na4 30. Nxa4 bxa4 31. Rd6 Rfc8 32. Bd3 Rc6 33. Rxc6 Rxc6  34. Rd1 Kf8 35. f3 Rb6 36. a3 Rc6 37. Be2 Ke7 38. b5 Rb6 39. bxa6 Bxa6 40. Bxa6  Rxa6 41. Rd4 h5 42. Kh2 Kf6 43. Rb4 g5 44. Kh3 1/2-1/2',
+      id: '4263871',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A06',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. Nf3 d5 2. e3 Nf6 3. c4 c6 4. Nc3 e6 5. b3 Bd6 6. Bb2 O-O 7. Be2 e5 8. cxd5  cxd5 9. Nb5 Nc6 10. Nxd6 Qxd6 11. d4 e4 12. Ne5 Nd7 13. Nxc6 bxc6 14. O-O Re8  15. Rc1 a5 16. Rc3 Re6 17. f4 exf3 18. Bxf3 Nf6 19. Qc1 a4 20. Ba3 Qd7 21. Rf2  axb3 22. Rxb3 Ba6 23. Rfb2 Ree8 24. Bc5 Bc4 25. Ra3 Rxa3 26. Bxa3 h5 27. Bb4 Ra8  28. a3 Qf5 29. Rf2 Ne4 30. Qc2 Qe6 31. Bxe4 dxe4 32. Rf4 Bd5 33. Qf2 f6 34. Qg3  Qf7 35. Rf1 Bc4 36. Rc1 Bd5 37. h3 Kh7 38. Rb1 Qg6 39. Qf4 Ra4 40. Kf2 Be6 41.  Rb2 Ra7 42. Rc2 Bd5 43. Kg1 Rd7 44. Kh2 Rb7 45. Rc5 Rb5 46. Rc3 Qh6 47. Qd6 Qg5  48. Qg3 Qxg3+ 49. Kxg3 g5 50. h4 Kg6 51. Rc2 Rb7 52. Rf2 Rf7 53. Rf1 Rb7 54. Rf2  Be6 55. Rc2 Bd5 56. Rc5 Rb5 57. Rc1 Rb7 58. Rf1 Be6 59. Rf2 Bd5 60. Rc2 Kf5 61.  Rb2 Kg6 62. Rb1 Ba2 63. Ra1 Bd5 64. Rc1 Kf5 65. Rc2 Kg6 1/2-1/2',
+      id: '4263872',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A33',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. Nf3 Nf6 2. c4 c5 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 e6 6. a3 Bc5 7. Nb3 Bb6 8. c5  Bc7 9. g3 b6 10. Bg2 O-O 11. O-O bxc5 12. Nxc5 Qe7 13. b4 a5 14. Rb1 axb4 15.  axb4 d5 16. Nd3 Ne5 17. Be3 Nc4 18. Bc5 Bd6 19. e4 dxe4 20. Nxe4 Nxe4 21. Bxe4  Bb7 22. Bxb7 Qxb7 23. Rc1 Bxc5 24. Nxc5 Qd5 25. Qxd5 exd5 26. Rfd1 Nb6 27. Nd3  Rfc8 28. Rc5 g5 29. Rb5 Rc6 30. Re1 Rd6 31. Re7 Kf8 32. Rc7 Re8 33. Ra7 Kg7 34.  Ra6 Ree6 35. Kg2 h6 36. Ra7 Rf6 37. Rc5 Rde6 38. Ra2 Re4 39. Rc7 Rd4 40. Ne5 Re4  41. Nd3 Rd4 42. Ne5 Re4 43. Nc6 Rc4 44. b5 Rc5 45. Re2 Rxb5 46. Nd4 Rb4 47. Ne6+  Kg8 48. Nd8 Re4 49. Rxe4 dxe4 50. Re7 Kf8 51. Rxe4 Rd6 52. Nb7 1/2-1/2',
+      id: '4263870',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'A06',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. Nc3 dxc4 5. Bxc4 c5 6. d4 a6 7. e4 cxd4 8. Nxd4  Bd6 9. Be3 O-O 10. Rc1 b5 11. Bb3 Bb7 12. Bxe6 Nxe4 13. Nxe4 Bxe4 14. Qg4 Bg6  15. Bf5 Qa5+ 16. Kf1 Be5 17. Bxg6 hxg6 18. h4 Qxa2 19. h5 Qd5 20. hxg6 fxg6 21.  Ne6 Re8 22. Ng5 Bf6 23. Kg1 Bxg5 24. Bxg5 Nc6 25. Be3 Ne5 26. Qh3 Nc4 27. Qh7+  Kf7 28. Bh6 Qe5 29. Rh3 Rg8 30. Rf3+ Ke7 31. Rxc4 Rh8 32. Qxg7+ Qxg7 33. Re4+ 1-0',
+      id: '4263868',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'D02',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. Nf3 Nf6 2. d4 d5 3. Bf4 c5 4. e3 cxd4 5. exd4 Qb6 6. Nbd2 Nc6 7. Nb3 Bg4 8.  a4 Bxf3 9. Qxf3 e6 10. Qd1 a6 11. c3 Ne4 12. a5 Qd8 13. Bd3 Bd6 14. Qf3 Bxf4 15.  Qxf4 Nf6 16. O-O O-O 17. Rfe1 Re8 18. Re2 Rb8 19. h3 Nd7 20. Qd6 Qe7 21. Qxe7  Nxe7 22. f4 h5 23. g4 hxg4 24. hxg4 g6 25. Rae1 Nf6 26. f5 gxf5 27. gxf5 Nxf5  28. Rf1 Ne4 29. Bxe4 dxe4 30. Nc5 Kf8 31. Nxe4 Ke7 32. Kf2 Rh8 33. Ke1 Rbg8 34.  d5 Rh6 35. Rf4 Rh1+ 36. Kd2 Rd8 37. Rxf5 exf5 38. Nf2+ Kf6 39. Nxh1 Rxd5+ 40.  Ke3 Rxa5 41. Nf2 Ra4 42. b4 a5 43. Nd3 axb4 44. cxb4 Ra6 45. Nc5 Rd6 46. Rd2 f4+  47. Kxf4 Rc6 48. Ke4 b6 49. Kd5 Rc7 50. Rf2+ Ke7 51. Re2+ Kd8 52. Ne4 Re7 53.  Rf2 Kc7 54. Nd6 1-0',
+      id: '4263869',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D41',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4 8.  cxd4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 O-O 11. Rd1 b6 12. Bd3 Ba6 13. Bxa6 Nxa6 14. O-O  Rc8 15. Qe2 Nb8 16. d5 exd5 17. Rxd5 Qc7 18. Nd4 Qc4 19. Qg4 Rc5 20. Nf5 g6 21.  Rxc5 Qxc5 22. Qg5 f6 23. Qg3 Nc6 24. Qb3+ Kh8 25. Ne3 Kg7 26. h3 Re8 27. Qb1 Qb4  28. Qxb4 Nxb4 29. Rd1 Kf7 30. f3 Nxa2 31. Ra1 Nc3 32. Rxa7+ Re7 33. Ra3 Ne2+ 34.  Kf2 Nf4 35. Rb3 Re6 36. Kg3 Ne2+ 37. Kh2 Nf4 38. g3 Ne2 39. Kg2 Rc6 40. Kf2 Nd4  41. Rd3 Nc2 42. Rd7+ Ke6 43. Rxh7 Nxe3 44. Kxe3 g5 45. h4 Rc3+ 46. Ke2 g4 47.  fxg4 Rxg3 48. Rg7 Ke5 49. Kf2 Rh3 50. h5 Kf4 51. Kg2 Rh4 52. e5 fxe5 53. Rg6 b5  54. h6 b4 55. Rb6 e4 56. Rf6+ Kxg4 57. Kf2 Rh3 58. Rb6 Kf4 59. Rf6+ Ke5 60. Rb6  Kf4 61. Rf6+ Kg5 62. Rb6 b3 63. h7 Rxh7 64. Rxb3 Kf4 65. Ke2 Rh2+ 66. Ke1 e3 67.  Rb8 1/2-1/2',
+      id: '4263866',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'C41',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Qxd4 Nc6 5. Bb5 Bd7 6. Qd3 Nf6 7. Nc3 Be7 8. a3  O-O 9. O-O a6 10. Bc4 Ng4 11. Ba2 Nge5 12. Nxe5 Nxe5 13. Qe2 Bf6 14. Nd5 Bb5 15.  c4 Bc6 16. Be3 Re8 17. Rac1 Nd7 18. Nxf6+ Qxf6 19. f3 a5 20. b3 b6 21. Qf2 Nc5  22. Rfd1 Qg6 23. b4 axb4 24. axb4 Nd7 25. c5 dxc5 26. bxc5 b5 27. Bf4 Ne5 28.  Bd5 h6 29. Qg3 Qxg3 30. Bxg3 Ra6 31. Rb1 g5 32. Bxc6 Rxc6 33. Rxb5 Kg7 34. Rd5  Ng6 35. Rb7 Ne7 36. Rd7 Rxc5 37. Bxc7 Rc1+ 38. Kf2 Rc2+ 39. Kf1 Kg6 40. Rd6+ Kg7 1/2-1/2',
+      id: '4263867',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'A13',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 c5 5. Bb2 Nc6 6. cxd5 exd5 7. Be2 d4 8. exd4  Nxd4 9. O-O Be7 10. Nxd4 cxd4 11. Bf3 O-O 12. Re1 Rb8 13. Na3 b5 14. Qe2 Re8 15.  Qd3 Bxa3 16. Bxa3 Bb7 17. Rxe8+ Qxe8 18. Bc5 Bxf3 19. Qxf3 Qe5 20. Bxa7 Re8 21.  h3 h6 22. Rc1 Qd6 23. Bc5 Qd7 24. Qd3 Ne4 25. Bb6 Qd6 26. Qxd4 Qxd4 27. Bxd4  Nxd2 28. f3 Re2 29. Bc3 Kh7 30. Rd1 Nxf3+ 31. gxf3 Re3 32. Be1 Rxf3 33. Rd5 Re3  34. Kf1 Rf3+ 35. Bf2 b4 36. Rd4 Rxh3 37. Rxb4 g5 38. a4 Rh1+ 39. Bg1 1-0',
+      id: '4263864',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D41',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4 8.  cxd4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 O-O 11. Rd1 b6 12. Bd3 Bb7 13. O-O Nd7 14. Qe3  Rc8 15. e5 h6 16. Nd2 Qg5 17. Qh3 Qf4 18. Nc4 Rc7 19. Nd6 Bd5 20. Qe3 Qg5 21.  Qxg5 hxg5 22. Rc1 Rxc1 23. Rxc1 Bxa2 24. Ra1 Bd5 25. Rxa7 Nb8 26. Bb5 Nc6 27.  Bxc6 Bxc6 28. Rc7 Bd5 29. f3 f6 30. exf6 Rxf6 31. Nc8 b5 32. Rc5 Bc4 33. Nd6 g4  34. Nxc4 bxc4 35. fxg4 Rf4 36. Rxc4 Rxg4 37. Kf2 Kf7 38. g3 Re4 39. Kf3 Re1 40.  Rc2 Rd1 41. Ke3 g5 42. Rd2 Rh1 43. Kf3 Kg6 44. Re2 Kf5 45. Re5+ Kf6 46. Re2 Kf5  47. g4+ Kf6 48. Ke3 Rg1 49. Rf2+ Kg6 50. h3 Re1+ 51. Kd3 Rd1+ 52. Ke3 Re1+ 53.  Kd2 Ra1 54. Rf3 Ra5 55. Re3 Kf6 56. Kd3 Ra1 57. Ke4 Rh1 58. Rf3+ Ke7 59. Ra3 Kf6  60. Re3 Rh2 61. Rf3+ Ke7 62. Ra3 Kf6 63. Rf3+ Ke7 64. d5 Ra2 65. Rb3 Re2+ 66.  Kf3 Rd2 67. dxe6 Kxe6 68. Ke4 Re2+ 69. Kf3 Rh2 70. Kg3 Ra2 71. Rf3 Ra1 72. Kg2  Ra2+ 73. Rf2 Ra5 74. h4 Ra4 75. hxg5 1/2-1/2',
+      id: '4263862',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B08',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 d6 2. e4 g6 3. Nf3 Nf6 4. Nc3 Bg7 5. Be3 c6 6. Qd2 Qa5 7. Bd3 Bg4 8. Ng1  e5 9. h3 Be6 10. Nf3 h6 11. O-O Nbd7 12. a4 Qc7 13. a5 g5 14. Qe2 g4 15. hxg4  Bxg4 16. Nb1 Nh5 17. c3 Rg8 18. Nbd2 O-O-O 19. Qe1 Bf6 20. Kh1 Bg5 21. Nh2 Bxe3  22. Qxe3 Nf4 23. Bc4 d5 24. dxe5 Nxg2 25. Qxa7 Bh3 26. Rg1 Nf4 27. a6 Nxe5 28.  axb7+ Kd7 29. exd5 Rxg1+ 30. Rxg1 Rb8 31. Qd4 Nxc4 32. Nxc4 cxd5 33. Ne5+ Ke6  34. Qxf4 Qxe5 35. Qxh6+ 1-0',
+      id: '4263858',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A28',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. d4 exd4 5. Nxd4 Bb4 6. g3 Bxc3+ 7. bxc3 Na5 8.  e4 O-O 9. f3 d6 10. h4 Be6 11. h5 h6 12. g4 Nd7 13. g5 hxg5 14. h6 g6 15. h7+  Kh8 16. Qc2 c5 17. Nb3 Nxc4 18. Qg2 Qf6 19. Bxc4 Bxc4 20. Bxg5 Qxc3+ 21. Bd2 Qf6  22. Rc1 Ne5 23. Bc3 Bxb3 24. axb3 g5 25. Rd1 Qe7 26. f4 gxf4 27. Rg1 f6 28. Rxd6  Nf3+ 29. Qxf3 Qxd6 30. Qg4 Qe7 31. e5 fxe5 32. Qh5 Rae8 33. Rg5 Qxh7 34. Qg4  Qb1+ 35. Kf2 Qc2+ 36. Kg1 Qb1+ 37. Kf2 Qc2+ 38. Kg1 Qb1+ 39. Kf2 1/2-1/2',
+      id: '4263856',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'D41',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4 8.  cxd4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 O-O 11. Bc4 Nd7 12. O-O b6 13. d5 Nc5 14. Rfe1  exd5 15. exd5 Qd6 16. Qd4 Bb7 17. Rad1 Rae8 18. Ne5 a6 19. a3 Re7 20. Re3 Rfe8  21. Nxf7 Kxf7 22. Re6 Qd8 23. Qf4+ Kg8 24. Rxe7 Rxe7 25. d6+ Re6 26. d7 g6 27.  Rd6 1-0',
+      id: '4263854',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A28',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. d4 exd4 5. Nxd4 Bb4 6. g3 Bxc3+ 7. bxc3 O-O 8.  Bg2 Ne5 9. c5 d6 10. cxd6 Qxd6 11. O-O Rd8 12. Qc2 c5 13. Nb3 Rb8 14. Bf4 Qc7  15. Rad1 Be6 16. Na5 Nd5 17. Bxd5 Rxd5 18. Rxd5 Bxd5 19. Rd1 Be6 20. Nxb7 Qxb7  21. Bxe5 Re8 22. Bf4 h6 23. Qa4 Rc8 24. f3 Qb2 25. Kf2 Qxc3 26. Qxa7 Qc2 27. Rd2  Qb1 28. Qa6 Bh3 29. e4 Qh1 30. Qe2 Qxh2+ 31. Ke3 Qg1+ 32. Qf2 Qc1 33. Qe2 Qg1+  34. Qf2 Qa1 35. Qe2 Be6 36. Qd1 Qxd1 37. Rxd1 Bxa2 38. Rd7 Be6 39. Rc7 Rxc7 40.  Bxc7 c4 41. f4 f5 42. exf5 Bxf5 43. Kd4 Be6 44. f5 Bxf5 45. Kxc4 Kf7 1/2-1/2',
+      id: '4263852',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Chessable Masters Group B',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 Nd7 7. Qe2 f6 8.  Nh4 Nf8 9. f4 Ng6 10. Qh5 O-O 11. Nxg6 hxg6 12. Qxg6 exf4 13. Nb3 Bb4+ 14. Bd2  Bxd2+ 15. Kxd2 a5 16. Raf1 a4 17. Nc1 Ra5 18. h4 Qd4 19. c3 Qb6 20. Kc2 Rb5 21.  b3 axb3+ 22. axb3 Be6 23. c4 Ra5 24. Rxf4 Rfa8 25. Rxf6 Ra2+ 26. Nxa2 Rxa2+ 27.  Kc1 Ra1+ 28. Kc2 Ra2+ 29. Kc1 Ra1+ 30. Kc2 Ra2+ 1/2-1/2',
+      id: '4263809',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: 'Chessable Masters Group B',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4  Bd7 9. Qxc4 Bc6 10. Bg5 Nbd7 11. Nc3 h6 12. Bxf6 Nxf6 13. b4 Bd5 14. Nxd5 exd5  15. Qb3 c6 16. e3 Bd6 17. Rfd1 Re8 18. b5 axb5 19. axb5 Rxa1 20. Rxa1 Qb6 21.  Ne1 Ne4 22. Bxe4 dxe4 23. Rb1 c5 24. Nc2 cxd4 25. Nxd4 Be5 26. Qd5 Bxd4 27. Qxd4  Qxd4 28. exd4 Rd8 29. Rc1 Rxd4 30. Rc8+ Kh7 31. Rc7 b6 32. Rxf7 e3 33. fxe3 Rd5  34. Rb7 Rxb5 35. Kg2 Kg6 36. Kf3 Kf6 37. h4 h5 38. Kf4 Rf5+ 39. Ke4 Re5+ 40. Kf4  Rf5+ 41. Ke4 Re5+ 42. Kf4 Rf5+ 1/2-1/2',
+      id: '4263794',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'D85',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Bd2 Bg7 6. e4 Nxc3 7. Bxc3 O-O 8.  Qd2 Nc6 9. Nf3 Bg4 10. d5 Bxf3 11. Bxg7 Kxg7 12. gxf3 Ne5 13. O-O-O c6 14. Qc3  f6 15. f4 Nf7 16. d6 exd6 17. h4 Qb6 18. Qg3 d5 19. exd5 Rad8 20. h5 Qc5+ 21.  Kb1 Rxd5 22. Rc1 Qd4 23. Bc4 Rc5 24. hxg6 hxg6 25. Rhd1 Rxc4 26. Rxd4 Rxd4 27.  Rg1 Nh8 28. f5 g5 29. f4 Nf7 30. fxg5 fxg5 31. Qc7 g4 32. Qxb7 Rfd8 33. Qxc6  R8d6 34. Qf3 Ne5 35. Qe3 Kf6 36. Qh6+ Kxf5 37. Qf8+ Kg5 38. Qe7+ Kf4 39. Qf8+  Kg5 40. Qg8+ Kf4 41. Qb3 Rd3 42. Qb4+ R3d4 43. Qb3 Nf3 44. Rf1 Kg3 45. Qe3 Rd3  46. Qf2+ Kf4 47. Qxa7 Rd1+ 48. Rxd1 Rxd1+ 49. Kc2 Rd2+ 50. Kc3 g3 51. Qf7+ Ke3  52. Qe7+ Kf2 53. Qc5+ Rd4 54. Qf5 g2 55. Qc2+ Rd2 56. Qg6 g1=Q 57. Qxg1+ Kxg1  58. a4 Rd8 59. a5 Ne5 60. b4 Nc6 61. a6 Rb8 0-1',
+      id: '4264723',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'B90',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nb3 Be7 8. f4  O-O 9. g4 exf4 10. Bxf4 d5 11. e5 Nfd7 12. Qxd5 Bh4+ 13. Ke2 Nc6 14. Bg2 Ncxe5  15. Raf1 Ng6 16. Bd2 Rb8 17. Kd1 b5 18. Qh5 Nde5 19. Kc1 Nc4 20. Be4 Be6 21. Rd1  Nxd2 22. Nxd2 Bg5 23. h4 Bf6 24. Nf3 Qa5 25. Ng5 Rfc8 26. Qxh7+ Kf8 27. Nxe6+  fxe6 28. Bxg6 1-0',
+      id: '4264728',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Bd2 Bg7 6. e4 Nxc3 7. Bxc3 O-O 8.  Qd2 Nc6 9. Nf3 Bg4 10. d5 Bxf3 11. Bxg7 Kxg7 12. gxf3 Ne5 13. O-O-O c6 14. Qc3  f6 15. f4 Nf7 16. d6 exd6 17. h4 Qb6 18. Qg3 d5 19. exd5 cxd5 20. h5 Rac8+ 21.  Kb1 Rfe8 22. hxg6 hxg6 23. Bd3 f5 24. Rdg1 Qf6 25. Qf3 Rh8 26. Rxh8 Rxh8 27.  Qxd5 Rd8 28. Qxf5 Qxf5 29. Bxf5 Rd6 30. Be4 b6 31. Kc2 Rf6 32. Kd3 Nd6 33. Rg5  Kf7 34. Rd5 Ke7 35. Re5+ Kd7 36. Ke2 Rxf4 37. Bxg6 Nc4 38. Rb5 Kc6 39. Rb3 a5  40. Bd3 Ne5 41. Ba6 Rh4 42. Rc3+ Kd6 43. a3 Nc6 44. Rg3 Nd4+ 45. Kd2 b5 46. Bc8  Rh8 47. Bg4 Rf8 48. Rd3 Ke5 49. Ke3 Nc2+ 50. Ke2 Nd4+ 51. Kf1 b4 52. axb4 axb4  53. Bd1 Ra8 54. Kg2 Ra2 55. Re3+ Kf4 56. Bf3 Kf5 57. b3 Ra5 58. Be2 Re5 59. Bc4  Rxe3 60. fxe3 Nc6 61. Bd3+ Ke5 62. Kf3 Na5 63. Bc2 Nb7 64. Bh7 Nc5 65. Bg8 Nd3  66. Bh7 Nc5 67. Bc2 Nb7 68. Ke2 Nc5 69. Kd2 Kd5 70. Ke1 Ke5 71. Ke2 Kd5 72. Kf3  Ke5 73. Kf2 Kd5 74. Kg2 Ke5 75. Kf3 Ne6 76. Bd3 Nc5 77. Bc4 Ne4 78. Ke2 Nc5 79.  Kf3 Ne4 80. Bg8 Nf6 81. Bf7 Ne4 82. Ke2 Nc5 83. Bg8 Ke4 84. Bh7+ Ke5 85. Bc2 Kd5  86. Kf2 Ke5 87. Kf3 1/2-1/2',
+      id: '4264733',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8.  Be3 Qa5 9. Qd2 O-O 10. Rc1 Bg4 11. d5 b5 12. Bxc5 Rc8 13. Bb4 Qb6 14. Be2 e6 15.  O-O Na6 16. Be7 Nc5 17. Qf4 Bxf3 18. Qxf3 exd5 19. exd5 Re8 20. d6 Bf8 21. Rb1  Bxe7 22. dxe7 a6 23. Bc4 Ne6 24. a4 Qc5 25. Bxe6 fxe6 26. axb5 axb5 27. Rfe1 Ra3  28. Qf6 Qxe7 29. Qe5 Rc8 30. Rxb5 Raxc3 31. h3 Rc1 32. Rb1 Rxb1 33. Rxb1 Rf8 34.  Rb6 Qf6 35. Qe3 Qa1+ 36. Kh2 Qf6 37. Kg3 Re8 38. Rc6 Re7 39. f3 Kg7 40. Kh2 Qf5  41. Rc4 Rf7 42. Re4 Qf6 43. h4 e5 44. h5 gxh5 45. Rxe5 Qf4+ 46. Qxf4 Rxf4 47.  Kg3 Ra4 48. Rxh5 Kg6 49. Rh4 Ra5 50. Rg4+ Kf6 51. Kh4 Rb5 52. Ra4 h6 53. Ra6+  Kg7 54. Re6 Rb2 55. Kh3 Rb4 56. Ra6 Rc4 57. Rb6 Ra4 58. Rc6 Rb4 59. Rd6 Ra4 60.  Rd3 Kg6 61. Re3 Kg5 62. Re5+ Kf6 63. Re3 Kg5 64. Re6 Rh4+ 65. Kg3 Ra4 66. Rb6  Ra3 67. Rb5+ Kg6 68. Kg4 Ra2 69. Kh3 Ra3 70. Rd5 Rb3 71. Rd8 Ra3 72. Rg8+ Kf7  73. Rg4 Kf6 74. Kh4 Ra5 75. Rc4 Ra2 76. Rf4+ Kg6 77. Rg4+ Kh7 78. Kg3 Ra3 79.  Kh2 Rb3 80. Ra4 Kg6 81. Ra6+ Kg5 82. Kh3 Rc3 83. Ra8 Kg6 84. Ra5 Rc4 85. g3 Rb4  86. Ra6+ Kg7 87. Re6 Ra4 88. Re4 Ra5 89. Kg4 Rg5+ 90. Kh4 Ra5 91. f4 Ra1 92. Re5  Rb1 93. Ra5 Rc1 94. Kh5 Rh1+ 95. Kg4 Rg1 96. Kf3 Kg6 97. g4 Rf1+ 98. Kg3 Rg1+  99. Kh3 Rf1 100. Ra6+ Kg7 101. Ra4 Kg6 102. Ra6+ Kg7 103. Ra7+ Kf6 104. Ra4 Kg6  105. Kg2 Rb1 106. Ra6+ Kg7 107. Kg3 Rg1+ 108. Kf3 Re1 109. f5 Rf1+ 110. Ke4 Re1+  111. Kd5 Rd1+ 112. Ke6 Re1+ 113. Kd7 Re4 114. Re6 Ra4 115. Rg6+ Kf7 116. Kc7 Rf4  117. Kd6 h5 118. Ke5 Rxg4 119. Ra6 Rb4 120. Ra7+ Kf8 121. Kf6 Rb6+ 122. Kg5 Rc6  123. Rh7 Rb6 124. Rxh5 Ra6 125. Rh7 Rb6 126. Rc7 Ra6 127. f6 Ra1 128. Rc8+ Kf7  129. Rc7+ Kf8 130. Rc8+ Kf7 131. Rc7+ Kf8 1/2-1/2',
+      id: '4264870',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'C24',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. e4 e5 2. Bc4 Nf6 3. d3 Nc6 4. Nc3 Bb4 5. Nf3 d6 6. O-O Bxc3 7. bxc3 Na5 8.  Bb3 h6 9. h3 Qe7 10. Nh2 Nxb3 11. axb3 g5 12. Re1 Rg8 13. Nf1 g4 14. h4 g3 15.  fxg3 Rg6 16. b4 Nh5 17. Qxh5 Bg4 18. Qxg6 fxg6 19. Bxh6 Kd7 20. Ne3 Be6 21. Rf1  Qh7 22. Bg5 Qg8 23. Rf6 a6 24. Raf1 Re8 25. c4 b6 26. Nd5 Kc6 27. R6f2 Qg7 28.  Kh2 Kb7 29. Nc3 Ra8 30. Rf6 Qg8 31. c5 Qe8 32. Nd5 dxc5 33. bxc5 bxc5 34. Rb1+  Kc8 35. Bh6 Kd7 36. Rb7 Bxd5 37. exd5 Kc8 38. Rb1 Kd7 39. Rbf1 Rd8 40. Rf8 Qe7 1-0',
+      id: '4264872',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'D85',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Be3 c5 8.  Rc1 Qa5 9. Qd2 O-O 10. Nf3 Bg4 11. d5 b5 12. Bxc5 Rc8 13. Bb4 Qc7 14. Nd4 a5 15.  Ba3 b4 16. Bb2 Qb6 17. c4 Na6 18. f4 e5 19. h3 Nc5 20. fxe5 Bxe5 21. hxg4 Nxe4  22. Qe3 Re8 23. Kd1 Bg7 24. Qg1 Nc3+ 25. Bxc3 bxc3 26. Nc2 Qf6 27. Rh2 Rad8 28.  Rb1 Rb8 29. Rc1 Bh6 30. Ra1 Rb2 31. g3 Qf3+ 32. Be2 Rxe2 33. Rxe2 Rxc2 0-1',
+      id: '4264874',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'C45',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. Nc3 Bb4 7. Bd3 d5 8.  Bd2 O-O 9. O-O Bxc3 10. Bxc3 dxe4 11. Bc4 Nd5 12. Qd4 Nxc3 13. Qxc3 Re8 14. Bb3  Qf6 15. Qxf6 gxf6 16. Rfe1 Re5 17. Rad1 Bf5 18. Re3 Rb8 19. f3 exf3 20. Rxf3 c5  21. Rdf1 Be6 22. Bxe6 Rxe6 23. b3 Rd8 24. Rxf6 Rxf6 25. Rxf6 Rd2 26. Ra6 Rxc2  27. Rxa7 c4 28. bxc4 Rxc4 29. Kf2 Rc2+ 30. Kf3 c5 31. h4 c4 32. Rc7 Rxa2 33.  Rxc4 Ra5 34. g4 h6 35. Kg3 Kg7 36. Rf4 Ra3+ 37. Rf3 Ra4 38. Rf4 Ra3+ 39. Rf3 Ra4  40. Rf4 Ra3+ 1/2-1/2',
+      id: '4264876',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'A33',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. Nf3 c5 2. c4 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. a3 Be7 7. e4 O-O 8. Nf3  Qa5 9. Bd2 Qh5 10. Rg1 a6 11. h3 Ne5 12. g4 Nxf3+ 13. Qxf3 Qc5 14. g5 Ne8 15. h4  b5 16. cxb5 axb5 17. Bxb5 Bb7 18. Bd3 Nd6 19. Qe2 Rfc8 20. Rc1 Qb6 21. Be3 Qa5  22. Bd2 Qb6 23. Be3 Qa5 24. Bd2 Ba6 25. Bxa6 Rxa6 26. Kf1 Rac6 27. Be1 Qc7 28.  Rg3 Nc4 29. Rc2 Qf4 30. Rh3 Bf8 31. Nd1 d5 32. exd5 exd5 33. Qf3 Qd6 34. Re2 d4  35. Bb4 Qd7 36. Bxf8 Rxf8 37. Kg2 f6 38. Qe4 f5 39. Qf3 f4 40. b4 Ne3+ 41. fxe3  fxe3 42. Qe4 Re6 43. Qd3 Qc6+ 44. Kg1 Re4 45. Nxe3 dxe3 46. Rexe3 Qc1+ 47. Kg2  Rd4 48. Qb3+ Kh8 49. Rhf3 Rd2+ 50. Kh3 Qh1+ 51. Kg4 Rg2+ 52. Rg3 Rh2 53. Rh3  Qg2+ 54. Reg3 Qe4+ 0-1',
+      id: '4264878',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '0-1',
+      e: 'B51',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. d4 cxd4 5. Qxd4 a6 6. Bxd7+ Bxd7 7. Nc3 e5 8.  Qd3 Rc8 9. O-O h6 10. Rd1 Nf6 11. h3 Be7 12. a4 Qc7 13. Nd2 O-O 14. Nf1 Be6 15.  Ne3 Qc5 16. Qe2 Bd8 17. Qf3 b5 18. axb5 axb5 19. Ne2 g6 20. Ng3 Kg7 21. Ra3 b4  22. Rad3 Be7 23. b3 Rh8 24. Bb2 h5 25. Ngf1 Qc6 26. Nd2 Rhd8 27. Nec4 Bxc4 28.  Nxc4 Nxe4 29. Qe3 Nf6 30. Qe1 Qc5 31. Kh1 Kf8 32. f4 exf4 33. Bxf6 Bxf6 34. Rd5  Qa7 35. Qe4 Qf2 36. R5d2 d5 37. Rxf2 dxe4 38. Rxd8+ Bxd8 39. Rxf4 f5 40. Rf1 Bc7  41. Ra1 Bg3 42. Kg1 f4 43. Kf1 f3 44. Ra6 Kg7 45. Ra7+ Kh6 46. gxf3 exf3 47. Rf7  f2 48. Kg2 Bh4 49. Ne3 Rc3 50. Rf3 Kg7 51. Nf1 Rxf3 52. Kxf3 Kf6 53. Ke4 g5 54.  Ne3 Ke6 55. Kf3 Ke5 56. Kg2 Kd4 57. Nd1 Bg3 58. Nb2 Kc3 59. Nd3 Bd6 60. Nxf2  Kxc2 61. Ne4 Be7 62. h4 g4 63. Ng3 Kxb3 64. Nxh5 Kc2 65. Nf4 b3 0-1',
+      id: '4264880',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Be3 c5 8.  Nf3 Qa5 9. Qd2 O-O 10. Rc1 Bg4 11. d5 b5 12. Bxc5 Rc8 13. Bb4 Qc7 14. Nd4 a5 15.  Ba3 b4 16. Bb2 Qb6 17. c4 Na6 18. Nc6 Bxb2 19. Qxb2 Rxc6 20. dxc6 Qxc6 21. Bd3  Nc5 22. Bc2 Nxe4 23. Qd4 Bf5 24. Bxe4 Bxe4 25. f3 Bf5 26. O-O a4 27. Rfe1 b3 28.  axb3 axb3 29. Re2 Qc7 30. c5 Rd8 31. Qc3 Bc2 32. Rexc2 bxc2 33. Qxc2 Qc6 34. Qc3  h5 35. Qe3 Rd7 36. h3 Kh7 37. Qe5 Rc7 38. Qf4 Kg7 39. Qe5+ Kh7 40. Qf4 Kg7 41.  Qe5+ Kh7 1/2-1/2',
+      id: '4264881',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'B90',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Rg1 b5 7. a4 b4 8. Nd5 e6  9. Nxf6+ Qxf6 10. Be3 Bb7 11. Qd2 Bxe4 12. f3 Bb7 13. Qxb4 Qe7 14. Qb6 Qd7 15.  O-O-O Qc8 16. Nb3 Nc6 17. Bd4 e5 18. Bc3 Be7 19. Bd3 O-O 20. Be4 Rb8 21. Kb1 Ba8  22. Qe3 Qc7 23. f4 Bf6 24. f5 h6 25. g4 Rfc8 26. Qf2 Qe7 27. Qg2 Nd4 28. Bxa8  Nxb3 29. cxb3 Rxa8 30. Qd5 e4 31. Bxf6 Qxf6 32. Qxe4 Rab8 33. Rg3 a5 34. Qd4 Qh4  35. Rd2 Rb4 36. Qxd6 Rxg4 37. Qa6 Rc5 38. Ka2 Rxg3 39. hxg3 Qxg3 40. f6 Qg6 41.  Rd8+ Kh7 42. fxg7 Kxg7 43. Qa8 Qh7 44. Qg2+ Qg6 45. Qd2 Re5 46. Qc3 Qf6 47. Ra8  h5 48. Qc8 h4 49. Qh8+ Kg6 50. Rg8+ Kf5 51. Qh5+ Ke6 52. Re8+ Kd6 53. Qd1+ Rd5  54. Qe2 Kd7 55. Ra8 Qe5 56. Qc4 Qd4 57. Qa6 Ke7 58. Qh6 Rd7 59. Qf8+ Kf6 60.  Rxa5 Kg6 61. Qg8+ Kh6 62. Qg5+ Kh7 63. Qh5+ Kg7 64. Rg5+ Kf8 65. Rg4 Qe3 66.  Qh8+ Ke7 67. Qxh4+ Kd6 68. Qf6+ Kc7 69. Rc4+ Kb8 70. Qh8+ Ka7 71. Rc8 Qe4 72.  Qc3 Kb7 73. Rc4 Qd5 74. Qb4+ Ka8 75. Rc5 Qd3 76. Rc8+ 1-0',
+      id: '4264882',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'A35',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. Nf3 Nf6 2. c4 c5 3. Nc3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 g6 7. Qb3 e6 8. Ne4  b6 9. d4 cxd4 10. O-O Bb7 11. Rd1 Bg7 12. Bg5 f6 13. Bf4 e5 14. Nxd4 Nxd4 15.  Rxd4 f5 16. Nd6+ Qxd6 17. Bxd5 Bxd5 18. Rxd5 Qe7 19. Bxe5 Bxe5 20. Qb5+ Kf8 21.  Rxe5 Qf6 22. Rd1 Kg7 23. Rd7+ Kh6 24. Ree7 Rae8 25. Qb4 Rxe7 26. Rxe7 Rd8 27.  Qf4+ g5 28. Qc7 Rd1+ 29. Kg2 Kg6 30. Rxh7 Rc1 31. Qxc1 Kxh7 32. b3 Kg6 33. Qc4  Qe7 34. a4 Qd7 35. Qd3 Qc6+ 36. f3 g4 37. h3 gxf3+ 38. Qxf3 Qe6 39. g4 f4 40.  Qd3+ Kg7 41. Kf3 Qe5 42. Qd7+ Kh8 43. Qc8+ Kg7 44. Qd7+ Kh8 45. Qd3 Kg7 46. h4  Qe7 47. g5 Qe6 48. Qd4+ 1-0',
+      id: '4264883',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '0-1',
+      e: 'C67',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8.  Rxe5 O-O 9. d4 Bf6 10. Re1 Re8 11. Rxe8+ Nxe8 12. d5 d6 13. a4 a5 14. Ra3 Bd7  15. Nc3 Bg5 16. h3 Bxc1 17. Qxc1 Nf6 18. Qd2 h6 19. Rb3 b6 20. Nb5 Rc8 21. Qd4  Bf5 22. Rc3 Be4 23. Bc4 Qd7 24. Bb3 Qf5 25. Nxc7 Qg5 26. Rg3 Qc1+ 27. Kh2 Qf4  28. Nb5 Nh5 29. Nc3 f5 30. Ne2 Qh4 31. f3 Nxg3 32. Nxg3 Qf4 33. fxe4 h5 34. Qd3  h4 35. exf5 Rf8 36. Qf3 hxg3+ 37. Qxg3 Rxf5 38. Qxf4 Rxf4 39. Kg3 g5 40. c3 Kg7  41. Bd1 Kf6 42. Bf3 Rxa4 0-1',
+      id: '4264884',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D02',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. Nf3 d5 2. d4 Bf5 3. c4 e6 4. Nc3 Nc6 5. cxd5 exd5 6. Bf4 Nf6 7. e3 Bd6 8. Bg5  Bb4 9. Bd3 Bxd3 10. Qxd3 h6 11. Bxf6 Qxf6 12. O-O Bxc3 13. Qxc3 O-O 14. Rfc1  Rfd8 15. Ne5 Rd6 16. Qb3 Nxe5 17. dxe5 Qxe5 18. Qxb7 Rad8 19. Qxa7 d4 20. exd4  Rxd4 21. Re1 Qd6 22. Rac1 Rd1 23. Qe3 Rd2 24. Rb1 Qf6 25. Qf3 Qd4 26. Rbc1 c5  27. g3 Qxb2 28. Rxc5 Qxa2 29. Rce5 Qa8 30. Qxa8 Rxa8 31. Re8+ Rxe8 32. Rxe8+ Kh7  33. Kg2 g6 34. h4 h5 35. Re3 Kg7 36. Rf3 Ra2 37. Re3 Rb2 38. Rf3 Ra2 39. Re3 Rb2  40. Rf3 Ra2 1/2-1/2',
+      id: '4264885',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. O-O Nd4 6. Bc4 d6 7. a4 c6 8. Nxd4  Bxd4 9. a5 a6 10. Nd2 O-O 11. Bb3 h6 12. h3 Ba7 13. Nc4 Be6 14. c3 Bxc4 15. Bxc4  d5 16. exd5 cxd5 17. Bb3 Qd6 18. Qf3 Rfe8 19. Qg3 Nh5 20. Qh4 Nf6 21. Be3 d4 22.  cxd4 Bxd4 23. Bxd4 exd4 24. Bc4 Re2 25. Qg3 Qe7 26. b4 Qxb4 27. Rab1 Qe7 28. Qf3  Ra7 29. Rb6 Re1 30. g3 Qe2 31. Qxe2 Rxe2 32. Rfb1 Re7 33. Rd6 Ra8 34. Rxd4 Rc8  35. Kg2 g6 36. Rd6 Kg7 37. Rdb6 Rcc7 38. R1b2 Red7 39. Ba2 Ng8 40. d4 Ne7 41. h4  h5 42. d5 Nxd5 43. Bxd5 Rxd5 44. Rxb7 Rxb7 45. Rxb7 Rxa5 46. Rb6 Ra3 47. f3 Kf8  48. Rb7 Re3 49. Ra7 Re6 50. g4 hxg4 51. fxg4 Kg7 52. Kf3 Rb6 53. h5 g5 54. Kg3  Rb3+ 55. Kg2 Ra3 56. Kf2 Ra4 57. Kg3 Ra3+ 58. Kf2 a5 59. Ra6 Ra4 60. Kg3 Ra3+  61. Kg2 Ra4 62. Kg3 Ra3+ 63. Kg2 Ra4 64. Kg3 1/2-1/2',
+      id: '4264886',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D02',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. Nf3 d5 2. d4 Bf5 3. c4 e6 4. Nc3 Nc6 5. Bg5 Be7 6. Bxe7 Ncxe7 7. e3 Nf6 8.  Be2 h6 9. O-O O-O 10. Qb3 Rb8 11. Rfd1 c6 12. Rac1 Ne4 13. Nxe4 Bxe4 14. Nd2 Bg6  15. Qa3 Ra8 16. b4 Nf5 17. Qb2 a6 18. a4 Nd6 19. b5 axb5 20. axb5 Ra4 21. c5 Ne4  22. Ra1 Rxa1 23. Rxa1 Nxd2 24. Qxd2 cxb5 25. Bxb5 Qb8 26. Qb2 Rc8 27. f4 Be4 28.  Bf1 g5 29. fxg5 hxg5 30. Ra3 Kg7 31. Rb3 Rc7 32. Ba6 Qa7 33. Bxb7 Qa5 34. Kf2  Re7 35. c6 Re8 36. Ra3 Qc7 37. Kg1 Rh8 38. g3 Rh3 39. Qf2 Rh6 40. Qe1 Qb6 41.  Qc1 Qc7 42. Qe1 Qb6 43. Ra2 Rf6 44. Qc1 Bd3 45. Rf2 Rxf2 46. Kxf2 Bc4 47. g4 Qa5  48. e4 f6 49. e5 Qa2+ 50. Kg1 Qe2 51. h3 Qd3 52. exf6+ Kf7 53. Qxg5 1/2-1/2',
+      id: '4264887',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8.  Rxe5 O-O 9. d4 Bf6 10. Re1 Re8 11. c3 Rxe1 12. Qxe1 Ne8 13. d5 d6 14. a4 a5 15.  Na3 Bd7 16. Nc4 Bg5 17. Be3 Bxe3 18. Nxe3 Nf6 19. Qd1 Qe7 20. Qb3 b6 21. Qc4 Rc8  22. Bd3 Qe5 23. h3 Nh5 24. Re1 Nf4 25. Bf1 Qf6 26. Rd1 h6 27. Rd4 Ng6 28. Re4  Qd8 29. Qe2 f5 30. Rd4 Qg5 31. g3 f4 32. h4 Nxh4 33. Rxf4 Ng6 34. Re4 h5 35. Ng2  Rf8 36. Qe3 Qf5 37. Nf4 Nxf4 38. Rxf4 Qb1 39. Qe4 Qxe4 40. Rxe4 Re8 41. Rc4 Re1  42. Kg2 Re7 43. Bd3 1/2-1/2',
+      id: '4264888',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D87',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8.  Ne2 O-O 9. O-O Nc6 10. Be3 Bg4 11. f3 Bd7 12. Rb1 Qc7 13. Qd2 Rfd8 14. Rfc1 Be8  15. h4 e5 16. Bd5 cxd4 17. cxd4 exd4 18. Nxd4 Qe5 19. Ne2 b6 20. Bf4 Qe7 21. h5  Rac8 22. h6 Bf6 23. Be3 Ne5 24. Rxc8 Rxc8 25. Rc1 Rd8 26. Qc2 Nxf3+ 27. gxf3  Rxd5 28. exd5 Qxe3+ 29. Kg2 Qg5+ 30. Kf2 Qxh6 31. Qc8 Bh4+ 32. Kg2 Qe3 33. Ng3  Qg5 34. Qxe8+ Kg7 35. Qe1 Bxg3 36. Qxg3 Qxc1 37. Qe5+ f6 38. Qe7+ Kh6 39. d6  Qg5+ 40. Kh3 Qh5+ 1/2-1/2',
+      id: '4264889',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'C45',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8.  h4 a5 9. c4 Ba6 10. Nd2 Nb6 11. h5 Qe6 12. h6 gxh6 13. b3 O-O-O 14. Bb2 Bg7 15.  O-O-O Rhe8 16. f4 f6 17. Ne4 fxe5 18. Nc5 Qf5 19. Nxa6 exf4 20. Qd3 Bxb2+ 21.  Kxb2 Qe5+ 22. Qc3 Kb7 23. Qxe5 Rxe5 24. Rxh6 c5 25. Nxc5+ Rxc5 26. Rxh7 Rf8 27.  Be2 d6 28. Bf3+ Kb8 29. Re1 Nc8 30. Re6 Rg5 31. Kc3 Rfg8 32. Rf7 Re5 33. Rh6 a4  34. Rhh7 axb3 35. Rxc7 Re3+ 36. Kb2 Rxf3 37. gxf3 bxa2 38. Kxa2 Rg3 39. Rb7+ Ka8  40. Rb3 Rg2+ 41. Ka3 Rc2 42. Rb4 Rc3+ 43. Kb2 Rxf3 44. Rh8 Rf2+ 45. Kc3 1-0',
+      id: '4264890',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D42',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. Nf3 c5 2. c4 Nf6 3. Nc3 Nc6 4. e3 e6 5. d4 d5 6. cxd5 Nxd5 7. Bd3 Be7 8. O-O O-O 9. a3 cxd4 10. exd4 b6 11. Qc2 Nf6 12. Be3 Bb7 13. Rad1 Rc8 14. Rfe1 h6 15. Qd2 Re8 16. d5 Nxd5 17. Bxh6 Nxc3 18. bxc3 Qd5 19. Bg5 Bxg5 20. Nxg5 Ne5 21. Bh7+ Kf8 22. Qxd5 exd5 23. Bf5 Rcd8 24. Be6 f6 25. f4 fxg5 26. Rxe5 gxf4 27. Rd4 g5 28. Rxg5 Rxe6 29. Rxf4+ Ke7 30. Rg7+ Kd6 31. Rxb7 Rc8 32. Rf3 Re1+ 33. Kf2 Rc1 34. Rxa7 Rc2+ 35. Kf1 Rc1+ 36. Kf2 Rc2+ 37. Kf1 Rc1+ 38. Kf2 1/2-1/2',
+      id: '4274617',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D90',
+      t: 'Airthings Masters Prelim',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. h4 c6 6. cxd5 cxd5 7. Bf4 Nc6 8. e3 O-O 9. Qb3 a6 10. Rc1 Re8 11. Be2 Bg4 12. Qxb7 Bxf3 13. Bxf3 e5 14. dxe5 Nxe5 15. Bxe5 Rxe5 16. O-O Re7 17. Qb3 Rb8 18. Nxd5 Rxb3 19. Rc8 Re8 20. Rxd8 Rxd8 21. Nxf6+ Bxf6 22. axb3 Bxh4 23. Ra1 Rd6 24. g3 Bf6 25. Ra2 h5 26. Be2 h4 27. gxh4 Rd2 28. Kf1 Bxh4 29. Ra4 g5 30. f4 Rxb2 31. fxg5 Bxg5 32. Rg4 f6 33. Bxa6 Kf8 34. e4 Rxb3 35. e5 Rf3+ 36. Kg2 Rf4 37. Rxf4 Bxf4 38. exf6 Be5 39. Kf3 Bxf6 40. Ke4 Bh8 41. Kf5 Kg7 42. Bc4 1/2-1/2',
+      id: '4276933',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'B07',
+      t: '81st Tata Steel GpA',
+      moves:
+        '1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 a6 5. Qd2 b5 6. f3 Nbd7 7. O-O-O Nb6 8. g4  Bb7 9. Nh3 Nfd7 10. Be2 e6 11. Bg5 Be7 12. Qe3 Bxg5 13. Nxg5 h6 14. Nh3 Qh4 15.  Nf2 O-O-O 16. f4 f5 17. Bf3 b4 18. exf5 bxc3 19. fxe6 cxb2+ 20. Kb1 Nf6 21.  Bxb7+ Kxb7 22. Qf3+ d5 23. Nd3 Ne4 24. Nc5+ Ka7 25. Qa3 Nxc5 26. Qxc5 Kb7 0-1',
+      id: '4168168',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '0-1',
+      e: 'B51',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. c3 Nf6 5. Bd3 g6 6. Bc2 Bg7 7. d4 O-O 8. O-O  b5 9. e5 Ne8 10. e6 fxe6 11. Ng5 Nc7 12. dxc5 Nxc5 13. Nxh7 Kxh7 14. Qh5+ Kg8  15. Bxg6 Rf6 16. Qh7+ Kf8 17. Bh6 Rxg6 18. Qxg6 Bxh6 19. Qxh6+ Ke8 20. b4 Na4  21. Na3 Kd7 22. c4 bxc4 23. Nxc4 Ba6 24. Rac1 Nb6 25. Nxb6+ axb6 26. Rfe1 Bb7  27. Qe3 b5 28. a3 Bd5 29. Rc3 Qg8 30. Qh3 Qg7 31. Rec1 Bc4 32. Re1 Qd4 33. Rf3  Qd2 34. Rb1 Nd5 35. Qg3 Be2 36. Rfb3 Bd1 0-1',
+      id: '4202281',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'B23',
+      t: 'Grand Chess Tour Blitz Paris 2019',
+      moves:
+        '1. e4 c5 2. Nc3 d6 3. f4 g6 4. Nf3 Bg7 5. Bc4 Nc6 6. O-O e6 7. d4 cxd4 8. Nb5  Na5 9. Bd3 e5 10. b4 Nc6 11. Bc4 Nf6 12. c3 a6 13. Ng5 axb5 14. Bxf7+ Ke7 15.  cxd4 Nxd4 16. Be3 Rf8 17. Bxd4 exd4 18. Qxd4 Rxf7 19. e5 Kf8 20. Rad1 Rc7 21. f5  gxf5 22. Qh4 Kg8 23. Rxd6 Qe7 24. exf6 Bxf6 25. Re1 Bxg5 26. Rxe7 Rc1+ 27. Re1  Bxh4 28. Rxc1 Be7 29. Rd5 Kf7 30. Rxb5 Be6 31. Rxb7 Bxa2 32. Ra1 Bd5 33. Rxa8 1/2-1/2',
+      id: '4208552',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'B08',
+      t: 'Grand Chess Tour Blitz Paris 2019',
+      moves:
+        '1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3 a6 5. Be3 Bg7 6. Qd2 b5 7. Bh6 O-O 8. Bd3  Bb7 9. Bxg7 Kxg7 10. e5 dxe5 11. dxe5 Ng4 12. Qf4 Bxf3 13. Qxf3 Qd4 14. O-O-O  Nc6 15. Be4 Ngxe5 16. Rxd4 Nxf3 17. Rdd1 Nfd4 18. Nd5 e6 19. Nxc7 Ra7 20. Nxe6+  fxe6 21. c3 Rxf2 22. cxd4 Rc7 23. Kb1 Na5 24. b3 Nb7 25. Rhf1 Rxf1 26. Rxf1 Nd6  27. Bd3 Nf5 28. Bxf5 exf5 29. Rc1 Rxc1+ 30. Kxc1 Kf6 31. Kd2 Ke6 32. Ke3 b4 33.  h4 Kd5 34. g3 h6 35. Kd3 g5 36. hxg5 hxg5 37. Ke3 a5 38. Kd3 f4 39. g4 f3 40.  Ke3 f2 41. Kxf2 Kxd4 0-1',
+      id: '4208502',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'B90',
+      t: 'Grand Chess Tour Rapid Paris 2019',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nde2 h5 8. g3  Be7 9. Bg2 b5 10. Nd5 Nxd5 11. Qxd5 Ra7 12. Qd2 Nd7 13. a4 Rb7 14. axb5 axb5 15.  O-O O-O 16. b3 b4 17. Rd1 h4 18. g4 Nc5 19. Qe1 Bd7 20. Be3 Qc7 21. Nc1 Rfb8 22.  Ra2 Bc6 23. Bd2 Qd8 24. Nd3 Nxd3 25. cxd3 Bd7 26. d4 exd4 27. Bf4 Be6 28. Rxd4  Bxb3 29. Rb2 Be6 30. Rdxb4 Rxb4 31. Rxb4 Rxb4 32. Qxb4 d5 1/2-1/2',
+      id: '4208447',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B10',
+      t: 'Levitov Chess Week Blitz',
+      moves:
+        '1. e4 c6 2. d3 d5 3. Nf3 Bg4 4. h3 Bh5 5. Nc3 e6 6. g4 Bg6 7. Qe2 d4 8. Nb1 c5 9. h4 h5 10. Ne5 Bh7 11. g5 Qc7 12. Nc4 Bg6 13. a4 Nc6 14. f4 f6 15. Bh3 e5 16. fxe5 Nxe5 17. Nba3 Nxc4 18. Nxc4 Bd6 19. e5 Bxe5 20. Bf4 Ne7 21. Nxe5 fxe5 22. Bxe5 Qa5+ 23. Qd2 Qxd2+ 24. Kxd2 O-O 25. Raf1 Nf5 26. Bxf5 Rxf5 27. Rxf5 Bxf5 28. Bd6 b6 29. Re1 Rd8 30. Bg3 Kf7 31. b3 Rd7 32. Re5 g6 33. Re1 a6 34. Re5 Re7 35. a5 Rxe5 36. Bxe5 b5 37. Bd6 Ke6 38. Bxc5 Kd5 39. Bb6 Bg4 40. b4 Bf3 41. c3 dxc3+ 42. Kxc3 Bg4 43. Kd2 Bf5 44. Ke3 Bg4 45. Bc5 Bf5 1/2-1/2',
+      id: '4210395',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'D83',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Rc1 Be6 7. c5 c6 8. Bd3 b6  9. Na4 Nfd7 10. h3 bxc5 11. Nxc5 Nxc5 12. Rxc5 Qb6 13. Qc2 Rc8 14. Nf3 Nd7 15.  Rc3 c5 16. O-O c4 17. b3 Nc5 18. bxc4 Nxd3 19. c5 Nxc5 20. dxc5 Qa5 21. Nd4 Bd7  22. c6 Be8 23. Rc5 Qa6 24. Rxd5 Bxc6 25. Nxc6 Rxc6 26. Qd2 Bc3 27. Rd8+ Rxd8 28.  Qxd8+ Kg7 29. Qxe7 Bf6 30. Be5 Qxa2 31. Ra1 Qe6 32. Bxf6+ Qxf6 33. Qxa7 Rc2 34.  Rf1 h5 35. Qb7 Rb2 36. Qd5 Re2 37. Qf3 Qxf3 38. gxf3 Ra2 39. Rd1 Ra5 40. Kg2  Rg5+ 41. Kh2 Rf5 42. f4 Ra5 43. Kg3 Ra2 44. Rd5 f5 45. Kf3 Kf6 46. Rd6+ Kg7 47.  Rd1 Kf6 48. Re1 Rb2 49. Re2 Rb1 50. Kg3 Rg1+ 51. Kh2 Ra1 52. Rb2 Rc1 53. Ra2 Rb1  54. Kg2 Re1 55. Rb2 Kg7 56. Kf3 Kf6 57. Re2 Rg1 58. Rd2 Re1 59. Kg2 Kg7 60. Ra2  Kf6 61. Ra3 Kf7 62. f3 Re2+ 63. Kg3 Kf6 64. Kh4 Re1 65. Ra6+ Kf7 66. Kg5 Rg1+  67. Kh6 Rg3 68. Ra7+ Kf6 69. e4 Rxf3 70. e5+ Ke6 71. Ra6+ Ke7 72. Ra4 Rg3 73.  Ra7+ Ke6 74. Ra6+ Kf7 75. Rf6+ Ke7 76. Rxg6 Rxh3 77. Kg5 1-0',
+      id: '4216591',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'A30',
+      t: '78th Tata Steel GpA',
+      moves:
+        '1. c4 c5 2. Nf3 Nf6 3. Nc3 e6 4. g3 b6 5. Bg2 Bb7 6. O-O Be7 7. Re1 d5 8. cxd5 Nxd5 9. e4 Nb4 10. d4 cxd4 11. Nxd4 N8c6 12. Nxc6 Qxd1 13. Rxd1 Bxc6 14. Rb1 Rd8 15. Rxd8+ Kxd8 16. a3 Nd3 17. Be3 Kc7 18. f4 a5 19. e5 Rd8 20. Bxc6 Kxc6 21. Kf1 Bc5 22. Ke2 Bxe3 23. Kxe3 Nc5 24. Rc1 Rd3+ 25. Ke2 Rd4 26. Ke3 Rd3+ 27. Ke2 Rd4 28. Ke3 1/2-1/2',
+      id: '3977247',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'C65',
+      t: 'GCT Rapid Paris 2016',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. c3 O-O 6. O-O d6 7. h3 Ne7 8. Ba4 a6 9. d4 Ba7 10. Bc2 d5 11. Nxe5 Nxe4 12. Nd2 Nd6 13. Ndf3 Bf5 14. Re1 Bxc2 15. Qxc2 Ne4 16. Qb3 Qc8 17. Ng5 Nxg5 18. Bxg5 f6 19. Nd3 Qd7 20. Bf4 c6 21. Re2 Ng6 22. Rae1 Rad8 23. Re6 Kf7 24. Bg3 Rde8 25. Rxe8 Rxe8 26. Rxe8 Kxe8 27. a4 Qe7 28. a5 Kd8 29. Qd1 Qe4 30. Kh2 Ne7 31. Qb3 Kc8 32. Qb4 Qe6 33. Nf4 Qf7 34. Kg1 Bb8 35. Nd3 Bxg3 36. fxg3 Nf5 37. g4 Ng3 38. Nc5 h5 39. gxh5 Qe7 40. Kf2 Nf5 41. g4 Qe3+ 42. Kf1 Qxh3+ 43. Ke1 Qg3+ 44. Kd2 Nd6 45. Nxb7 Qg2+ 46. Kc1 Qf1+ 47. Kc2 Qe2+ 48. Kc1 Qe1+ 49. Kc2 Qe4+ 50. Kb3 Nxb7 51. Qf8+ Kc7 52. Qxg7+ Kb8 53. h6 Qd3 54. Ka3 Qb1 55. h7 Qa1+ 56. Kb3 Qd1+ 57. Kb4 Ka7 58. h8=Q Qa1 0-1',
+      id: '3995369',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C44',
+      t: 'GCT Blitz Paris 2016',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d3 Nf6 4. g3 d5 5. exd5 Nxd5 6. Bg2 Bd6 7. O-O O-O 8. Re1 Re8 9. Nc3 Nxc3 10. bxc3 Rb8 11. Rb1 h6 12. Nd2 Ne7 13. Nc4 Ng6 14. d4 Be6 15. Na5 exd4 16. Rxb7 Qf6 17. Rxb8 Rxb8 18. Nc6 Rb1 19. cxd4 Nf4 20. gxf4 Bxf4 21. d5 Bd7 22. Qf3 Bxc6 23. dxc6 Rxc1 24. Rxc1 Bxc1 25. Qxf6 gxf6 1/2-1/2',
+      id: '3995414',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'A29',
+      t: 'GCT Blitz Paris 2016',
+      moves:
+        '1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8. d3 O-O 9. a3 Re8 10. b4 Bf8 11. Bb2 Bg4 12. Nd2 Qc8 13. Re1 a5 14. b5 Nd4 15. Nb3 a4 16. Nxd4 exd4 17. Ne4 Qd7 18. Qc2 Rad8 19. Nc5 Bxc5 20. Qxc5 Rxe2 21. Rxe2 Bxe2 22. Bxb7 Bxd3 23. Rd1 Qxb5 24. Qxc7 Rf8 25. Bxd4 Nc4 26. Bf3 Qb3 27. Bc5 Re8 28. Qd7 Qxd1+ 0-1',
+      id: '3995459',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B90',
+      t: 'GCT Rapid YourNextMove',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. f3 Nbd7 9. Qd2 b5 10. O-O-O h5 11. Nd5 Rc8 12. g3 Bxd5 13. exd5 Nb6 14. Bh3 Nc4 15. Qe2 Rc7 16. Bg5 Be7 17. f4 Ng4 18. Bxg4 hxg4 19. Bxe7 Qxe7 20. Rhe1 Kf8 21. fxe5 Qxe5 22. Nd4 Qxe2 23. Rxe2 g6 24. Nc6 Kg7 25. Rd4 f5 26. a4 Ne5 27. axb5 axb5 28. Nxe5 dxe5 29. Rxe5 Rxh2 30. c3 Ra7 31. Kb1 Rh3 32. d6 Rd7 33. Re3 Kf6 34. Kc2 g5 35. Red3 Ke6 36. Re3+ Kf6 37. Red3 Ke6 38. Re3+ 1/2-1/2',
+      id: '3996207',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'D11',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bg4 5. Qb3 Qb6 6. Nc3 e6 7. Nh4 Bh5 8. h3 Be7 9. g4 Bg6 10. Nxg6 hxg6 11. Bg2 g5 12. O-O Nbd7 13. Rd1 Qc7 14. e4 Nxe4 15. Nxe4 dxe4 16. Bxe4 Rd8 17. Bg2 O-O 18. Be3 Rfe8 19. Rac1 Qb6 20. d5 Qxb3 21. axb3 exd5 22. cxd5 cxd5 23. Rxd5 Bf6 24. Bxa7 Ne5 25. Rxd8 Rxd8 26. Bxb7 Nd3 27. Rd1 Nb4 28. Rxd8+ Bxd8 29. Be4 Bf6 30. Bc5 1-0',
+      id: '3996289',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'A80',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. d4 f5 2. Nc3 Nf6 3. Bg5 d5 4. e3 e6 5. Nf3 Be7 6. Bd3 O-O 7. O-O Ne4 8. Bxe7 Qxe7 9. Ne2 Nd6 10. Rc1 Nd7 11. c4 c6 12. Qb3 Kh8 13. Qa3 a5 14. Ne5 Kg8 15. f4 Re8 16. Rc2 Nf6 17. Rfc1 Qd8 18. Kh1 Ng4 19. Nxg4 fxg4 20. Re1 b5 21. c5 Nf5 22. Qc3 b4 23. Qd2 Ba6 24. Bxa6 Rxa6 25. Qd3 Ra7 26. Kg1 Rf7 27. Ng3 Qh4 28. e4 Ne7 29. Rf2 Ref8 30. Ref1 g6 31. Qe2 Qf6 32. Qxg4 Qxd4 33. Qxe6 Kh8 34. Qe5+ Qxe5 35. fxe5 Kg7 36. exd5 Nxd5 37. Ne2 Rxf2 38. Rxf2 Re8 39. Nd4 Rxe5 40. Nxc6 Re1+ 41. Rf1 Re2 42. Rf2 Re1+ 43. Rf1 Re2 44. Rf2 Re1+ 45. Rf1 1/2-1/2',
+      id: '3996334',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'C65',
+      t: '9th Masters Final 2016',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Qe2 Qe7 7. Nbd2 Bg4 8. h3 Bh5 9. a3 Nd7 10. b4 Bd6 11. Nc4 f6 12. Ne3 a5 13. Nf5 Qf8 14. bxa5 Rxa5 15. O-O Qf7 16. a4 Nc5 17. Qe1 b6 18. Nd2 Rxa4 19. Nc4 Bf8 20. Be3 Kd7 21. Qc3 Nxe4 22. Nxb6+ cxb6 23. dxe4 Qc4 24. Qd2+ Kc7 25. g4 Bg6 26. Rfd1 1-0',
+      id: '4000421',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'D38',
+      t: '9th Masters Final 2016',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 O-O 8. Rc1 dxc4 9. Bxc4 c5 10. O-O cxd4 11. Nxd4 Bd7 12. Qb3 Nc6 13. Nxc6 Bxc3 14. Qxb7 Bxc6 15. Qxc6 Bxb2 16. Rc2 Rac8 17. Qa4 Rc7 18. Bd3 Rxc2 19. Bxc2 Rc8 20. Rd1 Qc3 21. Bb3 Qc5 22. g3 Bf6 23. Rd7 Rc7 24. Rxc7 Qxc7 25. Qe8+ Kh7 26. h4 g6 27. Qa8 Kg7 28. Kg2 h5 29. Qe4 a5 30. Ba4 Qc5 31. Qb7 Qb4 32. Qxb4 axb4 33. Kf3 Bc3 34. Kg2 Be1 35. Kf1 Bc3 36. Kg2 Be1 37. Kf1 Bc3 38. Kg2 1/2-1/2',
+      id: '4001589',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E46',
+      t: '77th Tata Steel GpA',
+      moves:
+        '1. c4 Nf6 2. Nc3 e6 3. d4 Bb4 4. e3 O-O 5. Ne2 d5 6. a3 Be7 7. cxd5 exd5 8. g3 Nbd7 9. Bg2 Nb6 10. O-O Re8 11. b3 h6 12. Qc2 Bd7 13. a4 a5 14. Nf4 c6 15. Bb2 Bb4 16. Nd3 Bf5 17. Qd1 Bd6 18. Re1 Nbd7 19. Ba3 Bxa3 20. Rxa3 Nb8 21. Ra2 Na6 22. Rae2 Re7 23. Ne5 Nb4 24. e4 dxe4 25. Nxe4 Bxe4 26. Bxe4 Nxe4 27. Rxe4 Qd5 28. R4e3 b5 29. Ng4 Rxe3 30. Nxe3 Qe4 31. Ng4 Qc2 32. Ne3 Qe4 33. Ng4 Qc2 34. Ne3 Qe4 1/2-1/2',
+      id: '3925514',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'A29',
+      t: 'Vugar Gashimov Mem 2015',
+      moves:
+        '1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 Bb4 5. Bg2 O-O 6. O-O Re8 7. Nd5 Nxd5 8. cxd5 Nd4 9. Nxd4 exd4 10. Qa4 a5 11. e3 b5 12. Qc2 Bb7 13. b3 Qg5 14. a3 Bf8 15. Bb2 Bxd5 16. e4 Bb7 17. Bxd4 c5 18. Be3 Qg6 19. d3 a4 20. Rab1 axb3 21. Rxb3 b4 22. axb4 cxb4 23. Bd2 Bc6 24. Rb2 Ba4 25. Qc4 Rec8 26. Qd4 Bc5 27. Qd5 b3 28. d4 Bb6 29. Be3 h6 30. e5 Bc6 31. Qxb3 Bxg2 32. Kxg2 Bxd4 33. Bxd4 Qe4+ 34. Qf3 Qxd4 35. Rb5 Qc3 36. Rd1 Qxf3+ 37. Kxf3 Rc7 38. Rbd5 Raa7 39. Kg4 Ra2 40. R1d2 Rxd2 41. Rxd2 1/2-1/2',
+      id: '3937919',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'B90',
+      t: '3rd Sinquefield Cup 2015',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. f3 Nbd7 9. Qd2 b5 10. O-O-O Be7 11. g4 b4 12. Nd5 Bxd5 13. exd5 Nb6 14. Na5 Nbxd5 15. Nc4 Nxe3 16. Nxe3 O-O 17. Bc4 Nd7 18. h4 a5 19. g5 Rc8 20. Bd5 Nb6 21. Kb1 Qc7 22. Rhf1 Nxd5 23. Nxd5 Qb7 24. f4 f5 25. Qe3 e4 26. h5 Rc5 27. h6 g6 28. Qb3 Rf7 29. a4 Bd8 30. Rd4 Kf8 31. Rfd1 Rc6 32. Ne3 Bb6 33. Nc4 Bxd4 34. Nxa5 Qb6 35. Nxc6 Bc5 36. Qd5 e3 37. a5 Qb5 38. Nd8 Ra7 39. Ne6+ Ke8 40. Nd4 Qxa5 41. Qg8+ Kd7 42. Qxh7+ Kc8 43. Qg8+ Kb7 44. c3 bxc3 45. Qb3+ Qb6 46. Qxb6+ Kxb6 47. bxc3 Bxd4 48. Rxd4 Kc6 49. Kc2 Ra2+ 50. Kd1 Rf2 51. Ke1 Kd7 52. Ra4 Ke6 53. Ra8 Rh2 54. c4 Kf7 55. Rb8 Ke6 56. Rg8 1-0',
+      id: '3955066',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C97',
+      t: 'Qatar Masters Open 2015',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d6 9. h3 Na5 10. Bc2 c5 11. d4 Qc7 12. Nbd2 Bd7 13. Nf1 Nc4 14. b3 Nb6 15. Ne3 c4 16. Ba3 Rfe8 17. Qd2 Bf8 18. bxc4 Nxc4 19. Nxc4 bxc4 20. Rab1 Rab8 21. Rxb8 Rxb8 22. Bb4 h6 23. Rd1 a5 24. Ba3 Bc6 25. Qe2 exd4 26. Qxc4 dxc3 27. Qxc3 Rc8 28. Qd4 Bd5 29. Bb1 Be6 30. Qe3 Rb8 31. Nd4 Bd7 32. Rc1 Qb6 33. Qd2 Re8 34. Re1 a4 35. Bc2 Qb7 36. Qd3 Qc7 37. Qd2 Qb7 38. Qd3 Qc7 39. Qd2 1/2-1/2',
+      id: '3973669',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D87',
+      t: 'FIDE Candidates 2020',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8.  Ne2 O-O 9. O-O Nc6 10. Be3 b6 11. Qd2 Bb7 12. Rfd1 cxd4 13. cxd4 Rc8 14. Rac1  Na5 15. Bd3 Qd7 16. h4 Rxc1 17. Rxc1 Rc8 18. h5 Rxc1+ 19. Qxc1 Qc8 20. h6 Bf8  21. d5 e6 22. Nc3 Nc4 23. Bxc4 Qxc4 24. Qd2 exd5 25. Nxd5 Bxd5 26. exd5 Qb4 27.  Qd3 Qa3 28. Qc2 Qa5 29. Qd1 Bd6 30. g3 Kf8 31. Qf3 Qe1+ 32. Kg2 f5 33. g4 Qb1  34. Bd4 Kf7 35. Qe3 Qe4+ 36. Qxe4 fxe4 37. f3 exf3+ 38. Kxf3 Ke7 39. Ke4 Kd7 40.  a4 Bc7 41. Be3 a6 42. Bd2 b5 43. axb5 axb5 44. Kd4 Bb6+ 45. Kd3 Bc5 46. Bc3 Ba3  47. Bg7 Bc5 48. Bc3 Bf8 49. Bg7 Be7 50. Kd4 Bd6 51. Bf6 Kc7 52. Bg5 Kb6 53. Bd8+  Ka6 54. Kd3 Bf8 55. Kd4 Bd6 1/2-1/2',
+      id: '4259924',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'C19',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. h4 Qc7 8. h5 h6  9. Rb1 b6 10. Qg4 cxd4 11. Qxg7 Rg8 12. Qxh6 Qxe5+ 13. Ne2 dxc3 14. Qf4 Qxf4 15.  Bxf4 Nbc6 16. Nxc3 e5 17. Bd2 Bf5 18. f3 Rd8 19. Kf2 f6 20. Bd3 Kf7 21. g4 Bxd3  22. cxd3 Nd4 23. Rhc1 Rc8 24. Ne2 Ne6 25. Nc3 f5 26. Nb5 Rxc1 27. Rxc1 fxg4 28.  Rg1 gxf3 29. Nd6+ Kf6 30. Rxg8 Nxg8 31. Kxf3 Nd4+ 32. Kf2 Ke6 33. Ne8 Nf6 34. h6  Nf5 35. Ke2 Kf7 36. Nc7 Kg6 37. h7 Kxh7 38. Bg5 Nd4+ 39. Kd1 Kg6 40. Bxf6 Kxf6  41. Nxd5+ Ke6 42. Nc3 b5 43. Kd2 a5 44. Ne4 Kd5 45. Kc3 Ne2+ 46. Kd2 Nf4 47. Ng5  Ne6 48. Ne4 Nc5 49. Nc3+ Kc6 50. Ne2 Ne6 51. Nc3 b4 52. axb4 axb4 53. Ne4 Nc5  54. Nf6 Nb3+ 55. Kc2 Nd4+ 56. Kd2 Nf3+ 57. Kc2 Kc5 58. Nd7+ Kc6 59. Nf6 Ne1+ 60.  Kd2 Ng2 61. Kc2 Ne3+ 62. Kb3 Kb5 63. Nd7 Ng4 64. Kc2 Kc6 65. Nb8+ Kc5 66. Kb3  Kd4 67. Nc6+ Kxd3 68. Nxe5+ Nxe5 69. Kxb4 1/2-1/2',
+      id: '4260722',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'C78',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bc5 7. a4 Bb7 8. d3  O-O 9. Bg5 h6 10. Bh4 Be7 11. axb5 axb5 12. Rxa8 Qxa8 13. Na3 Qa5 14. Bd5 d6 15.  c4 bxc4 16. Nxc4 Qb5 17. Ne3 Bc8 18. Bxf6 Bxf6 19. Qc2 Bd7 20. Ra1 Rb8 21. b3  Bd8 22. Bc4 Qc5 23. h3 Nb4 24. Qd1 c6 25. Rc1 Qa7 26. d4 exd4 27. Nxd4 Bf6 28.  Nf3 Qc7 29. Qd2 c5 30. Rd1 Bc6 31. Ng4 Bxe4 32. Nxf6+ gxf6 33. Qf4 Bg6 34. Rxd6  Rb6 35. Rxf6 Qxf4 36. Rxf4 Nd3 37. Rg4 Nb2 38. Ne5 Nxc4 39. bxc4 Kg7 40. h4 Re6  41. Nd7 h5 42. Rf4 Rc6 43. Ne5 Rd6 44. Nxg6 Kxg6 45. Re4 Rd1+ 46. Kh2 Rc1 47.  Kg3 Rc2 48. Kf3 Kf5 49. Rf4+ Kg6 50. g4 Rc3+ 51. Ke2 hxg4 52. Rxg4+ Kh5 53. Rf4  Kg6 54. Kd2 Rh3 55. Rg4+ Kf5 56. Rg5+ Ke4 57. Rxc5 Rxh4 58. Rd5 Rh3 59. Kc2 Rf3  60. Rd2 Ke5 61. Kd1 Ke6 62. Rc2 Kd6 63. Ke2 Ra3 64. f3 Kc5 65. Kf2 Rd3 66. Rc1  Rd4 67. Ke3 f5 68. f4 Rxc4 1/2-1/2',
+      id: '4260724',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'C15',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Bd3 Nf6 6. a3 Bxc3+ 7. bxc3 O-O 8.  Ne2 Re8 9. O-O Ne4 10. Bf4 Bf5 11. f3 Nd6 12. Ng3 Bg6 13. Qd2 Nc6 14. Rfe1 Qd7  15. Rxe8+ Rxe8 16. Re1 Na5 17. Rxe8+ Qxe8 18. Bxd6 cxd6 19. h4 h6 20. h5 Bh7 21.  Qf4 Qe6 22. Kf2 Nc4 23. Bxc4 dxc4 24. Ne4 Bxe4 25. fxe4 b5 26. g4 a5 27. Qf5  Qxf5+ 28. gxf5 f6 29. Ke3 a4 30. d5 1/2-1/2',
+      id: '4260726',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Fabiano_Caruana',
+      r: '0-1',
+      e: 'C84',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 d6 7. c3 O-O 8. Nbd2  Re8 9. Re1 Bf8 10. d4 b5 11. Bc2 Bb7 12. b3 b4 13. Bb2 a5 14. d5 Nb8 15. Nc4 c6  16. dxc6 Nxc6 17. a3 Ba6 18. Ne3 g6 19. Qd2 Qb6 20. h3 Rac8 21. Rad1 Red8 22. c4  bxa3 23. Bxa3 Nb4 24. Bb1 Bh6 25. Qe2 Bb7 26. Ng4 Nxg4 27. hxg4 Na6 28. Rd3 Nc5  29. Bxc5 Rxc5 30. Qd1 Bc8 31. Nd2 Be6 32. Ba2 Qb4 33. f3 Rc6 34. g3 Ra8 35. Kg2  a4 36. Re2 axb3 37. Bxb3 Ra3 38. Nb1 Ra1 39. Rb2 Bxc4 40. Qc2 Kg7 41. Bxc4 Rxc4  42. Qf2 Qa5 43. Nd2 Rcc1 44. Nb3 Rg1+ 45. Qxg1 Rxg1+ 46. Kxg1 Qe1+ 47. Kh2 Qf1  48. Rc3 Bg5 49. Rg2 Qe1 50. Rd3 Qb1 51. Rc3 h5 52. gxh5 gxh5 53. Nd2 Qd1 54. Rd3  Kf8 55. Rf2 h4 56. gxh4 Bxh4 57. Rg2 Ke7 58. Rb3 Qe1 59. Nc4 Bg5 60. Rxg5 Qh4+  61. Kg2 Qxg5+ 62. Kf2 Qc1 63. Ne3 Qd2+ 64. Kg3 Ke6 65. Nf5 Qd1 66. Rb2 Qg1+ 67.  Rg2 Qe1+ 68. Kg4 Qc1 69. Ng7+ Kf6 70. Nh5+ Kg6 71. f4 Kh6 72. Kf5 Qc8+ 73. Kf6  Qe6# 0-1',
+      id: '4260728',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'C78',
+      t: 'Chessable Masters Group B',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Bc5 6. c3 O-O 7. d4 Bb6 8. Bg5  h6 9. Bh4 d6 10. h3 g5 11. Nxg5 hxg5 12. Bxg5 Kh7 13. Bxc6 Rg8 14. f4 bxc6 15.  Qe1 Rxg5 16. fxg5 Ng8 17. Rxf7+ Kg6 18. Rf3 exd4 19. Kh1 Qe7 20. Nd2 dxc3 21.  bxc3 Be6 22. Qh4 Qh7 23. Qg3 Qh5 24. Qf4 Kg7 25. Raf1 Re8 26. Qg3 Ne7 27. Rf6  Ng6 28. Nf3 Bc4 29. Re1 Bxa2 30. Nd4 Bxd4 31. cxd4 Bg8 32. e5 Bd5 33. Kh2 a5 34.  Re3 dxe5 35. dxe5 Qd1 36. e6 Re7 37. Qf2 Nh8 38. Rh6 1-0',
+      id: '4263804',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'A22',
+      t: 'Chessable Masters Group B',
+      moves:
+        '1. c4 Nf6 2. Nc3 e5 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nb6 6. d3 Be7 7. Be3 O-O 8. Rc1  Re8 9. Nf3 Nc6 10. O-O Bf8 11. Bg5 Qd7 12. a3 h6 13. Bd2 Qd8 14. Ne4 a5 15. Nc5  a4 16. Qc2 Ra7 17. Rfe1 Nd4 18. Nxd4 exd4 19. e4 dxe3 20. Bxe3 c6 21. Ne4 Be6  22. Bc5 Ra8 23. Bxf8 Rxf8 24. Nc5 Bc8 25. Re4 Re8 26. Rce1 Rxe4 27. Rxe4 Ra5 28.  h3 Kf8 29. d4 Ra8 30. Re1 g6 31. Qd2 Kg7 32. Qf4 Nd7 33. Ne4 Ra5 34. Nd6 Nf6 35.  Re8 Qd7 36. Rxc8 g5 37. Qd2 Ra6 38. Qb4 c5 39. dxc5 Rxd6 40. cxd6 Qxc8 41. Bxb7  Qxh3 42. Qxa4 h5 43. Qd4 Qd7 44. Bf3 h4 45. gxh4 gxh4 46. Qxh4 Qf5 47. Kg2 Kf8  48. a4 Qg6+ 49. Qg3 Qf5 50. b4 Nd5 51. Qg4 Qe5 52. Qc8+ Kg7 53. Qg4+ Kf8 54. d7  Ke7 55. Qe4 Qxe4 56. Bxe4 Nxb4 57. Bf5 Nc6 58. Kf3 Kd6 59. Kf4 f6 60. Be4 Nd8  61. Kf5 Kxd7 62. Kxf6 Kd6 63. a5 Ne6 64. a6 1-0',
+      id: '4263789',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'B33',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Nd5 Nxd5 8.  exd5 Nb8 9. a4 Be7 10. Bd2 O-O 11. a5 a6 12. Na3 Nd7 13. Nc4 f5 14. Bb4 Rf6 15.  Qd2 Rg6 16. g3 e4 17. h4 b5 18. axb6 Nxb6 19. Na5 Bd7 20. O-O-O Bf6 21. Nc6 Qe8  22. Kb1 Kh8 23. h5 Rh6 24. Qe3 Na4 25. c3 Rxh5 26. Rxh5 Qxh5 27. Be2 Qe8 28. Kc2  h6 29. Qf4 a5 30. Nxa5 Nxc3 31. bxc3 Ba4+ 32. Kb1 Bxd1 33. Bxd1 Qb5 34. Nb3 Bg5  35. Qxf5 Qf1 36. Qg4 Rf8 37. Kb2 Rxf2+ 38. Bc2 Qc4 39. Qe6 Bf6 40. Qxd6 Rxc2+  41. Kxc2 Qd3+ 42. Kb2 e3 43. Qe6 e2 44. Ka3 Bg5 45. d6 Qa6+ 46. Kb2 Qd3 47. d7  Kh7 48. c4 Bf6+ 49. Ka3 Qc2 50. Qxf6 1-0',
+      id: '4200108',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'C16',
+      t: 'Grand Chess Tour Blitz Paris 2019',
+      moves:
+        '1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 Qd7 5. a3 Bxc3+ 6. bxc3 b6 7. Qg4 f5 8. Qg3  Nc6 9. h4 Bb7 10. Nh3 O-O-O 11. Nf4 Qf7 12. a4 Nge7 13. Ba3 Rdg8 14. Be2 Na5 15.  Qg5 Nec6 16. Rh3 Kb8 17. Rg3 a6 18. h5 Bc8 19. Qh4 Qe8 20. h6 g6 21. Qf6 Nd8 22.  Be7 Nf7 23. Qh4 Qc6 24. Kd2 Re8 25. Bb4 Nc4+ 26. Bxc4 dxc4 27. a5 g5 28. Rxg5  Nxg5 29. Qxg5 Rhg8 30. Qh5 b5 31. f3 Rg3 32. Re1 Reg8 33. Re2 Qd7 34. Kc1 Bb7  35. Kb2 R8g5 36. Qh4 Qf7 37. d5 Bxd5 38. Nxd5 exd5 39. e6 Qe8 40. e7 Rxg2 41.  Rxg2 Rxg2 42. Qf6 Kb7 43. Qxf5 Rg6 44. Qxd5+ Kc8 45. f4 Rf6 46. Qe5 Rg6 47. f5  Rg5 48. Qe6+ Kb7 49. f6 1-0',
+      id: '4208521',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'B07',
+      t: 'Grand Chess Tour Blitz Paris 2019',
+      moves:
+        '1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 Bg7 5. Qd2 a6 6. Bh6 O-O 7. O-O-O b5 8. f3  Nc6 9. Nge2 e5 10. d5 Na5 11. Ng3 b4 12. Nb1 c6 13. Bxg7 Kxg7 14. Qxb4 cxd5 15.  exd5 Qc7 16. Qc3 Qb6 17. b3 Bb7 18. Qd2 Nxd5 19. Nc3 Nxc3 20. Qxc3 Rac8 21. Qd2  Nxb3+ 22. axb3 Qxb3 23. Re1 Rxc2+ 24. Qxc2 Rc8 25. Re2 a5 26. Qxc8 Bxc8 27. Rb2  Qe3+ 28. Rd2 Qa3+ 29. Kd1 Qa1+ 30. Ke2 a4 31. Kf2 Qc3 32. Ne4 Qb4 33. Rd1 a3 34.  Be2 a2 35. g4 Qb6+ 36. Kg2 Qb2 37. Ng3 d5 38. Rhe1 e4 39. fxe4 dxe4 40. Kg1 Bb7  41. Rf1 Bc6 42. Rde1 Qd4+ 43. Kg2 Ba4 44. Ra1 Qb2 45. Kh3 Bb3 46. g5 Qe5 47.  Rac1 Qxg5 48. Nxe4 Be6+ 0-1',
+      id: '4208468',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'B07',
+      t: 'Grand Chess Tour Rapid Paris 2019',
+      moves:
+        '1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 Bg7 5. Qd2 a6 6. Bh6 O-O 7. O-O-O b5 8. Bxg7  Kxg7 9. f3 Nc6 10. h4 e5 11. Nge2 b4 12. Nd5 h5 13. Nxb4 Nxd4 14. Nxd4 exd4 15.  Nc6 Qe8 16. Nxd4 Qa4 17. Kb1 c5 18. Ne2 Rb8 19. b3 Be6 20. Qc3 c4 21. Nf4 Rfc8  22. Rd4 cxb3 23. Nxe6+ fxe6 24. axb3 Qe8 25. Qd2 a5 26. Ba6 Rc6 27. Rxd6 Rbb6  28. Rxc6 Qxc6 29. Be2 a4 30. b4 Qc5 31. c3 Qf2 32. Rd1 Qxg2 33. Qe3 Rb7 34. Rg1  Qh2 35. Qg5 Ng4 36. Re1 Qf2 37. Qd2 Ne5 38. Rf1 Qxh4 39. f4 Rd7 40. Qe1 Qxe1+  41. Rxe1 Nf7 42. Kc2 e5 43. f5 h4 44. fxg6 Kxg6 45. b5 Kg5 46. c4 h3 47. c5 Kf4  48. b6 Nd8 49. Bb5 Rh7 50. c6 Nxc6 51. Bxc6 Rh6 52. Bd7 h2 53. b7 Rb6 54. Bc8 a3  55. Kc3 Kg3 56. Ra1 a2 57. Be6 Rxb7 58. Bb3 Ra7 59. Kc4 Rh7 60. Kc5 h1=Q 61.  Rxh1 Rxh1 62. Bxa2 Kf4 63. Bd5 Re1 0-1',
+      id: '4208449',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B90',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nb3 Be7 8. g4 b5  9. g5 Nfd7 10. h4 Nb6 11. Be3 Be6 12. Bxb6 Qxb6 13. Qf3 b4 14. Nd5 Bxd5 15. exd5  Nd7 16. O-O-O a5 17. Kb1 a4 18. Nd2 Nc5 19. Bd3 b3 20. cxb3 axb3 21. a3 Ra4 22.  Ne4 Nxe4 23. Bxe4 O-O 24. Rhg1 Qa7 25. h5 g6 26. Rd3 Rb8 27. hxg6 hxg6 28. Qg2  Bf8 29. f3 Rc4 30. Rh1 Qc7 31. Qh2 Bg7 32. Qe2 Bf8 33. Qh2 Bg7 34. Qe2 Bf8 35.  Qh2 Bg7 1/2-1/2',
+      id: '4211800',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B23',
+      t: '5th Sinquefield Cup 2017',
+      moves:
+        '1. e4 c5 2. Nc3 d6 3. Nge2 Nf6 4. g3 g6 5. Bg2 Nc6 6. d3 Bg7 7. h3 Rb8 8. a4 a6 9. f4 Bd7 10. Be3 b5 11. axb5 axb5 12. Qd2 b4 13. Nd1 O-O 14. O-O Qc7 15. g4 Ra8 16. Rb1 Ra2 17. f5 Ne5 18. Bh6 Qa7 19. Kh1 Bb5 20. Bxg7 Kxg7 21. Nf4 c4 22. g5 Nfd7 23. Ne3 b3 24. d4 bxc2 25. Nxc2 Nd3 26. Nd5 e5 27. Nc3 Qa5 28. dxe5 N7xe5 29. Nd4 Bd7 30. Rfd1 Qc5 31. Nxa2 Qxd4 32. Rf1 Bc6 33. Nc3 Rb8 34. Qe2 Rb3 35. Nd1 Nc5 36. Nc3 Ncd3 37. Nd1 Nc5 38. Nc3 1/2-1/2',
+      id: '4061781',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A15',
+      t: 'Saint Louis Rapid 2017',
+      moves:
+        '1. Nf3 Nf6 2. c4 c5 3. g3 Nc6 4. Bg2 d5 5. O-O e5 6. Qa4 Bd6 7. d4 exd4 8. cxd5  Nxd5 9. Nxd4 cxd4 10. Bxd5 O-O 11. Bxc6 bxc6 12. Qxd4 Qe7 13. Nc3 Be5 14. Qe4  Re8 15. Be3 Rb8 16. Qc2 h5 17. Rad1 Bh3 18. Rfe1 Bxc3 19. bxc3 Rb2 20. Qa4 Qe6  21. a3 Bg4 22. Kf1 h4 23. Rd4 Bxe2+ 24. Rxe2 Qh3+ 25. Ke1 hxg3 26. fxg3 Rxe2+  27. Kxe2 Qg2+ 28. Kd3 Qf3 29. Re4 Qf1+ 30. Kd2 Qg2+ 31. Kd3 Qf1+ 32. Kd2 1/2-1/2',
+      id: '4063727',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'B41',
+      t: 'Saint Louis Blitz 2017',
+      moves:
+        '1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. c4 Nf6 6. Nc3 Bb4 7. Qd3 d6 8. Be2  O-O 9. O-O Bxc3 10. Qxc3 Nxe4 11. Qc2 Nf6 12. Bg5 h6 13. Bh4 e5 14. Nf5 Nc6 15.  Ne3 Nd4 16. Qd1 g5 17. Bg3 Be6 18. Bd3 Nd7 19. Nc2 Nxc2 20. Bxc2 Qe7 21. b3 f5  22. f3 b5 23. cxb5 axb5 24. Qd2 Nf6 25. Rfd1 Nd5 26. Bd3 Rab8 27. a4 bxa4 28.  bxa4 Nf4 29. Bf1 d5 30. Re1 Qd6 31. a5 d4 32. a6 Ra8 33. a7 Rfe8 34. Ra6 Qc7 35.  Bxf4 gxf4 36. Rxe6 Rxe6 37. Qa2 Qb6 38. Bc4 Kf7 39. Rxe5 d3+ 40. Kf1 Qd4 41.  Rxe6 Kg7 42. Re7+ Kf6 43. Rf7+ Kg5 44. h4+ Kh5 45. Rxf5+ Kg6 46. Qa6+ Kg7 47.  Rf7+ 1-0',
+      id: '4063775',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'B23',
+      t: 'Saint Louis Blitz 2017',
+      moves:
+        '1. e4 c5 2. Nc3 a6 3. Nge2 b5 4. d4 cxd4 5. Nxd4 Bb7 6. Bg5 Qc7 7. Qd2 e6 8. Bd3  Nc6 9. Nxc6 Qxc6 10. O-O Ne7 11. Rfe1 Ng6 12. a4 b4 13. Nd5 h6 14. Bf4 Nxf4 15.  Qxf4 Bd6 16. Qg4 Be5 17. Rab1 Qd6 18. Ne3 Bxh2+ 19. Kf1 Be5 20. Nc4 Qc7 21. Nxe5  Qxe5 22. Re3 h5 23. Qe2 g5 24. b3 Ke7 25. Rd1 h4 26. Kg1 h3 27. g3 h2+ 28. Kg2  f5 29. Qd2 a5 30. Be2 h1=Q+ 31. Rxh1 Bxe4+ 32. Bf3 Rxh1 33. Kxh1 Bxf3+ 34. Rxf3  Rh8+ 35. Kg2 Qa1 36. Qxg5+ Ke8 37. Qg6+ Kd8 38. Qg5+ Kc8 0-1',
+      id: '4063820',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'A07',
+      t: '9th London Classic 2017',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. O-O e5 5. d3 Ne7 6. e4 O-O 7. exd5 Nxd5 8. Re1 Nc6 9. Nc3 Nde7 10. Rb1 a5 11. a3 Re8 12. b4 axb4 13. axb4 Nf5 14. b5 Ncd4 15. Nd2 Ra7 16. Nde4 h6 17. Nd5 Ra5 18. c4 c6 19. bxc6 bxc6 20. Nb6 Qc7 21. Bd2 Ra2 22. Nc3 Ra6 23. Nxc8 Rxc8 24. Ne2 Nxe2+ 25. Rxe2 Nd4 26. Re1 Rd8 27. Bc3 Ra2 28. Ra1 Rxa1 29. Bxa1 Qb6 30. Qa4 Nb3 31. Be4 1/2-1/2',
+      id: '4082990',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'A07',
+      t: '9th London Classic TB',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. O-O e5 5. d3 Ne7 6. e4 O-O 7. exd5 Nxd5 8. Re1 Nc6 9. Nc3 Nde7 10. Rb1 a5 11. a3 a4 12. Re4 Nd5 13. Bd2 Bf5 14. Re1 Nb6 15. Qc1 Re8 16. Bh6 f6 17. Ne4 Qe7 18. h4 Bg4 19. Nh2 Be6 20. Be3 Nd7 21. Nc3 Qf7 22. Nb5 Nf8 23. c4 Red8 24. Qc2 Rd7 25. Nc3 Bf5 26. Bd5 Rxd5 27. cxd5 Ne7 28. g4 Bd7 29. d4 Nxd5 30. dxe5 Bc6 31. Ne4 fxe5 32. Ng5 Qf6 33. Rbd1 h6 34. Ne4 Qf7 35. g5 h5 36. Qc4 Re8 37. Nf1 Re7 38. Nfg3 Rd7 39. Nc3 Qe6 40. Rd2 Kf7 41. Red1 Nxe3 42. Rxd7+ Nxd7 43. Qxe6+ Kxe6 44. fxe3 Bf8 45. Nge4 Be7 46. Kf2 Nb6 47. Nd2 Nd7 48. Nc4 b6 49. Nd2 Nc5 50. Ke2 Bb7 51. e4 Ba6+ 52. Kf3 Bd6 53. Nf1 Bc4 54. Ne3 Bb3 55. Rd2 c6 56. Nf1 Ke7 57. Ng3 Ne6 58. Nge2 b5 59. Nd1 Bc5 60. Ne3 Bb6 61. Nc1 Nd4+ 62. Kg3 Be6 63. Rd3 1/2-1/2',
+      id: '4084185',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B23',
+      t: '9th London Classic TB',
+      moves:
+        '1. e4 c5 2. Nc3 d6 3. Nge2 Nf6 4. g3 g6 5. Bg2 Bg7 6. d3 Nc6 7. a3 Rb8 8. Rb1 O-O 9. O-O b5 10. b4 a6 11. h3 Nd7 12. Be3 Bb7 13. Qd2 Nd4 14. f4 e6 15. Bf2 f5 16. Nxd4 cxd4 17. Ne2 e5 18. c3 fxe4 19. dxe4 Nf6 20. cxd4 Nxe4 21. Qd3 Nxf2 22. Rxf2 Qb6 23. Rd1 Kh8 24. Bxb7 Rxb7 25. dxe5 dxe5 26. Qd6 Qa7 27. Rd5 Rbf7 28. Qc5 Qb7 29. Rd1 Rc7 30. Qe3 Rcf7 31. Rdf1 Qc7 32. fxe5 Rxf2 1/2-1/2',
+      id: '4084186',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'A05',
+      t: '9th London Classic TB',
+      moves:
+        '1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. O-O O-O 5. c4 c6 6. b3 d6 7. d4 e5 8. dxe5 dxe5 9. Bb2 e4 10. Qxd8 Rxd8 11. Ng5 Bf5 12. Nc3 h6 13. Ncxe4 Nxe4 14. Bxg7 hxg5 15. Be5 Nd7 16. Bc7 Rdc8 17. Ba5 b6 18. Be1 g4 19. Rd1 Re8 20. f3 gxf3 21. exf3 Nec5 22. Bc3 Re2 23. g4 Be6 24. Rf2 Rxf2 25. Kxf2 a5 26. h4 f6 27. Rd6 Rc8 28. a3 Kf7 29. b4 axb4 30. axb4 Na4 31. Be1 Nb2 32. Bf1 Ne5 33. c5 bxc5 34. bxc5 Bc4 35. Bc3 Bxf1 36. Bxb2 Nd3+ 37. Kxf1 Nxb2 38. Rd4 Re8 39. Kf2 Re5 40. Rd7+ Re7 41. Rd4 Re5 42. Rd7+ Kf8 43. Rd6 Ke7 44. Rxc6 Rxc5 45. Rb6 Nd3+ 46. Ke3 Ne5 47. Rb7+ Ke6 48. Rb6+ Rc6 49. Rb3 Rd6 50. Ke4 Rc6 51. Ke3 Ra6 52. Kf2 g5 53. Kg3 gxh4+ 54. Kxh4 Ra1 55. Rb6+ Kf7 56. Rb3 Rg1 57. Kh3 Kg6 58. Kh2 Rd1 59. Kg3 Rd3 60. Rxd3 Nxd3 61. f4 Nc5 62. Kf3 Kf7 63. Kg3 Ke6 64. Kh4 Nd3 65. f5+ Ke5 66. g5 fxg5+ 67. Kxg5 Nf4 1/2-1/2',
+      id: '4084187',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B52',
+      t: '9th London Classic TB',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. a4 Nc6 5. O-O g6 6. c3 Nf6 7. d4 cxd4 8. cxd4 Bg7 9. Nc3 O-O 10. h3 a6 11. Bc4 Rc8 12. Re1 Ne8 13. Bb3 Na5 14. Ba2 Nc4 15. Qd3 b5 16. axb5 axb5 17. b3 Na5 18. Nxb5 Qb6 19. Na3 Nc6 20. Nc2 Nc7 21. Be3 Qb5 22. Qd2 d5 23. e5 Bf5 24. Rec1 Ne6 25. Nce1 Be4 26. Nh2 Nb4 27. Rxc8 Rxc8 28. Bb1 h5 29. Nhf3 Nc6 30. Bc2 Bxc2 31. Qxc2 Rb8 32. Nd3 Bf8 33. Rb1 Ng7 34. Nc5 Nf5 35. e6 Bg7 36. exf7+ Kxf7 37. Nd7 Ncxd4 38. Nde5+ Bxe5 39. Nxe5+ Ke6 40. Bxd4 Nxd4 41. Qxg6+ Kxe5 42. Re1+ Ne2+ 43. Kf1 Kd4 44. Rxe2 e5 45. Qg3 e4 46. Qe3+ Ke5 47. Kg1 Qxb3 48. Qg5+ Ke6 49. Qg6+ Kd7 50. Rd2 h4 51. Qf5+ Kc6 52. Qf6+ Kc5 53. Qd4+ Kc6 54. Qf6+ Kc5 55. Qxh4 Rb7 56. Qd8 Rb6 57. Qc7+ Rc6 58. Qa5+ Kd6 59. Qd8+ Kc5 60. h4 e3 61. Qe7+ Kb5 62. Qb7+ Rb6 63. Rxd5+ Kc4 64. Qf7 exf2+ 65. Kxf2 Qb2+ 66. Rd2+ 1-0',
+      id: '4084188',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'A07',
+      t: '43rd GM 2015',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 c6 5. O-O Nf6 6. b3 O-O 7. Bb2 Ne4 8. Nbd2 Bf5 9. c4 Nd7 10. Rc1 a5 11. Nh4 Nxd2 12. Qxd2 Be6 13. cxd5 cxd5 14. Nf3 Nf6 15. Ne5 Ne4 16. Qe3 a4 17. Nd3 axb3 18. axb3 Qb6 19. Nc5 Ra2 20. Bxe4 dxe4 21. Bc3 Qb5 22. Nxe6 fxe6 23. Rfe1 Qd5 24. Red1 Ra3 25. Qd2 Qxb3 26. Qg5 Ra2 27. Rd2 Bf6 28. Qc5 Rxd2 29. Bxd2 Qd5 30. Be3 Rd8 31. Rb1 Rd7 32. Rb5 Kf7 33. Qb4 Qc6 34. Rb6 Qd5 35. Rb5 Qc6 36. Rb6 Qc2 37. Rxb7 Rxb7 38. Qxb7 Bxd4 39. Bxd4 Qd1+ 40. Kg2 Qxd4 41. e3 Qd5 42. Qb2 Qf5 43. Qh8 Qf3+ 44. Kg1 Qd1+ 45. Kg2 Qf3+ 46. Kg1 1/2-1/2',
+      id: '3946162',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Fabiano_Caruana',
+      r: '0-1',
+      e: 'C00',
+      t: 'FIDE World Rapid 2014',
+      moves:
+        '1. e4 e6 2. d3 d5 3. Nd2 Nf6 4. g3 dxe4 5. dxe4 e5 6. Ngf3 Bc5 7. Bg2 Qe7 8. O-O O-O 9. b3 Nc6 10. Bb2 a5 11. a4 Rd8 12. Qe2 b6 13. Nc4 Ba6 14. Rad1 Rxd1 15. Rxd1 Qe6 16. h3 h6 17. Bf1 Re8 18. Kg2 Bb7 19. c3 Ne7 20. Ncd2 Rd8 21. Re1 Ng6 22. Kh2 Nh5 23. Nc4 Nf6 24. Nfd2 h5 25. Bg2 Ba6 26. Bc1 h4 27. Qf3 Nh7 28. Re2 Qe7 29. Nf1 Bxc4 30. bxc4 Rd1 31. Be3 Nf6 32. Bg5 Qe6 33. Rd2 Rxd2 34. Nxd2 hxg3+ 35. fxg3 Nh7 36. Be3 Qd7 37. Bxc5 bxc5 38. Qe3 Nf6 39. Nf3 Qd6 40. Ne1 Nf8 41. Nd3 Ne6 42. Qe2 Nd7 43. h4 Nb6 44. Nb2 Nf8 45. Bh3 Nh7 46. Bg2 Nf6 47. Bf3 Qd7 48. Qc2 Ne8 49. Be2 Nd6 50. Bd3 Kf8 51. Kg2 Ke7 52. Kh2 f6 53. Be2 Kd8 54. Bd3 Kc8 55. Bf1 Kb8 56. Bd3 g6 57. Qf2 Nxa4 58. Nxa4 Qxa4 59. Qxc5 Qa2+ 60. Kh3 Qa1 61. Qd5 Qh1+ 62. Kg4 Qd1+ 63. Kh3 f5 64. exf5 gxf5 65. c5 e4 66. Bxe4 Qg4+ 67. Kh2 Nxe4 68. Qd3 Nxc5 69. Qb5+ Nb7 70. Qe8+ Ka7 71. h5 f4 72. gxf4 Qxf4+ 73. Kh3 Nd6 74. Qg6 Nf5 75. Qg4 Qxg4+ 76. Kxg4 Nh6+ 77. Kg5 a4 78. Kxh6 a3 0-1',
+      id: '3898844',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'D80',
+      t: 'VI World Blitz',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bg5 Ne4 5. Bh4 Nxc3 6. bxc3 dxc4 7. e3 Be6 8. Be2 Bg7 9. Nf3 O-O 10. O-O c5 11. Rb1 b6 12. Qc2 cxd4 13. Nxd4 Bd5 14. e4 Bb7 15. Bxc4 Nc6 16. Rbd1 Qe8 17. Qe2 a6 18. Nxc6 Bxc6 19. Bxa6 b5 20. Bxe7 Qxe7 21. Bxb5 Qxe4 22. Qxe4 Bxe4 23. Rfe1 Bf5 24. a4 Bxc3 25. Re7 Rfd8 26. Rc1 Bb4 27. Rb7 Rac8 28. Rxc8 Rxc8 29. f3 h5 30. Kf2 Rc2+ 31. Kf1 Bc5 32. a5 Rb2 33. Ke1 Bb4+ 34. Kd1 Bxa5 35. Kc1 Rb1# 0-1',
+      id: '3752961',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'B43',
+      t: 'VI World Blitz',
+      moves:
+        '1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 d6 6. g4 b5 7. Bg2 Bb7 8. O-O Ne7 9. f4 Nec6 10. Nf3 Nd7 11. g5 Be7 12. Be3 Qc7 13. Qe1 Na5 14. a3 Nc4 15. Bc1 Rc8 16. Qg3 O-O 17. h4 a5 18. Nh2 b4 19. axb4 axb4 20. Nd1 d5 21. e5 d4 22. Ng4 Bc5 23. Kh2 Bxg2 24. Qxg2 Qc6 25. Qe2 Ndb6 26. h5 Be7 27. Ndf2 Nd5 28. h6 g6 29. Ne4 Nde3 30. Nef6+ Bxf6 31. Nxf6+ Kh8 32. Rf2 Nd5 33. Ng4 Rfd8 34. b3 Ncb6 35. Bb2 Nc3 36. Bxc3 dxc3 37. Rd1 Nd5 1-0',
+      id: '3753151',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D43',
+      t: 'Magistral',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 e6 5. Bg5 h6 6. Bh4 dxc4 7. e4 g5 8.  Bg3 b5 9. Ne5 Bb7 10. h4 g4 11. Nxg4 Nxg4 12. Qxg4 Qxd4 13. Rd1 Qg7 14. Qf4  Na6 15. Be2 Be7 16. O-O Nc5 17. e5 Qg6 18. Rd4 Rd8 19. Rfd1 Rxd4 20. Rxd4  Nd3 21. Qd2 h5 22. Bxd3 cxd3 23. Rxd3 b4 24. Nd1 c5 25. Ne3 Bc6 26. Rd6  Qb1+ 27. Kh2 Bb5 28. a4 bxa3 29. bxa3 O-O 30. Qa5 a6 31. Qc7 Re8 32. Qxc5  Qe4 33. f3 Qd3 34. Bf4 Qg6 35. Bg3 Qd3 36. Rxd3 Bxc5 37. Rc3 Bd4 38. Rb3  Rc8 39. Bf4 Rc3 40. Rxc3 Bxc3 41. g4 hxg4 42. Nxg4 Bb2 43. h5 Bxa3 44. Bd2  Be7 45. Ba5 Kg7 46. Kg3 Bd3 47. Kf4 Bb1 48. Bc7 Bf5 49. Ne3 Bd3 50. Ng4 Bb1  51. Ba5 Bf5 52. Ne3 1/2-1/2',
+      id: '3653492',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D38',
+      t: 'Opera Euro Rapid Prelim',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 O-O 8. Rc1 dxc4 9. Bxc4 c5 10. O-O cxd4 11. Nxd4 Bd7 12. Qb3 Nc6 13. Nxc6 Bxc3 14. Rxc3 Bxc6 15. Bb5 Bd5 16. Bc4 Bc6 17. Bb5 Bd5 18. Bc4 Bc6 1/2-1/2',
+      id: '4279141',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D14',
+      t: 'Tata Steel Chess Tournament 2020',
+      moves:
+        '1. c4 c6 2. d4 Nf6 3. Nc3 d5 4. cxd5 cxd5 5. Bf4 Nc6 6. Nf3 Bf5 7. e3 e6 8. Qb3  Bb4 9. Bb5 O-O 10. Bxc6 Bxc3+ 11. Qxc3 Rc8 12. Ne5 Ng4 13. Nxg4 Bxg4 14. Qb4  Rxc6 15. Qxb7 Qc8 16. Qxc8 Rfxc8 17. O-O a5 18. b3 f6 19. f3 Bf5 20. Rfe1 Bg6  21. e4 dxe4 22. fxe4 Rd8 23. Rad1 Rc2 24. e5 fxe5 25. Bxe5 Rxa2 26. Ra1 Rxa1 27.  Rxa1 Rd5 28. Rc1 Rb5 29. Rc8+ Kf7 30. Rb8 Rxb8 31. Bxb8 1/2-1/2',
+      id: '4250312',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: 'Online Nations Cup Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4  Bd7 9. Qxc4 Bc6 10. Bg5 Bd5 11. Qc2 Be4 12. Qc1 h6 13. Bxf6 Bxf6 14. Nbd2 Bxf3  15. Nxf3 a5 16. Qc3 Nc6 17. Rad1 Nb4 18. Ne5 c6 19. e4 Bxe5 20. dxe5 Qb6 21. Rd6  Na6 22. Rfd1 Qc5 23. Qxc5 Nxc5 24. R1d4 Rfc8 25. Bf1 b5 26. axb5 cxb5 27. Bxb5  Rab8 28. Ba6 Nxa6 29. Rxa6 Rxb2 30. Ra7 Rb5 31. Rdd7 Rf8 32. Rd4 Rxe5 33. Ra4  Rb8 34. R7xa5 Rxa5 35. Rxa5 Rb4 36. h4 Rxe4 37. Kg2 g6 38. Rb5 Kg7 39. Ra5 Rd4  40. Ra7 Kf6 41. Ra8 Kf5 42. Rh8 h5 43. Ra8 e5 44. Ra5 Rd2 45. Rb5 Ra2 46. Rc5 f6  47. Rb5 Ra4 48. Rc5 g5 49. hxg5 Kxg5 50. Rb5 Re4 51. Rb8 Rg4 52. Kf3 Ra4 53.  Rg8+ Kf5 54. Rh8 Ra3+ 55. Kg2 Kg6 56. Rg8+ Kh7 57. Rb8 Ra2 58. Re8 Kg6 59. Rg8+  Kf5 60. Rh8 Kg6 61. Rg8+ Kh7 62. Re8 Rb2 63. Rf8 Kg7 64. Re8 Rb4 65. Kf3 Ra4 66.  Rb8 Kg6 67. Rg8+ Kf5 68. Rh8 e4+ 69. Kg2 Kg6 70. Rg8+ Kf7 71. Rh8 Ra5 72. Kf1  Rf5 73. Ke2 Re5 74. Ke3 Kg7 75. Ra8 Kg6 76. Kf4 Rf5+ 77. Kxe4 Rxf2 78. Rg8+ Kh6  79. Rh8+ Kg6 80. Rg8+ Kh7 81. Ra8 Rf1 82. Rb8 f5+ 83. Ke3 Kg6 84. Rg8+ Kh7 85.  Ra8 Kg6 86. Rg8+ Kh7 87. Ra8 Kg6 88. Rg8+ 1/2-1/2',
+      id: '4260891',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: 'Online Nations Cup Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Be3 c5 8.  Rc1 Qa5 9. Qd2 cxd4 10. cxd4 Qxd2+ 11. Kxd2 O-O 12. Nf3 Nc6 13. d5 Rd8 14. Ke1  Na5 15. Bg5 Bd7 16. Bd3 Rdc8 17. Ke2 e6 18. Bd2 exd5 19. exd5 b6 20. Ba6 Re8+  21. Be3 Ba4 22. Rc7 Rad8 23. Rxa7 Rxd5 24. Rc1 Nc6 25. Bc4 Bb5 26. Rc7 Nd4+ 27.  Kf1 Nxf3 28. gxf3 Bxc4+ 29. R1xc4 b5 30. Rc8 Rdd8 31. Rxd8 Rxd8 32. Rb4 Ra8 33.  Rxb5 h5 1/2-1/2',
+      id: '4260951',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A07',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. O-O e5 5. d3 Ne7 6. c4 dxc4 7. dxc4 O-O 8. Nc3 Nbc6 9. Rb1 Bf5 10. e4 Bg4 11. h3 Bxf3 12. Bxf3 Nd4 13. Bg2 c6 14. Be3 Qd7 15. Ne2 Rad8 16. Nxd4 exd4 17. Bg5 h6 18. Bxe7 Qxe7 19. Qd3 f5 20. exf5 gxf5 21. Rbe1 Qf7 22. Bf3 Rde8 23. b3 Re6 24. Qd1 Rxe1 25. Rxe1 Re8 26. Rxe8+ Qxe8 27. Be2 f4 28. g4 a5 29. Bd3 Qe5 30. Kg2 Bf6 31. Bc2 Kf8 32. Qd3 h5 33. Bd1 hxg4 34. Bxg4 Kg7 35. Kf1 b5 36. Bd1 b4 37. Be2 Kf8 38. Qf3 c5 39. Bd3 Kg7 40. Qb7+ Qe7 41. Qg2+ Kf8 42. Qa8+ Kg7 43. Qg2+ Kf8 44. Qg6 Qe5 45. h4 f3 46. Qg4 Qh2 47. Qxf3 Qxh4 48. Ke2 Qg5 49. Be4 Kg7 50. Qh3 d3+ 51. Bxd3 Bd4 52. Qd7+ Kf8 53. Qc8+ Kf7 54. Qh3 Qe5+ 55. Kf1 Qf4 56. Qd7+ Kf8 57. Qd8+ Kf7 58. Qd7+ Kf8 59. Qf5+ Qxf5 60. Bxf5 Ke7 61. Ke2 Kf6 62. Bd7 Ke7 63. Ba4 Kf6 64. f3 Ke5 65. Kd3 Kf4 66. Ke2 Ke5 67. Kd3 Kf4 68. Ke2 Ke5 1/2-1/2',
+      id: '4274602',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A14',
+      t: 'Airthings Masters Prelim',
+      moves:
+        '1. Nf3 d5 2. g3 Nf6 3. Bg2 e6 4. O-O Be7 5. c4 O-O 6. b3 c5 7. cxd5 Nxd5 8. Nc3 Nc6 9. Bb2 Nxc3 10. Bxc3 Qc7 11. Qb1 e5 12. e3 f5 13. Rc1 Be6 14. Qb2 Bf6 15. Ne1 Rad8 16. d3 Bd5 17. b4 Bxg2 18. Kxg2 cxb4 19. Bxb4 Rf7 20. Bc3 f4 21. exf4 exf4 22. Rab1 Bxc3 23. Qxc3 Qd7 24. Qc5 Nd4 25. Rc4 f3+ 0-1',
+      id: '4276944',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C50',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 O-O 6. h3 d6 7. c3 a6 8. Re1 h6  9. Nbd2 Ba7 10. a4 Re8 11. b4 Be6 12. Bxe6 Rxe6 13. Bb2 b5 14. d4 Re8 15. axb5  axb5 16. Qe2 exd4 17. Qxb5 dxc3 18. Bxc3 Ne5 19. Qb7 Bb6 20. Bxe5 dxe5 21. Rxa8  Qxa8 22. Qxa8 Rxa8 23. Nxe5 Bd4 24. Nc6 Bc3 25. Rd1 Bxd2 26. Rxd2 Nxe4 27. Re2  Nd6 28. Rc2 Ra1+ 29. Kh2 Kf8 30. Ne5 Ra7 31. Nc6 Ra1 32. Ne5 Ra7 33. Nc6 Ra1 1/2-1/2',
+      id: '4200117',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4  Bd7 9. Qxc4 Bc6 10. Bg5 Nbd7 11. Nc3 h6 12. Bxf6 Nxf6 13. b4 Bd5 14. Nxd5 exd5  15. Qb3 c6 16. e3 Bd6 17. Rab1 Qe7 18. Rfd1 g6 19. Ne1 Kg7 20. b5 axb5 21. axb5  Qd7 22. Nd3 Rfc8 23. bxc6 bxc6 24. Qc2 Ra6 25. Rdc1 Qa7 26. Bf3 Rb8 27. Rxb8  Qxb8 28. Kg2 h5 29. Nc5 Bxc5 30. Qxc5 Qb2 31. Qc3 Qb8 32. h4 Qb7 33. Rc2 Rb6 34.  Qc5 Ra6 35. Qc3 Rb6 36. Qc5 Ra6 37. Qc3 Rb6 1/2-1/2',
+      id: '4211808',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'E04',
+      t: 'Superbet Rapid 2019',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 dxc4 5. Bg2 c5 6. O-O Nc6 7. dxc5 Qxd1 8. Rxd1 Bxc5 9. Nbd2 c3 10. bxc3 O-O 11. Nb3 Be7 12. c4 Bd7 13. Bb2 Rfd8 14. Nfd4 Rac8 15. Nb5 b6 16. Nd6 Bxd6 17. Rxd6 Be8 18. Rxd8 Nxd8 19. Rc1 Bc6 20. c5 Bxg2 21. Kxg2 Nd7 22. cxb6 Rxc1 23. Bxc1 axb6 24. Kf3 Nc6 25. Ke3 Kf8 26. Nd4 Nxd4 27. Kxd4 Ke7 28. Kc4 Kd6 29. Kb5 Kc7 30. g4 Nf6 31. Be3 Nd7 32. h4 f5 33. g5 g6 34. f4 Kb7 35. a4 Kc7 36. Bf2 Kb7 37. Bd4 Kc7 38. Bf6 h6 39. Bd8+ 1-0',
+      id: '4229290',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A20',
+      t: 'Superbet Blitz 2019',
+      moves:
+        '1. c4 e5 2. g3 Nf6 3. Bg2 c6 4. d4 e4 5. Bg5 d5 6. Bxf6 Bb4+ 7. Nc3 Qxf6 8. e3 Bxc3+ 9. bxc3 Qe7 10. cxd5 cxd5 11. Ne2 Be6 12. O-O Nd7 13. c4 dxc4 14. Bxe4 Nf6 15. Bg2 O-O 16. Nc3 Rab8 17. Rb1 Rfd8 18. e4 Ng4 19. d5 Bd7 20. a4 Qc5 21. Qd2 Ne5 22. Kh1 Nd3 23. f4 a6 24. e5 b5 25. axb5 axb5 26. d6 Bc6 27. Ne4 Qd4 28. Ng5 Bxg2+ 29. Qxg2 h6 30. Qe4 Qxe4+ 31. Nxe4 b4 32. Rf3 f6 33. Nd2 fxe5 34. Nxc4 e4 35. Re3 Rbc8 36. Nd2 Nf2+ 37. Kg2 Rxd6 38. Nxe4 Nxe4 39. Rxe4 Rd2+ 1/2-1/2',
+      id: '4229343',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C53',
+      t: 'Superbet Blitz 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. e5 d5 7. Bb5 Ne4 8. cxd4 Bb6 9. Nc3 O-O 10. Be3 Bg4 11. h3 Bh5 12. Qc2 Nxc3 13. bxc3 f6 14. exf6 Qxf6 15. Be2 Na5 16. O-O Rae8 17. Ne5 Bxe2 18. Qxe2 Qe6 19. f4 Nc4 20. Rae1 Nxe5 21. dxe5 g5 22. Bxb6 Qxb6+ 23. Kh1 gxf4 24. e6 Qd6 25. Qg4+ Kh8 26. Re2 Re7 27. Rfe1 f3 28. gxf3 Rg7 29. Qh5 Qe7 30. Re5 Rfg8 31. R5e2 Rg5 32. Qf7 Qxf7 33. exf7 Rf8 34. Re7 Rf5 35. Rxc7 R5xf7 36. Rxf7 1/2-1/2',
+      id: '4229388',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E04',
+      t: 'Tata Steel India Rapid',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 dxc4 5. Bg2 Nc6 6. Qa4 Bb4+ 7. Bd2 Nd5 8. Bxb4 Nxb4 9. O-O Rb8 10. Na3 O-O 11. Qb5 b6 12. Qxc4 Ba6 13. Nb5 Qe8 14. Rfc1 Nd5 15. e4 Na5 16. Nxc7 Bxc4 17. Nxe8 Rfxe8 18. exd5 Bxd5 19. Rc7 Rb7 20. Rac1 Rxc7 21. Rxc7 Nc6 22. Ne5 Nxe5 23. Bxd5 exd5 24. dxe5 g5 25. Rxa7 Rxe5 26. Kf1 g4 27. Ra4 h5 28. Rb4 Re6 29. Rb5 Rd6 30. Ke2 Kg7 31. Kd3 Rf6 32. Ke2 Re6+ 33. Kd2 Rf6 34. Ke2 Re6+ 1/2-1/2',
+      id: '4230929',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'E10',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Bb4+ 5. Bd2 Be7 6. Bg2 Nbd7 7. O-O O-O 8. Qc2 c6 9. Bf4 b6 10. cxd5 cxd5 11. Rc1 Bb7 12. Bc7 Qe8 13. Qb3 Rc8 14. Na3 Ba6 15. Nb5 Bxb5 16. Qxb5 Nc5 17. Qxe8 Rfxe8 18. Bf4 Na4 19. Rxc8 Rxc8 20. Rc1 Rxc1+ 21. Bxc1 Nd7 22. Ne1 b5 23. Nd3 f5 24. Bd2 Nab6 25. b3 Nb8 26. Ne5 N6d7 27. Nxd7 Nxd7 28. Bf4 Kf7 29. e3 Nf6 30. Bf1 Ne4 31. Bxb5 Nc3 32. a4 g5 33. Bc7 Bb4 34. Bd3 a5 35. g4 Kg6 36. Kg2 h5 37. gxf5+ exf5 38. Bb5 h4 39. Be8+ Kh6 40. Bd8 Ne4 41. Bc6 h3+ 42. Kg1 Nc3 43. Bd7 Kg6 44. Be8+ Kh6 45. Bd7 Kg6 46. Be6 g4 47. Bd7 Ne4 48. Be8+ Kh6 49. Bf7 Nc3 50. Bc7 0-1',
+      id: '4230960',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D45',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. e3 Nbd7 6. Qc2 Bd6 7. b3 O-O 8. Be2 b6 9. O-O Bb7 10. Bb2 Qe7 11. Rad1 Rad8 12. Rfe1 Rfe8 13. Bf1 c5 14. cxd5 exd5 15. g3 Rc8 16. Qb1 cxd4 17. Nxd4 Bb4 18. Qa1 Ne5 19. Bg2 Qd7 20. a3 Bc5 21. Nce2 Ne4 22. Nf4 1/2-1/2',
+      id: '4232224',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D55',
+      t: '80th Tata Steel GpA',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. Bg5 Be7 5. e3 h6 6. Bh4 O-O 7. Nf3 Nbd7 8. Be2 c5 9. O-O dxc4 10. Bxc4 cxd4 11. Nxd4 Ne5 12. Be2 Bd7 13. Qb3 Qb6 14. Qxb6 axb6 15. Bg3 Nc6 16. Ndb5 Na7 17. Nxa7 Rxa7 18. Rfd1 Rc8 19. Bd6 Kf8 20. Bxe7+ Kxe7 21. Rd4 Bc6 22. Rb4 Nd7 23. Rd1 Ra5 24. f3 Rc5 25. Kf2 Ra8 26. h4 g5 27. Rc1 Rca5 28. e4 Rg8 29. hxg5 hxg5 30. Rd4 Ne5 31. Rh1 Raa8 32. Rh5 Nd7 33. Ke3 Nf6 34. Rh1 Rgc8 35. g3 Rg8 36. a3 Rgc8 37. Rb4 Nd7 38. Rd4 Nf6 39. Rb4 Nd7 40. Rd4 1/2-1/2',
+      id: '4095259',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'A15',
+      t: 'GCT Rapid YourNextMove',
+      moves:
+        '1. c4 Nf6 2. g3 e5 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nb6 6. Nf3 Nc6 7. d3 Be7 8. O-O O-O 9. Be3 Be6 10. Rc1 Nd5 11. Nxd5 Bxd5 12. Qc2 Re8 13. a3 a6 14. Rfd1 Bf6 15. Nd2 Bxg2 16. Kxg2 Bg5 17. Bxg5 Qxg5 18. e3 Qe7 19. Ne4 Rac8 20. Nc5 Nd8 21. d4 e4 22. d5 f5 23. Nxa6 Nf7 24. d6 Nxd6 25. Nxc7 Red8 26. Qb3+ Qf7 27. Ne6 Rxc1 28. Rxc1 Re8 29. Nd4 Qxb3 30. Nxb3 Kf7 31. Nd4 g6 32. Rc3 Kf6 33. Rb3 Re7 34. a4 Ke5 35. a5 Kd5 36. Rb6 Rf7 37. b3 g5 38. a6 bxa6 39. Rxa6 Nb7 40. Rb6 Nd6 41. Ra6 Nb7 42. Rh6 Nd6 43. Rh5 Rg7 44. Rh6 Rf7 45. Rh5 Rg7 46. h4 gxh4 47. Rxh4 Ke5 48. Rh6 Rf7 49. Rh5 Kf6 50. Rh6+ Ke5 51. Kh3 Rb7 52. Rh5 Kf6 53. Rh6+ Ke5 54. Kh4 Nb5 55. Ne2 Re7 56. g4 Nd6 57. Nd4 1-0',
+      id: '4119456',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'A06',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. Nf3 d5 2. b3 Nf6 3. Bb2 g6 4. c4 dxc4 5. bxc4 Bg7 6. g3 O-O 7. Bg2 c5 8. O-O Nc6 9. Ne5 Na5 10. Qc2 Nd7 11. Nxd7 Bxd7 12. Bxg7 Kxg7 13. Bxb7 Nxb7 14. Qb2+ Kg8 15. Qxb7 Bh3 16. Rd1 Be6 17. Qe4 Rb8 18. Nc3 Qd4 19. Qxd4 cxd4 20. Nd5 Bxd5 21. cxd5 d3 22. e4 f5 23. f3 fxe4 24. fxe4 Rb4 25. Re1 Rb2 26. Rad1 Rxa2 27. Re3 Ra3 28. Rc1 g5 29. g4 a5 30. Rc7 Rf7 31. e5 Ra4 32. h3 Rd4 33. e6 Rf8 34. Re5 Rd8 35. Rxg5+ Kf8 36. Rf5+ Kg8 37. Rxe7 R4xd5 38. Rff7 1-0',
+      id: '4119508',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'C19',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. a4 h6 8. Nf3 Qc7 9. Qd2 O-O 10. Bd3 b6 11. a5 Ba6 12. O-O Bxd3 13. cxd3 Nd7 14. h4 Nc6 15. axb6 axb6 16. Rb1 Ra4 17. Qf4 Ne7 18. Bd2 Qc6 19. h5 Rfa8 20. Rfc1 Ra2 21. Be3 Qa4 22. Nh4 Rc2 23. Qg3 Kf8 24. dxc5 Rxc1+ 25. Rxc1 bxc5 26. d4 Rc8 27. Rb1 Qc2 28. Rb7 cxd4 29. cxd4 Qd1+ 30. Kh2 Qxh5 31. Qh3 g5 32. g4 Qxh4 33. Qxh4 gxh4 34. Rxd7 h5 35. gxh5 Nf5 36. h6 Kg8 37. Kh3 Rf8 38. Kg4 Kh7 39. Ra7 Kg6 40. Ra1 Rc8 41. Ra7 Rg8 42. Ra1 Kh7+ 43. Kh3 Rb8 44. Ra7 Kg6 45. Kg4 Rb1 46. Kh3 Rh1+ 47. Kg2 Rb1 48. Kh3 Rb3 49. h7 Rb8 50. Ra1 Kxh7 51. Rg1 Rg8 52. Ra1 Rb8 53. Rg1 Rb3 54. Kg4 Nxe3+ 55. fxe3 Rxe3 56. Kxh4 Re4+ 57. Kg5 Rxd4 58. Kf6 Rf4+ 59. Ke7 Rf5 60. Kd6 Kh6 61. Ke7 Kh5 62. Rg8 Kh4 63. Rg7 Rxe5 64. Kxf7 d4 65. Kf6 Re3 66. Rg1 e5 67. Kf5 Kh3 68. Rg6 Kh2 69. Rg4 d3 70. Rg6 e4 71. Rd6 Kg3 0-1',
+      id: '4119551',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D78',
+      t: '79th Tata Steel GpA',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 Nf6 5. O-O O-O 6. c4 c6 7. Qb3 Qb6 8. Nc3 Rd8 9. Bd2 Be6 10. Na4 Qxb3 11. axb3 Nbd7 12. Rfc1 Ne4 13. Ba5 b6 14. Be1 Rac8 15. cxd5 Bxd5 16. b4 e5 17. Nxe5 Nxe5 18. dxe5 Bxe5 19. Bxe4 Bxe4 20. Nc3 Bd5 21. Rxa7 Bc4 22. Na4 Bxe2 23. Nxb6 Rc7 24. Ra2 Bd4 25. Na4 Ra7 26. b3 Bb5 27. Rd2 Rad7 28. Rcd1 Rd6 29. Kg2 Be5 30. Rxd6 Rxd6 31. Rc1 Rd8 32. Nc5 Bb2 33. Rc2 Bd4 34. Bd2 Bxc5 35. bxc5 f6 36. h4 Rd3 37. Rb2 Kf7 38. g4 h5 39. gxh5 gxh5 40. Be3 Kg6 41. Rb1 Rc3 42. b4 Rc4 43. Kh3 1/2-1/2',
+      id: '4031944',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A14',
+      t: '5th Norway Blitz 2017',
+      moves:
+        '1. Nf3 d5 2. g3 Nf6 3. Bg2 e6 4. O-O Be7 5. c4 O-O 6. b3 b6 7. Bb2 Bb7 8. e3 c5 9. Nc3 dxc4 10. bxc4 Nc6 11. Qe2 Rc8 12. Ne1 Qd7 13. f4 Rfd8 14. Rd1 Na5 15. Bxb7 Qxb7 16. d3 a6 17. a4 Ne8 18. f5 Bf6 19. fxe6 fxe6 20. Ng2 Qd7 21. Nf4 Nc6 22. Nh5 Be5 23. Ne4 Qe7 24. Ba3 Nd6 25. Qg4 Nf5 26. Rf3 Kh8 27. Ng5 Rf8 28. Rdf1 Nxe3 29. Rxe3 Bd4 30. Bc1 Ne5 31. Qh4 Ng6 32. Qg4 Ne5 33. Qh4 h6 34. Ne4 Qxh4 35. gxh4 Ng4 36. Re1 Rf3 37. Kg2 Rxe3 38. Bxe3 Nxe3+ 39. Kf3 Rf8+ 40. Ke2 Nc2 41. Rb1 Nb4 42. Nhg3 Rf4 43. Nd2 Rxh4 44. Nf3 Rf4 45. Ne4 Nxd3 46. Nxd4 Rxe4+ 47. Kxd3 Rxd4+ 48. Kc3 Rd6 49. Re1 Kg8 0-1',
+      id: '4051997',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A37',
+      t: '5th Norway Chess 2017',
+      moves:
+        '1. c4 c5 2. Nc3 g6 3. g3 Nc6 4. Bg2 Bg7 5. Nf3 e6 6. h4 Nf6 7. d4 cxd4 8. Nxd4 O-O 9. O-O d5 10. cxd5 Nxd5 11. Nxc6 bxc6 12. Bd2 Nxc3 13. Bxc3 Bxc3 14. bxc3 Ba6 15. Qc2 Qa5 16. Rfd1 Qc5 17. Rd7 Rad8 18. Rad1 Rxd7 19. Rxd7 Bc4 20. Qd2 a5 21. Bf3 Qa3 22. h5 Qxa2 23. Qd4 c5 24. Qe3 a4 25. Kg2 Qb1 26. h6 Qf5 27. g4 Qf6 28. Qxc5 Bd5 29. e4 Ba8 30. Ra7 e5 31. Rxa4 Qf4 32. Qe3 Qxe3 33. fxe3 Rc8 34. Ra5 Kf8 35. Kg3 Bc6 36. c4 Bd7 37. Be2 Be6 38. Rxe5 Bxc4 39. Bxc4 Rxc4 40. Kf4 Rc6 41. g5 Rc1 42. Ra5 Ke7 43. Ke5 Rc7 44. Rb5 Ra7 45. Rc5 Rb7 46. Ra5 Rc7 47. Ra8 Rc5+ 48. Kf4 Rc1 49. Ra7+ Ke6 50. Ra6+ Ke7 51. e5 Rf1+ 52. Ke4 Rg1 53. Ra8 Rxg5 54. Ra7+ Ke6 55. Ra6+ Ke7 56. Kd5 Rh5 57. Ra7+ Kf8 58. Ra8+ Ke7 59. Ra7+ Kf8 1/2-1/2',
+      id: '4052850',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D42',
+      t: 'GCT Rapid YourNextMove',
+      moves:
+        '1. c4 c5 2. Nf3 Nc6 3. Nc3 Nf6 4. e3 e6 5. d4 d5 6. cxd5 Nxd5 7. Bd3 Be7 8. O-O O-O 9. a3 cxd4 10. exd4 b6 11. Nxd5 Qxd5 12. Qc2 Bb7 13. Bxh7+ Kh8 14. Be4 Nxd4 15. Bxd5 Nxc2 16. Bxb7 Nxa1 17. Bxa8 Rxa8 18. Bg5 f6 19. Rxa1 fxg5 20. Rc1 g4 21. Ne1 Bf6 22. Rc2 Rd8 23. Kf1 Kh7 24. Ke2 Kg6 25. Nd3 e5 26. Rc7 Kf5 27. Rxa7 e4 28. Nb4 Bg5 29. Rf7+ Kg6 30. Rb7 Rd2+ 31. Kf1 Rd1+ 32. Ke2 Rd2+ 33. Kf1 Rd1+ 1/2-1/2',
+      id: '4054962',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '0-1',
+      e: 'D17',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 c6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 Nbd7 7. Nxc4 Nb6 8. Ne5 a5 9. h4 e6 10. f3 h6 11. e4 Bh7 12. Be3 Nfd7 13. Nd3 Bd6 14. Bf2 O-O 15. Qb3 Qe7 16. g4 Kh8 17. Be2 f5 18. gxf5 exf5 19. e5 Bb4 20. Kf1 f4 21. Nxb4 axb4 22. Ne4 Nd5 23. Nd6 Qe6 24. Kg1 Nxe5 25. dxe5 Qxe5 26. Ne4 Rae8 27. Re1 Re6 28. Bd3 Ne3 29. Rh2 Rg6+ 30. Kh1 Qh5 31. Rh3 Rg3 32. Rxg3 fxg3 0-1',
+      id: '4055022',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A35',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. c4 c5 2. Nf3 Nc6 3. Nc3 Nf6 4. e3 g6 5. d4 cxd4 6. exd4 d5 7. cxd5 Nxd5 8. Qb3 Nxc3 9. Bc4 Nd5 10. Bxd5 e6 11. Bxc6+ bxc6 12. O-O Qd5 13. Be3 Be7 14. Rfc1 f6 15. Nd2 Kf7 16. Rc2 a5 17. Qc4 Bb7 18. Nb3 Ba6 19. Qxd5 cxd5 20. Nxa5 Bd3 21. Rc3 Bb5 22. Nb3 Bc4 23. Nc1 Rhc8 24. a3 e5 25. Nd3 Ke6 26. Rac1 Rcb8 27. b4 Ra6 28. f4 Bxd3 29. Rxd3 Rba8 30. dxe5 fxe5 31. fxe5 Rxa3 32. Rxa3 1/2-1/2',
+      id: '4055067',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'A36',
+      t: '78th Tata Steel GpA',
+      moves:
+        '1. c4 g6 2. Nc3 c5 3. g3 Bg7 4. Bg2 Nc6 5. a3 d6 6. Rb1 a5 7. d3 e5 8. Nd5 Nce7 9. Nc3 Nc6 10. e4 Nge7 11. Nge2 O-O 12. O-O Bd7 13. Bd2 h6 14. Nb5 Be6 15. Nec3 b6 16. Nd5 Bxd5 17. cxd5 Na7 18. Nc3 f5 19. h4 f4 20. Bh3 b5 21. Ne2 f3 22. Nc1 h5 23. Nb3 a4 24. Na1 b4 25. axb4 cxb4 26. Qxa4 Nac6 27. Qd1 Nd4 28. Nc2 Nxc2 29. Qxc2 Rb8 30. Rfc1 Rb7 31. Qb3 Kh8 32. Rc4 Ng8 33. Rxb4 Rxb4 34. Qxb4 Bf6 35. Rc1 Qe7 36. Qb6 Bxh4 37. Rc7 1-0',
+      id: '3976227',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D38',
+      t: 'GCT Rapid Paris 2016',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Qa4+ Nc6 6. e3 O-O 7. Bd2 dxc4 8. Bxc4 Bd6 9. Qc2 e5 10. dxe5 Nxe5 11. Nxe5 Bxe5 12. f4 Bxc3 13. Bxc3 Ng4 14. Bd4 c5 15. Bxc5 Re8 16. O-O b6 17. Bd4 Nxe3 18. Bxe3 Rxe3 19. Qf2 Re8 20. Rad1 Qf6 21. Qd4 Qxd4+ 22. Rxd4 Bf5 23. Rfd1 g6 24. Ba6 Kg7 25. Kf2 Re7 26. a3 Rae8 27. Rc1 h5 28. Bb5 Re4 29. Rxe4 Rxe4 30. Rc4 Re7 31. Rc3 Re4 32. Rc4 Re7 33. Rc3 Re4 1/2-1/2',
+      id: '3995406',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A45',
+      t: 'GCT Blitz Paris 2016',
+      moves:
+        '1. d4 Nf6 2. Bg5 d5 3. Nd2 c5 4. e3 Nc6 5. c3 e6 6. Ngf3 h6 7. Bh4 g5 8. Bg3 Nh5 9. Be5 Nxe5 10. Nxe5 Nf6 11. Bb5+ Nd7 12. Qf3 Qe7 13. h4 Bg7 14. hxg5 hxg5 15. Rxh8+ Bxh8 16. Qh5 Bf6 17. Ndf3 a6 18. Bxd7+ Bxd7 19. Nxg5 O-O-O 20. f4 Rh8 21. Nh7 Bxe5 22. dxe5 f5 23. exf6 Qxh7 24. Qxh7 Rxh7 25. g4 Rh8 26. Kf2 Kd8 27. g5 Be8 28. e4 dxe4 29. b4 cxb4 30. cxb4 Bg6 31. Rd1+ Kc7 32. Rc1+ Kd7 33. Rd1+ Kc7 34. Rc1+ Kd7 35. Rd1+ Kc7 1/2-1/2',
+      id: '3995419',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A14',
+      t: 'GCT Blitz Paris 2016',
+      moves:
+        '1. Nf3 Nf6 2. g3 d5 3. Bg2 e6 4. O-O Be7 5. c4 O-O 6. b3 b6 7. Bb2 Bb7 8. cxd5 Nxd5 9. d4 Nd7 10. Re1 N5f6 11. Nc3 c5 12. e4 cxd4 13. Nxd4 Ne5 14. Qe2 Bc5 15. Ncb5 a6 16. Rad1 axb5 17. Nxe6 Qe7 18. Nxf8 Kxf8 19. Bd4 b4 20. f4 Bxd4+ 21. Rxd4 Qc5 22. Qe3 Nfg4 23. Qd2 Nc6 24. Rd1 Rd8 0-1',
+      id: '3995464',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D45',
+      t: 'GCT Rapid YourNextMove',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 c6 5. e3 Nbd7 6. Qc2 Bd6 7. Bd3 O-O 8. O-O dxc4 9. Bxc4 b5 10. Bd3 Bb7 11. a3 Rc8 12. b4 a5 13. Rb1 c5 14. bxc5 Bxf3 15. gxf3 Nxc5 16. dxc5 Rxc5 17. Rxb5 Nd5 18. Rxc5 Qg5+ 19. Kh1 Qh5 20. f4 Qf3+ 21. Kg1 Qg4+ 22. Kh1 Qf3+ 23. Kg1 1/2-1/2',
+      id: '3996243',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 O-O 7. Qe2 Re8 8. Nc4 Nd7 9. Bd2 Bd6 10. O-O-O Nf8 11. Ne3 Be6 12. Kb1 Qd7 13. Ng5 f6 14. Nxe6 Nxe6 15. Nf5 g6 16. Nxd6 cxd6 17. g3 Nd4 18. Qf1 Qg4 19. Be3 Qf3 20. h4 d5 21. exd5 Qxd5 22. h5 g5 23. h6 Rad8 24. Bxd4 exd4 25. f4 Re3 26. fxg5 Qxg5 27. g4 Rde8 28. Rh2 Kf7 29. a3 Qxg4 30. Rc1 Rf3 31. Qh1 Ree3 32. Rh4 Qd7 33. Rg1 Rg3 34. Rf4 Qh3 35. Rxd4 Qxh1 36. Rxh1 Ke7 37. a4 Re2 38. Rb4 b6 39. Rc4 c5 40. b4 Re5 41. a5 Rg6 42. Kb2 Kd6 43. axb6 axb6 44. bxc5+ Rxc5 45. Rb4 b5 46. Rf4 f5 47. Rh5 Rg2 48. Rhxf5 Rgxc2+ 49. Kb3 R2c3+ 50. Kb4 Rxf5 51. Rxf5 Rxd3 52. Rf7 Ke6 53. Rxh7 Rh3 54. Rb7 Kf5 55. h7 Kg6 56. Kxb5 Rxh7 57. Rxh7 Kxh7 1/2-1/2',
+      id: '3996266',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A13',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. Nf3 d5 2. b3 Nf6 3. Bb2 e6 4. c4 c5 5. e3 Nc6 6. cxd5 exd5 7. Bb5 Bd6 8. O-O O-O 9. d4 cxd4 10. Nxd4 Qb6 11. Be2 Be5 12. Bf3 Re8 13. Na3 Nxd4 14. Bxd4 Bxd4 15. Qxd4 Qxd4 16. exd4 Bd7 17. Nc2 Ne4 18. Rfe1 a5 19. Ne3 Bc6 20. Rac1 Kf8 21. Rc2 Rad8 22. Rec1 Ng5 23. Be2 Ne6 24. Rd1 g6 25. g3 f5 26. Kf1 Kg7 27. Ng2 g5 28. Ne1 g4 29. Ng2 h5 30. f3 Rd7 31. Nh4 Rf7 32. f4 Kf6 33. Kf2 Rfe7 34. Rcd2 Nxd4 35. Bf1 Ne6 36. Bd3 Ng7 37. Bf1 Ne6 38. Bd3 Nd4 39. Bf1 Nb5 40. Nxf5 Kxf5 41. Bxb5 Kf6 42. Bf1 Re3 43. Rd3 R3e7 44. R3d2 Re3 45. Rd3 1/2-1/2',
+      id: '3996311',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C50',
+      t: '9th Masters Final 2016',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 O-O 6. Re1 a6 7. a4 Ng4 8. Rf1 h6 9. c3 d6 10. Nbd2 Ba7 11. h3 Nf6 12. Re1 Nh5 13. Nf1 Qf6 14. Ne3 Nf4 15. Ng4 Qg6 16. Bxf4 exf4 17. d4 Bxg4 18. hxg4 Qxg4 19. Qd3 Ne7 20. Re2 Rad8 21. b4 Bb8 22. b5 axb5 23. axb5 c6 24. Rb1 d5 25. Ba2 dxe4 26. Rxe4 Bd6 27. bxc6 bxc6 28. Rxe7 Bxe7 29. Ne5 Qg5 30. Qc4 Qf6 31. Rb7 c5 32. Nd7 Rxd7 33. Rxd7 cxd4 34. Rxd4 Rd8 35. Rxd8+ Bxd8 36. Qe4 Be7 37. Qd4 Qxd4 38. cxd4 Bf6 39. d5 Be7 40. f3 Bc5+ 41. Kf1 Kf8 42. Bc4 Ke7 43. Bb5 Kd6 44. Be8 f6 45. Bf7 Ke5 46. Be6 f5 47. Bd7 Kf6 48. Ke2 g6 49. Be8 g5 50. Bd7 Bb6 51. Kf1 Ba7 52. Ke2 Bc5 53. Kf1 h5 54. Be8 h4 55. Bd7 Ke5 56. Ke2 1/2-1/2',
+      id: '4000417',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'C50',
+      t: '9th Masters Final 2016',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 O-O 6. Re1 Ng4 7. Re2 Kh8 8. h3 f5 9. Nc3 Nf6 10. Be3 Bxe3 11. fxe3 fxe4 12. dxe4 d6 13. a3 Qe8 14. Qd3 Nd8 15. Rf2 Be6 16. Raf1 a6 17. Nd2 b5 18. Bxe6 Nxe6 19. Nd5 Nd7 20. Rxf8+ Ndxf8 21. c4 c6 22. Nc3 Qe7 23. b4 Nd7 24. Nb3 Nf6 25. Na5 Qc7 26. Rc1 Qd7 27. cxb5 axb5 28. a4 bxa4 29. Nxa4 Rf8 30. Nb6 Qf7 31. Nxc6 Ng5 32. Rf1 Qc7 33. Qb5 Ngxe4 34. Nd5 Qd7 35. Nxf6 gxf6 36. Qd5 Nc3 37. Qc4 Na4 38. b5 Nb6 39. Qd3 Rg8 40. e4 Qe6 41. Rd1 Nd7 42. Kh2 Nc5 43. Qxd6 Qxd6 44. Rxd6 Nxe4 45. Re6 Nc5 46. Rxf6 e4 47. Rf5 Nb7 48. Re5 Nd6 49. Nd4 Rb8 50. g4 Kg8 51. Kg3 Kf7 52. Nf5 Kf6 53. Kf4 Nxb5 54. g5+ Kg6 55. Re7 Rh8 56. Kg4 h5+ 57. Kf4 1-0',
+      id: '4001582',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D02',
+      t: '4th Sinquefield Cup 2016',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. g3 Bb4+ 5. Bd2 Be7 6. Bg2 O-O 7. O-O c6 8. Qc2 Nbd7 9. Rd1 b6 10. b3 a5 11. Bc3 Ne4 12. Bb2 f5 13. e3 Ba6 14. Ba3 Bxa3 15. Nxa3 b5 16. Rac1 Qe7 17. cxb5 cxb5 18. Nb1 b4 19. Qb2 Rfc8 20. Ne1 h5 21. Rxc8+ Rxc8 22. Rc1 Qd8 23. Bf1 Bxf1 24. Kxf1 h4 25. Rxc8 Qxc8 26. Qc2 Qxc2 27. Nxc2 hxg3 28. hxg3 g5 29. Ke2 Kf7 30. a3 bxa3 31. Nbxa3 Nc3+ 32. Kd2 Ne4+ 33. Ke2 Ndf6 34. b4 a4 35. Ne1 Ke7 36. Nd3 Nd7 37. Kd1 Nb6 38. Kc2 Nc4 39. Nxc4 dxc4 40. Nb2 Nxf2 41. Nxa4 Ne4 42. Nb6 c3 43. Na4 Nxg3 44. Kxc3 f4 1/2-1/2',
+      id: '4004016',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D02',
+      t: '8th London Classic 2016',
+      moves:
+        '1. d4 Nf6 2. Nf3 d5 3. Bf4 c5 4. e3 Nc6 5. Nbd2 e6 6. c3 cxd4 7. exd4 Nh5 8. Bg5 f6 9. Be3 Bd6 10. g3 O-O 11. Bg2 f5 12. Ne5 f4 13. Qxh5 fxe3 14. fxe3 Nxe5 15. dxe5 Bc5 16. Rf1 Bxe3 17. Rxf8+ Qxf8 18. Qf3 Qxf3 19. Nxf3 Bd7 20. Rd1 Rf8 21. c4 Bc6 22. Nd4 Bxd4 23. Rxd4 Rf5 24. g4 Rxe5+ 25. Kf2 Kf7 26. b4 Ke7 27. b5 Bd7 28. b6 dxc4 29. Rxc4 axb6 30. Rc7 Rb5 31. Rxb7 Kd6 32. Kg3 h6 33. Rb8 Rb2 34. Bf3 b5 35. a4 b4 36. a5 Rb3 37. Kg2 Bc6 38. Bxc6 Kxc6 39. a6 Ra3 40. Rxb4 Rxa6 41. h4 e5 42. Kf3 Kd5 43. Rb5+ Ke6 44. Rb7 Kf6 45. g5+ hxg5 46. hxg5+ Kg6 47. Re7 Ra5 48. Ke3 Rb5 49. Kf3 Rb3+ 50. Kf2 Rb5 51. Kf3 Rd5 52. Ke3 e4 53. Kxe4 Rxg5 54. Kf3 Kh5 55. Re1 Rg4 56. Rh1+ Kg5 1/2-1/2',
+      id: '4024474',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A13',
+      t: '77th Tata Steel GpA',
+      moves:
+        '1. c4 e6 2. g3 d5 3. Bg2 Nf6 4. Nf3 d4 5. O-O c5 6. e3 Nc6 7. exd4 cxd4 8. d3 Bd6 9. Na3 e5 10. c5 Bxc5 11. Nc4 Nd7 12. Re1 O-O 13. Nfxe5 Ncxe5 14. Nxe5 Nxe5 15. Rxe5 Qb6 16. a4 a5 17. Qc2 Bb4 18. Rb5 Qe6 19. Bf4 Bd7 20. Bd5 Qf6 21. Rxb7 Rac8 22. Qd1 Be6 23. Rb6 Rfe8 24. Bxe6 Rxe6 25. Rc1 Rce8 26. Rxe6 Qxe6 27. Bd2 Bxd2 28. Qxd2 Qf5 29. Rc4 Qd5 30. b4 axb4 31. Qxb4 h5 32. Rxd4 Qf3 33. Re4 Rd8 34. Re3 Qd1+ 35. Kg2 Rxd3 36. Rxd3 Qxd3 37. h4 g5 38. Qb8+ Kg7 39. Qe5+ f6 40. Qe3 Qc4 41. hxg5 Qd5+ 42. Qf3 Qxg5 43. Qb7+ Kh6 44. Qa8 Kg7 45. Qa7+ Kg6 46. Qa8 Qf5 47. Qf3 Qe5 48. Kh2 Kf7 49. Qb3+ Kg7 50. Qb4 Qc7 51. Qe4 Qc5 52. Kg2 Qg5 53. Qe7+ Kg6 54. Qe8+ Kg7 55. Qd7+ Kh6 56. Qd6 Kg6 57. Qd3+ Kg7 58. Qe4 Qc5 59. Qb7+ Kg6 60. Qb1+ Kg7 61. Qe4 Qg5 62. Qe7+ Kg6 63. Qe8+ Kg7 64. Qb5 Qg4 65. Qb7+ Kg6 66. Qb1+ Kg7 67. a5 h4 68. Qd3 Qc8 69. a6 Qc6+ 70. Kh2 Qb6 71. Kg2 h3+ 72. Kxh3 Qxf2 73. Qc4 Kg6 74. Qf4 Qg1 75. Qe4+ f5 76. Qg2 Qa1 77. Qc6+ Kg5 78. Kg2 Qa2+ 79. Kf3 Qa3+ 80. Ke2 Qa2+ 81. Kd3 Qb3+ 82. Qc3 Qd5+ 83. Qd4 Qb5+ 84. Qc4 Qb1+ 85. Kd2 Qb2+ 86. Ke3 Qa3+ 87. Kf2 Qa5 88. Qf4+ Kg6 89. Qd6+ Kh5 90. Ke3 Qa4 91. Kd2 Qb3 92. Qd3 Qa2+ 93. Ke3 Kg5 94. Kf3 Qa1 95. Qd8+ Kh5 96. Qe8+ Kg5 97. Qe7+ Kg6 98. Qe6+ Kg5 99. Qe3+ Kf6 100. a7 Qf1+ 101. Qf2 Qh1+ 102. Ke2 Qe4+ 103. Qe3 Qc4+ 104. Ke1 Qb4+ 105. Kf1 Qb1+ 106. Kg2 Qb7+ 107. Kh2 Kf7 108. Qa3 Qa8 109. Qb3+ Kg7 110. Qb8 Qf3 111. a8=Q 1-0',
+      id: '3926747',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'A10',
+      t: 'Vugar Gashimov Mem 2015',
+      moves:
+        '1. c4 g6 2. e4 e5 3. d4 Nf6 4. dxe5 Nxe4 5. Bd3 Bb4+ 6. Kf1 Nc5 7. Nf3 Ne6 8. a3 Be7 9. Nc3 d6 10. exd6 Bxd6 11. b4 Bf8 12. Qe2 Bg7 13. Bg5 Bf6 14. Bxf6 Qxf6 15. Qd2 O-O 16. Re1 Qd8 17. Rd1 a5 18. h4 axb4 19. axb4 Nd7 20. h5 Nf6 21. c5 b6 22. hxg6 fxg6 23. Qe3 Qe7 24. Bc4 bxc5 25. b5 Rb8 26. Re1 Rb6 27. Na4 Rd6 28. Nxc5 Ng4 29. Qe4 Nxf2 30. Kxf2 Rd2+ 31. Kg3 Rxf3+ 32. gxf3 1-0',
+      id: '3937547',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A30',
+      t: '3rd Sinquefield Cup 2015',
+      moves:
+        '1. c4 c5 2. Nf3 Nc6 3. Nc3 e5 4. e3 f5 5. d4 e4 6. d5 exf3 7. dxc6 dxc6 8. Qxd8+ Kxd8 9. gxf3 Nf6 10. b3 Bd6 11. Bb2 Ke7 12. O-O-O Be6 13. Bd3 Rhd8 14. Kc2 Rd7 15. Ne2 g6 16. h3 Rad8 17. f4 Bc7 18. Ba3 b6 19. Ng3 Kf7 20. Bb2 a6 21. Be5 b5 22. Bxf5 gxf5 23. Bxc7 Rxd1 24. Rxd1 Rxd1 25. Kxd1 bxc4 26. bxc4 Ne4 27. Nxe4 fxe4 28. h4 Bxc4 29. a3 Ke6 30. f5+ Kxf5 1/2-1/2',
+      id: '3955050',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: '8th Grand Slam Masters',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8. Rxe5 O-O 9. Nc3 Bf6 10. Re1 Re8 11. Nd5 Rxe1 12. Qxe1 b6 13. Nxf6+ Qxf6 14. d3 Bb7 15. Qb4 Nf5 16. c3 c5 17. Qf4 h6 18. f3 g5 19. Qc7 Qc6 20. Qxc6 Bxc6 21. Kf2 Re8 22. Bd2 f6 23. g3 Kf7 24. Be2 h5 25. Bd1 d5 26. a4 d4 27. a5 dxc3 28. Bxc3 Bd5 29. axb6 axb6 30. Ra6 Re6 31. b4 cxb4 32. Bxb4 Nd4 33. Bd2 Kg6 34. Be3 Nf5 35. Bd2 Nd4 36. Be3 Nf5 37. Bc1 Nd4 38. g4 hxg4 39. fxg4 b5 40. Rxe6 Nxe6 41. Ke3 b4 42. Ba4 f5 43. gxf5+ Kxf5 44. Bd7 Kg4 45. Kf2 b3 46. Bb2 Kh3 47. Be5 g4 48. Bxe6 Bxe6 1/2-1/2',
+      id: '3965907',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D45',
+      t: '8th Grand Slam Masters',
+      moves:
+        '1. d4 d5 2. Nf3 Nf6 3. c4 c6 4. Nc3 e6 5. e3 Nbd7 6. Qc2 Bd6 7. Bd3 O-O 8. O-O e5 9. cxd5 cxd5 10. e4 exd4 11. Nxd5 Nxd5 12. exd5 h6 13. b3 Nf6 14. Bc4 Qc7 15. Qd3 a6 16. a4 Bg4 17. h3 b5 18. axb5 axb5 19. Rxa8 Rxa8 20. hxg4 bxc4 21. bxc4 Rc8 22. g5 hxg5 23. Bxg5 Qxc4 24. Qxc4 Rxc4 25. Bxf6 gxf6 26. Rd1 Rc5 27. Kf1 Be5 28. Ke2 Rxd5 29. Kd3 f5 30. Kc4 Ra5 31. Kb4 Rd5 32. Kc4 Ra5 33. Kb4 Rd5 34. Kc4 1/2-1/2',
+      id: '3965915',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'D10',
+      t: '8th Grand Slam Masters TB',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. cxd5 cxd5 5. Bf4 Nc6 6. e3 Bg4 7. Qb3 Na5 8. Qa4+ Bd7 9. Qc2 e6 10. Bd3 Bb4 11. Ne2 O-O 12. f3 Rc8 13. O-O h6 14. Bg3 Nc4 15. Bf2 Re8 16. a3 Bf8 17. Rfc1 b5 18. Rd1 a5 19. Qb1 Qc7 20. a4 bxa4 21. Nxa4 Qb8 22. Nec3 Nxb2 23. Qxb2 Qxb2 24. Nxb2 Rxc3 25. Be1 Rb3 26. Na4 Bxa4 27. Rxa4 Bb4 28. Bxb4 axb4 29. Kf2 Rb2+ 30. Kf1 Rc8 31. Raa1 Kf8 32. Rab1 Rxb1 33. Rxb1 Rb8 34. Ke2 Ke7 35. Kd2 Nd7 36. Kc2 e5 37. Ra1 exd4 38. exd4 Nf8 39. Ra7+ Kf6 40. Ra5 Ne6 41. Rxd5 b3+ 42. Kb2 Nf4 43. Rf5 1-0',
+      id: '3965916',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C50',
+      t: '8th Grand Slam Masters TB',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6 5. O-O a6 6. c3 Ba7 7. Bb3 h6 8. Nbd2 d6 9. Re1 O-O 10. h3 Be6 11. Bc2 Re8 12. Nf1 d5 13. exd5 Nxd5 14. Ng3 Qd6 15. Nh4 Qd7 16. Qf3 Qe7 17. Nhf5 Qf8 18. Bb3 Rad8 19. Nh5 Bxf5 20. Qxf5 Nde7 21. Qf3 Ng6 22. Re4 Na5 23. Bc2 f5 24. Re1 Kh8 25. Ng3 Nh4 26. Qh5 Qf6 27. d4 e4 28. Bf4 Bb6 29. Qe2 Nc6 30. Nh5 Qf8 31. Bg3 Ng6 32. Qe3 Re7 33. b4 Rde8 34. Bb3 Nce5 35. Bxe5 Nxe5 36. Nf4 Kh7 37. Nd5 Nd3 38. Nxe7 Nxe1 39. Nxf5 Nxg2 40. Kxg2 Qxf5 41. Bc2 Kh8 42. Re1 Qf7 43. Bxe4 c6 44. a4 Bc7 45. Re2 Qh5 46. Qf3 Qg5+ 47. Qg4 Qxg4+ 48. hxg4 a5 49. b5 Bd6 50. f3 c5 51. dxc5 Bxc5 52. Rd2 b6 53. Bg6 Rf8 54. Rd7 Rf6 55. Be4 g5 56. Kf1 Kg8 57. Ke2 Rd6 58. Rb7 Kf8 59. Rh7 Kg8 60. Rc7 Kf8 61. c4 Ke8 62. Bd5 Kd8 63. Rh7 Rf6 64. Kd3 Bd6 65. Be4 Bc5 66. Rg7 Bf8 67. Rb7 Bc5 68. Ra7 Kc8 69. Rh7 Kd8 70. Rg7 Bf8 71. Ra7 Bc5 72. Rh7 Re6 73. Rf7 Ke8 74. Rg7 Kd8 75. Rb7 Rf6 76. Bd5 Kc8 77. Ke4 Rf4+ 78. Ke5 Rxc4 79. Rh7 Rxa4 80. Rxh6 Ra1 81. Rh7 Kd8 82. Be4 a4 83. Ke6 a3 84. Rh8+ Kc7 85. Ra8 Rd1 86. Ra7+ Kb8 87. Ra4 Rd8 88. Kf5 Be7 89. Ra8+ Kc7 90. Ra7+ Kd6 91. Rb7 Rf8+ 92. Kg6 Bd8 93. Ra7 Kc5 94. Rxa3 Kxb5 95. Kg7 Re8 96. Rd3 Bc7 97. Rc3 Be5+ 98. Kf7 Bxc3 1/2-1/2',
+      id: '3965917',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A07',
+      t: 'Qatar Masters Open 2015',
+      moves:
+        '1. Nf3 d5 2. g3 Bg4 3. Bg2 c6 4. O-O Nf6 5. d3 Nbd7 6. h3 Bh5 7. Qe1 e5 8. e4 dxe4 9. dxe4 Bc5 10. a4 O-O 11. Nh4 a5 12. Nd2 Qc7 13. Kh1 Rfe8 14. Nb3 Bb4 15. Bd2 Bxd2 16. Qxd2 Red8 17. Qc3 Bg6 18. Nxg6 hxg6 19. Rfd1 b6 20. Bf3 Nf8 21. Kg2 Ne6 22. h4 g5 23. hxg5 Rxd1 24. Rxd1 Nxg5 25. Qe3 Nxf3 26. Qxf3 Rd8 27. Rxd8+ Qxd8 28. Qe2 g6 29. c3 Qd6 30. Nd2 b5 31. Nb3 bxa4 32. Nxa5 Qc5 33. Nc4 Qb5 34. Kf1 Kg7 35. Ke1 Nd7 36. f3 Qc5 37. Kf1 Qb5 38. Ke1 Qc5 39. Kf1 Nb6 40. Na3 Qd6 41. Ke1 Qc5 42. Qf2 Qxf2+ 43. Kxf2 Kf6 44. Ke3 Kg5 45. Kd3 f5 46. exf5 gxf5 47. Nb1 e4+ 48. fxe4 fxe4+ 49. Kd4 e3 50. Kxe3 Nc4+ 51. Ke2 Nxb2 52. Na3 Kf5 53. Kd2 Ke4 54. Kc2 Nd3 55. Nc4 Nc5 56. Kb2 Kf3 57. Ne5+ Kxg3 58. Nxc6 Kf4 59. Ka3 Ne4 60. c4 Nd6 61. Na5 Nxc4+ 62. Nxc4 1/2-1/2',
+      id: '3973604',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D02',
+      t: '76th Tata Steel Masters',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. g3 Bb4+ 5. Bd2 Be7 6. Bg2 c6 7. O-O O-O 8. Qc2 b6 9. Rd1 Nbd7 10. Bf4 Bb7 11. Ne5 Nh5 12. Bd2 Nhf6 13. Bf4 Nh5 14. Bd2 Nhf6 15. cxd5 cxd5 16. Nc6 Bxc6 17. Qxc6 Rc8 18. Qb5 Ne8 19. Qd3 Nd6 20. b3 f5 21. Be1 Nb8 22. e3 Nc6 23. f3 Qd7 24. Nc3 Rc7 25. Rac1 Rfc8 26. Bf1 Ne8 27. Nb5 Nb4 28. Rxc7 Nxc7 29. Bxb4 Bxb4 30. Rc1 Ne8 31. Rxc8 Qxc8 32. a3 Be7 33. Nxa7 Qc1 34. Nb5 g5 35. b4 g4 36. fxg4 fxg4 37. Qc3 Qd1 38. Qd3 Qc1 39. e4 Nf6 40. Nc3 dxe4 41. Nxe4 Nd5 42. Kf2 Bf8 43. h3 Qb2+ 44. Be2 Bg7 45. hxg4 Qxd4+ 46. Kf3 Qxd3+ 47. Bxd3 Bb2 48. b5 Bxa3 49. Ng5 h6 50. Nxe6 Kf7 51. Nd4 Kf6 52. Nf5 Bc1 53. Ke4 Ne7 54. Nd6 Ba3 55. Nc4 Bc5 56. Be2 Nc8 57. Ne5 Bd6 1/2-1/2',
+      id: '3881346',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D45',
+      t: '19th Sigeman & Co',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 e6 5. Nc3 Nbd7 6. Qc2 Bd6 7. b3 O-O 8. Be2 e5 9. cxd5 cxd5 10. Nb5 Bb4+ 11. Bd2 Bxd2+ 12. Nxd2 a6 13. dxe5 Nxe5 14. Nd4 Bg4 15. Bxg4 Nfxg4 16. O-O Rc8 17. Qb2 Qf6 18. Qa3 Nc6 19. Nxc6 Qxc6 20. Rac1 Qd7 21. Nf3 Nf6 22. Ne5 Qe6 23. Nd3 Qe4 24. Rxc8 Rxc8 25. Rc1 Re8 26. Nc5 Qe7 27. Qb2 Rc8 28. Nd3 Rc7 29. Rc2 h6 30. Qc1 Rxc2 31. Qxc2 Qe4 32. Qc3 Nd7 33. h3 Nf8 34. Nf4 Qb1+ 35. Kh2 Qxa2 36. Nxd5 Qxf2 37. Qc8 Qh4 38. Qxb7 Qg5 39. Ne7+ Kh7 40. Qe4+ Ng6 41. Nxg6 Qxg6 42. Qd5 Qf6 43. b4 g6 44. b5 axb5 45. Qxb5 1/2-1/2',
+      id: '3774998',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Anish_Giri',
+      r: '0-1',
+      e: 'C42',
+      t: 'Corus B',
+      moves:
+        '1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Nc6 7. O-O Be7  8. Re1 Bg4 9. c3 f5 10. Qb3 O-O 11. Nbd2 Na5 12. Qc2 Nc6 13. b4 a6 14. a4  Bd6 15. Ba3 Kh8 16. Qb2 Ne7 17. Ne5 Bxe5 18. dxe5 Ng6 19. f3 Nxe5 20. Bf1  Qf6 21. fxe4 fxe4 22. Kh1 b5 23. Nb3 Qh4 24. Qd2 Rf5 25. Nd4 Rh5 26. h3 Rf8  27. Re3 Rf2 28. Qe1 Qf6 29. Kg1 Rf4 30. hxg4 Nxg4 31. Rh3 Rxh3 32. gxh3 Nf2  33. Qe3 Qg5+ 34. Bg2 Nd1 35. Qc1 Qg3 36. Ne2 Rf1+ 0-1',
+      id: '3721381',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A29',
+      t: 'YGM',
+      moves:
+        '1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 Bb4 5. Bg2 O-O 6. O-O Bxc3 7. bxc3 Re8 8. d3 e4 9. Nd4 exd3 10. exd3 Nxd4 11. cxd4 d5 12. Be3 Bf5 13. Qb3 Qd7 14. Rfe1 c6 15. Bg5 Rxe1+ 16. Rxe1 Re8 17. Rxe8+ Qxe8 18. h3 Qe1+ 19. Kh2 Bxh3 20. Bxf6 Bxg2 21. Kxg2 dxc4 22. Qxb7 gxf6 23. Qc8+ Kg7 24. Qg4+ Kf8 25. dxc4 Qe6 26. Qf4 Kg7 27. c5 a5 28. a4 Kf8 29. Qb8+ Kg7 30. Qf4 Kf8 31. Kh2 f5 32. Qb8+ Kg7 33. Qd8 Qh6+ 34. Kg2 f4 35. Qh4 Qxh4 36. gxh4 Kf6 37. Kf1 Kf5 38. f3 h5 39. Ke2 Ke6 40. Kd3 Kf5 41. Kc3 Kf6 42. Kc2 Ke6 43. Kd2 Kf6 44. Kc3 1-0',
+      id: '3737520',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D11',
+      t: 'Corus C',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 a6 5. Bd3 Bg4 6. Nbd2 e6 7. O-O Nbd7 8.  Qc2 Bd6 9. b3 Qe7 10. Bb2 g6 11. Rfe1 O-O 12. Ne5 Bf5 13. Nxd7 Qxd7 14. e4  dxe4 15. Nxe4 Bxe4 16. Bxe4 Qc7 17. g3 Nxe4 18. Rxe4 Be7 19. Rd1 Rad8 20.  h4 Bf6 21. h5 Rd7 22. Kg2 Rfd8 23. hxg6 hxg6 24. Rh1 Bxd4 25. Qd2 Bxb2 26.  Qxb2 e5 27. Rxe5 Rd4 28. Qe2 c5 29. Re8+ Kg7 30. Rxd8 Rxd8 31. Qe3 Qc6+ 32.  f3 Qf6 33. Qh6+ Kg8 34. Qh7+ Kf8 35. Qh8+ Qxh8 36. Rxh8+ Ke7 37. Rxd8 Kxd8  38. Kf2 Ke7 1/2-1/2',
+      id: '3656287',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'A04',
+      t: 'World Rapid 2017',
+      moves:
+        '1. Nf3 c5 2. b3 d6 3. e3 e5 4. Bb5+ Nc6 5. O-O a6 6. Bxc6+ bxc6 7. c4 Nf6 8. Nc3 Be7 9. d3 O-O 10. Bb2 h6 11. Nd2 Be6 12. Qe2 Nd7 13. f4 exf4 14. exf4 Bf5 15. Nde4 Re8 16. Qf3 Nf6 17. Rae1 Qd7 18. Na4 Rab8 19. Nxf6+ Bxf6 20. Bxf6 gxf6 21. Nc3 Rxe1 22. Rxe1 Re8 23. Rxe8+ Qxe8 24. Kf2 Kg7 25. g4 Bd7 26. Ne4 Qe7 27. Ng3 Kf8 28. f5 Qe5 29. Qe3 Qb2+ 30. Qe2 Qd4+ 31. Kf3 Qa1 32. Nh5 Qh1+ 33. Kg3 Qg1+ 34. Kh3 Qd4 35. Kg2 d5 36. Kf3 Qa1 37. Qe3 Kg8 38. Kg3 Kh7 39. h3 Bc8 40. Qe8 Be6 41. Kf2 Qb2+ 42. Kf3 Qa1 43. Ng3 Qd1+ 44. Kf2 Qxd3 45. Ne2 d4 46. fxe6 Qe3+ 47. Kf1 Qxh3+ 48. Ke1 Qh4+ 49. Kd1 fxe6 50. Qxe6 d3 51. Qf5+ Kg7 52. Nf4 Qh1+ 53. Kd2 Qa1 54. Qd7+ 1-0',
+      id: '4088326',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'B10',
+      t: 'World Rapid 2016',
+      moves:
+        '1. e4 c6 2. Nc3 d5 3. Nf3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6 6. d4 Bd6 7. Be2 O-O 8. O-O Re8 9. c4 Nd7 10. Bd3 Nf8 11. h3 Ng6 12. Qc2 Qa5 13. c5 Bb8 14. Bd2 Qd8 15. Rfe1 Be6 16. Bc4 Nf8 17. Rad1 Bc7 18. Qb3 Bxc4 19. Qxc4 Qd7 20. b4 Ng6 21. a4 Ne7 22. b5 Nd5 23. bxc6 bxc6 24. Qa6 g5 25. Nh2 Bxh2+ 26. Kxh2 Kg7 27. Kg1 Rxe1+ 28. Rxe1 Rb8 29. Qd3 Rb2 30. a5 h6 31. Bc1 Ra2 32. Bd2 Qb7 33. Re8 Qb2 34. Be1 Nf4 35. Qa6 Qxd4 36. Qc8 Ng6 37. Qxc6 Ra1 38. Qe4 Qxc5 39. Kh2 h5 40. Qe3 Qc6 41. Bc3 Ra4 42. f3 Ra2 43. Kh1 Rc2 44. Be1 Qb5 45. Bg3 h4 46. Bh2 Qb1+ 47. Bg1 Qf1 0-1',
+      id: '4029283',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C45',
+      t: 'World Rapid 2015',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 6. Qf3 dxc6 7. Nc3 Be6 8. a3 O-O-O 9. Be3 Bxe3 10. Qxe3 Kb8 11. f4 Qe7 12. Bd3 g5 13. fxg5 h6 14. gxh6 Nxh6 15. O-O-O Ng4 16. Qf4 Qd6 17. e5 Nxe5 18. Qe4 Bd5 19. Nxd5 cxd5 20. Qe1 Rxh2 21. Rxh2 Nxd3+ 22. Rxd3 Qxh2 23. Rxd5 Kc8 24. Rxd8+ 1/2-1/2',
+      id: '3959683',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C45',
+      t: 'FIDE World Blitz 2014',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 6. f4 dxc6 7. Nc3 Qh4+ 8. g3 Qe7 9. Bd3 Nf6 10. Qe2 Bg4 11. Qg2 O-O-O 12. Bd2 Nd5 13. h3 Be6 14. a3 Bd4 15. Nxd5 cxd5 16. O-O-O dxe4 17. Bxe4 c6 18. Rhe1 Qc7 19. f5 Bd5 20. Bf4 Qb6 21. c3 Bxe4 22. Qxe4 Bf6 23. Qc4 Rxd1+ 24. Rxd1 Rf8 25. a4 h6 26. Kb1 Qa5 27. g4 Be5 28. Be3 a6 29. Bc5 Rd8 30. Rxd8+ Qxd8 31. Qxf7 Qd1+ 32. Ka2 Qxa4+ 33. Ba3 Bf6 34. Qe6+ Kb8 35. Qd6+ Kc8 36. Qe6+ Kb8 1/2-1/2',
+      id: '3899667',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'B92',
+      t: '73rd Tata Steel GMA',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. O-O O-O 9. Kh1 Nc6 10. f4 b5 11. Be3 Bb7 12. a4 exf4 13. Rxf4 Ne5 14. Qd4 Nc6 15. Qd2 Ne5 16. Qd4 Nc6 17. Qd2 Ne5 18. axb5 axb5 19. Re1 Ng6 20. Rff1 b4 21. Nd5 Nxe4 22. Nxe7+ Qxe7 23. Qxb4 Nh4 24. Bf3 Nxf3 25. gxf3 Qd7 26. Bf4 Ra4 27. Qb6 Nf6 28. Qxd6 Qg4 29. Nd4 Rxd4 30. Qxd4 Bxf3+ 31. Rxf3 Qxf3+ 32. Kg1 Qg4+ 33. Kh1 Qc8 34. Qf2 Qb7+ 35. Kg1 Ne4 36. Qd4 Re8 37. Re2 h6 38. h3 Re6 39. Kh2 f5 40. b4 Kh7 41. Re3 Rg6 42. Re2 Qb5 43. Re1 Rc6 44. Rxe4 fxe4 45. Qxe4+ Rg6 46. Bg3 Qd7 47. h4 h5 48. c4 Qd2+ 49. Kh3 Qc3 50. Qf4 Qxb4 51. Qf5 Qxc4 52. Qxh5+ Rh6 53. Qf3 Qe6+ 54. Kh2 Rf6 55. Qd3+ Rf5 56. Qc2 Qd5 57. Bf2 Kh6 58. Be3+ Kg6 59. Bf2 Kf6 60. Bg3 Rf1 61. Bf2 Rd1 62. Qc3+ Qe5+ 63. Qxe5+ Kxe5 64. h5 Kf6 65. Bh4+ Kf5 66. Be7 Rd7 0-1',
+      id: '3758285',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B52',
+      t: '6th Tal Memorial',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nc6 6. d4 cxd4 7. Nxd4 g6 8. Nc3 Bg7 9. Be3 Nf6 10. h3 O-O 11. O-O a6 12. a4 Rfc8 13. b3 e6 14. Rc1 d5 15. Nxc6 bxc6 16. e5 Ne8 17. f4 a5 18. Ne4 Bf8 19. Rf3 Qd8 20. Nc5 Rcb8 21. Bf2 Nc7 22. Qe2 Rb4 23. Kh2 Be7 24. Rc2 Qf8 25. Nd7 Qd8 26. Nc5 Qf8 27. cxd5 Nxd5 28. g3 Qc8 29. Be1 Rb6 30. Rc4 Rab8 31. Qd1 Bxc5 32. Rxc5 Qf8 33. Qc2 Nb4 34. Bxb4 Rxb4 35. Rxa5 Qd8 36. Rc5 Rxb3 37. Rxb3 Rxb3 38. Qxb3 Qd2+ 39. Kh1 Qe1+ 40. Kg2 Qe2+ 1/2-1/2',
+      id: '3791793',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B45',
+      t: 'VI World Blitz',
+      moves:
+        '1. e4 c5 2. Ne2 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Nf6 6. Ndb5 Bb4 7. a3 Bxc3+ 8. Nxc3 d5 9. Bd3 d4 10. Ne2 e5 11. O-O O-O 12. h3 Re8 13. Ng3 Nd7 14. Qh5 Nf8 15. f4 exf4 16. Bxf4 Ng6 17. Bd2 Nce5 18. Nf5 f6 19. Rf2 Bxf5 20. exf5 Nxd3 21. cxd3 Ne5 22. Rf4 Qd7 23. Rh4 h6 24. Rf1 Rac8 25. Rff4 Rc2 26. Rxd4 Qc6 27. Qd1 Rxb2 28. Rhe4 Qb6 29. Kh2 Rc8 30. Rb4 Qd6 31. Bf4 Rxb4 32. Bxe5 fxe5 33. axb4 Rc3 34. Qh5 Rxd3 35. Qe8+ Kh7 36. Rxe5 Rd5 1/2-1/2',
+      id: '3753109',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B06',
+      t: 'VI World Blitz',
+      moves:
+        '1. e4 g6 2. Nf3 Nf6 3. Nc3 d5 4. exd5 Nxd5 5. Bc4 Nxc3 6. bxc3 Bg7 7. O-O c5 8. Re1 O-O 9. Ng5 Nc6 10. Ba3 Qa5 11. Qc1 e6 12. Ne4 b6 13. Bb2 Ba6 14. Bxa6 Qxa6 15. a4 Rfd8 16. d3 c4 17. d4 Ne7 18. Qe3 Nd5 19. Qg3 Rac8 20. Bc1 Rd7 21. Bg5 Qa5 22. Reb1 f5 23. Rb5 Qa6 24. Nd2 Qb7 25. Rbb1 Qc6 26. Bf4 Re8 27. Re1 a6 28. h4 b5 29. axb5 axb5 30. Be5 Bxe5 31. Rxe5 Qd6 32. Rae1 Rde7 33. h5 Rg7 34. h6 Rge7 35. Rb1 Qa6 36. Rbe1 Qa3 37. Qg5 Nxc3 38. Nb1 Nxb1 39. Rxb1 b4 40. d5 b3 41. cxb3 c3 42. dxe6 c2 43. Rc1 Rc7 44. Ree1 Qb2 45. Kh2 Qxb3 46. Qf6 Qc3 47. Qxc3 Rxc3 48. Re2 Rec8 49. e7 Kf7 50. e8=Q+ Rxe8 51. Rexc2 Rxc2 52. Rxc2 g5 53. Rc7+ Kg6 54. Rc6+ Kh5 55. Kg3 Rg8 56. Rf6 f4+ 57. Kf3 Rg6 58. Rf7 Kxh6 59. Kg4 Rb6 60. Rf5 Rb2 61. Rxg5 Rxf2 62. Rh5+ Kg6 63. Rg5+ 1/2-1/2',
+      id: '3753306',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Alireza_Firouzja',
+      r: '1-0',
+      e: 'D27',
+      t: 'Tata Steel Chess Tournament 2020',
+      moves:
+        '1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 c5 6. O-O a6 7. b3 cxd4 8. Nxd4  Be7 9. Bb2 O-O 10. Be2 Bd7 11. Nd2 Nc6 12. Rc1 Rc8 13. N4f3 b5 14. a3 Qb6 15.  Rc2 e5 16. Bd3 Rfd8 17. Qe2 Bg4 18. Rfc1 Na7 19. Rxc8 Rxc8 20. Rxc8+ Nxc8 21. h3  Bxf3 22. Qxf3 Qd8 23. Qe2 Qd5 24. Bc2 Nd6 25. Qd3 Qxd3 26. Bxd3 Nd7 27. g4 g6  28. Ne4 Nxe4 29. Bxe4 Nc5 30. Bc2 e4 31. b4 Nd3 32. Bc3 Kf8 33. Kf1 f5 34. Ke2  Bd8 35. Bxd3 exd3+ 36. Kxd3 Kf7 37. e4 fxg4 38. hxg4 g5 39. Kd4 Bb6+ 40. Kd5  Bxf2 41. Kc6 Ke6 42. Kb7 Kd7 43. Kxa6 Kc6 44. e5 Be3 45. e6 Bc1 46. a4 bxa4 47.  Be5 1-0',
+      id: '4248441',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Alireza_Firouzja',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: 'Lindores Abbey Rapid Challenge',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Be3 c5 8.  Rc1 O-O 9. Nf3 Qa5 10. Qd2 Rd8 11. d5 e6 12. Bg5 Rd6 13. Bf4 Rd8 14. c4 Qxd2+  15. Kxd2 Nc6 16. Bd3 Nb4 17. Bb1 f5 18. a3 fxe4 19. Ng5 exd5 20. axb4 h6 21. Bc7  Rf8 22. cxd5 Rxf2+ 23. Ke1 Rb2 24. Nxe4 Bf5 25. bxc5 Re8 26. d6 Bc3+ 27. Rxc3  Rxb1+ 28. Kd2 Rxh1 29. Ng3 Ree1 30. Nxh1 Rxh1 31. Rb3 Rxh2 32. Rxb7 Rxg2+ 33.  Ke3 Rc2 34. Kd4 Rd2+ 35. Ke5 Re2+ 36. Kd4 Rd2+ 37. Kc4 Rc2+ 1/2-1/2',
+      id: '4261202',
+    },
+    {
+      w: 'Alireza_Firouzja',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C42',
+      t: 'Saint Louis Rapid 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Be7 7. Be3 O-O 8. Qd2 Nd7 9. O-O-O Nf6 10. Bd3 Re8 11. Kb1 Bd7 12. h4 c5 13. Bg5 Bc6 14. Qf4 h6 15. Bf5 Nh5 16. Qg4 Nf6 17. Qg3 Nh5 18. Qg4 Nf6 19. Qg3 Nh5 20. Qg4 1/2-1/2',
+      id: '4270308',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Alireza_Firouzja',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'Saint Louis Blitz 2020',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. Be2 dxc4 8. O-O c5 9. dxc5 Nxc5 10. Bxc4 Qxd1 11. Rfxd1 b6 12. Bd6 Bxd6 13. Rxd6 Bb7 14. Rad1 Bxf3 15. gxf3 Rfc8 16. Be2 g5 17. R6d4 Kf8 18. h4 gxh4 19. Kh2 Ke7 20. Kh3 a5 21. f4 Rab8 22. e4 h5 23. f3 Rg8 24. e5 Nd5 25. Nxd5+ exd5 26. f5 f6 27. e6 Rg3+ 28. Kxh4 Rbg8 29. Rxd5 Rg2 30. Bf1 Rh2+ 31. Bh3 Rxb2 32. f4 Rh2 33. R5d2 1/2-1/2',
+      id: '4270358',
+    },
+    {
+      w: 'Alireza_Firouzja',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Saint Louis Blitz 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Nd7 7. c3 O-O 8. d4 Bd6 9. Bg5 f6 10. Bh4 Qe7 11. Re1 a5 12. Nbd2 Qf7 13. Bg3 Re8 14. b3 a4 15. Qc2 axb3 16. axb3 Rxa1 17. Rxa1 exd4 18. cxd4 Nb6 19. h3 Bxg3 20. fxg3 Be6 21. Ra7 Rb8 22. Kh2 h6 23. b4 Nc8 24. Ra1 Nd6 25. Rf1 Nb5 26. Nb1 Rd8 27. Qb2 Qd7 28. Rd1 f5 29. exf5 Bxf5 30. Nc3 Be6 31. Nxb5 cxb5 32. Qc3 Qd6 33. Ne5 Bd5 34. Rd2 c6 35. Rf2 Rf8 36. Rxf8+ Qxf8 37. Qd2 Qf5 38. Nd3 Kf7 39. Qe3 b6 40. Ne5+ Kg8 41. Qe2 Kf8 1/2-1/2',
+      id: '4270398',
+    },
+    {
+      w: 'Alireza_Firouzja',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'D04',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. d4 Nf6 2. Nf3 d5 3. e3 c5 4. dxc5 e6 5. b4 a5 6. c3 axb4 7. cxb4 b6 8. Bb5+ Bd7 9. Bxd7+ Nbxd7 10. a4 bxc5 11. b5 Bd6 12. Bb2 O-O 13. O-O Qc7 14. Nbd2 c4 15. Bc3 e5 16. a5 e4 17. b6 Qb8 18. Nd4 Bxh2+ 19. Kh1 Be5 20. Nc6 Qd6 21. Nxe5 Nxe5 22. g3 Nfg4 23. Kg2 Qe6 24. Rb1 Rfb8 25. Qe2 Nd3 26. Rb5 Ra6 27. Nb1 h5 28. Bd4 h4 29. Rh1 hxg3 30. fxg3 Nh6 31. Nc3 Qd6 32. Rxd5 Qa3 33. Rxh6 gxh6 34. Qg4+ Kf8 35. Bg7+ 1-0',
+      id: '4274568',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'E60',
+      t: 'Opera Euro Rapid Prelim',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. g3 c6 4. Bg2 d5 5. cxd5 cxd5 6. Nf3 Bg7 7. Ne5 Ne4 8. Nd2 Nf6 9. Nb1 Ne4 10. Nd2 Nf6 11. Nb1 1/2-1/2',
+      id: '4279123',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C84',
+      t: 'FIDE Candidates 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3 O-O  9. Nc3 Na5 10. Ba2 Be6 11. b4 Bxa2 12. Rxa2 Nc6 13. Bg5 Qd7 14. Bxf6 Bxf6 15.  Nd5 a5 16. Rb2 axb4 17. axb4 Bd8 18. c4 Nd4 19. Nxd4 exd4 20. Qc2 Re8 21. g3  bxc4 22. Qxc4 c6 23. Nf4 Bg5 24. Ne2 d5 25. exd5 cxd5 26. Qb3 h5 27. b5 h4 28.  b6 h3 29. Kh1 Reb8 30. Rfb1 Bd8 31. Qb5 Qg4 32. Qxd5 Ra5 33. Qc6 Rc5 34. Qe8+  Kh7 35. Ng1 Rxb6 36. Qxd8 Rxb2 37. Rxb2 Rc1 38. Qh4+ Qxh4 39. gxh4 Rd1 40. f3 1-0',
+      id: '4259934',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 O-O 7. Qe2 Re8 8.  Nc4 Nd7 9. Bd2 Bf8 10. h4 b5 11. Ne3 Nc5 12. h5 a5 13. g4 Ne6 14. Nf5 a4 15. a3  c5 16. Rg1 Nf4 17. Bxf4 exf4 18. Qd2 c4 19. Qxf4 Ra6 20. d4 Bb7 21. e5 Qd5 22.  Rg3 c5 23. Ne3 Qe4 24. Qxe4 Bxe4 25. c3 cxd4 26. cxd4 f6 27. g5 Bxf3 28. Rxf3  fxe5 29. O-O-O e4 30. Rf5 b4 31. axb4 Bxb4 32. Rb5 Bd6 33. Kb1 Rf8 34. Nxc4 Rxf2  35. Re1 Rf4 36. g6 hxg6 37. hxg6 Rf6 38. Rg5 Bc7 39. Rc5 Rac6 40. Rxe4 Rxg6 41.  Re8+ Kf7 42. Rc8 Rxc5 43. dxc5 Bf4 44. c6 Ke7 45. Nb6 Kd6 46. Ka2 Be5 47. Nxa4  Rg4 48. Ka3 Rc4 49. Nb6 Rxc6 50. Nc4+ Kd5 51. Ne3+ Kd6 52. Nc4+ Kd5 53. Rxc6  Bxb2+ 54. Kxb2 Kxc6 55. Ne3 g5 56. Kc3 g4 57. Nxg4 1/2-1/2',
+      id: '4260791',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'D70',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. f3 d5 4. cxd5 Nxd5 5. e4 Nb6 6. Nc3 Bg7 7. Be3 O-O 8. Qd2  Nc6 9. O-O-O Qd6 10. Nb5 Qd7 11. Kb1 a6 12. Nc3 Rd8 13. d5 Qe8 14. Qc1 Na7 15.  h4 Nb5 16. Nge2 e6 17. h5 exd5 18. hxg6 fxg6 19. Bxb6 cxb6 20. Nxd5 Be6 21. Nef4  Bf7 22. Bxb5 axb5 23. a3 g5 24. Nc7 Qe5 25. Nxa8 Rxa8 26. Nd5 h6 27. Qc3 Qe6 28.  Qb4 Kh7 29. Rd2 Rc8 30. Qe7 Qg6 31. Qxb7 Rc6 32. Qd7 Rc5 33. Ne7 Qf6 34. Nf5 1-0',
+      id: '4260793',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C65',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 O-O 7. Nc4 Re8 8.  a4 a5 9. Bd2 b6 10. Bc3 Ng4 11. O-O f6 12. Bd2 g5 13. h3 Nh6 14. h4 Nf7 15. hxg5  fxg5 16. Nh2 Re6 17. Ne3 Rg6 18. Nf5 Bxf5 19. exf5 Rf6 20. Qg4 h6 21. Qh3 Qd7  22. Ng4 Rxf5 23. Nf6+ 1-0',
+      id: '4260795',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'A05',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. Nf3 Nf6 2. g3 c5 3. Bg2 Nc6 4. O-O e5 5. e4 Nxe4 6. Re1 Nf6 7. Nxe5 Be7 8. c4  O-O 9. Nc3 Nxe5 10. Rxe5 d6 11. Re1 Be6 12. Bxb7 Rb8 13. Bg2 Bxc4 14. d4 Be6 15.  b3 Rb4 16. dxc5 dxc5 17. Qxd8 Rxd8 18. Ba3 Rbb8 19. Na4 Rdc8 20. Rac1 Nd7 21.  Bd5 Bxd5 22. Rxe7 Bc6 23. Nxc5 Nxc5 24. Rxc5 a6 25. f4 h6 26. Kf2 Bb5 27. Ke3  Rd8 28. Rcc7 Rd3+ 29. Ke4 Rd2 30. Rxf7 Re8+ 31. Kf5 Bd3+ 32. Kg4 Rxh2 33. Rxg7+  Kh8 34. Bd6 Rf2 35. Bc5 Rd2 36. Bb4 Rc2 37. Rxc2 Kxg7 38. Rc7+ Kg6 39. Rc6+ Kf7  40. Rxh6 Re2 41. Rd6 Re3 42. Kh4 Be2 43. g4 Rf3 44. Rd4 Rf2 45. Kg5 1-0',
+      id: '4260797',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'D85',
+      t: 'Online Nations Cup Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Be3 c5 8.  Rc1 Qa5 9. Qd2 O-O 10. Nf3 Bg4 11. d5 b5 12. Bxc5 Rc8 13. Bd4 Bxf3 14. Bxg7 Bxe4  15. Bh6 Qb6 16. f3 Bf5 17. g4 Bd7 18. h4 Be8 19. h5 f6 20. hxg6 Bxg6 21. Be3 Qd6  22. Bxb5 Nd7 23. Kf2 Rab8 24. Be2 Qa3 25. Bd4 Rb2 26. Qe3 Ne5 27. Bxe5 fxe5 28.  Qxe5 Qd6 29. Qxd6 exd6 30. Rhe1 Re8 31. Rcd1 Rc8 32. Kg3 Rxc3 33. a4 a5 34. Bf1  Rb4 35. Re6 Rxa4 36. Rxd6 Raa3 37. Rf6 Kg7 38. d6 Rc8 39. d7 Rd8 40. Re6 Rb3 41.  Re5 Rb7 42. Bb5 Bc2 43. Rd2 Bg6 44. Re8 Rbb8 45. Rde2 1-0',
+      id: '4260873',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D45',
+      t: 'Online Nations Cup Preliminaries',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Qc2 Bd6 7. Bd3 O-O 8. O-O  e5 9. cxd5 cxd5 10. e4 exd4 11. Nxd5 Nxd5 12. exd5 h6 13. Nxd4 Qh4 14. Nf3 Qh5  15. Bh7+ Kh8 16. Qf5 Qxf5 17. Bxf5 Nf6 18. Bc2 b6 19. Rd1 Bb7 20. Bb3 Rad8 21.  Be3 Be7 22. Re1 Bb4 23. Bd2 Bxd2 24. Nxd2 Bxd5 25. Nc4 Rfe8 26. f3 Kg8 27. Rxe8+  Rxe8 28. Kf2 Rc8 29. Ne3 Bxb3 30. axb3 1/2-1/2',
+      id: '4260933',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'E60',
+      t: 'Chessable Masters Group B',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. e3 O-O 5. Be2 c5 6. d5 e6 7. Nc3 exd5 8. cxd5  d6 9. Nd2 Na6 10. O-O Nc7 11. e4 Rb8 12. a4 Re8 13. f3 a6 14. a5 Bd7 15. Nc4 Nb5  16. Bg5 Qc7 17. Bf4 Rbd8 18. g4 Nxc3 19. bxc3 Bb5 20. Ne3 Nxe4 21. fxe4 Bxc3 22.  Rc1 Qxa5 23. Bxb5 axb5 24. Qf3 Bd4 25. Kh1 Qa4 26. Bxd6 f5 27. Bxc5 Bxc5 28.  Rxc5 Qd4 29. Rxb5 Qxe4 30. Rb3 f4 31. Qxe4 Rxe4 32. Nd1 Rd7 33. Rd3 g5 34. Nc3  Re5 35. Rb1 Kg7 36. Kg2 h5 37. h3 hxg4 38. hxg4 Rde7 39. d6 Rd7 40. Rb5 Kf6 41.  Rxe5 Kxe5 42. Rd5+ Ke6 43. Rxg5 Rxd6 44. Rg6+ Ke5 45. Rxd6 Kxd6 46. Kf3 Ke5 47.  Nb5 b6 48. Na7 1-0',
+      id: '4263805',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D39',
+      t: 'Chessable Masters Group B',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 dxc4 6. e4 h6 7. Bxf6 Qxf6 8.  Bxc4 c5 9. O-O cxd4 10. e5 Qd8 11. Ne4 O-O 12. Qd3 Be7 13. Rfe1 Nc6 14. Rad1 Qc7  15. Ng3 Nb4 16. Qe2 d3 17. Qe4 b5 18. Bxd3 Nxd3 19. Qxd3 Bb7 20. Qxb5 Rfd8 21.  b3 Bxf3 22. gxf3 Bg5 23. Kg2 Bd2 24. Re4 Rd5 25. Qc4 Qd7 26. Qa4 Qd8 27. Re2 Rd4  28. Qa6 Qd5 29. Re4 Rd8 30. Rxd4 Qxd4 31. Ne4 Qxe5 32. Qxa7 Rd5 33. Qe7 f5 34.  Nxd2 Qe2 35. Ne4 Rxd1 36. Qxe6+ Kf8 37. Qxf5+ Kg8 38. Qe6+ Kf8 39. Qc8+ Kf7 40.  Qf5+ Kg8 41. Qe6+ Kf8 42. a4 Qf1+ 43. Kg3 Qg1+ 44. Kh3 Qf1+ 45. Kg3 Qg1+ 46. Kh3  Qf1+ 47. Kg3 1/2-1/2',
+      id: '4263790',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C45',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8.  c4 Ba6 9. h4 f6 10. Rh3 fxe5 11. Bg5 Nf6 12. Re3 d6 13. Qf3 e4 14. Qd1 d5 15.  Nc3 Bb7 16. cxd5 cxd5 17. Bxf6 Qxf6 18. Nxd5 Bxd5 19. Bb5+ Bc6 20. Rxe4+ Be7 21.  Qd5 Rd8 22. Bxc6+ Kf8 23. Qc4 Bd6 24. Rd1 g6 25. Rd3 Kg7 26. Rf3 Qxb2 27. Rf7+  Kh6 28. g4 Qb1+ 29. Ke2 Bb4 30. Rd4 Rhe8+ 31. Kf3 Qh1+ 32. Kg3 Qg1+ 33. Kh3 Re3+  34. fxe3 Qxe3+ 35. Bf3 1-0',
+      id: '4264704',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'A81',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. c4 Bg7 5. Nc3 O-O 6. Nh3 d6 7. d5 Na6 8. Nf4 Nc5  9. h4 e5 10. dxe6 Nxe6 11. Nxe6 Bxe6 12. Bxb7 Rb8 13. Bg2 Bxc4 14. Qa4 d5 15.  O-O Ne4 16. Nxe4 fxe4 17. Qc2 Qe8 18. b3 Bxe2 19. Qxe2 Bxa1 20. Ba3 Bd4 21. Bxf8  Qxf8 22. Bxe4 Qd6 23. Rd1 Qxg3+ 24. Kf1 Qh3+ 25. Bg2 Qxh4 26. Bxd5+ Kh8 27. Qf3  Bg7 28. Qg3 Qe7 29. Re1 Qc5 30. Bc4 Rf8 31. Kg2 Bd4 32. f3 Kg7 33. Qh4 Bf6 34.  Qg4 Rd8 35. Qe6 Qg5+ 36. Qg4 h5 37. Qxg5 Bxg5 38. a4 Bf4 39. a5 Kf6 40. a6 Be5  41. Re3 Rd2+ 42. Re2 Rd4 43. Re1 g5 44. Re3 Rh4 45. Rd3 Rh2+ 46. Kg1 Rb2 47. Rd7  h4 48. Rh7 Kf5 49. Rf7+ Kg6 50. Re7 Kf5 51. Rf7+ Bf6 52. Rxc7 Bd4+ 53. Kf1 h3  54. Rh7 Rf2+ 55. Ke1 h2 56. Be2 Rg2 57. Kd2 Be5 58. f4 Kg6 59. Rh3 Bxf4+ 0-1',
+      id: '4264709',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'B11',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. e4 c6 2. Nf3 d5 3. Nc3 Bg4 4. h3 Bxf3 5. Qxf3 Nf6 6. Be2 e6 7. O-O Bc5 8. Rd1  d4 9. e5 Nfd7 10. Ne4 Be7 11. Qg3 O-O 12. d3 Bh4 13. Qf4 c5 14. Nd6 Be7 15. Nxb7  Qc7 16. Nd6 Nc6 17. Nc4 Ndxe5 18. Qg3 Bf6 19. Bf4 Rad8 20. Kh1 Kh8 21. Bf3 g5  22. Bxg5 Bxg5 23. Bxc6 Bf6 24. Re1 Qxc6 25. Nxe5 Qb7 26. Qf3 Qxf3 27. Nxf3 c4  28. dxc4 d3 29. cxd3 Rxd3 30. Rab1 a5 31. b3 Kg7 32. Red1 Rfd8 33. Rxd3 Rxd3 34.  Rc1 Bd8 35. Kg1 Bc7 36. Kf1 e5 37. Ke2 e4 38. Nd2 f5 39. Rd1 Bb6 40. g4 Kf6 41.  gxf5 Kxf5 42. Nxe4 Rxd1 43. Ng3+ Kf4 44. Kxd1 Bxf2 45. Nh5+ Kg5 46. Ke2 Bb6 47.  Ng3 Kf4 48. Nh5+ Kg5 1/2-1/2',
+      id: '4264714',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. dxe5 Nxb5 7. a4 Nbd4 8. Nxd4 d5 9. exd6 Nxd4 10. Qxd4 Qxd6 11. Qe4+ Qe6 12. Qd4 Qd6 13. Qe4+ Qe6 14. Qd4 Qd6 1/2-1/2',
+      id: '4274609',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'E60',
+      t: '81st Tata Steel GpA',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 c6 5. Bg2 d5 6. Qb3 O-O 7. O-O Qb6 8. Nc3  Rd8 9. Bd2 dxc4 10. Qxc4 Be6 11. Qa4 Bf5 12. Rfe1 Ne4 13. Nxe4 Bxe4 14. Ba5 Qa6  15. Qa3 Re8 16. Bf1 c5 17. dxc5 Bxb2 1/2-1/2',
+      id: '4170916',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'E60',
+      t: "Cote d'Ivoire Rapid 2019",
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. f3 c5 4. d5 e6 5. e4 d6 6. Nc3 Bg7 7. Nge2 exd5 8. cxd5 a6 9. a4 O-O 10. Ng3 Nbd7 11. Be2 Ne8 12. O-O Rb8 13. Re1 Nc7 14. Bf4 Qe7 15. Qd2 Re8 16. a5 b5 17. axb6 Rxb6 18. Ra5 Rb4 19. Nf1 Nb5 20. Nxb5 axb5 21. Rxb5 Rd4 22. Qa5 f5 23. Qc7 Be5 24. Bxe5 Qxe5 25. Ra5 Rb4 26. Ra8 Nb6 27. Raa1 fxe4 28. fxe4 Rxe4 29. Qxb6 Rxe2 30. Rxe2 Qxe2 31. Qxd6 Qxb2 32. Rd1 c4 33. Qc6 Rf8 34. Qxc4 Qf2+ 35. Kh1 Bg4 36. d6+ Rf7 37. Rb1 Be2 38. Qc8+ Rf8 39. Qe6+ Kg7 40. Qe5+ Kg8 41. Ne3 Bf3 42. h3 Bc6 43. Nd5 Re8 44. Nf6+ Kf8 45. Nxh7+ Kg8 46. Nf6+ Kf8 47. Qg5 Re6 48. d7 Re1+ 49. Rxe1 Qxe1+ 50. Kh2 Ke7 51. Qc5+ 1-0',
+      id: '4193591',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'A20',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. c4 e5 2. g3 Nc6 3. Bg2 h5 4. h3 Bc5 5. Nc3 d6 6. e3 Be6 7. b3 Nge7 8. Nge2 d5 9. d4 exd4 10. exd4 Bb4 11. O-O Bxc3 12. Nxc3 Qd7 13. cxd5 Nxd5 14. Nxd5 Bxd5 15. Re1+ Kf8 16. Be3 Rd8 17. Rc1 Bxg2 18. Kxg2 Ne7 19. d5 Nxd5 20. Qf3 c6 21. b4 a6 22. a4 f6 23. b5 axb5 24. axb5 Kf7 25. bxc6 bxc6 26. Rc4 Rde8 27. Bd2 Rxe1 28. Bxe1 g6 29. Bc3 Re8 30. Bd4 Qe6 31. Ra4 Re7 32. Ra6 Qe4 33. Bc5 Qxf3+ 34. Kxf3 Rc7 35. g4 h4 36. Ke4 Ke6 37. f4 f5+ 38. Kf3 Nf6 39. Bf2 fxg4+ 40. hxg4 h3 41. Ra1 Rb7 42. Bd4 0-1',
+      id: '4193615',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C91',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. d4 d6 9. c3 Bg4 10. Be3 Bh5 11. h3 exd4 12. cxd4 d5 13. e5 Ne4 14. Nbd2 a5 15. Qb1 Nxd2 16. Nxd2 Nb4 17. f4 a4 18. Bd1 Bxd1 19. Rxd1 c5 20. dxc5 Qc7 21. Rc1 f6 22. e6 d4 23. Bxd4 Qxf4 24. Nf3 Rfd8 25. a3 Rxd4 26. axb4 Rxb4 27. c6 Rc4 28. Rxc4 Qxc4 29. Qc1 Qxe6 30. Qc2 Rc8 31. Rc1 Bd6 32. Kh1 Bf4 33. Nd4 Qe3 34. Rd1 g6 35. Qc5 Qe4 36. Qxb5 Be5 37. Qb7 Rc7 38. Qa8+ Kf7 39. Qh8 g5 40. Nf3 Bf4 41. Re1 Qf5 42. Qe8+ Kg7 43. Nd4 Qd3 44. Ne6+ Kh6 45. Qf8+ Kg6 46. Qe8+ Kh6 47. Nxc7 Qg3 48. Kg1 Bxc7 49. Qe3 Qh2+ 50. Kf2 Kg6 51. Qd3+ Kh6 52. Re7 Bb6+ 53. Ke2 Qxg2+ 54. Kd1 Qh1+ 55. Kc2 Qxc6+ 56. Kb1 f5 57. Qxf5 1-0',
+      id: '4193660',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'A20',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nf3 Nc6 6. O-O Be7 7. d4 e4 8. Ne5  f5 9. Nxc6 bxc6 10. Qc2 Nb4 11. Qa4 Bd7 12. a3 Nd5 13. Nc3 Bd6 14. f3 exf3 15.  Bxf3 Nb6 16. Qb3 Qf6 17. Be3 Qg6 18. Bf2 h5 19. e4 h4 20. exf5 Qxf5 21. Rae1+  Kd8 22. Ne4 Qg6 23. Nxd6 cxd6 24. d5 c5 25. a4 Bxa4 26. Qa3 Re8 27. b4 Rc8 28.  bxc5 Rxe1 29. Rxe1 hxg3 30. hxg3 dxc5 31. Kg2 Qc2 32. Qe3 Rc7 33. Qe6 Rd7 34. d6  Kc8 35. Rh1 1-0',
+      id: '4200131',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C50',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 d6 6. c3 O-O 7. h3 a5 8. Re1 h6  9. Nbd2 Be6 10. Bb5 Qb8 11. Nh4 a4 12. Nf5 Re8 13. Nc4 Bxf5 14. exf5 Qa7 15. Qf3  e4 16. dxe4 Ne5 17. Nxe5 Rxe5 18. Bd3 d5 19. Bf4 dxe4 20. Bxe4 Rxe4 21. Rxe4  Nxe4 22. Qxe4 Bxf2+ 23. Kh2 Qb6 24. Rd1 Qxb2 25. f6 Qxc3 26. fxg7 Qc6 27. Qf5  Re8 28. Bxh6 Qxh6 29. Qxf2 Qg5 30. Kh1 Re4 31. Rf1 Qe7 32. Qd2 Kxg7 33. Qb2+ Qe5  34. Qxb7 Re1 35. Qf3 Rxf1+ 36. Qxf1 c5 37. Qc4 Qe1+ 38. Kh2 Qb4 39. Qd3 a3 40.  Qg3+ Kh7 41. Qd3+ Kg7 42. Qg3+ Kh7 43. Qd3+ Kg7 1/2-1/2',
+      id: '4211830',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'C91',
+      t: 'Tata Steel India Rapid',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. d4 Bg4 10. Be3 exd4 11. cxd4 Na5 12. Bc2 Nc4 13. Bc1 c5 14. b3 Nb6 15. Nbd2 Rc8 16. h3 Bh5 17. a4 cxd4 18. axb5 axb5 19. Bb2 Nbd7 20. Bxd4 Ne5 21. Bb1 Nfd7 22. Qe2 Bf6 23. g4 Bg6 24. Qxb5 h5 25. Ra7 hxg4 26. hxg4 Nc6 27. Ra4 Nxd4 28. Nxd4 Nc5 29. Rc4 Rb8 30. Qc6 Re8 31. e5 Bxb1 32. Rxb1 Bxe5 33. N4f3 Nd3 34. g5 d5 35. Rh4 g6 36. Qa6 Nc5 37. Qf1 Bg7 38. Qh3 Ne4 39. Kg2 Nxg5 40. Qh2 Nxf3 41. Nxf3 Re4 42. Rd1 Rxh4 43. Qxh4 Bf6 44. Qa4 Qd6 45. Rc1 d4 46. Qc6 Qf4 47. Qd7 Qxc1 0-1',
+      id: '4230905',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A04',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. Nf3 c5 2. c4 Nc6 3. Nc3 g6 4. e3 Nf6 5. d4 cxd4 6. exd4 d5 7. cxd5 Nxd5 8. Qb3 e6 9. Bb5 Bg7 10. O-O O-O 11. Bxc6 bxc6 12. Re1 Qc7 13. h3 Rb8 14. Qd1 Ne7 15. Ne5 c5 16. Bf4 cxd4 17. Nxg6 e5 18. Nxe5 dxc3 19. Ng6 cxb2 20. Rb1 Nxg6 21. Bxc7 Rb7 22. Bd6 Rd8 23. Qc2 Be6 24. Ba3 Rdb8 25. Rxe6 fxe6 26. Qe4 Rb6 27. Bc5 Ra6 28. Bd4 Bxd4 29. Qxd4 Rxa2 30. Kh2 Kf7 31. Qc4 Ra1 32. Qc7+ Ne7 33. Qf4+ Kg6 34. Qxb8 Rxb1 35. Qb3 Kf7 36. Qc2 Rc1 37. Qxb2 Rc5 38. Qd4 Ra5 39. g4 h5 40. Kg3 hxg4 41. hxg4 a6 42. f3 Rd5 43. Qf4+ Kg7 44. Qc7 Kf7 45. f4 a5 46. Kh4 Ke8 47. Qb8+ Kf7 48. Qa7 Ke8 49. g5 Rf5 50. Kh5 Kf7 51. Kh6 Rxf4 52. Kh5 Rf5 1/2-1/2',
+      id: '4230964',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'A28',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e4 Bb4 5. d3 d6 6. a3 Bc5 7. b4 Bb6 8. Na4 Bd4 9. Rb1 a6 10. Be2 b5 11. Nxd4 Nxd4 12. Nc3 O-O 13. O-O c6 14. Be3 Be6 15. Re1 Nxe2+ 16. Qxe2 Nd7 17. a4 Qb8 18. h3 h6 19. Rec1 Qb7 20. Qd2 Rfc8 21. Ne2 d5 22. Ng3 Kh7 23. f3 d4 24. Bf2 bxc4 25. dxc4 a5 26. bxa5 Qc7 27. Be1 Nc5 28. Qd1 Nb7 29. Nf1 Nxa5 30. Bxa5 Qxa5 31. Ra1 Rcb8 32. f4 Rb4 33. f5 Bxc4 34. Nd2 Bd3 35. Ra3 Qa6 36. Qh5 Rb2 37. Nf3 f6 38. Nxe5 fxe5 39. Qg6+ Kh8 40. Rxc6 Rxg2+ 41. Qxg2 Qxc6 42. Rxd3 Rxa4 43. Kh2 Qa6 44. Rd2 Kh7 45. Rc2 Qf6 46. Qg3 Ra1 47. Rg2 Rc1 48. Qb3 Qh4 49. Qf3 Rc3 50. Qg4 Qxg4 51. Rxg4 Re3 52. Kg2 d3 53. Kf2 d2 0-1',
+      id: '4232228',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'E60',
+      t: 'Sharjah Grand Prix 2017',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. f3 c5 4. d5 e6 5. Nc3 d6 6. e4 Bg7 7. Bg5 O-O 8. Qd2 h6 9. Be3 exd5 10. cxd5 a6 11. a4 Nh7 12. a5 h5 13. Ra3 Nd7 14. Nh3 Rb8 15. Be2 b5 16. axb6 Qxb6 17. Ra2 Ne5 18. Nf2 a5 19. O-O Ba6 20. Bxa6 Qxa6 21. Rfa1 Nc4 22. Qe2 Ra8 23. Bc1 Rfb8 24. Nfd1 Nf8 25. Ra4 Rb4 26. b3 Nb6 27. Qxa6 Rxa6 28. Rxa5 Rxa5 29. Rxa5 Rxb3 30. Rb5 c4 31. Kf1 Nfd7 32. Bf4 Ne5 33. Be3 Nbd7 34. Ke2 Ra3 35. Rb4 Rb3 36. Ra4 Nb6 37. Ra6 Ned7 38. Kd2 f5 39. Kc2 fxe4 40. fxe4 Be5 41. h3 Kf8 42. Nb1 Rb4 43. Nd2 Ke8 44. Nf3 Bf6 45. g4 1/2-1/2',
+      id: '4036808',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C45',
+      t: '11th World Teams 2017',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8. c4 Ba6 9. b3 g6 10. g3 Bg7 11. Bb2 O-O 12. Bg2 Rfe8 13. O-O Bxe5 14. Qxe5 Qxe5 15. Bxe5 Rxe5 16. cxd5 Bxf1 17. Kxf1 cxd5 18. Na3 c6 19. Nc2 a5 20. Rd1 Kf8 21. Rd4 Ke7 22. Rf4 Rf5 23. Ra4 Kd6 24. Ke2 Re8+ 25. Kf1 Ra8 26. Ne3 Re5 27. Ke2 Kc7 28. Kd2 Kb6 29. Bf1 Re4 30. Ra3 Rae8 31. Bd3 R4e6 32. Ra4 Rf6 33. Ng4 Rf3 34. Be2 Rf5 35. Bd3 Rf3 36. Be2 Rf5 37. f4 h5 38. Ne5 d6 39. Nf3 c5 40. Ng5 d4 41. Bd3 Rf6 42. Be4 h4 43. Rc4 Re7 44. Rc1 d5 45. Bxd5 Rf5 46. Bc4 hxg3 47. hxg3 f6 48. Ne6 Rh5 49. Re1 Rh2+ 50. Re2 Rxe2+ 51. Kxe2 Kc6 52. g4 Kd6 53. f5 gxf5 54. gxf5 Rh7 55. a4 Rh5 56. Bd3 Rh2+ 57. Ke1 Rh3 58. Kd2 Rh2+ 59. Ke1 Rh3 60. Kd2 Rh2+ 61. Be2 Rf2 62. Nd8 Kc7 63. Ne6+ Kd6 64. Ng7 Rg2 65. Ne8+ Ke5 66. Nc7 Kxf5 67. Na6 Ke5 68. Nxc5 f5 69. Nd3+ Kd6 70. Ke1 Rg1+ 71. Kd2 Rg2 72. Ke1 Rg1+ 73. Bf1 Rg3 74. b4 axb4 75. Nxb4 Ra3 76. Bb5 Kc5 77. Nd3+ Kb6 78. Ke2 f4 79. Kf3 Ka5 80. Kxf4 Rxa4 81. Bxa4 Kxa4 82. Ke4 Kb5 1/2-1/2',
+      id: '4054462',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C48',
+      t: 'World Blitz 2017',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Nd4 5. O-O Nxb5 6. Nxb5 c6 7. Nc3 d6 8. d4 Qc7 9. h3 Be7 10. a4 O-O 11. Re1 Re8 12. b3 Bf8 13. Bb2 b6 14. Qd2 Bb7 15. Rad1 Rad8 16. Qg5 h6 17. Qc1 a6 18. dxe5 dxe5 19. Ba3 c5 20. Nd2 Bc6 21. Nf3 b5 22. axb5 axb5 23. Rxd8 Rxd8 24. Bb2 b4 25. Nd5 Nxd5 26. exd5 Bxd5 27. Nxe5 Re8 28. Re3 Bd6 29. Ng4 Rxe3 30. Qxe3 Qe7 31. Qd2 Qe6 32. Ne3 Be4 33. c3 Qxb3 34. cxb4 cxb4 35. Qd4 Bf8 36. Ng4 Qe6 37. Nxh6+ Qxh6 38. Qxe4 Qd2 39. Qd4 Qe2 40. g3 b3 41. h4 Qe6 42. h5 f6 43. Kg2 Qc6+ 44. f3 Qc2+ 45. Kh3 Qf5+ 46. Kg2 Qxh5 47. g4 Qc5 48. Qe4 Qc2+ 49. Qxc2 bxc2 50. Kf1 Bd6 51. Bc1 Kf7 52. Ke2 Ke6 53. Kd3 Kd5 54. Kxc2 1/2-1/2',
+      id: '4089688',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C45',
+      t: '7th Hainan Danzhou GM',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 bxc6 6. Bd3 d6 7. h3 Ne7 8. Nc3 Ng6 9. Na4 Bd4 10. c3 Bf6 11. O-O Ne5 12. Be2 O-O 13. f4 Nd7 14. Qc2 c5 15. Bf3 Rb8 16. Be3 Ba6 17. Rfd1 Qe7 18. Bf2 Bb5 19. Rab1 Nb6 20. Nxb6 axb6 21. Re1 Bc4 22. b3 Be6 23. a4 Rfd8 24. b4 Bc4 25. bxc5 bxc5 26. Rxb8 Rxb8 27. e5 dxe5 28. fxe5 Bg5 29. a5 g6 30. Qe4 Qe6 31. Bxc5 h5 32. Bd4 Rb3 33. Ra1 c5 34. a6 Bxa6 35. Qa8+ Qc8 36. Rxa6 Rb8 37. Bf2 Kg7 38. Qc6 Rb1+ 39. Kh2 Qf5 40. Qe4 1-0',
+      id: '3999578',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'E90',
+      t: 'Breisacher Memorial',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. h3 Na6 7. Bg5 Qe8 8. g4 c6 9. Bg2 e5 10. Be3 exd4 11. Nxd4 Nc5 12. f3 Nfd7 13. Qe2 Nb6 14. Rd1 f5 15. exf5 gxf5 16. b3 h5 17. gxh5 Qxh5 18. f4 Qh6 19. O-O Bd7 20. Qd2 Be8 21. Nde2 Bh5 22. Qxd6 Ne6 23. Bf3 Rf6 24. Qd2 Rg6+ 25. Kh2 Bg4 26. Ng1 Rd8 27. Qe1 Rd7 28. Nce2 Bc3 29. Qg3 Bf6 30. Rxd7 Nxd7 31. Bxg4 Rxg4 32. Qf3 Rg7 33. Ng3 Qg6 34. Nh5 Rh7 35. Qg3 Kf7 36. Qxg6+ Kxg6 37. Nxf6 Nxf6 38. Kg2 Ne4 39. Nf3 Kh5 40. Nd2 Rg7+ 41. Kh2 Nxd2 42. Bxd2 Rd7 43. Be3 a6 44. Kg2 Rd3 45. Re1 Rc3 46. Re2 a5 47. Kf2 a4 48. Rd2 axb3 49. axb3 Rxb3 50. Rd6 Nf8 51. Rf6 Nh7 52. Rxf5+ Kg6 53. Re5 Nf6 54. f5+ Kf7 55. Re6 Ne8 56. Rh6 Rb4 57. Bg5 Rxc4 58. Kf3 Rc5 59. Rh7+ Kg8 60. Rxb7 Rxf5+ 61. Kg4 Rf7 62. Rb8 Rf8 63. Rd8 Kg7 64. Kg3 Rf5 65. h4 Nf6 66. Bxf6+ 1/2-1/2',
+      id: '3861139',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A34',
+      t: 'Breisacher Memorial',
+      moves:
+        '1. Nf3 Nf6 2. c4 c5 3. Nc3 d5 4. cxd5 Nxd5 5. g3 Nc6 6. Bg2 Nc7 7. O-O e5 8. a3 Rb8 9. Rb1 f6 10. d3 Be6 11. Be3 Qd7 12. Nd2 Be7 13. b4 cxb4 14. axb4 b5 15. Rc1 Rc8 16. Nb3 O-O 17. Nc5 Bxc5 18. Bxc5 Rfd8 19. Ne4 Na6 20. Qd2 Nd4 21. Qb2 Nb3 22. Rc3 Nbxc5 23. Nxc5 Nxc5 24. Rxc5 Rxc5 25. bxc5 Rb8 26. c6 Qc7 27. d4 exd4 28. Qxd4 b4 29. Ra1 a5 30. Bd5 Bf7 31. Bxf7+ Qxf7 32. Qd6 Rc8 33. Rxa5 b3 34. Qb4 h6 35. Qb7 Rc7 36. Ra7 b2 37. Ra8+ Kh7 38. Qxb2 Rxc6 39. Qb1+ f5 40. Ra5 g6 41. Qd3 Rc7 42. Rd5 Re7 43. Rd6 h5 44. f3 Qg7 45. Kf2 Qf7 46. Qd2 Qe8 47. h3 Qb5 48. Qd3 Qe8 49. Rd4 Qc6 50. g4 hxg4 51. hxg4 Qc7 52. Kg2 Qe5 53. Rd7 Rxd7 54. Qxd7+ Kh6 55. Qd2+ f4 56. Qd3 g5 57. Qe4 Qc5 58. Kf1 Qc1+ 59. Kf2 Qc5+ 60. e3 fxe3+ 61. Qxe3 Qc2+ 62. Kg3 Qc7+ 63. Kh3 Qc6 64. Qe4 Qc1 1/2-1/2',
+      id: '3862192',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C11',
+      t: '8th RUS-CHN Summit Men Classical',
+      moves:
+        '1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 a6 8. Qd2 b5 9. Nd1 Be7 10. Bd3 c4 11. Be2 Qa5 12. c3 b4 13. O-O Nb6 14. Bf2 Rb8 15. Bh4 bxc3 16. bxc3 Na4 17. Bxe7 Nxe7 18. Qc1 O-O 19. Qa3 Nc6 20. Qc1 Na7 21. Qe3 Bd7 22. h4 Nb2 23. h5 Ba4 24. Nf2 Bc2 25. h6 g6 26. Ng4 Nb5 27. Rfc1 Bd3 28. Bxd3 Nxd3 29. Nf6+ Kh8 30. Nd7 Nxc1 31. Rxc1 Qc7 32. Nf6 Qe7 33. Ng5 Nc7 34. Ngxh7 Rfd8 35. Qe1 Ne8 36. Nxe8 Kxh7 37. Nf6+ Kh8 38. Rc2 Rb5 39. Kh2 Rdb8 40. Qg3 Rb1 41. f5 exf5 42. Nxd5 Qf8 43. Qg5 Re1 44. Rc1 Re2 45. Rf1 Qd8 46. Ne7 Qf8 47. Nd5 Qd8 48. Nf6 Rbb2 49. Rg1 Rb6 50. Ne4 Qxg5 51. Nxg5 Rb7 52. Rd1 1/2-1/2',
+      id: '3815111',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C11',
+      t: '8th RUS-CHN Summit Men Rapid',
+      moves:
+        '1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. Nf3 c5 6. dxc5 Nc6 7. Bf4 Nxc5 8. h4 Be7 9. h5 f5 10. Rh3 O-O 11. Nb5 Ne4 12. c3 Qb6 13. Be3 Qa5 14. Nbd4 f4 15. Bd2 Qc7 16. Nxc6 bxc6 17. Bd3 Bc5 18. Qc2 Bxf2+ 19. Kd1 Rb8 20. b3 c5 21. Bxe4 dxe4 22. Qxe4 Bb7 23. Qe2 Bg3 24. Kc2 c4 25. Nd4 Bd5 26. b4 a5 27. b5 Qb7 28. Rg1 Be4+ 29. Kb2 Qd5 30. a4 Bd3 31. Qf3 Qxe5 32. Rhh1 Be4 33. Qg4 Rfd8 34. h6 g6 35. Rh5 Bf5 36. Rxf5 exf5 37. Qf3 Qe4 38. Rf1 Re8 39. Bxf4 Bxf4 40. Qxf4 Qxg2+ 41. Rf2 Qd5 42. Qc7 Rb7 43. Qxa5 Qc5 44. Qa6 Ra7 45. Qf6 Qf8 46. Qxf8+ Kxf8 47. Ka3 Rea8 48. Ne6+ Ke7 49. Nc5 Rb8 50. Kb4 Kf6 51. a5 g5 52. b6 g4 53. Kxc4 Re7 54. Ra2 g3 55. a6 f4 56. b7 f3 57. a7 f2 58. axb8=Q f1=Q+ 59. Kb4 Qb1+ 60. Ka3 Qc1+ 61. Ka4 1-0',
+      id: '3815161',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'D02',
+      t: '8th RUS-CHN Summit Men Rapid',
+      moves:
+        '1. Nf3 d5 2. d4 Nc6 3. c4 Bg4 4. Nc3 e6 5. cxd5 exd5 6. Bf4 Nf6 7. e3 Bd6 8. Bg5 Ne7 9. Be2 c6 10. Bxf6 gxf6 11. Nh4 Be6 12. Bd3 Qb6 13. Rb1 c5 14. dxc5 Bxc5 15. O-O Bd6 16. Bb5+ Nc6 17. Rc1 a6 18. Ba4 O-O-O 19. Bxc6 bxc6 20. Na4 Qb5 21. Nf3 Bg4 22. Nc3 Qb7 23. h3 Bh5 24. Qc2 Bg6 25. Qa4 Kb8 26. Ne2 Qb5 27. Qd1 c5 28. b4 c4 29. Nfd4 Qb7 30. Qa4 Rc8 31. b5 axb5 32. Nxb5 Bc5 33. Ned4 Qa8 34. Qd1 Qa6 35. Qf3 Bxd4 36. Nxd4 Rhd8 37. Rc3 Be4 38. Qf4+ Qd6 39. Qh4 Rg8 40. f3 Bd3 41. Rf2 Ka8 42. Nb5 Qe5 43. Rb2 Kb7 44. Qe1 Rb8 45. Qc1 Kc6 46. Rxd3 Rxb5 47. Rxb5 Kxb5 48. Ra3 Rb8 49. Ra7 Kc6 50. Rxf7 Qb2 51. Qf1 Qc2 0-1',
+      id: '3815186',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C10',
+      t: 'RUS-CHN Match Standard',
+      moves:
+        '1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Nxf6+ Nxf6 7. Be3  Nd5 8. Bd2 c5 9. Bb5+ Bd7 10. Bxd7+ Qxd7 11. c4 Nb6 12. Rc1 Be7 13. dxc5  Bxc5 14. b4 Be7 15. c5 Nd5 16. Ne5 Qc7 17. Qa4+ Kf8 18. Nc4 h5 19. O-O h4  20. h3 Rh5 21. Rfe1 a6 22. Qd1 Rf5 23. Qe2 Rd8 24. a3 Kg8 25. Ne5 Bf6 26.  Nf3 Qc6 27. Rcd1 Qa4 28. Bc1 Rd7 29. Qd3 Nb6 30. Qe2 Nd5 31. Qd3 Nb6 32.  Qe2 1/2-1/2',
+      id: '3710253',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'A57',
+      t: 'RUS-CHN Match Rapid',
+      moves:
+        '1. d4 Nf6 2. c4 c5 3. d5 b5 4. Nf3 g6 5. Qc2 bxc4 6. e4 Bg7 7. Bxc4 d6 8.  O-O O-O 9. Nc3 Nbd7 10. h3 Rb8 11. Re1 Nb6 12. Bf1 Bb7 13. Bf4 Qc8 14. Rad1  Ba6 15. Bxa6 Qxa6 16. e5 Ne8 17. b3 Rd8 18. Bg5 f6 19. exf6 exf6 20. Bf4  Qc8 21. Bg3 Qd7 22. Re6 Nc8 23. Rde1 Nc7 24. R6e2 Qf7 25. Qd3 h6 26. Bf4 f5  27. h4 Rfe8 28. Bd2 Rxe2 29. Rxe2 Nb6 30. g3 Ncxd5 31. Nxd5 Qxd5 32. Qxd5+  Nxd5 33. Ba5 Rd7 34. Ne1 Kf7 35. Rd2 Nf6 36. f3 Ng8 37. Rd3 Ne7 38. Bc3  Bxc3 39. Rxc3 Nc6 40. Nc2 a5 41. Kf2 Ra7 42. a3 Rb7 43. g4 f4 44. Ke2 Ke6  45. Kd2 g5 46. h5 Ne5 47. Ne1 a4 48. bxa4 Ra7 49. Rb3 Rxa4 50. Nc2 Ra6 51.  Ke2 d5 52. Rb8 d4 53. Re8+ Kd5 54. Rd8+ Kc4 0-1',
+      id: '3710963',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C10',
+      t: 'RUS-CHN Match Rapid',
+      moves:
+        '1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Bg5 h6 7. Nxf6+  Nxf6 8. Be3 Nd5 9. Bd2 c5 10. Ne5 a6 11. c3 cxd4 12. Qa4+ Bd7 13. Qxd4 Rc8  14. Nxd7 Qxd7 15. g3 f5 16. Bg2 Bc5 17. Qd3 b5 18. O-O Kf7 19. a4 Rhd8 20.  axb5 axb5 21. Qe2 Nf6 22. Rfd1 Qd3 23. Qxd3 Rxd3 24. Bf1 Rd6 25. Be1 Rxd1  26. Rxd1 Rb8 27. b4 Be7 28. Ra1 Ne4 29. f3 Nd6 30. Ra7 Rc8 31. Bf2 Rxc3 32.  Bc5 Ke8 33. Bxb5+ Nxb5 34. Rxe7+ Kd8 35. Rxe6 Rxf3 36. Rg6 f4 37. Kg2 Rd3  38. gxf4 Rd7 39. Kf3 Ke8 40. Rb6 Nc3 41. Rd6 Rb7 42. f5 Kf7 43. Rd8 g5 44.  Rf8+ Kg7 45. f6+ Kh7 46. Kg4 Nd5 47. Kf5 Nxb4 48. f7 Kg7 49. Ke4 1-0',
+      id: '3710988',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C11',
+      t: 'RUS-CHN Match Blitz',
+      moves:
+        '1. e4 e6 2. Nc3 d5 3. Nf3 Nf6 4. e5 Nfd7 5. d4 c5 6. dxc5 Nc6 7. Bf4 Nxc5  8. h4 a6 9. a3 b5 10. h5 h6 11. Rh3 Bb7 12. b4 Ne4 13. Nxe4 dxe4 14. Nd2  Qd4 15. c3 Qd5 16. c4 bxc4 17. Nxc4 Rd8 18. Nb6 Qxd1+ 19. Rxd1 Be7 20. Rg3  Rxd1+ 21. Kxd1 Bg5 22. Bxg5 hxg5 23. Rxg5 Rh7 24. Nc4 f6 25. exf6 gxf6 26.  Rc5 Kd7 27. g4 e5 28. Ne3 Nd4 29. Ra5 Kd6 30. Bxa6 Bc6 31. Bc4 f5 32. Nxf5+  Nxf5 33. gxf5 Rxh5 34. f6 Rf5 35. Ra6 Kc7 36. Ke1 Bb7 37. Re6 Bc8 38. Re7+  Kd6 39. Re8 Bd7 40. f7 1-0',
+      id: '3711013',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'D95',
+      t: 'RUS-CHN Match Blitz',
+      moves:
+        '1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 d5 5. e3 Nc6 6. Qb3 dxc4 7. Bxc4 O-O  8. Be2 a6 9. O-O b5 10. Rd1 Bb7 11. d5 Na5 12. Qb4 c6 13. a4 Nxd5 14. Nxd5  cxd5 15. axb5 axb5 16. Qxb5 Ba6 17. Qxa5 Bxe2 18. Qxa8 Bxd1 19. Qxd8 Rxd8  20. Nd4 e5 21. Nc6 Re8 22. Bd2 Be2 23. Bc3 f6 24. f4 Bb5 25. Nb4 d4 26.  exd4 exf4 27. Ra5 Be2 28. Nd5 g5 29. Ra7 Bc4 30. Ne7+ Kh8 31. Nf5 Bf8 32.  Rc7 Bd3 33. g4 h5 34. d5 hxg4 35. Bxf6+ Kg8 36. Ne7+ Kf7 37. d6 Kxf6 38. d7  Rd8 39. Nc6 Bc5+ 40. Kg2 Bb6 41. Rb7 Be4+ 42. Kf1 Bxc6 43. Rxb6 Rxd7 44.  Rxc6+ Kf5 45. Rc5+ Ke4 46. Rxg5 Kf3 47. Ke1 Rb7 48. Rc5 Rxb2 49. Rc3+ Kg2  50. Rc4 Kxh2 51. Rxf4 g3 52. Rh4+ Kg1 53. Rh3 g2 54. Rh4 Rb8 0-1',
+      id: '3711038',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D94',
+      t: 'Tata Steel Chess Tournament 2020',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. e3 O-O 6. Bd2 e6 7. Rc1 Nbd7 8. Bd3  dxc4 9. Bxc4 c5 10. O-O b6 11. Qe2 Bb7 12. Rfd1 a6 13. a4 Qe7 14. Be1 Rfd8 15.  b3 cxd4 16. exd4 Qd6 17. Ng5 h6 18. Nge4 Nxe4 19. Nxe4 Qe7 20. f3 Nf6 21. Bh4  Rd7 22. d5 exd5 23. Nxf6+ Bxf6 24. Qxe7 Bxe7 25. Bxe7 Rxe7 26. Bxd5 Bxd5 27.  Rxd5 Re3 28. h4 h5 29. b4 Ra3 30. a5 Ra4 31. Rc4 Rb8 32. axb6 Rxb6 33. Rdd4 Kg7 1/2-1/2',
+      id: '4248419',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'E32',
+      t: 'Clutch Chess Champions Showdown International',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. e4 d5 6. e5 Ne4 7. a3 Bxc3+ 8. bxc3  c5 9. f3 Qh4+ 10. g3 Nxg3 11. hxg3 Qxh1 12. Qf2 Qh5 13. Bd3 f6 14. exf6 Rxf6 15.  g4 Qf7 16. Qh4 g6 17. Bg5 Nd7 18. Kf2 dxc4 19. Bxc4 cxd4 20. cxd4 b5 21. Bxb5  Bb7 22. Qg3 Rf8 23. Bxf6 Nxf6 24. Kg2 h5 25. gxh5 Nxh5 26. Qg4 Nf4+ 27. Kf2 e5  28. Ne2 Bxf3 29. Kxf3 Qb3+ 30. Kf2 Qxb5 31. Ke1 Kg7 32. Ng3 Qb2 0-1',
+      id: '4261349',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'C42',
+      t: 'Clutch Chess Champions Showdown International',
+      moves:
+        '1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Be7 7. Be3 O-O 8.  Qd2 Nd7 9. O-O-O Nf6 10. Bd3 Re8 11. Kb1 Bd7 12. Rhe1 c5 13. Bg5 h6 14. Bxf6  Bxf6 15. Be4 Qb6 16. Ka1 Bc6 17. Bd5 Rad8 18. h4 Rxe1 19. Rxe1 Bxd5 20. Qxd5 Qc6  21. Qxc6 bxc6 22. g4 Kf8 23. Kb1 d5 24. Kc1 c4 25. g5 hxg5 26. hxg5 Be7 27. Rg1  c5 28. b3 cxb3 29. axb3 Rd6 30. Kd2 Bd8 31. Kd3 Re6 32. Nd2 Re5 33. f4 Rf5 34.  Rg4 Bc7 35. Ke3 f6 36. Nf3 fxg5 37. Nxg5 Ke7 38. Nf3 Kf6 39. Rh4 Kf7 40. Ng5+  Ke7 41. Nf3 a5 42. Nd2 Ke6 43. c4 Bd8 44. Rg4 Bf6 45. cxd5+ Rxd5 46. Nc4 Kf5 47.  Kf3 Rd4 48. Ne3+ Ke6 49. Rg2 a4 50. bxa4 Rxa4 51. Re2 Kd6 52. Rd2+ Kc6 53. Rg2  Ra7 54. c4 Kd6 55. Nd5 Ke6 56. Ke4 Bd4 57. Rg6+ Kf7 58. Rc6 g6 59. Nc7 Ra1 60.  Ne6 Re1+ 61. Kd5 Be3 62. Ng5+ Kg7 63. Rc7+ Kg8 64. Ne6 Kh8 65. Nf8 Rg1 66. Ke4  Bd4 67. Rc8 Re1+ 68. Kd5 Rd1 69. Ne6+ Kh7 70. Nxc5 Ba1+ 71. Ke6 Rf1 72. Nd3 Rf3  73. Rd8 Re3+ 74. Kf7 Re4 75. c5 Rc4 76. Ke6 Rc2 77. Rd5 Kg7 78. Kd7 1-0',
+      id: '4261351',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'Clutch Chess Champions Showdown International',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Bf1 Be7 7. Nc3 Nf5 8.  Nxe5 Nxe5 9. Rxe5 d6 10. Re1 d5 11. d4 O-O 12. Ne2 c6 13. c3 Re8 14. Bf4 Bd6 15.  Qd2 Bd7 16. Ng3 Qc7 17. Bxd6 Qxd6 18. a4 a5 19. Nh5 Qh6 20. Qxh6 Nxh6 21. Nf4  Nf5 22. Nd3 Nd6 23. Rxe8+ Bxe8 24. f3 b6 25. Kf2 f6 26. h4 Bg6 27. b3 Kf7 28.  Rc1 Bxd3 29. Bxd3 c5 30. h5 f5 31. Re1 c4 32. Bc2 Rc8 33. Re5 cxb3 34. Bxb3 Rxc3  35. Bxd5+ Kf8 36. h6 gxh6 37. Re6 Nc4 38. Bxc4 Rxc4 39. Ke3 Rxa4 40. Rxb6 Kg7  41. Ra6 h5 42. g3 f4+ 43. Kxf4 Rxd4+ 44. Ke5 Rd3 45. Ke4 Ra3 46. Kf4 a4 47. Kg5  Rxf3 48. Ra7+ Kg8 49. Rxa4 Rxg3+ 50. Kxh5 Rf3 51. Ra8+ Rf8 52. Rxf8+ Kxf8 1/2-1/2',
+      id: '4261353',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'C43',
+      t: 'Clutch Chess Champions Showdown International',
+      moves:
+        '1. e4 e5 2. Nf3 Nf6 3. d4 Nxe4 4. Bd3 Nc6 5. dxe5 d5 6. exd6 Nxd6 7. O-O Be7 8.  Nc3 Be6 9. Re1 O-O 10. Bf4 Bf6 11. Bxd6 cxd6 12. Ne4 Be7 13. Qd2 h6 14. Ng3 Bf6  15. c3 Ne5 16. Nd4 Nxd3 17. Qxd3 Be5 18. Nxe6 fxe6 19. Re2 Rf7 20. Ne4 Qe7 21.  Rd1 Rd8 22. Nd2 Qh4 23. g3 Qg4 24. f3 Qa4 25. b3 Qd7 26. Rde1 Qc7 27. c4 Qa5 28.  b4 Qb6+ 29. Kg2 Qd4 30. Re3 Qxd3 31. Rxd3 Rfd7 32. f4 Bf6 33. Rxe6 Kf7 34. Re2  d5 35. c5 Rc7 36. Nb3 b6 37. Red2 bxc5 38. Nxc5 d4 39. Kf3 a5 40. a3 axb4 41.  axb4 Be7 42. Ne4 Rc4 43. b5 Rb4 44. g4 Bf6 45. Ra2 Rxb5 46. Ra7+ Be7 47. h4 Kf8  48. g5 Rb6 49. f5 hxg5 50. hxg5 Rb1 51. Kf4 Rf1+ 52. Kg4 Re1 53. Kf4 Rf1+ 54.  Kg4 Re1 55. Kf4 1/2-1/2',
+      id: '4261355',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'C51',
+      t: 'Clutch Chess Champions Showdown International',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Be7 6. d4 Na5 7. Bd3 d6 8. dxe5  dxe5 9. Nxe5 Nf6 10. O-O O-O 11. Qc2 Bd6 12. Nf3 Nc6 13. Bg5 h6 14. Bh4 g5 15.  Bg3 Bxg3 16. hxg3 g4 17. Nh4 Ne5 18. Be2 Re8 19. Nd2 b6 20. Rad1 Qe7 21. Rfe1  Be6 22. Nf1 Rad8 23. Ne3 Qc5 24. Nef5 Rxd1 25. Rxd1 h5 26. Rd4 Qf8 27. Qd2 Nh7  28. a4 Nc6 29. Nh6+ Kg7 30. N4f5+ Kg6 31. Bd3 Ng5 32. Qf4 f6 33. Bb5 Nxd4 34.  Bxe8+ Qxe8 35. cxd4 Bxf5 36. Nxf5 Qxe4 37. Nh4+ Kf7 38. Qxc7+ Qe7 39. Qc4+ Qe6  40. d5 Qd6 41. Qd3 Qe5 42. Qg6+ Ke7 43. Nf5+ Kd8 44. Kh2 Ne4 45. Qg8+ Kd7 46.  Qf7+ Kd8 47. Ng7 h4 48. Ne6+ Kc8 49. Qg8+ Kb7 50. Qh7+ Ka6 51. Qxh4 Nxf2 52. Qh8  Qe1 53. Nc5+ Ka5 0-1',
+      id: '4261357',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'B47',
+      t: 'Clutch Chess Champions Showdown International',
+      moves:
+        '1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. g3 a6 7. Bg2 d6 8. O-O  Bd7 9. Nxc6 Bxc6 10. a4 Nf6 11. a5 Be7 12. Be3 O-O 13. Bb6 Qc8 14. Re1 Nd7 15.  Bd4 Re8 16. Qd2 Qc7 17. Na4 Bxa4 18. Rxa4 Rac8 19. c3 Bf6 20. Rd1 Bxd4 21. cxd4  Nf6 22. h3 h5 23. Bf3 h4 24. gxh4 e5 25. Rb4 Rcd8 26. Qc3 Qe7 27. Qb3 Rd7 28.  dxe5 Qxe5 29. Rxb7 Qxa5 30. Qb4 Qxb4 31. Rxb4 a5 32. Rbd4 Rb7 33. R1d2 Rbb8 34.  Bg2 g6 35. Kh2 Kg7 36. h5 Nxh5 37. Rxd6 Nf4 38. Ra6 Re5 39. Ra7 Rb6 40. Rdd7 Rf6  41. Rd2 Rb6 42. Rdd7 Rf6 43. Rd2 Rc5 44. Bf1 Ne6 45. Bg2 Kh6 46. Rad7 Nf4 47.  Ra7 Kg7 48. Bf1 Ne6 49. Bg2 Nf4 1/2-1/2',
+      id: '4261359',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '0-1',
+      e: 'D19',
+      t: 'Clutch Chess Champions Showdown International',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O  O-O 9. Qe2 Bg6 10. Ne5 Nbd7 11. Nxg6 hxg6 12. Rd1 Qc7 13. Bd2 a5 14. Rac1 Rad8  15. Ba2 Nb6 16. Be1 e5 17. dxe5 Qxe5 18. g3 Nbd7 19. Qc2 Qh5 20. Bc4 Ne5 21. Be2  Qh3 22. f3 g5 23. Ne4 Qf5 24. Bxb4 axb4 25. Nxf6+ Qxf6 26. Kg2 Ng6 27. Qb3 Qe7  28. a5 Rfe8 29. Rxd8 Rxd8 30. Rd1 Rxd1 31. Bxd1 Qc5 32. Qd3 Qxa5 33. Bb3 Nf8 34.  Qc4 Ne6 35. Qe4 Qa1 36. Bxe6 Qxb2+ 37. Kh3 fxe6 38. Qxe6+ Kf8 39. Qc8+ Ke7 40.  Qxb7+ Kd6 41. e4 Qc3 42. Qb8+ Kc5 43. e5 Qxf3 44. Qd6+ Kc4 45. e6 Qf5+ 46. Kg2  Qe4+ 47. Kh3 b3 48. e7 b2 49. Qd1 Kc3 50. e8=Q Qxe8 51. Qf3+ Kb4 52. Qg4+ Ka3  53. Qf3+ Ka2 0-1',
+      id: '4261360',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'D86',
+      t: 'Clutch Chess Champions Showdown International',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8.  Ne2 Nc6 9. Be3 O-O 10. O-O b6 11. Qd2 Bb7 12. Rfd1 Rc8 13. Rac1 e6 14. Bg5 Qd7  15. h4 Na5 16. Bd3 cxd4 17. cxd4 Rxc1 18. Rxc1 Rc8 19. Rxc8+ Bxc8 20. h5 Nc6 21.  h6 Bf8 22. Bb5 a6 23. Ba4 b5 24. Bb3 Bb7 25. d5 exd5 26. Bxd5 Ne5 27. Bxb7 Qxb7  28. Nc3 Ng4 29. Nd5 f6 30. Qd1 fxg5 31. Qxg4 Bxh6 32. Qe6+ Qf7 33. Qxa6 Bg7 34.  Qxb5 Bd4 35. Qe2 g4 36. g3 h5 37. Kg2 Kg7 38. a4 Qa7 39. Qc2 Kh6 40. Qd2+ g5 41.  a5 Bc5 42. Qc3 1-0',
+      id: '4261361',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'D00',
+      t: 'Clutch Chess Champions Showdown International',
+      moves:
+        '1. d4 d5 2. Bf4 Bf5 3. e3 e6 4. c4 Nf6 5. Nc3 Bb4 6. Qa4+ Nc6 7. Nf3 O-O 8. Rc1  dxc4 9. Bxc4 Nd5 10. Bxd5 exd5 11. O-O a6 12. Qb3 Be6 13. Na4 Rb8 14. Bxc7 Qxc7  15. Qxb4 Nxb4 16. Rxc7 Rfc8 17. Rxc8+ Rxc8 18. a3 Nd3 19. b4 Rc2 20. Nc5 Nxc5  21. bxc5 Bf5 22. Ra1 f6 23. h3 Rb2 24. g4 Bd3 25. Kg2 Kf7 26. g5 a5 27. Kg3 a4  28. h4 Ke6 29. Ne1 Bc4 30. Ng2 Kd7 31. Nf4 b6 32. Nh5 fxg5 33. hxg5 bxc5 34.  dxc5 g6 35. Nf6+ Kc6 36. Nxh7 Kxc5 37. Nf8 Bd3 38. Ne6+ Kd6 39. Nf4 Bb1 40. Ne2  Rb3 41. Nd4 Rb2 42. Ne2 Rb3 43. Kf4 Kc5 44. Nc3 Rxc3 45. Rxb1 Rxa3 46. Ke5 Ra2  47. f4 Re2 48. Kf6 Rxe3 49. Kxg6 a3 50. f5 Kc4 51. f6 a2 52. Ra1 Kb3 53. f7 Rf3  54. Kg7 d4 55. f8=Q Rxf8 56. Kxf8 Kb2 57. Rxa2+ Kxa2 58. g6 1-0',
+      id: '4261363',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'B19',
+      t: 'Clutch Chess Champions Showdown International',
+      moves:
+        '1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 8. Bd3  Bxd3 9. Qxd3 e6 10. Bd2 Ngf6 11. O-O-O Be7 12. Kb1 O-O 13. Ne4 Nxe4 14. Qxe4 Nf6  15. Qe2 Qd5 16. Ne5 Qe4 17. Be3 Nd5 18. Qd3 Qxd3 19. Rxd3 Nxe3 20. fxe3 h5 21.  Rb3 Bd6 22. Nc4 Bg3 23. Rh3 Bf2 24. Rxb7 Rfb8 25. Rxb8+ Rxb8 26. Ne5 1-0',
+      id: '4261364',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '0-1',
+      e: 'D10',
+      t: 'Clutch Chess Champions Showdown International',
+      moves:
+        '1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Bf4 Nf6 5. e3 Nc6 6. Bd3 Bg4 7. f3 Bh5 8. Qb3  Qd7 9. Ne2 e6 10. Nd2 Bg6 11. Bb5 Be7 12. Rc1 O-O 13. Kf2 Rfc8 14. Qa4 a6 15.  Bxc6 bxc6 16. Nb3 Qb7 17. Rhd1 a5 18. Rd2 Bb4 19. Nc5 Qb6 20. Qd1 Bxd2 21. Qxd2  Qd8 22. Nc3 Nh5 23. Bg3 Nxg3 24. hxg3 Qe7 25. Ne2 f6 26. Na4 Ra7 27. Nf4 Be8 28.  Rc5 Rca8 29. Qc3 Qd6 30. Nd3 Qd8 31. Nf4 Bd7 32. Qa3 Rb8 33. Rc3 Qf8 34. Rc5 e5  35. Ne2 Qd6 36. Qc3 Rb5 37. b3 h6 38. Nc1 Ra8 39. Nd3 Re8 40. Qb2 e4 41. Nf4 g5  42. Ne2 exf3 43. gxf3 Qe6 44. Rc3 Qh3 45. Kg1 h5 46. Qb1 Kg7 47. Nc5 h4 48. Qf1  Qxf1+ 49. Kxf1 Bf5 50. g4 Bg6 51. Kf2 Re7 52. Na4 Rc7 53. Nc5 Re7 54. Na4 Rb8  55. Ng1 f5 56. gxf5 Bxf5 57. Rxc6 Rbe8 58. Rc3 h3 59. Ne2 h2 60. Ng3 Bh3 61. Nb6  Be6 62. Kg2 Rh8 63. e4 dxe4 64. fxe4 Rf7 65. d5 Bg4 66. e5 Rf4 67. e6 Bf5 68.  Rc1 Bh3+ 69. Kxh2 Bxe6+ 70. Kg1 Bf7 71. d6 Rg4 72. Kg2 Bg6 73. d7 Rd4 74. Rc8  Rxd7 75. Rxh8 Rd2+ 76. Kf3 Kxh8 77. a4 Bf7 78. Ne4 Rd3+ 79. Ke2 Rxb3 80. Nd7  Bc4+ 81. Kd2 Rd3+ 0-1',
+      id: '4261366',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E53',
+      t: 'Clutch Chess Champions Showdown International',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 c5 6. Nf3 d5 7. O-O cxd4 8. exd4  dxc4 9. Bxc4 b6 10. Qe2 Bb7 11. Rd1 h6 12. Bf4 Bxc3 13. bxc3 Nd5 14. Bd2 Qc7 15.  Rac1 Nd7 16. Bb5 Bc6 17. Bxc6 Qxc6 18. c4 N5f6 19. Bc3 Rfe8 20. h3 Rac8 21. Bb2  Rc7 22. Rc3 Qa4 23. Rdc1 Rec8 24. Ra3 Qb4 25. Rb3 Qa4 26. Ra3 Qb4 27. Rb3 Qa4  28. Ra3 1/2-1/2',
+      id: '4261368',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E04',
+      t: '63rd ch-USA',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 dxc4 5. Nf3 c5 6. O-O Nc6 7. Ne5 Bd7 8. Nxc4  cxd4 9. Bf4 Nd5 10. Nd6+ Bxd6 11. Bxd6 Nde7 12. Nd2 O-O 13. Qb3 b6 14. Nc4 Rc8  15. Qa3 b5 16. Nd2 b4 17. Qa6 e5 18. Rac1 Be6 19. Bxe7 Nxe7 20. Qxa7 Nd5 21. Rc5  Qb6 22. Qxb6 Nxb6 23. Rb5 Rc2 24. Nf3 Nd7 25. Rxb4 Bxa2 26. Re1 Be6 27. h3 f6  28. e3 d3 29. Rd1 Rb8 30. Rxb8+ Nxb8 31. Ne1 Rxb2 32. Nxd3 Rb5 33. Nc5 Rxc5 34.  Rd8+ Kf7 35. Rxb8 Rc1+ 1/2-1/2',
+      id: '4184705',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'E92',
+      t: '7th Norway Blitz 2019',
+      moves:
+        '1. Nf3 Nf6 2. c4 d6 3. Nc3 g6 4. e4 Bg7 5. d4 O-O 6. Be2 e5 7. Be3 Ng4 8. Bg5 f6  9. Bh4 Nc6 10. d5 Ne7 11. Nd2 h5 12. O-O Nh6 13. f3 Nf7 14. Bf2 c5 15. dxc6 bxc6  16. b4 Be6 17. Nb3 f5 18. a4 Bh6 19. Qd3 Qd7 20. Rfd1 Rfd8 21. b5 Qe8 22. bxc6  Nxc6 23. Nd5 Bxd5 24. cxd5 Nb4 25. Qc3 Rab8 26. Bb5 Rxb5 27. axb5 Qxb5 28. Rxa7  fxe4 29. fxe4 Rb8 30. Na5 Qe2 31. Re1 Qd3 32. Qc7 Rf8 33. Nc4 Nc2 34. Nxd6 Be3  35. Bxe3 Nxe1 36. Nxf7 Qxe3+ 37. Kh1 Qxa7 38. Qxa7 Rxf7 39. Qg1 Nc2 40. h3 Nd4  41. Qa1 h4 42. Kh2 Kh7 43. d6 Rd7 1-0',
+      id: '4195779',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C53',
+      t: '7th Norway Chess 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. e5 d5 7. Be2 Ne4 8. cxd4  Bb4+ 9. Bd2 Nxd2 10. Nbxd2 O-O 11. O-O f6 12. Bb5 Ne7 13. a3 Ba5 14. Bd3 Nc6 15.  Bb5 Bb6 16. Bxc6 bxc6 17. Rc1 fxe5 18. Nxe5 Ba6 19. Nxc6 Qf6 20. Nf3 Bb5 21.  Nce5 Bxf1 22. Qxf1 Rad8 23. Qd3 Qf4 24. Rc2 Rde8 25. g3 Qe4 26. Rd2 c5 27. dxc5  Bxc5 28. Qxd5+ Qxd5 29. Rxd5 Bb6 30. Kg2 Rc8 31. Nd7 Rfe8 32. Nxb6 axb6 33. Rb5  Rc2 34. Nd4 Rd2 35. Nf3 Rc2 36. Nd4 Rd2 37. Nf3 1/2-1/2',
+      id: '4197648',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C42',
+      t: '7th Norway Chess 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3 Nxc3 6. dxc3 Be7 7. Be3 Nc6 8.  Qd2 Be6 9. O-O-O Qd7 10. h4 h6 11. Nd4 Nxd4 12. Bxd4 Rg8 13. c4 c5 14. Bc3 O-O-O  15. Qe3 g5 16. hxg5 hxg5 17. Be2 Rge8 18. b3 d5 19. cxd5 Bxd5 20. Bf3 Bd6 21.  Qxg5 Bxf3 22. gxf3 Qe6 23. Kb1 Be7 24. Qf4 Bd6 25. Qa4 Bb8 26. Rdg1 Qd7 27. Qc4  Qd5 28. Qg4+ f5 29. Qh5 Rg8 30. Re1 Bf4 31. Bf6 Rd7 32. Kb2 b6 33. Re8+ Rxe8 34.  Qxe8+ Kb7 35. Rh8 Ka6 36. Qe2+ Kb7 37. a4 Qd6 38. Bc3 Re7 39. Qc4 Be5 40. Rf8  Bxc3+ 41. Qxc3 Qd5 42. f4 Ka6 43. a5 bxa5 44. Rf6+ Kb5 45. Ka3 Re4 46. Qh3 Qd1  47. Qc3 a4 48. Rxf5 Qc1+ 49. Qb2 Qxb2+ 50. Kxb2 axb3 51. Kxb3 Rb4+ 52. Kc3 Rc4+  53. Kd3 Rd4+ 54. Ke3 Rc4 55. Kd2 Rd4+ 56. Ke2 Re4+ 57. Kd2 Rd4+ 58. Kc1 a5 59.  Rf8 Re4 60. f5 Re1+ 61. Kb2 Rf1 62. Rb8+ Kc6 63. Rf8 Rxf2 64. f6 a4 65. Ka3 Kb7  66. c4 Rf4 67. f7 Ka7 68. Kxa4 Rxc4+ 69. Kb5 Rf4 70. Kxc5 Kb7 71. Kd6 Rf1 1/2-1/2',
+      id: '4197653',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C53',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. O-O O-O 7. h3 a6 8. a4 h6  9. Re1 Ba7 10. Nbd2 Re8 11. b4 Be6 12. Bxe6 Rxe6 13. Nb3 Ne7 14. Nh4 d5 15. Qe2  Rd6 16. Nc5 Bxc5 17. bxc5 Re6 18. Qf3 dxe4 19. dxe4 Qd7 20. a5 Rd8 21. Rb1 Qc6  22. Qe3 Kh7 23. Rb4 Ng6 24. Nxg6 fxg6 25. f3 Nh5 26. Qf2 g5 27. Kh2 Nf4 28. Bxf4  gxf4 29. Reb1 Rd3 30. Rxb7 Rxc3 31. Rb8 Qxc5 32. Qh4 Qe7 33. Qg4 Rc2 34. Qf5+ g6  35. Qf8 Qxf8 36. Rxf8 Kg7 37. Rbb8 Rd6 38. Rg8+ Kh7 39. Rh8+ Kg7 40. Rhg8+ Kh7  41. Rh8+ Kg7 1/2-1/2',
+      id: '4200127',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'A20',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. c4 e5 2. g3 Nf6 3. Bg2 c6 4. Nf3 e4 5. Nd4 Qb6 6. Nb3 a5 7. d3 a4 8. N3d2 Bc5  9. O-O e3 10. fxe3 Bxe3+ 11. Kh1 Ng4 12. Ne4 O-O 13. Nbc3 d5 14. cxd5 Bxc1 15.  Qxc1 Ne3 16. Rf3 Nxg2 17. Kxg2 Qd8 18. Qg5 f6 19. Nxf6+ Rxf6 20. Ne4 Nd7 21.  Raf1 Kh8 22. Nxf6 Nxf6 23. e4 Bd7 24. Rxf6 gxf6 25. Rxf6 Qe7 26. Qf4 Kg8 27. d6  Qg7 28. e5 Re8 29. Qc4+ Kh8 30. Rf7 Qxe5 31. Rxd7 Qe2+ 32. Kh3 Qf1+ 33. Kh4 Qf6+  34. Kh3 Qf1+ 35. Kh4 Qf6+ 36. Kh3 Qf1+ 1/2-1/2',
+      id: '4211817',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'C53',
+      t: 'Superbet Rapid 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. O-O a6 7. a4 O-O 8. Re1 Ba7 9. h3 Kh8 10. d4 Ng8 11. b4 exd4 12. cxd4 Nxb4 13. a5 f6 14. Nc3 Ne7 15. Ne2 d5 16. exd5 Nbxd5 17. Ba3 Re8 18. Ng3 Bd7 19. Qb3 Bc6 20. Re4 b5 21. axb6 Nxb6 22. Bxe7 Rxe7 23. Rxe7 Qxe7 24. Bxa6 Bd5 25. Qc3 Rd8 26. Re1 Qd7 27. Qc5 Qc6 28. Qe7 Qd7 29. Nh4 Bf7 30. Bb5 Qxe7 31. Rxe7 Bd5 32. Nh5 Nc8 33. Rxg7 Bxd4 34. Bd3 Bg8 35. Nf5 Nd6 36. Nxd4 1-0',
+      id: '4229301',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A35',
+      t: 'Superbet Blitz 2019',
+      moves:
+        '1. c4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. e3 e6 5. d4 d5 6. a3 a6 7. cxd5 exd5 8. g3 cxd4 9. Nxd4 Bg4 10. Nxc6 bxc6 11. Qa4 Qd7 12. Bg2 Be7 13. O-O O-O 14. Bd2 Bh3 15. Rac1 Bxg2 16. Kxg2 Qb7 17. Rc2 c5 18. f3 Rfd8 19. Ne2 Qb5 20. Qxb5 axb5 21. Bc3 Nd7 22. Rd1 Nb6 23. Kf2 Bd6 24. Rcd2 f6 25. Rd3 Kf7 26. h4 h5 27. Nf4 Bxf4 28. gxf4 d4 29. exd4 c4 30. Re3 Nd5 31. Re4 Nxc3 32. bxc3 Rxa3 33. Re3 Re8 34. Rxe8 Kxe8 35. Rc1 Kd7 36. f5 Kd6 37. Ke2 Kd5 38. Rc2 Rb3 39. Rc1 b4 40. cxb4 Rxb4 41. Rg1 Rb7 42. Rd1 Re7+ 43. Kd2 Kxd4 44. Kc2+ Kc5 45. Rd8 Re2+ 46. Kd1 Rh2 47. Rg8 Rxh4 48. Rxg7 Rf4 49. Ke2 Rxf5 50. Rh7 Kd4 0-1',
+      id: '4229344',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'A06',
+      t: 'Superbet Blitz 2019',
+      moves:
+        '1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. Nc3 Be7 5. b3 O-O 6. Bb2 c5 7. cxd5 Nxd5 8. Qb1 Nc6 9. h4 b6 10. Bb5 Qc7 11. h5 h6 12. Rh3 Bd7 13. Rg3 f6 14. Rxg7+ Kxg7 15. Qg6+ Kh8 16. Qxh6+ Kg8 17. Qg6+ Kh8 18. Bd3 1-0',
+      id: '4229389',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E46',
+      t: '80th Tata Steel GpA',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Ne2 d5 6. a3 Be7 7. cxd5 exd5 8. Nf4 Re8 9. Bd3 Bd6 10. O-O Bxf4 11. exf4 Nc6 12. Be3 Ne7 13. Qc2 g6 14. f3 Bf5 15. g4 Bxd3 16. Qxd3 Kg7 17. Rae1 Qd7 18. Bf2 h5 19. h3 c6 20. Ne2 hxg4 21. hxg4 Nfg8 22. Bh4 f5 23. Ng3 Rf8 24. Re5 Rf7 25. Qe2 Kf8 26. Re6 Rc8 27. b4 b6 28. Re1 c5 29. bxc5 bxc5 30. dxc5 Qc7 31. Kg2 Qxc5 32. Qe5 fxg4 33. fxg4 d4 34. Qxc5 Rxc5 35. Ne4 Rc2+ 36. Kf3 Nd5 37. Bg5 Rh7 38. Nd6 d3 39. f5 Rh3+ 40. Ke4 d2 41. Rf1 d1=Q 42. Rxd1 Nc3+ 43. Kd4 Nxd1 44. f6 Nxf6 45. Bxf6 Rd2+ 46. Kc5 Rc2+ 47. Kd4 Rd2+ 48. Kc5 Rc2+ 1/2-1/2',
+      id: '4095243',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'E00',
+      t: 'FIDE Candidates 2018',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 Bb4+ 4. Bd2 Be7 5. Bg2 d5 6. Nf3 O-O 7. O-O c6 8. Qb3  Nbd7 9. Bf4 a5 10. Rd1 Nh5 11. Bc1 Nhf6 12. Nbd2 b5 13. c5 b4 14. Qc2 a4 15. Re1  e5 16. Nxe5 Nxe5 17. dxe5 Nd7 18. Nf3 Bxc5 19. Ng5 g6 20. Bf4 Qb6 21. e4 b3 22.  axb3 axb3 23. Qe2 Ba6 24. Qf3 Bc4 25. Rxa8 Rxa8 26. e6 dxe4 27. exf7+ Bxf7 28.  Nxe4 Bd4 29. Nd6 Bd5 30. Qe2 Nf8 31. Bxd5+ cxd5 32. Qf3 Qa5 33. Re7 1-0',
+      id: '4103619',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'C42',
+      t: 'FIDE Candidates 2018',
+      moves:
+        '1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Qe2 Qe7 6. d3 Nf6 7. Nc3 Qxe2+ 8. Bxe2 g6 9. Bg5 Bg7 10. O-O-O O-O 11. Rhe1 h6 12. Bh4 Nc6 13. d4 a6 14. a3 Bd7 15. d5 Na7 16. Nd4 Nc8 17. Nb3 g5 18. Bg3 Re8 19. Na5 b5 20. f3 Nh5 21. Bf2 Nf4 22. Bf1 Nb6 23. Rxe8+ Rxe8 24. Bxb6 cxb6 25. Nb7 Be5 26. Ne4 Rb8 27. Nexd6 Ng6 28. g3 Ne7 29. a4 Nf5 30. Nxf5 Bxf5 31. Re1 f6 32. Rxe5 fxe5 33. Nd6 Bd7 34. axb5 axb5 35. Bxb5 Bxb5 36. Nxb5 Rf8 37. Kd2 Rxf3 38. Ke2 g4 39. Nd6 h5 40. Nc4 b5 41. Nxe5 Rf5 42. Ng6 Kf7 43. Nf4 h4 44. Ng2 hxg3 45. hxg3 Rf3 46. Ne3 Rxg3 47. c4 bxc4 48. d6 Ke6 49. Nxc4 Rf3 50. d7 Rf8 51. Ne3 g3 52. d8=Q Rxd8 53. Kf3 Rd3 54. Kf4 Rb3 55. Ng2 Kd5 56. Nh4 Kc4 57. Kg4 Rd3 58. b4 Rb3 59. b5 Kd5 60. b6 Ke4 61. b7 Rxb7 62. Kxg3 Rg7+ 63. Kf2 Rg4 64. Ng2 Rxg2+ 65. Kxg2 1/2-1/2',
+      id: '4104647',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'C42',
+      t: 'ch-USA 2018',
+      moves:
+        '1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Bd3 d5 6. O-O Be7 7. Re1 Nd6 8. c3 O-O 9. Bc2 c6 10. d4 Bf5 11. Bf4 Bxc2 12. Qxc2 Na6 13. Nbd2 Nc7 14. Re2 Re8 15. Rae1 Bf8 16. Ne5 Qf6 17. Bg3 Qf5 18. Qxf5 Nxf5 19. Nd3 Nxg3 20. hxg3 f6 21. g4 Kf7 22. Nf3 Rxe2 23. Rxe2 Ne6 24. g3 a5 25. Kg2 a4 26. Re1 Re8 27. Rh1 h6 28. Re1 Nc7 29. Rxe8 Kxe8 30. Ng1 b6 31. b3 axb3 32. axb3 g5 33. Ne2 Kd7 34. Kf1 Ke6 35. f3 Nb5 36. Nb2 Bd6 37. Kf2 Bc7 38. Nd1 Nd6 39. Ne3 f5 40. gxf5+ Nxf5 41. Nxf5 Kxf5 42. g4+ Ke6 43. Ke3 b5 44. Kf2 Bd6 45. b4 Bf4 46. Nxf4+ gxf4 1/2-1/2',
+      id: '4113068',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A37',
+      t: '6th Norway Blitz 2018',
+      moves:
+        '1. c4 c5 2. Nf3 Nc6 3. Nc3 g6 4. g3 Bg7 5. Bg2 d6 6. O-O Bf5 7. h3 Qd7 8. Kh2 Nf6 9. d3 h6 10. e4 Be6 11. Be3 g5 12. Ng1 g4 13. h4 O-O 14. Nge2 Qd8 15. Nf4 Bd7 16. Rb1 Kh7 17. Ncd5 Ng8 18. b4 b6 19. Nh5 Be5 20. Bf4 Bh8 21. bxc5 bxc5 22. Be3 Rb8 23. Rxb8 Qxb8 24. Bd2 Qb2 25. Re1 Qxa2 26. Re2 Qa1 27. Bc1 Rb8 28. Re1 Rb1 29. Qd2 Be5 30. Qe3 Qd4 31. Qe2 Qa1 32. Qe3 e6 33. Nc7 Qd4 34. Qe2 Qa1 35. Qe3 Nd4 36. Rf1 Nc2 37. Qd2 Qc3 38. Qd1 Nd4 39. Nb5 Bxb5 40. cxb5 Qc2 41. Qxg4 Rxc1 42. Rxc1 Qxc1 43. f4 Bh8 44. e5 d5 45. Qh3 Qd1 46. g4 Qe2 47. Qg3 Ne7 48. Kh1 Ng6 49. Nf6+ Bxf6 50. exf6 Qd1+ 51. Kh2 Ne2 52. Qf2 Ngxf4 53. Qxc5 Kg6 54. h5+ Kxf6 55. Qxa7 d4 0-1',
+      id: '4117474',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'C65',
+      t: '6th Norway Chess 2018',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. O-O Nd4 6. Nxd4 Bxd4 7. Ba4 c6 8. c3 Bb6 9. Na3 d6 10. Bc2 Be6 11. Qe2 h6 12. Kh1 g5 13. Nc4 Bc7 14. Ne3 d5 15. Re1 Qe7 16. a4 O-O-O 17. Rb1 d4 18. Nf1 Bb6 19. Bd2 Bg4 20. f3 Be6 21. Ng3 Rhg8 22. b4 g4 23. a5 dxc3 24. Bxc3 Bd4 25. Bxd4 Rxd4 26. b5 c5 27. Bb3 h5 28. Nf5 Bxf5 29. exf5 Re8 30. Rbc1 gxf3 31. Qxf3 Red8 32. Bc4 e4 33. dxe4 Qe5 34. Bxf7 Rd3 35. Qf2 R8d4 36. Bd5 Kd7 37. b6 axb6 38. axb6 Ng4 39. Qg1 Kd8 40. h3 Rxh3+ 41. gxh3 Rd3 42. Qg2 Rg3 43. hxg4 Rxg2 44. Kxg2 h4 45. Kf3 Qg3+ 46. Ke2 h3 47. Rg1 Qh4 48. e5 1-0',
+      id: '4118205',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'C84',
+      t: 'GCT Rapid YourNextMove',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a4 Bd7 9. c3 O-O 10. Bc2 Re8 11. Re1 h6 12. Nbd2 b4 13. d4 Rb8 14. d5 bxc3 15. bxc3 Na5 16. Ba3 c6 17. c4 Qc7 18. Bd3 Nb7 19. Nb3 a5 20. Bc1 Bg4 21. Be3 Nd7 22. h3 Bxf3 23. Qxf3 Nbc5 24. Nxc5 Nxc5 25. Bxc5 dxc5 26. Bf1 Rb4 27. Red1 Reb8 28. g3 cxd5 29. exd5 Bd6 30. h4 Qd7 31. Bd3 g6 32. g4 Qe7 33. h5 Qg5 34. hxg6 fxg6 35. Qg2 Rf8 36. Re1 Rb3 37. Re3 Rf4 38. Bf5 Rb2 39. Be6+ Kg7 40. Rf1 Rxc4 41. Qg3 Rbb4 42. Qh2 Rf4 43. Kh1 e4 44. f3 h5 45. Qh3 hxg4 46. Bxg4 Rb8 47. Qg3 Rh8+ 48. Kg2 Rxg4 0-1',
+      id: '4119441',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'D78',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 Nf6 5. O-O O-O 6. c4 c6 7. b3 dxc4 8. bxc4 c5 9. Bb2 cxd4 10. Nxd4 Qb6 11. Qc1 Bd7 12. Nd2 Nc6 13. N2b3 Rac8 14. Rd1 Rfd8 15. Rb1 Qc7 16. Bc3 b6 17. Nb5 Qb8 18. Qa3 a5 19. Qb2 a4 20. Nd2 Bf5 21. Rbc1 Na5 22. Be5 Ne8 23. Bxg7 Nxg7 24. Qb4 Qe5 25. e3 Bg4 26. Re1 Nc6 27. Bxc6 Rxc6 28. Nd4 Rcc8 29. Qxb6 Ne6 30. Nxe6 Rxd2 31. Nd4 Qe4 32. Qb1 Qxb1 33. Rxb1 Rxc4 34. Rb8+ Kg7 35. Re8 Kf6 36. Kg2 e5 37. Nf3 Bxf3+ 38. Kxf3 Rcc2 39. Rf1 Rxa2 40. g4 Rab2 41. Ra8 Ra2 42. h4 a3 43. g5+ Kg7 44. Kg3 Rd5 45. Rc1 Rd7 46. Rc3 h6 47. Raxa3 Rxa3 48. Rxa3 1/2-1/2',
+      id: '4119516',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A00',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. g3 c5 2. Bg2 g6 3. e4 Bg7 4. Ne2 Nc6 5. c3 e5 6. O-O Nge7 7. d3 d5 8. a4 O-O 9. Na3 Be6 10. Qc2 Qd7 11. Rd1 Bh3 12. Be3 Bxg2 13. Kxg2 b6 14. d4 cxd4 15. cxd4 dxe4 16. dxe5 Qf5 17. Nc4 Rad8 18. Nd4 Nxd4 19. Bxd4 Nc6 20. Be3 Nxe5 21. Nxe5 Bxe5 22. a5 bxa5 23. Re1 Rb8 24. Rxa5 Rxb2 25. Qc4 h5 26. Kg1 Rc8 27. Qd5 Re8 28. Qc6 Reb8 29. Bf4 e3 30. Bxe3 h4 31. Bf4 Rb1 32. Rxe5 Qxe5 33. Bxe5 Rxe1+ 34. Kg2 Rxe5 35. Qc7 Reb5 36. Qxa7 hxg3 37. hxg3 Rb2 38. Kh3 Rd8 39. Qe7 Rc8 40. f4 Rb5 41. Kg4 Rh5 42. Qd7 Rb8 43. Qc7 Re8 44. Qd7 Ra8 45. Qc6 Ra3 46. Qe8+ Kg7 47. Qe7 Rd3 48. Qb7 Rhd5 49. Qe7 Rc3 50. Kh4 Rh5+ 51. Kg4 Rd5 52. Kh4 Rc1 53. Kg4 Rg1 54. Qa7 Rgd1 55. Qb7 R1d3 56. Qb2+ Kh7 57. Qb7 Rd7 58. Qb2 Re3 59. Qf6 Re6 60. Qc3 Rd5 61. Qc7 Kg7 62. Kh4 Re3 63. Qb7 Rdd3 64. Qb2+ Kg8 65. Qb8+ Kg7 66. Qb2+ Kg8 67. Qb8+ Kh7 68. Qb7 Kg7 69. Qb2+ f6 70. Qb7+ Kh6 71. Qb6 Rxg3 0-1',
+      id: '4119563',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'A45',
+      t: 'GCT Rapid Paris 2018',
+      moves:
+        '1. d4 Nf6 2. Bf4 c5 3. e3 e6 4. Nd2 d5 5. Ngf3 Nc6 6. c3 Be7 7. h3 Bd6 8. dxc5 Bxc5 9. Bd3 O-O 10. O-O Bd6 11. Bxd6 Qxd6 12. e4 Rd8 13. Bc2 dxe4 14. Nxe4 Qe7 15. Qe2 Bd7 16. Rad1 Be8 17. Nxf6+ Qxf6 18. h4 g6 19. Qe3 h5 20. Ng5 b6 21. Qg3 Rxd1 22. Rxd1 Rd8 23. Re1 Kg7 24. Re3 Kg8 25. Bb3 Kh8 26. Ba4 Qe7 27. Qf3 Rc8 28. g4 hxg4 29. Qxg4 Rd8 30. h5 Rd5 31. Rg3 f6 32. Qxe6 Qxe6 33. Nxe6 Rxh5 34. Nf4 Ra5 35. Nxg6+ Bxg6 36. Bxc6 Kh7 37. a3 Rc5 38. Bb7 Kg7 39. b4 Re5 40. f4 Re7 41. Bd5 f5 42. Kf2 Rc7 43. c4 Kf6 44. Ke3 Re7+ 45. Kd2 Rh7 46. Re3 Bf7 47. Bxf7 Kxf7 48. Rd3 Ke6 49. Kc3 Rh4 50. Rd4 Rh3+ 51. Rd3 Rh4 52. Rd4 Rh3+ 53. Kb2 a5 54. bxa5 bxa5 55. c5 Ke7 56. Rd5 a4 57. Rxf5 Rb3+ 58. Ka2 Rf3 59. Re5+ Kd7 60. Re4 Rf2+ 61. Kb1 Kc6 62. Rc4 Re2 63. Kc1 Rf2 64. Kd1 Kb5 65. Ke1 Rb2 66. c6 Kxc4 67. c7 1-0',
+      id: '4120512',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'A29',
+      t: 'GCT Blitz Paris 2018',
+      moves:
+        '1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Bc5 7. O-O O-O 8. d3 Re8 9. Bd2 Nxc3 10. Bxc3 Nd4 11. Rc1 Bb6 12. Re1 Bg4 13. Bxd4 exd4 14. a3 c6 15. Nd2 a5 16. Bf3 Be6 17. Qa4 Bc7 18. Ne4 Bd5 19. Nc5 Rb8 20. Bxd5 Qxd5 21. Qc4 Red8 22. b4 axb4 23. axb4 Qh5 24. b5 Ba5 25. Rf1 cxb5 26. Qxb5 b6 27. Qa4 Qxe2 28. Na6 Ra8 29. Nc7 Rac8 30. Qb5 Bc3 31. Nd5 Qe6 32. Nf4 Qd6 33. Rb1 Rb8 34. Rfc1 h6 35. Rc2 Rdc8 36. Re2 Qc6 37. Nd5 Kh7 38. Qb3 Re8 39. Rc2 Re5 40. Nxc3 Rc5 41. Qxf7 dxc3 42. d4 Rc4 43. d5 Qg6 44. Qxg6+ Kxg6 45. Rb3 b5 46. Rcxc3 Rxc3 47. Rxc3 b4 48. Rb3 Kf5 49. Kf1 Ke5 50. Ke2 Kxd5 51. Kd3 Kc5 52. Kc2 Rf8 53. f4 Re8 54. Rd3 Kc4 55. Rd7 Re2+ 56. Kb1 Kb3 57. Rd3+ Kc4 58. Rd7 Rxh2 59. Rxg7 Kb3 60. Kc1 Rh1+ 61. Kd2 Kb2 62. f5 Rf1 63. g4 b3 64. Ke2 Rf4 65. Ke3 Rf1 66. Ke2 Rf4 67. Ke3 1/2-1/2',
+      id: '4120592',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C24',
+      t: 'GCT Blitz Paris 2018',
+      moves:
+        '1. e4 e5 2. Bc4 Nf6 3. d3 Nc6 4. Nc3 Bb4 5. Ne2 d5 6. exd5 Nxd5 7. O-O Be6 8. Ne4 Be7 9. Bb3 O-O 10. f4 exf4 11. Nxf4 Nxf4 12. Bxf4 Nd4 13. Bxe6 Nxe6 14. Be5 Qd5 15. Bc3 f5 16. Nd2 Bf6 17. Kh1 Rae8 18. Qf3 Qxf3 19. Nxf3 Bxc3 20. bxc3 g6 21. Rfe1 Kg7 22. Kg1 Nc5 23. Kf2 Kf6 24. Nd4 Ne6 25. a4 Nxd4 26. cxd4 Rxe1 27. Rxe1 Rd8 28. Rb1 b6 29. Ke3 f4+ 30. Ke4 g5 31. a5 Re8+ 32. Kf3 Re3+ 33. Kf2 h5 34. axb6 axb6 35. Ra1 Re7 36. Ra8 Rd7 37. c3 g4 38. Rf8+ Kg5 39. Rg8+ Kf5 40. Rf8+ Kg5 41. Rg8+ 1/2-1/2',
+      id: '4120634',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: 'Saint Louis Rapid 2018',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 O-O 6. Qb3 c5 7. cxd5 Qxd5 8. dxc5 Qxb3 9. axb3 Nc6 10. Nc3 Nd7 11. Bg5 Bxg5 12. Nxg5 Nxc5 13. Bxc6 bxc6 14. b4 Na6 15. b5 cxb5 16. Nxb5 Rb8 17. Nxa7 Rxb2 18. Nxc8 Rxc8 19. O-O 1/2-1/2',
+      id: '4130835',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '0-1',
+      e: 'A06',
+      t: 'Saint Louis Blitz 2018',
+      moves:
+        '1. Nf3 d5 2. b3 Nf6 3. Bb2 Bg4 4. h3 Bh5 5. g4 Bg6 6. d3 Nbd7 7. Bg2 e6 8. Nh4 Bd6 9. Nd2 c6 10. e3 a5 11. a3 e5 12. O-O O-O 13. f4 exf4 14. exf4 h6 15. Qf3 Qc7 16. Rae1 Rae8 17. Rxe8 Rxe8 18. Nxg6 fxg6 19. g5 Nh5 20. gxh6 Bxf4 21. Rf2 Re1+ 22. Bf1 Re3 23. Qd1 Rg3+ 24. Kh1 Be3 25. Qe1 Bxf2 26. Qxf2 Rg5 27. Nf3 Qf4 28. Bg2 Ne5 29. Qd4 Ng3+ 30. Kh2 Nxf3+ 31. Bxf3 Nf1+ 0-1',
+      id: '4130839',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E46',
+      t: 'Saint Louis Blitz 2018',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Ne2 Re8 6. a3 Bf8 7. d5 d6 8. g3 exd5 9. cxd5 c5 10. Bg2 Nbd7 11. O-O c4 12. Nd4 Nc5 13. Qe2 Nd3 14. b3 Nxc1 15. Rfxc1 cxb3 16. Rab1 Nd7 17. Nxb3 b6 18. Nd4 Nc5 19. Nc6 Qf6 20. Nb5 Ba6 21. h4 g6 22. Qc2 Bxb5 23. Rxb5 h5 24. a4 Bg7 25. a5 bxa5 26. Rxa5 a6 27. Rb1 Qc3 28. Qxc3 Bxc3 29. Ra3 Bf6 30. Bf1 Ne4 31. Rb7 a5 32. Nxa5 Bc3 33. Nc4 Rxa3 34. Nxa3 Ra8 35. Nc4 Ra2 36. Bd3 Nxf2 37. Bb1 Ra4 38. Nxd6 Ng4 39. Nxf7 Ne5 40. Nxe5 Bxe5 41. Bxg6 Bxg3 42. Kg2 Be5 43. Bxh5 Rxh4 44. Bf7+ Kg7 45. Be6+ Kf6 46. Rf7+ Kg6 47. Kf3 Bd6 48. Rd7 Bc5 49. Rc7 Bb4 50. Bg4 Kf6 51. e4 Bd6 52. Rd7 Ke5 53. Rd8 Rh7 54. Bf5 Ra7 55. Kg4 Rg7+ 56. Kh5 Rg1 57. Re8+ Kd4 58. Re6 Kc5 59. Kh6 Bf4+ 60. Kh7 Bd6 61. Bg6 Rg5 62. Kg7 Rg1 63. Kf7 Rf1+ 64. Bf5 Ra1 65. Re8 Kd4 66. Rc8 Ra6 67. Rc2 Ke5 68. Rc8 Ra7+ 69. Kg6 Ra6 70. Re8+ Kd4 71. Re6 Kc5 72. e5 Kxd5 73. Bg4 Rb6 74. exd6 Rxd6 1/2-1/2',
+      id: '4130884',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'C42',
+      t: '6th Sinquefield Cup 2018',
+      moves:
+        '1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nd3 Nxe4 5. Qe2 Qe7 6. Nc3 Nf6 7. b3 Nc6 8. Bb2 Bf5 9. Nf4 O-O-O 10. Qxe7 Nxe7 11. O-O-O Ng6 12. Bd3 Bd7 13. Nxg6 hxg6 14. Ne4 Nxe4 15. Bxe4 g5 16. h3 c6 17. c4 Be6 18. Bf3 d5 19. d3 f6 20. Rhe1 Bf7 21. cxd5 Bxd5 22. Bxd5 Rxd5 23. Re8+ Rd8 24. Rxd8+ Kxd8 25. Re1 Bc5 26. f3 Re8 27. Re4 Kd7 28. Kc2 Bd6 29. a4 a6 30. Bc3 b5 31. Bb2 Re6 32. Bc3 Re8 33. Bb2 Re6 34. Bc3 Re8 35. Bb2 Re6 1/2-1/2',
+      id: '4132960',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'E04',
+      t: 'Sinquefield GCT TB 2018',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 dxc4 5. Bg2 Nc6 6. Qa4 Bb4+ 7. Bd2 Nd5 8. Bxb4 Nxb4 9. O-O Rb8 10. Na3 O-O 11. Qb5 b6 12. Qxc4 Ba6 13. Nb5 Qe8 14. Rfc1 Nd5 15. Qxc6 Qxc6 16. Rxc6 Bxb5 17. Rc2 Rfc8 18. Rac1 c5 19. dxc5 Nb4 20. Rd2 Nxa2 21. Ra1 Nb4 22. Rxa7 Nc6 23. Ra1 bxc5 24. e3 h6 25. Bf1 Bxf1 26. Kxf1 Rb5 27. Rc1 Kf8 28. Rdc2 Nb4 29. Nd4 Nxc2 30. Nxb5 Rb8 31. Na3 Nxa3 32. bxa3 Rb3 33. Rxc5 Rxa3 1/2-1/2',
+      id: '4132965',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'E20',
+      t: 'Sinquefield GCT TB 2018',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. g3 O-O 5. Bg2 d5 6. Nf3 dxc4 7. O-O Nc6 8. Qa4 Nd5 9. Qc2 Be7 10. Rd1 Bd7 11. e4 Ncb4 12. Qd2 Nb6 13. Ne5 Nc6 14. Nxc6 Bxc6 15. Qc2 f5 16. a4 fxe4 17. Bxe4 Bxe4 18. Qxe4 Qd7 19. d5 exd5 20. Nxd5 Nxd5 21. Rxd5 Qc6 22. Rd4 Bc5 23. Qxc6 bxc6 24. Rxc4 Bxf2+ 25. Kg2 c5 26. Ra2 Bd4 27. b4 Rad8 28. bxc5 c6 29. Bf4 Rfe8 30. Rd2 Bf6 31. Rd6 Rc8 32. h4 h5 33. Kf3 Re1 34. Re4 Ra1 35. Rd7 Ra3+ 36. Kg2 a5 37. Bd6 Kh7 38. Ra7 Bc3 39. Kh3 Ra2 40. Rc4 Bb4 41. Rf4 Bc3 42. Re7 Rd8 43. Re6 Rd7 44. Rf5 g6 45. Rf3 Bd4 46. Re4 Bg7 47. Rfe3 Rb7 48. Re2 Rxe2 49. Rxe2 Bd4 50. Re4 Rb4 51. Rf4 Bg1 52. Rf1 Bd4 53. Rf7+ Kg8 54. Rc7 Rxa4 55. Rxc6 Kf7 56. Ra6 Ke6 57. Bf4+ Kd5 58. c6 Rc4 59. c7 a4 60. Ra8 Bb2 61. c8=Q Rxc8 62. Rxc8 1-0',
+      id: '4132966',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'ch-USA 2017',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. h3 Ke8 10. Nc3 h5 11. Bg5 Be6 12. Rad1 Be7 13. b3 h4 14. Rfe1 a5 15. Rd3 Rd8 16. Rxd8+ Kxd8 17. Ne2 Bd5 18. Bxe7+ Kxe7 19. Ned4 Nxd4 20. Nxd4 Be6 21. c4 a4 22. c5 axb3 23. axb3 g6 24. Re4 Bd5 25. Rg4 Rh5 26. f4 Rh8 27. f5 gxf5 28. Rf4 Kd7 29. Rxf5 Rg8 30. Rf2 Rg5 31. Kh2 Rxe5 32. Rf4 Rg5 33. Rg4 Rxg4 34. hxg4 Ke7 35. g3 Kf6 36. gxh4 Ke5 37. Nf5 Bxb3 38. h5 Kf6 39. Kg3 Kg5 40. h6 Kg6 41. g5 Bc2 42. Nd4 Bb1 43. Kf4 f6 44. gxf6 Kxf6 45. Nb3 b6 46. Nd4 bxc5 47. Nxc6 Kg6 48. Ke5 Kxh6 49. Kd5 c4 1/2-1/2',
+      id: '4042486',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A13',
+      t: '5th Norway Blitz 2017',
+      moves:
+        '1. Nf3 d5 2. c4 e6 3. Qb3 Nf6 4. g3 Be7 5. Bg2 O-O 6. O-O d4 7. d3 Nc6 8. Bf4 Nd7 9. Na3 e5 10. Bd2 Re8 11. Qc2 a5 12. Nb5 Nb4 13. Qd1 c6 14. Na3 Bf8 15. Nc2 Nxc2 16. Qxc2 Nc5 17. a3 a4 18. Bb4 Nb3 19. Rae1 Bxb4 20. axb4 Qb6 21. e3 Bg4 22. Nd2 Qxb4 23. Nxb3 axb3 24. Qc1 Bf5 25. Qd1 Rad8 26. e4 Bd7 27. f4 b5 28. cxb5 Qxb5 29. Rf2 c5 30. Bf1 f6 31. Qh5 Ra8 32. Rc1 Kh8 33. g4 exf4 34. Rxc5 Qb4 35. Rc7 Qd6 36. Rb7 Reb8 37. Rxb8+ Rxb8 38. g5 Qe5 39. h4 f5 40. Qf3 fxe4 41. dxe4 Rf8 42. Bc4 Bc6 43. Re2 Qc5 44. Bd3 Bb5 45. e5 Bxd3 46. Qxd3 f3 47. Rf2 Qc1+ 48. Qf1 Qf4 49. Qh3 d3 50. Qd7 Qxe5 51. Qxd3 Qg3+ 52. Kf1 Qxh4 53. Rxf3 Qh3+ 54. Kf2 Qxf3+ 55. Qxf3 Rxf3+ 56. Kxf3 Kg8 57. Ke4 Kf7 58. Kf5 Ke7 59. Ke5 h6 60. gxh6 gxh6 61. Kf5 Kd6 0-1',
+      id: '4051992',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'D27',
+      t: '5th Norway Chess 2017',
+      moves:
+        '1. d4 d5 2. c4 dxc4 3. e3 Nf6 4. Bxc4 e6 5. Nf3 c5 6. O-O a6 7. dxc5 Bxc5 8. Qxd8+ Kxd8 9. Be2 Ke7 10. Ne5 Nbd7 11. Nd3 Bd6 12. Nd2 b5 13. Nb3 Bb7 14. Na5 Bd5 15. Bd2 Rhc8 16. Rfc1 Ne5 17. Nb4 Nc4 18. Nxc4 bxc4 19. Nxd5+ exd5 20. Bc3 Rab8 21. Rc2 Bb4 22. Be5 Bd6 23. Bd4 Bc5 24. Bxf6+ Kxf6 25. Rd1 Rd8 26. Rcd2 Be7 27. Bf3 d4 28. exd4 Rb4 29. Rc2 Rdb8 30. Rdd2 Kg6 31. a3 R4b6 32. g3 Bg5 33. Re2 Bf6 34. Be4+ Kh6 35. Red2 Re8 36. Bd5 Rxb2 37. Bxf7 c3 38. Rxb2 Rd8 39. Rdc2 cxb2 40. Rxb2 Bxd4 41. Rb4 g6 42. Ra4 Rd6 43. Kf1 Bb2 44. Ra5 Rc6 45. a4 Kg7 46. Bd5 Rc1+ 47. Kg2 Rc2 48. Be4 Rd2 49. Rxa6 Bd4 50. Rd6 Rxf2+ 51. Kh3 Be3 52. a5 Ra2 53. a6 Bg1 54. Kg4 Ra3 55. Rd1 Bc5 56. Rd7+ Kf6 57. Bd3 Bg1 58. h3 Ke6 59. Bb5 h5+ 60. Kf4 h4 61. gxh4 Rxa6 62. Rg7 Kf6 63. Rxg6+ Kxg6 64. h5+ Kxh5 65. Be2+ Kh4 66. Bxa6 Kxh3 1/2-1/2',
+      id: '4053572',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'D73',
+      t: 'GCT Rapid Paris 2017',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 Nf6 5. c4 c6 6. cxd5 cxd5 7. Nc3 Ne4 8. Qb3 Nxc3 9. bxc3 O-O 10. Nd2 e6 11. e4 Nc6 12. e5 b6 13. O-O Ba6 14. Re1 Rc8 15. Qd1 Re8 16. a4 Na5 17. Re3 Qd7 18. h4 Nc4 19. Nxc4 Bxc4 20. h5 a5 21. Ba3 b5 22. Bd6 bxa4 23. Bf1 Bxf1 24. Kxf1 Rc4 25. Kg2 Bh6 26. Rf3 Rec8 27. Qd3 Bg5 28. Rh1 Kg7 29. g4 Qb7 30. hxg6 fxg6 31. Rf6 Bxf6 32. exf6+ Kg8 33. Be7 R4c7 34. Bd6 Rxc3 35. Qe2 Qf7 36. g5 h5 37. Qb5 e5 38. Bxe5 Qe6 39. Rh4 Qf5 40. Qxd5+ Kh8 41. f7+ Kh7 42. Qb7 Qxg5+ 43. Bg3 Rxg3+ 44. fxg3 Rc2+ 45. Kf3 Qf5+ 46. Ke3 Rc3+ 47. Ke2 Qd3+ 48. Ke1 Rc1+ 49. Kf2 Rc2+ 0-1',
+      id: '4054253',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '0-1',
+      e: 'A06',
+      t: 'GCT Blitz Paris 2017',
+      moves:
+        '1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 Bd6 5. Bb2 O-O 6. Nc3 b6 7. Qc2 c6 8. Be2 Bb7 9. cxd5 exd5 10. O-O Nbd7 11. Rac1 Re8 12. Rfd1 Nc5 13. d3 Rc8 14. b4 Ne6 15. Qb3 Qe7 16. a3 c5 17. bxc5 bxc5 18. Nb5 Bb8 19. Bxf6 gxf6 20. Rb1 Bc6 21. d4 c4 22. Qc2 Nf4 23. Bf1 Ng6 24. a4 Qd7 25. Nc3 h5 26. g3 h4 27. Bg2 hxg3 28. hxg3 Kg7 29. Nd2 Qg4 30. Nf1 Qg5 31. e4 dxe4 32. d5 Bd7 33. Nxe4 Qe5 34. Ne3 f5 35. Rxb8 Qxb8 36. Ng5 Qb3 37. Qd2 c3 38. Qd4+ f6 39. Ne6+ Bxe6 40. dxe6 Qxe6 41. Bh3 Ne7 42. Re1 Kg8 43. Kh2 Qe5 44. Qd7 Red8 45. Qxa7 Rc7 46. Qb6 Qc5 47. Qe6+ Kg7 48. Bxf5 Qe5 49. Qb6 Rh8+ 50. Kg1 Qc5 51. Qb1 Nd5 52. Qe4 Nxe3 53. Rxe3 c2 54. Qg4+ Kf8 55. Bxc2 Qxc2 56. Qb4+ Kf7 57. Kg2 Qc6+ 58. Rf3 Rh2+ 59. Kxh2 Qxf3 0-1',
+      id: '4054321',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A18',
+      t: 'GCT Blitz Paris 2017',
+      moves:
+        '1. c4 e6 2. Nc3 Nf6 3. e4 d5 4. cxd5 exd5 5. e5 Ne4 6. Nf3 Bf5 7. Be2 Be7 8. O-O Nc6 9. d3 Nxc3 10. bxc3 O-O 11. d4 Qd7 12. Bd3 Na5 13. Re1 Nc4 14. Rb1 Bxd3 15. Qxd3 b5 16. Nd2 Rab8 17. Nb3 Rb6 18. Bf4 Qg4 19. Bg3 Qg6 20. Qf3 a5 21. Rbd1 Qc2 22. Qxd5 Qxa2 23. Nc5 Rd8 24. Nd7 c6 25. Qe4 Ra6 26. e6 f6 27. d5 cxd5 28. Qxd5 Qb3 29. Qb7 Rxe6 30. Qd5 Nd2 31. Qxb3 Nxb3 32. Rxe6 Kf7 33. Ree1 a4 34. Bc7 Rc8 35. Bd6 Bxd6 36. Rxd6 Rxc3 37. Nb6 a3 38. Nd5 Rc4 39. Ra6 b4 40. Ra4 Nc1 41. Rxb4 a2 42. Rb7+ Kg6 43. Ra7 Rc2 44. Nb4 Rb2 45. Rxc1 1-0',
+      id: '4054366',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'D27',
+      t: '5th Sinquefield Cup 2017',
+      moves:
+        '1. d4 d5 2. Nf3 Nf6 3. c4 dxc4 4. e3 e6 5. Bxc4 c5 6. O-O a6 7. dxc5 Bxc5 8. Qxd8+ Kxd8 9. Be2 Ke7 10. Nbd2 Nc6 11. b3 Rd8 12. Bb2 b6 13. a3 a5 14. Rfc1 Bb7 15. Bxf6+ gxf6 16. Ne4 Bd6 17. Nxd6 Rxd6 18. Kf1 Rad8 19. g3 f5 20. Ke1 Kf6 21. Rd1 Rxd1+ 22. Rxd1 Rxd1+ 23. Kxd1 Ne5 24. Nxe5 Kxe5 25. Kd2 Kd6 26. Kc3 Bc6 27. b4 axb4+ 28. Kxb4 h6 29. Bb5 Bf3 30. Be8 Ke7 31. Ba4 Kd6 32. Be8 Ke7 33. Ba4 1/2-1/2',
+      id: '4062752',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C77',
+      t: '9th London Classic 2017',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 Bc5 6. c3 b5 7. Bb3 d6 8. Nbd2 O-O 9. Nf1 d5 10. exd5 Nxd5 11. Ng3 f6 12. O-O Be6 13. Ne4 Be7 14. d4 exd4 15. Nxd4 Nxd4 16. Qxd4 Bf7 17. Re1 Re8 18. Be3 c6 19. Ng3 Bf8 20. Bd2 Qd7 21. Bc2 c5 22. Qh4 Bg6 23. Bxg6 hxg6 24. Rad1 Rxe1+ 25. Rxe1 Re8 26. Rxe8 Qxe8 27. Qg4 Kf7 28. Qf3 Qd7 29. Ne4 Qf5 30. Qe2 c4 1/2-1/2',
+      id: '4084170',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'C50',
+      t: '78th Tata Steel GpA',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 d6 6. c3 a6 7. Re1 Ba7 8. a4 Be6 9. Bxe6 fxe6 10. Qb3 Qc8 11. Be3 Bxe3 12. Rxe3 O-O 13. Nbd2 Na5 14. Qa2 c5 15. d4 c4 16. b4 cxb3 17. Nxb3 Nc4 18. Ree1 Qc6 19. Nc5 dxc5 20. Qxc4 exd4 21. cxd4 Nd7 22. a5 Rac8 23. d5 exd5 24. exd5 Qd6 25. Re6 Qf4 26. Re4 Qd6 27. Rb1 Rb8 28. Re6 Qf4 29. Qe2 c4 30. Re4 Qf5 31. Qxc4 b5 32. axb6 Nxb6 33. Qe2 Nxd5 34. Rxb8 Rxb8 35. Re8+ Rxe8 36. Qxe8+ Qf8 37. Qe6+ Qf7 38. Qxa6 h6 39. Qc8+ Kh7 40. h4 Qg6 41. Qb8 Qe4 42. Qb7 Qf5 43. Qb5 Qe4 44. Nd2 Qe1+ 45. Nf1 Nf6 46. Qd3+ Kg8 47. g3 Kf7 48. Kg2 Qe4+ 49. Qxe4 Nxe4 50. Ne3 h5 51. Kf3 Nc5 52. Nd5 g6 53. Nf4 Kf6 54. Ke3 Kf5 55. f3 Nd7 56. Nd3 Nf8 57. Nc5 Ke5 58. g4 hxg4 59. fxg4 Nh7 60. Nd3+ Ke6 61. Kf4 Nf6 62. Kg5 Kf7 63. Nf4 Kg7 64. Ne6+ Kf7 65. Nc5 Kg7 66. Kf4 Nd5+ 67. Ke5 Ne3 68. Kf4 Nd5+ 69. Ke4 Nf6+ 70. Kf3 Nd5 71. Nd3 Kf6 72. Nf2 Ke6 73. Ke4 Nf6+ 74. Kf4 Kf7 75. Ke5 Ke7 76. g5 Nd7+ 77. Kf4 Ke6 78. Ng4 Nb6 79. Nf6 Nc4 80. Ke4 1/2-1/2',
+      id: '3976712',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'A35',
+      t: 'ch-USA 2016',
+      moves:
+        '1. c4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. e3 e6 5. d4 d5 6. a3 a6 7. dxc5 Bxc5 8. b4 Bd6  9. Bb2 O-O 10. cxd5 exd5 11. Be2 Be6 12. O-O Qe7 13. Rc1 a5 14. Nb5 axb4 15.  Nxd6 Qxd6 16. axb4 Qxb4 17. Bxf6 gxf6 18. Rb1 Qe7 19. Rb5 Rfd8 20. Nd4 Kg7 21.  Re1 Nxd4 22. Qxd4 Bf5 23. Rxd5 Rxd5 24. Qxd5 Be4 25. Qd1 Qb4 26. Rf1 Ra2 27. Qd7  Bg6 28. Bf3 b5 29. h4 Rd2 30. Qh3 h5 31. Qg3 Qd6 32. Qxd6 Rxd6 33. Rd1 Rb6 34.  e4 b4 35. Rd2 f5 36. exf5 Bxf5 37. Bxh5 b3 38. Rb2 Bc2 39. Bf3 Rb5 40. Be2 Rb4  41. Bf3 Rxh4 42. Bd5 Rb4 43. Kf1 f5 44. Ke2 Kf6 45. f4 Ke7 46. Bg8 Kf8 47. Bd5  Kg7 48. Ke3 Kg6 49. Bf3 Kf6 50. Bd5 Kg6 51. Bf3 Rc4 52. g4 Rc3+ 53. Kf2 Bd3 54.  Bd1 Bc4 55. Ke1 Rg3 56. Kf2 Rh3 57. Ke1 Be6 58. Re2 Bc4 59. Rb2 Kf6 60. Kd2 Rd3+  61. Kc1 Rc3+ 62. Kd2 Rg3 63. gxf5 Kxf5 64. Kc1 Kxf4 65. Rh2 Ke3 66. Kb2 Kd4 67.  Rh4+ Kc5 68. Ka3 Bd5 69. Rh5 Kd4 70. Rxd5+ Kxd5 71. Bxb3+ Kd4 72. Kb2 Rg2+ 73.  Ka1 Kc3 74. Ba2 Rg7 75. Bb1 Rb7 76. Ba2 Kc2 77. Bd5 Re7 78. Bg8 Re1+ 79. Ka2 Rh1  80. Bd5 Rh4 81. Bb3+ Kc3 82. Be6 Rf4 83. Bg8 Rf2+ 84. Kb1 Rb2+ 85. Ka1 Kc2 86.  Bh7+ Kc1 87. Bg8 Rb1+ 88. Ka2 Rb8 89. Bf7 Rb2+ 90. Ka1 Rb7 91. Bd5 Ra7+ 92. Ba2  Kc2 1/2-1/2',
+      id: '3988887',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'E32',
+      t: 'Opera Euro Rapid Prelim',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. e4 d5 6. e5 Ne4 7. Bd3 c5 8. Nf3 cxd4 9. Nxd4 Nd7 10. Bf4 Qh4 11. g3 Qh5 12. O-O g5 13. cxd5 Bxc3 14. bxc3 exd5 15. Bxe4 dxe4 16. e6 gxf4 17. exd7 Bxd7 18. Qxe4 fxg3 19. fxg3 b6 20. Nf5 Rae8 21. Qd5 Bxf5 22. Rxf5 Qe2 23. Raf1 Qe3+ 24. R1f2 Qe1+ 25. Rf1 Qe3+ 26. R1f2 Qe1+ 27. Rf1 Qe3+ 1/2-1/2',
+      id: '4279156',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: 'Lindores Abbey Rapid Challenge',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Ne5 Nc6 8. Bxc6  bxc6 9. Nxc6 Qe8 10. Nxe7+ Qxe7 11. Qa4 e5 12. dxe5 Qxe5 13. Nc3 Ne4 14. Qxc4  Nxc3 15. bxc3 Be6 16. Bf4 Bxc4 17. Bxe5 Rfe8 18. Bxc7 Rxe2 19. a4 Rc8 20. Bf4 f6  21. Rfe1 Rxe1+ 22. Rxe1 Bb3 23. a5 Kf7 24. h4 Rxc3 25. Rc1 Rxc1+ 26. Bxc1 a6 27.  Be3 h5 28. Bb6 g6 29. Be3 f5 30. f4 Bc4 31. Bb6 Bb5 32. Kf2 Ba4 33. Ke3 Bb5 34.  Kf2 Ba4 35. Ke3 Bb5 36. Kf2 1/2-1/2',
+      id: '4261224',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C42',
+      t: 'Saint Louis Rapid 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nf6 3. d3 Nc6 4. g3 d5 5. exd5 Nxd5 6. Bg2 Bc5 7. O-O O-O 8. Re1 Re8 9. Nc3 Nxc3 10. bxc3 Bb6 11. Be3 Ba5 12. Bd2 Bb6 13. Rb1 Bf5 14. Be3 Qd7 15. Nd2 Rad8 16. Rb5 Bh3 17. Bh1 f6 18. a4 Be6 19. Qa1 Bxe3 20. fxe3 b6 21. Rf1 Ne7 1/2-1/2',
+      id: '4270296',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Saint Louis Blitz 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 Be6 7. O-O Bd6 8. d4 Nd7 9. dxe5 Nxe5 10. Nxe5 Bxe5 11. f4 Bd4+ 12. Kh1 f5 13. Qh5+ g6 14. Qe2 O-O 15. Nf3 Bf6 16. e5 Be7 17. Be3 c5 18. c4 Qe8 19. Bf2 Rd8 20. b3 Qc6 21. Qe1 Qe4 22. Bh4 Qxe1 23. Rfxe1 Bxh4 24. Nxh4 Rd4 25. g3 Bd7 26. Kg1 Bc6 27. Kf2 Rfd8 28. Re2 Kf7 1/2-1/2',
+      id: '4270367',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'Saint Louis Blitz 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. dxe5 Nxb5 7. a4 Nbd4 8. Nxd4 Nxd4 9. Qxd4 d5 10. exd6 Qxd6 11. Qe4+ Qe6 12. Qd4 Qd6 13. Qe4+ Qe6 14. Qd4 Qd6 1/2-1/2',
+      id: '4270386',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'E32',
+      t: 'ch-USA 2020',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. e4 d5 6. e5 Ne4 7. Bd3 c5 8. Nf3 cxd4 9. Nxd4 Nd7 10. Bf4 Qh4 11. g3 Qh5 12. O-O g5 13. cxd5 Bxc3 14. bxc3 exd5 15. Bxe4 dxe4 16. e6 gxf4 17. exd7 Bxd7 18. Qxe4 fxg3 19. fxg3 b6 20. Nf5 Rae8 21. Qd5 Bxf5 22. Rxf5 Qe2 23. Raf1 Qe3+ 24. R1f2 Qe1+ 25. Kg2 Qe4+ 26. Qxe4 Rxe4 27. Rg5+ Kh8 28. Rgf5 Kg8 29. Rg5+ Kh8 30. Rgf5 Kg8 1/2-1/2',
+      id: '4273921',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8. Rxe5 O-O 9. Nc3 Ne8 10. Nd5 Bd6 11. Re1 c6 12. Ne3 Be7 13. c4 Nc7 14. d4 d5 15. cxd5 Bb4 16. Bd2 Bxd2 17. Qxd2 Nxd5 18. Nxd5 Qxd5 19. Re5 Qd6 20. Bc4 b5 21. Bb3 a5 22. a3 a4 23. Ba2 Bd7 24. Rae1 Rae8 25. Qc3 Rxe5 26. dxe5 Qe7 27. Rd1 Bf5 28. Rd6 Rd8 29. Qd2 Rxd6 30. exd6 Qf6 31. h3 g6 32. f4 Bd7 33. Bb1 c5 34. Be4 b4 35. Bd5 Kf8 36. Bc4 h5 37. Kh2 h4 38. g3 hxg3+ 39. Kxg3 Qf5 40. Bf1 g5 41. Qe3 1/2-1/2',
+      id: '4274619',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C24',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 e5 2. Bc4 Nf6 3. d3 Nc6 4. Nc3 Bb4 5. Nf3 d6 6. h3 Na5 7. Bb3 O-O 8. O-O c6 9. Ne2 Nxb3 10. axb3 Ba5 11. Ng3 h6 12. Nh4 Bc7 13. Nhf5 d5 14. Qf3 Kh7 15. Nh5 g6 16. Nxf6+ Qxf6 17. Nd4 Qd6 18. Ne2 f5 19. exf5 Bxf5 20. Ng3 e4 21. dxe4 Bxe4 22. Qe3 h5 23. c4 Kg8 24. c5 Qe5 25. f4 Qe7 26. Nxe4 dxe4 27. Ra4 Rf5 28. Rxe4 Qxc5 29. Qxc5 Rxc5 30. Re7 Bb6 31. Be3 Rb5 32. Bxb6 Rxb6 33. f5 Rf8 34. f6 Rf7 35. Re8+ Rf8 36. Re7 Rf7 37. Re8+ Rf8 38. Re7 1/2-1/2',
+      id: '4275346',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'C53',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. O-O h6 7. Re1 O-O 8. Nbd2 a5 9. Nf1 Be6 10. Bb5 Bb6 11. Ng3 Nh7 12. h3 Ng5 13. Nxg5 hxg5 14. d4 exd4 15. Bxc6 bxc6 16. cxd4 c5 17. d5 Bd7 18. a4 Re8 19. Bd2 c4 20. Qf3 Rb8 21. Bc3 Bc5 22. Re2 f6 23. Nf5 Bb4 24. Bd4 Bc5 25. Bc3 Bb4 26. Ne3 Bc8 27. Bd4 Ba6 28. Nf5 Bc8 29. Ne3 Ba6 30. Nf5 Bc8 31. Rc1 Qd7 32. Rec2 Ba6 33. h4 gxh4 34. Qg4 Kf8 35. Bxf6 gxf6 36. Qxh4 Kg8 37. Re2 Re5 38. Re3 Rxf5 39. Rh3 Rg5 40. Qh8+ Kf7 41. Rh7+ 1-0',
+      id: '4275348',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D41',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 cxd4 6. Qa4+ Bd7 7. Qxd4 exd5 8. e3 Nc6 9. Qd1 Bb4 10. Be2 Ne4 11. Bd2 Bxc3 12. Bxc3 Nxc3 13. bxc3 Be6 14. Rb1 Qc7 15. O-O O-O 16. Ng5 Rad8 17. Qc2 g6 18. Nxe6 fxe6 19. c4 Ne5 20. c5 b6 21. Rbc1 bxc5 22. Qxc5 Qxc5 23. Rxc5 Rc8 24. Ra5 Rc2 25. Bd1 Rc7 26. Ra6 Kf7 27. Bb3 Nd3 28. h4 Nc5 29. Ra5 Nxb3 30. axb3 Rb8 31. Rfa1 Rxb3 32. Rxa7 Rc3 33. Kh2 h5 34. Ra8 Rc1 35. R1a4 R1c4 36. g3 Rxa4 37. Rxa4 Rc4 38. Ra7+ Kf6 39. Ra8 d4 40. exd4 Rxd4 41. Rf8+ Kg7 42. Ra8 Kf6 43. Rf8+ Kg7 44. Ra8 Kf6 1/2-1/2',
+      id: '4275350',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'A81',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. Nf3 Bg7 5. O-O O-O 6. b3 Nc6 7. Bb2 Ne4 8. Nbd2 e6 9. c4 g5 10. Nxe4 fxe4 11. Ne5 d5 12. Nxc6 bxc6 13. Qc2 Ba6 14. Rac1 g4 15. e3 Rf6 16. Ba3 h5 17. Rfd1 Bh6 18. Qd2 Bc8 19. Qb4 Bf8 20. Qa5 Bxa3 21. Qxa3 Bd7 22. Rc2 h4 23. Rdc1 Rh6 24. Qa5 Kg7 25. b4 a6 26. a4 Rb8 27. b5 axb5 28. axb5 Ra8 29. Qb4 hxg3 30. hxg3 Rb8 31. Qa5 Ra8 32. Qb4 Be8 33. bxc6 Rb8 34. Qa5 Bf7 35. cxd5 exd5 36. Rc5 Ra8 37. Qb4 Ra6 38. Ra5 Raxc6 39. Rac5 Rb6 40. Rb5 Rxb5 41. Qxb5 Rb6 42. Qc5 c6 43. Bf1 Be6 1/2-1/2',
+      id: '4275352',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'C70',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 g6 5. c3 Bg7 6. O-O Nge7 7. d4 exd4 8. cxd4 b5 9. Bc2 d5 10. exd5 Nxd5 11. Re1+ Be6 12. Bg5 Qd7 13. Nbd2 O-O 14. Nb3 Bg4 15. h3 Be6 16. Nc5 Qd6 17. Nxe6 fxe6 18. Re4 Rae8 19. h4 Nf6 20. Bxf6 Bxf6 21. h5 gxh5 22. Qd3 Rf7 23. a3 Kh8 24. Qe3 Qf8 25. d5 Nd8 26. dxe6 Rfe7 27. Bb3 Bxb2 28. Rd1 Nb7 29. Ng5 Nd6 30. Rxd6 cxd6 31. Nf7+ Rxf7 32. exf7 Rxe4 33. Qxe4 Bf6 34. Qf5 Kg7 35. Qxh5 Qc8 36. g3 h6 37. Qd5 Qd8 38. Qb7 Be7 39. Bd5 a5 40. Qxb5 Bf8 41. a4 Qc7 42. Qb2+ Kg6 43. Qb1+ Kg7 44. Qb2+ Kg6 45. Qh8 Qe7 46. Qc3 Qd8 47. Kg2 h5 48. Qd3+ Kh6 49. Qd2+ Kg6 50. Qe2 Qg5 51. Qb5 Kh6 52. Qxa5 h4 53. Qa8 Kg7 54. Qc6 Qe5 55. gxh4 Be7 56. Qc4 Bxh4 57. Qg4+ Bg5 58. Qf3 Bf4 59. a5 Qf5 60. Qe4 Qg4+ 61. Kf1 Qd1+ 62. Kg2 Qg4+ 63. Kf1 Qd1+ 64. Kg2 Qg4+ 1/2-1/2',
+      id: '4275354',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C24',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 e5 2. Bc4 Nf6 3. d3 Nc6 4. Nc3 Na5 5. Nge2 c6 6. Bb3 d6 7. O-O Be7 8. f4 O-O 9. h3 exf4 10. Nxf4 d5 11. exd5 Nxb3 12. axb3 cxd5 13. Qf3 Be6 14. Nce2 Qc7 15. Nd4 Bd7 16. Nfe2 a5 17. c3 Rfe8 18. Kh1 Ra6 19. Bf4 Bd6 20. Rf2 b5 21. g4 Bxf4 22. Nxf4 Re5 23. Rg1 h6 24. h4 Qc8 25. Rfg2 g5 26. hxg5 Rxg5 27. Nh5 Nxg4 28. Nf4 Rf6 29. Rf1 b4 30. cxb4 axb4 31. Qg3 Qc7 32. Nde2 Qe5 33. d4 Qe4 34. Rf3 Kh7 35. Kg1 Bb5 36. Kh1 Bd7 37. Kg1 Bb5 38. Kh1 Bxe2 39. Rxe2 Qb1+ 40. Re1 Qxb2 41. Nh3 Rgg6 42. Nf4 Ne5 43. Nxg6 Nxf3 44. Nf8+ Kh8 45. Nd7 Re6 46. Rxe6 fxe6 47. Qxf3 Qxd4 48. Qf8+ Kh7 49. Qf7+ Kh8 50. Qe8+ Kg7 51. Qe7+ Kh8 52. Qxe6 Qd1+ 53. Kg2 Qxb3 54. Qf6+ Kh7 55. Qe7+ Kg6 56. Qe6+ Kg5 57. Qe5+ Kg6 58. Qf6+ Kh5 59. Qf5+ Kh4 60. Qf2+ Kh5 61. Qe2+ Kh4 62. Qe7+ Kh5 63. Qe5+ Kg6 64. Qe2 Qc3 65. Qe6+ Kg7 66. Qe7+ Kg6 67. Qe6+ Kg7 68. Qe7+ Kg6 69. Nf8+ Kf5 70. Qe6+ Kf4 71. Qxh6+ 1/2-1/2',
+      id: '4275356',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'E32',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. e4 d5 6. e5 Ne4 7. Bd3 c5 8. Nf3 cxd4 9. Nxd4 Nd7 10. Bf4 Qh4 11. g3 Qh5 12. O-O g5 13. cxd5 Bxc3 14. bxc3 exd5 15. e6 gxf4 16. exd7 Bxd7 17. Bxe4 dxe4 18. Qxe4 fxg3 19. fxg3 b6 20. Nf5 Rae8 21. Qd5 Bxf5 22. Rxf5 Qe2 23. Raf1 Qe3+ 24. R1f2 Qe1+ 25. Rf1 Qe3+ 26. R1f2 Qe1+ 27. Rf1 Qe3+ 1/2-1/2',
+      id: '4275358',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A07',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. O-O e5 5. d3 Ne7 6. c4 dxc4 7. dxc4 O-O 8. Nc3 Nbc6 9. Rb1 Nd4 10. b3 Bg4 11. Nd2 c6 12. h3 Bf5 13. Nde4 Qc7 14. e3 Ne6 15. b4 a5 16. a3 Rad8 17. Qb3 axb4 18. axb4 Bxe4 19. Bxe4 f5 20. c5 Qc8 21. Na4 Nd5 22. Bxd5 cxd5 23. Nb6 Qc6 24. Rd1 Ng5 25. h4 Ne4 26. b5 Qe6 27. Rxd5 Rxd5 28. Qxd5 Qxd5 29. Nxd5 Rd8 30. c6 Rxd5 31. cxb7 Rd8 32. Ra1 Nc5 33. Ra7 Nxb7 34. Rxb7 Rd1+ 35. Kg2 Rxc1 36. Rb8+ Kf7 37. Rb7+ Kg8 38. Rb8+ Kf7 39. Rb7+ Kg8 1/2-1/2',
+      id: '4275360',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'Airthings Masters Prelim',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. dxe5 Nxb5 7. a4 Nbd4 8. Nxd4 Nxd4 9. Qxd4 d5 10. exd6 Qxd6 11. Qe4+ Qe6 12. Qd4 Qd6 13. Qe4+ Qe6 14. Qd4 Qd6 1/2-1/2',
+      id: '4276957',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: '63rd ch-USA',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Ne5 Nc6 8. Bxc6  bxc6 9. Nxc6 Qe8 10. Nxe7+ Qxe7 11. Qa4 e5 12. dxe5 Qxe5 13. Re1 Be6 14. Nc3 Ne4  15. Qc2 Nxc3 16. Qxc3 Qxc3 17. bxc3 Rab8 18. f3 Rfd8 19. Bf4 Rb2 20. Rad1 Rxd1  21. Rxd1 h5 22. Rd8+ Kh7 23. Rd2 Rxd2 24. Bxd2 Kg6 25. Kf2 Bh3 26. Bf4 c6 27. a4  Kf5 28. a5 a6 29. Ke3 Bf1 30. Kf2 Bh3 31. Ke3 Bf1 32. Kf2 Bh3 1/2-1/2',
+      id: '4181662',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: "Cote d'Ivoire Rapid 2019",
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. O-O Nd4 6. Be3 Nxf3+ 7. Qxf3 Bxe3 8. Qxe3 O-O 9. d4 d6 10. Be2 c6 11. dxe5 dxe5 12. Nd2 Be6 13. a4 Qb6 14. Qxb6 axb6 15. Rfd1 Rfd8 16. b3 Kf8 17. Rac1 Ke7 18. f3 Ne8 19. Kf2 Nc7 20. Nf1 g6 21. Ne3 Rxd1 22. Rxd1 Ne8 23. g3 Nd6 24. Bd3 Rf8 25. Re1 f5 26. exf5 gxf5 27. f4 exf4 28. gxf4 Kf6 29. Rg1 Bf7 30. Nf1 Re8 31. Ng3 c5 32. Rd1 h6 33. Be2 Rd8 34. Bf3 Be8 35. Rd5 Bf7 36. Rd1 Be8 37. h4 Bc6 38. Bxc6 bxc6 39. Kf3 Nb7 40. Rxd8 Nxd8 41. Nf1 Nb7 42. Ne3 Na5 43. h5 Ke6 44. Ke2 b5 45. Kd3 Nb7 46. Kc3 Kf6 47. Kb2 Ke6 48. Ka3 Kf6 49. Ka2 Ke6 50. Kb2 Kf6 51. Kc1 Ke6 52. Kd2 Kf6 53. Nd1 Ke6 54. Nc3 Nd6 55. Kd3 Kd7 56. Ke3 Kc7 57. Kd3 Kd7 58. Ke3 Kc7 59. Kd3 1/2-1/2',
+      id: '4193602',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A06',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 Be7 5. Bb2 O-O 6. Nc3 c5 7. cxd5 Nxd5 8. Nxd5 exd5 9. d4 Nc6 10. Be2 cxd4 11. Nxd4 Qa5+ 12. Kf1 Nxd4 13. Bxd4 Bf5 14. Bd3 Be4 15. Bxe4 dxe4 16. Qg4 Bf6 17. Qxe4 Qa6+ 18. Kg1 Rfe8 19. Qf4 Bxd4 20. Qxd4 Rad8 21. Qb2 Rd5 22. h4 Red8 23. Rh3 Rd2 24. Qe5 R2d5 25. Qf4 h5 26. Rf3 Qe6 27. Rc1 Rd1+ 28. Rxd1 Rxd1+ 29. Kh2 Rd2 30. Qb8+ Kh7 31. Qxb7 f6 32. Qxa7 Qe5+ 33. Rg3 f5 34. f4 Qa1 35. Qf7 Rd1 36. Qxf5+ Kg8 37. Qe6+ Kh7 38. Qg6+ Kg8 39. Qe8+ Kh7 40. Qxh5+ Kg8 41. Rf3 Rh1+ 42. Kg3 Qe1+ 43. Kg4 Qe2 44. g3 Rf1 45. Qd5+ Kh7 46. b4 Rg1 47. b5 Qg2 48. b6 Rh1 49. b7 1-0',
+      id: '4193647',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'A28',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 d6 5. d4 Bg4 6. Be2 Be7 7. h3 Bh5 8. O-O O-O 9. b3 Re8 10. Bb2 Bf8 11. dxe5 dxe5 12. Nd5 Bg6 13. a3 Bd6 14. Nxf6+ Qxf6 15. b4 a6 16. Qb3 Qe6 17. Qc3 h6 18. Rad1 Kh8 19. c5 Bf8 20. Bc4 Qe7 21. Bd5 f6 22. Qc4 Bh7 23. e4 Nd8 24. Qe2 c6 25. Bc4 Ne6 26. Qe3 Rad8 27. Nh4 Nd4 28. Nf3 Nxf3+ 29. Qxf3 a5 30. h4 axb4 31. axb4 b6 32. Rc1 bxc5 33. bxc5 Qa7 34. Ba3 Rd4 35. Rfe1 Rb8 36. h5 Qa4 37. Bf7 Bxe4 38. Qg3 Bxg2 39. Rb1 Rxb1 40. Rxb1 Be4 41. Re1 Bd5 42. Bxd5 Rg4 43. Qxg4 Qxg4+ 44. Bg2 Qc4 45. Bxc6 Bxc5 46. Bxc5 Qxc5 47. Be4 Qb4 48. Re3 Kg8 49. Bg6 Kf8 50. Re4 Qb5 51. Re1 Ke7 52. Rc1 Qb7 53. Rb1 Qd7 54. Be4 Qg4+ 0-1',
+      id: '4193692',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'C67',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nf5 8.  Nf3 d5 9. d4 O-O 10. Nc3 Nh4 11. Nxh4 Bxh4 12. Bb5 Ne7 13. Bd3 Bf6 14. Qh5 g6  15. Qf3 Bg7 16. Bg5 f6 17. Bd2 c6 18. Ne2 Nf5 19. g3 Nh6 20. c4 Bg4 21. Qg2 dxc4  22. Bxc4+ Kh8 23. d5 Nf7 24. Nf4 Ne5 25. Be2 Bd7 26. Rad1 cxd5 27. Bc3 Bc6 28.  Nxd5 f5 29. f4 Nd7 30. Bxg7+ Kxg7 31. Bf3 Nf6 32. Nxf6 Qxf6 33. Bxc6 bxc6 34.  Rd7+ Rf7 35. Qd2 Rxd7 36. Qxd7+ Kf8 37. Re5 Rd8 38. Qxh7 Re8 39. Qh6+ Kf7 40.  Qh7+ Kf8 41. Qc7 Rxe5 42. Qxe5 Qxe5 43. fxe5 Kf7 44. h4 Ke6 45. Kf2 Kxe5 46. Kf3  c5 47. b3 Ke6 48. Kf4 Kf6 49. a3 a6 50. b4 c4 51. a4 Ke6 52. Ke3 Kd5 53. Kd2 Kd4  54. Kc2 c3 55. b5 1-0',
+      id: '4202262',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 b6 7. Rc1 Bb7 8. cxd5  Nxd5 9. Nxd5 Qxd5 10. a3 c5 11. Bc4 Qd8 12. O-O Bf6 13. dxc5 Bxb2 14. Rb1 Qxd1  15. Rfxd1 Bxa3 16. Bd6 Bxf3 17. gxf3 Rc8 18. cxb6 axb6 19. Bxa3 Rxa3 20. Rxb6  Rc3 21. Rbd6 Kf8 22. Rd8+ Rxd8 23. Rxd8+ Ke7 24. Rxb8 Rxc4 25. f4 Rc7 26. Ra8  Rd7 27. Rb8 Rc7 28. Ra8 Rd7 29. Rb8 Rc7 1/2-1/2',
+      id: '4211845',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'D02',
+      t: 'Tata Steel India Rapid',
+      moves:
+        '1. d4 Nf6 2. Nf3 d5 3. g3 c5 4. Bg2 cxd4 5. O-O Bd7 6. Nxd4 e5 7. Nb3 Be6 8. Bg5 Nbd7 9. Nc3 Be7 10. Qd3 O-O 11. Rad1 d4 12. Bxf6 Nxf6 13. Ne4 Qc7 14. Nxf6+ Bxf6 15. c3 dxc3 16. Qxc3 Qxc3 17. bxc3 Rac8 18. Bxb7 Rxc3 19. Bd5 Bh3 20. Bg2 Be6 21. Bd5 Bg4 22. Rc1 Rfc8 23. Rxc3 Rxc3 24. Rc1 Rxc1+ 25. Nxc1 Be7 26. Nd3 Bd6 27. f3 Bd7 28. Kf2 Kf8 29. f4 exf4 30. gxf4 f6 31. e4 Bb5 32. Ke3 Bc7 33. h4 Bb6+ 34. Kd2 g6 35. e5 Ba5+ 36. Ke3 Bb6+ 37. Kd2 fxe5 38. Nxe5 Bf2 39. Bc6 Bf1 40. Be4 Kg7 41. Nf3 Bc4 42. a4 Kf6 43. Ne5 Be6 44. h5 gxh5 45. Bxh7 Bd5 46. Kd3 Be1 47. Be4 Bb3 48. Nd7+ Ke7 49. Ne5 Kf6 50. Nd7+ Kg7 51. f5 Bb4 52. Bc6 h4 53. Ke4 h3 54. Kf3 Bd6 55. a5 Bc4 56. Kf2 Kf7 57. Kf3 Ke7 58. f6+ Ke6 59. Kf2 Ba6 60. Ke3 Bc8 61. Nb6 0-1',
+      id: '4230923',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. d4 Nf6 2. Nf3 d5 3. c4 e6 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. a3 c5 8. cxd5 Nxd5 9. Nxd5 exd5 10. dxc5 Nxc5 11. Be5 Bf5 12. Be2 Bf6 13. O-O Be4 14. Bxf6 Qxf6 15. Nd4 Ne6 16. Rc1 Nxd4 17. Qxd4 Qxd4 18. exd4 Rac8 1/2-1/2',
+      id: '4230968',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E32',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 d5 7. e3 b6 8. cxd5 Nxd5 9. Qc2 Bb7 10. e4 Nf6 11. e5 Nd5 12. Nf3 h6 13. Qe4 Ba6 14. Bxa6 Nxa6 15. Qg4 Kh8 16. Qh3 Kg8 17. Qg4 Kh8 18. O-O Qe7 19. Qh3 Kg8 20. Re1 c5 21. Re4 f5 22. exf6 Rxf6 23. Be3 Raf8 24. Re1 Nxe3 25. R4xe3 Nc7 26. dxc5 Qxc5 27. Ne5 Qb5 28. R3e2 Nd5 29. g3 Rf5 30. Ng6 R8f6 31. Nh4 Rg5 32. Rxe6 Kh7 33. Rxf6 Nxf6 34. Qf1 Qxb2 35. Qd3+ Kg8 36. Ng6 Kh7 37. Ne5+ Kg8 38. Ng6 Kh7 39. Nf8+ Kg8 40. Qd8 Rf5 41. Ng6+ Kh7 42. Nf8+ Kg8 43. f4 Qc3 44. Ng6+ Kh7 45. Nf8+ Kg8 46. Nd7+ Kh7 47. Nxf6+ Rxf6 48. Re8 Qc5+ 49. Kg2 Qc6+ 50. Kh3 Rd6 51. Qe7 Qd7+ 1/2-1/2',
+      id: '4232232',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'E32',
+      t: 'ch-USA 2018',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. e4 d5 6. e5 Ne4 7. Bd3 c5 8. Nf3 cxd4 9. Nxd4 Nd7 10. Bf4 Qh4 11. g3 Qh5 12. O-O g5 13. cxd5 Bxc3 14. bxc3 exd5 15. Bxe4 dxe4 16. e6 gxf4 17. exd7 Bxd7 18. Qxe4 fxg3 19. fxg3 b6 20. Nf5 Rae8 21. Qd5 Bxf5 22. Rxf5 Qh6 23. Raf1 Qe3+ 24. R1f2 Qe1+ 25. Kg2 Qe4+ 26. Kh3 Qxd5 27. Rxd5 Re7 28. Rg5+ Kh8 29. a4 Re3 30. Rgf5 Kg7 1/2-1/2',
+      id: '4113088',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D56',
+      t: '6th Norway Chess 2018',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Ne4 8. Bxe7 Qxe7 9. Rc1 c6 10. g4 Rd8 11. Qc2 Nd7 12. Nxe4 dxe4 13. Qxe4 Qb4+ 14. Ke2 e5 15. Qc2 exd4 16. Nxd4 Ne5 17. h3 c5 18. Nf5 Bxf5 19. gxf5 b5 20. Qc3 Nxc4 21. Qxb4 cxb4 22. b3 Nb6 23. e4 Rac8 24. Rxc8 Rxc8 25. Kd2 a6 26. Bd3 Kf8 27. f4 f6 28. Rc1 Rxc1 29. Kxc1 Ke7 30. Kd2 Kd6 31. Be2 Kc5 32. Kd3 Nc8 33. Bh5 Ne7 34. Be8 Nc8 35. Bd7 Ne7 36. h4 Kd6 37. Be8 Kc5 38. Ke3 Nc8 39. Bd7 Ne7 40. Kd3 Kd6 41. Be6 g6 42. Ke3 a5 43. Kd4 Nc6+ 44. Kd3 Ne7 45. Kd4 Nc6+ 46. Ke3 Ne7 47. Kd4 1/2-1/2',
+      id: '4117423',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A06',
+      t: '6th Norway Blitz 2018',
+      moves:
+        '1. Nf3 d5 2. b3 Bf5 3. Bb2 e6 4. g3 h6 5. Bg2 Nf6 6. O-O Be7 7. Ne5 Nbd7 8. Nxd7 Qxd7 9. d3 O-O 10. Nd2 a5 11. e4 Bh7 12. a3 dxe4 13. Nxe4 Nxe4 14. dxe4 Qxd1 15. Rfxd1 Rfd8 16. Kf1 Bg6 17. Ke2 f6 18. a4 e5 19. f3 Kf7 20. Bh3 Bc5 21. Rxd8 Rxd8 22. Rd1 Rxd1 23. Kxd1 Bg1 24. Ke2 h5 25. Kf1 Bc5 26. Bc8 b6 27. Ke2 Ke7 28. Ba6 Bf7 29. h4 Be6 30. Bc1 c6 31. Bd3 Kd6 32. Bd2 Ke7 33. Be1 Kd6 34. Kd2 g5 35. Be2 Ke7 36. Kd1 Kf7 37. Kd2 Kg6 38. Kd1 Kf7 39. Ba6 Kg6 40. Be2 Kf7 41. Bd2 Bf2 42. Be1 Bc5 1/2-1/2',
+      id: '4117458',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A45',
+      t: 'GCT Rapid YourNextMove',
+      moves:
+        '1. d4 Nf6 2. Bf4 d5 3. e3 c5 4. dxc5 e6 5. b4 a5 6. c3 Bd7 7. Qb3 axb4 8. cxb4 b6 9. Bd6 Ne4 10. Qb2 Nxd6 11. cxd6 Qf6 12. Qxf6 gxf6 13. b5 Bxd6 14. a4 Ke7 15. Bd3 Rc8 16. Ne2 e5 17. f3 f5 18. Ra2 Be6 19. Rc2 Bb4+ 20. Kf1 Rxa4 21. Rxc8 Bxc8 22. Nec3 Bxc3 23. Nxc3 Ra3 24. Nxd5+ Kd6 25. Nxb6 Be6 26. Bb1 Kc5 27. Nc8 Bxc8 28. Kf2 Be6 29. g4 fxg4 30. Bxh7 Nd7 31. Rb1 Ra2+ 32. Kg3 gxf3 33. h4 f5 34. Kxf3 Nf6 0-1',
+      id: '4119471',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'D56',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Ne4 8. Bxe7 Qxe7 9. Rc1 c6 10. Qc2 Nd7 11. Be2 Nxc3 12. Qxc3 dxc4 13. Qxc4 e5 14. O-O Re8 15. a3 exd4 16. Nxd4 Nf6 17. Rfd1 Ne4 18. Bf3 Ng5 19. Be2 Ne4 20. h3 c5 21. Nf3 b6 22. b4 Bb7 23. bxc5 Rac8 24. Qd4 Nxc5 25. Qb4 Qf6 26. Nd4 Qg6 27. Bf3 Bxf3 28. Nxf3 Rcd8 29. Qg4 Qxg4 30. hxg4 Rxd1+ 31. Rxd1 Re4 32. g5 Ra4 33. Rd8+ Kh7 34. Ne5 hxg5 35. Nxf7 Rxa3 36. Rd6 Kg8 37. Nxg5 Kf8 38. e4 Ke7 39. Rg6 b5 40. e5 b4 41. Rxg7+ Ke8 42. Rg8+ Kd7 43. Rb8 b3 44. Kh2 Ra6 45. Nf3 Rh6+ 46. Kg3 a5 47. Nd4 a4 48. Rb5 Nd3 49. e6+ Rxe6 50. Nxb3 Rg6+ 51. Kf3 axb3 52. Rxb3 Ne1+ 53. Ke4 Nxg2 54. Rg3 Re6+ 55. Kf5 Nh4+ 56. Kg4 Ng6 57. Rd3+ Kc6 58. f4 Re1 59. Kf5 Ne7+ 60. Kf6 Nd5+ 61. Kf5 Kd6 62. Ra3 Ne7+ 63. Kg4 Rg1+ 64. Kf3 Ke6 65. Ra6+ Kf7 66. Ra5 Rb1 67. Kg4 Rb6 68. Rh5 Ng8 69. Ra5 Nf6+ 70. Kf5 Rb7 71. Kg5 Kg7 72. Re5 Rf7 73. Ra5 Ne4+ 74. Kg4 Kg6 75. Ra6+ Nf6+ 76. Kf3 Rb7 77. Ra3 Rb5 78. Re3 Rb1 79. Re2 Rf1+ 80. Rf2 Ra1 81. Rg2+ Kf7 82. Rb2 Ra3+ 83. Kg2 Nd5 84. f5 Ne3+ 85. Kf2 Nd1+ 0-1',
+      id: '4119528',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A05',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. Nf3 Nf6 2. b3 g6 3. Bb2 Bg7 4. e3 O-O 5. d4 c5 6. dxc5 Qa5+ 7. c3 Qxc5 8. Ba3 Qc7 9. Bxe7 Re8 10. Bxf6 Bxf6 11. Nd4 Nc6 12. Be2 d5 13. O-O Ne5 14. Qd2 Bd7 15. Na3 Rac8 16. Rac1 a6 17. Rfd1 Qa5 18. Qb2 Rc7 19. c4 Be7 20. Ndc2 Bf6 21. Nd4 Be7 22. Nb1 Rec8 23. cxd5 Rxc1 24. Rxc1 Rxc1+ 25. Qxc1 Qxa2 26. Nc3 Qa5 27. h3 Be8 28. Kh1 Kg7 29. f4 Bb4 30. Nd1 Nd7 31. e4 Bd2 32. Qb2 Nf6 33. g3 Kg8 34. Bf3 Bd7 35. Kg2 Bb4 36. Ne2 Be7 37. d6 Bd8 38. Qc3 Qa2 39. Qb2 Qa5 40. Ne3 Bc6 41. e5 Nd5 42. Nxd5 Bxd5 43. Qc3 Qa2 44. Kf1 Qb1+ 45. Kg2 Qd1 46. Nd4 Bb6 47. Bxd5 Bxd4 48. Qc4 h5 49. h4 Qg1+ 50. Kh3 Bf2 51. Bg2 Qd1 52. Qc8+ Kg7 53. Qc3 Kg8 54. Qf3 Qd4 55. Qxb7 Qd3 56. Qf3 Qf5+ 57. Kh2 Bc5 58. Qc3 Bf2 59. Qd2 Bb6 60. d7 Bd8 61. Qd6 a5 62. Qc6 Kg7 63. Qc8 Bxh4 64. d8=Q 1-0',
+      id: '4119573',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D04',
+      t: 'GCT Rapid Paris 2018',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. e3 c5 4. dxc5 e6 5. a3 Bxc5 6. c4 O-O 7. Nc3 dxc4 8. Bxc4 Qxd1+ 9. Kxd1 a6 10. b4 Be7 11. Ke2 b5 12. Bd3 Bb7 13. Bb2 Nbd7 14. Rhd1 Rfc8 15. Rac1 Nb6 16. Nb1 Nfd5 17. Bd4 Nc4 18. Nfd2 Nxd2 19. Nxd2 Rxc1 20. Rxc1 a5 21. Bxb5 axb4 22. axb4 Bxb4 1/2-1/2',
+      id: '4120540',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'GCT Blitz Paris 2018',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 c5 7. dxc5 Bxc5 8. a3 Nc6 9. Qc2 Qa5 10. Rd1 Re8 11. Nd2 e5 12. Bg5 Nd4 13. Qc1 Bf5 14. Bxf6 Nc2+ 15. Ke2 Nd4+ 16. Ke1 Nc2+ 17. Ke2 Nd4+ 18. Ke1 1/2-1/2',
+      id: '4120583',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D41',
+      t: 'GCT Blitz Paris 2018',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 c5 5. cxd5 cxd4 6. Qa4+ Bd7 7. Qxd4 exd5 8. e3 Nc6 9. Qd1 Bb4 10. Bd2 O-O 11. a3 Ba5 12. Be2 Bg4 13. O-O d4 14. exd4 Nxd4 15. Nxd4 Qxd4 16. Be3 Qxd1 17. Bxd1 Bxc3 18. bxc3 b6 19. Bd4 Bxd1 20. Bxf6 Bb3 21. Bd4 Rfe8 22. Rfe1 f6 23. f3 Kf7 24. Kf2 Rxe1 25. Rxe1 Re8 26. Rxe8 Kxe8 1/2-1/2',
+      id: '4120628',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'C45',
+      t: 'Saint Louis Rapid 2018',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nc3 Bb4 6. Nxc6 bxc6 7. Bd3 d5 8. exd5 cxd5 9. O-O O-O 10. Bg5 c6 11. Na4 h6 12. Bh4 Be6 13. c3 Bd6 14. Bc2 Re8 15. Qd3 g5 16. Bg3 Bxg3 17. hxg3 Qd6 18. Qd4 Bg4 19. Rfe1 Be2 20. Nc5 Re7 21. Nb3 Rae8 22. Qc5 Qxc5 23. Nxc5 Nd7 24. Nb3 Nb6 25. Nd4 c5 26. Nf5 Re6 27. b4 cxb4 28. cxb4 Bh5 29. Nxh6+ Kf8 30. Rxe6 fxe6 31. g4 Bf7 32. Bd3 Rc8 33. Nxf7 Kxf7 34. a4 Rc3 35. Be2 Nc4 36. b5 Na5 37. g3 e5 38. Kg2 Rc2 39. Bd3 Rd2 40. Bf1 Rc2 41. Rd1 Ke6 42. Bd3 Rb2 43. Bf5+ Kd6 44. Be4 d4 45. Rc1 Re2 46. Bd3 Ra2 47. Rc8 Rxa4 48. f4 Ra2+ 49. Kf3 Nb3 50. Rc6+ Ke7 51. Ke4 exf4 52. gxf4 gxf4 53. Kxf4 Rf2+ 54. Ke5 Rg2 55. Rc7+ Kd8 56. Rxa7 Rxg4 57. b6 Rg5+ 58. Kd6 Kc8 59. Be4 1-0',
+      id: '4128592',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'E32',
+      t: '6th Sinquefield Cup 2018',
+      moves:
+        '1. c4 Nf6 2. Nc3 e6 3. d4 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 d5 7. Bg5 dxc4 8. Qxc4 b6 9. Rd1 Ba6 10. Qc2 Nbd7 11. e4 Bxf1 12. Kxf1 Qc8 13. Ne2 h6 14. Bxf6 Nxf6 15. f3 Qb7 16. Rc1 c5 17. dxc5 bxc5 18. Kf2 Rab8 19. Qxc5 Qxb2 20. Qxa7 Ra8 21. Qd4 Qxa3 22. Ra1 Qe7 23. Rxa8 Rxa8 24. Ra1 Rxa1 25. Qxa1 Qc5+ 26. Qd4 Qc7 27. h3 Nd7 28. Qc3 Qb6+ 29. Qd4 Qc7 30. Qc3 Qb6+ 31. Qd4 Qc7 1/2-1/2',
+      id: '4130833',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'E46',
+      t: 'Saint Louis Blitz 2018',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Ne2 c6 6. a3 Ba5 7. c5 d5 8. cxd6 Qxd6 9. b4 Bc7 10. Bb2 Qe7 11. Ng3 e5 12. dxe5 Bxe5 13. Be2 a5 14. O-O axb4 15. axb4 Rxa1 16. Qxa1 Qxb4 17. f4 Bxc3 18. Bxc3 Qe7 19. e4 Re8 20. Bf3 Na6 21. e5 Nd5 22. Bxd5 cxd5 23. f5 Nb4 24. f6 Qc5+ 25. Kh1 d4 26. Bxd4 Qc4 27. fxg7 Nc2 28. Qc1 Qxd4 29. Qxc2 Qxe5 30. Qc4 Be6 31. Qh4 Ra8 32. Nh5 h6 33. h3 b5 34. Re1 Qg5 35. Nf6+ Kxg7 36. Qe4 Ra4 37. Ne8+ Kf8 38. Qc6 Rc4 39. Qd6+ Kxe8 40. Ra1 Rc1+ 0-1',
+      id: '4130848',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C45',
+      t: 'Saint Louis Blitz 2018',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nc3 Bb4 6. Nxc6 bxc6 7. Bd3 d5 8. exd5 cxd5 9. O-O O-O 10. h3 c6 11. Qf3 Bd6 12. Bf4 Be6 13. Rfe1 Bxf4 14. Qxf4 Qb8 15. Qxb8 Raxb8 16. Na4 Nd7 17. b3 c5 18. Rad1 Rfc8 19. f4 g6 20. c4 dxc4 21. Bxc4 Bxc4 22. Rxd7 Be6 23. Rxa7 c4 24. Ra5 cxb3 25. axb3 Rc2 26. Nc5 Bxb3 27. Nxb3 Rxb3 28. Rg5 h6 29. Rg4 h5 30. Rg5 Kg7 31. f5 Kh6 32. fxg6 fxg6 33. h4 Rb6 34. Re4 Rbc6 35. Rge5 R2c4 1/2-1/2',
+      id: '4130893',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A06',
+      t: 'Tata Steel India Rapid',
+      moves:
+        '1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 Bd6 5. Bb2 O-O 6. Be2 dxc4 7. Bxc4 b6 8. Nc3 Bb7 9. d4 a6 10. O-O b5 11. Bd3 Nbd7 12. a4 b4 13. Nb1 c5 14. Nbd2 cxd4 15. Nxd4 Nc5 16. Be2 Rc8 17. Nc4 Bb8 18. Qe1 e5 19. Nc2 a5 20. Rd1 Qe7 21. Nxa5 Nxb3 22. Nxb3 Rxc2 23. Rd2 Rfc8 24. Qb1 R2c7 25. Bd3 Bd5 26. Bxh7+ Kf8 27. Bc2 g6 28. Nc1 Qe6 29. Ne2 Ba2 30. Qd1 Kg7 31. Bd3 Bb3 32. Qe1 Bxa4 33. Qa1 Ra7 34. Qb1 Rd7 35. Ba1 Rb7 36. Ng3 b3 37. Kh1 Rh8 38. Ne4 Nxe4 39. Bxe4 Rb4 40. f4 f6 41. Bd5 Qe7 42. Bc3 Rb6 43. Qe4 Bb5 44. Rb1 Bd7 45. Qf3 exf4 46. exf4 Bf5 47. Re2 Qd6 48. Rd1 Rh4 49. Bxb3 Rxf4 50. Rxd6 Rxf3 51. Bxf6+ Kh6 52. gxf3 Bxd6 53. Re8 Rb8 54. Rxb8 Bxb8 55. Kg2 Bf4 56. Bd5 Bd7 57. Be4 Bc8 58. Bh4 g5 59. Be1 g4 1/2-1/2',
+      id: '4152845',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A04',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. Nf3 c5 2. b3 Nf6 3. e3 g6 4. Bb2 Bg7 5. c4 O-O 6. Be2 b6 7. O-O Bb7 8. d4 cxd4 9. Nxd4 d5 10. Na3 Nc6 11. Nxc6 Bxc6 12. Bf3 Rc8 13. cxd5 Nxd5 14. Bxg7 Kxg7 15. Rc1 Nb4 16. Bxc6 Nxc6 17. Qe2 Qd6 18. Nb5 Qf6 19. h3 Rfd8 20. Rfd1 Rxd1+ 21. Qxd1 Rd8 22. Qf3 Qxf3 23. gxf3 Ne5 24. f4 Nf3+ 25. Kg2 Nh4+ 26. Kf1 Rd7 27. Rc7 Rxc7 28. Nxc7 Nf3 29. Ke2 Ng1+ 30. Kf1 Nf3 31. Nb5 a5 32. Ke2 Ng1+ 33. Kf1 Nf3 34. Nc7 e6 35. Ke2 Ng1+ 36. Kf1 Nf3 37. Na8 b5 38. Ke2 Ng1+ 39. Kf1 Nf3 40. Nc7 b4 41. Ne8+ Kf8 42. Nd6 Nd2+ 43. Ke2 Nb1 44. Nc4 Nc3+ 45. Kd3 Nxa2 46. Nxa5 Ke7 47. Kc4 Kd7 48. Nb7 Nc3 49. Nc5+ Kc6 50. Nd3 Nd1 51. Nxb4+ Kd6 52. Nd3 f6 53. b4 g5 54. fxg5 fxg5 55. Kb3 h5 56. Kc2 g4 57. Kxd1 gxh3 1-0',
+      id: '4153621',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8. Rxe5 O-O 9. d4 Bf6 10. Re1 Re8 11. Rxe8+ Nxe8 12. d5 b6 13. Nd2 Bb7 14. Ne4 Be7 15. c3 Nd6 16. Ng3 Bg5 17. c4 Rc8 18. b3 Qf6 19. Bxg5 Qxg5 20. Qd4 Re8 21. Rd1 Nf5 22. Nxf5 Qxf5 23. Bd3 Qe5 1/2-1/2',
+      id: '4153666',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'E10',
+      t: 'ch-USA 2017',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Bb4+ 5. Bd2 Be7 6. Bg2 O-O 7. O-O Nbd7 8. Qc2 Ne4 9. Bf4 c6 10. Nc3 g5 11. Bc1 f5 12. b3 b6 13. Bb2 Bb7 14. Rad1 Qe8 15. Nd2 Nd6 16. Ba3 Rc8 17. Rfe1 Nf7 18. Qb2 Nf6 19. Bxe7 Qxe7 20. b4 Rfd8 21. e3 g4 22. cxd5 cxd5 23. b5 Rc7 24. Rc1 Rdc8 25. Ne2 Nd6 26. Rxc7 Rxc7 27. Rc1 Rxc1+ 28. Nxc1 Nfe4 29. Bxe4 dxe4 30. Ne2 Bd5 1/2-1/2',
+      id: '4043127',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'A64',
+      t: '5th Norway Blitz 2017',
+      moves:
+        '1. c4 Nf6 2. g3 g6 3. Bg2 Bg7 4. d4 O-O 5. Nc3 c5 6. d5 d6 7. Nf3 e6 8. O-O exd5 9. cxd5 a6 10. a4 Re8 11. Nd2 Nbd7 12. h3 Rb8 13. Nc4 Ne5 14. Na3 Nh5 15. e4 Bd7 16. g4 Nf6 17. g5 Nh5 18. f4 b5 19. fxe5 b4 20. Nc4 bxc3 21. bxc3 Bxe5 22. Qf3 f5 23. gxf6 Qxf6 24. Nxe5 Qxe5 25. Qf7+ Kh8 26. Qxd7 Re7 27. Qg4 Qxc3 28. Ra3 Qd4+ 29. Be3 Qb2 30. Bg5 Qd4+ 31. Kh1 Ree8 32. Qxh5 gxh5 33. Bf6+ Qxf6 34. Rxf6 Rg8 35. Ra2 Rg6 36. Rxg6 hxg6 37. a5 Rb1+ 38. Kh2 Kg7 39. Bf3 c4 40. Rc2 Rb3 41. Be2 c3 42. Bxa6 Kf6 43. Bc4 Ra3 44. a6 Ke5 45. Kg3 Kxe4 46. Kh4 Kd4 47. Bf1 Kxd5 48. Kg5 Ke4 49. Kxg6 d5 50. Kxh5 d4 51. Rg2 Ke3 52. Bc4 Ra4 53. Ra2 Rxc4 54. a7 Rc8 55. a8=Q Rxa8 56. Rxa8 c2 57. Rc8 d3 58. Kg5 Kd2 59. h4 c1=Q 60. Rxc1 Kxc1 0-1',
+      id: '4052003',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D56',
+      t: '5th Norway Chess 2017',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Ne4 8. Bxe7 Qxe7 9. Rc1 c6 10. Bd3 Nxc3 11. Rxc3 dxc4 12. Rxc4 Nd7 13. Bc2 c5 14. dxc5 Nxc5 15. Qd4 b6 16. b4 Rd8 17. Qc3 Nd7 18. Be4 Ba6 19. Bxa8 Bxc4 20. Qxc4 Rxa8 21. O-O Qd6 22. Rc1 Ne5 23. Nxe5 Qxe5 24. Rd1 Qf6 25. Qc7 Qb2 26. Qb7 Rf8 27. Qxa7 Qxb4 28. g3 g6 29. h4 Qb2 30. Kg2 Qc2 31. Rd7 Qc6+ 32. Kg1 Qc1+ 33. Kg2 Qc6+ 34. Kg1 Qc1+ 35. Kg2 Qc6+ 1/2-1/2',
+      id: '4053574',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A01',
+      t: 'GCT Rapid Paris 2017',
+      moves:
+        '1. b3 d5 2. Bb2 Bf5 3. Nf3 e6 4. g3 Nf6 5. Bg2 Be7 6. Nh4 Be4 7. f3 Bg6 8. Nxg6 hxg6 9. e4 g5 10. Qe2 Nc6 11. e5 Nh7 12. d4 Qd7 13. c3 f6 14. exf6 Bxf6 15. Bh3 Nf8 16. Bg4 Kf7 17. O-O Ng6 18. Na3 Nce7 19. Rae1 Nf5 20. Nc2 Rh6 21. Rf2 Rah8 22. Rg2 b6 23. Ne3 c5 24. dxc5 bxc5 25. Bxf5 exf5 26. Rd1 Ne7 27. Ba3 Rc8 28. Qd3 d4 29. cxd4 Bxd4 30. Bxc5 Rxc5 31. Qxd4 Qxd4 32. Rxd4 Rc1+ 33. Rd1 Rxd1+ 34. Nxd1 Rd6 35. Nb2 Nc6 36. Rc2 Nd4 37. Rc7+ Kf6 38. Rxa7 Nxf3+ 39. Kf2 Nxh2 40. Nc4 Ng4+ 41. Kf1 Re6 42. a4 f4 43. gxf4 gxf4 44. Rd7 g5 45. Rd6 Ne3+ 46. Ke2 Nxc4+ 47. Rxe6+ Kxe6 48. bxc4 Kd6 49. Kf3 Kc6 50. a5 Kc5 51. Kg4 Kc6 52. Kf3 Kc5 1/2-1/2',
+      id: '4054290',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A06',
+      t: 'GCT Blitz Paris 2017',
+      moves:
+        '1. Nf3 d5 2. e3 Nf6 3. b3 e6 4. Bb2 b6 5. c4 Bb7 6. d4 Bd6 7. Nbd2 O-O 8. Bd3 Nbd7 9. Rc1 Ne4 10. O-O Nxd2 11. Nxd2 Nf6 12. c5 bxc5 13. dxc5 Be7 14. c6 Bc8 15. Qe2 Bb4 16. Rfd1 Qe7 17. Nf3 a5 18. a4 Ne4 19. Bxe4 dxe4 20. Ne5 Bd6 21. Qc2 f5 22. Nc4 Ba6 23. Nxd6 cxd6 24. Ba3 Bd3 25. Rxd3 exd3 26. Qxd3 Rac8 27. b4 axb4 28. Bxb4 Qc7 29. h3 Rfd8 30. Qb5 Qa7 31. Ba5 Rf8 32. Bb6 Qe7 33. a5 f4 34. exf4 Rxf4 35. a6 Rf5 36. Qa4 Qg5 37. Rb1 Qg6 38. Ra1 Rg5 39. g4 h5 40. a7 Kh7 41. Be3 Re5 42. g5 Rxe3 43. fxe3 Qxg5+ 44. Kh1 Qxe3 45. Qc2+ Kh6 46. Qg2 Ra8 47. c7 Qc3 48. Rg1 Kh7 49. Qe4+ 1-0',
+      id: '4054310',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'A13',
+      t: 'GCT Blitz Paris 2017',
+      moves:
+        '1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 c5 5. Bb2 Nc6 6. cxd5 exd5 7. Bb5 Bd6 8. O-O O-O 9. d4 Bg4 10. dxc5 Bxc5 11. h3 Bh5 12. Nc3 a6 13. Bxc6 bxc6 14. Rc1 Bd6 15. Ne2 Bxf3 16. gxf3 Rc8 17. Qd3 Nd7 18. f4 Re8 19. Ng3 Bf8 20. Qxa6 Nc5 21. Qe2 Ra8 22. Ba1 Qd7 23. Kh2 Ne6 24. Qg4 Rxa2 25. Nh5 Kh8 26. Nf6 Qd8 27. Qf5 g6 28. Nxe8+ Rxa1 29. Qxf7 1-0',
+      id: '4054357',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'C50',
+      t: '5th Sinquefield Cup 2017',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 d6 6. a4 a6 7. c3 O-O 8. Re1 Ba7 9. h3 b5 10. Bb3 h6 11. axb5 axb5 12. Be3 Bd7 13. Bxa7 Rxa7 14. Nbd2 Rxa1 15. Qxa1 Nh5 16. Nf1 Qf6 17. Qd1 b4 18. d4 bxc3 19. bxc3 Nf4 20. Ne3 Qg6 21. Kh2 Re8 22. Ba4 Qf6 23. Ng4 Qe7 24. Ne3 Qf6 25. Bb5 exd4 26. cxd4 Nb8 27. Bf1 Ng6 28. Nd5 Qd8 29. Qc2 c6 30. Nc3 c5 31. Rd1 Nc6 32. dxc5 dxc5 33. Nb5 Qb8+ 34. Kg1 Nb4 35. Qxc5 Bxb5 36. Qxb4 Bc6 37. Qxb8 Rxb8 38. Bd3 Rb4 39. Rb1 Ra4 40. Bc2 Rc4 41. Rb8+ Kh7 42. Bb3 Rc1+ 43. Kh2 Bxe4 44. Bxf7 Ne7 45. Re8 Rc7 46. Ne5 Bd5 47. Bh5 g6 48. Be2 Nc6 49. Ng4 Kg7 50. Ne3 Bf7 51. Re4 Rb7 52. Bf3 Rb4 53. Rxb4 Nxb4 54. Be4 Na6 55. f4 Nc5 56. Bb1 Nd7 57. g4 Nf6 58. Kg3 Nd5 59. Nd1 Be8 60. Be4 Ba4 61. Nb2 Nc3 62. Kf3 Bb5 63. Bb7 g5 64. fxg5 hxg5 65. Be4 Nxe4 66. Kxe4 Bf1 67. Kf5 Bxh3 68. Kxg5 Bxg4 69. Kxg4 1/2-1/2',
+      id: '4061782',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A33',
+      t: '9th London Classic 2017',
+      moves:
+        '1. c4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. e4 Bb4 7. Nxc6 bxc6 8. Bd3 e5 9. O-O O-O 10. Be3 d5 11. exd5 Bxc3 12. bxc3 cxd5 13. Bg5 dxc4 14. Bxc4 Qc7 15. Bxf6 Qxc4 16. Bxe5 Bf5 17. Bd4 Rfe8 18. Qc1 h6 19. Qf4 Bg6 20. Qg3 Kh7 21. h4 f6 22. Rfd1 Re7 23. Rd2 Rae8 24. f3 Re2 25. Rxe2 Rxe2 26. a3 Qb3 27. Re1 Rxe1+ 28. Qxe1 Qxa3 29. c4 Qd3 30. Bxa7 Qxc4 31. Bf2 1/2-1/2',
+      id: '4082988',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'D85',
+      t: '8th London Classic 2016',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Be3 c5 8. Rc1 O-O 9. Qd2 e5 10. d5 Nd7 11. c4 f5 12. Bg5 Nf6 13. Ne2 Nxe4 14. Bxd8 Nxd2 15. Be7 Rf7 16. Bxc5 Nxf1 17. Rxf1 b6 18. Bb4 Ba6 19. f4 Rc8 20. fxe5 Bxe5 21. Rf3 Bxc4 22. Re3 Bg7 23. Nf4 Rd7 24. a4 Bh6 25. g3 Bxf4 26. gxf4 Rxd5 27. Re7 Rd4 28. Bd2 Kf8 29. Bb4 Re8 0-1',
+      id: '4024459',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'C11',
+      t: 'ch-USA 2016',
+      moves:
+        '1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Nc6 7. Be3 Be7 8. Qd2  O-O 9. dxc5 Nxc5 10. O-O-O a6 11. Qf2 b6 12. Nd4 Qc7 13. Kb1 Bb7 14. Nxc6 Bxc6  15. Bd4 Bb7 16. Bd3 b5 17. Ne2 b4 18. Ng3 Rac8 19. f5 f6 20. exf6 Bxf6 21. Bxc5  Qxc5 22. Qxc5 Rxc5 23. fxe6 Re8 24. Rde1 g6 25. Rhf1 Kg7 26. Rf4 a5 27. Rg4 Kh8  28. Bxg6 hxg6 29. Rxg6 Be7 30. Nf5 d4 31. g4 a4 32. b3 a3 33. Rh6+ Kg8 34. Rg6+  Kh8 35. Rh6+ Kg8 36. Rg6+ 1/2-1/2',
+      id: '3989867',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'E53',
+      t: 'Ultimate Blitz Challenge',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 c5 6. Nf3 d5 7. cxd5 cxd4 8. exd4 Nxd5 9. O-O Nc6 10. Bc2 Be7 11. Qd3 g6 12. a3 Nxc3 13. bxc3 b6 14. Re1 Bb7 15. h4 Bxh4 16. Nxh4 Qxh4 17. Re3 Ne7 18. Rg3 Nf5 19. Bg5 Qh5 20. Bd1 Nxg3 21. Qxg3 1-0',
+      id: '3990835',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A45',
+      t: 'Ultimate Blitz Challenge',
+      moves:
+        '1. d4 Nf6 2. Bg5 d5 3. e3 c5 4. Bxf6 gxf6 5. c3 Nc6 6. Nf3 e5 7. dxc5 Bxc5 8. b4 Be7 9. a3 Be6 10. Nbd2 Rg8 11. g3 Qc7 12. Rc1 O-O-O 13. Qc2 Kb8 14. Nh4 e4 15. Nb3 Bg4 16. h3 Be6 17. Nd4 Nxd4 18. cxd4 Qxc2 19. Rxc2 Rc8 20. Kd2 a5 21. Rb2 axb4 22. axb4 Ka7 23. Be2 Kb6 24. Bg4 Rc4 25. Rhb1 Ra8 26. Ng2 Bd6 27. Be2 Rcc8 28. h4 Ra3 29. Ne1 Bd7 30. Nc2 Ra4 31. b5 Rca8 32. Bh5 Be6 33. Bd1 Ra2 34. Rxa2 Rxa2 35. Kc3 Bd7 36. Bh5 Be6 37. Be2 h6 38. Bh5 Ra5 39. Be2 Bd7 40. Bh5 Be8 41. Nb4 Bxb4+ 42. Rxb4 f5 43. Rb2 Rxb5 44. Bd1 Rxb2 45. Kxb2 Bb5 46. Bh5 Be8 47. Ka3 Kb5 48. Be2+ Ka5 49. Bd1 b5 50. Bb3 Bc6 51. Ba2 f6 52. Bb3 Bb7 53. Ba2 Bc6 54. Bb3 Bb7 55. Bd1 b4+ 56. Kb2 Kb5 57. Be2+ Ka4 58. Bd1+ Kb5 59. Bh5 Bc6 60. Kb3 Ka5 61. Bf7 Bb7 62. Be6 Bc6 63. Bxf5 Bb5 64. Kb2 Ka4 65. Be6 Bc4 66. Bd7+ Bb5 67. Be6 Bc4 68. Bg4 b3 69. Bd7+ Kb4 70. Bc6 Ka5 71. Ka3 Kb6 72. Ba4 Ka5 73. Bd7 Kb6 74. Be8 Ka5 75. Bh5 Kb6 76. Bd1 Kb5 77. f3 exf3 78. Bxf3 Kc6 79. Bd1 Kd6 80. Bxb3 Ba6 81. Kb4 Bb7 82. Kc3 Ba6 83. Kd2 Bc8 84. Bc2 Bg4 85. Bd1 Bf5 86. Ke1 Be4 87. Kf2 Bf5 88. Kf3 Ke6 89. Kf4 Bd3 90. Bg4+ Kd6 91. Bf5 Be2 92. Bb1 Ke6 93. Bc2 Bc4 94. Bh7 Bb3 95. Bg8+ Kd6 96. e4 1-0',
+      id: '3990841',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'Ultimate Blitz Challenge',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. c5 Nh5 8. Bd3 Nxf4 9. exf4 b6 10. b4 a5 11. a3 c6 12. O-O Qc7 13. g3 Ba6 14. Re1 Bf6 15. Qe2 bxc5 16. bxc5 Nxc5 17. dxc5 Bxc3 18. Bxa6 Bxa1 19. Rxa1 Qa7 20. Bd3 Qxc5 21. Ne5 Qd6 22. Qc2 c5 23. Bxh7+ Kh8 24. Rb1 Ra7 25. Rd1 Rc7 26. Be4 Qe7 27. Bg2 c4 28. a4 Rb8 29. Rc1 c3 30. Bf1 Rb2 31. Qd1 c2 32. Qh5+ Kg8 33. Bd3 g6 34. Bxg6 fxg6 35. Qxg6+ Kf8 36. Kg2 d4 37. h4 Qe8 38. Qe4 Qd8 39. Qg6 Qe8 40. Qe4 Qd8 41. Qg6 1/2-1/2',
+      id: '3990847',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'D70',
+      t: 'Ultimate Blitz Challenge',
+      moves:
+        '1. c4 g6 2. d4 Nf6 3. f3 d5 4. cxd5 Nxd5 5. e4 Nb6 6. Nc3 Bg7 7. Be3 O-O 8. Qd2 Nc6 9. O-O-O Qd6 10. Nb5 Qd7 11. Kb1 Rd8 12. d5 a6 13. Nc3 Qe8 14. Qc1 Na5 15. h4 e6 16. Bf4 Rd7 17. Bh6 Bxh6 18. Qxh6 Qf8 19. Qxf8+ Kxf8 20. h5 exd5 21. exd5 c6 22. hxg6 hxg6 23. d6 Nd5 24. Nxd5 cxd5 25. Rxd5 b5 26. a4 Kg7 27. Rh4 Bb7 28. Rd1 Bc6 29. axb5 Bxb5 30. Bxb5 axb5 31. Rd5 Ra6 32. Rhd4 Rb6 33. Ne2 Nc4 34. Nc3 Rdxd6 35. b3 b4 36. bxc4 bxc3+ 37. Kc2 Rb2+ 38. Kxc3 Rdb6 39. Rg4 R6b3+ 40. Kd4 Rc2 41. Kc5 Rbb2 42. g3 Rb3 43. Rf4 f5 44. g4 fxg4 45. fxg4 Ra2 46. g5 Ra5+ 47. Kd6 Ra6+ 48. Ke5 Ra7 49. Kd4 Rb1 50. Kc5 Ra5+ 51. Kd6 Ra6+ 52. Ke5 Ra7 53. c5 Re1+ 54. Kd6 Ra8 55. c6 Rd8+ 56. Kc5 Rc8 57. Rd7+ Kg8 58. c7 Rc1+ 59. Kb6 Rb1+ 60. Kc6 1-0',
+      id: '3990853',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'D37',
+      t: 'Ultimate Blitz Challenge',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. c5 c6 8. h3 b6 9. b4 a5 10. a3 Ba6 11. Bxa6 Rxa6 12. O-O Qc8 13. Qc2 Qb7 14. Rab1 axb4 15. axb4 Ra3 16. Rfc1 Rfa8 17. Ne1 b5 18. Qb2 Ne4 19. Nxe4 dxe4 20. Ra1 R3a4 21. Nc2 Nf6 22. Rxa4 Rxa4 23. Ra1 Qa6 24. Rxa4 Qxa4 25. Kf1 Nd5 26. Be5 f6 27. Bg3 Nxb4 28. Qxb4 Qxc2 29. Ke1 Bd8 30. Qa3 Qa4 31. Qxa4 bxa4 32. Kd1 Ba5 33. f3 exf3 34. gxf3 Bb4 35. Kc2 Kf7 36. Kd3 e5 37. dxe5 Bxc5 38. e4 a3 39. exf6 Bd4 0-1',
+      id: '3990859',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D11',
+      t: 'Ultimate Blitz Challenge',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 a6 5. Nc3 Bf5 6. Qb3 Ra7 7. Nh4 Bc8 8. Bd3 e6 9. O-O dxc4 10. Bxc4 b5 11. Be2 Nbd7 12. a4 b4 13. Nb1 c5 14. Nd2 Bb7 15. Bf3 cxd4 16. Bxb7 Rxb7 17. exd4 Be7 18. Nhf3 O-O 19. Nc4 Nb6 20. Nxb6 Qxb6 21. Be3 Nd5 22. Rac1 Rc7 23. Rxc7 Qxc7 24. Rc1 Qb7 25. Qc4 Nb6 26. Qc7 Qxc7 27. Rxc7 Bd8 28. Rb7 Nxa4 29. Rxb4 Nb6 1/2-1/2',
+      id: '3990865',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D38',
+      t: 'GCT Rapid Paris 2016',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Qa4+ Nc6 6. e3 O-O 7. Qc2 dxc4 8. Bxc4 Bd6 9. a3 e5 10. h3 Bd7 11. O-O h6 12. b4 exd4 13. exd4 Qc8 14. Nd5 Nxd5 15. Bxd5 Bf5 16. Qb3 Ne7 17. Bc4 b5 18. Bxb5 Bxh3 19. Re1 Be6 20. Bc4 Bxc4 21. Qxc4 Qg4 22. Bd2 Nf5 23. Qd5 Rae8 24. Rxe8 Rxe8 25. Re1 Rxe1+ 26. Bxe1 Nh4 27. Nxh4 Qxh4 28. Kf1 g6 29. a4 Qe7 30. Qa8+ Kg7 31. Qxa7 Bxb4 32. Bxb4 Qxb4 33. a5 Qb1+ 34. Ke2 Qc2+ 35. Ke3 Qb3+ 36. Ke2 Qc2+ 37. Ke3 Qb3+ 38. Ke4 1/2-1/2',
+      id: '3995394',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'C65',
+      t: 'GCT Blitz Paris 2016',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 O-O 7. Nc4 Nd7 8. Qe2 Re8 9. Bg5 f6 10. Be3 a5 11. a4 Be7 12. O-O c5 13. Nh4 Nf8 14. Nf5 Ng6 15. Nxe7+ Qxe7 16. b3 b6 17. f4 exf4 18. Bxf4 f5 19. Bg3 fxe4 20. Qxe4 Qxe4 21. dxe4 Re7 22. Rfe1 Bb7 23. Rad1 Rae8 24. e5 Nf8 25. Rd2 Ne6 26. Red1 Be4 27. Bf2 Rf7 28. Re1 Bc6 29. Be3 h6 30. h4 Bb7 31. Rf2 Rxf2 32. Kxf2 Rf8+ 33. Kg3 Be4 34. Re2 Bd5 35. Na3 Rf5 36. Bg1 Bb7 37. Nb5 Ba6 38. Bh2 Bxb5 39. axb5 h5 40. Kh3 Kf7 41. Rd2 Ke7 42. g4 Rf3+ 43. Bg3 Nf4+ 44. Kh2 hxg4 45. Bxf4 Rxf4 46. Kg3 Re4 47. h5 c4 48. bxc4 Rxc4 49. Rd3 a4 50. Kh4 Rxc2 51. Kxg4 Rc5 52. Kf5 Rxb5 53. Rg3 Kf8 54. Rd3 Ra5 55. Rd8+ Ke7 56. Rg8 a3 57. Rxg7+ Kf8 58. Rg1 a2 59. Ra1 b5 60. Ke4 b4 61. Kd4 c5+ 62. Kc4 Ra3 63. h6 Rc3+ 64. Kd5 b3 65. e6 b2 66. h7 Rh3 67. Rf1+ Ke8 68. Rg1 b1=Q 0-1',
+      id: '3995449',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D12',
+      t: 'GCT Blitz Paris 2016',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. Nc3 a6 6. h3 h6 7. Bd3 Bxd3 8. Qxd3 e6 9. O-O Bb4 10. Bd2 O-O 11. Nxd5 Nxd5 12. cxd5 Bxd2 13. dxe6 Ba5 14. Qb3 Qc7 15. Ne5 fxe6 16. Qxe6+ Kh7 17. Qg6+ Kg8 18. Qe6+ Kh7 19. Qg6+ Kg8 20. Qe6+ 1/2-1/2',
+      id: '3995494',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'GCT Rapid YourNextMove',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. a3 c5 8. cxd5 Nxd5 9. Nxd5 exd5 10. dxc5 Nxc5 11. Be5 Bf5 12. Be2 Bf6 13. O-O Be4 14. Bxf6 Qxf6 15. Nd4 Ne6 16. Rc1 Nxd4 17. Qxd4 Qxd4 18. exd4 Rfc8 19. Rc5 Rxc5 20. dxc5 d4 21. Rd1 Rd8 22. Bc4 Kf8 23. f3 Bf5 24. Kf2 a5 25. g4 Be6 26. Bd3 Bb3 27. Rd2 Rc8 28. Be4 Rxc5 29. Rxd4 h5 30. h3 hxg4 31. hxg4 Ke7 32. Ke3 b6 33. Kd2 Be6 1/2-1/2',
+      id: '3996233',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'A18',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. c4 e6 2. Nc3 Nf6 3. e4 d5 4. cxd5 exd5 5. e5 Ne4 6. Nf3 Bf5 7. d4 Bb4 8. Bd2 Bxc3 9. Bxc3 O-O 10. Be2 Nd7 11. O-O c5 12. dxc5 Nxc3 13. bxc3 Nxc5 14. Rc1 Rc8 15. Nd4 Bd7 16. c4 dxc4 17. Bxc4 Qe7 18. Re1 Kh8 19. Qf3 Be6 20. Nxe6 Nxe6 21. Bxe6 fxe6 22. Rxc8 Rxc8 23. h3 b5 24. Rd1 h6 25. Rd6 Rf8 26. Qc6 Qh4 27. Qc5 Qc4 28. Qxc4 bxc4 29. Rc6 Rf5 30. Rxe6 c3 31. Rc6 Rxe5 32. Rxc3 Re1+ 33. Kh2 Re2 34. Ra3 Rxf2 35. Rxa7 Rb2 36. Kg3 Kh7 37. a4 Kg6 38. a5 Ra2 39. a6 h5 40. h4 Ra4 41. Ra8 Rg4+ 42. Kh3 Ra4 43. Ra7 Ra3+ 44. Kh2 Ra4 45. g3 Ra2+ 46. Kg1 Kf6 47. Kf1 g5 48. hxg5+ Kxg5 49. Ra8 Kg6 50. Ke1 Kg7 51. Kd1 Kh7 52. Kc1 Kg7 53. Kb1 Ra5 54. Kb2 Ra4 55. Kb3 Ra1 56. Kb4 Rb1+ 57. Kc5 Rc1+ 58. Kb6 Rb1+ 59. Ka7 Rb3 60. Rb8 Rxg3 61. Rb5 Kh6 62. Kb6 h4 63. a7 Rg8 64. Kb7 Rg7+ 65. Ka6 Rg8 66. Rb8 Rg1 67. Rb5 Rg8 68. Rc5 Rh8 69. Kb7 Rh7+ 70. Kb8 h3 71. a8=Q 1-0',
+      id: '3996276',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D05',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. e3 e6 4. c4 c5 5. cxd5 Nxd5 6. e4 Nf6 7. Nc3 cxd4 8. Qxd4 Qxd4 9. Nxd4 a6 10. f3 Bc5 11. Be3 Nc6 12. Nc2 Bxe3 13. Nxe3 Ke7 14. Rc1 Rd8 15. Na4 Bd7 16. Nb6 Rab8 17. Be2 Be8 18. Kf2 Nd7 19. Nxd7 Rxd7 20. Rc3 Rbd8 21. a3 Nd4 22. Bc4 Nc6 23. Be2 Nd4 24. Rd1 f6 25. Bf1 Bf7 26. Rdc1 b5 27. h4 e5 28. g3 Be6 29. Rc7 Nb3 30. R1c6 Rxc7 31. Rxc7+ Rd7 32. Rc2 Na1 33. Rc6 Rd2+ 34. Ke1 Rxb2 35. Rxa6 Nb3 36. Nd5+ Bxd5 37. exd5 Nd4 38. Bd3 Nxf3+ 39. Kf1 Nh2+ 40. Ke1 Nf3+ 41. Kf1 g6 42. h5 f5 43. Rb6 Nh2+ 44. Ke1 Nf3+ 45. Kf1 e4 46. d6+ Ke6 47. Bc4+ Ke5 48. d7 Nh2+ 49. Ke1 Nf3+ 50. Kf1 Nh2+ 51. Ke1 Nf3+ 52. Kf1 1/2-1/2',
+      id: '3996321',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'E32',
+      t: '9th Masters Final 2016',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 d5 7. Nf3 dxc4 8. Qxc4 b6 9. Bg5 Ba6 10. Qa4 Qd7 11. Qc2 c5 12. dxc5 Rc8 13. Bxf6 gxf6 14. Rd1 Qe7 15. Qe4 Qxc5 16. e3 Bxf1 17. Kxf1 Nc6 18. g3 Ne5 19. Kg2 Qc6 20. Qxc6 Rxc6 21. Nxe5 fxe5 22. Rd2 Rac8 23. Rhd1 Rc2 24. Kf3 Kg7 25. e4 a5 26. Ke3 R2c5 27. Rb1 a4 28. b3 axb3 29. Rxb3 Ra5 30. Rdd3 b5 31. Kd2 Rc4 32. f3 Rca4 33. Rdc3 Rd4+ 34. Ke3 Rxa3 35. Rxa3 b4 36. f4 bxa3 37. Rxa3 Rb4 38. fxe5 Rb5 39. Kf4 Rb2 40. h4 h6 41. g4 Rh2 42. h5 Rh1 43. Rf3 Rg1 44. Rf2 Rh1 45. Rf3 Rg1 46. Rf2 1/2-1/2',
+      id: '4000414',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D02',
+      t: '9th Masters Final 2016',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. g3 Bb4+ 5. Bd2 Be7 6. Bg2 O-O 7. O-O c6 8. Qc2 b6 9. Rd1 Nbd7 10. b3 Ba6 11. a4 c5 12. Na3 Bb7 13. Qb2 Qc8 14. Rac1 Bc6 15. dxc5 bxc5 16. cxd5 exd5 17. Nh4 Re8 18. Nf5 Bf8 19. Bf4 Qb7 20. Nb5 Bxb5 21. axb5 Qxb5 22. Ne3 Rac8 23. Nxd5 Nxd5 24. Bxd5 Nb6 25. Bc4 Nxc4 26. Rxc4 Rcd8 27. Ra1 Re6 28. Be3 Rb8 29. Qc2 Qxb3 30. Qxb3 Rxb3 31. Rxa7 Re8 32. Rc7 Rb2 33. Bxc5 Bxc5 34. R7xc5 Rbxe2 35. Rc8 Re1+ 36. Kg2 g6 37. h4 Rxc8 38. Rxc8+ Kg7 39. Rc7 Rd1 40. Rc8 Re1 41. Rc7 Rd1 42. Rc8 1/2-1/2',
+      id: '4001581',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'E06',
+      t: '4th Sinquefield Cup 2016',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Ne5 Nc6 8. Nxc6 bxc6 9. Na3 Bxa3 10. bxa3 Ba6 11. Qd2 Rb8 12. Qa5 Qc8 13. a4 Rd8 14. Ba3 Rxd4 15. Rfb1 Rb6 16. Bc5 Rd7 17. Rd1 h6 18. Rxd7 Nxd7 19. Bxb6 cxb6 20. Qd2 c5 21. Rd1 Nf6 22. Kf1 Kh7 23. Qc2+ Kg8 24. Qd2 Kh7 25. Qd8 Qxd8 26. Rxd8 c3 27. Ke1 Bc4 28. Kd1 Bxa2 29. Kc2 Bc4 30. e3 b5 31. Kxc3 a6 32. Ra8 Nd5+ 33. Bxd5 exd5 34. a5 b4+ 35. Kd2 Bf1 36. Rc8 c4 37. Rb8 b3 38. Kc3 1-0',
+      id: '4003402',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D58',
+      t: 'ch-USA 2015',
+      moves:
+        '1. c4 e6 2. d4 d5 3. Nc3 Be7 4. Nf3 Nf6 5. Bg5 h6 6. Bh4 O-O 7. e3 b6 8. Bd3 Bb7 9. O-O Nbd7 10. Bg3 c5 11. cxd5 Nxd5 12. Nxd5 Bxd5 13. Qe2 cxd4 14. Nxd4 Bf6 15. Rfd1 Bxd4 16. exd4 Nb8 17. Rac1 Nc6 18. Bb5 Rc8 19. Rc3 Ne7 20. Ba6 Rxc3 21. bxc3 Nf5 22. Bf4 Qh4 23. Bc1 Rd8 24. f3 Rd7 25. Bd3 Rc7 26. Bd2 Qd8 27. Rc1 Qf6 28. a4 g5 29. f4 gxf4 30. Qf2 Nh4 31. Bxf4 Nf3+ 32. gxf3 Qxf4 33. Qg3+ Qxg3+ 34. hxg3 Bxf3 35. Kf2 Bc6 36. Ra1 f6 37. a5 b5 38. c4 bxc4 39. Bxc4 Kf7 40. Ke3 Ke7 41. Rb1 Rc8 42. g4 Kd6 43. Ba6 Rg8 44. Rf1 Rxg4 45. Rxf6 Re4+ 46. Kd3 Rh4 47. Bc4 Bd5 48. Bxd5 Kxd5 49. Rf7 Rxd4+ 50. Ke3 Ra4 51. Rxa7 Ra3+ 52. Kf2 Ke4 53. Rh7 Ra2+ 54. Kf1 Kf3 55. Rf7+ Ke3 56. Re7 1/2-1/2',
+      id: '3936009',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'E99',
+      t: '3rd Sinquefield Cup 2015',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. f3 f5 11. Be3 f4 12. Bf2 g5 13. Nd3 Ng6 14. c5 Nf6 15. Rc1 Rf7 16. Kh1 h5 17. cxd6 cxd6 18. Nb5 a6 19. Na3 b5 20. Rc6 g4 21. Qc2 Qf8 22. Rc1 Bd7 23. Rc7 Bh6 24. Be1 h4 25. fxg4 f3 26. gxf3 Nxe4 27. Rd1 Rxf3 28. Rxd7 Rf1+ 29. Kg2 Be3 30. Bg3 hxg3 31. Rxf1 Nh4+ 32. Kh3 Qh6 33. g5 Nxg5+ 34. Kg4 Nhf3 35. Nf2 Qh4+ 36. Kf5 Rf8+ 37. Kg6 Rf6+ 38. Kxf6 Ne4+ 39. Kg6 Qg5# 0-1',
+      id: '3955071',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A05',
+      t: 'Millionaire TB Final 2015',
+      moves:
+        '1. Nf3 Nf6 2. g3 d5 3. Bg2 c6 4. d3 Bg4 5. Nbd2 Nbd7 6. h3 Bxf3 7. Bxf3 e5 8. O-O Bc5 9. e3 a5 10. e4 O-O 11. Qe2 Re8 12. Bg2 a4 13. a3 Qb6 14. Kh1 Qa6 15. Qf3 Nf8 16. b4 axb3 17. Nxb3 dxe4 18. dxe4 Ne6 19. Bb2 Bd4 20. Nxd4 Nxd4 21. Bxd4 exd4 22. Rfe1 Qa4 23. Qd3 Nd7 24. Qd2 Nc5 25. Qb4 Ra5 26. Rad1 Qxa3 27. Qxd4 Qa4 28. Qc3 Qa3 29. Qd4 Qa4 30. Qc3 Qa3 1/2-1/2',
+      id: '3960371',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Millionaire TB Final 2015',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 d6 5. O-O g6 6. d4 exd4 7. e5 dxe5 8. Nxe5 Qd5 9. Qe2 Be7 10. Re1 d3 11. Bxc6+ Qxc6 12. Qxd3 Qd6 13. Qe2 O-O 14. Nc3 Be6 15. Qf3 Nd5 16. Bh6 1/2-1/2',
+      id: '3960372',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A18',
+      t: 'Millionaire TB Final 2015',
+      moves:
+        '1. c4 Nf6 2. Nc3 e6 3. e4 d5 4. cxd5 exd5 5. e5 Ne4 6. d4 Nc6 7. Bb5 Be7 8. Nge2 O-O 9. O-O Bf5 10. Be3 Na5 11. Nxe4 Bxe4 12. Ng3 a6 13. Bd3 Bxd3 14. Qxd3 Nc4 15. Bc1 f6 16. b3 Nb6 17. e6 Qd6 18. Re1 g6 19. Bh6 Rfe8 20. f4 Kh8 21. f5 g5 22. Nh5 Rg8 23. h4 g4 24. Rf1 Qd8 25. Qe2 Qe8 26. Nf4 Bd6 27. Rae1 c6 28. e7 Nc8 29. Qe6 Bxe7 30. h5 b5 31. Ng6+ hxg6 32. hxg6 Ra7 33. Kf2 g3+ 34. Kf3 Rxg6 35. fxg6 Qxg6 36. Qxc8+ Kh7 37. Rh1 1-0',
+      id: '3960373',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D31',
+      t: '76th Tata Steel Masters',
+      moves:
+        '1. c4 e6 2. Nc3 d5 3. d4 c6 4. e4 Bb4 5. e5 c5 6. cxd5 exd5 7. a3 Bxc3+ 8. bxc3 Nc6 9. Nf3 Nge7 10. Be2 O-O 11. O-O cxd4 12. cxd4 h6 13. Bd2 Bf5 14. Qb3 Bg4 15. Bc3 Qd7 16. h3 Be6 17. Rfd1 Ng6 18. Bf1 Rac8 19. Rac1 Rc7 20. Qb2 Qe7 21. g3 Rfc8 22. Kh2 f6 23. exf6 Qxf6 24. Bg2 Nce7 25. Bb4 Rxc1 26. Rxc1 Rxc1 27. Qxc1 Nc6 1/2-1/2',
+      id: '3880675',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C78',
+      t: 'Opera Euro Rapid Prelim',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bb7 7. d3 Be7 8. Nc3 O-O 9. a3 d6 10. Ne2 d5 11. exd5 Nxd5 12. Re1 Kh8 13. Ng3 f6 14. c3 Qd7 15. d4 exd4 16. cxd4 Rad8 17. Qd3 f5 18. Bc2 g6 19. Bh6 Rfe8 20. Bb3 Bf6 21. Qd2 Nb6 22. Bg5 Qg7 23. Rxe8+ Rxe8 24. Re1 Re7 25. d5 Nd4 26. Bxf6 Nxf3+ 27. gxf3 Rxe1+ 28. Qxe1 Qxf6 29. Qe8+ Kg7 30. Qb8 Bxd5 31. Qxc7+ Kh6 32. Qf4+ Kg7 33. Qc7+ Kh6 34. Qf4+ Kg7 35. Qc7+ 1/2-1/2',
+      id: '4279134',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'B54',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Bc4 Nxe4 6. Qh5 e6 7. Nxe6 Bxe6 8.  Bxe6 Qe7 9. Bxf7+ Qxf7 10. Qe2 Qe7 11. O-O Nf6 12. Be3 Nc6 13. Nc3 d5 14. Qf3  O-O-O 15. Rfe1 Qd7 16. Nb5 a6 17. a4 Qg4 18. Qxg4+ Nxg4 19. Bb6 axb5 20. axb5  Nb8 21. Bxd8 Kxd8 22. h3 Nf6 23. Ra7 Kc7 24. Re6 Bc5 25. b6+ Bxb6 26. Re7+ Kd6  27. Raxb7 Nbd7 28. Rxg7 Kc6 0-1',
+      id: '4260799',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B00',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 Nc6 2. d4 d5 3. e5 Bf5 4. c3 e6 5. Nf3 Qd7 6. Nh4 Be4 7. Nd2 O-O-O 8. Bb5  a6 9. Ba4 f6 10. Nhf3 Nge7 11. O-O Ng6 12. Re1 Bf5 13. b4 fxe5 14. dxe5 b5 15.  Bc2 d4 16. Bxf5 exf5 17. c4 Bxb4 18. cxb5 axb5 19. Rb1 Rhe8 20. a4 Qd5 21. axb5  Bxd2 22. Bxd2 Ncxe5 23. Nxe5 Rxe5 24. b6 Rxe1+ 25. Qxe1 Kd7 26. bxc7 Rc8 27. Rb4  Rxc7 28. Qa1 Ke8 29. Rxd4 Qe6 30. h4 Rd7 31. Qa4 Ne5 32. Bf4 Nc6 33. Rc4 Ne7 34.  Rc7 Nd5 35. Rc6 Qe1+ 36. Kh2 Kf7 37. Qa2 Qe4 38. g3 h6 39. h5 Qf3 40. Kg1 Kg8  41. Rc8+ Kh7 42. Qa8 Qd1+ 43. Kh2 Qxh5+ 44. Kg1 Qd1+ 45. Kh2 Nxf4 46. Rh8+ Kg6  47. Qe8+ Kg5 48. gxf4+ Kxf4 49. Rf8 Kg5 50. Qe3+ Kg6 51. Qe6+ Kh7 52. Qg8+ Kg6  53. Qe6+ Kh7 54. Qg8+ Kg6 55. Qe6+ 1/2-1/2',
+      id: '4260801',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'A45',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 Nf6 2. Bf4 c5 3. d5 d6 4. Nc3 a6 5. a4 e5 6. Bd2 e4 7. h3 h5 8. Bf4 Bf5 9.  e3 Nbd7 10. a5 h4 11. Nge2 Ne5 12. Nc1 Nfd7 13. Nb3 Bg6 14. Nd2 f5 15. f3 exf3  16. gxf3 Bh5 17. Rg1 Nf7 18. Be2 Qf6 19. Nc4 g6 20. Bh2 Nde5 21. Nb6 Rd8 22. f4  Nd7 23. Bxh5 Rxh5 24. Nc4 Bg7 25. Qd3 Kf8 26. O-O-O Re8 27. Rg2 Kg8 28. e4 fxe4  29. Nxe4 Qe7 30. Re1 Kh8 31. Rxg6 Nf6 32. Qc3 Rh7 33. Qf3 Nxd5 34. f5 Nf6 35.  Bxd6 Qd8 36. Kb1 Rxe4 37. Rxe4 Nxd6 38. Nxd6 Qxd6 39. Re6 Qf8 40. Qxb7 Ng8 41.  Qe4 Qf7 42. Re8 Rh6 43. Rxh6+ Bxh6 44. Qe6 Kg7 45. Qxf7+ Kxf7 46. Re6 Bd2 47.  Rxa6 Ne7 48. c3 c4 49. f6 Ng6 50. Rc6 Ne5 51. Rc7+ Kxf6 52. a6 Be3 53. a7 Bxa7  54. Rxa7 Kg5 55. Rg7+ Kf4 56. Ka2 1-0',
+      id: '4260803',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B30',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. Nc3 e5 4. Bc4 Be7 5. d3 d6 6. Nd2 Nf6 7. Nf1 Bg4 8. f3  Be6 9. Ne3 O-O 10. O-O Nd7 11. Ncd5 Bg5 12. f4 exf4 13. Nxf4 Bxc4 14. Nxc4 Nde5  15. Ne3 Ne7 16. b3 Qd7 17. Qh5 f6 18. Bb2 N5g6 19. g3 Bxf4 20. gxf4 f5 21. Rae1  Rf7 22. Qg5 d5 23. exd5 Nxd5 24. Nxd5 Qxd5 25. h4 Qd7 26. h5 Nf8 27. h6 Ne6 28.  Qg2 Nd4 29. Re5 Qd6 30. b4 Qxh6 31. bxc5 Nc6 32. Re3 Rd8 33. Rfe1 Rdd7 34. Rg3  Rde7 35. Rxe7 Rxe7 36. Qd5+ Kh8 37. Be5 Qh5 38. Qd6 Qd1+ 39. Kh2 Qh5+ 40. Kg1  Qd1+ 41. Kh2 Qh5+ 42. Kg1 1/2-1/2',
+      id: '4260805',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'A48',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. Nbd2 O-O 5. c3 d6 6. h3 c5 7. dxc5 dxc5 8. e4  Nc6 9. Be2 b6 10. O-O Bb7 11. Re1 Qd7 12. Qc2 Rad8 13. Rad1 Qc8 14. e5 Nd5 15.  Bg3 Nc7 16. Qa4 Ne6 17. Qh4 Ba6 18. Bxa6 Qxa6 19. Qe4 Qb7 20. Nc4 Rxd1 21. Rxd1  Rd8 22. Rxd8+ Ncxd8 23. Qxb7 Nxb7 24. a4 Kf8 25. Kf1 Ke8 26. Ke2 Kd7 27. Kd3  Nbd8 28. Ng1 Nc6 29. Ke4 h5 30. f4 f5+ 31. exf6 exf6 32. f5 Ng5+ 33. Kd3 gxf5  34. Ne3 Ne7 35. Ne2 Ne6 36. Kc4 Kc6 37. b4 cxb4 38. cxb4 Bh6 39. b5+ Kd7 40. Nd5  Nxd5 41. Kxd5 f4 42. Bf2 Bf8 43. Nd4 Nc5 44. Nc6 Nxa4 45. Nxa7 Nc3+ 46. Kc4 Nd1  47. Bxb6 Ne3+ 48. Bxe3 fxe3 49. Kd3 Bc5 50. Nc6 Kd6 51. Na5 Ke5 52. Ke2 Kf4 53.  Nc4 Kg3 54. Nxe3 h4 55. Kd3 Ba7 56. Ke4 f5+ 57. Nxf5+ Kxg2 58. Nxh4+ Kxh3 59.  Nf5 Kg4 60. Ne7 Kg5 61. Ke5 Kh6 62. Ke6 Kg7 63. Nc8 Bf2 64. Nd6 Kf8 65. Kd7 Bg1  66. Ne4 Kf7 67. Kc6 Ke7 68. Nc5 Kd8 69. b6 Bh2 70. b7 Bb8 71. Na6 Bf4 72. Nc5  Bb8 73. Ne6+ Ke7 74. Nc7 Kd8 75. Nd5 Bg3 76. Nf6 Bh2 77. Ne4 Bb8 78. Nc5 Bh2 79.  Ne6+ 1-0',
+      id: '4260807',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'A15',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. c4 Nf6 2. g3 c6 3. Bg2 d5 4. Nf3 Bf5 5. Qb3 Qb6 6. d3 e6 7. Be3 Qxb3 8. axb3  a6 9. Bd4 Nbd7 10. Bc3 Bd6 11. Nh4 Bg4 12. h3 Bh5 13. g4 Bg6 14. Nd2 Ke7 15. O-O  Bf4 16. e3 Bd6 17. g5 Ne8 18. Nxg6+ hxg6 19. b4 Rc8 20. f4 f6 21. Nf3 Bb8 22. b3  Nd6 23. Rae1 Nf5 24. Rf2 Ba7 25. c5 Bb8 26. e4 dxe4 27. dxe4 Nh4 28. gxf6+ gxf6  29. Nd2 g5 30. fxg5 Bg3 31. gxf6+ Kf7 32. Nc4 Rcg8 33. Nd6+ Kf8 34. Rfe2 Nf3+  35. Kf1 Nh2+ 36. Kg1 Bxe1 37. Bxe1 Rxh3 38. Nxb7 Ne5 39. Nd8 Rh6 40. Nxe6+ Kf7  41. Ng7 Nhf3+ 42. Bxf3 Nxf3+ 43. Kf2 Ne5 44. Bc3 Kxf6 45. Nf5 Rh2+ 46. Ke3 Rxe2+  47. Kxe2 Rg2+ 48. Ke3 Ke6 49. Bxe5 Kxe5 50. Nd4 Rg6 51. Nf3+ Ke6 52. Nd4+ Ke5  53. Nf3+ Ke6 54. Nd4+ Ke5 1/2-1/2',
+      id: '4264825',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'D85',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 c5 8.  Rb1 O-O 9. Be2 cxd4 10. cxd4 Qa5+ 11. Bd2 Qxa2 12. O-O Bg4 13. Be3 Nc6 14. d5  Na5 15. Bg5 Qa3 16. Re1 Bc3 17. Qd3 Rfc8 18. Red1 b6 19. h3 Bd7 20. Rdc1 f6 21.  Bd2 Bb2 22. Rxc8+ Rxc8 23. Qa6 Qa2 24. Rxb2 Qxb2 25. Qxa7 Qa1+ 26. Kh2 Qa4 27.  Bd1 Qxd1 28. Qxd7 Qc2 29. Qe6+ Kh8 30. d6 exd6 31. Qxf6+ Kg8 32. Bh6 Qc7 33.  Qe6+ Kh8 34. Ng5 1-0',
+      id: '4264830',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'A13',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. c4 Nf6 2. g3 e6 3. Nf3 d5 4. d4 Bb4+ 5. Bd2 a5 6. Bg2 dxc4 7. O-O O-O 8. Qc2  Bxd2 9. Nbxd2 b5 10. a4 c6 11. e4 Na6 12. b3 Nb4 13. Qc3 cxb3 14. Qxb3 Ba6 15.  Rfc1 bxa4 16. Rxa4 Bb5 17. Ra3 e5 18. dxe5 Nd3 19. Rc3 Nxe5 20. Nxe5 Qxd2 21.  Nf3 Qd7 22. Ne5 Qd4 23. Nxc6 Bxc6 24. Rxc6 Rab8 25. Qc4 Rb1+ 26. Bf1 Qd1 27. Kg2  Nxe4 28. Qd3 Nd2 29. Rd6 Qxf1+ 30. Qxf1 Nxf1 31. Rxa5 Re1 32. h4 h6 33. Rd7 Rb8  34. Raa7 Nxg3 35. Kxg3 Rb3+ 36. f3 Rg1+ 37. Kf2 Rg6 38. Rxf7 Rb5 39. Rf4 Kh7 40.  Rg4 Rxg4 41. fxg4 Rb2+ 42. Kg3 Rb3+ 43. Kf4 Rb4+ 44. Kg3 Rb3+ 45. Kf4 Rb4+ 46.  Kg3 Rb3+ 1/2-1/2',
+      id: '4264835',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'A41',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. d4 d6 2. e4 g6 3. Nf3 Nf6 4. Bd3 Bg7 5. O-O O-O 6. Re1 c5 7. c3 cxd4 8. cxd4  Bg4 9. Nbd2 Nc6 10. h3 Bh5 11. g4 Nxg4 12. hxg4 Bxg4 13. Be2 Rc8 14. a3 Qd7 15.  d5 Bxf3 16. Nxf3 Qg4+ 17. Kh2 Ne5 18. Ng5 Qh4+ 19. Kg2 Bf6 20. Rh1 Rxc1 21. Rxh4  Rxd1 22. Rxd1 Bxg5 23. Rh3 Rc8 24. Rc3 Rxc3 25. bxc3 Nd7 26. Rb1 Nc5 27. e5 dxe5  28. a4 Nxa4 29. Rxb7 Nxc3 30. d6 exd6 31. Ba6 e4 32. Rxa7 e3 33. fxe3 Bxe3 34.  Rc7 Bd4 35. Bc4 d5 36. Bb3 Kg7 37. Rd7 Kf6 38. Kf3 Be5 39. Bxd5 Nxd5 40. Rxd5  Kf5 41. Rd7 Ke6 42. Ra7 h5 43. Ra6+ Kf5 44. Ra7 f6 45. Rh7 Bc3 46. Rh8 Be1 47.  Re8 Bc3 48. Rh8 Kg5 49. Rc8 Be5 50. Rh8 Kh4 51. Kg2 g5 52. Ra8 Kg4 53. Ra4+ Bf4  54. Ra3 h4 55. Rb3 f5 56. Rb4 h3+ 57. Kf2 Kh5 58. Rb5 Kg6 59. Rb6+ Kf7 60. Kf3  Be5 0-1',
+      id: '4264840',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'A20',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. c4 e5 2. g3 d5 3. cxd5 Qxd5 4. Nf3 Nc6 5. Nc3 Qd8 6. Bg2 Nf6 7. b4 a6 8. a3  Bd6 9. Bb2 O-O 10. d3 Re8 11. O-O h6 12. Rc1 Bf5 13. Nd2 Qd7 14. Re1 Rab8 15.  Nde4 Nxe4 16. Nxe4 Bh3 17. Bh1 Nd4 18. Nc5 Bxc5 19. Rxc5 Bg4 20. Rd5 Qe6 21.  Bxd4 exd4 22. Rxd4 Bxe2 23. Qd2 Qb6 24. Rh4 g5 25. Re4 Rxe4 26. dxe4 Bg4 27. e5  Be6 28. h4 gxh4 29. Qxh6 hxg3 30. Re3 gxf2+ 31. Kxf2 Bf5 32. e6 fxe6 33. Qg5+  Kf7 34. Bf3 Qd4 35. Bh5+ Kf8 36. Kf1 Rd8 37. Rg3 Qa1+ 38. Kf2 Qd4+ 39. Kf1 Qa1+  40. Kg2 Qb2+ 41. Kg1 Qa1+ 42. Kh2 Qb2+ 43. Kh1 Qb1+ 44. Rg1 Qe4+ 45. Rg2 Qe1+  46. Kh2 Qe5+ 47. Rg3 Qb2+ 48. Kh1 Qb1+ 49. Rg1 Qe4+ 50. Rg2 Qe1+ 51. Kh2 Qe5+  52. Qg3 Qxg3+ 53. Kxg3 Rd3+ 54. Kf4 Ke7 55. Ke5 Rd5+ 56. Kf4 Kd6 57. Rg8 Rd4+  58. Ke3 Ke5 59. Rb8 Rd3+ 60. Kf2 Rxa3 61. Rxb7 c6 62. Rb6 Be4 63. Be2 Bd5 64.  Rb8 Kd4 65. Rh8 e5 66. Rh4+ e4 67. Rg4 Ra2 68. Ke1 Ke3 69. Rg3+ Kd4 70. Rg4 Ke3  71. Rg3+ Kd4 72. Rh3 Ra1+ 73. Kf2 Ra2 74. Kf1 Ra1+ 75. Kf2 Ra2 76. Ke1 Ra1+ 77.  Bd1 e3 78. Rh4+ Kd3 79. Rh6 Bf3 80. Rd6+ Kc3 1/2-1/2',
+      id: '4264844',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'B90',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Rg1 b5 7. g4 Bb7 8. g5  Nfd7 9. a3 g6 10. h4 Bg7 11. h5 Nc6 12. Be3 Nc5 13. f3 O-O 14. hxg6 fxg6 15.  Nxc6 Bxc6 16. Bh3 Bxc3+ 17. bxc3 e5 18. Bg4 Qe7 19. Qd2 Rad8 20. c4 bxc4 21.  O-O-O Ne6 22. Qc3 Bd7 23. Qxc4 Kg7 24. Qb4 Nf4 25. Bxf4 Bxg4 26. Rxg4 Rxf4 27.  Rxf4 Qxg5 28. Rxd6 Qxf4+ 29. Kb1 Rxd6 30. Qxd6 h5 31. c4 Qxf3 32. Qxe5+ Qf6 33.  Qd5 h4 34. c5 Qf1+ 35. Ka2 Qg2+ 36. Kb3 Qg3+ 37. Ka4 h3 38. c6 h2 39. Qd7+ Kh6  40. Qd8 Qe5 41. Qh4+ Kg7 42. Kb3 Qb5+ 43. Kc3 Qxc6+ 44. Kd3 Qd6+ 45. Ke2 Qxa3  46. Kf2 Qb2+ 47. Kg3 Qf6 48. Qh3 Qc3+ 0-1',
+      id: '4264891',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Be3 c5 8.  Rc1 Qa5 9. Qd2 O-O 10. Nf3 Bg4 11. d5 b5 12. Be2 Nd7 13. O-O Rac8 14. Rfd1 Nb6  15. Bh6 Bxf3 16. gxf3 b4 17. Bxg7 Kxg7 18. cxb4 cxb4 19. Rc6 Rxc6 20. dxc6 Rc8  21. Rc1 Na4 22. Rc4 Nc3 23. Bf1 Qb6 24. a3 Rxc6 25. Rxc6 Qxc6 26. axb4 Nb5 27.  Bxb5 Qxb5 28. Qd4+ e5 29. Qxa7 Qxb4 30. Qc7 Qd4 31. Qe7 h5 32. h4 Qc3 33. Kg2  Qd4 34. Kg1 Qc3 35. Kg2 Qd4 36. Kg1 Qc3 1/2-1/2',
+      id: '4264892',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'B90',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Rg1 b5 7. g4 Bb7 8. g5  Nxe4 9. Nxe4 Bxe4 10. a4 e5 11. axb5 Be7 12. Rg4 axb5 13. Bxb5+ Nd7 14. Bd2 Bb7  15. Nf5 O-O 16. Rxa8 Bxa8 17. Rh4 g6 18. Qg4 Nc5 19. Qh3 h5 20. Rxh5 gxh5 21.  Qxh5 Ne6 1-0',
+      id: '4264893',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D79',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. g3 c6 4. Bg2 d5 5. cxd5 cxd5 6. Nf3 Bg7 7. O-O O-O 8. Ne5  Ne4 9. Nd2 Nxd2 10. Bxd2 Nd7 11. Nxd7 Bxd7 12. e3 e6 13. Qb3 Qb6 14. Qxb6 axb6  15. Rfc1 Rfc8 16. Rxc8+ Rxc8 17. Rc1 Rxc1+ 18. Bxc1 Bb5 19. Bd2 Bf8 20. Bf1 Bxf1  21. Kxf1 f5 22. a4 Kf7 23. f4 h5 24. h4 Ke8 25. b4 Kd7 26. b5 Be7 27. Ke2 Bf8  28. Kd3 Be7 29. Kc2 Bf8 30. Kb3 Be7 31. Bb4 Bd8 32. Bf8 Ke8 33. Bd6 Kd7 34. Bb4  Bc7 35. Ba3 Bd8 36. Bb4 Bc7 37. Ba3 Bd8 38. Bb4 1/2-1/2',
+      id: '4264894',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'B90',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 g6 7. g4 Bg7 8. Bg2  O-O 9. Be3 Nc6 10. Qd2 Nxd4 11. Bxd4 b5 12. g5 Nh5 13. Bxg7 Nxg7 14. e5 Ra7 15.  O-O-O Rd7 16. Bc6 Rc7 17. Bf3 Bf5 18. exd6 exd6 19. Ne4 Ne6 20. h4 Rc4 21. Nf6+  Kh8 22. Bd5 Rxc2+ 23. Qxc2 Bxc2 24. Kxc2 Nf4 25. Kb1 Kg7 26. Rd4 Nxd5 27. Rxd5  h6 28. Rhd1 Qc8 29. a3 Qh3 30. R1d4 Qf1+ 31. Ka2 Qxf2 32. Rxd6 hxg5 33. hxg5 Qg3  34. R6d5 Rc8 35. Rd3 Qf4 36. R3d4 Qh2 37. Rd2 Qc7 38. R2d4 Rh8 39. Rd7 Qe5 40.  R7d5 Qe3 41. Rd3 Qc1 42. Rc3 Qf4 43. Rc2 b4 44. a4 b3+ 45. Kxb3 Rb8+ 46. Ka2  Qxa4+ 47. Kb1 Rh8 48. Rc1 Qb3 49. Rd2 Qe6 50. Rc5 a5 51. Rcd5 a4 52. Ka2 Qe3 53.  R2d3 Qb6 54. Rd6 Qg1 55. R6d5 Rh1 56. Ka3 Qa1+ 57. Kb4 Qxb2+ 58. Ka5 Rh8 59. Rb5  Ra8+ 0-1',
+      id: '4264895',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B06',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. Nf3 d6 2. d4 g6 3. e4 Bg7 4. Nc3 a6 5. Be3 b5 6. Bd3 Bb7 7. a4 b4 8. Ne2 Nf6  9. Ng3 a5 10. c3 Na6 11. O-O O-O 12. h3 c5 13. Qe2 bxc3 14. bxc3 cxd4 15. cxd4  Nb4 16. Rfc1 Rc8 17. Bd2 Rxc1+ 18. Rxc1 Qa8 19. Bb1 Bc6 20. Bxb4 axb4 21. Qc4  Bxa4 22. Qxb4 Bc6 23. Qb6 Rc8 24. Bd3 Bd7 25. Rxc8+ Qxc8 26. Qb2 h5 27. Qd2 Qa8  28. e5 dxe5 29. dxe5 Nd5 30. Be4 Bc6 31. e6 f5 32. Bxd5 Bxd5 33. Nh4 Kh7 34.  Ngxf5 gxf5 35. Qg5 Qa1+ 36. Kh2 Qe5+ 37. f4 Qxe6 38. Qxh5+ Kg8 39. Nxf5 Bf8 40.  Qg5+ Kf7 41. Qh5+ Qg6 42. Nh6+ Bxh6 43. Qxd5+ e6 44. Qb7+ Kg8 45. Qc8+ Kh7 46.  Qb7+ Bg7 47. Qf3 Qf6 48. Qe4+ Kg8 49. Qa8+ Bf8 50. Qe4 Kg7 51. g3 Qb2+ 52. Qg2  Qb3 53. Qe2 Bd6 54. h4 Kf6 55. Qd2 Qd5 56. Qb2+ Kf7 57. Qe2 Qd4 58. Kh3 Qc5 59.  Qe4 Qh5 60. Qb7+ Be7 61. Qe4 Qd5 62. Qh7+ Ke8 63. h5 Qh1+ 64. Kg4 Qd1+ 65. Kh3  Qh1+ 66. Kg4 Qd1+ 67. Kh3 Qd5 68. Qg6+ Kd7 69. h6 Qh1+ 70. Kg4 Qd1+ 71. Kh3 Qd4  72. h7 Bf6 73. Qf7+ Kd6 74. Qf8+ Kd5 75. Qg8 Qa1 76. Qf7 Qh1+ 77. Kg4 Qd1+ 78.  Kh3 Qf1+ 79. Kg4 Qe2+ 80. Kh3 Qb2 81. Qd7+ Ke4 82. Qxe6+ Kf3 83. Qd5+ Ke3 84.  Kg4 Bh8 85. Qf3+ Kd4 86. Qd1+ Kc5 87. Qd7 Qf6 88. Qf5+ Kd6 89. Qxf6+ Bxf6 90.  Kf5 Ke7 91. Kg6 Bh8 92. g4 1-0',
+      id: '4264896',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'A48',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 O-O 5. Be2 d6 6. O-O Nh5 7. Bg5 h6 8. Bh4  g5 9. Nfd2 Nf6 10. Bg3 Nc6 11. Nc3 e5 12. dxe5 Nxe5 13. f4 Neg4 14. Rf3 Re8 15.  Nf1 Nh5 16. Be1 f5 17. Bc4+ Be6 18. Bxe6+ Rxe6 19. h3 Ngf6 20. fxg5 hxg5 21.  Rxf5 Bh6 22. g4 Ng7 23. Rf3 Qd7 24. Ng3 Rae8 25. Bf2 Qc6 26. e4 Nd7 27. Nd5 1-0',
+      id: '4264897',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'B90',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nb3 Be7 8. g4 h6  9. Be3 Nbd7 10. a4 Nf8 11. Bc4 Ng6 12. Qe2 Bd7 13. f3 Rc8 14. h4 Nh7 15. h5 Bh4+  16. Rxh4 Nxh4 17. O-O-O Nxf3 18. Rxd6 Qe7 19. Rb6 Bxg4 20. Bd5 O-O 21. Qg2 Qh4  22. Rg6 Nhg5 23. Kb1 Be6 24. Rxe6 fxe6 25. Bxb7 Qe1+ 26. Bc1 Rxc3 27. bxc3 Nxe4  28. Bxe4 Qxe4 29. Bxh6 Rf7 30. Bc1 Qf5 31. Qe2 Rc7 32. Kb2 Qxh5 33. Qxa6 Qe8 34.  Qb5 Qc6 35. c4 Kf7 36. c5 Nd4 37. Qf1+ Kg8 38. Be3 Qxa4 39. Bxd4 exd4 40. Qf4  Qd7 41. Qe5 Rb7 42. Qe4 Rb8 43. Qe5 Rb4 44. Qe4 Qd5 45. Qg4 Rc4 46. Qf4 Rb4 47.  Qg4 Qf5 48. Qh4 Rc4 49. Qd8+ Kh7 50. Qh4+ Kg6 51. Nxd4 Qe5 52. Qg4+ Kh7 53. Qh4+  Kg8 54. Qd8+ Kf7 55. Qd7+ Kf6 56. c3 Rxc5 57. Qd8+ Kg6 58. Qe8+ Kh7 59. Qd8 Rd5  60. Qh4+ Kg8 61. Qg4 Rd6 62. Qh4 Qf6 63. Qe4 Rb6+ 64. Kc2 Kf7 65. Qa8 Qg6+ 66.  Kd2 Rb2+ 67. Ke3 Qg1+ 68. Kd3 Qf1+ 69. Ke3 Qf2+ 70. Kd3 Qg2 71. Nf3 Qe2+ 72. Kd4  Qd1+ 73. Ke3 Re2+ 74. Kf4 Qd6+ 75. Kg4 Rg2+ 76. Kh5 g6+ 0-1',
+      id: '4264898',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A41',
+      t: 'Legends of Chess Final',
+      moves:
+        '1. d4 d6 2. e4 g6 3. Nf3 Bg7 4. Be2 Nc6 5. O-O e5 6. dxe5 dxe5 7. Qxd8+ Nxd8 8.  Nc3 Ne6 9. Bc4 c6 10. Ng5 Nd8 11. Rd1 Nh6 12. a4 f6 13. Nf3 Nhf7 14. a5 Be6 15.  Be2 Bf8 16. Be3 Nd6 17. Nd2 N8f7 18. f3 Bh6 19. Bf2 Rd8 20. Nb3 Bxb3 21. cxb3 a6  22. Na4 Nc8 23. Nc5 Rxd1+ 24. Rxd1 Nfd6 25. Nxb7 Nxb7 26. Bxa6 Nbd6 27. Bxc8  Nxc8 28. a6 Rf8 29. a7 Nxa7 30. Bxa7 Rf7 31. Bc5 Rb7 32. b4 Bf8 33. Bxf8 Kxf8  34. Rd6 Ke7 35. Rxc6 Rxb4 36. Rc7+ 1/2-1/2',
+      id: '4264899',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'A20',
+      t: 'Saint Louis Rapid 2020',
+      moves:
+        '1. c4 e5 2. g3 Nc6 3. Bg2 h5 4. Nc3 h4 5. e3 Nf6 6. Nge2 h3 7. Bf3 e4 8. Nxe4 Ne5 9. N2c3 Nxc4 10. Nxf6+ Qxf6 11. Nd5 Qd6 12. d4 c6 13. Nc3 Qb4 14. a3 Qa5 15. O-O d5 16. e4 dxe4 17. Bxe4 Be6 18. d5 cxd5 19. Bxd5 Rd8 20. Qe2 Rxd5 21. Qxc4 Re5 22. Qd3 Qc5 23. Qf3 Qc8 24. Bf4 Rc5 25. Ne4 Rc6 26. Ng5 Be7 27. Nxe6 fxe6 28. Be5 Bf6 29. Bxf6 O-O 30. Qg4 Rxf6 31. Qxh3 Rc2 32. b4 Qc6 33. Rad1 Qb6 34. Qg2 Rc3 35. Qe4 Rxa3 36. Rd2 Raf3 37. Kg2 a6 38. Rc2 Rf8 0-1',
+      id: '4270292',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'A01',
+      t: 'Saint Louis Blitz 2020',
+      moves:
+        '1. b3 g6 2. Bb2 Nf6 3. e4 c5 4. f4 Bg7 5. Qf3 d6 6. Bb5+ Bd7 7. Bxd7+ Qxd7 8. Ne2 O-O 9. O-O Nc6 10. d3 b5 11. c4 b4 12. h3 a5 13. a4 bxa3 14. Rxa3 Rab8 15. Bc3 Ne8 16. Qe3 f5 17. exf5 gxf5 18. Bxg7 Nxg7 19. Nbc3 Ne6 20. Nb5 Rf6 21. Rf3 Rg6 22. Rg3 Kf7 23. Kh2 Qd8 24. Qf3 Rc8 25. Qh5 Ng7 26. Qxh7 Rxg3 27. Kxg3 Qg8 28. Qxg8+ Rxg8 29. Kf3 Ne6 30. Ra1 Kf6 31. g4 Rh8 32. g5+ Kg6 33. Kg3 Nb4 34. d4 cxd4 35. Nbxd4 Nc5 36. Rxa5 Ne4+ 37. Kg2 Nc5 38. Rb5 Nbd3 39. b4 Ne4 40. Nxf5 Ne1+ 41. Kf1 Rxh3 42. Kxe1 Rh1+ 43. Ng1 Rxg1+ 44. Ke2 e5 45. Nh4+ Kh5 46. Nf3 Rg4 47. Ke3 Nc3 48. Rb6 Rxf4 49. Rxd6 Rxc4 50. Rh6+ Kg4 51. Rh4+ 1-0',
+      id: '4270354',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A22',
+      t: 'Saint Louis Blitz 2020',
+      moves:
+        '1. c4 e5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nb6 6. b3 Nc6 7. Bb2 Be6 8. Bxc6+ bxc6 9. Nf3 Bd6 10. d4 exd4 11. Qxd4 f6 12. Qe4 Kf7 13. Qxc6 Qe8 14. Qe4 h5 15. Nd4 Bd7 16. Qxe8+ Rhxe8 17. f3 c5 18. Nc2 Be5 19. Nd1 Bxb2 20. Nxb2 Bb5 21. e4 f5 22. Ne3 fxe4 23. f4 Red8 24. Rd1 Rd4 25. Nf5 Rad8 26. Nxd4 cxd4 27. a4 Ba6 28. a5 Nc8 29. Nc4 Ne7 30. Kf2 Nf5 31. Rhe1 e3+ 32. Kf3 Bb7+ 33. Ke2 Ke6 34. Rg1 Be4 35. Ne5 Rb8 36. Nf3 Bxf3+ 37. Kxf3 Rxb3 38. Ke4 e2 39. Rd3 Rb5 40. Re1 Rxa5 41. Rxe2 g6 42. Kf3+ Kd6 43. h3 Ra4 44. g4 hxg4+ 45. hxg4 Ne7 46. Ke4 Nc6 47. Rh2 Ra1 48. Rh6 Re1+ 49. Kf3 Rf1+ 50. Kg3 Rg1+ 51. Kh4 Rh1+ 52. Kg5 Rxh6 53. Kxh6 Kd5 54. Kxg6 Ke4 55. Rd1 Kxf4 56. g5 Ne5+ 57. Kh5 Ke4 58. Re1+ Kf5 59. Rf1+ Ke4 60. Re1+ Kf5 61. Kh6 Nf7+ 62. Kh5 Ne5 1/2-1/2',
+      id: '4270382',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'C60',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. Nc3 Ng6 5. d4 exd4 6. Nxd4 Bc5 7. Be3 Bxd4 8. Bxd4 Qg5 9. g3 Nxd4 10. Qxd4 Ne5 11. Be2 Nc6 12. Qc4 d6 13. Nd5 Qd8 14. Qc3 O-O 15. O-O-O Re8 16. f3 Be6 17. Bb5 Bd7 18. h4 a6 19. Ba4 b5 20. Bb3 a5 21. a3 b4 22. axb4 axb4 23. Nxb4 Nxb4 24. Qxb4 Be6 25. Bxe6 Rxe6 26. Qc3 h5 27. b3 Rg6 28. f4 Ra6 29. Kb2 Re6 30. Qc4 Qf6+ 31. c3 Ra8 32. Rhe1 Qe7 33. Rd5 c6 34. Rd4 d5 35. Qe2 Qa3+ 36. Kc2 Qa2+ 37. Kd3 Qxb3 38. Qc2 Qb4 1-0',
+      id: '4274564',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'D85',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Bd2 Bg7 6. e4 Nxc3 7. Bxc3 O-O 8. Qd2 Nc6 9. Nf3 Bg4 10. d5 Bxf3 11. Bxg7 Kxg7 12. gxf3 Ne5 13. O-O-O c6 14. Bh3 Kg8 15. Qc3 Qb8 16. d6 exd6 17. f4 Re8 18. Rhe1 a5 19. Kb1 a4 20. fxe5 Rxe5 21. f4 Rc5 22. Qf6 a3 23. b3 Rh5 24. Rxd6 Qe8 25. Be6 fxe6 26. Red1 1-0',
+      id: '4275345',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B35',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. Nc3 g6 4. d4 cxd4 5. Nxd4 Bg7 6. Be3 Nf6 7. Bc4 O-O 8. Bb3 d6 9. h3 Na5 10. O-O b6 11. Qd2 Bb7 12. f3 Rc8 13. Bh6 Bxh6 14. Qxh6 e5 15. Nde2 b5 16. a3 Nxb3 17. cxb3 d5 18. exd5 Nxd5 19. Kh1 Qb6 20. Ne4 f6 21. Rfc1 Ne7 22. Rxc8 Rxc8 23. Rc1 Bxe4 24. fxe4 Rxc1+ 25. Qxc1 a6 26. Qd1 Kf7 27. b4 Qe6 28. Nc3 Nc6 29. Nd5 Qd6 30. Qc1 Ne7 31. Qc7 Qxc7 32. Nxc7 Nc8 33. Nxa6 Nd6 34. Nc7 Ke7 35. Nd5+ Ke6 36. Nc3 f5 37. Kg1 f4 38. b3 Kd7 39. a4 g5 40. Kf2 h5 41. Kf3 Kc6 42. Nd5 g4+ 43. hxg4 hxg4+ 44. Kxg4 Nxe4 45. Ne7+ Kd6 46. Ng6 Nf6+ 47. Kf5 Nd5 48. Nxe5 bxa4 49. bxa4 Nxb4 50. Ng6 Nd5 51. Nxf4 Ne3+ 52. Ke4 Nxg2 53. Nxg2 Kc5 1/2-1/2',
+      id: '4275347',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8. h3 O-O 9. Be2 Nc6 10. Be3 cxd4 11. cxd4 Qa5+ 12. Bd2 Qa3 13. Be3 Qa5+ 14. Bd2 Qa3 15. Be3 Qc3+ 16. Bd2 Qb2 17. Rb1 Qxa2 18. d5 Ne5 19. O-O Nxf3+ 20. Bxf3 a5 21. Bf4 a4 22. e5 Qc4 23. Qd2 a3 24. Rfc1 Qa4 25. Ra1 Bf5 26. Ra2 Rfc8 27. Rca1 Qb3 28. Bd1 Qc3 29. Qxc3 Rxc3 30. Bd2 Rd3 31. f4 g5 32. Bb4 gxf4 33. Bc2 Rd4 34. Bxe7 Bxc2 35. Rxc2 Bxe5 36. Rxa3 Rxa3 37. Bxa3 Rxd5 38. Kf2 Kg7 39. Bb2 b5 40. Bxe5+ Rxe5 41. Rb2 Kg6 42. Kf3 Kg5 43. Rb4 f6 44. Kf2 Rd5 45. Kf3 Rc5 46. Kf2 Kf5 47. Kf3 Ke6 48. Re4+ Re5 49. Rb4 Rf5 50. Rb1 h5 51. Ke4 h4 52. Ra1 Rd5 53. Ra8 Rd2 54. Rb8 Rxg2 55. Rb6+ Kf7 56. Rxb5 Kg6 57. Kxf4 Rg3 58. Rb8 Rxh3 59. Kg4 Rh1 60. Rg8+ Kf7 61. Ra8 Kg7 62. Rb8 h3 63. Kg3 Kg6 64. Rb6 Kg5 65. Rb5+ f5 66. Ra5 Rb1 67. Kxh3 Rb3+ 68. Kg2 Kg4 69. Ra8 Rb2+ 70. Kg1 Rb3 71. Kg2 Kf4 72. Ra4+ Ke3 73. Kg3 Rd3 74. Rf4 Ke2+ 75. Kg2 Rd5 76. Kg3 1/2-1/2',
+      id: '4275349',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8. Rxe5 O-O 9. d4 Bf6 10. Re1 Nf5 11. c3 d5 12. Bf4 Bg5 13. Qd2 Bxf4 14. Qxf4 Qd6 15. Qf3 c6 16. Bd3 g6 17. Nd2 Bd7 18. Re5 f6 19. Re2 Rae8 20. Rae1 Nh4 21. Qg3 Qxg3 22. hxg3 Rxe2 23. Bxe2 Nf5 24. g4 Nd6 25. f3 Re8 26. Kf2 a5 27. b3 f5 28. gxf5 Nxf5 29. Rc1 h5 30. Bd3 Kg7 31. Nf1 Kf6 32. Bxf5 Bxf5 33. Ne3 a4 34. c4 axb3 35. axb3 dxc4 36. bxc4 Ra8 37. d5 cxd5 38. Nxd5+ Ke5 39. Re1+ Kd4 40. Rd1+ Kc5 41. Ne3 Be6 42. Rb1 Kc6 43. c5 Kxc5 44. Rxb7 Ra2+ 45. Kg3 Re2 46. Nd1 h4+ 1/2-1/2',
+      id: '4275351',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'C84',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 d6 7. c3 O-O 8. Nbd2 Re8 9. Re1 Bf8 10. d4 b5 11. Bc2 exd4 12. cxd4 Bg4 13. Nf1 g6 14. Ng3 Bg7 15. Be3 Nd7 16. Rc1 Bxf3 17. gxf3 Qf6 18. Bb3 Nxd4 19. Bxd4 Qxd4 20. Rxc7 Ra7 21. Rxa7 Qxa7 22. Qxd6 Bxb2 23. f4 Nc5 24. Bd5 Bd4 25. Re2 Nd3 26. Kg2 Kg7 27. Rd2 Bc5 28. Qc6 Nxf4+ 29. Kf3 Rd8 30. Kxf4 Rd6 31. Qe8 Bxf2 32. Kg4 Rf6 33. e5 h5+ 34. Kh3 Rf4 35. e6 fxe6 36. Bxe6 Bd4 37. Nxh5+ gxh5 38. Rg2+ Kf6 39. Rg6+ Ke5 40. Bb3+ 1-0',
+      id: '4275353',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B22',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. Nf3 Nc6 5. Bc4 Nb6 6. Bb3 d5 7. exd6 Qxd6 8. O-O Be6 9. Bxe6 Qxe6 10. a4 Qd7 11. a5 Nd5 12. a6 b6 13. d4 cxd4 14. Nxd4 e6 15. Nxc6 Qxc6 16. Qg4 h5 17. Qe2 b5 18. Na3 Bxa3 19. Rxa3 f6 20. Rb3 Nc7 21. Rb4 Qxa6 22. Rh4 Kf7 23. Rxh5 Nd5 24. Re1 Qc6 25. h4 a5 26. Rxh8 Rxh8 27. h5 a4 28. Bd2 Ne7 29. h6 gxh6 30. Qh5+ Ng6 31. Bxh6 Qd6 32. Rd1 Qc6 33. Rd4 f5 34. Rd3 Rg8 35. Bg5 Rh8 36. Qe2 Qc7 37. Rh3 Rxh3 38. gxh3 Qe5 39. Qd1 Nf8 40. h4 Kg6 41. Qd8 Qg7 42. Qe8+ Kh7 43. Qxb5 Ng6 44. Qxa4 Ne5 45. Qf4 Qh8 46. b4 Kg6 47. Qe3 Kf7 48. b5 Qb8 49. Bf4 Qg8+ 50. Kf1 Ng4 51. Qa7+ Kg6 52. Qe7 Nf6 53. h5+ 1-0',
+      id: '4275355',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C84',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3 Na5 9. Ba2 c5 10. Nc3 Be6 11. Nh4 O-O 12. Nf5 Bxf5 13. exf5 d5 14. Qf3 c4 15. Bg5 e4 16. dxe4 dxe4 17. Qh3 Qc7 18. Rae1 Rfe8 19. Bb1 Rad8 20. Bxf6 Bxf6 21. Nxe4 Bxb2 22. f6 Qd7 23. Qg3 g6 24. Qe3 Rxe4 25. Qxe4 Bxf6 26. a4 b4 27. Qf3 Qc6 28. Qxc6 Nxc6 29. Re4 Nd4 30. Rfe1 Kf8 31. Kf1 b3 32. c3 Nc2 33. Bxc2 bxc2 34. Rc1 Rd1+ 35. Re1 Rd2 36. Re2 Rd1+ 37. Re1 Rd2 38. Re2 Rd1+ 39. Re1 1/2-1/2',
+      id: '4275357',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B51',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. a4 Nf6 5. Nc3 a6 6. Be2 b6 7. d4 cxd4 8. Qxd4 Bb7 9. O-O e6 10. Rd1 Qc7 11. Be3 Ng4 12. Bg5 h6 13. Bh4 Nge5 14. Nxe5 dxe5 15. Qc4 Qxc4 16. Bxc4 Rc8 17. Bd3 Bc5 18. Kf1 Bd4 19. f3 Bxc3 20. bxc3 Rxc3 21. Rdb1 Bc8 22. Rb2 O-O 23. Bf2 f5 24. Bxb6 fxe4 25. Bxe4 Nf6 26. Bd3 e4 27. fxe4 Nxe4+ 28. Kg1 Nc5 29. Bxc5 Rxc5 30. a5 e5 31. Rb6 Rf6 32. Rf1 Rxb6 33. axb6 Bb7 34. c4 a5 35. Bf5 Rc6 1/2-1/2',
+      id: '4275359',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B33',
+      t: 'Airthings Masters Prelim',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c4 b4 12. Nc2 a5 13. g3 h5 14. h4 g6 15. Bh3 Bb7 16. Qd3 Bg7 17. Rd1 O-O 18. O-O Rb8 19. b3 Re8 20. Rfe1 Ba8 21. Nde3 Bf8 22. Nd5 Bg7 23. Nde3 Bf8 24. Nd5 Bg7 1/2-1/2',
+      id: '4276991',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'E60',
+      t: '81st Tata Steel GpA',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. f3 e6 4. e4 c5 5. d5 d6 6. Nc3 Bg7 7. Nge2 exd5 8. cxd5 a6  9. a4 O-O 10. Ng3 Nbd7 11. Be2 Ne8 12. Bf4 Rb8 13. O-O c4 14. Bxc4 Qb6+ 15. Rf2  Bd4 16. Qd2 Ne5 17. Bf1 Bxf2+ 18. Qxf2 Qxf2+ 19. Kxf2 Bd7 20. Be3 f5 21. exf5  gxf5 22. Bd4 Nf6 23. Kg1 Rbc8 24. Ra3 Nc4 25. Rb3 b5 26. axb5 Nd2 27. Rb4 Nxf1  28. bxa6 Nxg3 29. hxg3 Rb8 30. Rxb8 Rxb8 31. Bxf6 Ra8 32. Nd1 1/2-1/2',
+      id: '4168181',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'B32',
+      t: "Cote d'Ivoire Rapid 2019",
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. N1c3 a6 7. Na3 Be7 8. g3 Nf6 9. Bg2 b5 10. Nd5 Nxd5 11. exd5 Nb8 12. O-O Nd7 13. c4 O-O 14. cxb5 axb5 15. Nc2 f5 16. Nb4 Bf6 17. Nc6 Qe8 18. a4 Nc5 19. Be3 Nxa4 20. Qc2 Bd7 21. b3 f4 22. bxa4 fxe3 23. axb5 Rxa1 24. Rxa1 Bg5 25. b6 exf2+ 26. Kh1 Bc8 27. Rf1 Qf7 28. Qe2 e4 29. h4 e3 30. hxg5 Re8 31. Kh2 Bg4 32. Qxg4 e2 33. b7 Qxb7 34. Rxf2 e1=Q 35. Qf5 Qe3 36. Rf3 Qe2 37. Nd4 Qe5 38. Qg4 Qbxd5 39. Nf5 Qde6 40. Qh5 Qg6 41. Qg4 h5 42. Qc4+ d5 43. Qb5 Qxg5 44. Qd7 h4 45. Rf1 hxg3+ 46. Kg1 g6 47. Bxd5+ Kh8 0-1',
+      id: '4193574',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A28',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. e4 Bc5 5. Nxe5 Nxe5 6. d4 Bb4 7. dxe5 Nxe4 8. Qf3 Nxc3 9. bxc3 Be7 10. Qg3 g6 11. Bh6 d6 12. Be2 Be6 13. Rd1 Qd7 14. exd6 cxd6 15. O-O O-O-O 16. Be3 Qa4 17. Rb1 d5 18. Qf3 Qc6 19. Bxa7 dxc4 20. Qe3 Rhe8 21. Rb6 Qd7 22. Bf3 Bd5 23. Qe5 Qc7 24. Qxc7+ Kxc7 25. Bxd5 Rxd5 26. Rfb1 Ra8 27. Rxb7+ Kd8 28. g3 Rd7 29. Rxd7+ Kxd7 30. Rb7+ Ke6 31. a4 Bd8 32. Kg2 h5 33. Kf3 Bf6 34. Rb6+ Kf5 35. Rb7 Ke6 36. a5 Bxc3 37. a6 Ba5 38. Ke2 c3 39. Kd3 Rd8+ 40. Kc2 Rd6 41. Rb3 Rxa6 42. Bd4 Rd6 43. Bxc3 Rc6 44. Kd3 Bxc3 45. Rxc3 Rxc3+ 46. Kxc3 Kf5 47. f3 g5 48. Kd4 Ke6 49. Ke4 f6 50. h4 f5+ 51. Ke3 f4+ 52. gxf4 gxh4 1/2-1/2',
+      id: '4193640',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B33',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Nd5 Nxd5 8. exd5 Nb8 9. a4 Be7 10. Be2 O-O 11. O-O f5 12. f4 a6 13. Na3 Nd7 14. Nc4 b6 15. fxe5 Nxe5 16. Be3 Nxc4 17. Bxc4 Bf6 18. Bd4 Bd7 19. Kh1 Re8 20. c3 Bxd4 21. Qxd4 Re4 22. Qd3 Qc8 23. b3 Qc5 24. Bxa6 Re3 25. Qc4 Rxc3 26. Qxc5 Rxc5 27. Bb7 Ra7 28. Bc6 Bxc6 29. dxc6 g6 30. Rfc1 Rc7 31. b4 R5xc6 32. Rxc6 Rxc6 33. a5 bxa5 34. bxa5 Ra6 35. Kg1 Kf7 36. Kf2 Ke6 37. Ke3 Kd5 38. Kf4 h6 39. h4 Ke6 40. g4 fxg4 41. Kxg4 Ke5 42. Kf3 Kd4 43. Kf4 Kc4 44. Ke4 Kc5 45. Rc1+ Kb4 46. Rg1 h5 47. Kd4 Rxa5 48. Rb1+ Ka4 49. Ra1+ Kb5 50. Rxa5+ Kxa5 51. Kd5 Kb4 52. Kxd6 g5 1/2-1/2',
+      id: '4193682',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'B30',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. Nc3 e5 4. Bc4 g6 5. d3 h6 6. h4 d6 7. h5 g5 8. Nh2 Bg7 9.  Ng4 Nge7 10. Ne3 O-O 11. Bd2 Kh8 12. g4 Rb8 13. a4 Nd4 14. Ncd5 Nxd5 15. Nxd5  Ne6 16. f3 Nf4 17. Qb1 Be6 18. Qa2 Qd7 19. Rg1 b6 20. Bc3 Bxd5 21. Bxd5 a6 22.  Bd2 Qe7 23. Rf1 b5 24. axb5 axb5 25. Kf2 c4 26. Bxf4 exf4 27. Rad1 f5 28. gxf5  g4 29. d4 Qh4+ 30. Ke2 Qh2+ 31. Rf2 gxf3+ 0-1',
+      id: '4200137',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Qa4+ Nd7 8.  Nf3 c5 9. Be2 O-O 10. O-O Nb6 11. Qa3 cxd4 12. cxd4 Bg4 13. Rd1 Bxf3 14. Bxf3  Bxd4 15. e5 Nc4 16. Qb4 Rc8 17. Bh6 Bxa1 18. Rxd8 Rfxd8 19. e6 Ne5 20. exf7+  Nxf7 21. Be3 Bd4 22. Qxe7 Re8 23. Qa3 b6 24. Bd5 Rc5 25. Bxf7+ Kxf7 26. Qxa7+  Re7 27. Qa6 b5 28. h3 Bxe3 29. fxe3 Rce5 30. Qb6 R7e6 31. Qb7+ Re7 32. Qb6 R7e6  33. Qb7+ Re7 34. Qb6 1/2-1/2',
+      id: '4211837',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B51',
+      t: 'Tata Steel India Rapid',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. d4 cxd4 5. Qxd4 a6 6. Be2 Ngf6 7. O-O e5 8. Qe3 Nc5 9. Nfd2 b5 10. c4 bxc4 11. Nc3 Bb7 12. Bxc4 Be7 13. b4 Ne6 14. Nb3 Rc8 15. Na5 Qd7 16. Qd3 O-O 17. Be3 Bd8 18. Nxb7 Qxb7 19. Nd5 Nc7 20. Nxf6+ Bxf6 21. Rab1 Rfd8 22. Rfd1 h6 23. f3 Qc6 24. Qb3 Qe8 25. a4 Rb8 26. b5 axb5 27. axb5 Ne6 28. b6 Bg5 29. Bf2 Nd4 30. Bxd4 exd4 31. Rxd4 Rdc8 32. b7 Rc5 33. Bd5 Qe7 34. Rc4 Qc7 35. Rxc5 dxc5 36. g3 Bf6 37. Kg2 Qe7 38. Qb6 Be5 39. Qc6 Kh7 40. f4 Bd4 41. Qc8 Qd6 42. Qf5+ Kh8 43. Kh3 Qa6 44. e5 1-0',
+      id: '4230892',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'B01',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. d4 Nf6 5. Nf3 c6 6. Bc4 Bg4 7. Be3 e6 8. h3 Bh5 9. g4 Bg6 10. Qe2 Nbd7 11. O-O-O Be7 12. Ne5 Nxe5 13. dxe5 Qxe5 14. f4 Qc7 15. Rhf1 b5 16. Bb3 b4 17. Na4 O-O 18. h4 Be4 19. g5 Nd5 20. Bd4 Bf5 21. h5 Nxf4 22. Qe3 Bxg5 23. Kb1 Rfd8 24. Be5 Rxd1+ 25. Rxd1 Nd5 26. Qd4 Qe7 27. Bxg7 Rd8 28. h6 Nc3+ 29. bxc3 Rxd4 30. Rxd4 Bf6 0-1',
+      id: '4230956',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A04',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. Nf3 c5 2. c3 d5 3. d4 cxd4 4. cxd4 Nc6 5. Nc3 Nf6 6. Bf4 Nh5 7. Bd2 Nf6 8. Bf4 Nh5 9. Bd2 Nf6 10. Bf4 1/2-1/2',
+      id: '4232221',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D87',
+      t: 'World Blitz 2019',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8. Ne2 O-O 9. Be3 Nc6 10. h4 Qa5 11. O-O Rd8 12. Qb3 e6 13. d5 exd5 14. Bxd5 Ne5 15. Rad1 c4 16. Qb1 Qc7 17. h5 Ng4 18. Bf4 Be5 19. Qc1 Be6 20. Bxe6 fxe6 21. hxg6 hxg6 22. Bxe5 Qxe5 23. Qf4 Qxf4 24. Nxf4 Kf7 25. f3 Ne3 26. Rxd8 Rxd8 27. Rb1 b6 28. Kf2 Nd1+ 29. Ke1 Nxc3 30. Rc1 g5 1/2-1/2',
+      id: '4243743',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B33',
+      t: 'World Blitz 2018',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c4 b4 12. Nc2 a5 13. g3 1/2-1/2',
+      id: '4165721',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'A21',
+      t: '79th Tata Steel GpA',
+      moves:
+        '1. c4 e5 2. Nc3 Bb4 3. Nd5 Bc5 4. Nf3 c6 5. Nc3 d6 6. e3 Qe7 7. d4 exd4 8. Nxd4  Nf6 9. Be2 O-O 10. O-O d5 11. cxd5 cxd5 12. Nb3 Bb4 13. Nxd5 Nxd5 14. Qxd5 Rd8  15. Qh5 Nc6 16. a3 Bd6 17. Nd4 Be5 18. Nxc6 bxc6 19. Bc4 g6 20. Qe2 Be6 21. Bxe6  Qxe6 22. Rb1 Rab8 23. b4 c5 24. Bb2 Qa2 25. Rfe1 Bxb2 26. Qxb2 Qxb2 27. Rxb2 a5  28. Kf1 1/2-1/2',
+      id: '4033228',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C45',
+      t: 'GCT Rapid YourNextMove',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 Qf6 6. Qf3 dxc6 7. Nc3 Be6 8. Qg3 O-O-O 9. Be3 Bxe3 10. Qxe3 Kb8 11. f4 Qe7 12. Bd3 Nh6 13. O-O-O f6 14. g3 Nf7 15. Rhe1 Rhe8 16. a3 h6 17. Be2 Rxd1+ 18. Bxd1 Nd6 19. e5 Nc4 20. exf6 Qxf6 21. Qc5 Rd8 22. Be2 Nd6 23. Bd3 Qf7 24. b3 Bd7 25. Re5 b6 26. Qe3 Qf6 27. Ne4 Qf8 28. Nxd6 cxd6 29. Re7 1/2-1/2',
+      id: '4054984',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'C22',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qe3 Bb4+ 5. Nc3 Nf6 6. Bd2 O-O 7. O-O-O Re8 8. Qf4 Bxc3 9. Bxc3 Rxe4 10. Qg3 d5 11. f3 Re8 12. Ne2 a5 13. Nf4 Nb4 14. Bxf6 Qxf6 15. a3 Bf5 16. axb4 axb4 17. Nxd5 Ra1+ 18. Kd2 Qxb2 19. Qxc7 Rxd1+ 0-1',
+      id: '4055009',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B92',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nf3 Be7 8. Bg5 Nbd7 9. a4 O-O 10. Nd2 Nc5 11. Bxf6 Bxf6 12. Nc4 Be7 13. O-O Be6 14. a5 Rc8 15. Nb6 Rc6 16. b4 Nd7 17. Nbd5 Bg5 18. Na4 Bxd5 19. exd5 Rc7 20. c4 e4 21. c5 dxc5 22. d6 Rc8 23. Bg4 cxb4 24. Bxd7 Qxd7 25. Nb6 Qc6 26. Nxc8 Rxc8 27. Rb1 e3 28. fxe3 Rd8 29. Qb3 Qd7 30. Qxb4 Qxd6 31. Qxb7 Bxe3+ 32. Kh1 Rf8 33. Rbd1 Qh6 34. Qxf7+ 1-0',
+      id: '4055054',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'A29',
+      t: '5th Sinquefield Cup 2017',
+      moves:
+        '1. c4 e5 2. Nc3 Nc6 3. Nf3 Nf6 4. g3 g6 5. d4 exd4 6. Nxd4 Bg7 7. Bg2 O-O 8. Bf4 Nh5 9. Nxc6 dxc6 10. Qxd8 Rxd8 11. Bxc7 Rd4 12. c5 Rc4 13. O-O Rxc5 14. Rfc1 Nf6 15. Bd6 Rh5 16. Rd1 Be6 17. Bf3 Ra5 18. Rd2 h6 19. Rad1 Ra6 20. e4 Bg4 21. Bxg4 Nxg4 22. Kg2 Ne5 23. b3 Nc4 24. bxc4 Bxc3 25. Rc2 Bg7 26. c5 Re8 27. e5 b5 28. cxb6 axb6 29. Rxc6 Rxa2 30. Re1 b5 31. Rb6 Rd2 32. Rxb5 1/2-1/2',
+      id: '4062755',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'A04',
+      t: '9th London Classic 2017',
+      moves:
+        '1. Nf3 c5 2. c3 d5 3. d4 cxd4 4. cxd4 Nc6 5. Nc3 Nf6 6. Bf4 Nh5 7. Bd2 Nf6 8. e3 e6 9. Bd3 Bd6 10. e4 dxe4 11. Nxe4 Be7 12. O-O O-O 13. Qc2 h6 14. Rad1 Bd7 15. a3 Rc8 16. Nc3 a6 17. Qc1 Re8 18. Rfe1 Bf8 19. Bf4 b5 20. Qd2 b4 21. axb4 Nxb4 22. Ne5 Nxd3 23. Qxd3 a5 24. Qf3 Bb4 25. Re3 Bxc3 26. bxc3 Ba4 27. Ra1 Bc2 28. h3 Bf5 29. g4 Bh7 30. c4 Nd7 31. Nc6 Qf6 32. Nxa5 Nb6 33. c5 Rxc5 34. dxc5 Qxa1+ 35. Kh2 Qxa5 36. Qc6 Qa4 37. Qxa4 Nxa4 38. c6 Nb6 39. c7 f6 40. Rb3 Nc8 0-1',
+      id: '4084175',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D41',
+      t: 'Opera Euro Rapid Prelim',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 cxd4 6. Qxd4 exd5 7. e4 dxe4 8. Qxd8+ Kxd8 9. Ng5 Be6 10. g3 Bb4 11. Bd2 Ke7 12. Bg2 Nc6 13. Nxe6 Kxe6 14. Nxe4 Nxe4 15. Bxe4 Bxd2+ 16. Kxd2 Rad8+ 17. Ke3 Ne5 18. Rac1 Rd7 19. f4 f5 20. Bxf5+ Kxf5 21. Rc5 Re8 22. Rf1 b6 23. Rb5 Rd3+ 24. Ke2 Rd7 25. Rf3 Kf6 26. fxe5+ Ke6 27. Rc3 Kf5 28. Re3 Rde7 29. Rf3+ Kg6 30. Re3 Kf5 31. Rf3+ Kg6 32. Kd3 Rxe5 33. Rxe5 Rxe5 34. a4 h5 35. b4 Re1 36. Kc4 a6 37. Rd3 Kf5 38. Rd6 Re4+ 39. Kc3 Re3+ 40. Kc4 Re4+ 41. Kc3 Re3+ 42. Kc4 Re4+ 1/2-1/2',
+      id: '4279149',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C24',
+      t: 'Saint Louis Rapid 2020',
+      moves:
+        '1. e4 e5 2. Bc4 Nf6 3. d3 c6 4. Nf3 d5 5. Bb3 Bb4+ 6. c3 Bd6 7. O-O O-O 8. exd5 cxd5 9. Bg5 Be6 10. c4 d4 11. c5 Bxb3 12. Qxb3 Bxc5 13. Bxf6 Qxf6 14. Qxb7 Nc6 15. Qb5 Be7 16. Rc1 Rfc8 17. Nbd2 Qe6 18. a3 Rab8 19. Qc4 Nd8 20. Qxe6 Rxc1+ 21. Rxc1 Nxe6 22. b4 f6 23. g3 a5 24. Rc6 Nd8 25. Rc7 Rb7 1/2-1/2',
+      id: '4270319',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'D85',
+      t: 'Saint Louis Blitz 2020',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8. Rb1 O-O 9. Be2 Bg4 10. Rxb7 Bxf3 11. Bxf3 cxd4 12. cxd4 Bxd4 13. O-O Nc6 14. Qa4 Rc8 15. Ba3 Bb6 16. Rd1 Qe8 17. Be2 Na5 18. Bb5 Nxb7 19. Bxe8 Rfxe8 20. g3 Nc5 21. Bxc5 Bxc5 22. Kg2 Red8 23. Rxd8+ Rxd8 24. Qc2 Bb6 25. a4 e5 26. h4 h5 27. f3 Be3 28. Qc3 Bd4 29. Qc7 Re8 30. a5 Re6 31. f4 Kg7 32. Kf3 Rf6 33. Qd7 Bc3 34. Qxa7 exf4 35. gxf4 Be5 36. Qe3 Bc7 37. Qc3 Bb8 38. a6 Ba7 39. f5 gxf5 40. exf5 Bb8 41. Ke4 Ba7 42. Qb2 Bb6 43. Qc3 Bf2 44. Kf4 1-0',
+      id: '4270349',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'C26',
+      t: 'Saint Louis Blitz 2020',
+      moves:
+        '1. e4 e5 2. Nc3 Nf6 3. d4 exd4 4. Qxd4 Nc6 5. Qd3 Bc5 6. Bf4 O-O 7. O-O-O Re8 8. f3 d6 9. Qd2 Be6 10. Kb1 a6 11. Nge2 b5 12. Nc1 Ne5 13. Bg5 h6 14. Be3 Bxe3 15. Qxe3 b4 16. N3e2 a5 17. Nf4 a4 18. h4 Qe7 19. g4 a3 20. b3 Bxg4 21. fxg4 Nexg4 22. Qd4 c5 23. Qxd6 Qxd6 24. Rxd6 Nxe4 25. Rd7 Ngf2 26. Bc4 Nxh1 27. Bxf7+ Kh7 28. Nce2 Nhg3 29. Bg6+ Kh8 0-1',
+      id: '4270409',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8. Rxe5 O-O 9. d4 Bf6 10. Re1 Re8 11. Rxe8+ Nxe8 12. d5 d6 13. h3 Bd7 14. Qd3 a5 15. Nc3 Bg5 16. Bxg5 Qxg5 17. Re1 Nf6 18. Ne4 Nxe4 19. Qxe4 h6 20. h4 Qd2 21. Re2 Qb4 22. Qe7 Bb5 23. c4 Qxc4 24. Re1 Qxd5 25. Qxc7 Bxf1 26. Kxf1 Qb5+ 27. Kg1 Qxb2 28. Re7 Qxa2 29. Qxb7 Rf8 30. g3 a4 31. Qa6 d5 32. Ra7 Qb1+ 33. Kh2 Qc2 34. Qb6 Re8 35. Rc7 Qb3 36. Qc6 Rf8 37. Ra7 a3 38. Qc5 a2 39. Qa5 h5 40. Qxa2 Qxa2 41. Rxa2 Rd8 42. Kg2 Kh7 43. Kf3 Kg6 44. Kf4 Rd7 45. Ra6+ f6 46. Ra3 Kf7 47. Ke3 Ke6 48. Kf4 g6 49. Ra6+ Rd6 50. Ra3 Rd7 51. Ra6+ Ke7 52. Ke3 Rd6 53. Ra3 Ke6 54. Kf4 Kd7 55. Ke3 Re6+ 56. Kd4 Re5 57. Ra6 Ke7 58. f4 Re4+ 59. Kxd5 Re3 60. Ra7+ Kf8 61. Rb7 Kg8 62. Ra7 Kf8 63. Rb7 Rxg3 64. Ke6 Rg4 65. Kxf6 Rxf4+ 66. Kxg6 Rxh4 67. Rb5 Rh3 68. Rxh5 Rxh5 69. Kxh5 1/2-1/2',
+      id: '4275284',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: 'Airthings Masters Prelim',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8. Rb1 O-O 9. Be2 cxd4 10. cxd4 Qa5+ 11. Bd2 Qxa2 12. O-O Bg4 13. Rxb7 Bxf3 14. Bxf3 Bxd4 15. e5 Na6 16. Rxe7 Rad8 17. e6 fxe6 18. Qe1 Nc5 19. Be3 Nd3 20. Bxd4 Nxe1 21. Rg7+ Kh8 22. Rd7+ Kg8 23. Rg7+ Kh8 24. Rd7+ Kg8 25. Rg7+ 1/2-1/2',
+      id: '4276960',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'C55',
+      t: "Cote d'Ivoire Rapid 2019",
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. O-O O-O 6. h3 d6 7. a4 a5 8. Re1 Be6 9. Nbd2 Qc8 10. c3 h6 11. b3 Re8 12. Bxe6 Qxe6 13. Nc4 Bf8 14. Ba3 Rad8 15. Qc2 g6 16. Rad1 Bg7 17. b4 axb4 18. cxb4 Ra8 19. b5 Na5 20. Nxa5 Rxa5 21. Qxc7 Rxa4 22. Bxd6 Nd7 23. Ra1 Rea8 24. Rxa4 Rxa4 25. b6 Kh7 26. Bc5 Nxc5 27. Qxc5 Ra6 28. Rb1 Qa2 29. Qb5 Ra3 30. Rc1 Qe2 31. Qd5 Ra2 32. Rf1 Rb2 33. Qxf7 Qxd3 34. Nxe5 Qxe4 35. Nd7 1-0',
+      id: '4193601',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nf5 8. Nf3 O-O 9. d4 d5 10. c3 Bd6 11. b3 Re8 12. Na3 a6 13. Nc2 Rxe1 14. Qxe1 Nce7 15. c4 b6 16. Qc3 Ng6 17. Bg5 Be7 18. Bxe7 Nfxe7 19. Ne3 dxc4 20. bxc4 Bb7 21. d5 Qd7 22. Rd1 Re8 23. g3 Bc8 24. h4 Qd6 25. Re1 Nf8 26. Ng5 Qf6 27. Qxf6 gxf6 28. Ne4 Kg7 29. d6 cxd6 30. Nxd6 Rd8 31. Rd1 Ne6 32. Ndf5+ Nxf5 33. Nxf5+ Kf8 34. Rb1 Nc5 35. Ne3 Rd6 36. Nd5 b5 37. Ne3 Bd7 38. cxb5 axb5 39. Bxb5 Be6 40. a4 Rd2 41. Ra1 Nb3 42. Rd1 Ra2 43. Rd3 Nc5 44. Rd4 Ke7 45. Rf4 h6 46. Kg2 Ra3 47. Ng4 Bd5+ 48. Kf1 Ne4 49. Ne3 Ra1+ 50. Ke2 Ra2+ 51. Kd3 Nc5+ 52. Kd4 Ne6+ 53. Kxd5 Nxf4+ 54. gxf4 Rxf2 55. a5 Kd8 56. Ke4 Kc7 57. Nf5 h5 58. Bc4 Rb2 59. Bxf7 Rb4+ 60. Kf3 Rb5 61. Ne3 Rxa5 62. f5 Kd6 63. Bxh5 Ra3 64. Kf2 Ra2+ 65. Be2 Ke5 66. h5 Kf4 67. h6 Ra8 68. Nd5+ Kg5 69. Nc7 Rh8 70. Bd3 Rxh6 71. Ne6+ Kg4 72. Ke3 Rh3+ 73. Ke4 Rxd3 74. Kxd3 Kxf5 1/2-1/2',
+      id: '4193636',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'C55',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. O-O O-O 6. h3 d6 7. a4 a5 8. Re1 Be6 9. Nbd2 Nd7 10. c3 Nc5 11. d4 Bxc4 12. Nxc4 exd4 13. cxd4 Nd7 14. Bd2 Re8 15. d5 Nce5 16. Nfxe5 Nxe5 17. Nxa5 c5 18. dxc6 bxc6 19. b4 c5 20. Nb3 Nd3 21. Re3 Nb2 22. Qc2 Nxa4 23. Na5 Nb6 24. bxc5 dxc5 25. Bc3 Bf6 26. Rd1 Qe7 27. Nc6 Qe6 28. Bxf6 Qxc6 29. Ba1 Nd7 30. Rg3 Ne5 31. Kh2 h6 32. Bxe5 Rxe5 33. Rc3 Qxe4 1/2-1/2',
+      id: '4193681',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Nbd2 Nd4 6. Nxd4 Bxd4 7. c3 Bb6 8.  d4 c6 9. dxe5 cxb5 10. exf6 Qxf6 11. O-O O-O 12. a4 bxa4 13. Nc4 d5 14. exd5 Bd7  15. Be3 Bxe3 16. fxe3 Qe7 17. Qd4 Rfe8 18. e4 f6 19. Rfe1 b5 20. Nd2 a5 21. Nf3  Bg4 22. d6 Qd7 23. e5 Bxf3 24. gxf3 fxe5 25. Rxe5 Rxe5 26. Qxe5 Re8 27. Qd5+ Kh8  28. Rd1 h6 29. Rd4 Re6 30. Kf2 Rf6 31. h4 b4 32. c4 a3 33. bxa3 bxa3 34. c5 a2  35. Qxa2 Qh3 36. Qe2 Qh2+ 37. Ke3 Qg1+ 38. Kd3 Qb1+ 39. Ke3 Qg1+ 40. Kd3 Qb1+  41. Kd2 Qb2+ 42. Kd3 1/2-1/2',
+      id: '4202268',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'A04',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. Nf3 c5 2. c4 Nc6 3. Nc3 g6 4. e3 Nf6 5. d4 cxd4 6. exd4 d5 7. cxd5 Nxd5 8.  Qb3 e6 9. Bb5 Bg7 10. O-O O-O 11. Bxc6 bxc6 12. Na4 Qd6 13. Re1 Rb8 14. Qd1 Ne7  15. b3 Nf5 16. Bb2 Rd8 17. Qc2 Nxd4 18. Bxd4 Bxd4 19. Nxd4 Qxd4 20. Rad1 Qf6 21.  Rxd8+ Qxd8 22. Rd1 Qe8 23. h3 e5 24. Qc5 a6 25. Qa5 Kg7 26. Rd8 Qe7 27. Nb6 Qxd8  28. Qxe5+ Qf6 29. Qxb8 Be6 30. Qg3 h5 31. Na4 Qa1+ 32. Kh2 Qxa2 33. Nc5 Qe2 34.  Qc3+ Kg8 35. Qd4 Bd5 36. Nd7 Qe6 37. Nf6+ Kf8 38. b4 Qd6+ 39. Kg1 Ke7 40. Ng8+  Ke6 41. Qf6+ Kd7 42. Qd4 Qb8 43. Nf6+ Ke6 44. Ne4 Bxe4 45. Qxe4+ Kd7 46. Qc4 Qe8  47. Qd4+ Kc8 48. Qb6 Qe1+ 49. Kh2 Qe5+ 50. g3 Qb5 51. Qa7 Qb7 52. Qc5 Qc7 53. h4  Kb7 54. Qf8 Qd7 55. Kg1 Qd5 56. Kh2 Kc7 57. Kg1 Kd7 58. Kh2 Qc4 59. Kg1 Qe6 60.  Qc5 Qe2 61. Qd4+ Ke6 62. Qc5 Qb5 63. Qe3+ Kf6 64. Qc3+ Ke7 65. Qd4 Ke6 66. Qe3+  Kd7 67. Qa7+ Ke8 68. Qd4 Qd5 69. Qb6 Qc4 70. Qb8+ Ke7 71. Qe5+ Kd7 72. Qb8 Ke6  73. Qe8+ Kf5 74. Qe7 Qd5 75. Qe2 Qb5 76. Qe7 Qc4 77. Qe8 Qe6 78. Qd8 Ke4 79. Qd2  Qc4 80. Qe3+ Kf5 81. Qe7 Kg4 82. Qd7+ Kf3 83. Qd2 f6 84. Qe3+ Kg4 85. Kg2 Kf5  86. Kh2 g5 87. hxg5 fxg5 88. Qd2 Qd5 89. Qe2 Qd4 90. Kg1 Qxb4 91. Qf3+ Ke5 92.  Qxh5 Qb1+ 93. Kg2 Qf5 94. Qd1 a5 95. Qd8 Ke4 96. Qd2 Qd5 97. f3+ Kf5 98. g4+ Ke6  99. Qc2 Kd6 100. Kg3 Qe5+ 101. Kg2 Qf4 102. Qg6+ Kc7 103. Qh7+ Kb6 104. Qb1+ Qb4  105. Qc1 Qc5 106. Qb2+ Ka6 107. Qa2 Qb5 108. Qg8 a4 109. Qa8+ Kb6 110. Qd8+ Kb7  111. Qe7+ Ka6 112. Qf8 Qe2+ 113. Kh3 Qe3 114. Qa8+ Kb5 115. Qb7+ Qb6 116. Qg7  Qc5 117. Qb2+ Ka6 118. Qe2+ Ka7 119. Qd2 a3 120. f4 gxf4 121. Qxf4 Qc3+ 122. Kh4  Qh8+ 123. Kg5 Qg8+ 124. Kh5 Qd5+ 125. g5 a2 126. Qa4+ Kb6 127. Qb4+ Qb5 128.  Qd4+ Ka6 129. Qd8 Qe2+ 130. Kh6 Qe6+ 131. g6 Qh3+ 132. Kg5 Qg2+ 0-1',
+      id: '4211849',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B90',
+      t: 'Tata Steel India Rapid',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nb3 Be7 8. Be3 Be6 9. f4 exf4 10. Bxf4 Nc6 11. Qe2 Ne5 12. O-O-O Nfd7 13. Kb1 O-O 14. Qe3 Rc8 15. Be2 Qc7 16. Rhf1 Nb6 17. Qg3 Na4 18. Bd2 b5 19. Nd4 Qc5 20. Nxa4 bxa4 21. Qc3 Qa7 22. Qe3 Bc4 23. Nf5 Qb7 24. Bb4 Bxe2 25. Qxe2 Nc4 26. Nxe7+ Qxe7 27. Rd4 Qe6 28. b3 axb3 29. cxb3 a5 1/2-1/2',
+      id: '4230910',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 Nd7 7. Nc4 f6 8. c3 O-O 9. O-O Re8 10. d4 exd4 11. cxd4 Bf8 12. Re1 Nb6 13. Nxb6 axb6 14. h3 Be6 15. a3 Bf7 16. Bf4 Qd7 17. Qc2 Bd6 18. Bxd6 cxd6 19. Re3 b5 20. Rae1 Bg6 21. Nh4 Qf7 22. Qd2 d5 23. Nxg6 hxg6 24. e5 fxe5 25. Rxe5 Rxe5 26. Rxe5 Re8 27. Qe3 Rxe5 28. Qxe5 Kh7 29. h4 b6 30. b4 Qa7 31. Qe3 Qd7 32. g3 Qf5 33. Kg2 Qc2 34. g4 Qd1 35. f3 Qc2+ 36. Kg3 Qb1 37. Kf4 Qb2 38. Kg3 Qc2 39. Qe5 Qc1 40. h5 gxh5 41. Qxh5+ Kg8 42. Qe5 g5 43. Kf2 Qd2+ 44. Kg3 Qc1 1/2-1/2',
+      id: '4230939',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8. Rb1 O-O 9. Be2 Bg4 10. Rxb7 Bxf3 11. Bxf3 cxd4 12. cxd4 Bxd4 13. O-O Nc6 14. Qa4 1/2-1/2',
+      id: '4232203',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: 'Jerusalem FIDE Grand Prix',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8. Rb1 O-O 9. Be2 cxd4 10. cxd4 Qa5+ 11. Bd2 Qxa2 12. O-O Bg4 13. Be3 Nc6 14. d5 Na5 15. Bg5 Qa3 16. Re1 Bxf3 17. Bxf3 Qd6 18. e5 Bxe5 19. Qe2 Bf6 20. Bd2 Qd8 21. d6 Nc6 22. dxe7 Qxe7 23. Qxe7 Nxe7 1/2-1/2',
+      id: '4237090',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C84',
+      t: 'Jerusalem FIDE Grand Prix',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3 O-O 9. Nc3 Na5 10. Ba2 Be6 11. b4 Bxa2 12. Nxa2 Nc6 13. c4 Nd4 14. Nc3 c6 15. Be3 Nxf3+ 16. Qxf3 Qc8 17. h3 Qe6 18. Rfc1 1/2-1/2',
+      id: '4237094',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A33',
+      t: 'Jerusalem FIDE Grand Prix',
+      moves:
+        '1. Nf3 c5 2. c4 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. a3 Be7 7. e4 O-O 8. Nf3 Qa5 9. Bd2 Qh5 10. Be2 d5 11. exd5 exd5 12. cxd5 Nxd5 13. Nd4 Qh4 14. Nxc6 bxc6 15. O-O Be6 16. Bf3 Rab8 17. g3 Qc4 18. Rc1 Qb3 19. Nxd5 cxd5 20. Bc3 Rfd8 21. Be5 Qxd1 22. Rfxd1 Rb3 23. Kg2 Bf6 24. Bxf6 gxf6 25. Rd2 Rdb8 26. Bxd5 Rxb2 27. Rd3 Rd8 28. Rcd1 Rd6 29. Bxe6 Rxe6 30. Rd8+ Kg7 31. R1d4 Rb5 32. Rg4+ Rg5 33. Ra4 Re2 34. Rd3 a5 35. Rf3 Re6 36. h4 Rge5 37. Rg4+ Kf8 38. Rc4 Kg7 39. Rc7 Re4 40. Rd3 Re8 41. Rcd7 Ra4 42. R7d4 Re4 43. Rxe4 Rxe4 44. Kf3 f5 45. Rd5 1/2-1/2',
+      id: '4237098',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'C88',
+      t: 'Jerusalem FIDE Grand Prix',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4 b4 9. d4 d6 10. dxe5 Nxe5 11. Nbd2 Nxf3+ 12. Nxf3 Bb7 13. Qd3 Nd7 14. Be3 Bf6 15. Bd4 Bxd4 16. Qxd4 a5 17. h3 Re8 18. Re3 Qf6 19. Qc4 Nc5 20. e5 Qg6 21. Ba2 Bxf3 22. Rxf3 Rxe5 23. Rxf7 d5 24. Qxc5 Qxf7 25. f4 Qxf4 26. Bxd5+ Kh8 27. Rf1 Rxd5 28. Qxd5 Qe3+ 29. Kh2 Qe8 30. Rf5 h6 31. Re5 Qf8 32. Qe4 c6 33. Re6 Rc8 34. Qe5 Kh7 35. Re7 Rd8 36. Qe4+ Kh8 37. b3 Rd4 38. Re8 Rxe4 39. Rxf8+ Kh7 40. Rf5 Re2 41. Rc5 Kg6 42. Rxc6+ Kf5 43. Kg3 Rd2 44. Kf3 g5 45. g3 Rh2 46. Rc5+ Kg6 47. Rxa5 Rxc2 48. Re5 Rb2 49. Re3 h5 50. g4 hxg4+ 51. hxg4 Kf6 52. Ke4 Rg2 53. Kd5 Rxg4 54. a5 Rg1 55. Kc5 g4 56. a6 Rh1 57. Re8 Rh5+ 58. Kxb4 Rh7 59. Rg8 Kf5 60. Ka5 Kf4 61. b4 g3 62. b5 Kf3 63. b6 Rh5+ 64. Ka4 Rh4+ 65. Ka3 1-0',
+      id: '4237101',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A45',
+      t: '79th Tata Steel GpA',
+      moves:
+        '1. d4 Nf6 2. Bg5 d5 3. Nd2 c5 4. dxc5 e6 5. e4 h6 6. Bh4 dxe4 7. Qe2 Qa5 8.  O-O-O Qxa2 9. Qb5+ Nbd7 10. c6 bxc6 11. Qxc6 Bb7 12. Qxb7 Qa1+ 13. Nb1 Rb8 14.  Qxb8+ Nxb8 15. Bb5+ Nfd7 16. Ne2 Be7 17. Bxe7 Kxe7 18. Nd4 Nc5 19. h4 Rd8 20.  Rh3 Nd3+ 21. Bxd3 Rxd4 22. Be2 Rxd1+ 23. Bxd1 Qa5 24. Nd2 f5 25. Rg3 Qe5 26. Ra3  Nc6 27. g3 Qd4 28. Re3 Nb4 0-1',
+      id: '4033509',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A35',
+      t: 'GCT Rapid YourNextMove',
+      moves:
+        '1. c4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. e3 e6 5. d4 d5 6. a3 dxc4 7. Bxc4 a6 8. O-O b5 9. Ba2 Bb7 10. h3 Qc7 11. Qe2 Rd8 12. Rd1 Be7 13. d5 exd5 14. Nxd5 Nxd5 15. Bxd5 O-O 16. e4 Na5 17. Bd2 Bxd5 18. Bxa5 Qxa5 19. Rxd5 c4 20. Nd4 Qb6 21. Rd1 g6 22. a4 Bf6 23. Nf3 Rxd5 24. exd5 Rd8 25. axb5 Qxb5 26. d6 Bxb2 27. Qe7 Qd7 28. Rd5 Ba3 29. Qf6 Bxd6 30. Ng5 Bh2+ 31. Kxh2 Qxd5 32. Nxf7 Qxf7 33. Qxd8+ Kg7 34. Qd4+ Kf8 35. Qd8+ Qe8 36. Qd6+ Qe7 37. Qf4+ Qf7 38. Qd6+ Kg8 39. Qd8+ Qf8 40. Qd5+ Qf7 1/2-1/2',
+      id: '4054972',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'A04',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. Nf3 g6 2. e4 Nf6 3. e5 Nh5 4. d4 d6 5. Be2 Nc6 6. O-O Bg7 7. exd6 exd6 8. Bg5 Nf6 9. Nc3 h6 10. Be3 O-O 11. h3 Ne7 12. Qd2 Nf5 13. Bf4 g5 14. Bh2 g4 15. hxg4 Nxg4 16. Bf4 Bd7 17. Rae1 Bc6 18. d5 Bd7 19. Bd3 Nh4 20. Nh2 Nxh2 21. Kxh2 Ng6 22. Bg3 Ne5 23. Kg1 f5 24. Ne2 h5 25. Bf4 h4 26. Bg5 Bf6 27. Bxf6 Qxf6 28. Qf4 Rae8 29. Nd4 Re7 30. Nf3 Rfe8 31. Re3 Rg7 32. Nh2 Rf8 33. Kh1 Ng6 34. Qb4 f4 35. Ree1 Ne5 36. Be4 h3 37. g3 Qh6 38. Qxb7 Bc8 39. Qxa7 Bf5 40. Bxf5 Rxf5 41. g4 Nxg4 42. Nxg4 Rxg4 43. Qxc7 Rf8 44. Qd7 Rg6 45. Rg1 Rg2 46. Qe6+ Qxe6 47. dxe6 f3 48. Re3 Kh7 49. Re4 Kg6 50. e7 Re8 51. Re3 Kg5 52. Rxf3 Rxg1+ 53. Kxg1 Rxe7 54. Rxh3 Re1+ 55. Kg2 Rb1 56. Rb3 Kf4 57. a4 Ra1 58. Ra3 1-0',
+      id: '4055012',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C45',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8. h4 d6 9. c4 Nb6 10. exd6 Qxe2+ 11. Bxe2 cxd6 12. Nc3 Be6 13. b3 d5 14. cxd5 Nxd5 15. Bd2 Rd8 16. Ne4 Nb4 17. O-O Bf5 18. Bxb4 Bxb4 19. Bf3 O-O 20. Rfc1 Rd4 21. Ng3 Be6 22. h5 c5 23. Ne4 Ba3 24. Rc2 Bf5 25. Re1 Rfd8 26. g4 Be6 27. Re3 Bb4 28. Be2 h6 29. f3 Bd5 30. Bc4 Bxe4 31. fxe4 Rd1+ 32. Kg2 Kf8 33. Rf3 R8d2+ 34. Rxd2 Rxd2+ 35. Kh3 f6 36. e5 Ke7 37. exf6+ gxf6 38. Re3+ Kf8 39. a4 Rd6 40. Kg2 Bd2 41. Re2 Bc3 42. Kf3 Be5 43. Rc2 Rd4 44. Be6 Ke7 45. Bf5 Kd6 46. Ke2 a5 47. Rc3 Rxg4 48. Bxg4 1/2-1/2',
+      id: '4055057',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A10',
+      t: '5th Sinquefield Cup 2017',
+      moves:
+        '1. c4 g6 2. Nc3 c5 3. d4 cxd4 4. Qxd4 Nf6 5. Bf4 Nc6 6. Qd2 d6 7. e4 Bg7 8. Bd3 Ne5 9. Nge2 Nh5 10. Be3 Ng4 11. Bg5 h6 12. Bh4 g5 13. Bg3 Be6 14. h3 Ne5 15. Bxe5 Bxe5 16. g3 Qa5 17. f4 Bxc3 18. bxc3 Qc7 19. fxg5 hxg5 20. Qxg5 Bxc4 21. Bxc4 Qxc4 22. Qd5 Qxd5 23. exd5 Rc8 24. Rb1 b6 25. Rb3 Nf6 26. Ra3 a5 27. Nf4 Rg8 28. c4 Rxc4 29. Ke2 Ne4 30. g4 f5 31. Rg1 fxg4 32. hxg4 Nc3+ 33. Kd3 Rxf4 34. Rxc3 Rgxg4 35. Rc8+ Kf7 36. Rb1 Rd4+ 37. Ke3 Rxd5 38. Rxb6 Rg2 39. a4 Rg4 0-1',
+      id: '4061778',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'E60',
+      t: '9th London Classic 2017',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. f3 d6 4. e4 e5 5. Ne2 c5 6. d5 Nbd7 7. Nbc3 a6 8. a4 Nh5 9. g3 Bg7 10. h4 f5 11. exf5 gxf5 12. g4 fxg4 13. fxg4 Nf4 14. g5 O-O 15. Ne4 Nb6 16. N2g3 Bd7 17. Rg1 Kh8 18. Bd2 Nc8 19. Nh5 Bf5 20. Neg3 Qd7 21. Nxg7 Qxg7 22. Nxf5 Rxf5 23. Qb3 Na7 24. Qb6 Nc8 25. Qb3 Na7 26. Qb6 Nc8 27. Qb3 1/2-1/2',
+      id: '4082985',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'C50',
+      t: '42nd Olympiad 2016',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 O-O 6. a4 d6 7. c3 a6 8. h3 Ba7 9. Re1 Ne7 10. d4 Ng6 11. Bd3 c6 12. Be3 Nh5 13. Nbd2 Nhf4 14. Bf1 exd4 15. Bxd4 Bxd4 16. cxd4 d5 17. e5 f6 18. Ra3 fxe5 19. dxe5 a5 20. Qc1 Qe7 21. Rb3 Bf5 22. Nd4 Ne6 23. Nxf5 Rxf5 24. Bd3 Rf4 25. Bxg6 hxg6 26. Qd1 Raf8 27. Rf3 Qb4 28. Rxf4 Rxf4 29. Nf3 Qxa4 30. Qd3 Rf5 31. Qb1 Qf4 32. Qc2 Kh7 33. Re3 Qc4 34. Qd1 Rf4 35. Rc3 Qb4 36. Qc1 a4 37. h4 Kg8 38. Qb1 Qe4 39. Qd1 Nd4 40. Re3 Nxf3+ 41. gxf3 Qf5 42. e6 Rxh4 43. Re4 Rxe4 44. fxe4 Qxe4 45. Qd2 Qxe6 46. Qa5 Qg4+ 47. Kf1 b5 48. Qc7 g5 49. Qb8+ Kh7 50. Qd6 b4 0-1',
+      id: '4010112',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'E60',
+      t: '43rd GM 2015',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. f3 e6 4. e4 c5 5. d5 d6 6. Nc3 Bg7 7. Nge2 exd5 8. cxd5 O-O 9. Ng3 a6 10. a4 h5 11. Be2 Qe8 12. Bf4 Qe7 13. Bg5 Qe8 14. Qd2 Nbd7 15. Bh6 Qe5 16. Bxg7 Kxg7 17. Bd3 Rb8 18. Rd1 Re8 19. Be2 h4 20. Nf1 h3 21. g4 b5 22. axb5 axb5 23. Ng3 b4 24. Na4 Ra8 25. b3 Ba6 26. Bxa6 Rxa6 27. O-O Rea8 28. f4 Qe7 29. Qe2 Nh7 30. Rf3 Qh4 31. Kh1 c4 32. Qxc4 Qxg4 33. Qd3 Kf8 34. Rg1 Rxa4 35. bxa4 Nc5 36. Qe3 Rxa4 37. Nf5 gxf5 38. Rxg4 fxg4 39. Rf1 Nf6 40. e5 Nfe4 41. f5 Ra2 42. e6 g3 43. hxg3 Ke8 44. g4 h2 45. Qh3 f6 46. g5 Nxg5 47. Qh8+ Ke7 48. Qg7+ Ke8 49. Qxf6 1-0',
+      id: '3947309',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A18',
+      t: 'ACP Golden Classic 2014',
+      moves:
+        '1. c4 Nf6 2. Nc3 e6 3. e4 d5 4. e5 d4 5. exf6 dxc3 6. bxc3 Qxf6 7. d4 e5 8. Nf3 Nc6 9. Bg5 Qg6 10. d5 Nb8 11. h4 h6 12. Be3 Nd7 13. h5 Qd6 14. Bd3 Be7 15. Nd2 Nf6 16. f3 O-O 17. Ne4 Nxe4 18. fxe4 Qa3 19. Qb3 Qa5 20. Be2 Bc5 21. Bd2 f5 22. Rf1 fxe4 23. Rxf8+ Kxf8 24. O-O-O Kg8 25. Rf1 Bd7 26. Kb1 Qb6 27. Ka1 Rf8 28. Rxf8+ Kxf8 29. Qxb6 axb6 30. Be1 Ke7 31. Kb2 Ba4 32. Bg4 Bg1 33. Bg3 Kd6 34. Be2 e3 35. Kc1 Be8 36. Kd1 Bf2 37. Bh2 Ba4+ 38. Kc1 Be1 39. Kb2 Bh4 40. g4 Bf6 41. Kc1 Kc5 42. g5 hxg5 43. Bg1 Bd7 44. Bxe3+ Kd6 45. Kd2 g4 46. h6 gxh6 47. Bxh6 Bf5 48. Ke3 Bh4 49. Bf8+ Be7 50. Bh6 Bh4 51. Bf8+ Be7 52. Bh6 c6 53. dxc6 bxc6 54. Bf1 Ke6 55. Bg2 Bc5+ 56. Ke2 Kd7 57. Bg7 Bd6 58. Bf6 Bb1 59. a3 e4 60. Ke3 Ke6 61. Bd8 Kf5 62. Bxb6 Bxa3 63. Kd2 Bd6 64. Be3 Bf4 65. c5 Bd3 66. Bh1 Ke5 67. Bg2 Bc4 68. Bh1 g3 69. Bg2 Be6 0-1',
+      id: '3902565',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B10',
+      t: 'Levitov Chess Week Rapid',
+      moves:
+        '1. e4 c6 2. Nf3 d5 3. d3 dxe4 4. dxe4 Qxd1+ 5. Kxd1 Nf6 6. Nfd2 Ng4 7. Ke1 e5 8. Nc4 b5 9. Ne3 Bc5 10. Nxg4 Bxg4 11. a4 b4 12. a5 Nd7 13. Bc4 Ke7 14. Nd2 Bd6 15. f3 Be6 16. Bxe6 Kxe6 17. Nc4 Rab8 18. Ke2 Bc5 19. Rd1 f6 20. Be3 Bxe3 21. Kxe3 Ke7 22. Rd6 Rhc8 23. Rad1 Nc5 24. g3 Rc7 25. f4 exf4+ 26. gxf4 Rb5 27. Rg1 g6 28. f5 b3 29. c3 Kf7 30. e5 fxe5 31. fxg6+ Kg7 32. gxh7+ Kxh7 33. Rdg6 Rb8 34. R6g5 Kh8 35. Rxe5 Na4 36. Ra1 Nxc3 37. bxc3 Rh7 38. Kd4 Rxh2 39. Rb1 Rh3 40. Nd6 Rd8 41. Re8+ 1-0',
+      id: '4211931',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '0-1',
+      e: 'E06',
+      t: 'Tata Steel India Rapid',
+      moves:
+        '1. c4 Nf6 2. g3 e6 3. Nf3 d5 4. d4 Be7 5. Bg2 O-O 6. Qc2 c5 7. dxc5 Qa5+ 8. Nbd2 Qxc5 9. a3 b5 10. b4 Qc7 11. c5 a5 12. Bb2 Nc6 13. Nd4 Nxd4 14. Bxd4 e5 15. Bb2 axb4 16. axb4 Rxa1+ 17. Bxa1 d4 18. O-O Be6 19. Qd3 Nd5 20. Bxd5 Bxd5 21. e3 Qc6 22. exd4 e4 23. Qe3 f5 24. f4 Ra8 25. Bc3 Ra2 26. Ra1 Qa6 27. Qe1 Rxa1 28. Qxa1 Qe6 29. Qf1 e3 30. Qxb5 Kf7 31. Qd3 exd2 32. Bxd2 Bf6 33. Bc3 Be4 34. Qd2 Qc4 35. Kf2 Bc6 36. Ke1 Bb5 37. Kd1 Ba4+ 38. Ke1 Qe6+ 39. Kf2 Bc6 40. b5 Bxb5 41. d5 Qe4 42. Bxf6 gxf6 43. c6 Qc4 44. Qd1 Qc5+ 45. Kg2 Bc4 46. Kh3 Qxd5 47. Qh5+ Kg7 48. Qe8 Qf3 49. Qd7+ Kg6 50. Qe8+ Bf7 51. Qd7 Qf1+ 52. Kh4 Qg2 0-1',
+      id: '4230889',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'A28',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e4 Bb4 5. d3 d6 6. a3 Bc5 7. b4 Bb6 8. Na4 Bd4 9. Rb1 Bg4 10. Be2 Bxf3 11. Bxf3 Qe7 12. Bd2 O-O 13. g3 a5 14. b5 Nd8 15. Nc3 c6 16. O-O Ne6 17. Bg2 Nd7 18. Kh1 Ndc5 19. Be1 Rac8 20. a4 Qc7 21. Ne2 Ra8 22. f4 exf4 23. gxf4 f5 24. exf5 Rxf5 25. Bh3 Rf6 26. f5 Raf8 27. Bg3 Ng5 28. Nxd4 Nxh3 29. Qg4 Rh6 30. f6 Qd7 31. Qxd7 Nxd7 32. bxc6 bxc6 33. fxg7 Rxf1+ 34. Rxf1 Rf6 35. Rxf6 Nxf6 36. Nxc6 1-0',
+      id: '4230945',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A04',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. Nf3 c5 2. c4 Nc6 3. Nc3 g6 4. e3 Nf6 5. d4 cxd4 6. exd4 d5 7. cxd5 Nxd5 8. Qb3 e6 9. Bb5 Bg7 10. O-O O-O 11. Bxc6 bxc6 12. Re1 Qc7 13. Ne4 c5 14. Nxc5 Bxd4 15. Nxd4 Qxc5 16. Nf3 Qb6 17. Qa4 Bb7 18. Ne5 Qb4 19. Qxb4 Nxb4 20. Rd1 Rfd8 21. Bg5 Rd5 22. Rxd5 Nxd5 23. Ng4 Rc8 24. Rc1 Rxc1+ 25. Bxc1 f6 1/2-1/2',
+      id: '4232209',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'C42',
+      t: '46th GM 2018',
+      moves:
+        '1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Bf5 7. O-O Be7 8. Re1 O-O 9. Nc3 Nxc3 10. bxc3 Bxd3 11. Qxd3 Nc6 12. Re2 a6 13. Bf4 Qd7 14. Rae1 Rfe8 15. h4 h6 16. Qe3 b5 17. h5 Rac8 18. Nh2 b4 19. Qg3 Bd6 20. Ng4 Kh8 21. Rxe8+ Rxe8 22. Rxe8+ Qxe8 23. Bxd6 cxd6 24. Qxd6 Qe1+ 25. Kh2 Qe6 26. Qf8+ Kh7 27. Ne3 bxc3 28. Qc5 Qf6 29. Qxc3 Qxf2 30. Qxc6 Qf4+ 31. g3 Qxe3 32. Qxd5 Qf2+ 33. Kh3 Qxc2 34. Qxf7 Qc8+ 35. Kg2 Qc2+ 36. Qf2 Qe4+ 37. Kg1 a5 38. a4 Kg8 39. Qa2+ Kf8 40. Qc4 Qg4 41. Qc5+ Kg8 42. Qd5+ Kh7 43. Kf2 Qd1 44. Qe4+ Kg8 45. Qe6+ Kh7 46. d5 Qxa4 47. d6 Qc2+ 48. Kf3 Qd3+ 49. Kg2 Qc2+ 50. Kh3 Qc6 51. Qf5+ Kg8 52. d7 Qd6 53. Kh2 a4 54. Qg4 Kf7 55. Qxa4 Ke7 56. Qe4+ Kxd7 57. Qg4+ Ke8 58. Qxg7 Qd2+ 59. Kh3 Qd7+ 60. Qg4 Kd8 1/2-1/2',
+      id: '4123686',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B92',
+      t: 'World Rapid 2018',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nf3 Be7 8. Bg5 Nbd7 9. a4 h6 10. Be3 Ng4 11. Bc1 Ngf6 12. O-O Nc5 13. Nd2 O-O 14. b4 Ne6 15. Nc4 Nd4 16. Be3 Nxe2+ 17. Qxe2 Be6 18. Nb6 Rb8 19. a5 Qc7 20. Ncd5 Bxd5 21. exd5 Nd7 22. c4 Bg5 23. Rac1 Nxb6 24. axb6 Qd7 25. Rfd1 Qa4 26. Bxg5 hxg5 27. Qd2 Rfc8 28. c5 a5 29. bxa5 Rxc5 30. Rxc5 dxc5 31. d6 Rd8 32. h3 c4 33. Rc1 Qb5 34. Qxg5 Rxd6 35. Qe7 Rd7 36. Qe8+ Kh7 37. Qc8 e4 38. Qxc4 Rd1+ 39. Kh2 Qe5+ 40. g3 Rxc1 1/2-1/2',
+      id: '4162354',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B91',
+      t: '79th Tata Steel GpA',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. g3 e5 7. Nde2 Be7 8. Bg2  Nbd7 9. a4 b6 10. Nd5 Nxd5 11. Qxd5 Rb8 12. Nc3 O-O 13. O-O Bb7 14. Qd1 Rc8 15.  Re1 h6 16. Bh3 Rc6 17. Bxh6 gxh6 18. Qg4+ Bg5 19. Qxd7 Qxd7 20. Bxd7 Rc7 21. Bf5  Bd2 22. Red1 Bxc3 23. bxc3 Rd8 24. Rab1 Rc6 25. f4 exf4 26. e5 Bc8 27. Be4 Rxc3  28. Rxd6 Rxd6 29. exd6 Rc4 30. Bd3 Rc6 31. Rd1 Kf8 32. Bxa6 fxg3 33. hxg3 1-0',
+      id: '4033236',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'B90',
+      t: 'GCT Rapid YourNextMove',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bd3 g6 7. O-O Bg7 8. Kh1 O-O 9. f4 Nc6 10. Nxc6 bxc6 11. f5 a5 12. Qe1 Ba6 13. Qh4 a4 14. Bh6 Bxd3 15. cxd3 Qb6 16. fxg6 hxg6 17. Rab1 a3 18. b4 Qd4 19. Ne2 Qxd3 20. Ng3 Bxh6 21. Qxh6 Nxe4 22. Nxe4 Qxe4 23. Rb3 Qc4 24. Rbf3 Rab8 25. Rf4 Qc3 26. Rh4 Qg7 27. Qe3 e5 28. Qxa3 d5 29. Qc1 d4 30. a3 Rbc8 31. Qc4 Rfe8 32. Re4 Qf8 33. h4 Kg7 34. h5 f5 35. hxg6 Qf6 36. Kg1 Re6 37. Rh4 Qxg6 38. b5 Rb8 39. a4 Rb7 40. Qc5 Qg5 41. Rh3 Rbe7 42. bxc6 Rc7 43. Qd5 Rcxc6 44. Kh2 f4 45. Rb1 Qe7 46. Rb8 Rcd6 47. Qb5 Rc6 48. Qb3 Qf7 49. Rbh8 Kf6 50. R3h7 1-0',
+      id: '4054949',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D84',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. cxd5 Nxd5 7. Nxd5 Qxd5 8. Bxc7 Na6 9. Bxa6 Qxg2 10. Qf3 Qxf3 11. Nxf3 bxa6 12. Rc1 a5 13. Ne5 a4 14. a3 f6 15. Nc6 Bb7 16. O-O Kf7 17. Rc3 Rfc8 18. Na5 Bf3 19. Re1 e5 20. dxe5 fxe5 21. e4 Bg4 22. Nc4 Kg8 23. Bxe5 Bf8 24. Kg2 Rc5 25. Ne3 Rxe5 26. Nxg4 Rg5 27. Rg3 Rb5 28. Re2 Rab8 29. Nf6+ Kg7 30. Nd7 Rxb2 31. Rxb2 Rxb2 32. Nxf8 Kxf8 33. Rc3 Rb3 34. Rc7 h5 35. Rxa7 Rxa3 36. h4 Ra1 37. Kf3 Rh1 38. Kg3 Rg1+ 39. Kh3 Rh1+ 40. Kg3 Rg1+ 41. Kh3 1/2-1/2',
+      id: '4055002',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'C45',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8. h4 a5 9. c4 Ba6 10. g3 Nb6 11. Nd2 d5 12. exd6 Qxe2+ 13. Bxe2 cxd6 14. b3 Be7 15. Bb2 O-O 16. O-O d5 17. Rac1 Rfe8 18. Bf3 a4 19. Rfd1 axb3 20. axb3 Bb4 21. cxd5 cxd5 22. Bd4 Rab8 23. Rc6 Re6 24. Rxb6 Rexb6 25. Bxb6 Rxb6 26. Bxd5 Kf8 27. Nc4 Bxc4 28. bxc4 Bc5 29. Rd2 Ra6 30. Kg2 h5 31. Rb2 Rb6 32. Ra2 Rb8 33. Ra5 Rc8 34. Rb5 Rc7 35. Rb8+ Ke7 36. Rh8 Bd4 37. Rxh5 g6 38. Rg5 Ra7 39. Rg4 Bc5 40. Re4+ Kf8 41. g4 Kg7 42. g5 f6 43. gxf6+ Kxf6 44. Re6+ Kg7 45. Rc6 Bd4 46. Be4 Bf6 47. Kh3 Ra3+ 48. f3 Ra1 49. c5 Rh1+ 50. Kg3 Rg1+ 51. Kh3 Rh1+ 52. Kg2 Rc1 53. Rc7+ Kh6 54. c6 Bxh4 55. Rf7 Bd8 56. Rf8 Ba5 57. Ra8 Rc5 58. Rg8 g5 59. Kh3 Rc1 60. Kg4 Rg1+ 61. Kf5 Rc1 62. Rg6+ Kh7 63. Rxg5 Kh8 64. Ke6 Bd8 65. Rg2 Rc5 66. Rc2 Rxc2 67. Bxc2 1-0',
+      id: '4055051',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'D97',
+      t: '10th Tal Mem 2016',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 a6 8. Be2 b5 9. Qb3 c5 10. dxc5 Be6 11. Qc2 Nbd7 12. Be3 Rc8 13. Rd1 b4 14. Nd5 Bxd5 15. exd5 Nxc5 16. O-O Nce4 17. Qd3 Qd6 18. Qxa6 Rc2 19. Bd4 Nc5 20. Qxd6 exd6 21. Bb5 Nfe4 22. Rc1 Rxc1 23. Rxc1 Ra8 24. Bxg7 Kxg7 25. Ra1 Na4 26. Bc6 Ra7 27. Bxa4 Rxa4 28. Nd4 Nf6 29. Kf1 Nxd5 30. g3 Nb6 31. Nc2 Ra5 32. Nxb4 Nc4 33. Rd1 Ra4 34. b3 Rxb4 35. bxc4 Rxc4 36. Rxd6 Rc2 37. Ra6 g5 38. g4 f6 39. Ra3 h5 40. h3 Rc4 41. gxh5 Kh6 42. Rf3 Kxh5 43. a3 Kg6 44. Ke2 Rd4 45. Rd3 Re4+ 46. Kd1 Rf4 47. Ke2 Re4+ 48. Kd1 Rf4 49. Ke1 Re4+ 50. Re3 Rd4 51. Rf3 Kf7 52. Rb3 Kg6 53. Kf1 Ra4 54. Rf3 Re4 55. Re3 Ra4 56. Ke2 Rd4 57. Rf3 Kf7 58. Rd3 Re4+ 59. Kd1 Rf4 60. Rd2 Ra4 61. Ra2 Ke6 62. Kc2 Kd6 63. Kb3 Rh4 64. a4 Rxh3+ 65. Kc4 Kc6 66. a5 Kb7 67. a6+ 1/2-1/2',
+      id: '4015061',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'B90',
+      t: 'Tal Memorial Blitz 2016',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nde2 h5 8. Ng1 Nbd7 9. Nf3 b5 10. Ng5 Bb7 11. Bd3 Be7 12. O-O Nc5 13. f4 Qc7 14. a3 Rc8 15. Qe1 O-O 16. Qg3 Nfd7 17. Kh1 Bf6 18. f5 Nxd3 19. cxd3 Nc5 20. Qf3 Nb3 21. Qxh5 Bxg5 22. Bxg5 f6 23. Be3 Nxa1 24. Rxa1 Qf7 25. Qg4 d5 26. exd5 Bxd5 27. Re1 Rfd8 28. Bb6 Rd6 29. Ba5 Bb7 30. Qg3 Qd7 31. Ne4 Bxe4 32. dxe4 Rd1 33. Qb3+ 1-0',
+      id: '4015086',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'D85',
+      t: 'SportAccord Rapid Men 2013',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Be3 c5 8. Rc1 Qa5 9. Qd2 Nd7 10. Nf3 O-O 11. Bh6 Rd8 12. Bxg7 Kxg7 13. h4 Nf6 14. e5 Ng4 15. d5 h5 16. Rd1 b5 17. c4 Qxd2+ 18. Rxd2 b4 19. Be2 a5 20. O-O a4 21. Rfd1 Rb8 22. d6 Bf5 23. dxe7 Rxd2 24. Rxd2 Re8 25. Bd1 Rxe7 26. Bxa4 Nxe5 27. Nxe5 Rxe5 28. f3 Re1+ 29. Kf2 Rc1 30. Bb3 Be6 31. g4 Bxc4 32. Bxc4 Rxc4 33. gxh5 gxh5 34. Rd5 Rc2+ 35. Kg3 c4 36. Rb5 Rb2 37. Rc5 c3 38. a3 bxa3 39. Rxc3 a2 40. Ra3 Kf6 41. Kf4 Ke6 42. Kg5 Rg2+ 43. Kxh5 Kd5 44. Kh6 Kc4 45. h5 Kb4 46. Rxa2 Rxa2 47. Kg7 f5 0-1',
+      id: '3877014',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'D90',
+      t: 'SportAccord Blitz Men 2013',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. h4 c6 6. Bg5 dxc4 7. e4 b5 8. e5 Nd5 9. h5 h6 10. hxg6 hxg5 11. Rxh8+ Bxh8 12. gxf7+ Kxf7 13. Nxg5+ Kg6 14. Qf3 Nxc3 15. bxc3 Kxg5 16. Qf7 Qd5 17. Qxe7+ Kh6 18. Qf8+ Bg7 19. Qxc8 c5 20. Qh3+ Kg6 21. Qg4+ Kh7 22. O-O-O Nc6 23. Be2 cxd4 24. Qf5+ Kg8 25. Bf3 Qxe5 26. Bd5+ 1-0',
+      id: '3877161',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'A40',
+      t: 'SportAccord Blitz Men 2013',
+      moves:
+        '1. d4 g6 2. c4 Bg7 3. e4 Nc6 4. Nf3 d6 5. Be2 Bg4 6. Be3 Bxf3 7. Bxf3 e5 8. d5 Nd4 9. Bxd4 exd4 10. O-O Ne7 11. Nd2 O-O 12. Rb1 c6 13. Be2 f5 14. exf5 Nxf5 15. dxc6 bxc6 16. b4 Kh8 17. Bd3 Rb8 18. Nf3 c5 19. bxc5 dxc5 20. Rxb8 Qxb8 21. Qc2 Nd6 22. Ng5 Qc8 23. Re1 Re8 24. Qd1 Bf6 25. Ne4 Nxe4 26. Rxe4 Rxe4 27. Bxe4 Kg7 28. g3 Qa6 29. Qb3 Qb6 30. Qc2 Qb4 31. Qe2 a5 32. h4 a4 33. Kg2 Qb6 34. Qg4 Qd6 35. Bd3 Qc6+ 36. Kh2 Be7 37. h5 Qf6 38. Kg2 a3 39. Qe4 Bf8 40. hxg6 hxg6 41. Qa8 Kh6 42. Qxa3 Qc6+ 43. Kg1 Qf3 44. Qc1+ Kg7 45. Qc2 Bd6 46. a4 g5 47. a5 Qc6 48. Qa2 Qa6 49. Qa4 Kf6 50. Qd7 Be7 51. Qb5 Qxb5 52. cxb5 Bd8 53. b6 Ke5 54. Bc4 Ke4 55. b7 Bc7 56. a6 Bb8 57. Kf1 d3 58. f4 gxf4 59. gxf4 Kd4 60. Bxd3 Kxd3 61. f5 c4 62. f6 c3 63. f7 c2 64. f8=Q c1=Q+ 65. Kg2 Qg5+ 66. Kf1 Qc1+ 67. Kg2 Qd2+ 68. Qf2 Qg5+ 69. Kf1 Qc1+ 70. Kg2 Qc6+ 71. Qf3+ Qxf3+ 72. Kxf3 1/2-1/2',
+      id: '3877281',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'D85',
+      t: '73rd Tata Steel GMA',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8. Be3 Bg4 9. Rc1 Bxf3 10. gxf3 cxd4 11. cxd4 O-O 12. f4 e6 13. Bg2 Nc6 14. e5 Qa5+ 15. Qd2 Qa6 16. Qe2 Qa5+ 17. Qd2 Qa6 18. Bf1 Qa4 19. Rc4 Qb5 20. Rc5 Qb1+ 21. Ke2 Qe4 22. f3 Qf5 23. h4 Qh5 24. Bf2 Rfd8 25. Bh3 Bf8 26. Bg4 Qh6 27. Rc4 Rd5 28. h5 Rad8 29. Rh3 Bc5 30. hxg6 Qxg6 31. f5 exf5 32. Bh5 Nxd4+ 33. Kf1 Nxf3 34. Qxd5 Rxd5 35. Bxf3 Bxf2 36. Bxd5 Qg1+ 37. Ke2 Qe1+ 38. Kf3 Qf1 0-1',
+      id: '3757760',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C53',
+      t: 'Opera Euro Rapid Prelim',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 O-O 6. O-O d5 7. exd5 Nxd5 8. a4 a5 9. Nbd2 Nb6 10. Bb5 Bd6 11. Ne4 Bg4 12. h3 Bh5 13. Re1 Na7 14. d4 exd4 15. Nxd6 Qxd6 16. Qxd4 Nxb5 17. axb5 Qxd4 18. Nxd4 Bg6 19. f4 f5 20. Re5 a4 21. Rc5 Rac8 22. Be3 Nd7 23. Rd5 Nb6 24. Rc5 Nd7 25. Rd5 Nb6 26. Rc5 1/2-1/2',
+      id: '4279183',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'Lindores Abbey Rapid Challenge',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nf5 8.  Nf3 d5 9. d4 O-O 10. Nc3 Nh4 11. Nxh4 Bxh4 12. Ne2 Ne7 13. c3 c6 14. Ng3 Nf5 15.  Bd3 Nxg3 16. hxg3 Bf6 17. Qc2 g6 18. Bh6 Bg7 19. Bxg7 Kxg7 20. Re5 Re8 21. Rae1  Rxe5 22. Rxe5 Bd7 23. Qe2 Qf8 24. b4 Re8 25. a4 f6 26. Re3 b6 27. a5 Kf7 28.  Rxe8 Qxe8 29. Qxe8+ Kxe8 30. axb6 axb6 31. Kf1 1/2-1/2',
+      id: '4261219',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'E32',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. e4 d5 6. e5 Ne4 7. Nf3 c5 8. Bd3 cxd4 9. Nxd4 Nd7 10. Bf4 Qh4 11. g3 Qh5 12. O-O g5 13. cxd5 Bxc3 14. bxc3 exd5 15. Be3 Nxe5 16. f3 Nc5 17. Bf5 Ne6 18. g4 Qh6 19. Rae1 Nxd4 20. Bxd4 Nc6 21. Bc5 Rd8 22. Be7 Nxe7 23. Rxe7 Bxf5 24. Qxf5 Qg6 25. Qxg6+ hxg6 26. f4 d4 27. fxg5 dxc3 28. Rfxf7 c2 29. Rg7+ Kh8 30. Rh7+ Kg8 31. Reg7+ Kf8 32. Rc7 Kg8 33. Rhg7+ Kh8 34. Rh7+ Kg8 35. Rhg7+ Kh8 36. Rh7+ Kg8 1/2-1/2',
+      id: '4274592',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C88',
+      t: "Cote d'Ivoire Rapid 2019",
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. d3 d6 9. Bd2 Bg4 10. c3 Na5 11. Bc2 c5 12. h3 Bd7 13. Bg5 h6 14. Bh4 Nc6 15. Nbd2 Be6 16. d4 cxd4 17. cxd4 exd4 18. Nb3 Nh5 19. Bxe7 Qxe7 20. Nbxd4 Nxd4 21. Nxd4 Nf4 22. Qf3 Qg5 23. Nf5 Bxf5 24. exf5 Rac8 25. Bb3 Qxf5 26. Re7 d5 27. Rae1 Qf6 28. h4 Rc6 29. R7e3 Rd8 30. g3 Ne6 31. Bxd5 Qxf3 32. Bxf3 Rc2 33. R1e2 Rxe2 34. Rxe2 Nd4 35. Re3 Nxf3+ 36. Rxf3 Rd2 37. Ra3 Rxb2 1/2-1/2',
+      id: '4193585',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D41',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4 8. cxd4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 O-O 11. Bd3 Nc6 12. Bc2 Qe7 13. O-O Rd8 14. e5 b6 15. Qd3 g6 16. Qe3 Bb7 17. Be4 Kg7 18. Rac1 Rac8 19. Qf4 h6 20. h4 Ba8 21. a3 b5 22. Rfd1 b4 23. Bxc6 Bxc6 24. axb4 Bxf3 25. Rxc8 Rxc8 26. Qxf3 Qxh4 27. g3 Qe7 28. d5 exd5 29. Rxd5 h5 30. b5 Qe6 31. Kg2 Rc7 32. Qe4 Qg4 33. Qxg4 hxg4 34. Rd4 Rc5 35. Rxg4 Rxe5 36. Ra4 Rxb5 37. Rxa7 1/2-1/2',
+      id: '4193618',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A37',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. c4 c5 2. g3 g6 3. Bg2 Bg7 4. Nc3 Nc6 5. Nf3 e6 6. d4 cxd4 7. Nb5 d5 8. cxd5 Qa5+ 9. Nd2 exd5 10. Nd6+ Kf8 11. O-O Nge7 12. Nb3 Qb6 13. Nxc8 Rxc8 14. e3 Bf6 15. exd4 Kg7 16. Be3 Rcd8 17. g4 h6 18. f4 Kh7 19. Qd2 Qb4 20. Qf2 Rhe8 21. Rad1 Qb6 22. Nc5 Qc7 23. Nd3 Bg7 24. f5 Ng8 25. Ne5 Nxe5 26. dxe5 Qxe5 27. Bd4 Qe2 28. f6 Bf8 29. Bxa7 Qxg4 30. h3 Qe6 31. Bd4 h5 32. Rde1 Qd6 33. Rxe8 Rxe8 34. Qf3 Bh6 35. a4 Bg5 36. a5 Nh6 37. Bb6 Re5 38. Qg3 d4 39. b4 h4 40. Qb3 d3 41. Bc5 Be3+ 42. Bxe3 Rxe3 43. b5 Qd4 44. Kh1 d2 45. Qc2 Re1 46. a6 Rxf1+ 47. Bxf1 0-1',
+      id: '4193663',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A20',
+      t: '7th Norway Blitz 2019',
+      moves:
+        '1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nf3 Nc6 6. O-O Nb6 7. Nc3 Be7 8. d3  O-O 9. Be3 Re8 10. Rc1 Bf8 11. Bg5 f6 12. Be3 Be6 13. Nd2 Qd7 14. Nb3 Nd5 15.  Bc5 Nxc3 16. Rxc3 Bd6 17. Bxd6 cxd6 18. d4 Bh3 19. dxe5 Bxg2 20. Kxg2 Rxe5 21.  e3 d5 22. Nc5 Qf7 23. Qb3 Re7 24. Rd1 Rd8 25. Rcd3 b6 26. Na4 d4 27. Qxf7+ Kxf7  28. exd4 Red7 29. Nc3 Rxd4 30. Rxd4 Rxd4 31. Kf3 Rxd1 32. Nxd1 Ke6 33. Nc3 Ne5+  34. Ke2 h5 35. f4 Nc6 36. Ke3 g5 37. fxg5 fxg5 38. Ke4 Ne5 39. Nb5 Ng4 40. h4  Nf6+ 41. Kf3 gxh4 42. gxh4 a5 43. Kf4 Nd5+ 44. Kg5 Nb4 45. Kxh5 Kf6 46. a3 Nd3  47. b3 Nc5 48. Nc3 Nxb3 49. Nd5+ Kf5 50. Nxb6 Nd2 51. Kh6 Kf6 52. h5 Nb1 53. a4  Nc3 54. Kh7 Ne4 55. Nc4 Kg5 56. h6 Nf6+ 57. Kg7 Nh5+ 58. Kf7 Kxh6 59. Nxa5 Kg5  60. Nc6 Kf5 61. a5 Nf4 62. a6 Ne6 63. Nd4+ Nxd4 64. a7 1-0',
+      id: '4195751',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E04',
+      t: '7th Norway Chess 2019',
+      moves:
+        '1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 dxc4 5. Bg2 c5 6. O-O Nc6 7. dxc5 Qxd1 8.  Rxd1 Bxc5 9. Nbd2 c3 10. bxc3 O-O 11. Nb3 Be7 12. Bb2 Bd7 13. c4 Rfd8 14. Nfd4  Rac8 15. Nb5 b6 16. Nd6 Bxd6 17. Rxd6 Be8 18. Rxd8 Nxd8 19. Rc1 Bc6 20. c5 Bxg2  21. Kxg2 Nd7 22. cxb6 Rxc1 23. Bxc1 axb6 24. Kf3 Nc6 25. Ke3 Kf8 26. Kd3 b5 27.  Ba3+ Ke8 28. f4 f5 29. e4 fxe4+ 30. Kxe4 Nf6+ 31. Kf3 e5 32. f5 Kf7 33. Bb2 g6  34. fxg6+ Kxg6 35. h3 h5 1/2-1/2',
+      id: '4195788',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'D35',
+      t: '7th Norway Chess 2019',
+      moves:
+        '1. c4 e6 2. Nc3 d5 3. d4 Nf6 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 c5 7. Rb1 Be7 8.  Nf3 O-O 9. Bc4 a6 10. a4 Qc7 11. Be2 b6 12. O-O cxd4 13. cxd4 Bb7 14. Bd3 Nc6  15. Rb3 Na5 16. Rb2 Nc6 17. Rd2 Rfd8 18. Bb2 Rac8 19. d5 Nb4 20. Bb1 exd5 21. e5  g6 22. Re1 d4 23. e6 f6 24. Nxd4 Nc6 25. Nf5 Rxd2 26. Nxe7+ Qxe7 27. Qxd2 Kg7  28. Qf4 Rf8 29. h4 Bc8 30. h5 Ne5 31. Rxe5 fxe5 32. Qxe5+ Kh6 33. hxg6 hxg6 34.  Qh2+ Kg5 35. Qg3+ 1-0',
+      id: '4195793',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'A20',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. c4 e5 2. g3 Nf6 3. Bg2 Bc5 4. Nc3 c6 5. e3 O-O 6. Nge2 d5 7. cxd5 Nxd5 8. d4  exd4 9. Nxd5 cxd5 10. exd4 Bb6 11. Nc3 Nc6 12. Be3 Be6 13. O-O Qd7 14. Na4 Rfd8  15. Nxb6 axb6 16. Qb3 Ra6 17. Rfc1 Bh3 18. Bf3 Bg4 19. Bg2 Bh3 20. Bf3 Bg4 21.  Bh1 h5 22. h4 Be2 23. Kh2 Qf5 24. Bg2 Na5 25. Qc3 Nc6 26. b3 b5 27. Qd2 Bf3 28.  Bf1 Rb6 29. Bf4 Rc8 30. Rc3 Bg4 31. f3 b4 32. Rd3 Bxf3 33. Rxf3 Ne5 34. dxe5 Rc2  35. Rf2 Rxd2 36. Rxd2 Rc6 37. Bh3 Qg6 38. Rad1 Ra6 39. Bg2 d4 40. Bxb7 Ra5 41.  Rxd4 Rxa2+ 42. R1d2 Qb6 43. Rxa2 Qxd4 44. Rd2 Qc3 45. Bd5 Kf8 46. Bc4 Ke7 47.  Bg5+ f6 48. exf6+ gxf6 49. Re2+ Kd7 50. Bd2 1-0',
+      id: '4200103',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A14',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. c4 Nf6 2. g3 e6 3. Bg2 d5 4. Nf3 Be7 5. O-O O-O 6. d4 dxc4 7. Qc2 a6 8. a4 c5  9. dxc5 Bxc5 10. Qxc4 b6 11. Ne5 Ra7 12. Nd3 Be7 13. Bf4 Bb7 14. Bxb7 Rxb7 15.  Rc1 Nd5 16. Be5 Bd6 17. Nd2 Bxe5 18. Nxe5 b5 19. Qd4 bxa4 20. Rxa4 Qb6 21. Nd3  Rd8 22. Ne4 Nd7 23. Nec5 Nxc5 24. Rxc5 Nf4 25. Qxf4 Rxd3 26. Rc8+ Rd8 27. Rac4  h6 28. R4c6 Rxc8 29. Rxc8+ Kh7 30. Qe4+ f5 31. Qc4 Qb3 32. Qxb3 Rxb3 33. Rc6  Rxb2 34. Rxe6 a5 35. Ra6 Rxe2 36. Rxa5 Kg6 37. Ra6+ Kh7 38. Ra5 Kg6 39. Ra6+ Kh7  40. Ra5 1/2-1/2',
+      id: '4211795',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'D37',
+      t: 'Tata Steel India Rapid',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 dxc4 7. e3 c5 8. Bxc4 cxd4 9. Nxd4 Bd7 10. O-O Nc6 11. Nf3 O-O 12. Rc1 Rc8 13. a3 Qb6 14. Na4 Qc7 15. b4 a6 16. Bd3 e5 17. Nc5 Rfd8 18. Qb3 Bg4 19. Bxf6 Bxf6 20. Be4 Rd6 21. h3 Bd7 22. Rc2 Be8 23. Rfc1 Rcd8 24. g4 h5 25. Kg2 hxg4 26. hxg4 b6 27. Nd3 Qd7 28. Kg3 Rxd3 29. Qxd3 Qxd3 30. Bxd3 Rxd3 31. g5 Be7 32. Rxc6 Bxc6 33. Rxc6 e4 34. Ne5 Bd6 35. Kf4 Rd5 36. Rc8+ Kh7 37. Re8 Rxe5 38. Rxe5 f6 39. gxf6 gxf6 40. Kxe4 Bxe5 41. Kd5 Bb2 0-1',
+      id: '4230904',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C45',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nc3 Bb4 6. Nxc6 bxc6 7. Bd3 d5 8. Bd2 Bg4 9. f3 Be6 10. O-O dxe4 11. Nxe4 Nxe4 12. Bxb4 Qd4+ 13. Kh1 Qxb4 14. Bxe4 O-O 15. b3 Rad8 16. Qe1 c5 17. Qxb4 cxb4 18. a3 a5 19. axb4 axb4 20. Rfd1 g6 21. Kg1 c5 22. Kf2 c4 23. bxc4 Rxd1 24. Rxd1 Bxc4 25. Rb1 Rb8 26. Ke3 Be6 27. Kd4 Kg7 28. c4 Kf6 29. Bd5 Bxd5 30. cxd5 b3 31. Rb2 Ke7 32. Kc4 Kd6 33. Rxb3 Rxb3 34. Kxb3 Kxd5 35. Kc3 f5 1/2-1/2',
+      id: '4230930',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. c5 Nh5 8. Bd3 Nxf4 9. exf4 b6 10. c6 Nb8 11. Ne5 Bd6 12. a3 Bxe5 13. dxe5 Nxc6 14. Qh5 g6 15. Qh6 Qe7 16. h4 f5 17. h5 Qg7 18. hxg6 hxg6 19. Qg5 Bd7 20. O-O-O Kf7 21. g4 Rh8 22. Rhg1 Ne7 23. gxf5 exf5 24. Ne2 Rh5 1/2-1/2',
+      id: '4232194',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C89',
+      t: 'FIDE Candidates 2018',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3  d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. Re1 Bd6 13. d3 Bf5 14. Qf3 Qh4 15.  g3 Qh3 16. Be3 Bxd3 17. Nd2 Qf5 18. Bd4 Rfd8 19. a4 h6 20. h4 Rac8 21. axb5 axb5  22. Bxd5 cxd5 23. Qxf5 Bxf5 24. Ra5 b4 25. Rxd5 Be6 26. Ra5 bxc3 27. Bxc3 Rb8  28. Nf1 Bb4 29. Raa1 Bc5 30. Ne3 Rd3 31. Red1 Rbd8 32. Rxd3 Rxd3 33. Rd1 Rxd1+  34. Nxd1 Bb3 35. Ne3 Bxe3 36. fxe3 Kf8 37. Kf2 1/2-1/2',
+      id: '4103625',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'FIDE Candidates 2018',
+      moves:
+        '1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 Qxd5 9. Be2 Bb7 10. Bxc7 Qa5+ 11. Kf1 Nd7 12. h4 Rac8 13. Bf4 Rfd8 14. Kg1 Bxf3 15. Bxf3 e5 16. Bg5 Bxg5 17. hxg5 exd4 18. Qxd4 Qxg5 19. Rh5 Qf6 20. Rd5 Qxd4 21. Rxd4 Ne5 22. Bd5 Nc6 23. Rdd1 Kf8 24. Bxc6 Rxd1+ 25. Rxd1 Rxc6 26. Rd7 Rc2 27. Rxa7 Rxb2 28. a4 Ra2 29. Rb7 Ra1+ 30. Kh2 Rxa4 31. Rxb6 1/2-1/2',
+      id: '4105677',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A30',
+      t: '6th Norway Blitz 2018',
+      moves:
+        '1. c4 c5 2. Nf3 Nc6 3. Nc3 g6 4. e3 Nf6 5. d4 cxd4 6. exd4 d5 7. cxd5 Nxd5 8. Qb3 Nxc3 9. Bc4 e6 10. bxc3 Bd7 11. Be2 Na5 12. Qb1 Rc8 13. O-O Bg7 14. Ba3 Bf8 15. Bb4 Bxb4 16. cxb4 Nc6 17. b5 Ne7 18. Ne5 O-O 19. Bf3 b6 20. Qb4 f6 21. Nd3 Be8 22. Rac1 Rxc1 23. Rxc1 Nf5 24. d5 e5 25. Bd1 Bf7 26. Qa3 Qxd5 27. Nb4 Qxb5 28. Nc6 Rc8 29. Ba4 Qe2 30. Nxa7 Rxc1+ 31. Qxc1 Qxa2 32. Qd1 Nd4 33. Nb5 Bb3 34. Bxb3+ Qxb3 35. Qxb3+ Nxb3 36. f3 Nd4 0-1',
+      id: '4117437',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C50',
+      t: 'FIDE World Cup 2017',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. c3 d6 6. O-O O-O 7. Re1 a5 8. Nbd2 Be6 9. Bb5 Qb8 10. Nf1 Qa7 11. Be3 Bxe3 12. Nxe3 Ne7 13. a4 Ng6 14. Bc4 Bxc4 15. Nxc4 Qa6 16. g3 Rfe8 17. Qb3 Nf8 18. Qb5 Qxb5 19. axb5 b6 20. Ra3 Ne6 21. Ne3 Nc5 22. c4 a4 23. Rea1 Nb3 24. Rd1 Rec8 25. Nd2 Nxd2 26. Rxd2 Nd7 27. Rd1 Nc5 28. Nd5 Kf8 29. f4 Ra5 30. Nb4 Raa8 31. Kf2 Ke8 32. Ke3 f6 33. f5 Kd7 34. g4 Rh8 35. h4 h6 36. Nd5 Ra5 37. Rg1 Kc8 38. g5 hxg5 39. hxg5 Rh3+ 40. Kd2 Nb3+ 41. Kc3 Nd4 42. gxf6 Rh2 43. Nxb6+ cxb6 44. fxg7 Rc2+ 45. Kb4 Rxb2+ 46. Kc3 Rc2+ 47. Kb4 Rb2+ 1/2-1/2',
+      id: '4069487',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: 'FIDE World Cup 2017',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 O-O 6. b3 b6 7. O-O Bb7 8. Nc3 Nbd7 9. Bb2 c5 10. Ne1 cxd4 11. Qxd4 Bc5 12. Qf4 Bb4 13. Nd3 Bxc3 14. Bxc3 Qc8 15. Rfc1 dxc4 16. Bxf6 Nxf6 17. Rxc4 Qb8 18. Qxb8 Rfxb8 19. Ne5 Bxg2 20. Kxg2 Ne8 21. Nc6 Rb7 22. Rd1 Kf8 23. e4 Nf6 24. f4 b5 25. Rcd4 g6 26. Ne5 h6 27. Rc1 Ke8 28. Kf3 Nd7 29. Nd3 a5 30. Rc6 Ke7 31. a3 Raa7 32. Ke3 Nb8 33. Rc8 Nd7 34. Rc6 Nb8 35. Rc8 Nd7 36. Nc5 Nb6 37. Rc6 Rc7 38. Rxb6 Rxc5 39. e5 g5 40. Rd3 gxf4+ 41. gxf4 Rc2 42. h3 Ra2 43. b4 axb4 44. axb4 Rh2 45. Ke4 Rc7 46. Rxb5 Rc4+ 47. Rd4 Rc7 48. Rc5 Rxc5 49. bxc5 Rc2 50. f5 exf5+ 51. Kxf5 Rxc5 52. Rd6 Rc1 53. Rxh6 Rf1+ 54. Ke4 f6 55. exf6+ Rxf6 56. Rxf6 Kxf6 57. h4 Kg6 58. h5+ Kxh5 1/2-1/2',
+      id: '4069489',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'A13',
+      t: 'FIDE World Cup 2017',
+      moves:
+        '1. c4 Nf6 2. Nf3 e6 3. g3 d5 4. Bg2 dxc4 5. O-O a6 6. a4 Nc6 7. Qc2 Na5 8. Na3 Qd5 9. Rd1 Bd7 10. d4 Qf5 11. Bd2 Qxc2 12. Nxc2 Nb3 13. Ra2 Bc6 14. Ne5 Bd5 15. Bc3 c5 16. a5 Rc8 17. Ra4 cxd4 18. Nxd4 Nc5 19. Raa1 Nce4 20. Bxe4 Nxe4 21. f3 Nxc3 22. bxc3 f6 23. Ng4 Bc5 24. Kf1 Ke7 25. Rab1 Rhd8 26. e4 Bxd4 27. cxd4 Bc6 28. Rb4 Bb5 29. Ne3 c3+ 30. Kf2 Rc6 31. Nc2 Rdc8 32. Na3 c2 33. Rc1 Bd3 34. Rxb7+ R6c7 35. Rb2 Rc3 36. Ra2 f5 37. e5 g5 38. Ke1 f4 39. Kd2 Bf5 40. gxf4 gxf4 41. Nxc2 R8c4 42. Rb2 Rxf3 43. Rb7+ Ke8 44. Nb4 Rxd4+ 45. Ke2 Re3+ 46. Kf1 Be4 47. Rg7 Kf8 48. Ra7 Rd8 49. Nxa6 Bd3+ 50. Kg1 Rxe5 51. Rd1 Rxa5 52. Nc7 Rxa7 53. Nxe6+ Ke7 54. Nxd8 Bb5 55. Rb1 Bd7 56. Nb7 Ra2 57. Nc5 Bc6 58. Nd3 Rg2+ 59. Kf1 f3 60. Rb6 Bd5 61. Rb4 Rxh2 62. Ne1 Ke6 63. Rf4 Rh1+ 64. Kf2 Rh2+ 65. Kg3 Re2 66. Nxf3 Re3 67. Kf2 Rxf3+ 68. Rxf3 1/2-1/2',
+      id: '4069491',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D39',
+      t: 'FIDE World Cup 2017',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 dxc4 6. a3 Bxc3+ 7. bxc3 c5 8. e3 cxd4 9. Bxf6 1/2-1/2',
+      id: '4069493',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'D78',
+      t: 'FIDE World Cup 2017',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 Nf6 5. c4 c6 6. O-O O-O 7. Nbd2 a5 8. b3 a4 9. Bb2 Bf5 10. e3 Nbd7 11. Qe2 Ne4 12. Nxe4 Bxe4 13. cxd5 cxd5 14. Qb5 Ra5 15. Qxb7 Nc5 16. Qb4 Nd3 17. Qd2 Rb5 18. Bc3 axb3 19. Ng5 b2 20. Rab1 Nxf2 21. Qxf2 Bxb1 22. Rxb1 e5 23. Nh3 exd4 24. exd4 Qc7 25. Qd2 Rfb8 26. Nf4 Qc4 27. Bxd5 Rxd5 28. Nxd5 Qxd5 29. Rxb2 Rc8 30. Rb3 h5 31. Bb2 Kh7 32. h3 Qe4 33. Qd3 Qe1+ 34. Qf1 Qd2 35. Qf2 Qd1+ 36. Qf1 Bxd4+ 37. Bxd4 Qxd4+ 38. Kh1 Qd5+ 39. Rf3 Rc3 40. Kg2 Qc6 41. h4 Kg8 42. a4 f6 43. a5 Kg7 44. a6 Rc2+ 45. Kg1 Rc1 46. Rxf6 Rxf1+ 47. Rxf1 Qxa6 48. Kg2 Qe2+ 49. Rf2 Qe4+ 50. Kh2 g5 51. hxg5 h4 52. Rf4 Qe2+ 53. Kh3 hxg3 54. Kxg3 Kg6 55. Rf2 Qe3+ 56. Kg2 Kxg5 57. Rf3 Qe2+ 58. Kg3 Qe1+ 59. Kg2 Kg4 60. Rf2 Qe4+ 61. Kh2 Kh4 62. Ra2 Qe5+ 63. Kg1 Qd4+ 64. Kh2 Qd6+ 65. Kg1 Qc5+ 66. Kh2 Qc7+ 67. Kg1 Qb6+ 68. Kg2 Qb7+ 69. Kh2 Qb8+ 0-1',
+      id: '4069495',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A60',
+      t: 'FIDE World Cup 2017',
+      moves:
+        '1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 d6 5. e4 g6 6. Nf3 Bg7 7. Bd3 exd5 8. exd5 O-O 9. O-O Bg4 10. h3 Bxf3 11. Qxf3 Nfd7 12. Qd1 Re8 13. Bd2 Na6 14. a3 Qh4 15. Qg4 Qxg4 16. hxg4 Nc7 17. Rfe1 h6 18. Rxe8+ Nxe8 19. g3 Nef6 20. f3 Ne5 21. Be2 g5 22. Kg2 Re8 23. Re1 a6 24. Bf1 Kf8 25. b3 b6 26. a4 Rb8 27. Ne4 Nxe4 28. Rxe4 Nd7 29. Re1 Ne5 30. Bc3 Ng6 31. Bd2 Ne5 32. Bc3 Bf6 33. Bxe5 Bxe5 34. Bd3 Kg7 35. Re2 Kf6 36. Re1 Rb7 37. Re2 Rb8 38. Re1 Rh8 39. Re4 Rg8 40. f4 Bc3 41. Kf3 Rh8 42. Re2 Bd4 43. Rh2 Re8 44. Re2 Rh8 45. Rh2 Kg7 46. fxg5 hxg5 1/2-1/2',
+      id: '4069497',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D11',
+      t: '78th Tata Steel GpA',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 e6 5. b3 Nbd7 6. Bd3 Bd6 7. Bb2 O-O 8. O-O b6 9. Nbd2 Bb7 10. Ne5 c5 11. cxd5 Bxd5 12. Ndc4 Be7 13. Rc1 cxd4 14. Bxd4 Rc8 15. Qe2 Nc5 16. Bb1 b5 17. Nd2 a6 18. Rfd1 Ncd7 19. Rxc8 Qxc8 20. Nxd7 Nxd7 21. Be4 Nf6 22. Bxf6 Bxf6 23. Bxd5 exd5 24. Nf3 Qe6 25. h3 Rc8 26. Qd2 h6 27. Rc1 Rc6 28. Kf1 Qc8 29. Rxc6 Qxc6 30. Ne1 Bc3 31. Qc2 Qf6 32. Nd3 d4 33. Nf4 Qd6 34. Ne2 Qf6 35. Kg1 g6 36. Nxd4 Bxd4 37. exd4 Qxd4 38. Qc8+ Kg7 39. Qxa6 Qa1+ 40. Kh2 Qe5+ 41. Kg1 1/2-1/2',
+      id: '3976699',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D45',
+      t: 'Ding vs So Match 2016',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. e3 Nbd7 6. Be2 Bd6 7. O-O O-O 8. a4 a5 9. Qc2 b6 10. e4 Nxe4 11. Nxe4 dxe4 12. Qxe4 Bb7 13. Rd1 Qe7 14. Bf4 Rad8 15. Bxd6 Qxd6 16. Ne5 Nxe5 17. dxe5 Qb4 18. b3 Qe7 19. Bf3 Ba8 20. Qe3 c5 21. Bxa8 Rxd1+ 22. Rxd1 Rxa8 23. Qd3 h5 24. f4 Qh4 25. Qg3 Qe7 26. Qd3 Qh4 27. g3 Qh3 28. Qf1 Qf5 29. Qd3 Qh3 30. Qf1 Qf5 31. h4 Kh7 32. Rd6 Rb8 33. Qd1 Kg6 34. Kf2 f6 35. exf6 gxf6 36. Kg2 Qe4+ 37. Kh2 Re8 38. Rxb6 Rd8 39. Qxd8 Qe2+ 40. Kg1 Qe1+ 1/2-1/2',
+      id: '3991816',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C83',
+      t: 'Ding vs So Match 2016',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5 Be6 9. c3 Be7 10. Be3 O-O 11. Nbd2 Nxd2 12. Bxd2 Qd7 13. Re1 Rad8 14. Bg5 Bg4 15. Bxe7 Qxe7 16. Bc2 d4 17. Qd3 g6 18. Nxd4 Nxd4 19. cxd4 Bf5 20. Qb3 Bxc2 21. Qxc2 Rxd4 22. Qc6 Qe6 23. Qxc7 Rc8 24. Qa7 Rd2 25. b4 Rcc2 26. h3 Qf5 27. e6 Qxf2+ 28. Qxf2 Rxf2 29. e7 Rxg2+ 30. Kh1 Rh2+ 31. Kg1 1/2-1/2',
+      id: '3991817',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'D43',
+      t: 'Ding vs So Match 2016',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. g3 dxc4 6. Bg2 b5 7. Ne5 a6 8. O-O Bb7 9. b3 b4 10. Ne4 Nxe4 11. Bxe4 c3 12. a3 a5 13. axb4 axb4 14. Bf4 Nd7 15. Bxc6 Bxc6 16. Nxc6 Qc8 17. Rxa8 Qxa8 18. d5 Bc5 19. Qd3 O-O 20. dxe6 Qxc6 21. exd7 Rd8 22. Rd1 Bb6 23. e4 h6 24. h4 Qe6 25. Qd5 Qg4 26. Kg2 c2 27. Rc1 Qe2 28. Rf1 Bc7 29. e5 Qg4 30. Rc1 Rxd7 31. Qa8+ Rd8 32. Qc6 g5 33. e6 gxf4 34. Qxc7 f3+ 35. Kh2 Rd2 36. Rxc2 Rxc2 37. exf7+ Kg7 38. Qxc2 1-0',
+      id: '3991818',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C80',
+      t: 'Ding vs So Match 2016',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5 Be6 9. Nbd2 Nc5 10. c3 Be7 11. Bc2 d4 12. Nxd4 Nxd4 13. cxd4 Qxd4 14. Nf3 Qxd1 15. Rxd1 O-O 16. Be3 Rfd8 17. Rdc1 h6 18. Nd4 Bd5 19. f4 Ne6 20. Nxe6 fxe6 21. Bg6 Rac8 22. Bc5 Kf8 23. Kf2 Bb7 24. Bxe7+ Kxe7 25. Rc2 c5 26. Ke3 c4 27. a4 Bd5 28. axb5 axb5 29. g4 b4 30. Ra4 Rb8 31. Be4 b3 32. Rc3 Bxe4 33. Kxe4 Rb7 34. Ke3 Rd1 35. Rcxc4 Rb1 36. Ra6 Rxb2 37. Rcc6 Rb1 38. Rxe6+ Kf7 39. Reb6 Rxb6 40. Rxb6 b2 41. Kd3 Rf1 42. Rxb2 Rxf4 43. Rb7+ Ke6 44. Rxg7 Kxe5 45. Ke3 Ra4 46. Rg6 Ra3+ 47. Kf2 Kf4 48. Kg2 Rb3 49. h3 Rb2+ 50. Kf1 Rb1+ 51. Ke2 Rb2+ 52. Ke1 h5 53. gxh5 Rb5 54. Rg4+ Kf3 1/2-1/2',
+      id: '3991819',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: '4th Sinquefield Cup 2016',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. Bg5 h6 6. Bh4 Be7 7. e3 O-O 8. Be2 dxc4 9. Bxc4 c5 10. O-O cxd4 11. Nxd4 Nb6 12. Bb3 Nbd5 13. Nxd5 Nxd5 14. Bg3 Bf6 15. Rc1 Nb6 16. Qe2 Bd7 17. Nb5 a6 18. Nd6 Bc6 19. Nxb7 Bxb7 20. Bc7 Qe7 21. Bxb6 Bxg2 22. Kxg2 Qb7+ 23. Qf3 Qxb6 24. Rc6 Qb7 25. Rc2 Qxf3+ 26. Kxf3 Rfc8 27. Rfc1 Rxc2 28. Rxc2 Rb8 29. Rc6 a5 30. Rc5 Ra8 31. Rb5 Ra7 32. Bc2 Kf8 33. a4 Ke7 34. b4 Bc3 35. bxa5 Rxa5 1/2-1/2',
+      id: '4003406',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D31',
+      t: '77th Tata Steel GpA',
+      moves:
+        '1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 c6 6. e3 Bf5 7. g4 Be6 8. h4 Bxh4 9. Qb3 g5 10. Be5 f6 11. Bh2 Bxg4 12. Qxb7 Qe7 13. Qxa8 Qxe3+ 14. Be2 Bxf2+ 15. Kf1 Bh4 16. Qxb8+ Kf7 17. Nd1 Bxe2+ 18. Nxe2 Qf3+ 19. Kg1 Qxe2 20. Bg3 Qg4 21. Kg2 Qe4+ 22. Kg1 Qg4 23. Kg2 Qe4+ 24. Kg1 Qg4 1/2-1/2',
+      id: '3926730',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'E98',
+      t: '8th Grand Slam Masters',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5 13. Rc1 Ng6 14. c5 Nxc5 15. b4 Na6 16. Nd3 h5 17. Nb5 b6 18. Be1 Rf7 19. Bd2 Bf6 20. Nf2 Qe8 21. Qa4 Bd8 22. Qa3 g4 23. fxg4 hxg4 24. Nc3 Nxb4 25. Qxb4 f3 26. Bb5 Qe7 27. g3 Rh7 28. Qc4 Rh8 29. Qc6 Qh7 30. h3 Rb8 31. Ncd1 a6 32. Qe8+ Kg7 33. Qxd8 Rxd8 34. Rxc7+ Bd7 35. Rxd7+ Rxd7 36. Bxd7 gxh3 37. Kh2 Rb7 38. Be6 Nf8 39. Bf5 Qh5 40. Ng4 Nd7 41. Bh6+ Kh8 42. Nde3 Rc7 43. Bxd7 Rxd7 44. Rxf3 Rf7 45. Rf5 Rxf5 46. exf5 Qf7 47. Bg5 b5 48. Nh6 Qf8 49. f6 Kh7 50. Nef5 Kg6 51. Bh4 e4 52. f7 e3 53. Be7 e2 54. Nh4+ Kh7 55. Bxf8 e1=Q 56. Bxd6 Qf2+ 57. Kxh3 Qf1+ 58. Kg4 Qc4+ 59. Bf4 Qe2+ 60. Nf3 1-0',
+      id: '3965501',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E60',
+      t: '8th Grand Slam Masters',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. e3 O-O 5. Be2 c5 6. d5 e6 7. Nc3 d6 8. Nd2 Re8 9. O-O Na6 10. e4 Nc7 11. a4 Na6 12. f3 Nb4 13. Rf2 Nh5 14. dxe6 Bxe6 15. Nb3 f5 16. Bf1 Qe7 17. Be3 f4 18. Bd2 Be5 19. Be1 Nc6 20. Nd5 Qg7 21. Bc3 Rad8 22. Nc1 g5 23. Nd3 Bxc3 24. bxc3 Bxd5 25. cxd5 Ne5 26. Rb1 Re7 27. Nxe5 Qxe5 28. Rb3 Rdd7 29. Qc1 Nf6 30. h3 h5 31. c4 Rg7 32. a5 Rdf7 33. Qb2 g4 34. Qxe5 dxe5 35. Kh1 gxf3 36. gxf3 h4 37. Rb5 Rc7 38. Rd2 Nh5 39. Kh2 Ng3 40. Bg2 Rgd7 41. d6 Rc6 42. Rd5 b6 43. Rxe5 Rcxd6 44. Rg5+ Rg7 45. axb6 axb6 46. Rg4 Rd2 47. Rxb6 Nf1+ 48. Kg1 Rxg4 49. hxg4 Ne3 50. Bh3 Rd1+ 51. Kh2 Rd2+ 52. Kg1 Rd1+ 53. Kh2 Rd2+ 1/2-1/2',
+      id: '3965910',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: '6th SPICE Cup GM',
+      moves:
+        '1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 Nbd7 7. c5 Ne4 8. Rc1 c6 9. Nxe4 dxe4 10. Ne5 Nxe5 11. Bxe5 b6 12. Qa4 bxc5 13. dxc5 Qd5 14. Bd4 Bd7 15. Be2 Qf5 16. O-O e5 17. Bc3 Bxc5 18. Qa5 Bb6 19. Qxe5 Qxe5 20. Bxe5 Rfe8 21. Rfd1 Be6 22. Rxc6 Bxa2 23. Bc3 Bb3 24. Ra1 f5 25. h4 Rac8 26. Rxc8 Rxc8 27. g4 g6 28. Kg2 Be6 29. h5 g5 30. Rd1 Rd8 31. Rxd8+ Bxd8 32. gxf5 Bxf5 33. Bc4+ Kf8 34. h6 Ke7 35. Bg8 Bc7 36. b4 Kf8 37. Bd5 Ke7 38. Kf1 Kd6 39. Bf7 Kc6 40. Be8+ Kd5 41. Bf6 g4 42. Bd4 a6 43. Bf7+ Kc6 44. Be8+ Kd5 45. Bf7+ Kc6 46. Be8+ Kd5 1/2-1/2',
+      id: '3830219',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'E68',
+      t: '6th SPICE Cup GM',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. g3 O-O 5. Bg2 d6 6. Nf3 Nbd7 7. O-O e5 8. e4 exd4 9. Nxd4 Re8 10. h3 Nc5 11. Re1 Bd7 12. Rb1 a5 13. Ndb5 Bc6 14. Qc2 Nfd7 15. Be3 a4 16. Rbd1 Qb8 17. f4 Nb6 18. b4 axb3 19. axb3 Rd8 20. g4 Na6 21. Bd4 Bxb5 22. Bxg7 Kxg7 23. Nxb5 c6 24. Nd4 Kg8 25. e5 dxe5 26. fxe5 Nc5 27. b4 Ne6 28. Nxe6 fxe6 29. Bf1 Qc7 30. Qc3 Na4 31. Qe3 Rxd1 32. Rxd1 Qb6 33. Qxb6 Nxb6 34. Rd6 Ra4 35. c5 Nd5 36. b5 cxb5 37. Bxb5 Ra1+ 38. Kf2 Rc1 39. Bd7 Nc7 40. c6 bxc6 41. Rxc6 Rxc6 42. Bxc6 g5 43. Ke3 Kf7 44. Kd4 Ke7 45. Be4 Kf7 46. Kc5 Ke7 47. Kc6 Na6 48. Kb5 Nc7+ 49. Kc5 Na6+ 50. Kd4 Nb8 51. Bxh7 Nc6+ 52. Ke4 Kf7 53. Kf3 Nxe5+ 54. Kg3 Kf6 55. h4 gxh4+ 56. Kxh4 Nxg4 57. Kxg4 1/2-1/2',
+      id: '3831518',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'E98',
+      t: 'FIDE World Cup 2011',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Nf3 e5 7. O-O Nc6 8. d5 Ne7  9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5 13. g4 h5 14. h3 Rf6 15. Nd3 Rh6 16.  c5 Nxc5 17. Nxc5 dxc5 18. Bxc5 Ng6 19. Rc1 hxg4 20. hxg4 Rh3 21. Kg2 Rg3+ 22.  Kf2 Nh4 23. Rg1 Rh3 24. Rh1 Rg3 25. Kf1 Bf8 26. Bf2 a6 27. Bxg3 fxg3 28. Rg1 Qf6  29. Rxg3 Qf4 30. Qe1 Bd6 31. Rc2 Bd7 32. Nd1 b6 33. Qf2 Bc5 34. Rxc5 bxc5 35.  Ne3 Bb5 36. b3 Bxe2+ 37. Kxe2 a5 38. d6 cxd6 39. Nd5 Qc1 40. Qe3 Qxe3+ 41. Kxe3 1/2-1/2',
+      id: '3782706',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'FIDE World Cup 2011',
+      moves:
+        '1. Nf3 Nf6 2. c4 e6 3. d4 d5 4. Nc3 dxc4 5. e4 Bb4 6. Bg5 c5 7. Bxc4 cxd4 8.  Nxd4 Qa5 9. Bd2 Qc5 10. Bb5+ Bd7 11. Nb3 Qc7 12. O-O Bxc3 13. Bxd7+ Qxd7 14.  Bxc3 Nc6 15. Qe2 Qe7 16. f3 O-O 17. Qb5 Rfd8 18. Rfd1 Rac8 19. Rac1 Rxd1+ 20.  Rxd1 Qc7 21. Be1 a6 22. Qc5 Rd8 23. Rc1 Rc8 24. Bg3 Qd8 25. Qd6 Qxd6 26. Bxd6 b6  27. a4 Ne8 28. Ba3 Rc7 29. Nd2 f6 30. Kf2 e5 31. b3 Kf7 32. Nc4 b5 33. axb5 1/2-1/2',
+      id: '3782770',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'E84',
+      t: 'FIDE World Cup 2011',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 Nc6 7. Nge2 a6 8. Qd2  Rb8 9. Rc1 e6 10. g3 Ne7 11. b4 Nd7 12. Rd1 b5 13. cxb5 axb5 14. Nc1 c6 15. Nb3  Nb6 16. Na5 d5 17. Be2 Nc4 18. Nxc4 bxc4 19. a3 e5 20. dxe5 Bxe5 21. Bd4 Bxd4  22. Qxd4 Be6 23. Kf2 Qc7 24. Qc5 Qe5 25. Rc1 Nc8 26. Rhd1 Nb6 27. f4 Qg7 28. Qd4  Qxd4+ 29. Rxd4 Ra8 30. Ra1 dxe4 31. Nxe4 Bd5 32. Nc3 Be6 33. Ne4 Rfd8 34. Rxd8+  Rxd8 35. Nc5 Bd5 36. a4 Rb8 37. a5 Nc8 38. a6 Na7 39. Nb7 Nb5 40. Na5 Nd6 41.  Bf3 Nc8 42. Nxc6 Bxc6 43. Bxc6 Rxb4 44. a7 Rb2+ 45. Ke3 Nxa7 46. Rxa7 1-0',
+      id: '3783249',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E11',
+      t: 'FIDE World Cup 2011',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 O-O 5. a3 Be7 6. e4 d5 7. e5 Nfd7 8. Bd3  c5 9. h4 g6 10. h5 cxd4 11. Qc2 Nc5 12. Be2 Nc6 13. b4 d3 14. Bxd3 Nxd3+ 15.  Qxd3 dxc4 16. Qxc4 Qd5 17. hxg6 fxg6 18. Qe2 Nd4 19. Nxd4 Qxd4 20. Rb1 Bd7 21.  Rb3 Bc6 22. Rd3 Qf4 23. Nb3 Qe4 24. Qxe4 Bxe4 25. Rd7 Rf7 26. O-O Bc6 27. Rc7  Bf8 28. Rxf7 Kxf7 29. Be3 Bd5 30. Nd4 a5 31. Rc1 axb4 32. axb4 Bxb4 33. Rc7+ Kg8  34. Bg5 Ba5 35. Re7 Bb4 36. Rc7 Ba5 37. Rd7 Bc3 38. Nc2 Bxe5 39. f4 Bg7 40. Nb4  Be4 1/2-1/2',
+      id: '3783266',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A04',
+      t: 'Wch U12',
+      moves:
+        '1. Nf3 c5 2. g3 Nc6 3. Bg2 g6 4. c3 e5 5. d4 cxd4 6. cxd4 e4 7. Ne5 f5 8. Nc3  Bg7 9. Bf4 Nge7 10. Nc4 Nxd4 11. Bh6 Ne6 12. Bxg7 Nxg7 13. Nd6+ Kf8 14. Qd2 a6  15. O-O-O b5 16. g4 h6 17. gxf5 gxf5 18. Bxe4 Rb8 19. Rhg1 Rh7 20. Qd4 fxe4 21.  Qf6+ Kg8 22. Nd5 Nc6 23. Qg6 1-0',
+      id: '3056537',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'B90',
+      t: 'VI World Blitz',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nf3 Nbd7 8. a4 Qc7 9. Bg5 h6 10. Be3 Nc5 11. Nd2 Be6 12. Be2 Be7 13. O-O O-O 14. Bf3 Rac8 15. Re1 Rfd8 16. Nd5 Nxd5 17. exd5 Bf5 18. a5 Nd7 19. c3 Bh7 20. Ra4 Rf8 21. Nc4 f5 22. Nb6 Nxb6 23. Bxb6 Qd7 24. Rb4 Bf6 25. Qb3 Rf7 26. Bh5 g6 27. Be2 Kh8 28. Rc4 Bg8 29. Rxc8 Qxc8 30. c4 e4 31. Qe3 g5 32. b4 Re7 33. Qb3 f4 34. Bg4 Qe8 35. Qd1 Bc3 36. Bd4+ Bxd4 37. Qxd4+ Re5 38. Rxe4 Kg7 39. c5 Bxd5 40. Re2 Kg6 41. Qd3+ Kf6 42. Qd4 dxc5 43. bxc5 Qe7 44. Qc3 Bc6 45. Qd4 Bb5 46. Re1 Qxc5 47. Qd8+ Kg7 48. Rd1 Qe7 49. Qd4 Qc5 50. Qd8 Qe7 51. Qd4 Kg6 52. Qb6+ Bc6 53. Kh2 h5 54. Bd7 g4 55. Bxc6 bxc6 56. Qxc6+ Re6 57. Qc3 Qg5 58. Qc8 g3+ 59. Kh1 Qe7 60. Qg8+ Kh6 61. Qh8+ Kg6 62. Qg8+ Kh6 63. fxg3 Re1+ 64. Rxe1 Qxe1+ 65. Kh2 fxg3+ 66. Qxg3 Qxa5 67. Qd6+ Kg7 68. Qe7+ Kg6 69. Qe6+ Kg7 70. h4 Qc7+ 71. Kh3 Qc3+ 72. g3 Qa5 73. Qe7+ Kg6 74. Qe8+ Kf6 75. Qe2 Qf5+ 76. Kh2 a5 77. Qa6+ Ke7 78. Qa7+ Kd6 79. Qb6+ Ke7 80. Qa7+ Kf6 81. Qb6+ Kg7 82. Qa7+ Kg6 83. Qb6+ 1/2-1/2',
+      id: '3753317',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'D92',
+      t: 'Nakamura-Nepomniashchy m',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O 6. Rc1 c5 7. dxc5 Be6 8. Nf3  Nc6 9. Be2 dxc4 10. O-O Qa5 11. Ng5 Rfd8 12. Qe1 Qxc5 13. Nxe6 fxe6 14. Na4 Qf5  15. Rxc4 e5 16. Bg3 Kh8 17. Nc5 Rab8 18. Qc1 Na5 19. Rc2 b6 20. Na6 Rbc8 21.  Nc7 h5 22. b4 Nb7 23. Ba6 Rb8 24. f3 Bh6 25. e4 Bxc1 26. exf5 Be3+ 27. Kh1 gxf5  28. Bxe5 Bd4 29. f4 Bxe5 30. fxe5 Ng4 31. Re2 Nh6 32. h3 Rd4 33. a3 Nd8 34. Nb5  Rd7 35. e6 Rd3 36. Rc1 Kg7 37. Rc7 Kf6 38. Rxa7 f4 39. Kh2 Ng4+ 40. hxg4 hxg4  41. Re1 Nc6 42. Rd7 Rb3 43. Nc7 Rh8+ 44. Kg1 Ne5 45. Nd5+ Kf5 46. Nxe7+ Kxe6  47. Ra7 Re3 48. Rxe3 fxe3 49. Nc8 Rf8 50. Re7+ Kd5 51. Nxb6+ Kd6 52. Rxe5 1-0',
+      id: '3481561',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'E10',
+      t: 'Nakamura-Nepomniashchy m',
+      moves:
+        '1. d4 Nf6 2. c4 c5 3. d5 b5 4. Nf3 e6 5. g3 bxc4 6. Nc3 Bb7 7. e4 exd5 8. exd5  d6 9. Bg2 Be7 10. O-O O-O 11. Nd2 Nbd7 12. Nxc4 Ba6 13. Qa4 Qc8 14. Re1 Re8 15.  Bf4 Nb6 16. Nxb6 axb6 17. Qc6 Qd8 18. Bh3 Rb8 19. Rad1 Bb7 20. Qb5 Bf8 21. Rxe8  Nxe8 22. a4 Ba8 23. Qd7 Nc7 24. Qf5 g6 25. Qd7 f5 26. Qxd8 Rxd8 27. Bf1 Bg7 28.  Bc4 h6 29. h4 Kf7 30. Rd2 Kf6 31. Nb5 Nxb5 32. Bxb5 g5 33. hxg5+ hxg5 34. Be3  Kg6 35. Bd3 Kf6 36. Bb1 Bb7 37. Kf1 Ra8 38. Bc2 Bc8 39. b3 Bd7 40. Bd3 Bh6 41.  Re2 b5 42. Bxb5 Bxb5 43. axb5 Rb8 44. Bd2 Bf8 45. Re6+ Kf7 46. Bxg5 Rxb5 47.  Rf6+ Ke8 48. Rxf5 Rxb3 49. Bf6 c4 50. Rf4 Rb5 51. Rxc4 Rxd5 52. g4 Kf7 53. Bc3  Be7 54. Kg2 Kg6 55. f4 Rd3 56. Be1 d5 57. Rc6+ Kf7 58. g5 d4 59. g6+ Kg7 60. f5  Re3 61. Bf2 Rd3 62. Re6 Bf6 63. Rd6 Be5 64. Re6 Bf6 65. Bg3 Rd2+ 66. Kf3 Rd3+  67. Kg4 Re3 68. Rd6 Re4+ 69. Kf3 Re3+ 70. Kg2 Re4 71. Rd7+ Kh6 72. Kf3 Re3+ 73.  Kg4 Re4+ 74. Bf4+ Bg5 75. Rh7# 1-0',
+      id: '3481562',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A07',
+      t: 'Ultimate Blitz Challenge',
+      moves:
+        '1. Nf3 d5 2. g3 Bg4 3. Bg2 c6 4. O-O Nf6 5. d3 Nbd7 6. h3 Bxf3 7. Bxf3 e5 8. e4 dxe4 9. dxe4 Bc5 10. Bg2 O-O 11. a4 a5 12. Nd2 b5 13. Qe2 Qb8 14. h4 Rd8 15. Bh3 Be7 16. Nb3 Nc5 17. Nxc5 Bxc5 18. Bg5 Be7 19. b3 h6 20. Bd2 Qb6 21. Rfd1 Bc5 22. Be1 Rxd1 23. Rxd1 bxa4 24. bxa4 Rd8 25. Rxd8+ Qxd8 26. Qd3 Qb6 27. Kg2 Bd4 28. Bc8 Qb8 29. Ba6 Nd7 30. Bc4 Qc7 31. Qf3 Nf6 32. g4 Kh8 33. g5 hxg5 34. hxg5 Nh7 35. Bxf7 Qe7 36. g6 Qg5+ 37. Kf1 Nf6 38. Qh3+ Nh5 39. Qc8+ 1-0',
+      id: '3990832',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'A05',
+      t: 'Ultimate Blitz Challenge',
+      moves:
+        '1. Nf3 Nf6 2. g3 g6 3. c4 Bg7 4. Nc3 c6 5. d4 d5 6. cxd5 cxd5 7. Bg2 O-O 8. Ne5 e6 9. O-O Nfd7 10. Nf3 Nf6 11. Bf4 Nc6 12. Rc1 Bd7 13. Ne5 Rc8 14. Qd2 Nxe5 15. Bxe5 Bc6 16. Rc2 Ne8 17. Rfc1 Nd6 18. Qf4 g5 19. Qf3 Bxe5 20. dxe5 Nc4 21. Qg4 Nxe5 22. Qd4 Qf6 23. Qxa7 Ra8 24. Qc5 Rfc8 25. Qb4 h5 26. a4 Rd8 27. Nb5 Ng4 28. Rf1 e5 29. Nc7 Rxa4 30. Qb3 e4 31. h3 Ne5 32. Rd1 Rc4 33. Rcd2 Ba4 34. Qxb7 Bxd1 35. Nxd5 Rxd5 36. Rxd5 Rc1 37. Qb8+ Kg7 38. Kh2 Ng6 39. Qa7 Bxe2 40. Qe3 Rc2 41. Bxe4 Rxb2 42. Rf5 Qb6 43. Qxg5 Bc4 44. Kg2 Qd4 45. Rf4 Qe5 46. Qxe5+ Nxe5 47. Rf5 Nd3 48. Bxd3 Bxd3 49. Rxh5 Be4+ 50. Kf1 Bf3 51. Re5 Rb1+ 52. Re1 Bg2+ 53. Ke2 Rxe1+ 54. Kxe1 Bxh3 55. Ke2 Kf6 56. Kf3 Kf5 57. Ke3 Bg2 58. f3 Bh1 59. Kf2 Ke5 60. Ke3 f5 61. Kf2 Kd4 62. Ke2 Kd5 63. Ke3 Ke5 64. Kf2 Kd4 65. Ke2 Bg2 66. Kf2 Bh3 67. Ke2 Kd5 68. Ke3 Ke5 69. Kf2 Kd4 70. Ke2 Kd5 71. Ke3 Ke5 72. Kf2 Kf6 73. Ke3 Kg5 74. Kf2 Kh5 75. Ke3 Kg5 76. Kf2 Kf6 77. Ke3 Ke5 1/2-1/2',
+      id: '3990838',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A07',
+      t: 'Ultimate Blitz Challenge',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. O-O e5 5. d3 Ne7 6. e4 O-O 7. exd5 Nxd5 8. Re1 Nc6 9. Nc3 Nxc3 10. bxc3 Rb8 11. Rb1 b6 12. Nd2 Bb7 13. h4 Ne7 14. Bxb7 Rxb7 15. c4 Qd7 16. Qf3 Rbb8 17. Bb2 Nc6 18. h5 Rfe8 19. Ne4 Qf5 20. Qxf5 gxf5 21. Nc3 Nd4 22. Rec1 e4 23. Kg2 c6 24. dxe4 fxe4 25. Re1 f5 26. Ne2 Nf3 27. Red1 Rbd8 28. Bxg7 Kxg7 29. Nf4 Kf6 30. a4 Nd2 31. Rb4 c5 32. Nd5+ Ke5 33. Rxd2 cxb4 34. f4+ Ke6 35. Kf2 Rc8 36. Rd4 Red8 37. g4 fxg4 38. Rxe4+ Kd6 39. Nxb4 Rc5 40. Rd4+ Ke7 41. Nd5+ Kf7 42. Kg3 Ra5 43. Re4 Rd7 44. Kxg4 Rxa4 45. Kf5 Ra5 46. Re6 Rc5 47. Rf6+ Ke8 48. Re6+ Kf7 49. Rf6+ Ke8 50. Re6+ Kf8 51. Kg5 Kg7 52. h6+ Kf8 53. f5 Rxc4 54. Nf6 Rd2 55. Nxh7+ Kf7 56. Nf6 Rg2+ 57. Kh5 Rh2+ 58. Kg5 Rg2+ 59. Kh5 Rc5 60. h7 Rxf5+ 61. Kh4 Rh2+ 62. Kg4 0-1',
+      id: '3990844',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'C65',
+      t: 'Ultimate Blitz Challenge',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. c3 O-O 6. Bxc6 bxc6 7. Nxe5 d5 8. d4 Bb6 9. O-O Nxe4 10. Nxc6 Qf6 11. Nb4 Be6 12. Nd2 c5 13. dxc5 Bxc5 14. Nxe4 dxe4 15. Nd5 Qe5 16. Be3 Bxe3 17. Nxe3 f5 18. f4 Qb5 19. Qd6 Rfe8 20. Qe5 Qxb2 21. Rab1 Qd2 22. Qd4 Red8 23. Qxd2 Rxd2 24. Rb5 g6 25. c4 Rc8 26. Re5 Bf7 27. Rf2 Rd3 28. Re2 Bxc4 29. Kf2 Bf7 30. h3 h5 31. g4 hxg4 32. hxg4 fxg4 33. Rxe4 Ra3 34. Nxg4 Rxa2 35. Rxa2 Bxa2 36. Re7 a6 37. Ra7 Rc6 38. Kg3 Bb1 39. Kh4 Kf8 40. Kg5 Ke8 41. Rb7 Bf5 42. Ne5 Rd6 43. Ra7 Rb6 44. Rg7 a5 45. Ra7 Rb5 46. Nxg6 Bc2+ 47. Ne5 a4 48. Kf6 Kd8 49. Nf7+ 1-0',
+      id: '3990850',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C50',
+      t: 'Ultimate Blitz Challenge',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 O-O 6. Re1 d6 7. c3 a6 8. a4 Ba7 9. h3 Ne7 10. Nbd2 Ng6 11. Nf1 c6 12. Bb3 d5 13. exd5 Nxd5 14. d4 exd4 15. Nxd4 Be6 16. Bc2 Qf6 17. Ng3 Bxd4 18. cxd4 Ngf4 19. Ra3 Qd8 20. Ne4 Bf5 21. Rf3 Bxe4 22. Bxe4 Ng6 23. g3 Qd7 24. h4 Rfe8 25. h5 Nf8 26. h6 g6 27. a5 Re6 28. Bc2 Rxe1+ 29. Qxe1 Re8 30. Qd1 Qg4 31. Kg2 Ne6 32. Be3 Rd8 33. Qd2 Nxe3+ 34. Qxe3 Ng5 35. Rf6 Qh3+ 36. Kg1 Qxh6 37. f4 Ne6 38. Rxe6 fxe6 39. Qxe6+ Kf8 40. Qf6+ Ke8 41. Qe6+ Kf8 42. Qf6+ Ke8 1/2-1/2',
+      id: '3990856',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'D37',
+      t: 'Ultimate Blitz Challenge',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. Be2 dxc4 8. O-O a6 9. a4 c5 10. dxc5 Nxc5 11. Bxc4 Bd7 12. Ne5 Be8 13. a5 Ncd7 14. Nf3 Rc8 15. Be2 Nb8 16. Qb3 Bc6 17. Ne5 Nfd7 18. Rfd1 Nc5 19. Qa2 Qe8 20. Nc4 Bb5 21. Nd6 Bxd6 22. Bxd6 Bxe2 23. Nxe2 Qb5 24. Nd4 Qb4 25. Bxf8 Rxf8 26. Rac1 Ncd7 27. Qa3 Qxa3 28. bxa3 b6 29. Nc6 bxa5 30. Nxb8 Nxb8 31. a4 Re8 32. Rc7 g6 33. Kf1 Kg7 34. Rb1 Kf6 35. Ke2 g5 36. Rbb7 Rf8 37. g4 h6 38. h3 Kg6 39. f4 Kf6 40. Kf3 Kg6 41. f5+ exf5 42. Rb6+ f6 43. Rcb7 fxg4+ 44. hxg4 1-0',
+      id: '3990862',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'GCT Rapid Paris 2016',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. c3 O-O 6. O-O d6 7. h3 Ne7 8. Ba4 Ng6 9. Re1 c6 10. d4 Bb6 11. Nbd2 Re8 12. Bc2 Bc7 13. dxe5 dxe5 14. Nf1 h6 15. Ng3 Be6 16. Nf5 Bb6 17. Qxd8 Raxd8 18. Be3 Bxe3 19. Nxe3 Nd7 20. Red1 a5 21. Bb3 Bxb3 22. axb3 Nc5 23. Rxd8 Rxd8 24. Rxa5 Nxb3 25. Ra7 Nc5 26. h4 h5 27. g3 f6 28. b4 Nxe4 29. Rxb7 Nf8 30. Nf5 Rd7 31. Rxd7 Nxd7 32. c4 Kf7 33. Kf1 Nb6 34. Ne3 Ke6 35. Ke2 f5 36. Ne1 Na4 37. Nd3 Nac3+ 38. Ke1 g5 39. hxg5 Nxg5 40. Nc5+ Kf6 41. Nd7+ Ke6 42. Nc5+ Kf6 43. Nd7+ Ke6 1/2-1/2',
+      id: '3995391',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A07',
+      t: 'GCT Blitz Paris 2016',
+      moves:
+        '1. Nf3 d5 2. g3 Bg4 3. Bg2 c6 4. O-O Nf6 5. d3 e6 6. Nbd2 Be7 7. h3 Bh5 8. e4 O-O 9. Qe1 a5 10. Nh2 dxe4 11. dxe4 e5 12. Nc4 Nfd7 13. a4 Na6 14. Ng4 f6 15. Nge3 Nb4 16. Bd2 b6 17. h4 Re8 18. Bxb4 Bxb4 19. c3 Bf8 20. b4 Qc7 21. Bh3 Red8 22. Qb1 Bf7 23. Rd1 Ra7 24. Rd3 axb4 25. cxb4 b5 26. axb5 Rxa1 27. Qxa1 cxb5 28. Na3 Nb8 29. Nxb5 Qb6 30. Rxd8 Qxd8 31. Nd5 Nc6 32. Qc3 Nxb4 33. Nxb4 Qb8 34. Bf1 Qa8 35. Nd5 h5 36. Bc4 Qa4 37. Kg2 Bc5 38. Qb3 Qa1 39. Nxf6+ gxf6 40. Bxf7+ Kh8 41. Qf3 1-0',
+      id: '3995424',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'D31',
+      t: 'GCT Blitz Paris 2016',
+      moves:
+        '1. c4 e6 2. Nc3 d5 3. d4 Be7 4. cxd5 exd5 5. Bf4 c6 6. Qc2 Nf6 7. h3 g6 8. e3 Bf5 9. Qd2 Qb6 10. Nge2 Nbd7 11. Ng3 Be6 12. Bh6 Bf8 13. Bxf8 Kxf8 14. Bd3 Kg7 15. f4 Qc7 16. Qf2 h5 17. f5 h4 18. Nge2 gxf5 19. Bxf5 Bxf5 20. Qxf5 Rh5 21. Qf2 Rah8 22. O-O Rg5 23. e4 dxe4 24. Nxe4 Rg6 25. Nxf6 Rxf6 26. Nf4 Qd6 27. Rae1 Rf5 28. Qe3 Nf6 29. Nd3 Re8 30. Ne5 Rh5 31. Qf2 Re6 32. Nc4 Qd5 33. Rxe6 Qxe6 34. Ne3 Ne4 35. Qf3 Ng3 36. Rd1 Rg5 37. d5 cxd5 38. Nxd5 Qe5 39. Ne3 Rg6 40. Nf1 Ne2+ 41. Kh1 Nf4 42. Rd2 Nh5 43. Rf2 Rf6 44. Qg4+ Rg6 45. Qxh4 Nf6 46. Qf4 Qc5 47. Ne3 Kh7 48. Qh4+ Qh5 49. Qxh5+ Nxh5 50. Rxf7+ Kg8 51. Rxb7 Ra6 52. a3 Re6 53. Ng4 Ng3+ 54. Kh2 Nf1+ 55. Kg1 Re1 56. Kf2 Rb1 57. Rd7 Kf8 58. b4 Ke8 59. Nf6+ Kf8 60. Ne4 Ke8 61. Rxa7 Nh2 62. Nd2 1-0',
+      id: '3995469',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'A09',
+      t: 'GCT Rapid YourNextMove',
+      moves:
+        '1. Nf3 d5 2. c4 c6 3. Qb3 Nf6 4. g3 g6 5. Bg2 Bg7 6. O-O O-O 7. d3 Re8 8. Bf4 d4 9. Nbd2 Nbd7 10. Bg5 h6 11. Bxf6 Nxf6 12. c5 Nd5 13. Qa4 Nc7 14. Nb3 e5 15. Nfd2 Bd7 16. Na5 Rb8 17. Rac1 Ne6 18. b4 Nc7 19. Ne4 Bf8 20. Qc2 Nd5 21. Qd2 Bf5 22. e3 Bxe4 23. dxe4 Nc3 24. Nb3 Bg7 25. exd4 exd4 26. Rfe1 Qe7 27. f4 Rbd8 28. e5 f6 29. Na5 fxe5 30. fxe5 Kh7 31. h4 Bxe5 32. Nc4 Qg7 33. Nxe5 Rxe5 34. Rxe5 Qxe5 35. Re1 Qf6 36. Qd3 Kg7 37. Kh2 Nxa2 38. Ra1 Nxb4 39. Qb3 a5 40. Rxa5 d3 41. Ra7 d2 42. Rxb7+ Kf8 43. Qe3 d1=Q 44. Qxh6+ Ke8 45. Rxb4 Qd2 46. Re4+ Kf7 47. Qh7+ Kf8 48. Qc7 Qxg2+ 49. Kxg2 Rd2+ 50. Kh3 Qf1+ 0-1',
+      id: '3996227',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'A35',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. c4 c5 2. Nf3 Nf6 3. Nc3 Nc6 4. e3 e6 5. d4 d5 6. a3 a6 7. dxc5 Bxc5 8. b4 Ba7 9. Bb2 O-O 10. Qc2 Bd7 11. Rd1 Rc8 12. cxd5 exd5 13. Be2 d4 14. exd4 Bg4 15. d5 Ne7 16. Qb1 Bf5 17. Bd3 Bg4 18. Be2 Bf5 19. Qa1 Ng6 20. Nd4 Bg4 21. O-O Nf4 22. Bxg4 Nxg4 23. Nf3 Qd6 24. Rd2 Rfe8 25. Kh1 Bb8 26. g3 Qh6 27. Qb1 Qh3 28. Rg1 Re5 29. Qf1 Qh6 30. gxf4 Nxh2 31. Nxh2 Rh5 32. Qg2 Bxf4 33. Qxg7+ Qxg7 34. Rxg7+ Kxg7 35. Ne2+ Be5 36. Ng3 Rg5 37. Nf3 Bxb2 38. Nxg5 Bxa3 39. Rd4 Kf6 40. Nf3 Rd8 41. Kg2 b6 42. Ne4+ Kf5 43. Ned2 a5 44. bxa5 bxa5 45. Nc4 Bc5 46. Ne3+ Kf6 47. Rf4+ Ke7 48. Nf5+ Kf8 49. Nh6 Kg7 50. Nf5+ Kf8 51. Nh6 Kg7 52. Nxf7 Rxd5 53. N7e5 Bd6 54. Rg4+ Kf6 55. Nc6 h5 56. Ra4 Bc7 57. Ncd4 Bb6 58. Kf1 Ke7 59. Ke2 Kd6 60. Kd3 Ke7 61. Ke4 Rc5 62. Ne5 h4 63. Ng6+ Kf6 64. Nxh4 Re5+ 65. Kd3 Re1 66. Nhf3 Rd1+ 67. Ke2 Rb1 68. Rc4 Rb2+ 69. Ke3 Ke7 70. Ne5 Kd6 71. Ke4 a4 72. Rxa4 Rxf2 73. Nc4+ Kc5 74. Ne5 1-0',
+      id: '3996258',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A05',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. Nf3 Nf6 2. b3 b6 3. Bb2 Bb7 4. g3 g6 5. Bg2 Bg7 6. O-O O-O 7. d4 c5 8. dxc5 bxc5 9. c4 d6 10. Nc3 Nbd7 11. Qc2 Rb8 12. Rad1 Ne4 13. Nxe4 Bxe4 14. Qxe4 Bxb2 15. Ne1 Bg7 16. Qc2 Ne5 17. Nd3 Nxd3 18. Rxd3 a5 19. h4 a4 20. h5 Qd7 21. Bd5 Qf5 22. hxg6 hxg6 23. Rb1 a3 24. Kg2 Bd4 25. e3 Bf6 26. Qe2 Kg7 27. Rh1 Rh8 28. Rdd1 Qe5 29. Rb1 Rxh1 30. Rxh1 Qb2 31. Bf3 Rxb3 32. axb3 Qxb3 33. Bd5 a2 34. Qf3 Qb2 35. Qf4 e6 36. Qh6+ Kg8 37. Bxe6 fxe6 38. Qxg6+ Kf8 39. Qh6+ Ke7 40. Qh7+ Bg7 41. Qh4+ Qf6 42. Qe4 a1=Q 43. Qb7+ Kf8 44. Qb8+ Kf7 45. Rxa1 Qxa1 46. Qxd6 Qe5 47. Qd7+ Kf6 48. Qd8+ Kf7 49. Qd7+ Kg6 50. Qe8+ Kh6 51. Qc6 Bf6 52. Qf3 Qf5 53. Qc6 Qe5 54. Qf3 Qf5 55. Qc6 Bc3 56. Qa8 Kh7 57. Qb7+ Kg6 58. Qa8 Qf7 59. Qe4+ Qf5 60. Qa8 Kf7 61. Qb7+ Kf6 62. Qa8 1/2-1/2',
+      id: '3996303',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: '4th Sinquefield Cup 2016',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8. Rxe5 O-O 9. Nc3 Ne8 10. Nd5 Bd6 11. Re1 c6 12. Ne3 Be7 13. c4 Nc7 14. d4 d5 15. cxd5 Bb4 16. Bd2 Bxd2 17. Qxd2 Nxd5 18. Nxd5 Qxd5 19. Re5 Qd6 20. Bc4 Bd7 21. Qc3 Rae8 22. Rae1 Rxe5 23. dxe5 Qe7 24. Rd1 Be6 25. Bxe6 Qxe6 26. Qa5 b5 27. Qxa7 Qxe5 28. Qd4 Qe6 29. a4 bxa4 30. Qxa4 h6 31. h3 Rb8 32. Rc1 Rxb2 33. Qxc6 Qxc6 34. Rxc6 1/2-1/2',
+      id: '4004033',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: '8th London Classic 2016',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. c3 O-O 6. O-O d5 7. exd5 Qxd5 8. Bc4 Qd8 9. Nbd2 a5 10. a4 h6 11. Re1 Bf5 12. Nf1 e4 13. Ng3 Bh7 14. dxe4 Qxd1 15. Rxd1 Bxe4 16. Bf4 Bb6 17. Nxe4 Nxe4 18. Bg3 Rae8 19. Rd7 Nxg3 20. hxg3 Ne5 21. Nxe5 Rxe5 22. Rad1 Rf5 23. R1d2 Re8 24. Kf1 Kf8 25. f3 Re7 26. Rd8+ Re8 27. R8d7 Re7 28. Rd8+ Re8 29. R2d7 Rxd8 30. Rxd8+ Ke7 31. Rg8 Rg5 32. g4 Bc5 33. Bd3 Bd6 34. Kf2 Kf6 35. Re8 Rd5 36. Ke2 Re5+ 37. Rxe5 Kxe5 1/2-1/2',
+      id: '4025553',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C84',
+      t: '77th Tata Steel GpA',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 O-O 8. Nc3 d6 9. a3 Nb8 10. a4 b4 11. Nd5 Nxd5 12. Bxd5 c6 13. Bb3 Nd7 14. d4 a5 15. dxe5 dxe5 16. Qe2 Qc7 17. Be3 c5 18. Bc4 Nb6 19. Bb5 f5 20. exf5 Bxf5 21. c3 bxc3 22. bxc3 Kh8 23. Nd2 Nd5 24. Rac1 Rad8 25. Nc4 Bf6 26. f3 Nf4 27. Bxf4 exf4 28. Nd2 c4 29. Ne4 Rd3 30. Nxf6 Qb6+ 31. Qf2 1/2-1/2',
+      id: '3926099',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'E21',
+      t: 'Vugar Gashimov Mem 2015',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 b6 5. e3 Ne4 6. Qc2 Bb7 7. Bd3 f5 8. O-O Bxc3 9. bxc3 O-O 10. c5 Rf6 11. Ne1 bxc5 12. Rb1 Qc8 13. f3 Ng5 14. Be2 cxd4 15. cxd4 Nc6 16. Nd3 Ba6 17. Bb2 Ne7 18. d5 Rh6 19. dxe6 Nxe6 20. Nf4 Nxf4 21. exf4 Bxe2 22. Qxe2 Re6 23. Qd3 Ng6 24. g3 Rb8 25. Qxf5 Reb6 26. Bd4 Rxb1 27. Rxb1 Rxb1+ 28. Qxb1 c5 29. Qb3+ c4 30. Qb5 Ne7 31. Qg5 Qf8 32. Bc5 Kf7 33. Qe5 Qe8 34. Kf2 Nc6 35. Qh5+ g6 36. Qxh7+ Ke6 37. Qg7 Qf7 38. Qxf7+ Kxf7 39. Ke3 Ke6 40. g4 d6 41. Ba3 d5 42. Bb2 Nb4 43. a4 Nc2+ 44. Kd2 Nb4 45. h4 Nd3 46. Bd4 a6 47. h5 gxh5 48. f5+ Kd6 49. gxh5 Ne5 50. Ke3 Nf7 51. Bg7 1-0',
+      id: '3937915',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'B90',
+      t: '43rd GM 2015',
+      moves:
+        '1. Nf3 c5 2. e4 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nde2 b5 8. g4 b4 9. Nd5 Nxd5 10. exd5 h5 11. gxh5 Rxh5 12. a3 bxa3 13. Rxa3 Nd7 14. Bg2 Nf6 15. O-O Rb8 16. f4 Be7 17. c4 Qb6+ 18. Rf2 Rh4 19. Rc3 Bd7 20. b3 Bxh3 21. Bxh3 Ne4 22. Qe1 Nxc3 23. Qxc3 Qxb3 24. Qxb3 Rxb3 25. Bc8 e4 26. Bxa6 Bd8 27. c5 dxc5 28. Rg2 g6 29. Rg3 Rxg3+ 30. Nxg3 Rg4 31. Kh2 f5 32. Ne2 Rh4+ 33. Kg2 Bc7 34. Bc8 Kd8 35. Be6 Ke7 36. Be3 Bd6 37. Bf2 Rh8 38. Be1 c4 39. Bc3 Ra8 40. Be5 Ra2 41. Kf1 Rd2 42. Bc3 Rd3 43. Ba5 Ba3 44. Bg8 Bd6 45. Be6 Bc5 46. Ke1 Rb3 47. Kd2 Rb2+ 48. Kd1 Bb4 49. Bxb4+ Rxb4 50. Kc2 Rb3 51. Nc3 e3 52. Bg8 Rb6 53. Ne2 Ra6 54. d6+ Rxd6 55. Bxc4 Kf6 56. Bd3 g5 57. fxg5+ Kxg5 58. Ng3 Rc6+ 59. Kd1 f4 60. Nf1 Rb6 61. Nh2 Kh4 62. Ke1 Kg3 63. Nf1+ Kf3 64. Nh2+ Kg2 65. Nf1 Re6 66. Bc4 Re5 67. Ba6 Ra5 68. Bb7+ Kg1 69. Nxe3 Re5 0-1',
+      id: '3946166',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A15',
+      t: '3rd Sinquefield Cup 2015',
+      moves:
+        '1. Nf3 Nf6 2. c4 b6 3. g3 c5 4. Bg2 Bb7 5. O-O g6 6. d4 cxd4 7. Qxd4 Bg7 8. Nc3 d6 9. Be3 Nbd7 10. Rac1 Rc8 11. b3 a6 12. Rfd1 O-O 13. Qh4 Re8 14. Bh3 Rc7 15. g4 Qa8 16. Bd4 h6 17. g5 hxg5 18. Nxg5 e6 19. Be3 Qb8 20. Bf4 Bf8 21. Rxd6 e5 22. Rxd7 exf4 23. Rcd1 Bg7 24. R7d3 Rce7 25. Bg2 Bxg2 26. Kxg2 Nh5 27. Nd5 Rxe2 28. Qg4 Qd6 29. Qf3 Qc5 30. R3d2 R2e5 31. h4 b5 32. Rc2 b4 33. Rcd2 a5 34. Qg4 Bh6 35. Kf1 Rf5 36. Nf3 Bg7 37. Qg2 a4 38. Rd3 Qa5 39. Ng5 axb3 40. axb3 Bf8 41. Qf3 Bc5 42. Ne4 Kg7 43. Nxc5 Qxc5 44. Rd4 Kh6 45. Qd3 Kh7 46. Qf3 Re6 47. Kg1 Qa5 48. Kg2 Kh6 49. R1d3 Qd8 50. Qg4 1/2-1/2',
+      id: '3956098',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'C65',
+      t: 'Millionaire TB A 2015',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 O-O 7. O-O Nd7 8. Nc4 Re8 9. Kh1 a5 10. a4 Bb4 11. Bd2 b6 12. Qe1 Qe7 13. g3 Bxd2 14. Qxd2 c5 15. Nh4 Nb8 16. f4 Bh3 17. Rf2 exf4 18. Rxf4 Nc6 19. Ne3 Nd4 20. Nf3 Nxf3 21. Rxf3 Be6 22. b3 c6 23. Raf1 f6 24. g4 b5 25. Nf5 Bxf5 26. Rxf5 c4 27. axb5 cxb5 28. Rxb5 cxd3 29. cxd3 Qd7 30. Rd5 Qxg4 31. Rxa5 Rxa5 32. Qxa5 Qe2 33. Qd5+ Kh8 34. Kg1 h6 35. Rf2 Qd1+ 36. Rf1 Qe2 37. Rf2 Qd1+ 38. Rf1 Qg4+ 39. Kh1 Qe2 40. Qf5 Qxd3 41. Re1 Qxb3 42. Qf4 Qc3 43. Qf2 f5 44. Re3 Qc6 45. Kg1 Rxe4 46. Rg3 Qc1+ 47. Kg2 Qc6 48. Kg1 Qe6 49. Qa7 Qe7 50. Qa8+ Kh7 51. Qc8 Re1+ 52. Kg2 Qe2+ 53. Kh3 Qf1+ 54. Kh4 Re4+ 0-1',
+      id: '3960356',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: '76th Tata Steel Masters',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 c5 8. Rb1 O-O 9. Be2 cxd4 10. cxd4 Qa5+ 11. Bd2 Qxa2 12. O-O Bg4 13. Be3 Nc6 14. Rxb7 Rab8 15. Rc7 Rfc8 16. Rxc8+ Rxc8 17. h3 Bd7 18. Bb5 a5 19. Qa1 Qxa1 20. Rxa1 Ra8 21. Ba4 e6 22. Nd2 Nxd4 23. Bxd7 Ne2+ 24. Kf1 Bxa1 25. Kxe2 a4 26. Bc6 Ra6 27. Bb5 Ra8 28. Bc6 Ra6 29. Bb5 Ra8 30. Bc4 Rb8 31. Bc5 1/2-1/2',
+      id: '3881947',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'C53',
+      t: 'AAI GM',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. b4 Bb6 6. d3 d6 7. a4 a6 8. O-O O-O 9. Nbd2 Ne7 10. Bb3 Ng6 11. Nc4 Ba7 12. Be3 Be6 13. Bxa7 Rxa7 14. Ne3 Qd7 15. a5 Raa8 16. Re1 Bxb3 17. Qxb3 Rfe8 18. c4 c6 19. Rad1 Qc7 20. Qc3 Rad8 21. c5 d5 22. Qc2 Ne7 23. Nf1 Nh5 24. Qb2 Ng6 25. g3 Nf6 26. Qc2 h6 27. Ne3 Ne7 28. Qb2 Ng6 29. Qc2 Ne7 30. Qb2 Ng6 31. Qc2 1/2-1/2',
+      id: '3776240',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: 'AAI GM',
+      moves:
+        '1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. Qxc4 b5 9. Qc2 Bb7 10. Bd2 Bd6 11. a4 Nbd7 12. Ba5 Qb8 13. b4 Be4 14. Qc1 Qb7 15. Re1 Bd5 16. Nc3 Ne4 17. Nxd5 exd5 18. Ng5 Nxg5 19. Qxg5 c6 20. axb5 axb5 21. Rac1 Nb6 22. e4 dxe4 23. Bxe4 Nc4 24. d5 c5 25. bxc5 Rxa5 26. cxd6 Qd7 27. Qf4 Nxd6 28. Rc6 Nxe4 29. Qxe4 b4 30. Qxb4 Rxd5 1/2-1/2',
+      id: '3776973',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'D45',
+      t: 'YGM',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Qc2 Bd6 7. Bd3 O-O 8. O-O dxc4 9. Bxc4 a6 10. Ng5 c5 11. Nce4 Qc7 12. Nxd6 Qxd6 13. Bd3 h6 14. Nh7 Ng4 15. g3 Rd8 16. h3 cxd4 17. exd4 Ngf6 18. Bf4 Qe7 19. Nxf6+ Nxf6 20. Rfe1 b5 21. Bc7 Rd7 22. Qc6 Ra7 23. Bb6 Bb7 24. Qc5 Ra8 25. Qxe7 Rxe7 26. a4 Nd7 27. Ba5 bxa4 28. Rxa4 Nb8 29. Bb6 Bc6 30. Rb4 a5 31. Bxa5 Rea7 32. Bb6 Ra1 33. Rf1 Rxf1+ 34. Kxf1 Bf3 35. Ke1 Nc6 36. Rb5 Ne7 37. Kd2 Bc6 38. Ra5 Rb8 39. Bc5 Rxb2+ 40. Kc3 Rxf2 41. Bxe7 Rf3 42. Kd2 Rxg3 43. Rc5 Bd7 44. Rc7 Be8 45. Rc8 f6 46. Bd6 Rg2+ 47. Ke3 Kf7 48. Bh7 e5 49. d5 1-0',
+      id: '3736822',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'B21',
+      t: 'Wch U12',
+      moves:
+        '1. e4 c5 2. f4 d5 3. exd5 Qxd5 4. Nc3 Qd8 5. Nf3 g6 6. d4 cxd4 7. Nxd4 Bg7 8.  Be3 Nf6 9. Be2 O-O 10. h3 Nd5 11. Nxd5 Qxd5 12. O-O Rd8 13. Bf3 Qc5 14. c3 Nc6  15. Bxc6 bxc6 16. Qf3 Bxd4 17. Bxd4 Qd5 18. Qe3 Be6 19. Rae1 Rab8 20. b3 Rb7  21. g4 c5 22. Bxc5 Qd2 23. Bd4 Qxe3+ 24. Rxe3 a5 25. f5 Bd5 26. Bc5 e6 27. c4  1-0',
+      id: '3056531',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'B52',
+      t: 'Opera Euro Rapid Prelim',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nf6 6. Nc3 g6 7. d4 cxd4 8. Nxd4 Bg7 9. f3 O-O 10. Be3 Rc8 11. b3 Nc6 12. O-O Qd8 13. Qd2 Qa5 14. Rfd1 Nd7 15. Nde2 a6 16. a4 e6 17. Rab1 Rd8 18. Bg5 Re8 19. Bf4 Nde5 20. h3 Rad8 21. Kh2 Qb4 22. Bg5 f6 23. Be3 Nf7 24. f4 f5 25. exf5 gxf5 26. Nd4 d5 27. cxd5 exd5 28. Bg1 Nd6 29. Qd3 Ne4 30. Nce2 Nxd4 31. Bxd4 Bxd4 32. Nxd4 Kh8 33. Rbc1 Qd6 34. Qe3 Ng5 35. Qf2 Ne4 36. Qh4 Rf8 37. Rc2 Qg6 38. Rc7 Rg8 39. Rg1 Rc8 40. Rxb7 Rc3 41. Ne6 Rc2 42. Ng5 Rg7 43. Rb8+ Rg8 44. Rxg8+ Kxg8 45. Nxe4 dxe4 46. Kh1 Kg7 47. g4 Kf7 48. gxf5 Qxf5 49. Rg5 Rc1+ 50. Kg2 Rc2+ 51. Kf1 Rc1+ 52. Ke2 Rc2+ 53. Ke1 1-0',
+      id: '4279066',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C47',
+      t: 'Tata Steel Chess Tournament 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nxd4 Bb4 6. Nxc6 bxc6 7. Bd3 d5 8.  Bd2 O-O 9. O-O Bxc3 10. Bxc3 dxe4 11. Bxf6 Qxf6 12. Bxe4 Qxb2 13. Bxc6 Rb8 14.  Rb1 Qxb1 15. Qxb1 Rxb1 16. Rxb1 Rd8 17. Bf3 Kf8 18. Rb8 Re8 19. h4 Ba6 20. Rb3  Be2 21. Bxe2 Rxe2 22. Rc3 Re7 23. f3 Ke8 24. Kf2 Kd7 25. Ra3 Re5 26. Rxa7 Rc5  27. Ke3 Rxc2 28. g4 h5 29. gxh5 Rc4 30. Ra5 Rxh4 31. Rg5 Ke6 32. Rc5 Ra4 33. h6  gxh6 34. Rxc7 Kf6 35. Rc6+ Kg7 36. Rc2 Kg6 37. Kf2 h5 38. Kg3 Kg5 39. Rc7 h4+  40. Kh3 f5 41. Rh7 Rc4 42. Rh8 Rc1 43. a3 Kf4 44. Rh5 Ra1 45. a4 Ra2 46. Rxh4+  Kxf3 47. Rb4 f4 48. Rb3+ Kf2 49. Kg4 Rxa4 50. Rf3+ Kg2 51. Rxf4 Rxf4+ 52. Kxf4 1/2-1/2',
+      id: '4250340',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D86',
+      t: 'Lindores Abbey Rapid Challenge',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8.  Ne2 Nc6 9. Be3 O-O 10. h4 cxd4 11. cxd4 Na5 12. Bd3 Nc6 13. Bc4 Na5 14. Bb3 h5  15. O-O Nxb3 16. axb3 e5 17. Bg5 Qd6 18. d5 Bd7 19. Qd2 Rfc8 20. Rfc1 Rxc1+ 21.  Rxc1 a5 22. Ra1 b6 23. Be3 Bf6 24. Bg5 Bg7 25. Be3 Bf6 26. Bg5 Bg7 1/2-1/2',
+      id: '4261206',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'E21',
+      t: 'Lindores Abbey Rapid Challenge Final 8',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 O-O 5. Bg5 c5 6. Rc1 cxd4 7. Nxd4 h6 8. Bh4  d5 9. cxd5 g5 10. Bg3 Qxd5 11. e3 Qxa2 12. Qc2 Bxc3+ 13. Qxc3 Ne4 14. Qc2 Qa5+  15. Ke2 Nxg3+ 16. hxg3 Kg7 17. f4 Bd7 18. b4 Qxb4 19. fxg5 Rc8 20. gxh6+ Kh8 21.  Qxc8+ Bxc8 22. Rxc8+ Kh7 23. Nf3 f6 24. Kf2 Qb2+ 25. Be2 Na6 26. Rxa8 Nc5 27.  Rd1 Ne4+ 28. Kg1 f5 29. Bd3 Qf2+ 30. Kh1 Qxe3 31. Bxe4 fxe4 32. Rd7+ Kg6 33.  Rg8+ 1-0',
+      id: '4261239',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'C65',
+      t: 'Lindores Abbey Rapid Challenge Final 8',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Qe7 7. Nbd2 Bg4 8.  h3 Bh5 9. Nc4 Nd7 10. a3 a6 11. b4 Ba7 12. Be3 Bxe3 13. Nxe3 f6 14. Nf5 Qf8 15.  Ng3 Bf7 16. Qd2 g6 17. Nh2 h5 18. f4 exf4 19. Qxf4 O-O-O 20. e5 f5 21. Nf3 Qe7  22. Rae1 Rde8 23. h4 Bd5 24. Ng5 c5 25. Re3 b5 26. Ne2 Bb7 27. Nc3 cxb4 28. axb4  Nf6 29. Rfe1 Ng4 30. R3e2 c5 31. e6 cxb4 32. Nf7 Qc7 33. Qxc7+ Kxc7 34. Nxh8  Rxh8 35. Nd1 Re8 36. e7 Bd5 37. Ne3 Nxe3 38. Rxe3 a5 39. Kf2 a4 40. Kg3 a3 41.  Kf4 b3 42. cxb3 b4 43. d4 Kd6 44. Re5 a2 45. Ra1 Bxb3 46. Rb5 Rxe7 47. Rxb4 Re4+  48. Kg5 Rg4+ 49. Kf6 Rg3 50. Rb5 Bc4 51. Rc5 Bd5 52. Ra5 Bb3 53. Rc1 Rxg2 54.  Rcc5 Rg1 55. Ra6+ Kd7 56. Ra7+ Kd6 57. Ra6+ Kd7 58. Rca5 Bc4 59. Ra7+ Kd6 60.  Ra8 f4 61. Rd8+ Kc7 62. Rda8 f3 63. Rxa2 Bxa2 64. Rxa2 Kd6 0-1',
+      id: '4261241',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'B13',
+      t: 'Lindores Abbey Rapid Challenge Final 8',
+      moves:
+        '1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Bf4 Bg4 7. Qb3 Qc8 8. Nd2  e6 9. Ngf3 Be7 10. O-O Bh5 11. Rae1 Bg6 12. Bxg6 hxg6 13. h4 a6 14. a4 Nh5 15.  Bh2 Nf6 16. Bf4 Nh5 17. Bh2 Nf6 18. Bf4 1/2-1/2',
+      id: '4261243',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'C65',
+      t: 'Lindores Abbey Rapid Challenge Final 8',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. c3 O-O 6. O-O d6 7. h3 a6 8. Ba4 b5  9. Bc2 Bb6 10. Re1 Ne7 11. d4 Ng6 12. Nbd2 Re8 13. Nf1 Bb7 14. Ng3 h6 15. Bd2 c5  16. dxe5 dxe5 17. Qc1 c4 18. Nf5 Re6 19. Be3 Bxe3 20. Qxe3 Qc7 21. Rad1 Rae8 22.  Rd2 Nf4 23. Kh2 Rd8 24. Rxd8+ Qxd8 25. Nxe5 Nxg2 26. Qg3 Nh5 27. Qxg2 Rxe5 28.  Nxh6+ Kf8 29. Ng4 Re6 30. Qf3 Qd2 31. Re2 Qd6+ 32. Kg1 Nf4 33. Re1 f5 34. Ne3  fxe4 35. Qg3 Nd3 36. Qxd6+ Rxd6 37. Rd1 Rg6+ 38. Kf1 Bc8 39. h4 Bh3+ 40. Ke2 Rf6  41. Bxd3 exd3+ 42. Ke1 Rf4 43. b3 Be6 44. bxc4 Bxc4 45. a4 Rxh4 46. axb5 axb5  47. Kd2 Kf7 48. Ra1 Rf4 49. Ra7+ Kf6 50. Ra6+ Kg5 51. Ke1 d2+ 52. Kxd2 Rxf2+ 53.  Kd1 Rf4 54. Rc6 Kh5 55. Rc8 g5 56. Rh8+ Kg6 57. Ke1 g4 58. Rh4 Kg5 59. Rh7 Rf3  60. Kd2 Rf2+ 61. Kd1 g3 0-1',
+      id: '4261253',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'Lindores Abbey Rapid Challenge Final 8',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8.  Rxe5 O-O 9. d4 Bf6 10. Re1 Re8 11. c3 Rxe1 12. Qxe1 Ne8 13. Bf4 d5 14. Bd3 g6  15. Nd2 Ng7 16. Nf3 Bf5 17. Bxf5 Nxf5 18. Qe2 c6 19. Re1 Ng7 20. Be5 Bxe5 21.  Nxe5 Qd6 22. Qf3 f6 23. Nd3 Re8 24. Rxe8+ Nxe8 25. Qe3 Kf7 26. Qh6 Kg8 27. Qe3  Kf7 28. Qh6 Kg8 29. Qe3 1/2-1/2',
+      id: '4261255',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'E04',
+      t: 'Lindores Abbey Rapid Challenge Final 8',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. g3 dxc4 5. Bg2 Bb4+ 6. Bd2 a5 7. O-O O-O 8. Na3  Bxa3 9. bxa3 b5 10. Qb1 c6 11. e4 h6 12. g4 Nh7 13. h4 e5 14. Nxe5 Qxd4 15. Bf4  Re8 16. Qc1 Qc5 17. Rd1 Na6 18. Nxc6 Qxc6 19. e5 Qc5 20. Bxa8 Bxg4 21. Be3 Qxe5  22. Rd4 Nf6 23. Bc6 Re6 24. Bg2 Nc5 25. Qc3 Kh7 26. Qxa5 Nd3 27. Rb1 Qf5 28.  Rxb5 Qg6 29. Qa8 Ne5 30. Rd8 Ne8 31. Rxe8 Rxe8 32. Qxe8 Nf3+ 33. Kh1 Qd3 34. Bd2  Qxd2 0-1',
+      id: '4261257',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B51',
+      t: 'Saint Louis Rapid 2020',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. a4 Nf6 5. Nc3 a6 6. Be2 b6 7. d4 cxd4 8. Qxd4 Bb7 9. O-O e6 10. Rd1 Qc7 11. Be3 Ng4 12. Bg5 Rc8 13. Bh4 Ngf6 14. Nd2 Ne5 15. Nf3 Nc6 16. Qd2 Be7 17. Bxf6 Bxf6 18. Qxd6 Qxd6 19. Rxd6 Rd8 20. Rxd8+ Kxd8 21. Nd1 Kc7 22. c3 Rd8 23. Ne3 Ne5 24. Nxe5 Bxe5 25. Nc4 Bf6 26. e5 Be7 27. Rd1 Rxd1+ 28. Bxd1 b5 29. axb5 axb5 30. Nd6 Bxd6 31. exd6+ Kxd6 32. f4 Kc5 33. Kf2 b4 34. cxb4+ Kxb4 35. g3 Kc4 36. Ke3 Bc6 37. h4 h6 38. g4 f6 39. g5 hxg5 40. hxg5 Kc5 41. Bb3 Bd7 42. gxf6 gxf6 43. Bd1 e5 44. fxe5 fxe5 45. b4+ Kxb4 46. Ke4 Bf5+ 47. Kxf5 e4 48. Bb3 Kxb3 49. Kxe4 1/2-1/2',
+      id: '4270297',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C78',
+      t: 'Saint Louis Blitz 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Bc5 6. c3 O-O 7. d4 Ba7 8. dxe5 Nxe4 9. Qd5 Nc5 10. Bc2 Ne7 11. Qd1 d5 12. exd6 Qxd6 13. Qxd6 cxd6 14. Rd1 Bg4 15. Be3 Bxf3 16. gxf3 d5 17. Nd2 Ne6 18. Nb3 Rfd8 19. Rd2 d4 20. Nxd4 Bxd4 21. Bxd4 Nxd4 22. Rxd4 Rxd4 23. cxd4 Rd8 24. Be4 Rd7 25. Rd1 f5 26. Bb1 Kf7 27. a3 Kf6 28. Ba2 Nc6 29. d5 Ne5 30. Kg2 1/2-1/2',
+      id: '4270376',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'D37',
+      t: 'Saint Louis Blitz 2020',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. Be2 dxc4 8. O-O c5 9. dxc5 Nxc5 10. Bxc4 Qxd1 11. Rfxd1 b6 12. Ne5 Bb7 13. f3 Nh5 14. b4 Na6 15. a3 Bf6 16. Bxa6 Bxa6 17. Ne4 Rfd8 18. Rxd8+ Rxd8 19. Rc1 Bb5 20. g4 Nxf4 21. exf4 Bh4 22. Kg2 f5 23. Ng5 fxg4 24. fxg4 Rd2+ 25. Kh3 Bxg5 26. fxg5 Kf8 27. Rc7 Re2 28. g6 h5 29. Nd7+ Ke7 30. Nxb6+ Kf6 31. Rxa7 Re3+ 32. Kh4 hxg4 33. Kxg4 Kxg6 34. a4 Re4+ 35. Kg3 Rxb4 36. axb5 Rxb5 37. Nc4 Rb3+ 38. Kg2 Rc3 39. Ne5+ Kf6 40. Ra5 Kf5 41. Nf3+ Kf4 42. Ra4+ Kf5 43. Ra7 Kf6 44. Ra6 Rc4 45. Kg3 Rb4 46. h4 Rb3 47. Kg4 Rb4+ 48. Kg3 Rb3 49. Ra4 e5 50. Kg4 Rb6 51. Ng5 Rc6 52. h5 Rb6 53. Ne4+ Ke6 54. Ra7 Kd5 55. Ng5 e4 56. Rxg7 e3 57. Re7 Kd4 58. Ne6+ Kc3 59. Nf4 Kd2 60. Kf3 Rb3 61. Rd7+ Ke1 62. Ng2+ 1-0',
+      id: '4270387',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'E36',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. a3 Bxc3+ 6. Qxc3 O-O 7. Nf3 dxc4 8. Qxc4 b6 9. Bg5 Bb7 10. Rd1 Nbd7 11. Ne5 h6 12. Nxd7 Qxd7 13. Bxf6 gxf6 14. d5 exd5 15. Qf4 Kh7 16. e3 c5 17. Bd3+ Kg7 18. Qg3+ Kh8 19. Qf4 Kg7 20. Qg3+ Kh8 21. Qf4 Kg7 1/2-1/2',
+      id: '4275297',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'D41',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 cxd4 6. Qxd4 exd5 7. e4 dxe4 8. Qxd8+ Kxd8 9. Ng5 Be6 10. Nxe6+ fxe6 11. Bc4 Ke7 12. O-O Nbd7 13. Be3 Rc8 14. Bb3 Nc5 15. Bxc5+ Rxc5 16. Rfe1 g6 17. Nxe4 Nxe4 18. Rxe4 e5 19. f4 Bg7 20. Rae1 Rf8 21. fxe5 Rf5 22. e6 Bxb2 23. Rd1 Rc7 24. g4 Rf8 25. Kg2 b5 26. Re2 Bc3 27. Re3 Bb4 28. Red3 a5 29. Rd7+ Rxd7 30. Rxd7+ Kf6 31. Rb7 a4 32. g5+ Kxg5 33. Rxb5+ Rf5 34. Rxb4 axb3 35. e7 bxa2 36. e8=Q a1=Q 37. Qe7+ Kh6 38. Rh4+ Rh5 39. Qf8+ Qg7 40. Qf4+ g5 41. Qd6+ Qg6 42. Qf8+ Qg7 43. Rxh5+ 1-0',
+      id: '4275361',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'C50',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 d6 6. c3 h6 7. Re1 O-O 8. Nbd2 a5 9. Nf1 Be6 10. Bb5 Ne7 11. d4 Ba7 12. Ng3 Ng6 13. h3 c6 14. Bd3 a4 15. Be3 Re8 16. Qc2 b5 17. b4 axb3 18. axb3 Qc7 19. Ra6 Qb7 20. Rea1 Bb6 21. Rxa8 Rxa8 22. Rxa8+ Qxa8 23. dxe5 Qa1+ 24. Bf1 Bxe3 25. exf6 Bb6 26. fxg7 Ne5 27. Qd2 Nxf3+ 28. gxf3 Kxg7 29. Kg2 b4 30. Nh5+ Kg6 31. Nf4+ Kh7 32. Nxe6 bxc3 33. Qf4 fxe6 34. Qf7+ Kh8 35. Qf8+ Kh7 36. e5 Qd1 37. Qf7+ Kh8 38. Qe8+ Kh7 39. Qd7+ Kh8 40. Qc8+ Kg7 41. Qd7+ Kh8 42. Qe8+ Kg7 43. Qe7+ Kh8 44. Qxe6 Qd4 45. Qe8+ Kg7 46. Qe7+ Kg8 47. Qe6+ Kg7 48. Qf6+ Kh7 49. Qe7+ Kg8 50. Qe6+ Kg7 51. Qd7+ Kf8 52. Qf5+ Ke8 53. Qc8+ Ke7 54. exd6+ Qxd6 55. Qf5 Qd4 56. Qc2 Qg7+ 57. Kh1 Qe5 58. Bd3 Bc7 59. Kg2 Qh2+ 60. Kf1 Qxh3+ 61. Ke2 Qe6+ 62. Be4 Be5 63. Qa2 Qd6 64. Qa7+ Kf6 65. Qh7 Qd2+ 66. Kf1 Bd4 67. Qg6+ Ke7 68. Qg3 Bf6 69. Qc7+ Qd7 70. Qf4 h5 71. Qe3 Qd4 72. Qf4 Qd6 73. Qe3 c5 74. Bg6+ Kd8 75. Qe8+ Kc7 76. Be4 h4 77. Kg2 Qd7 78. Qh5 Kb6 79. f4 Qe6 80. Qg6 Ka5 81. Bf5 Qd6 82. Qe8 Kb6 83. Be4 Kc7 84. Qa8 Qxf4 85. Qc6+ Kd8 86. Qd5+ Ke8 87. Bg6+ Ke7 88. Qxc5+ Qd6 89. Qe3+ Kf8 90. Qe8+ Kg7 91. Qf7+ Kh6 92. Qh7+ Kg5 93. Qh5+ 1-0',
+      id: '4275362',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'D38',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Qa4+ Nc6 6. a3 Bxc3+ 7. bxc3 O-O 8. Bg5 h6 9. Bh4 Bd7 10. Qc2 Na5 11. g4 g5 12. Bg3 Ne4 13. h4 Nxg3 14. fxg3 gxh4 15. Rxh4 Kg7 16. g5 Rh8 17. Ne5 Nxc4 18. gxh6+ Kf8 19. Nxc4 Qg5 20. Kf2 dxc4 21. Qc1 Qf6+ 22. Qf4 Ke7 23. Qxf6+ Kxf6 24. Bg2 Rab8 25. Rh5 Kg6 26. Rah1 f5 27. g4 Rh7 28. g5 Bc6 29. Bf3 Bxf3 30. Kxf3 Rd8 31. Kf4 Rd5 32. R5h3 c5 33. Re3 Rd6 34. dxc5 Ra6 35. Rd1 1-0',
+      id: '4275363',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'B33',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Nd5 Nxd5 8. exd5 Nb8 9. Qf3 a6 10. Qa3 b6 11. Bg5 Be7 12. Bxe7 Kxe7 13. O-O-O Bb7 14. Nc3 Nd7 15. f4 Qc7 16. fxe5 Nxe5 17. Qb4 h5 18. Be2 Kf8 19. Rhf1 Re8 20. Rf5 h4 21. Rf4 Qd8 22. Kb1 Rh6 23. Rdd4 h3 24. g3 Bc8 25. a4 Kg8 26. Rde4 Qc7 27. Rh4 a5 28. Qd4 Rxh4 29. Rxh4 Bf5 30. Rh5 Qc8 31. Qxb6 Ng4 32. Ba6 Re1+ 33. Ka2 Qe8 34. Rxf5 Ne3 35. Bb5 Qe7 1-0',
+      id: '4275364',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'B12',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nd2 e6 5. Nb3 Nd7 6. Nf3 h6 7. Be2 a5 8. a4 Bb4+ 9. c3 Bf8 10. O-O Ne7 11. h3 Bh7 12. Bd2 Qb6 13. Ne1 Nf5 14. Bd3 Be7 15. Qc2 Bg6 16. c4 dxc4 17. Qxc4 Nxd4 18. Qxd4 Qxb3 19. Bxg6 fxg6 20. Qe4 O-O 21. Bxh6 Rf5 22. Be3 Qd5 23. Qxd5 exd5 24. f4 g5 25. e6 Nc5 26. g4 gxf4 27. gxf5 fxe3 28. Rf4 Bf6 29. Nc2 e2 30. Rf2 d4 31. Rxe2 d3 32. Rd2 dxc2 33. Rxc2 Rd8 34. Re1 Nxa4 35. Ra1 Nxb2 36. Rxa5 Nd3 37. Kh2 Nb4 38. Rc1 Nd5 39. Ra7 Rb8 40. Kg3 Ne7 41. Kg4 b5 42. Rd1 b4 43. Rad7 b3 44. Rd8+ Rxd8 45. Rxd8+ Kh7 46. Rb8 b2 47. Kf4 Nd5+ 0-1',
+      id: '4275365',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'D41',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 cxd4 6. Qxd4 exd5 7. e4 dxe4 8. Qxd8+ Kxd8 9. Ng5 Be6 10. Nxe6+ fxe6 11. Bc4 Ke7 12. O-O Nbd7 13. Rd1 Rc8 14. Be2 a6 15. Be3 Rc6 16. Rac1 Kd8 17. Bd4 Bd6 18. Na4 Rxc1 19. Rxc1 Ke7 20. g3 Rd8 21. Be3 Nd5 22. Bg5+ N7f6 23. Nc5 Bxc5 24. Rxc5 h6 25. Bc1 Nb4 26. Rc7+ Rd7 27. Rxd7+ Kxd7 28. Bd2 Nfd5 29. a3 Nd3 30. b3 Kd6 31. f3 Nc5 32. fxe4 Nxe4 33. Bc1 e5 34. b4 Nec3 35. Bf1 e4 36. Kf2 Ke5 37. Bh3 b6 38. Bb2 Kd4 39. Bf1 b5 40. Ke1 Ke3 41. Bc1+ Kd4 42. Bb2 e3 43. Ba1 g6 44. Bh3 Kd3 45. Bc8 Nb1 46. Bb2 Nd2 47. Bg4 Nc3 48. Bxc3 Kxc3 49. Ke2 Nc4 50. Bc8 Nxa3 51. Bxa6 Kd4 52. h4 Nb1 53. Kd1 Nc3+ 54. Kc2 g5 55. hxg5 hxg5 56. g4 Kc4 57. Bc8 Kxb4 58. Kd3 e2 59. Kd2 Ka3 60. Bf5 b4 61. Bd3 b3 0-1',
+      id: '4275366',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C02',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 c6 2. d4 d5 3. e5 c5 4. dxc5 e6 5. a3 Bxc5 6. Qg4 Ne7 7. Bd3 Ng6 8. Nf3 Nc6 9. O-O O-O 10. Qh5 Qc7 11. b4 Be7 12. Bb2 Bd7 13. Re1 Be8 14. Nc3 Qd7 15. Qh3 f6 16. exf6 Bxf6 17. Rxe6 Nce7 18. Bb5 Qc8 19. Rxf6 Rxf6 20. Qxc8 Rxc8 21. Bd3 Nf4 22. Ne2 Nxe2+ 23. Bxe2 Re6 24. Bd3 Bg6 25. Nd4 Rb6 26. Re1 Kf7 27. Be2 Bxc2 28. Bg4 Rc4 29. Be2 Rc8 30. Bg4 Rc4 31. Be2 Rc8 1/2-1/2',
+      id: '4275367',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8. Rxe5 O-O 9. d4 Bf6 10. Re1 Re8 11. c3 Rxe1 12. Qxe1 Ne8 13. Bf4 d5 14. Bd3 g6 15. Nd2 Ng7 16. Nf3 Bf5 17. Bxf5 Nxf5 18. Qe2 c6 19. Re1 Ng7 20. Be5 Bxe5 21. Nxe5 Qd6 22. Nd3 Re8 23. Qd2 1/2-1/2',
+      id: '4275368',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'B12',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 h6 6. O-O Ne7 7. a4 a5 8. Nbd2 Nd7 9. Nb3 Bh7 10. Bd2 Qb6 11. h3 Ng6 12. Qe1 Bb4 13. Bxb4 Qxb4 14. Qxb4 axb4 15. Bd3 c5 16. Nxc5 Nxc5 17. dxc5 Ra5 18. Bb5+ Ke7 19. Rfe1 Rc8 20. c3 bxc3 21. b4 Raa8 22. Rac1 Nf4 23. Rxc3 Be4 24. a5 f6 25. h4 g5 26. g3 Ng6 27. exf6+ Kxf6 28. hxg5+ hxg5 29. Nh2 Ne5 30. Rce3 Rh8 31. f3 Rxh2 32. Kxh2 Nxf3+ 33. Rxf3+ Bxf3 34. c6 d4 35. Rf1 Rh8+ 36. Kg1 Rh1+ 37. Kf2 Rxf1+ 38. Bxf1 Bxc6 39. b5 Bd7 40. a6 bxa6 41. bxa6 d3 42. Bxd3 Ke5 43. a7 Bc6 44. Bf1 1-0',
+      id: '4275369',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D40',
+      t: 'Skilling Open KO 2020',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. e3 dxc4 6. Bxc4 a6 7. O-O b5 8. Be2 Bb7 9. dxc5 Bxc5 10. Qxd8+ Kxd8 11. Nd2 Ke7 12. Nb3 Nbd7 13. Na5 Rab8 14. Nxb7 Rxb7 15. Bd2 Rc7 16. Rfd1 Rhc8 17. Be1 Bd6 18. Bxb5 axb5 19. Nxb5 Rc6 20. Na7 Be5 21. Nxc8+ Rxc8 22. Rab1 Ra8 23. a3 Nd5 24. Rdc1 f5 25. h3 g5 26. Kf1 h5 27. Rc2 g4 28. Ke2 N7f6 29. Ra1 f4 30. hxg4 fxe3 31. fxe3 Nxg4 32. Bh4+ Kd6 33. e4 Nge3 34. Rcc1 Nxg2 35. Bf2 Ngf4+ 36. Kf3 Bxb2 37. Bc5+ Kd7 38. exd5 Bxc1 39. dxe6+ Nxe6 40. Rxc1 Nxc5 41. Rxc5 Rxa3+ 42. Kf4 h4 43. Kg4 h3 44. Rh5 Rb3 45. Rxh3 Rxh3 46. Kxh3 1/2-1/2',
+      id: '4275370',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'E92',
+      t: 'Airthings Masters Prelim',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. dxe5 dxe5 8. Qxd8 Rxd8 9. Bg5 Re8 10. Nd5 Nxd5 11. cxd5 c6 12. Bc4 cxd5 13. Bxd5 Nd7 14. Nd2 Nb6 15. Bb3 Be6 16. Bxe6 Rxe6 17. Rc1 Rc8 18. Ke2 Rec6 19. Rxc6 Rxc6 20. b3 Bf8 21. Be3 Bb4 22. a3 Bxa3 23. Ra1 Bc5 24. Rxa7 Bxe3 25. Kxe3 Rc7 26. Nc4 Nxc4+ 27. bxc4 Rxc4 28. Rxb7 Rc3+ 29. Ke2 Rc2+ 30. Ke3 Rc3+ 31. Ke2 Rc2+ 32. Ke3 Rc3+ 1/2-1/2',
+      id: '4276938',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'D35',
+      t: "Cote d'Ivoire Rapid 2019",
+      moves:
+        '1. c4 e6 2. Nc3 d5 3. d4 Nf6 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 c5 7. Rb1 Be7 8. Nf3 O-O 9. Be2 b6 10. O-O Bb7 11. Qd3 Nd7 12. Re1 Rc8 13. Bf4 Nf6 14. Bd1 Nh5 15. Bd2 Qc7 16. Ng5 Nf4 17. Qg3 Ng6 18. Qg4 Bxg5 19. Bxg5 cxd4 20. cxd4 Qc3 21. Bb3 Qxd4 22. Rbd1 Qe5 23. h4 h6 24. Bc1 h5 25. Qg5 Qxg5 26. Bxg5 Rc7 27. f4 Bc8 28. Rc1 Rb7 29. Rc3 Kh7 30. Rec1 Bd7 31. Rc7 Rxc7 32. Rxc7 f6 33. Rxd7 fxg5 34. fxg5 Nxh4 35. Bxe6 Kg6 36. Rxa7 Kxg5 37. Rxg7+ Kf6 38. Rg8 Ng6 39. Rxf8+ Nxf8 40. Bf5 1-0',
+      id: '4193567',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B32',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6 6. N1c3 a6 7. Na3 Be7 8. Nc4 b5 9. Ne3 Nf6 10. g3 h5 11. h4 Nd4 12. Bg2 Be6 13. Ncd5 Nxd5 14. Nxd5 Bxd5 15. exd5 g6 16. c3 Nf5 17. a4 O-O 18. Qd3 Rb8 19. axb5 axb5 20. O-O b4 21. Bd2 bxc3 22. Bxc3 Ng7 23. Ra7 f5 24. Ba5 Qe8 25. b4 Rf7 26. Rc1 Bd8 27. Rxf7 Qxf7 28. Bxd8 Rxd8 29. Qa6 f4 30. Rc8 Rxc8 31. Qxc8+ Kh7 32. b5 fxg3 33. fxg3 Qa7+ 34. Kh2 Nf5 35. Qf8 Nh6 36. Qxd6 Ng4+ 37. Kh3 Nf2+ 38. Kh2 Ng4+ 39. Kh3 1/2-1/2',
+      id: '4193642',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'A37',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. c4 c5 2. g3 g6 3. Bg2 Bg7 4. Nc3 Nc6 5. Nf3 e6 6. h4 h6 7. e3 Nge7 8. d4 cxd4 9. Nxd4 d5 10. cxd5 Nxd4 11. exd4 Nxd5 12. O-O O-O 13. Qb3 Ne7 14. Rd1 Nf5 15. Ne2 a5 16. Bf4 a4 17. Qa3 Qb6 18. Rac1 Bd7 19. Be5 Rfc8 20. Bxg7 Kxg7 21. d5 Rxc1 22. Rxc1 e5 23. Qc3 Qd6 24. a3 Bb5 25. Qd2 Bxe2 26. Qxe2 Nd4 27. Qc4 Rd8 28. Kh2 b5 29. Qc7 Qf6 30. Re1 Rd6 31. Kg1 g5 32. hxg5 hxg5 33. Qc8 Rd8 34. Qg4 Re8 35. Be4 Rd8 36. Kg2 Rh8 37. d6 Ne6 38. d7 Rd8 39. Rd1 Qe7 40. Qf5 Qf6 41. Qh7+ Kf8 42. Rd5 Nd4 43. Qh5 Ke7 44. Qg4 Ne6 45. Rxb5 Rxd7 46. Qf5 Qxf5 47. Bxf5 Kf6 48. Bc2 Rd4 49. Rb4 Nc5 50. Kf3 Ke6 51. Ke3 Kd5 52. Rb6 Rc4 53. Bd1 Rc1 54. Be2 Rc2 55. Bd1 Rc1 56. Kd2 Ra1 57. Rb4 Ne4+ 58. Ke2 Nxf2 59. Bxa4 Nh1 60. Bb3+ Kd6 61. g4 f5 62. gxf5 Ng3+ 63. Kf3 Nxf5 64. Kg4 Nd4 65. Kxg5 Rg1+ 66. Kh4 Nxb3 67. Rxb3 e4 68. Rg3 Rb1 69. Rb3 Rg1 70. a4 Ra1 71. Rb4 e3 72. Re4 e2 73. Rxe2 Rxa4+ 74. Kg3 Kc5 1/2-1/2',
+      id: '4193687',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C44',
+      t: '7th Norway Blitz 2019',
+      moves:
+        '1. e4 e5 2. Bc4 Nf6 3. d4 exd4 4. Nf3 Nc6 5. e5 d5 6. Bb5 Ne4 7. Nxd4 Bc5 8. Be3  O-O 9. Bxc6 bxc6 10. O-O Bxd4 11. Qxd4 c5 12. Qd3 Bf5 13. Qe2 d4 14. f3 Ng5 15.  Bxg5 Qxg5 16. Na3 Rfe8 17. Rae1 Rad8 18. Rf2 Rd5 19. Qb5 Bd7 20. Qa5 Rdxe5 21.  Ref1 Re2 22. Qxc7 Rxf2 23. Kxf2 Qe3+ 24. Kg3 Qg5+ 25. Kf2 Qe3+ 26. Kg3 Qg5+ 1/2-1/2',
+      id: '4195757',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B33',
+      t: '7th Norway Chess 2019',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3  b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c3 O-O 12. Nc2 Rb8 13. h4 g6 14. g3 Bg7 15. h5  Ne7 16. Nce3 Nxd5 17. Nxd5 Be6 18. Bh3 Bxd5 19. Qxd5 b4 20. c4 Qc7 21. O-O Rb6  22. b3 Rd8 23. a4 bxa3 24. hxg6 hxg6 25. Rxa3 Qc5 26. Rfa1 Qxd5 27. cxd5 Bh6 28.  Rxa6 Rxb3 29. Ra8 Rxa8 30. Rxa8+ Bf8 31. Bd7 Rb4 32. Ra4 Rb2 33. Ra7 Be7 34. Bc6  Kf8 35. Rb7 Rxb7 36. Bxb7 1/2-1/2',
+      id: '4197682',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'D70',
+      t: '7th Norway Chess 2019',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. f3 d5 4. cxd5 Nxd5 5. e4 Nb6 6. Nc3 Bg7 7. Be3 O-O 8. Qd2  Nc6 9. O-O-O f5 10. e5 f4 11. Bf2 Nb4 12. a3 a5 13. h4 Be6 14. Nh3 Na2+ 15. Nxa2  Bxa2 16. d5 Qxd5 17. Qxd5+ Nxd5 18. Re1 Rf5 19. Bd3 Rxe5 20. Rxe5 Bxe5 21. h5  gxh5 22. Ng5 Nf6 23. Nxh7 Rd8 24. Bc2 Bf7 25. Ng5 Bd4 26. Be1 b6 27. Bh4 Be3+  28. Kb1 Rd2 29. Nxf7 Kxf7 30. Bxf6 Kxf6 31. Rxh5 Rxg2 32. Rh6+ Ke5 33. Rh5+ Kd6  34. Rh6+ Ke5 35. Rh5+ Kd6 36. Rh6+ 1/2-1/2',
+      id: '4197687',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'E34',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 Qxd5 6. e3 c5 7. Bd2 Bxc3 8.  Bxc3 cxd4 9. Bxd4 Nc6 10. Bc3 O-O 11. Nf3 Rd8 12. Be2 Qe4 13. Rc1 Qxc2 14. Rxc2  Bd7 15. Ne5 Nxe5 16. Bxe5 Rac8 17. Rxc8 Rxc8 18. O-O Nd5 19. Rd1 f6 20. Bd4 Ba4  21. b3 Be8 22. Bc4 b5 23. Bxd5 exd5 24. Bxa7 Ra8 25. Bc5 Rxa2 26. h4 Bf7 27. e4  Ra8 28. exd5 Rd8 29. b4 Rxd5 30. Rxd5 Bxd5 31. f3 h5 32. Bd4 Bc6 33. Bc3 Bd5 34.  Bd4 Bc6 35. Bc3 Bd5 36. Bd4 1/2-1/2',
+      id: '4202273',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'C50',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 O-O 6. c3 d6 7. h3 h6 8. Re1 a6  9. a4 a5 10. Nbd2 Be6 11. Bb5 Na7 12. d4 Nxb5 13. dxc5 Na7 14. b3 Re8 15. cxd6  Qxd6 16. Ba3 c5 17. Nc4 Qxd1 18. Raxd1 Bxc4 19. bxc4 b6 20. Nh4 Rad8 21. f3 g6  22. g3 Nh5 23. Kf2 Nc6 24. Bc1 Kg7 25. Be3 Rxd1 26. Rxd1 Rd8 27. Rb1 Rb8 28. Ng2  Nf6 29. Ke2 Ne8 30. Bf2 Nd6 31. Ne3 Ne7 32. Nd5 Nxd5 33. cxd5 Rb7 34. Kd3 f5 35.  c4 fxe4+ 36. fxe4 Rf7 37. Rxb6 Rxf2 38. Rxd6 Rf3+ 39. Ke2 Rc3 40. Re6 Rxc4 41.  Rxe5 Rxa4 42. Re7+ Kf6 43. d6 1-0',
+      id: '4211856',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B90',
+      t: 'Tata Steel India Rapid',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. h3 e5 7. Nb3 Be7 8. g4 h6 9. Be3 b5 10. a4 bxa4 11. Rxa4 Bd7 12. Ra1 Nc6 13. Nd5 O-O 14. Nb6 Rb8 15. Nxd7 Qxd7 16. Bg2 a5 17. O-O Bd8 18. Qf3 Nb4 19. Qe2 a4 20. Nc1 Qc6 21. c3 Na6 22. Nd3 Bb6 23. Nxe5 dxe5 24. Qxa6 Rfc8 25. Bxb6 Rxb6 26. Qxa4 Rxb2 27. Qxc6 Rxc6 28. Ra5 Nd7 29. Rd5 Rb7 30. Rfd1 Nf8 31. Rxe5 Ne6 32. Rc1 Rbc7 33. h4 g5 34. hxg5 hxg5 35. Rf5 Rxc3 36. Rxc3 Rxc3 37. e5 Rc4 38. Bd5 Rxg4+ 39. Kh2 Rd4 40. Bxe6 fxe6 41. Rf6 Rd5 42. Rg6+ Kf7 43. Rxg5 Rd1 44. f4 Rd3 45. Kg2 Ra3 46. Rg3 Ra4 47. Kf3 Ra1 48. Kg4 Kg6 49. Kf3+ Kf7 50. Rg2 Ra3+ 51. Kg4 Ra1 52. Rb2 Rg1+ 53. Kf3 Rf1+ 54. Ke3 Re1+ 55. Kf2 Ra1 56. Rb8 Ra3 57. Rb6 1/2-1/2',
+      id: '4230886',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'E21',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 c5 5. g3 cxd4 6. Nxd4 O-O 7. Bg2 d5 8. cxd5 Nxd5 9. Qb3 Qa5 10. O-O Nxc3 11. a3 Be7 12. Qxc3 Qxc3 13. bxc3 e5 14. Nb5 Nc6 15. Nc7 Rb8 16. Be3 Bg4 17. Nd5 Bd6 18. Rfe1 Rfc8 19. h3 Be6 20. Red1 Bf8 21. Nb4 Na5 22. Bxa7 Ra8 23. Be3 Rxc3 24. Nd5 Bxd5 25. Bxd5 Nc4 26. Bc1 Ra7 27. a4 b5 28. a5 Rxa5 29. Rxa5 Nxa5 30. Bd2 Ra3 31. Bxa5 Rxa5 32. Rc1 Ra7 33. Rc8 g6 34. Re8 Re7 35. Rb8 Rc7 36. Bb3 b4 1/2-1/2',
+      id: '4230972',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'A56',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. d4 Nf6 2. c4 c5 3. d5 g6 4. Nc3 Bg7 5. e4 d6 6. Nf3 O-O 7. h3 e6 8. Bd3 Nbd7 9. O-O e5 10. a3 h6 11. b4 Nh7 12. Qc2 b6 13. Rb1 Ndf6 14. bxc5 bxc5 15. Re1 Nh5 16. Bf1 Ng5 17. Nxg5 hxg5 18. g3 g4 19. hxg4 Bxg4 20. Be2 Bd7 21. Qd1 Nf4 22. gxf4 exf4 23. Qd3 Qh4 24. Nb5 Be5 25. Qf3 Kg7 26. Rb3 Rh8 27. Bd1 Rh6 28. Kf1 Rah8 29. Nxd6 Bxd6 30. Bb2+ 1/2-1/2',
+      id: '4232236',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'D02',
+      t: '80th Tata Steel GpA',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. Bf4 Bf5 4. e3 e6 5. c4 Bxb1 6. Qxb1 Bb4+ 7. Kd1 Bd6 8. Bg5 h6 9. Bxf6 Qxf6 10. cxd5 exd5 11. e4 Be7 12. Bb5+ c6 13. e5 Qf4 14. Bd3 c5 15. dxc5 Nc6 16. Qc1 Qb4 17. a3 Qxc5 18. Ke2 Nd4+ 19. Nxd4 Qxd4 20. f4 O-O 21. Qd2 Qb6 22. Rhe1 f6 23. e6 Qxe6+ 24. Kf3 Qd7 25. Rad1 Rad8 26. Qe3 Bd6 27. Bg6 f5 28. Qe6+ Qxe6 29. Rxe6 Bc5 30. Re5 Rf6 31. Bxf5 Bd6 32. Rdxd5 Kf7 33. Re4 g6 34. Bg4 h5 35. Bh3 Re8 36. Red4 Be5 37. Rb4 g5 38. g3 b6 39. Rd7+ Kf8 40. Rh7 g4+ 41. Bxg4 hxg4+ 42. Kxg4 Bd6 43. Rc4 a5 44. Rc6 Kg8 45. Rb7 Be5 46. Rcxb6 Rxb6 47. Rxb6 Bd4 48. Rb5 Re2 49. b3 Rxh2 50. Rxa5 Re2 51. Rd5 Bb2 52. a4 Bc3 53. Kf5 Re8 54. g4 Rf8+ 55. Ke4 Rb8 56. Rb5 Re8+ 57. Kd3 Be1 58. a5 Bf2 59. b4 Re3+ 60. Kc4 Re4+ 61. Kb3 Kf7 62. Re5 Rd4 63. b5 Rd3+ 64. Kc2 Rg3 65. g5 Bd4 66. Rd5 Be3 67. Rd3 Rg2+ 68. Kb3 Bc1 69. b6 Ke6 70. Rd4 Rb2+ 71. Ka4 Kf5 72. Rb4 Ra2+ 73. Kb5 Bxf4 74. Rxf4+ Kxf4 75. b7 1-0',
+      id: '4095993',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'D10',
+      t: '6th Norway Chess 2018',
+      moves:
+        '1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Bf4 Nf6 5. Nc3 Nc6 6. Nf3 a6 7. Rc1 Bf5 8. e3 Rc8 9. Be2 e6 10. O-O Nd7 11. Na4 Be7 12. h3 O-O 13. a3 Na5 14. Nc5 Nc4 15. b4 Nxc5 16. dxc5 Nxa3 17. Nd4 Be4 18. f3 Bg6 19. Qb3 Nc4 20. Bxc4 dxc4 21. Qxc4 Qe8 22. Bg3 e5 23. Nb3 Bd8 24. Qd5 Qb5 25. Bxe5 Be7 26. Qd2 Rfd8 27. Bd6 Bf6 28. e4 h6 29. Nd4 Bxd4+ 30. Qxd4 Re8 31. Rfe1 Kh7 32. g4 f6 33. f4 Qc6 34. f5 Bf7 35. h4 Ra8 36. Rc2 a5 37. g5 Bh5 38. g6+ Kh8 39. b5 Qxb5 40. Rb2 Qc6 41. Rb6 Qc8 42. Qd5 a4 43. Rxb7 Rg8 44. c6 1-0',
+      id: '4117432',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A07',
+      t: '6th Norway Blitz 2018',
+      moves:
+        '1. Nf3 d5 2. g3 Bg4 3. Bg2 e6 4. O-O Nf6 5. d4 Be7 6. c4 c6 7. Nc3 O-O 8. Qb3 Qb6 9. Ne5 Bh5 10. Bf4 Nbd7 11. Nxd7 Nxd7 12. e4 dxe4 13. Nxe4 Rfd8 14. Rfe1 Nf6 15. Nc5 Qxb3 16. axb3 Bxc5 17. dxc5 a6 18. b4 Rac8 19. Be5 Bg6 20. Red1 Bd3 21. b3 Bc2 22. Rxd8+ Rxd8 23. b5 Bxb3 24. bxa6 bxa6 25. Bxc6 Bxc4 26. Bb7 Bd5 27. c6 Rf8 28. Bxf6 gxf6 29. Rxa6 Kg7 30. f4 f5 31. Kf2 Kf6 32. Ke3 Ke7 33. Kd4 Kd6 34. c7+ Kxc7 35. Bxd5 Rd8 36. Ra5 Kb6 37. Rc5 f6 38. Rc6+ 1-0',
+      id: '4117446',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'D42',
+      t: '6th Sinquefield Cup 2018',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. e3 Nc6 6. cxd5 Nxd5 7. Bd3 Be7 8. O-O O-O 9. Qe2 b6 10. Rd1 cxd4 11. Nxd5 Qxd5 12. exd4 Bb7 13. Be4 Qd6 14. g3 Bf6 15. Bg5 Qe7 16. Bxf6 Qxf6 17. Ne5 Rfc8 18. Qb5 Na5 19. Bxb7 Nxb7 20. Qd7 Nc5 21. dxc5 Qxe5 22. c6 h5 23. Rd6 Qxb2 24. Rad1 Qc2 25. h4 Rd8 26. Qxd8+ Rxd8 27. Rxd8+ Kh7 28. R8d7 a5 29. c7 b5 30. R1d2 Qc1+ 31. Rd1 Qc2 32. R1d4 f6 33. Rd2 Qc1+ 34. Rd1 Qc2 35. R1d6 Qb1+ 36. Rd1 Qc2 37. R1d6 Qb1+ 38. Kg2 Qe4+ 39. Kh2 Qc2 40. Rd2 Qc3 41. R2d6 Qc2 42. Rd2 Qc3 43. Re2 e5 44. Red2 b4 45. R2d6 Kg6 46. Kg2 Qc2 47. Re7 Qe4+ 48. Kg1 Qe1+ 49. Kg2 Qe4+ 50. Kg1 Qe1+ 51. Kg2 Qe4+ 1/2-1/2',
+      id: '4131852',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'D12',
+      t: '79th Tata Steel GpA',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. Nc3 a6 6. Ne5 Nbd7 7. Qb3 Qc7 8. cxd5 Nxe5 9. dxe5 Nxd5 10. Nxd5 cxd5 11. Bd2 Qxe5 12. Bc3 Qc7 13. Qxd5 e6 14. Qc4 Qxc4 15. Bxc4 Rc8 16. Bb3 Be7 17. Ke2 Be4 18. Bxg7 Rg8 19. Be5 Rxg2 20. Rac1 Rxc1 21. Rxc1 Rg5 22. Bf4 Rc5 23. Rxc5 Bxc5 24. Bc4 b5 25. Bd3 Bxd3+ 26. Kxd3 f5 27. f3 Kd7 28. e4 Kc6 29. h3 h5 30. b3 Bb6 31. Be5 Bc5 32. Bf4 Bb6 33. Be5 1/2-1/2',
+      id: '4031936',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'A04',
+      t: '5th Norway Blitz 2017',
+      moves:
+        '1. Nf3 e6 2. d4 f5 3. g3 Nf6 4. Bg2 d5 5. c4 Bd6 6. Nc3 c6 7. Bf4 Bxf4 8. gxf4 O-O 9. e3 Nbd7 10. Qb3 b6 11. Ng5 Nb8 12. O-O-O Kh8 13. Kb1 Qe7 14. Rc1 h6 15. Nf3 Nbd7 16. cxd5 cxd5 17. Ne5 Nxe5 18. fxe5 Ne4 19. Rc2 Ba6 20. Bf1 Bxf1 21. Rxf1 Rac8 22. f4 Nxc3+ 23. Rxc3 Rxc3 24. Qxc3 Qh4 25. Qa3 Rc8 26. Qxa7 Qxh2 27. a3 Qg2 28. Re1 Qf2 29. Rh1 Qxe3 30. Ka2 Qxd4 31. Qd7 Qc4+ 32. Ka1 d4 33. Rg1 Rg8 34. Rd1 d3 35. Rxd3 Qxf4 36. Qd6 Qc1+ 37. Ka2 Qc4+ 38. Ka1 f4 39. Rc3 Qd5 40. Qxb6 Qxe5 41. a4 Rf8 42. Qb4 Kg8 43. Rf3 Qf5 44. Qc4 Kh7 0-1',
+      id: '4052009',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C50',
+      t: '5th Norway Chess 2017',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 O-O 6. h3 d6 7. c3 a6 8. a4 Be6 9. Bxe6 fxe6 10. b4 Ba7 11. Be3 Bxe3 12. fxe3 Ne7 13. Nbd2 Ng6 14. d4 Qe7 15. Qb3 Kh8 16. b5 axb5 17. axb5 exd4 18. cxd4 e5 19. Rxa8 Rxa8 20. Rc1 exd4 21. exd4 Nxe4 22. Nxe4 Qxe4 23. Rxc7 Rf8 24. Qc2 Qd5 25. Qc4 Qxc4 26. Rxc4 Kg8 27. b6 h6 28. Nd2 Nf4 29. Rc7 Rf7 30. Nc4 Nd5 31. Rc8+ Rf8 32. Rxf8+ Kxf8 33. Nxd6 Nxb6 34. Nxb7 Ke7 35. Kf2 Ke6 36. Ke3 Kd5 37. Na5 Na4 38. Nb3 Nb2 39. Nd2 Nd1+ 40. Ke2 Nb2 41. Nb3 Kc4 42. Nc5 Kxd4 43. Ne6+ Ke4 44. Nxg7 Nc4 45. Kf2 Kf4 46. g3+ Ke4 47. g4 Kf4 48. Nh5+ Kg5 49. Kg3 Ne5 50. Nf4 Kf6 51. Kh4 Ng6+ 52. Kg3 Nxf4 53. Kxf4 Kg6 54. h4 Kf6 55. Kf3 Kf7 56. Ke3 Ke7 57. Kd3 Kd7 58. Kc4 Ke6 59. Kd4 Kd6 60. Ke4 Ke6 61. Kf4 Kf6 62. Ke4 Ke6 63. Kf4 Kf6 1/2-1/2',
+      id: '4052824',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'C50',
+      t: 'GCT Rapid Paris 2017',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 O-O 6. c3 d6 7. Re1 a6 8. Bb3 Re8 9. h3 h6 10. Nbd2 Be6 11. Nf1 Bxb3 12. Qxb3 d5 13. Be3 Bf8 14. Rad1 Na5 15. Qc2 c5 16. exd5 Qxd5 17. Bd2 Nc6 18. Ne3 Qd7 19. Nc4 Qc7 20. a4 b5 21. axb5 axb5 22. Na3 Qb7 23. c4 b4 24. Nb5 Rad8 25. Ra1 Qd7 26. Ra6 Re6 27. Qa4 Qxd3 28. Bxh6 gxh6 29. Nc7 Nd4 30. Nxd4 Rxa6 31. Qxa6 Rd6 32. Nc6 Qf5 33. Nd5 Qe6 34. Qa8 Rxc6 35. Re3 Ne8 36. Rg3+ Kh7 37. Rf3 e4 38. Rf4 Ra6 39. Rxf7+ Qxf7 40. Qxa6 Bg7 41. Qc6 Bd4 42. Kh2 Ng7 43. Ne3 Qf4+ 0-1',
+      id: '4054270',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'E21',
+      t: 'GCT Blitz Paris 2017',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 O-O 5. Qc2 d5 6. cxd5 exd5 7. Bg5 h6 8. Bh4 c5 9. dxc5 Nbd7 10. e3 Qa5 11. Bd3 Ne4 12. O-O Bxc3 13. bxc3 Ndxc5 14. Nd4 Nxd3 15. Qxd3 Re8 16. Rfc1 Bd7 17. c4 dxc4 18. Rxc4 Qd5 19. Rcc1 Rac8 20. Qa3 a6 21. f3 Nd6 22. Bf2 Nc4 23. Qd3 b5 24. e4 Qd6 25. Qb3 Qg6 26. Rd1 Nb6 27. Ne2 Be6 28. Qb4 Na4 29. a3 Rc2 30. Rd2 Rec8 31. Rad1 Kh7 32. h4 Qf6 33. Qd6 Qb2 34. Rxc2 Qxc2 35. Nf4 Nb2 36. Re1 Qc6 37. Qd4 Nc4 38. Rd1 f6 39. h5 Bf7 40. Qd7 Qc7 41. Qf5+ Kg8 42. Rd7 Qe5 43. Qg4 Qa1+ 44. Kh2 Ne5 45. Qf5 Nxd7 46. Qxd7 Re8 47. Nd5 Qe5+ 48. Bg3 Qxh5+ 0-1',
+      id: '4054342',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'A45',
+      t: 'GCT Blitz Paris 2017',
+      moves:
+        '1. d4 Nf6 2. Bf4 d5 3. e3 c5 4. Nc3 a6 5. dxc5 e6 6. Na4 Bxc5 7. Nxc5 Qa5+ 8. c3 Qxc5 9. Nf3 Nc6 10. Bd3 h6 11. Ne5 O-O 12. O-O Qe7 13. c4 Nxe5 14. Bxe5 dxc4 15. Bxc4 Rd8 16. Qf3 Nd5 17. e4 Nb6 18. Bb3 f6 19. Bc3 a5 20. a3 Kh8 21. Qe3 Ra6 22. Rad1 e5 23. Bxa5 Rxd1 24. Rxd1 Be6 25. Bxb6 1-0',
+      id: '4054387',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '0-1',
+      e: 'E53',
+      t: 'GCT Rapid YourNextMove',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Nf3 c5 6. Bd3 d5 7. cxd5 exd5 8. dxc5 Bg4 9. O-O Nbd7 10. Bd2 Bxf3 11. Qxf3 Nxc5 12. Bc2 Nce4 13. Bxe4 Nxe4 14. Rfd1 Qa5 15. Nxe4 dxe4 16. Bxb4 Qxb4 17. Qe2 Rfd8 18. h3 g6 19. Rac1 Rxd1+ 20. Rxd1 Rc8 21. b3 h5 22. g4 Qc5 23. Kg2 Qe5 24. Rd4 Kg7 25. Qd1 hxg4 26. Qxg4 Rc2 27. Qxe4 Qg5+ 28. Kf1 Rxa2 29. Ra4 Rd2 30. Ke1 Rd5 31. Rd4 Rb5 32. b4 a5 33. h4 Qg1+ 34. Ke2 Rf5 35. f4 Qg4+ 36. Kd3 Qd1+ 37. Kc3 Qc1+ 38. Kd3 a4 39. Ke2 a3 40. Rd2 Qg1 41. Qc4 Rf6 42. Qd4 a2 43. Rd1 Qg2+ 44. Kd3 Qc6 45. h5 Kh7 46. hxg6+ Rxg6 47. b5 Qxb5+ 48. Kc2 Rg2+ 49. Kc3 Qb2+ 50. Kc4 Rc2+ 51. Kd5 Qb3+ 0-1',
+      id: '4054953',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '1-0',
+      e: 'D00',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. d4 d5 2. Bf4 c5 3. e3 Nc6 4. c3 Qb6 5. Qb3 Nf6 6. Nd2 c4 7. Qc2 Nh5 8. Bg5 h6 9. Bh4 g5 10. Be2 Ng7 11. Bg3 Bf5 12. Qc1 e6 13. Ngf3 Qa5 14. e4 Bh7 15. O-O Be7 16. Re1 O-O 17. Ne5 Nxe5 18. Bxe5 f6 19. Bg3 Rfe8 20. h4 b5 21. b4 Qd8 22. a4 a5 23. axb5 axb4 24. Rxa8 Qxa8 25. exd5 exd5 26. Bf3 Qd8 27. hxg5 hxg5 28. b6 bxc3 29. Qxc3 Qxb6 30. Bxd5+ Kf8 31. Nxc4 Qb5 32. Ne3 Rd8 33. Qc7 Qd7 34. Qa5 Nh5 35. Bc7 Rc8 36. Bh2 Nf4 37. Bxf4 gxf4 38. Nc4 Qf5 39. Qa7 Qxd5 40. Qxe7+ Kg8 41. Nb6 1-0',
+      id: '4055029',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B56',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Bd7 6. Be2 Nc6 7. Be3 e6 8. g4 h6 9. f4 Nxd4 10. Qxd4 e5 11. fxe5 Nxg4 12. O-O-O Nxe3 13. Qxe3 Qg5 14. Qxg5 hxg5 15. exd6 O-O-O 16. e5 Re8 17. Rhf1 f6 18. exf6 gxf6 19. Rxf6 Bg7 20. Rf7 Bxc3 21. Rxd7 Kxd7 22. Bb5+ Kd8 23. Bxe8 Be5 24. Bg6 Rxh2 25. Bf5 Rf2 26. Bh3 Rf4 27. Rd5 Re4 28. Bf5 Bf4+ 29. Kd1 Re5 30. Rxe5 Bxe5 31. d7 Bxb2 32. Ke2 1/2-1/2',
+      id: '4055074',
+    },
+    {
+      w: 'Wesley_So',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'C45',
+      t: '5th Sinquefield Cup 2017',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bb4+ 5. c3 Be7 6. Nxc6 bxc6 7. Bd3 d6 8. O-O Nf6 9. Re1 O-O 10. Nd2 Re8 11. Nf3 Nd7 12. Bf4 Nc5 13. Bc2 Bg4 14. h3 Bh5 15. Be3 Nd7 16. Ba4 c5 17. g4 Bg6 18. e5 Rb8 19. Bf4 Rxb2 20. exd6 Bxd6 21. Rxe8+ Qxe8 22. Bxd6 cxd6 23. Qxd6 Qe2 24. Qg3 Nf8 25. Re1 Rb1 26. Rxb1 Bxb1 27. Bc6 Bxa2 28. Qd6 Qc4 29. Ne5 Qxc3 0-1',
+      id: '4061791',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Wesley_So',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: '9th London Classic 2017',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bg5 Nd4 6. Nxd4 Bxd4 7. c3 Bb6 8. Nd2 c6 9. Ba4 h6 10. Bh4 d6 11. Nc4 Bc7 12. Ne3 Bb6 13. Bb3 g5 14. Bg3 Bxe3 15. fxe3 Bg4 16. Qd2 Nh5 17. O-O O-O 18. Be1 Qe7 19. h3 Be6 20. Qe2 Bxb3 21. Qxh5 Bc2 22. Qe2 Ba4 23. b3 Bb5 24. a4 Ba6 25. b4 b6 26. c4 Bb7 27. a5 f6 28. d4 Qh7 29. c5 bxc5 30. bxc5 Qxe4 31. cxd6 exd4 32. Qc4+ Kg7 33. a6 Bc8 34. Qxd4 Qxd4 35. exd4 Rb8 36. Bf2 Rf7 37. d5 cxd5 38. Rfc1 d4 39. Bxd4 Bf5 40. Rc7 Rd8 41. Bc5 Rdd7 42. Rxd7 Rxd7 43. Kf2 Be4 44. g4 f5 45. Ke3 Kf6 46. Ra5 Bc2 47. Rb5 Ke6 48. Rb2 f4+ 49. Kd4 Bd1 50. Rb8 f3 51. Ke3 Kd5 52. Ba3 Be2 53. Rh8 Kc4 54. Rxh6 Kb3 55. Bc5 Kc4 56. Bd4 Kd5 57. Rg6 Rxd6 58. Rxg5+ Ke6 59. Bxa7 Rxa6 60. Bc5 Ra2 61. Kf4 f2 62. Re5+ Kf7 63. Rf5+ Kg8 64. Bxf2 Bf1 65. Kg3 Ra3+ 66. Rf3 Rxf3+ 67. Kxf3 Bxh3 68. Kf4 Bxg4 1/2-1/2',
+      id: '4084162',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'A01',
+      t: 'Opera Euro Rapid Prelim',
+      moves:
+        '1. b3 e5 2. Bb2 Nc6 3. e3 Nf6 4. Bb5 e4 5. Ne2 a6 6. Bxc6 dxc6 7. Ng3 h5 8. Nc3 Qe7 9. h4 Rh6 10. Qe2 Bg4 11. f3 exf3 12. gxf3 Bd7 13. O-O-O O-O-O 14. Qf2 Kb8 15. e4 Bc8 16. Kb1 c5 17. d3 Qe8 18. Rhe1 Nd7 19. Nf5 Rc6 20. Nd5 Ne5 21. Qg3 f6 22. Nfe3 b5 23. Rg1 Kb7 24. Qf2 a5 25. Qe2 Ra6 26. Rg2 a4 27. Rdg1 axb3 28. axb3 Be6 29. Rxg7 Bxg7 30. Rxg7 Bxd5 31. Nxd5 Rd7 32. Rg3 Rf7 33. Qg2 Ra8 34. Rg7 Qf8 35. Rxf7 Qxf7 36. Qf2 Nd7 37. Qg3 Rc8 38. Qf4 Qg6 39. Bc1 Qf7 40. Qf5 c6 41. Ne3 Rg8 42. f4 Kc7 43. Bd2 Ra8 44. Qh3 Kb6 45. Bc1 Nf8 46. Nf5 Ne6 47. Qe3 Qa7 48. Bb2 Rf8 49. Ng3 Qh7 50. f5 Nd4 51. b4 Kb7 52. bxc5 1-0',
+      id: '4279135',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 Nd7 7. O-O O-O 8.  Nc4 Re8 9. a4 a5 10. h4 b6 11. Be3 Bf8 12. g3 f6 13. Bd2 Nc5 14. Ne3 Ne6 15. h5  c5 16. Nh4 Nd4 17. Bc3 Bh3 18. Re1 Be6 19. Kg2 Qd7 20. b3 Rad8 21. Bxd4 cxd4 22.  Nef5 Qc6 23. Rh1 Rd7 24. Kh2 Kf7 25. Qe2 Bd6 26. Raf1 Rg8 27. f4 Ke8 28. fxe5  Bxe5 29. Nf3 Kd8 30. Nxe5 fxe5 31. Rf2 Kc8 32. Rhf1 Kb7 33. Nh4 Qc5 34. Qd2 Rd6  35. Qg5 h6 36. Qe7 Rc6 37. Ng6 Bg4 38. Qxe5 Bxh5 39. Qxc5 Rxc5 40. Nf4 Bg4 41.  Kg2 Rd8 42. Ng6 Rd6 43. Ne7 Re6 44. Nd5 Rec6 45. c4 dxc3 46. d4 Rxd5 47. exd5  Rd6 48. Rc1 Rxd5 49. Rf4 Bf5 50. g4 Bd7 51. Rxc3 g5 52. Re4 Rd6 53. Kf2 Bc6 54.  Re7 Rxd4 55. Re6 Bd5 56. Rxh6 Rxg4 1/2-1/2',
+      id: '4260808',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 O-O 6. O-O dxc4 7. Qc2 a6 8. a4  Bd7 9. Qxc4 Bc6 10. Bf4 Bd6 11. Qc1 Nbd7 12. Re1 Qe7 13. Nc3 Bxf3 14. Bxf3 Bxf4  15. Qxf4 c6 16. a5 e5 17. dxe5 Nxe5 18. Bg2 Rfe8 19. Red1 Rad8 20. Rxd8 Rxd8 21.  Ra4 Qd6 22. h3 h6 23. Kh2 Qc5 24. Ne4 Nxe4 25. Rxe4 Re8 26. b4 Qd6 27. h4 h5 28.  Bh3 g6 29. Rd4 Qe7 30. Qc1 Qf6 31. Rf4 Qd6 32. Qc3 Qd1 33. Qb2 Qe1 34. Kg2 Kh7  35. Bc8 Qd1 36. Rd4 Qa4 37. Re4 Qb5 38. Qd4 f6 39. f4 c5 40. Qd5 Rxc8 41. fxe5  f5 42. Rc4 Re8 43. e6 Qc6 44. Rxc5 Qxd5+ 45. Rxd5 Rxe6 46. Rd7+ Kh6 47. Rxb7  Rxe2+ 48. Kf3 Re4 49. Rb6 Kg7 50. Rxa6 Rxb4 51. Rb6 Ra4 52. a6 Rg4 53. a7 Ra4  54. Rb7+ Kf6 55. Ke3 g5 56. hxg5+ Kxg5 57. Kd3 Ra1 58. Kc4 f4 59. gxf4+ Kxf4 60.  Rh7 Kg4 61. Kb5 h4 62. Kb6 h3 63. Kb7 Rxa7+ 64. Kxa7 Kg3 65. Rxh3+ Kxh3 1/2-1/2',
+      id: '4260810',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Nd7 7. Nbd2 O-O 8.  Nc4 Re8 9. a4 a5 10. Be3 Bb4 11. Nfd2 b5 12. Na3 Ba6 13. f4 exf4 14. Rxf4 Bd6  15. Rf2 Qh4 16. h3 Nb6 17. axb5 cxb5 18. Qf3 f6 19. Nab1 a4 20. Nc3 Nd7 21. Qf5  Ne5 22. Nf3 Nxf3+ 23. Qxf3 Qg3 24. Qxg3 Bxg3 25. Rf3 Be5 26. Bf4 Bd4+ 27. Be3  Be5 28. Bf4 Bd4+ 29. Be3 Be5 1/2-1/2',
+      id: '4260812',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 O-O 6. O-O dxc4 7. Qc2 a6 8. a4  Bd7 9. Qxc4 Bc6 10. Bf4 Bd6 11. Qc1 Nbd7 12. Re1 Qe7 13. Nc3 Bxf3 14. Bxf3 Bxf4  15. Qxf4 c6 16. a5 e5 17. dxe5 Nxe5 18. Bg2 Rad8 19. Red1 h6 20. Rxd8 Rxd8 21.  Ra4 Ng6 22. Qb4 Qc7 23. Ra1 Ne7 24. Na4 Ned5 25. Qe1 Qe7 26. Rc1 Nc7 27. Nc5 Ne6  28. Nd3 Nd4 29. e3 Nf3+ 30. Bxf3 Rxd3 31. Be2 Rd6 32. Rd1 g6 33. Rxd6 Qxd6 34.  Qc3 Ne4 35. Qc4 Nd2 36. Qc3 Ne4 37. Qc4 Nd2 38. Qc3 Ne4 1/2-1/2',
+      id: '4260814',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'A29',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8. a3  O-O 9. d3 Be6 10. Be3 Nd5 11. Nxd5 Bxd5 12. Qa4 Re8 13. Rac1 a6 14. Rc3 Bf6 15.  Rd1 Nd4 16. Rd2 Nxf3+ 17. Bxf3 Bxf3 18. exf3 c6 19. Kg2 g6 20. Qe4 Bg7 21. b4 f5  22. Qc4+ Kh8 23. d4 e4 24. d5 exf3+ 25. Kxf3 Qe7 26. Rcc2 cxd5 27. Rxd5 Rad8 28.  Kg2 b5 29. Qd3 Qb7 0-1',
+      id: '4260816',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'B22',
+      t: 'Online Nations Cup Preliminaries',
+      moves:
+        '1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. Nf3 Nc6 5. d4 cxd4 6. cxd4 d6 7. Bc4 Nb6 8. Bb5  dxe5 9. Nxe5 Bd7 10. Nxd7 Qxd7 11. Nc3 e6 12. O-O Be7 13. Qg4 O-O 14. Bh6 Qxd4  15. Qg3 Bd6 16. Bxg7 Bxg3 17. Bxd4 Bxh2+ 18. Kxh2 Nxd4 19. Bd3 f5 20. Rae1 Rf6  21. Re3 Rh6+ 22. Kg1 Kf7 23. Ne2 Rd8 24. Rc1 Nxe2+ 25. Bxe2 Rd2 26. Bf3 Rxb2 27.  Ra3 a6 28. Bxb7 Nc4 29. Ra4 Nd2 30. Ba8 Ne4 31. Bxe4 fxe4 32. Rxa6 Rf6 33. Rf1  h5 34. Ra3 Rf5 35. Re3 Rxa2 36. Rxe4 1/2-1/2',
+      id: '4260901',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'C50',
+      t: 'Online Nations Cup Preliminaries',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6 5. c3 d6 6. O-O h6 7. Re1 O-O 8. Nbd2  a5 9. Nf1 Be6 10. Bb5 Bb6 11. Ng3 Ne7 12. h3 Nd7 13. d4 f5 14. dxe5 Nxe5 15. Nd4  Bc8 16. exf5 Nxf5 17. Ngxf5 Bxf5 18. Be3 Bd7 19. f4 Bxd4 20. Bxd4 Bxb5 21. fxe5  Bc6 22. Qg4 dxe5 23. Rxe5 Qd7 24. Qg3 Rae8 25. Rae1 Rxe5 26. Rxe5 a4 27. Re6 Kh7  28. Qd3+ Kg8 29. Rxh6 Qf5 30. Qg3 Qf1+ 31. Kh2 Qf4 32. Rg6 Qxg3+ 33. Kxg3 Rf7  34. Rg5 Kh7 35. b4 a3 36. Ra5 Re7 37. Kf2 Rf7+ 38. Kg3 Re7 39. Rxa3 Re2 40. Ra5  Rxg2+ 41. Kf4 Re2 42. Rh5+ Kg8 43. b5 Re4+ 44. Kf5 g6+ 45. Kxg6 Be8+ 46. Kf5  Bxh5 47. Kxe4 Be2 48. a4 Bd1 49. a5 Be2 50. Be5 Bxb5 51. Bxc7 Kf7 52. Kd5 Ke7  53. Kc5 Be2 54. Kb6 Bf3 55. c4 Kd7 56. c5 Kc8 57. h4 Be2 58. Bf4 Bf3 59. a6 bxa6  60. Kxa6 Kd7 61. Kb6 Kc8 62. c6 Bh5 63. Kc5 Bg4 64. Kd6 Kd8 65. c7+ Ke8 66. h5 1-0',
+      id: '4260961',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'C53',
+      t: 'Online Nations Cup Final',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. O-O h6 7. Re1 O-O 8. Nbd2  a5 9. Nf1 a4 10. h3 Ra5 11. d4 Bb6 12. b4 axb3 13. Bxb3 Ra8 14. Ng3 Re8 15. Bb2  Bd7 16. Qc2 Nh7 17. Rad1 Ng5 18. Nxg5 Qxg5 19. Kh2 Na5 20. Bc1 Qg6 21. dxe5 Nxb3  22. axb3 Rxe5 23. f4 Rea5 24. f5 Qf6 25. Bb2 Ra2 26. Re2 Qe7 27. c4 f6 28. Nh5  Be8 29. Nf4 c6 30. Qb1 R2a6 31. Rd3 Bf7 32. Rg3 Bc7 33. Ng6 Bxg6 34. Rxg6 d5+  35. e5 Ra2 36. cxd5 cxd5 37. Re3 Rxb2 38. Qxb2 Bxe5+ 1/2-1/2',
+      id: '4260969',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: 'Lindores Abbey Rapid Challenge',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4  Bd7 9. Qxc4 Bc6 10. Bg5 Nbd7 11. Nc3 h6 12. Bxf6 Nxf6 13. a5 Bd6 14. Rfd1 Qe7  15. Nd2 Bxg2 16. Kxg2 b5 17. Qc6 e5 18. Nde4 exd4 19. Rxd4 Be5 20. Rd3 Qe8 21.  Nxf6+ Bxf6 22. Qf3 c5 23. Rad1 Bxc3 24. bxc3 b4 25. cxb4 cxb4 26. Rd6 Qa4 27.  Qg4 Qxa5 28. Rxh6 Rad8 29. Rb1 Qd5+ 30. e4 Qd7 31. Qxd7 Rxd7 32. Rxa6 Rd4 33. e5  Rb8 34. Rb3 g5 35. Ra7 Re4 36. Rf3 Rxe5 37. Rfxf7 Reb5 38. Rg7+ Kh8 39. Rh7+ Kg8  40. Rag7+ Kf8 41. Rc7 Kg8 42. Rcg7+ Kf8 43. Rf7+ Kg8 44. Rfg7+ 1/2-1/2',
+      id: '4261197',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'E97',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 g6 2. c4 Bg7 3. e4 d6 4. Nc3 Nf6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7  9. b4 Ne8 10. a4 f5 11. a5 Nf6 12. Re1 h6 13. exf5 Bxf5 14. Ra2 g5 15. h3 Qe8  16. Nh2 a6 17. Ng4 Bg6 18. Nxf6+ Bxf6 19. Bd3 Nf5 20. Ne4 Bg7 21. f3 Qf7 22. Rf2  Rad8 23. Bb1 Kh8 24. Bb2 Nh4 25. b5 Bf5 26. b6 Ng6 27. g3 cxb6 28. axb6 Ne7 29.  Ba3 Nc8 30. Qb3 Bh7 31. Rd1 Bg8 32. Kg2 Bh7 33. c5 dxc5 34. Nxc5 Bxb1 35. Rxb1  Rfe8 36. Ne6 Rd7 37. Rc1 Ne7 38. Bxe7 Qxe7 39. Rc7 Qd6 40. Rfc2 Bf6 41. Qa4 1-0',
+      id: '4263850',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 O-O 6. Qb3 c5 7. cxd5 Qxd5 8. dxc5  Qxb3 9. axb3 Nc6 10. Nc3 Bxc5 11. O-O e5 12. Na4 Bb4 13. Nb6 Rb8 14. Nxc8 Rbxc8  15. Be3 e4 16. Nd4 Bc5 17. Nxc6 Rxc6 18. Bxc5 Rxc5 19. Rxa7 Rb5 20. Ra3 Rd8 21.  Rfa1 g6 22. Ra8 Rxa8 23. Rxa8+ Kg7 24. Ra3 Rc5 25. Ra7 Rb5 26. Ra3 Rc5 27. Ra7  Rb5 28. Ra3 1/2-1/2',
+      id: '4263848',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'C65',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Nd7 7. Nbd2 O-O 8.  Nc4 Re8 9. a4 a5 10. Be3 Bb4 11. Nfd2 f6 12. c3 Bf8 13. Qc2 b6 14. d4 exd4 15.  cxd4 Nb8 16. Rac1 Na6 17. Rfd1 Nb4 18. Qb1 Be6 19. b3 Qd7 20. f3 Qf7 21. Bf2  Red8 22. Rc3 b5 23. Nb2 Rab8 24. axb5 Rxb5 25. Nbc4 a4 26. Rdc1 Ra8 27. bxa4  Rxa4 28. Ra3 Na2 29. Rxa4 Rxb1 30. Rxb1 Nc3 31. Rba1 Nxa4 32. Rxa4 Qe8 33. Ra6  Qc8 34. Rxc6 Bd7 35. Nb6 Qb7 36. Nxd7 Qxc6 37. Nxf8 Qc1+ 38. Nf1 Kxf8 39. g4 g6  40. Kg2 f5 41. gxf5 gxf5 42. Ng3 fxe4 43. Nxe4 Kf7 44. h4 h6 45. Ng3 Ke6 46. Ne4  Kd5 47. Ng3 Kc4 48. h5 Qg5 49. Bg1 Kd5 50. Bf2 Ke6 51. Bg1 Qd2+ 52. Bf2 Qd3 53.  Nf1 Kf5 54. Ne3+ Kg5 55. Ng4 Kxh5 56. Be3 Qc3 57. Kf2 Kh4 58. Bxh6 Qxd4+ 59. Ke2  Kg3 60. Bd2 Qc4+ 61. Ke3 Qb3+ 62. Kd4 c5+ 63. Ke4 Qxf3+ 0-1',
+      id: '4263849',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'A05',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. Nf3 Nf6 2. e3 g6 3. c4 Bg7 4. Nc3 c5 5. d4 cxd4 6. Nxd4 O-O 7. Nc2 Nc6 8. Be2  e6 9. e4 d5 10. exd5 exd5 11. cxd5 Ne7 12. Ne3 a6 13. a4 b6 14. Bf3 Bb7 15. d6  Nc6 16. O-O Na5 17. Bxb7 Nxb7 18. Nc4 Rc8 19. Qb3 Nxd6 20. Nxb6 Rb8 21. a5 Nd7  22. Ncd5 Nxb6 23. axb6 Nf5 24. Bf4 Nd4 25. Qc4 Rb7 26. Rad1 Rd7 27. Bc7 Qa8 28.  Nc3 Rc8 29. Qa4 1-0',
+      id: '4263847',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'A88',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. Nf3 Bg7 5. c4 O-O 6. O-O d6 7. Nc3 c6 8. d5 e5  9. dxe6 Bxe6 10. b3 Re8 11. Ng5 Bc8 12. Bb2 Na6 13. Qc2 Ng4 14. Nh3 Be6 15. Nf4  Bf7 16. Rad1 Qe7 17. h3 Nf6 18. e4 fxe4 19. Rfe1 Nc5 20. b4 Nd3 21. Nxd3 exd3  22. Qd2 Qf8 23. Qxd3 Nd7 24. Na4 Rxe1+ 25. Rxe1 Ne5 26. Bxe5 dxe5 27. Nc5 b6 28.  Ne4 Qxb4 29. Rc1 Qb2 30. Rd1 Qxa2 31. Qd7 Rf8 32. Nd6 Qxf2+ 33. Kxf2 Be6+ 34.  Nf5 Rxf5+ 35. Ke2 Bxd7 36. Rxd7 Rf7 37. Rd8+ Bf8 38. Bxc6 Kg7 39. Bd5 Rc7 40.  Re8 a5 41. Rxe5 a4 42. Kd3 a3 43. Re2 Ra7 44. Ra2 Bd6 45. g4 Be5 46. Kc2 Bb2 47.  Kb3 Rd7 48. Kb4 Kf6 49. Kb5 Ke5 50. Bc6 Rd2 0-1',
+      id: '4263846',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'A06',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. Nf3 d5 2. b3 Bf5 3. g3 e6 4. Bb2 Nf6 5. d3 h6 6. Bg2 Be7 7. O-O O-O 8. Nbd2  a5 9. a3 Bh7 10. Re1 c6 11. e4 Nbd7 12. Qe2 Qb6 13. Rab1 Rfd8 14. h3 Qa6 15. e5  Ne8 16. Bf1 Nc7 17. Qe3 b5 18. Qf4 c5 19. a4 b4 20. Rbc1 Nb8 21. h4 Nc6 22. Nh2  Qa7 23. Ng4 Bf8 24. Nf3 Rd7 25. h5 Rad8 26. Ne3 c4 27. bxc4 dxc4 28. Qxc4 Ne7  29. d4 Ncd5 30. Qb3 Nxe3 31. fxe3 Bf5 32. Nd2 Rc7 33. Nc4 Bg4 34. Nd6 Qb8 35.  Nb5 Rc6 36. Bg2 Nd5 37. Bxd5 exd5 38. c4 dxc4 39. Qc2 c3 40. Qe4 Bd7 41. Ba1 Rc4  42. Rf1 Bxb5 43. axb5 Qxb5 44. e6 fxe6 45. Qxe6+ Kh8 46. Rf7 Rcc8 47. d5 a4 48.  Rcf1 a3 49. g4 Qd3 50. g5 Re8 51. g6 Bc5 52. d6 Bxd6 53. Qd7 Qxe3+ 54. Kh1 Qe4+  55. Kg1 Bc5+ 56. Kh2 Qh4+ 57. Kg2 Qg5+ 58. Kh3 Qxh5+ 59. Kg3 0-1',
+      id: '4263845',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '1-0',
+      e: 'E32',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 d5 7. Nf3 dxc4 8.  Qxc4 b6 9. h4 Ba6 10. Qc2 c5 11. dxc5 bxc5 12. Rh3 Nc6 13. Bg5 Nd4 14. Nxd4 cxd4  15. Rd1 e5 16. Rf3 Bb7 17. Bxf6 gxf6 18. Rg3+ Kh8 19. e3 Qe7 20. exd4 exd4+ 21.  Be2 Be4 22. Qd2 d3 23. Bxd3 Bxd3+ 24. Re3 Qb7 25. Qxd3 Qxg2 26. Qd4 Qg1+ 27. Ke2  Qg6 28. Rf3 Rae8+ 29. Kf1 Re6 30. Rg3 Qf5 31. Qg4 Qxg4 32. Rxg4 a5 33. b4 axb4  34. axb4 Rb8 35. Rb1 Re5 36. Kg2 h5 37. Rc4 Kg7 38. Kf3 f5 39. Kf4 Kf6 40. Rd1  Rb6 41. f3 Reb5 42. Rdd4 Rb8 43. Ke3 R5b6 44. Kd3 Ke6 45. Kc3 Ra6 46. Kb3 Rba8  47. b5 Ra1 48. Rc2 R1a3+ 49. Kb4 R3a4+ 50. Kc5 Rc8+ 51. Kb6 Rxd4 52. Rxc8 Rxh4  53. Ka5 Kd7 54. Rc5 Rh1 55. b6 h4 56. b7 Ra1+ 57. Kb6 Rb1+ 58. Ka7 Ra1+ 59. Kb8  h3 60. Rc2 Rh1 61. Ra2 Rb1 62. Ka7 1-0',
+      id: '4263843',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'B52',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Nxd7 5. O-O Ngf6 6. Re1 e6 7. c3 Be7 8.  d4 O-O 9. e5 Ne8 10. Qe2 cxd4 11. cxd4 Nb6 12. Qe4 Qd7 13. Bg5 Nd5 14. Nbd2 Rc8  15. Nf1 h6 16. Bxe7 Nxe7 17. Ng3 Rc6 18. Qg4 f5 19. exf6 Rxf6 20. Nh4 Nc7 21.  Re2 Ned5 22. Nh5 Rf7 23. Rae1 Qe7 24. h3 Nf6 25. Nxf6+ Qxf6 26. d5 Nxd5 27. Rxe6  Qxf2+ 28. Kh1 Nf4 29. Re8+ Kh7 30. Kh2 Rc5 31. R1e2 Qf1 32. Re1 Qf2 33. R1e2 Qf1  34. Re1 Qf2 1/2-1/2',
+      id: '4263841',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '0-1',
+      e: 'D20',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 d5 2. c4 dxc4 3. e4 Nf6 4. e5 Nd5 5. Bxc4 Nb6 6. Bd3 Nc6 7. Be3 Nb4 8. Be4  f5 9. a3 N4d5 10. Bxd5 Nxd5 11. Nc3 Nxe3 12. fxe3 e6 13. Nge2 g6 14. Nf4 Bh6 15.  Nce2 c6 16. h4 a5 17. Kf2 O-O 18. Qb3 Re8 19. Rac1 Ra6 20. g3 Bf8 21. Rhd1 Kh8  22. Rc3 Rb6 23. Qc2 Bd7 24. Nd3 Re7 25. Nc5 Be8 26. Nf4 Bf7 27. Rc4 Re8 28. Rd2  Qe7 29. Qc3 Ra8 30. Ra4 Rb5 31. Rc4 Rb6 32. Qc2 Kg8 33. Rd3 h6 34. Rb3 Rxb3 35.  Qxb3 g5 36. hxg5 hxg5 37. Nfd3 b5 38. Rc1 a4 39. Qa2 Qe8 40. Nb4 Rc8 41. Ke1  Bxc5 42. Rxc5 Bh5 43. Kd2 Bf3 44. Kc3 Kg7 45. Qb1 Be4 46. Qe1 Qh8 47. b3 Qh2 48.  bxa4 bxa4 49. Ra5 Kg6 50. Ra6 c5 51. Rxe6+ Kf7 52. Rf6+ Kg7 53. dxc5 Rxc5+ 54.  Kd4 Rc8 55. Nd5 Qb2+ 56. Nc3 Qb3 0-1',
+      id: '4263839',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Nd7 7. Nbd2 O-O 8.  Nc4 Re8 9. a4 a5 10. Be3 Bb4 11. Nfd2 b6 12. f4 exf4 13. Bxf4 Nf8 14. c3 Bd6 15.  Nxd6 cxd6 16. Nc4 Re6 17. Qh5 Ra7 18. Ne3 Ng6 19. Bg3 d5 20. Nf5 dxe4 21. dxe4  Rxe4 22. Rad1 Rd7 23. Qf3 Re6 24. Rxd7 Bxd7 25. Rd1 Nf8 26. Nd4 Re8 27. Nxc6 Qg5  28. Rf1 f6 29. Bf2 Ng6 30. Nd4 Bxa4 31. h4 Nxh4 32. Bxh4 Qxh4 33. b3 Bxb3 34.  Nxb3 Qe4 35. Nd4 Qxf3 36. gxf3 Rc8 37. Rc1 g5 38. Kf2 Kf7 39. f4 gxf4 40. Ke2 h5  41. Kd3 h4 42. Rh1 Rh8 43. Nf3 h3 44. Rh2 b5 45. Ra2 b4 46. cxb4 axb4 47. Ke4 b3  48. Rb2 Ke6 49. Rxb3 1/2-1/2',
+      id: '4263837',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Nd7 7. Nbd2 O-O 8.  Nc4 Re8 9. a4 f6 10. Be3 Bf8 11. Nfd2 Nc5 12. f4 exf4 13. Bxf4 Be6 14. Ne3 Qd7  15. Kh1 Rad8 16. Nf3 Bf7 17. Qe1 Ne6 18. Bg3 c5 19. b3 Nd4 20. Qf2 b6 21. a5 b5  22. Nxd4 cxd4 23. Nf5 a6 24. Bf4 c5 25. g4 Be6 26. h4 h5 27. Bd2 hxg4 28. Qg3 g6  29. Nh6+ Kh7 30. h5 g5 31. Nf5 c4 32. bxc4 bxc4 33. Rab1 c3 34. Be1 Qa4 35. Qf2  Qd7 36. Ng3 Be7 37. Rb6 Rb8 38. Rxa6 Ra8 39. Rxa8 Rxa8 40. Ne2 Rxa5 41. Qxd4 Ra2  42. Qxd7 Bxd7 43. Nd4 Kh6 44. Bxc3 Kxh5 45. Rb1 Bc5 46. Rb7 Bxd4 47. Bxd4 Bc6  48. Rh7+ Kg6 1/2-1/2',
+      id: '4263826',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'A88',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. Nf3 Bg7 5. O-O O-O 6. c4 d6 7. Nc3 c6 8. d5 e5  9. dxe6 Bxe6 10. b3 Re8 11. Bb2 Na6 12. Ng5 Bc8 13. e3 Qe7 14. Qc2 h6 15. Nf3  Be6 16. Rad1 Bf7 17. Ne2 Nc5 18. Nf4 Ng4 19. Bxg7 Kxg7 20. Qb2+ Kh7 21. Nd4 a5  22. h3 Ne5 23. h4 Qf6 24. Qc2 Kg8 25. Nfe2 Rad8 26. Nc3 a4 27. Rd2 axb3 28. axb3  g5 29. Qxf5 Qxf5 30. Nxf5 Nxb3 31. Rxd6 Rxd6 32. Nxd6 Rd8 33. Nxf7 Kxf7 34. hxg5  hxg5 35. Rb1 Na5 36. c5 g4 37. Ne4 Ke6 38. Bf1 Nf3+ 39. Kg2 Rh8 40. Bd3 Ke5 41.  Kf1 Rh1+ 42. Ke2 Rxb1 43. Bxb1 Nb3 44. Kd3 Nc1+ 45. Kc4 Ne2 46. Kb4 Nc1 47. Ka5  Ne1 48. Kb6 Ned3 49. Nc3 Nxf2 50. Kxb7 Nh1 51. Ne4 Ne2 52. Kxc6 Nexg3 53. Nxg3  Nxg3 54. Kb6 Ne4 55. Bxe4 Kxe4 56. c6 g3 57. c7 g2 58. c8=Q g1=Q 59. Qe6+ Kf3  60. Qf5+ Ke2 61. Qc2+ Kf3 62. Qf5+ Ke2 63. Qc2+ Kf3 64. Qf5+ 1/2-1/2',
+      id: '4263824',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'C65',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Nd7 7. Nbd2 O-O 8.  Nc4 Re8 9. a4 a5 10. h4 Nb6 11. Ne3 Bxe3 12. fxe3 Nd7 13. Bd2 Nf6 14. Nh2 h5 15.  Qf3 Qe7 16. Bc3 c5 17. b3 Ng4 18. Be1 Ra6 19. Bg3 Rg6 20. Nxg4 Bxg4 21. Qf2 Rd8  22. Kh2 b6 23. Qd2 f6 24. Qc3 Rd6 25. Rf2 Kh7 26. Raf1 Be6 27. Rf3 Rg4 28. Qe1  Qe8 29. Kh1 Qg6 30. Qf2 Qe8 31. Ra1 Kg8 32. Bh2 Rg6 33. Qf1 Qd7 34. Rb1 Rg4 35.  Rg3 Rxg3 36. Bxg3 Bg4 37. Ra1 Qe6 38. Qf2 Kf7 39. Rf1 Ke8 40. Qe1 Kd7 41. Qc3  Kc8 42. Kg1 Kb7 43. Rf2 Qe8 44. Rf1 Qg6 45. Kh2 Be6 46. Qe1 Qg4 47. Qc3 Bd7 48.  Qe1 Bc6 49. Qf2 Rd8 50. Ra1 Rh8 51. Qf3 Qe6 52. Rf1 Rh6 53. Qe2 Qe8 54. Qd1 Rh8  55. Be1 Bd7 56. Kh1 Qg6 57. Kh2 Rd8 58. Bg3 Qg4 59. Qxg4 Bxg4 60. Kg1 c6 61. Ra1  Ra8 62. Be1 b5 63. Kf1 Kb6 64. Bc3 b4 65. Bb2 Rd8 66. Ke1 Kc7 67. Kd2 Kd6 68.  Rf1 Ke6 69. Ke1 Rg8 70. Kf2 g5 71. hxg5 fxg5 72. Kg3 Rd8 73. Rf2 c4 74. bxc4 c5  75. Rd2 Rc8 76. Ba1 Rf8 77. c3 Rf1 78. Bb2 Bd1 79. d4 h4+ 80. Kh2 g4 0-1',
+      id: '4263822',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'A20',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nf3 Nc6 6. O-O Be7 7. Nc3 Nb6 8. b3  O-O 9. Bb2 Re8 10. Rc1 Bf8 11. Ne4 f6 12. d3 a5 13. a3 Be6 14. Nc5 Bxc5 15. Rxc5  e4 16. Ne1 Qd6 17. Qc2 a4 18. b4 Bb3 19. Qc1 exd3 20. Nxd3 Rxe2 21. Nf4 Re7 22.  h4 Rae8 23. h5 h6 24. Ng6 Rd7 25. Bxc6 bxc6 26. Rxc6 Qd5 27. Rc5 Qf7 28. Bc3 Nd5  29. Bd2 Red8 30. Bf4 Ne7 31. Rxc7 Nf5 32. Rc8 Nd4 33. Qc7 Qe8 34. Rxd8 Rxd8 35.  Be3 Nf3+ 36. Kg2 Ne5 37. Nxe5 fxe5 38. g4 Be6 39. f3 e4 40. fxe4 Bxg4 41. Rf4  Bxh5 42. Kf2 Rc8 43. Qd6 Rc2+ 44. Kg1 Kh7 45. Bd4 Rd2 46. Rf2 Rd1+ 47. Rf1 Rxf1+  48. Kxf1 Qxe4 49. Qe5 Qxe5 50. Bxe5 Be8 51. Kf2 g5 52. Ke3 Kg6 53. Bd6 Kf5 54.  Bf8 h5 55. Be7 Bc6 56. Bd8 h4 57. Be7 Kg4 58. b5 Bxb5 59. Bd8 Bc6 60. Be7 Kf5  61. Bd8 Bb7 62. Be7 Kg4 63. Bd8 Kh5 64. Bc7 Kg4 65. Bd8 Ba6 66. Be7 Bb5 67. Bd8  Be8 68. Be7 Kf5 69. Bd8 Bf7 70. Be7 Bg8 71. Bd8 Bh7 72. Be7 Bg6 73. Bd8 Bh5 74.  Be7 Bd1 75. Bd8 Kg4 76. Be7 Bc2 77. Bd8 Kf5 78. Be7 Bb1 79. Bd8 Ba2 80. Be7 Bf7  81. Bd8 Be6 82. Be7 Bc8 83. Bd8 Ba6 84. Be7 Bc4 85. Bd8 Bd5 86. Be7 Bg2 87. Bd8  Ba8 88. Be7 Bb7 89. Bd8 Bc8 90. Be7 Kg6 91. Bd8 Kh5 92. Bc7 Ba6 93. Bd6 Kg4 94.  Be7 Bb5 1/2-1/2',
+      id: '4263820',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'C53',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. O-O h6 7. Re1 O-O 8. Nbd2 a5 9. Nf1 Be6 10. Bb5 Ne7 11. d4 exd4 12. cxd4 Bb6 13. Ng3 d5 14. e5 Ne4 15. Bd3 Nxg3 16. hxg3 Bg4 17. Be3 a4 18. Rc1 Qd7 19. a3 Rfe8 20. Kh2 Nf5 21. Bb1 Nxe3 22. Rxe3 Bf5 23. Ba2 c6 24. Nh4 Bh7 25. f4 Ra5 26. Bb1 Bxb1 27. Rxb1 Bd8 28. Nf3 Qg4 29. Ne1 Qxd1 30. Rxd1 Rb5 31. Re2 Bb6 32. g4 Rb3 33. Nd3 Rb5 34. Nb4 Ba5 35. Nd3 Bb6 36. Nb4 Ba5 37. Nd3 Bb6 1/2-1/2',
+      id: '4274571',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C88',
+      t: "Cote d'Ivoire Rapid 2019",
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4 b4 9. d4 d6 10. dxe5 Nxe5 11. Nbd2 Nfd7 12. Nd4 Nc5 13. Bd5 Rb8 14. Nc4 Bg4 15. Qd2 Nxc4 16. Bxc4 Bd7 17. b3 Bf6 18. Bb2 c6 19. Rad1 Qb6 20. Ba1 a5 21. Nf3 Bxa1 22. Rxa1 Rbd8 23. Rad1 Be6 24. Bf1 d5 25. exd5 Bxd5 26. Qe3 Nd7 27. Nd4 Nf6 28. Qf4 Be4 29. Rxe4 Nxe4 30. Qxe4 Rfe8 31. Nxc6 Rxe4 32. Rxd8+ Qxd8 33. Nxd8 Re1 34. Nc6 Rc1 35. Nxa5 Rxc2 36. g3 Kf8 37. Bc4 Ke8 38. Nb7 1-0',
+      id: '4193592',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'A13',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. b3 c5 5. Bb2 Nc6 6. cxd5 exd5 7. Be2 d4 8. Bb5 Bd6 9. O-O O-O 10. Bxc6 bxc6 11. h3 Rb8 12. Na3 dxe3 13. dxe3 Ba6 14. Re1 Nd5 15. Nd2 Nb4 16. Ndc4 Be7 17. Qg4 f6 18. Red1 Qe8 19. Bc3 Bc8 20. Qe4 Nd5 21. Bb2 Qh5 22. Na5 Rb4 23. N3c4 Bf5 24. Rxd5 cxd5 25. Qxd5+ Kh8 26. Nc6 Rb7 27. Nxe7 Rxe7 28. Qxc5 Ree8 29. Nd6 Bg6 30. Qxh5 Bxh5 31. Nxe8 Rxe8 32. Rc1 a6 33. Bd4 Kg8 34. f3 Bf7 35. g4 a5 36. Rc5 Ra8 37. Rb5 h6 38. a4 Rc8 39. Kf2 Rc1 40. Rxa5 Bxb3 41. Ra8+ Kh7 42. a5 Rc2+ 43. Kg3 Bd5 44. Ra7 Kg8 45. a6 Ra2 46. Rd7 Bc6 47. Rd8+ Kf7 48. a7 1-0',
+      id: '4193631',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 b5 8. a4 b4 9. Nfd2 c6 10. Nxc4 Qxd4 11. Rd1 Qc5 12. Be3 Qh5 13. Nbd2 Ng4 14. Nf3 Nxe3 15. Nxe3 a5 16. Nc4 Ba6 17. Nfe5 Bxc4 18. Nxc4 Ra7 19. Rac1 Qc5 20. Qe4 Rc7 21. Ne5 Qa7 22. Nxc6 1/2-1/2',
+      id: '4193674',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D27',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 a6 6. O-O c5 7. b3 cxd4 8. Nxd4  Be7 9. Bb2 O-O 10. Nd2 b5 11. Be2 Bb7 12. Bf3 Ra7 13. Rc1 Qd7 14. Qe2 Bxf3 15.  N2xf3 Rc8 16. Ne5 Qe8 17. Rxc8 Qxc8 18. Rc1 Rc7 19. Rxc7 Qxc7 20. Nd3 Qa5 21.  Ba1 Qc7 22. Qc2 Qxc2 23. Nxc2 Nfd7 24. Kf1 Nc6 25. Nd4 Nxd4 26. Bxd4 f5 27. Ke2  Bd6 28. f4 Kf7 29. h3 g6 30. Kd2 Ke7 31. Kc3 Kd8 32. Be5 Be7 33. Kd4 Kc8 34. e4  fxe4 35. Kxe4 Nc5+ 36. Nxc5 Bxc5 37. g4 Kd7 38. f5 gxf5+ 39. gxf5 Ke7 40. a4  bxa4 41. bxa4 Ba3 42. Bd4 Bb4 43. Be5 Ba3 44. Bd4 Bb4 45. Be5 1/2-1/2',
+      id: '4200124',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C88',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. h3  Bb7 9. d3 d6 10. a3 Qd7 11. Nc3 Rfe8 12. Nd5 Nxd5 13. exd5 Na7 14. d4 exd4 15.  Qxd4 c5 16. dxc6 Nxc6 17. Qd3 Bf6 18. Bd2 Ne5 19. Rxe5 Rxe5 20. Nxe5 Bxe5 21. c3  Qc6 22. f3 d5 23. Re1 Bc7 24. Bc2 g6 25. Bh6 Re8 26. Rxe8+ Qxe8 27. Qe3 Qxe3+  28. Bxe3 f5 29. f4 Kf7 30. g3 Ke6 31. Kf2 h5 32. h4 Bc6 33. Ba7 Bd8 34. Ke3 Bf6  35. Bb6 Kd6 36. Kd2 Bd7 37. Kd3 Bc6 38. Bd1 Bd7 39. Bf3 Bc6 40. Kc2 d4 41. Bxc6  Kxc6 42. Bxd4 Be7 43. Kd3 Kd5 44. Be3 Bd6 45. Bd4 Be7 46. Be3 Bd6 47. Bd4 Be7 1/2-1/2',
+      id: '4211814',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C84',
+      t: 'Tata Steel India Rapid',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a4 Bd7 9. c3 Na5 10. Bc2 c5 11. d4 cxd4 12. cxd4 exd4 13. Nxd4 O-O 14. Nc3 b4 15. Nce2 Re8 16. Ng3 g6 17. Re1 Bf8 18. Nf3 Bg7 19. Be3 Bg4 20. h3 Bxf3 21. Qxf3 Nd7 22. Rab1 Rc8 23. Qd1 Nc4 24. Bb3 Nxe3 25. Rxe3 Nc5 26. Bd5 Qb6 27. b3 Ne6 28. Ne2 Nc7 29. Rf3 Nxd5 30. Qxd5 Rc7 31. Nf4 Qc6 32. Re1 Bc3 33. Rc1 Rxe4 34. Qxc6 Rxc6 35. Nd5 Kg7 36. Nxc3 bxc3 37. Rfxc3 Rxc3 38. Rxc3 Rb4 39. Kf1 d5 40. Rc6 Rxb3 41. Rxa6 Rb2 42. Rd6 Ra2 43. Rxd5 Rxa4 44. g3 1/2-1/2',
+      id: '4230919',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'A20',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nb6 6. Nf3 Nc6 7. O-O Be7 8. a3 O-O 9. b4 Be6 10. b5 Nd4 11. Rb1 f6 12. e3 Nxf3+ 13. Bxf3 Qc8 14. a4 a5 15. bxa6 Rxa6 16. d4 Rd8 17. Qc2 Bf5 18. Qb3+ Be6 19. d5 Bf7 20. Rd1 Bd6 21. Ba3 Bxa3 22. Qxa3 Nc4 23. Qc5 Nd6 24. Nb5 Rxa4 25. Qxc7 Qxc7 26. Nxc7 h5 27. Ne6 Rc8 28. Rb6 Ra6 29. Rdb1 Rc1+ 30. Rxc1 Rxb6 31. Rc7 g5 32. h4 gxh4 33. gxh4 e4 34. Be2 Nf5 35. Rc8+ Kh7 36. Rc7 Kg8 37. Nf4 Nxh4 38. Bxh5 Bxh5 39. Nxh5 Nf5 40. Nf4 Kf8 41. Kg2 Rb2 42. Ne6+ Ke8 43. Ng7+ Nxg7 1/2-1/2',
+      id: '4230948',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'E32',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 d5 7. e3 b6 8. cxd5 Nxd5 9. Qc2 Bb7 10. e4 Nf6 11. e5 Nd5 12. Nf3 c5 13. Bd3 h6 14. O-O cxd4 15. Qe2 Ne7 16. Rd1 Qd5 17. Bc4 Qe4 18. Qxe4 Bxe4 19. Nxd4 Nbc6 20. Re1 Nxd4 21. Rxe4 Rfd8 22. Bf4 Rac8 23. Bf1 Nb3 24. Rae1 Nd2 25. R4e2 Nxf1 26. Kxf1 Nf5 27. Rd2 g5 28. Rxd8+ Rxd8 29. Bc1 Kg7 30. h3 Kg6 31. f3 h5 32. g4 Nh4 33. Kf2 Rd3 34. Be3 Rd5 35. Bc1 Rc5 36. Be3 Rxe5 37. Rc1 Rb5 38. b4 a5 39. Rc4 hxg4 40. hxg4 axb4 41. axb4 f5 42. Rc6 f4 43. Bd2 Kf7 44. Bc3 Rd5 45. Ke2 b5 46. Rc7+ Kg6 47. Rg7+ Kh6 48. Re7 Rd6 49. Bg7+ Kg6 50. Be5 Ra6 51. Rg7+ Kh6 52. Re7 Ra2+ 53. Kd3 Ra3+ 54. Kc2 Nxf3 55. Rxe6+ Kh7 56. Bf6 Ra2+ 57. Kd3 Rd2+ 58. Kc3 Rd5 59. Re2 Kg6 60. Be7 Ne5 61. Rg2 Rd3+ 62. Kc2 Rg3 63. Rd2 Nxg4 64. Bc5 Ne3+ 65. Kb1 Nc4 66. Rd8 g4 67. Rg8+ Kf5 68. Rb8 Rb3+ 69. Kc2 Rb2+ 70. Kc3 Re2 71. Rxb5 Ne5 72. Rb8 g3 73. Rg8 g2 74. b5 f3 75. b6 f2 76. Bxf2 Rxf2 77. b7 Nd7 78. Rg7 Rf1 79. Rxg2 Rb1 80. Rb2 Rxb2 81. Kxb2 Ke5 1/2-1/2',
+      id: '4232212',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'A18',
+      t: '6th Norway Chess 2018',
+      moves:
+        '1. c4 Nf6 2. Nc3 e6 3. e4 d5 4. cxd5 exd5 5. e5 Ne4 6. Nf3 Bf5 7. d3 Nxc3 8. bxc3 c5 9. d4 Qa5 10. Bd2 Nc6 11. Be2 Be7 12. O-O O-O 13. a4 Rac8 14. Ra2 a6 15. Rb2 c4 16. Ne1 b5 17. axb5 axb5 18. Bg4 Bxg4 19. Qxg4 h5 20. Qxh5 b4 21. Qg4 Rfe8 22. Nf3 Qa3 23. Rc2 b3 24. Rcc1 Qa2 25. Qf5 Ra8 26. Bg5 Qe2 27. Qd7 Bxg5 28. Nxg5 Ne7 29. e6 f6 30. Nf7 Ng6 31. Nh6+ gxh6 32. Qf7+ Kh8 33. Qxf6+ Kh7 34. Qf7+ Kh8 35. Qf6+ Kh7 36. Qf7+ Kh8 37. Qf6+ 1/2-1/2',
+      id: '4116714',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'A06',
+      t: '6th Norway Blitz 2018',
+      moves:
+        '1. Nf3 d5 2. b3 Bf5 3. Bb2 e6 4. g3 Nf6 5. Bg2 c5 6. Ne5 Nfd7 7. Nxd7 Qxd7 8. d3 Nc6 9. Nd2 d4 10. c3 Be7 11. a3 O-O 12. cxd4 Nxd4 13. O-O Rac8 14. h3 Rfd8 15. Rc1 b6 16. Kh2 e5 17. Nc4 f6 18. f4 exf4 19. gxf4 b5 20. Nd2 a5 21. Nf3 Nxf3+ 22. Rxf3 c4 23. bxc4 bxc4 24. Rxc4 Rxc4 25. Qb3 Be6 26. dxc4 a4 27. Qb5 Qxb5 28. cxb5 Rb8 29. Re3 Kf7 30. Bc6 Bc4 31. Bd4 Bd6 32. Rc3 Bxf4+ 33. Kg2 Bxb5 34. Bd5+ Kg6 35. Be4+ f5 36. Bc2 Re8 37. e3 Be5 38. Rc5 Bxd4 39. Bxf5+ Kf6 40. exd4 Re2+ 41. Kf3 Rb2 42. Bxh7 Rb3+ 43. Kf4 Bd3 44. Bg8 Rxa3 45. Re5 g6 46. Ra5 Ra1 47. Ke3 Bc2 48. Ra6+ Ke7 49. d5 Rd1 50. Be6 Bb3 51. Ra7+ Kd6 52. Bd7 Rxd5 53. Bxa4 Bxa4 54. Rxa4 1/2-1/2',
+      id: '4117467',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Hikaru_Nakamura',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'Sharjah Grand Prix 2017',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 c5 7. dxc5 Bxc5 8. a3 Nc6 9. Qc2 Qa5 10. Rd1 Re8 11. Nd2 e5 12. Bg5 Nd4 13. Qb1 Bf5 14. Bd3 Bxd3 15. Qxd3 Ne4 16. Ncxe4 dxe4 17. Qxe4 Qb6 18. Rb1 h6 19. Bh4 g5 20. b4 Bf8 21. Bg3 Rad8 22. exd4 exd4 23. Be5 Bg7 24. O-O Rxe5 25. Qd3 Qg6 26. Rb3 g4 27. c5 b6 28. cxb6 1/2-1/2',
+      id: '4036827',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D41',
+      t: 'Moscow Grand Prix 2017',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4 8. cxd4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 O-O 11. Be2 b6 12. O-O Bb7 13. Qe3 Nc6 14. Rfd1 Rc8 15. Rac1 Qd6 16. h4 Rfd8 17. a3 h6 18. h5 Ne7 19. Rxc8 Rxc8 20. Ne5 Rc7 21. Bf3 b5 22. Qb3 a6 23. Qb4 Nc8 24. Nd3 Rc4 25. Qxd6 Nxd6 26. Nc5 Bc8 27. Be2 Rc3 28. a4 bxa4 29. Nxa4 Rc7 30. Nc5 Nb5 31. Bxb5 axb5 32. f4 Ra7 33. Rb1 Bd7 34. d5 exd5 35. exd5 Bg4 36. d6 Ra2 37. Rxb5 Rd2 38. Rb8+ Kh7 39. Rd8 Bxh5 40. Nd7 Rxd6 41. Nf8+ Kg8 42. Nd7+ Kh7 43. Nf8+ Kg8 44. Rxd6 Kxf8 45. f5 Bg4 46. f6 gxf6 47. Rxf6 h5 48. Kf2 Kg7 49. Rb6 f6 50. Ke3 Kf7 51. g3 Ke7 52. Kd4 Kf7 53. Kd5 Bf3+ 54. Kd6 Bg4 55. Rb7+ Kf8 56. Ra7 Ke8 57. Re7+ Kf8 58. Ra7 Ke8 59. Re7+ Kf8 60. Ra7 1/2-1/2',
+      id: '4048726',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D43',
+      t: 'Palma De Mallorca GP 2017',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. g3 dxc4 6. Bg2 Nbd7 7. O-O Be7 8. a4 O-O 9. a5 Nd5 10. Bd2 b5 11. axb6 Qxb6 12. Na4 Qd8 13. Qc2 Ba6 14. Rfd1 Bb5 15. e4 Nb4 16. Bxb4 Bxb4 17. d5 cxd5 18. Nd4 Bxa4 19. Rxa4 Bc5 20. exd5 Bxd4 21. Rxd4 1/2-1/2',
+      id: '4081642',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'D43',
+      t: '4th Sinquefield Cup 2016',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 h6 6. Bh4 dxc4 7. e4 g5 8. Bg3 b5 9. Be2 Bb7 10. h4 g4 11. Ne5 Nbd7 12. Nxd7 Qxd7 13. Be5 Qe7 14. b3 cxb3 15. axb3 a6 16. Qc1 Rg8 17. O-O Nh5 18. d5 Qxh4 19. g3 Qg5 20. dxc6 Qxe5 21. cxb7 Rb8 22. Nd5 exd5 23. Qc8+ Ke7 24. Rxa6 Nxg3 25. Bxb5 Ne2+ 26. Bxe2 f6 27. Re6+ Qxe6 28. Qxb8 1-0',
+      id: '4004041',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'E92',
+      t: 'SportAccord Blindfold Men 2012',
+      moves:
+        '1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 e5 7. dxe5 dxe5 8. Qxd8 Rxd8 9. Nd5 Nxd5 10. cxd5 c6 11. Bc4 b5 12. Bb3 Bb7 13. Bg5 Rd7 14. Rc1 a5 15. a3 a4 16. Ba2 cxd5 17. Bxd5 Na6 18. Bxb7 Rxb7 19. Ke2 b4 20. Rc4 Bf8 21. Nxe5 bxa3 22. bxa3 Rb2+ 23. Kf3 Rb3+ 24. Be3 Nc5 25. Ra1 Ne6 26. Nd7 Bg7 27. e5 Bh6 28. Nf6+ Kg7 29. Ng4 Bxe3 30. Nxe3 Rb5 31. Rd1 Rb3 32. Ra1 Rb5 33. Rd1 Rb3 34. Ra1 1/2-1/2',
+      id: '3839164',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'B11',
+      t: 'SportAccord Rapid Men 2012',
+      moves:
+        '1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 4. h3 Bh5 5. Be2 e6 6. O-O Nf6 7. d3 Be7 8. Bf4 O-O 9. Nd2 Bxe2 10. Qxe2 a5 11. e5 Nfd7 12. Qg4 Kh8 13. a3 b5 14. Nf3 Na6 15. Ne2 Nac5 16. Ned4 Qc8 17. Rfe1 b4 18. axb4 axb4 19. b3 Ra3 20. Rad1 Ra2 21. Qh5 Nb7 22. Bg5 Bc5 23. Bd2 Bxd4 24. Nxd4 c5 25. Nf3 Qe8 26. Rc1 f5 27. Qh4 d4 28. Ra1 Rxc2 29. Ra7 Nd8 30. Ra8 Kg8 31. Bg5 h6 32. Rxd8 Qf7 33. Be7 Rxd8 34. Bxd8 Rc3 35. Ra1 Rxd3 36. Ra7 Rxb3 37. Qe7 Qxe7 38. Bxe7 Rb1+ 39. Kh2 b3 40. Nd2 Rb2 41. Nxb3 Nxe5 42. Nxc5 d3 43. Ra8+ Kf7 44. Bd6 d2 45. Ra7+ Kg8 46. Bxe5 d1=Q 47. Rxg7+ Kf8 48. Nd7+ Ke8 49. Bxb2 Qd2 50. Be5 Qxf2 51. Nf6+ Kd8 52. Bd6 Kc8 53. Rc7+ Kd8 54. Rb7 1-0',
+      id: '3837784',
+    },
+    {
+      w: 'Hikaru_Nakamura',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'E92',
+      t: 'SportAccord Blitz Men 2012',
+      moves:
+        '1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 e5 7. dxe5 dxe5 8. Qxd8 Rxd8 9. Nd5 Na6 10. Bg5 Rd6 11. Bxf6 Bxf6 12. Rc1 Bd8 13. c5 Re6 14. a3 Nb8 15. O-O Re8 16. b4 Bg4 17. Nd4 exd4 18. Bxg4 c6 19. Bc8 a5 20. Bxb7 Ra7 21. Bxc6 Nxc6 22. b5 Ne5 23. c6 a4 24. b6 Bxb6 25. Nxb6 Rc7 26. Nd5 Rxc6 27. Rxc6 Nxc6 28. Nf6+ Kf8 29. Nxe8 Kxe8 30. Rc1 Kd7 31. Kf1 1-0',
+      id: '3838004',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Alireza_Firouzja',
+      r: '0-1',
+      e: 'B12',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 6. c3 h6 7. O-O Nd7 8. Nbd2 a5  9. Re1 a4 10. Nf1 Bg6 11. Ng3 c5 12. Bb5 Qa5 13. Bxd7+ Kxd7 14. dxc5 Qxc5 15.  Be3 Qb5 16. Nd4 Qd3 17. Qc1 Nc6 18. Rd1 Qc4 19. f4 Bc5 20. f5 Bxd4 21. Bxd4 Bxf5  22. Nxf5 exf5 23. Qf4 Ne7 24. Rab1 Ra6 25. b3 axb3 26. Rxb3 b5 27. Rdb1 Ra5 28.  a4 Rha8 29. Qf3 Rxa4 30. Rxb5 Ra1 31. Rb7+ Ke6 32. Qd1 Rxb1 33. Qxb1 Ra6 34. h3  f4 35. Rb8 Qe2 36. Rb2 Qe4 37. Qf1 Rc6 38. Kh2 f3 39. Qxf3 Qxf3 40. gxf3 Nf5 41.  Kg2 g5 42. Kf2 Ra6 43. Ke2 Nh4 44. Ke3 Ng6 45. Rb8 Nf4 46. Rh8 Kf5 47. Rf8 Kg6  48. Rg8+ Kh7 49. Rf8 Kg7 50. Rc8 Ra2 51. Bc5 Re2+ 52. Kd4 Rd2+ 53. Ke3 Rd3+ 54.  Kf2 Nxh3+ 55. Kg3 Nf4 56. Bf8+ Kg6 57. Rc6+ Ne6 58. Kf2 Rd2+ 59. Ke3 Ra2 60. Rc8  h5 61. Be7 h4 62. Rh8 h3 63. Rxh3 d4+ 64. Ke4 Re2+ 0-1',
+      id: '4260818',
+    },
+    {
+      w: 'Alireza_Firouzja',
+      b: 'Ian_Nepomniachtchi',
+      r: '0-1',
+      e: 'A81',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. Nd2 Bg7 5. e4 fxe4 6. Nxe4 Nxe4 7. Bxe4 O-O 8.  Bg2 d6 9. Nf3 c6 10. O-O Bg4 11. c3 Qd7 12. Re1 Kh8 13. Qd3 Na6 14. Ng5 Nc7 15.  Qe4 h6 16. h3 Bf5 17. Qh4 Kg8 18. Ne4 g5 19. Qh5 Nd5 20. h4 Bg4 21. Qg6 e6 22.  Nd2 Bf5 23. Qh5 Nf6 24. Qe2 gxh4 25. gxh4 Rae8 26. Nf1 Bg4 27. Qd3 Qf7 28. Bf4  Nh5 29. Bg3 Nxg3 30. fxg3 Qf2+ 31. Kh2 e5 32. dxe5 Bf3 33. Ne3 Rxe5 34. Qf1 Bxg2  35. Nxg2 Qxb2 36. Qd3 Rf2 37. Rxe5 Rxg2+ 38. Kh3 Rh2+ 39. Kg4 dxe5 0-1',
+      id: '4260822',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Alireza_Firouzja',
+      r: '1-0',
+      e: 'B12',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 6. c3 h6 7. O-O Nd7 8. Nbd2 a5  9. Re1 a4 10. Nf1 Bg6 11. Ng3 c5 12. Bb5 Qa5 13. Bxd7+ Kxd7 14. dxc5 Nc6 15. Be3  Bxc5 16. c4 Rhd8 17. Bxc5 Qxc5 18. Nh4 Qxc4 19. Nxg6 fxg6 20. Rc1 Qxa2 21. Ne4  Rf8 22. Nc5+ Ke7 23. Qg4 d4 24. Qxg6 Rf7 25. Nxb7 Qxb2 26. Nd6 Qxf2+ 27. Kh1  Nxe5 28. Qe4 Kxd6 29. Qxe5+ 1-0',
+      id: '4260826',
+    },
+    {
+      w: 'Alireza_Firouzja',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'A81',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. Nd2 Nc6 5. d5 Ne5 6. b3 Bg7 7. Bb2 Nf7 8. h4 c6  9. c4 O-O 10. Nh3 e5 11. dxe6 dxe6 12. Qc2 e5 13. O-O-O Qe7 14. e4 a5 15. a3 f4  16. gxf4 Bxh3 17. Bxh3 exf4 18. e5 Nh5 19. Nf3 Rad8 20. Bg4 Nxe5 21. Bxh5 gxh5  22. Rxd8 Nxf3 23. Rxf8+ Qxf8 24. Qe4 Bxb2+ 25. Kxb2 Qf6+ 26. Ka2 Nxh4 27. Qe8+  Kg7 28. Qxh5 Qc3 29. Qxh4 Qc2+ 30. Ka1 Qc3+ 31. Kb1 Qxb3+ 32. Kc1 Qxa3+ 33. Kd2  Qb2+ 34. Kd3 Qb3+ 35. Ke4 Qxc4+ 36. Kf3 Qd3+ 37. Kxf4 Qd4+ 38. Kg3 Qxh4+ 39.  Kxh4 Kf6 40. Ra1 b5 41. Rxa5 Ke5 42. Ra6 c5 43. Ra5 1-0',
+      id: '4260830',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Alireza_Firouzja',
+      r: '1-0',
+      e: 'B12',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Ne7 6. c3 h6 7. O-O Nd7 8. Nbd2 a5  9. Re1 a4 10. Nf1 Bg6 11. Ng3 c5 12. Bb5 a3 13. b3 Nc6 14. Qe2 cxd4 15. Nxd4 Qb6  16. Be3 Bc5 17. Bxc6 bxc6 18. b4 Bxd4 19. Bxd4 Qb5 20. Qg4 h5 21. Qh4 c5 22.  bxc5 Nxc5 23. Ne2 Nd3 24. Rf1 Qc4 25. Ng3 Rb8 26. f4 Nc5 27. f5 exf5 28. Nxf5  Bxf5 29. Rxf5 Ne6 30. Raf1 Rb7 31. Rxh5 Rxh5 32. Qxh5 Nxd4 33. Qh8+ Ke7 34. Qh4+  Ke8 35. cxd4 Rb4 36. Qh8+ Ke7 37. Qxg7 Qxd4+ 38. Kh1 Qf2 39. Qg5+ Ke6 40. Qc1  Qe2 41. Qc6+ Kxe5 42. Qe8+ 1-0',
+      id: '4260833',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Alireza_Firouzja',
+      r: '&frac12;-&frac12;',
+      e: 'B10',
+      t: 'Saint Louis Rapid 2020',
+      moves:
+        '1. e4 c6 2. Nf3 d5 3. d3 g6 4. e5 f6 5. d4 Bg7 6. exf6 Nxf6 7. Be2 Qd6 8. O-O Nbd7 9. c4 e5 10. cxd5 Nxd5 11. Nc3 exd4 12. Nxd4 N7b6 13. Bf3 O-O 14. Nxd5 Nxd5 15. Nb5 Qc5 16. Bxd5+ Qxd5 17. Qxd5+ cxd5 18. Nc7 Rb8 19. Nxd5 Be6 20. Nc3 b5 21. a3 a5 22. Re1 Bc4 23. Be3 b4 24. axb4 1/2-1/2',
+      id: '4270328',
+    },
+    {
+      w: 'Alireza_Firouzja',
+      b: 'Ian_Nepomniachtchi',
+      r: '1-0',
+      e: 'B08',
+      t: 'Saint Louis Blitz 2020',
+      moves:
+        '1. Nf3 d6 2. d4 g6 3. e4 Nf6 4. Nc3 a6 5. a4 Bg7 6. h3 Nc6 7. Bc4 Nxe4 8. Bxf7+ Kxf7 9. Nxe4 d5 10. Nc5 Rf8 11. O-O Kg8 12. c3 e5 13. dxe5 Nxe5 14. Nxe5 Bxe5 15. a5 c6 16. Be3 Bc7 17. b4 Qd6 18. f4 g5 19. Qh5 gxf4 20. Bd4 Qg6 21. Qxg6+ hxg6 22. Rae1 Bd6 23. Be5 Bxc5+ 24. bxc5 Bf5 25. Rxf4 Rae8 26. Rh4 g5 27. Rh5 g4 28. hxg4 Bd3 29. Rg5+ Kf7 30. Rg7+ Ke6 31. Bd6+ Kf6 32. Rge7 Rc8 33. R1e6+ Kg5 34. Rg7+ 1-0',
+      id: '4270338',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Alireza_Firouzja',
+      r: '1-0',
+      e: 'A01',
+      t: 'Saint Louis Blitz 2020',
+      moves:
+        '1. b3 e5 2. Bb2 Nc6 3. Nf3 d6 4. d4 e4 5. d5 exf3 6. dxc6 bxc6 7. gxf3 Nf6 8. Qd4 Be6 9. Rg1 c5 10. Qa4+ Nd7 11. Nc3 Rg8 12. Ne4 f6 13. e3 Kf7 14. O-O-O Nb6 15. Qa5 Qe7 16. Bb5 h6 17. Bc6 Rd8 18. Qxa7 d5 19. Nc3 Qd6 20. Bb7 Be7 21. Qa6 c4 22. Nb5 Qxh2 23. Nd4 Qxf2 24. e4 Bc8 25. Bxc8 Rxc8 26. exd5 Ra8 27. Qb7 Bd6 28. Nf5 Bf4+ 29. Kb1 Rxa2 30. Qc6 Rxb2+ 31. Kxb2 Be5+ 32. Kb1 1-0',
+      id: '4270418',
+    },
+    {
+      w: 'Alireza_Firouzja',
+      b: 'Ian_Nepomniachtchi',
+      r: '&frac12;-&frac12;',
+      e: 'E60',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. h3 O-O 5. Nc3 d5 6. cxd5 Nxd5 7. e4 Nxc3 8. bxc3 c5 9. Be2 b6 10. Be3 Bb7 11. Qd3 Qd7 12. O-O Ba6 13. Qd2 Qa4 14. Rac1 Rd8 15. Bg5 cxd4 16. cxd4 Bxd4 17. Bxa6 Nxa6 18. Bxe7 Rd7 19. Nxd4 Rxe7 20. Nf5 Rd7 21. Nh6+ Kg7 22. Qf4 f5 23. Qg5 fxe4 24. Ng4 Kh8 25. Qf6+ Rg7 26. Rc6 Qa3 27. Rd6 h5 28. Ne5 Kg8 29. Nxg6 Re8 30. Rfd1 e3 31. Rd8 exf2+ 32. Qxf2 Nc7 33. R8d7 Ne6 34. Rxg7+ Nxg7 35. Nf4 Rf8 36. Qd2 Qc5+ 37. Kh1 Qg5 38. Qd5+ Qxd5 39. Nxd5 Rf2 40. a4 Ra2 41. Rd4 Kf7 42. Re4 Nf5 43. Kh2 h4 44. Nc3 Ra1 45. Ne2 Kf6 46. Ng1 a5 47. Rf4 Rb1 48. Nf3 Rb4 49. Rg4 Rxg4 50. hxg4 Nd6 51. Kh3 b5 52. axb5 Nxb5 53. g5+ Kg6 54. Kxh4 a4 55. Ne5+ Kg7 56. Nc4 a3 57. Nxa3 Nxa3 58. g6 Nb5 59. g4 Nd6 60. g5 Kxg6 61. Kg3 Kxg5 1/2-1/2',
+      id: '4274583',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Alireza_Firouzja',
+      r: '1-0',
+      e: 'B43',
+      t: 'World Blitz 2019',
+      moves:
+        '1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Nc3 Qc7 6. Qf3 Qe5 7. Nb3 Nf6 8. Be2 Qc7 9. Bg5 Be7 10. O-O-O d6 11. Qg3 Nbd7 12. f4 h6 13. Bh4 g5 14. fxg5 Rg8 15. Kb1 Ne5 16. Rhf1 Nfd7 17. Qf2 hxg5 18. Bg3 b5 19. Nd4 b4 20. Bxe5 Nxe5 21. Bh5 Rf8 22. Nce2 Bd7 23. Nf3 O-O-O 24. Nxe5 dxe5 25. Bxf7 Kb8 26. Qe1 Bb5 27. Bxe6 Rxd1+ 28. Qxd1 Rxf1 29. Qxf1 Qc5 30. Bg4 Qe3 31. Qf7 Bc5 32. Nc1 Qg1 33. Qg8+ Ka7 34. Qg7+ Kb6 35. Qf6+ Ka5 36. Qd8+ Bb6 37. Qd1 Qxd1 38. Bxd1 Bg1 39. h3 Bf1 40. Bf3 Kb6 41. c3 bxc3 42. bxc3 Be3 43. Kc2 Kc5 44. Nd3+ Kd6 45. Nb4 Bc4 46. Kb2 a5 47. Nc2 Bc5 48. Na3 Bf1 49. Nb1 Be3 50. Kc2 Bc4 51. a3 Bc5 52. Nd2 Ba6 53. Kb2 Bd3 54. Bd1 Be3 55. Bc2 Ba6 56. Nf3 Bf1 57. Ne1 Bf2 58. Bd3 Bxe1 59. Bxf1 Kc5 60. Kb3 Bd2 61. Kc2 Bf4 62. a4 g4 63. h4 g3 64. h5 Kd6 65. Kd3 Ke6 66. Be2 Kf6 67. c4 1-0',
+      id: '4243439',
+    },
+    {
+      w: 'Ian_Nepomniachtchi',
+      b: 'Alireza_Firouzja',
+      r: '1-0',
+      e: 'B31',
+      t: 'World Blitz 2018',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 dxc6 5. d3 Bg7 6. h3 Nf6 7. Be3 Nxe4 8. c3 Nf6 9. Bxc5 b6 10. Be3 O-O 11. O-O Nd5 12. d4 c5 13. Bg5 h6 14. Bh4 cxd4 15. cxd4 Bb7 16. Re1 Rc8 17. Nc3 Nxc3 18. bxc3 g5 19. Bg3 Rxc3 20. Ne5 Qd5 21. f3 Rd8 22. Bf2 Rdc8 23. Qa4 a6 24. Qb4 Qd6 25. Qb1 Rc2 26. Qd1 Bd5 27. a4 Rb2 28. Rc1 Rd8 29. Qd3 b5 30. axb5 Rxb5 31. Ra1 Rc8 32. Qf5 Be6 33. Qe4 Rb2 34. Rac1 Rxc1 35. Rxc1 Bxe5 36. Qxe5 Qxe5 37. dxe5 Rb7 38. Rc6 a5 39. Ra6 Rb5 40. Be1 Rxe5 41. Bxa5 Bc4 42. Ra7 f6 43. Bb4 Kf7 44. Rc7 Bd5 45. Rc1 Be6 46. Rc7 Bb3 47. Rc3 Ba4 48. Rc7 h5 49. Rc5 Re2 50. h4 gxh4 51. Rxh5 Rb2 52. Rxh4 e5 53. Ba5 Ra2 54. Bd8 Bd7 55. Rh7+ Ke6 56. Rh6 Kd5 57. Bxf6 Ra1+ 58. Kf2 Ra2+ 59. Kg3 e4 60. Be7 exf3 61. Rd6+ Ke5 62. Rxd7 fxg2 63. Kh2 Ke6 64. Rb7 Kf5 65. Bc5 Ke4 66. Kg1 Kf3 67. Rb3+ Ke4 68. Bf2 Rc2 69. Kxg2 Kd5 70. Kf3 Kc4 71. Rb8 Kd5 72. Rd8+ Ke6 73. Bd4 Rc1 74. Ke4 Re1+ 75. Be3 Ke7 76. Ra8 Ke6 77. Ra6+ Ke7 78. Kf4 Kf7 79. Bd4 Ke7 80. Kf5 Kd7 81. Be5 Re2 82. Rd6+ Ke7 83. Rd4 Re1 84. Bf6+ Ke8 85. Rd8+ Kf7 86. Rd7+ Ke8 87. Ra7 Rd1 88. Ke6 Re1+ 89. Be5 Rd1 90. Rb7 Rd2 91. Rb1 Rd3 92. Bf4 Rd4 93. Bd6 Re4+ 94. Be5 1-0',
+      id: '4164794',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'D17',
+      t: 'FIDE Candidates 2020',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 e6 7. f3 Bb4 8.  Nxc4 O-O 9. Kf2 e5 10. Nxe5 Bc2 11. Qd2 c5 12. d5 Bb3 13. e4 Re8 14. Qf4 c4  15. Nxc4 Nbd7 16. Be3 Nf8 17. Bd4 Ng6 18. Qf5 Bxc4 19. Bxc4 Qc7 20. Be2 Bc5  21. Bxc5 Qxc5+ 22. Kf1 h6 23. Rd1 Qb6 24. Rd2 Qe3 25. Rc2 a6 26. Qh3 b5 27.  Qg3 b4 28. Nd1 Qb3 29. Rd2 Qxa4 30. Qf2 Qd7 31. g3 Qh3+ 32. Kg1 a5 33. Qd4  Nh5 34. Nf2 Qd7 35. f4 Nhxf4 36. gxf4 Nxf4 37. Kf1 Qd6 38. Rg1 f6 39. Bb5  Re7 40. b3 Rf8 41. Rc2 Ne6 42. Qe3 Ng5 43. h4 Nf7 44. Rc6 Qb8 45. Qc5 Qd8  46. Rxf6 Kh8 47. Rf5 Rc7 48. Bc6 a4 49. bxa4 b3 50. Rg3 b2 51. Rb3 Nd6 52.  Rxf8+ Qxf8 53. Rxb2 Qf4 54. Rb8+ Kh7 55. Qc2 Re7 56. e5+ Nf5 57. Qe4 Qc1+  58. Kg2 g6 59. Rb3 1-0',
+      id: '4259920',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'A07',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. Nf3 d5 2. g3 Nc6 3. d4 Bf5 4. Bg2 e6 5. O-O Nb4 6. Na3 Nc6 7. Nb1 Nb4 8. c4  Nc2 9. cxd5 Nxa1 10. dxe6 fxe6 11. e4 Bxe4 12. Nc3 Bxf3 13. Bxf3 Qd7 14. Bxb7  Rb8 15. Bg2 Nf6 16. Qe2 Be7 17. Bf4 O-O 18. Rxa1 Nd5 19. Nxd5 exd5 20. Rc1 Rb7  21. Qh5 Rf5 22. Qe2 Rf7 23. h4 c6 24. Bf3 Bf6 25. Bg4 Re7 26. Bxd7 Rxe2 27. Bxc6  Rbxb2 28. Bxd5+ Kf8 29. Rc7 Bxd4 30. Bd6+ Ke8 31. Bc6+ Kd8 32. Rd7+ Kc8 33. Rc7+  Kd8 34. Rd7+ Kc8 35. Rc7+ Kd8 1/2-1/2',
+      id: '4260739',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'B90',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Qd3 e6 7. a4 b6 8. Qg3  Bb7 9. f3 Nbd7 10. Be3 Rc8 11. Be2 Be7 12. O-O O-O 13. Kh1 Re8 14. Rad1 Qc7 15.  Nb3 Qb8 16. Bd4 h6 17. Bd3 Nh5 18. Qf2 Nf4 19. Bxb6 Nxd3 20. Rxd3 Ne5 21. Rdd1  Nc4 22. Rb1 Bc6 23. Bd4 Qb4 24. Nc1 Qb7 25. Nd3 e5 26. Be3 d5 27. exd5 Bxd5 28.  Bc5 Bg5 29. Rbd1 e4 30. fxe4 Bxe4 31. Rde1 Bxd3 32. Rxe8+ Rxe8 33. cxd3 Nd2 34.  Rd1 Qxb2 35. Ne4 Qb3 36. Rxd2 Rxe4 37. dxe4 Qb1+ 38. Qg1 Qxg1+ 39. Kxg1 Bxd2 40.  Kf2 f6 41. Ke2 Bf4 42. h3 Kf7 43. Kd3 Ke6 44. Bf2 g6 45. Bd4 h5 46. Kc4 Bd6 47.  Bf2 Ba3 48. Bc5 Bc1 49. Bb4 Be3 50. Bc3 h4 51. Ba5 g5 52. Bc7 Bf4 53. Bxf4 gxf4  54. Kd4 a5 55. Kc5 Ke5 56. Kb5 Kxe4 57. Kxa5 Ke3 58. Kb4 Kf2 59. a5 Kxg2 60. a6  f3 61. a7 f2 62. a8=Q+ Kg1 63. Qa7 Kg2 64. Qg7+ Kxh3 65. Qxf6 Kg2 66. Qg5+ Kh2  67. Qf4+ Kg2 68. Qg4+ Kh2 69. Qxh4+ Kg2 70. Qg4+ Kh2 71. Qf3 Kg1 72. Qg3+ Kh1  73. Qxf2 1/2-1/2',
+      id: '4260741',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'D73',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 Nf6 5. c4 c6 6. cxd5 cxd5 7. Nc3 O-O 8. Ne5  e6 9. Bg5 h6 10. Bf4 Nfd7 11. O-O Nxe5 12. Bxe5 Bxe5 13. dxe5 Nc6 14. Qd2 Kg7  15. Rad1 b6 16. f4 Ba6 17. Rf3 Rc8 18. g4 Qh4 19. Rg3 h5 20. g5 Rfd8 21. Rh3 Qg4  22. Rg3 Qh4 23. Rf1 Ne7 24. f5 gxf5 25. Rf4 d4 26. Nb1 Qxf4 27. Qxf4 Ng6 28. Qd2  Nxe5 29. Ra3 Bb5 30. Rxa7 Ng4 31. Na3 Bxe2 32. h3 d3 33. hxg4 hxg4 34. Nb1 e5  35. Qe3 Rc5 36. Nd2 Rd4 37. Qg3 Rc1+ 38. Kh2 f4 39. Qh4 g3+ 40. Kh3 Rd6 41. Bd5  Re6 42. Rxf7+ Kxf7 43. Qh7+ Kf8 44. Qf5+ 1-0',
+      id: '4260743',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C65',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 O-O 7. O-O Re8 8.  Kh1 a5 9. Nc4 Nd7 10. a4 b6 11. b3 f6 12. Be3 Bb4 13. Nh4 Nf8 14. Nf5 Ne6 15.  Qg4 g6 16. Qg3 Bc3 17. Rad1 Kh8 18. Nh6 Qe7 19. Qh4 Rf8 20. h3 Qg7 21. Ng4 g5  22. Qg3 Nf4 23. Bd2 Ne2 24. Qh2 Bd4 25. Nge3 Be6 26. Rde1 Nf4 27. Qg3 Qg6 28.  Qf3 h5 29. Nf5 g4 30. Qg3 Bxf5 31. exf5 Qxf5 32. Re4 gxh3 33. Bxf4 exf4 34. Qxh3  Qxh3+ 35. gxh3 c5 36. Rxf4 Kh7 37. Kg2 Rae8 38. Kf3 f5 39. Ne3 Bg7 40. Rg1 Bh6  41. Rh4 f4 42. Nd5 Re5 43. Nxc7 Rf6 44. c3 Rg6 45. Rd1 Rc6 46. Nb5 Kg6 47. d4  cxd4 48. cxd4 Rxb5 49. axb5 Rc3+ 50. Ke4 Bg5 51. Rg1 Kh6 52. Rxf4 Bxf4 53. Kxf4  Rxb3 54. d5 a4 55. Rd1 Rb4+ 56. Kf5 Rxb5 57. Ke6 Rb2 58. d6 Re2+ 59. Kd5 Rxf2  60. d7 Rf8 61. Kc6 Kg5 62. d8=Q+ Rxd8 63. Rxd8 Kh4 64. Rd3 1-0',
+      id: '4260745',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Fabiano_Caruana',
+      r: '0-1',
+      e: 'A07',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 Nf6 5. O-O c6 6. b3 O-O 7. c4 a5 8. Nc3 Ne4  9. Bb2 Nxc3 10. Bxc3 a4 11. cxd5 cxd5 12. bxa4 Bd7 13. Qb3 Bxa4 14. Qxb7 Nc6 15.  Rfb1 Qd6 16. Qb2 Na5 17. Bb4 Qe6 18. e3 Nc4 19. Qe2 Bb5 20. Qe1 Rfb8 21. Nd2 Qd7  22. Nb3 e5 23. dxe5 Nxe5 24. Bc3 Bc4 25. Qd2 Qf5 26. Rd1 h5 27. Nd4 Qd7 28. h4  Ra3 29. Rdc1 Rba8 30. Rc2 Bd3 31. Rcc1 Bc4 32. Nb3 Qf5 33. Rd1 Nf3+ 34. Bxf3  Bxc3 35. Qxc3 Qxf3 36. Qb2 Rxa2 0-1',
+      id: '4260747',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'A07',
+      t: 'Chessable Masters Group B',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. c4 dxc4 4. Na3 Bg7 5. Nxc4 Nc6 6. d3 Nh6 7. h4 Be6 8. Bd2  Ng4 9. Bg2 h5 10. O-O O-O 11. Rc1 Bd5 12. b4 Qd7 13. a4 a6 14. Qc2 Rac8 15. e3  b5 16. axb5 axb5 17. e4 Be6 18. Ne3 Nxe3 19. fxe3 Ne5 20. d4 Nc4 21. Ng5 Bg4 22.  e5 Bxe5 23. dxe5 Qxd2 24. Qxd2 Nxd2 25. Rf2 Nc4 26. Bd5 Nxe5 27. Rc5 c6 28. Be6  Nd3 29. Bxc8 Nxf2 30. Bxg4 Nxg4 31. Rxc6 Nxe3 32. Rb6 Rc8 33. Rxb5 Rc2 34. Rb7  Nf5 35. b5 Rb2 36. b6 Kg7 37. Ne4 Rb5 38. Rb8 Nd6 39. Nxd6 exd6 40. b7 Kf6 41.  Rd8 Rxb7 42. Rxd6+ Kf5 43. Kg2 f6 44. Ra6 Rb5 45. Ra2 g5 46. Rf2+ Kg4 47. Rxf6  Rb2+ 48. Rf2 Rxf2+ 49. Kxf2 gxh4 50. gxh4 Kxh4 51. Kg2 1/2-1/2',
+      id: '4263799',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'E46',
+      t: 'Chessable Masters Group B',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Ne2 Re8 6. a3 Bf8 7. Ng3 d5 8. Bd3  dxc4 9. Bxc4 c5 10. O-O cxd4 11. exd4 Nc6 12. Be3 b6 13. Nh5 Bb7 14. Bg5 Be7 15.  Bxf6 Bxf6 16. d5 exd5 17. Nxf6+ Qxf6 18. Bxd5 Rad8 19. Qa4 a6 20. Rad1 b5 21.  Qg4 Bc8 22. Qg3 Nd4 23. Rfe1 Rxe1+ 24. Rxe1 Be6 25. h3 h6 26. Bb7 a5 27. Qc7 b4  28. axb4 axb4 29. Ne4 Qh4 30. Nc5 Qg5 31. Ne4 Qh4 32. Ng3 Nb5 33. Qc5 Nd6 34.  Bf3 b3 35. Rd1 Nc4 36. Nf5 Bxf5 37. Qxf5 Nxb2 38. Rxd8+ Qxd8 39. Bd5 Qf6 40. Qg4  g6 41. Qe2 Kg7 42. Bxb3 Qc3 43. Bc2 Nc4 44. g3 1/2-1/2',
+      id: '4263784',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C77',
+      t: '7th Norway Blitz 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 b5 6. Bb3 Bc5 7. c3 d6 8. Nbd2  O-O 9. Nf1 Re8 10. Ng3 Be6 11. Bc2 d5 12. exd5 Bxd5 13. O-O e4 14. dxe4 Nxe4 15.  Bf4 Bb6 16. a4 Nxg3 17. hxg3 Bc4 18. Re1 Qxd1 19. Raxd1 Rxe1+ 20. Rxe1 Rd8 21.  b4 a5 22. Be4 Ne7 23. bxa5 Bxa5 24. axb5 Bxb5 25. Bxh7+ Kxh7 26. Rxe7 f6 27. Nd4  Rd7 28. Re3 Bc4 29. g4 Bxc3 30. Rxc3 Rxd4 31. Be3 Rd1+ 32. Kh2 Be6 33. Kg3 Rd7  34. Rc5 Bd5 35. g5 c6 36. f3 Kg6 37. gxf6 gxf6 1/2-1/2',
+      id: '4195763',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'A45',
+      t: '7th Norway Chess 2019',
+      moves:
+        '1. d4 Nf6 2. g3 e6 3. Bg2 c5 4. Nf3 cxd4 5. O-O Qc7 6. Nxd4 a6 7. b3 d5 8. c4  dxc4 9. Bb2 cxb3 10. Qxb3 Nc6 11. Nxc6 bxc6 12. Bxf6 gxf6 13. Qc3 Bd7 14. Qxf6  Rg8 15. Nc3 Rg6 16. Qf3 Be7 17. Rac1 Kf8 18. Ne4 Be8 19. Nc5 Qa5 20. Qe3 Qxa2  21. Be4 Rg7 22. Rc2 Qa5 23. Rb1 Qc7 24. Qf3 Kg8 25. Rb7 Qd6 26. Bd3 Bd8 27. Ne4  Qe5 28. Rc5 Qd4 29. Rc4 Qe5 30. Rc5 Qd4 31. Qf4 a5 32. Rb8 Rxb8 33. Qxb8 Kf8 34.  Nd6 Ke7 35. Nxe8 Qxc5 36. Nxg7 a4 37. g4 a3 38. Qb3 Bb6 39. e3 Qg5 40. Nh5 Qxg4+  41. Ng3 Bc5 42. Kg2 h5 43. h3 Qg5 44. Kf1 Qd5 45. Qxd5 cxd5 46. Bb1 h4 47. Ne2  f5 48. Nf4 Kf7 49. Ba2 Be7 50. Ke2 Bf6 51. Kd3 Be5 52. Ng2 Bf6 53. Ne1 Be7 54.  Kc2 Kf6 55. Nf3 f4 56. Nxh4 fxe3 57. fxe3 Kg5 58. Nf3+ Kf5 59. Kd3 Bc5 60. Nd4+  Ke5 61. Nf3+ Kf5 62. Ke2 Kf6 63. Bb1 e5 64. Ba2 e4 65. Nd4 Ke5 66. Nb5 Be7 67.  Bb3 Bc5 68. h4 d4 69. exd4+ Bxd4 70. Nxa3 Kf5 71. h5 Kg5 72. Bf7 Kf4 73. Nc4 Bg7  74. Bg6 Bd4 75. Nd6 e3 76. Nf7 Bg7 77. Bd3 1-0',
+      id: '4197633',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C88',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4  b4 9. a5 d6 10. c3 Rb8 11. Bc4 Bg4 12. h3 Bh5 13. Qa4 Na7 14. g4 Bg6 15. d3 Nb5  16. Bg5 h5 17. Bxf6 Bxf6 18. Kg2 bxc3 19. Nxc3 c6 20. Bxb5 axb5 21. Qd1 b4 22.  Ne2 hxg4 23. hxg4 Qd7 24. Kh3 Rb5 25. Ng3 Ra8 26. Qb3 Bd8 27. a6 Bb6 28. Rf1 Kf8  29. Nh4 Bh7 30. Qc2 Bd8 31. Nhf5 Bg5 32. Ra4 f6 33. Ne2 Rb6 34. a7 Rb7 35. Ra6  Bxf5 36. gxf5 c5 37. Rfa1 Rbxa7 38. Qc4 Rxa6 39. Rxa6 Rxa6 40. Qxa6 g6 41. Kg2  gxf5 42. Ng3 fxe4 43. dxe4 d5 44. Qb6 dxe4 45. Qxc5+ Kg7 46. Qxb4 e3 47. fxe3  Bxe3 48. Qe4 Bf4 49. Nh5+ Kh6 50. Nxf4 Qg4+ 51. Kf2 exf4 52. Qh1+ Kg5 53. Qd5+  f5 54. Qg8+ Kf6 55. Qf8+ Ke6 56. Qe8+ Kf6 57. Qf8+ Ke6 58. Qe8+ 1/2-1/2',
+      id: '4202269',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'D37',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 b6 7. Bd3 dxc4 8. Bxc4  Ba6 9. Bxa6 Nxa6 10. Qe2 Qc8 11. O-O Qb7 12. a3 c5 13. Nb5 Rac8 14. b4 Nd5 15.  bxc5 bxc5 16. Rab1 Rc6 17. Be5 Rb6 18. a4 Nac7 19. dxc5 Bxc5 20. Rbc1 Nxb5 21.  Rxc5 Nd6 22. a5 Rc6 23. Bxd6 Rxd6 24. Rfc1 h6 25. h3 Rfd8 26. Ne5 Nf6 27. Nc6  R8d7 28. a6 Qb6 29. Ne5 Rd8 30. Rc8 Qa5 31. f4 Rd2 32. Qf3 Rd5 33. R1c7 Kh7 34.  Kh2 Rxc8 35. Rxc8 Qxa6 36. Ra8 Qb7 37. Rf8 Rb5 38. Qf1 Qd5 39. Nxf7 Nd7 40. Rd8  Rb8 41. Rxb8 Nxb8 42. Qb1+ Qf5 43. Qb7 Nc6 44. Nd6 Qc5 45. Ne4 Qc2 46. Nf6+ Kg6  47. Ne8 Qc3 48. e4 a5 49. Qd7 a4 50. Qxe6+ Kh7 51. e5 Nd4 52. Qd7 Kg6 53. Qxg7+  Kf5 54. Nd6+ Kxf4 55. Qf6+ Ke3 56. e6 Kd3 57. e7 1-0',
+      id: '4211847',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'Saint Louis Rapid 2019',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 dxc4 5. e4 b5 6. e5 Nd5 7. Nxb5 Nb6 8. Be2 Nc6 9. O-O Be7 10. Qd2 Bb7 11. Rd1 Qd7 12. Nc3 Nb4 13. Qf4 f5 14. Qg3 O-O 15. h4 Kh8 16. Bg5 N4d5 17. Nd2 Nxc3 18. bxc3 Bd5 19. a4 a5 20. Rdb1 Bxg5 21. hxg5 f4 22. Qh3 Nxa4 23. Nxc4 f3 24. Bd3 g6 25. Ne3 Nxc3 26. Rc1 Ne2+ 27. Bxe2 fxe2 28. Ng4 Rfb8 29. Nf6 Qe7 30. Rc2 Rb3 31. Nxd5 Qa3 32. Qxe6 Qxa1+ 33. Kh2 Rb6 34. Nxb6 e1=Q 35. Qf6+ Kg8 36. Qe6+ Kh8 37. Qf6+ Kg8 38. Qe6+ 1/2-1/2',
+      id: '4211870',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'A25',
+      t: 'Saint Louis Blitz 2019',
+      moves:
+        '1. c4 e5 2. g3 Nc6 3. Bg2 g6 4. Nc3 Bg7 5. e3 Nge7 6. Nge2 O-O 7. O-O d6 8. d3 Rb8 9. b3 a6 10. Bb2 b5 11. Qd2 Bd7 12. Rac1 h5 13. h4 Bg4 14. Nd5 Nxd5 15. cxd5 Ne7 16. Rc2 Qd7 17. Rfc1 Rfc8 18. Kh2 Qd8 19. d4 b4 20. e4 Rb6 21. Ng1 exd4 22. Bxd4 Bxd4 23. Qxd4 c5 24. Qe3 Qf8 25. Nh3 Re8 26. Qf4 Nc8 27. Ng5 Rb7 28. Bf1 a5 29. Ba6 Rc7 30. f3 Bd7 31. g4 hxg4 32. fxg4 Na7 33. Rf2 Bb5 34. Bxb5 Nxb5 35. Rcf1 Qh6 36. Kh3 Ree7 37. Qf6 Qg7 38. h5 Qxf6 39. Rxf6 gxh5 40. gxh5 Nc3 41. Rg1 Kg7 42. Rxd6 Kf8 43. Nh7+ 1-0',
+      id: '4213895',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'B13',
+      t: 'Saint Louis Blitz 2019',
+      moves:
+        '1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Qc7 6. h3 Nf6 7. Na3 a6 8. Nc2 g6 9. Nf3 Bf5 10. Be2 e6 11. O-O h5 12. Nce1 Bd6 13. Nd3 Ne4 14. Be3 O-O-O 15. Rc1 g5 16. Nxg5 Rdg8 17. f4 Ng3 18. Rf2 f6 19. Nf3 Ne4 20. Rf1 Bxh3 21. Nfe1 h4 22. Kh2 Qg7 23. Bf3 Bxg2 24. Bxg2 Qg3+ 25. Kh1 Qxe3 26. Rf3 h3 0-1',
+      id: '4213940',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Fabiano_Caruana',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: 'FIDE Candidates 2018',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 b6 8. Ne5  Qxd4 9. Bxa8 Qxe5 10. Bf3 Nd5 11. Qxc4 Ba6 12. Qb3 Nc6 13. Qa4 Bb7 14. Nc3 Nd4  15. Bxd5 exd5 16. Bf4 Qf6 17. Rad1 c5 18. Be3 Nf3+ 19. exf3 d4 20. f4 dxc3 21.  bxc3 Bf3 22. Rd3 Bc6 23. Qb3 Qf5 24. c4 Be4 25. Rd2 Qh5 26. f3 Bxf3 27. f5 Bc6  28. Qd1 Qh3 29. Rff2 h6 30. Qf1 Qg4 31. Rf4 Qg5 32. Rd3 Qf6 33. Bd2 Ba8 34. h4  Qc6 35. Kh2 Bd6 36. Rf2 Be5 37. Bc3 Bxc3 38. Rxc3 Re8 39. f6 g6 40. Rcc2 Re4 41.  Rfe2 Qe6 42. Rxe4 Bxe4 43. Rf2 Bf5 44. Qc1 Kh7 45. Qc3 h5 46. a3 1/2-1/2',
+      id: '4103621',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'E00',
+      t: 'FIDE Candidates 2018',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 Bb4+ 4. Bd2 Be7 5. Bg2 d5 6. Nf3 O-O 7. O-O c6 8. Qb3 b6 9. Nc3 Ba6 10. cxd5 cxd5 11. Ne5 Bb7 12. Rfc1 Nc6 13. Nxd5 Nxd4 14. Nxe7+ Qxe7 15. Qc4 Bxg2 16. Qxd4 Rfd8 17. Qf4 Bb7 18. Bb4 Qe8 19. Rc7 Nd5 20. Qxf7+ Qxf7 21. Rxf7 Ba6 22. Ba3 Bxe2 23. Rc1 Bh5 24. Rb7 Be8 25. Kg2 a5 26. h4 Rdb8 27. Rxb8 Rxb8 28. g4 b5 29. b3 b4 30. Bb2 a4 31. h5 Ra8 32. Kg3 Kf8 33. Nf3 Bd7 34. Rc4 Kg8 35. Ne5 Bb5 36. Rc5 Be8 37. Nc4 Bd7 38. Ne5 Be8 39. Bd4 Kf8 40. f3 Ke7 41. Kh4 Kf8 42. Kg5 h6+ 43. Kh4 Kg8 44. Kg3 Kh7 45. Nd3 Kg8 46. Rc1 axb3 47. axb3 Kh7 48. Nc5 Bf7 49. Re1 Ne7 50. Bb2 Nc6 51. f4 Ra2 52. Nd3 e5 53. fxe5 Bxb3 54. e6 Ra7 55. Nc5 Bc4 56. Nd7 Bb5 57. Nf8+ Kg8 58. Ng6 Ne7 59. Ra1 Nc6 60. Rd1 Kh7 61. Rd5 Ba4 62. Kf4 Bc2 63. Rc5 Ba4 64. g5 hxg5+ 65. Rxg5 Nd8 66. Re5 Be8 67. e7 1/2-1/2',
+      id: '4105672',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Fabiano_Caruana',
+      r: '0-1',
+      e: 'E62',
+      t: '6th Norway Blitz 2018',
+      moves:
+        '1. d4 d6 2. Nf3 Nf6 3. c4 g6 4. g3 Bg7 5. Bg2 O-O 6. O-O c6 7. Nc3 Bf5 8. Nd2 e5 9. d5 Qc8 10. e4 Bg4 11. f3 Bd7 12. Nb3 a5 13. a4 Na6 14. Be3 Nb4 15. Rf2 Qd8 16. dxc6 Bxc6 17. Nc1 Qe7 18. Nd3 Nd7 19. b3 Nxd3 20. Qxd3 Nc5 21. Qc2 f5 22. Rd1 Ne6 23. exf5 gxf5 24. f4 e4 25. Rfd2 Rad8 26. Nd5 Qf7 27. Bb6 Rd7 28. Bxa5 h5 29. Bc3 h4 30. Ne3 hxg3 31. hxg3 Qg6 32. Kf2 Bxc3 33. Qxc3 Rg7 34. Nf1 Nxf4 35. Rxd6 Qg4 36. gxf4 Qxg2+ 37. Ke1 Qg4 38. Qe3 Qh4+ 39. Qf2 Qh3 40. Ne3 Rg3 0-1',
+      id: '4117449',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'A28',
+      t: '43rd Olympiad 2018',
+      moves:
+        '1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 Bxc3 6. Qxc3 Qe7 7. d4 Ne4 8. Qd3 exd4 9. Nxd4 O-O 10. Be2 Qb4+ 11. Kf1 Qe7 12. f3 f5 13. Qd1 Nc5 14. Kf2 d6 15. Re1 Qh4+ 16. Kg1 Rf6 17. g3 Rg6 18. Nxc6 Rxg3+ 19. hxg3 Qxg3+ 20. Kh1 Qh3+ 21. Kg1 Qg3+ 22. Kh1 Qh3+ 23. Kg1 1/2-1/2',
+      id: '4143651',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C84',
+      t: '78th Tata Steel GpA',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3 Na5 9. Ba2 c5 10. Nc3 Be6 11. Nh4 c4 12. Nf5 Bxf5 13. exf5 O-O 14. dxc4 Nxc4 15. Bxc4 bxc4 16. Bg5 Rb8 17. Rb1 Nd7 18. Bxe7 Qxe7 19. Nd5 Qd8 20. Qg4 Rb5 21. Qxc4 Nb6 22. Nxb6 Qxb6 23. b4 d5 24. Qb3 Qc6 25. Rfe1 d4 26. a4 Rd5 27. h4 Rb8 28. Qf3 f6 29. Red1 Qc4 30. Qd3 Rc8 31. Rb2 Rd6 32. b5 Rb6 33. Ra1 h5 34. Ra3 Qd5 35. Rab3 e4 36. Qd1 Rd8 37. bxa6 Rxa6 38. Rb5 Qd6 39. a5 d3 40. cxd3 exd3 41. Rd2 Rc6 42. Rb3 Qc7 43. Rb1 Qxa5 44. Rxd3 Rdc8 45. Qxh5 Qe5 46. Rbd1 Rc1 47. Qf3 Rxd1+ 48. Rxd1 Qe8 49. g3 Rc5 50. Ra1 Qd7 51. Ra8+ Rc8 52. Ra5 Kh7 53. Rd5 Qe8 54. Kg2 Rc7 55. Ra5 Qf7 56. Qd5 Qxd5+ 57. Rxd5 Rc4 58. Rd2 Kg8 59. f3 Kf8 60. g4 Rc1 61. Kg3 Rg1+ 62. Rg2 Ra1 63. g5 Kf7 64. Kg4 Ra4+ 65. f4 fxg5 66. hxg5 Ra1 67. Rb2 Rg1+ 68. Kh3 Rf1 69. Rb7+ Kf8 70. Kg4 Rh1 71. f6 gxf6 72. g6 Ra1 73. Kf5 Ra6 74. Rf7+ Kg8 75. Re7 Ra4 76. Re4 Ra6 77. Re6 Ra4 78. Rxf6 Ra5+ 79. Kg4 Kg7 80. Rd6 Ra1 81. Kg5 Rg1+ 82. Kf5 Kh6 83. Rd8 1-0',
+      id: '3976721',
+    },
+    {
+      w: 'Fabiano_Caruana',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C92',
+      t: '4th Sinquefield Cup 2016',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Re8 10. d4 Bb7 11. Nbd2 Bf8 12. Bc2 h6 13. d5 Nb8 14. b3 c6 15. c4 Nbd7 16. Nf1 Qc7 17. Be3 a5 18. Rc1 Ba6 19. cxb5 Bxb5 20. Bd3 Qb7 21. Bxb5 cxb5 22. Ng3 Rec8 23. Qd3 h5 24. Rc3 b4 25. Rxc8 Rxc8 26. Rc1 Rxc1+ 27. Bxc1 Nc5 28. Qc4 g6 29. Bg5 Nfd7 30. Nd2 a4 31. Kh2 Qb6 32. Ne2 axb3 33. axb3 Qa5 34. Ng1 Nb6 35. Qe2 Nc8 36. Ngf3 Be7 37. Be3 Nb6 38. Ne1 Nbd7 39. Nc2 Qa6 40. Qxa6 Nxa6 41. Kg1 Kf8 42. Kf1 Bd8 43. Ke2 Bb6 44. Bh6+ Ke7 45. f3 Ndc5 46. Be3 f5 47. g4 hxg4 48. hxg4 fxg4 49. fxg4 Nd7 50. Bg5+ Ke8 51. Nc4 Bc7 52. Be3 Ndc5 53. Nd2 Ba5 54. Ne1 Bb6 55. Bxc5 Bxc5 56. Nef3 Nc7 57. Ng5 Ke7 58. Kd3 Kf6 59. Ndf3 Bf2 60. Nh3 Bg3 61. Nhg1 Na6 62. g5+ Ke7 63. Nd2 Kd7 64. Kc4 Kc7 65. Kb5 Nc5 66. Ngf3 Nd3 67. Kc4 Nf2 68. Kxb4 Bf4 69. Kb5 Nh3 70. b4 Nxg5 71. Ka6 Nxf3 72. Nxf3 g5 73. b5 g4 74. b6+ Kb8 75. Nh4 g3 76. Nf5 g2 77. Ne7 g1=Q 78. Nc6+ Kc8 79. b7+ Kd7 80. b8=Q Qf1+ 81. Kb7 Qb5+ 82. Ka8 Qa4+ 83. Qa7+ Qxa7+ 84. Nxa7 Kc7 85. Nb5+ Kb6 86. Nxd6 Kc5 87. Nf5 Bg5 88. Kb7 Kc4 89. d6 Kd3 90. Ng3 Ke3 91. d7 Kf3 92. Nh5 Kxe4 93. Kc6 Kf3 94. Ng7 e4 95. Nf5 1/2-1/2',
+      id: '4004032',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Fabiano_Caruana',
+      r: '0-1',
+      e: 'D78',
+      t: '77th Tata Steel GpA',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. g3 c6 4. Bg2 d5 5. Nf3 Bg7 6. O-O O-O 7. b3 dxc4 8. bxc4 c5 9. Bb2 Qb6 10. Qc1 cxd4 11. Nxd4 Nc6 12. Nxc6 bxc6 13. Nd2 Bf5 14. Nb3 Rac8 15. e4 Be6 16. e5 Nd7 17. Re1 c5 18. Nd2 Qa6 19. Re3 Rb8 20. Ra3 Qb6 21. Rb3 Qc7 22. f4 Nb6 23. Rb1 Rbd8 24. Bc3 Qd7 25. Bf1 Bf5 26. Ra1 f6 27. exf6 exf6 28. Rb5 Na4 29. Nb3 Nxc3 30. Qxc3 Be4 31. f5 Qxf5 32. Re1 Rfe8 33. Rxc5 Qd7 34. Qc1 f5 35. Qf4 Re7 36. h4 a5 37. Rxa5 Bc3 38. Rd5 Qa7+ 39. Kh2 Rxd5 40. cxd5 Bxe1 0-1',
+      id: '3925508',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'D78',
+      t: 'Wch U12',
+      moves:
+        '1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. O-O O-O 5. c4 d5 6. d4 dxc4 7. Na3 c6 8. Nxc4  Be6 9. Qc2 Na6 10. a3 c5 11. Nfe5 Bd5 12. e4 Bxc4 13. Nxc4 cxd4 14. e5 Nd5 15.  Qe4 Nb6 16. Nxb6 Qxb6 17. Qxb7 Rab8 18. Qxb6 Rxb6 19. f4 Nc5 20. b4 Nb3 21. Rb1  Nxc1 22. Rfxc1 f6 23. Rc7 fxe5 24. Rxe7 exf4 25. gxf4 Ra6 26. Rc1 d3 27. Bd5+  Kh8 28. Rcc7 d2 29. Bb3 d1=Q+ 30. Bxd1 Bd4+ 31. Kg2 Rxa3 32. Rxh7+ Kg8 33. Rhd7  Rc3 34. Rb7 Rd3 35. Bg4 Rd2+ 36. Kh1 Re8 37. Be6+ 1-0',
+      id: '3056606',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Fabiano_Caruana',
+      r: '1-0',
+      e: 'B05',
+      t: 'Wch U10',
+      moves:
+        '1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Bg4 5. Be2 c6 6. O-O Bxf3 7. Bxf3 dxe5 8.  dxe5 e6 9. c4 Ne7 10. Qxd8+ Kxd8 11. Be4 Nd7 12. f4 Kc7 13. Nc3 g6 14. Be3 Nf5  15. Bf2 Bc5 16. Rfe1 Bxf2+ 17. Kxf2 Nc5 18. g4 Nd4 19. Rad1 Rad8 20. Rd2 Rd7  21. Red1 Rhd8 22. Bb1 Na6 23. Ne4 c5 24. Nf6 Re7 25. a3 Nb8 26. Ke3 Nbc6 27. b4  g5 28. Bxh7 gxf4+ 29. Kxf4 Nxe5 30. Rxd4 Ng6+ 31. Bxg6 e5+ 32. Kf3 cxd4 33. Bf5  Kb8 34. h4 Rd6 35. Ne4 Rh6 36. h5 Kc7 37. Ng3 f6 38. Bg6 Rh8 39. Ke4 Re6 40.  Nf5 Ra6 41. Rd3 Rc6 42. Bf7 Rh7 43. Bd5 Ra6 44. h6 Ra4 45. Bg8 Rh8 46. h7 Kd7  47. Nh6 Ke7 48. Nf7 Rxh7 49. Bxh7 Kxf7 50. Bf5 1-0',
+      id: '290795',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '1-0',
+      e: 'D85',
+      t: '83rd Tata Steel Masters',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Qa4+ Qd7 8. Qa3 b6 9. Nf3 c5 10. Be3 O-O 11. Rd1 cxd4 12. cxd4 Qd6 13. Qxd6 exd6 14. Rc1 Bb7 15. Bd3 Nc6 16. Kd2 Rac8 17. h4 Nb4 18. Bb1 Rce8 19. a3 Nc6 20. Ba2 Rxe4 21. Bd5 Na5 22. Bxe4 Bxe4 23. Rc7 a6 24. h5 b5 25. h6 Bf6 26. Bg5 Bh8 27. Rh4 Bd5 28. Kc3 Nc4 29. Nd2 Nxa3 30. Kb4 Nc4 31. Nxc4 Bxc4 32. Be7 Re8 33. Rf4 f5 34. g4 Kf7 35. Bxd6+ Ke6 36. Bc5 Bf6 37. gxf5+ gxf5 38. Rc6+ Kf7 39. Rxf5 Re6 40. d5 1-0',
+      id: '4278900',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '&frac12;-&frac12;',
+      e: 'E60',
+      t: 'Opera Euro Rapid Prelim',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. g3 c6 4. Bg2 d5 5. cxd5 cxd5 6. Nf3 Bg7 7. Ne5 Ne4 8. Nd2 Nd7 9. Nxe4 dxe4 10. O-O O-O 11. Nxd7 Bxd7 12. Bxe4 Bh3 13. Re1 Bxd4 14. Qb3 Be6 15. Qf3 Qb6 16. Be3 Bxe3 17. Qxe3 Qxe3 18. fxe3 Rac8 19. Rac1 b6 20. a3 Rxc1 21. Rxc1 Rc8 22. Rxc8+ Bxc8 23. Kf2 Bd7 24. Bd5 e6 25. Bc4 Kf8 26. e4 e5 27. Ke3 f6 28. b4 g5 29. Bd3 Be8 30. Bc4 Bd7 31. Bd3 Be8 32. Bc4 Bd7 1/2-1/2',
+      id: '4279184',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '&frac12;-&frac12;',
+      e: 'B54',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Bc4 e6 6. O-O Be7 7. Bd3 Nc6 8.  Nxc6 bxc6 9. c4 O-O 10. Nc3 e5 11. Be3 Be6 12. Qe2 Nd7 13. Rfd1 Qc7 14. b4 a5  15. a3 axb4 16. axb4 Rxa1 17. Rxa1 Rb8 18. Rb1 Nf6 19. h3 d5 20. cxd5 cxd5 21.  exd5 Nxd5 22. Nxd5 Bxd5 23. b5 e4 24. Qh5 exd3 25. Qxd5 Rd8 26. Qe4 Bf8 27. b6  Qc2 28. Rc1 Qb3 29. Qf3 d2 30. Rd1 h6 31. b7 Rb8 32. Rxd2 Rxb7 33. g4 Rb8 34.  Kg2 Re8 35. Rd7 Qe6 36. Qd5 Qxd5+ 37. Rxd5 g6 38. h4 Bg7 39. h5 g5 40. Kf3 Bf6  41. Ke2 Kg7 42. Kd3 Ra8 43. f4 gxf4 44. Bxf4 Ra3+ 45. Ke4 Ra6 46. Kf5 Bb2 47.  Rb5 Rf6+ 48. Ke4 Re6+ 49. Kf5 Rf6+ 50. Ke4 Re6+ 51. Kf5 Rf6+ 1/2-1/2',
+      id: '4260765',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'E60',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. h4 Bg7 4. Nc3 d6 5. e4 O-O 6. Be2 e5 7. dxe5 dxe5 8. Qxd8  Rxd8 9. h5 c6 10. Bg5 Na6 11. Nf3 Nc5 12. hxg6 hxg6 13. Rh4 Ne6 14. Be3 Nd4 15.  Nxd4 exd4 16. O-O-O Ng4 17. Bxg4 Bxg4 18. Rxg4 dxe3 19. fxe3 Bxc3 20. bxc3 Rxd1+  21. Kxd1 Re8 22. Kc2 Re5 23. Rf4 Ra5 24. Kb3 Kf8 25. Rh4 Kg7 26. Rf4 Rg5 27. Rf2  Kf8 28. Kc2 Ke7 29. Kd3 b6 30. Kd4 Ke6 31. Kd3 f6 32. Rd2 Ra5 33. Rf2 Rh5 34.  Rb2 Ra5 35. Rf2 Ra4 36. g4 Ra5 37. Rh2 g5 38. Rf2 a6 39. Rh2 b5 40. c5 Ra4 41.  Rh7 Rc4 42. Ra7 Rxc5 43. Rxa6 Kd6 44. a4 bxa4 45. c4 Re5 46. Kd4 a3 47. Rxa3 c5+  48. Kd3 Re8 49. Ra6+ Ke5 50. Rc6 Rd8+ 51. Ke2 Rh8 52. Rxc5+ Kxe4 53. Rf5 Rh2+  54. Rf2 Rh3 55. Kd2 Rxe3 56. Rxf6 Rg3 57. c5 Rxg4 58. c6 Kd5 59. c7 Rc4 60. Rf5+  Ke4 61. Rxg5 Rxc7 1/2-1/2',
+      id: '4260767',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '1-0',
+      e: 'D10',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 d5 2. c4 c6 3. e3 Nf6 4. Nc3 Bf5 5. Nf3 e6 6. Nh4 Be4 7. f3 Bg6 8. Bd2 Be7  9. Nxg6 hxg6 10. Qb3 Qc7 11. O-O-O dxc4 12. Bxc4 b5 13. Be2 a6 14. Ne4 Nxe4 15.  fxe4 c5 16. Kb1 Nc6 17. e5 cxd4 18. Bf3 Rc8 19. Rc1 Qd7 20. Qc2 Na7 21. Qxc8+  Nxc8 22. Bc6 Nb6 23. Bxd7+ Kxd7 24. exd4 Nd5 25. h4 Rxh4 26. Rxh4 Bxh4 27. Rh1  Be7 28. Rh7 Bf8 29. Rh8 Ke7 30. Kc2 f6 31. exf6+ gxf6 32. Rh7+ 1-0',
+      id: '4260769',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'D11',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Qc2 dxc4 5. Qxc4 g6 6. g3 Bg7 7. Bg2 O-O 8. O-O  b5 9. Qc2 Bf5 10. Qd1 c5 11. Nc3 Nc6 12. Nh4 cxd4 13. Nxf5 gxf5 14. Bxc6 Rc8 15.  Nxb5 Rxc6 16. Qxd4 a6 17. Qxd8 Rxd8 18. Na3 Ne4 19. Kg2 Rxc1 20. Raxc1 Bxb2 21.  Nb1 Bxc1 22. Rxc1 Rd4 23. f3 Nf6 24. Kf2 Ra4 25. a3 Kg7 26. Rc3 Nd5 27. Rb3 Rc4  28. Nd2 Rc2 29. Rd3 Nc3 30. f4 e6 31. Kf3 Ne4 32. Nxe4 fxe4+ 33. Kxe4 Rxe2+ 34.  Kf3 Rxh2 35. Rd6 a5 36. Ra6 Rh5 37. a4 Rc5 38. Ra8 h5 39. Ra6 Kg6 40. Kg2 Kf5  41. Ra7 f6 42. Kh3 Rd5 43. Ra8 e5 44. fxe5 fxe5 45. Rh8 Kg5 46. Ra8 e4 47. Kg2  Kg4 48. Rg8+ Kf5 49. Ra8 Ke5 50. Kf2 Kd4 51. Ke2 Rg5 52. Rd8+ Kc3 53. Re8 Rxg3  54. Rxe4 Rg4 55. Re5 Rxa4 56. Kf3 Ra2 57. Kg3 a4 58. Re4 Kd3 59. Rf4 Ke3 60.  Rf3+ Ke4 61. Rf4+ Ke5 62. Rb4 Ra1 63. Kh2 a3 64. Rb3 Kd4 65. Rf3 Kc4 66. Rf4+  Kd3 67. Rf3+ Ke4 68. Rb3 h4 69. Rc3 Ra2+ 70. Kh1 Ra1+ 71. Kh2 Ra2+ 72. Kh1 Ra1+  73. Kh2 1/2-1/2',
+      id: '4260771',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. h3 Be6 10. Nc3 Bb4 11. Ne2 Bd5 12. Nfd4 Nxd4 13. Nxd4 Re8 14. Bf4 Ke7 15. Rfd1 Kf8 16. Rac1 Bxa2 17. b3 a5 18. Ra1 Red8 19. Rxa2 c5 20. Be3 Ke8 21. f4 cxd4 22. Rxd4 Rxd4 23. Bxd4 b5 24. Kf2 a4 25. Kf3 Be7 26. bxa4 bxa4 27. f5 a3 28. Ke4 Kd7 29. c4 Kc6 30. g4 Bc5 31. g5 g6 32. Bc3 Ra4 33. fxg6 hxg6 34. Kd3 Kd7 35. Ra1 Ke6 36. Rf1 a2 37. Rf6+ Ke7 38. Rf1 Ra8 39. Kc2 Be3 40. h4 Bc5 41. Kb3 Ra3+ 42. Kc2 Ke8 43. Kb2 a1=Q+ 44. Rxa1 Rxa1 45. Kxa1 Bf2 46. e6 fxe6 47. Kb2 Bxh4 48. Bf6 Bf2 49. Kc2 Bc5 50. Kd3 Bd6 51. Ke4 Kd7 52. Kd4 Kc6 53. Kd3 Kc5 54. Bd4+ Kb4 55. Bc3+ Kb3 56. Bd4 c5 57. Bf6 e5 58. Bd8 e4+ 59. Kxe4 Kxc4 60. Bf6 Bg3 61. Be7 Kb5 62. Kd5 c4 63. Bf6 Bf2 64. Ke6 Kc5 65. Kf7 Bd4 66. Be7+ Kb5 67. Bf6 Kc5 68. Be7+ Kd5 69. Bb4 Be3 70. Kxg6 c3 71. Bxc3 Bxg5 1/2-1/2',
+      id: '4274565',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '&frac12;-&frac12;',
+      e: 'A15',
+      t: 'Airthings Masters Prelim',
+      moves:
+        '1. Nf3 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. h4 Nxc3 6. dxc3 Qxd1+ 7. Kxd1 f6 8. h5 g5 9. e4 e5 10. Nh2 Be6 11. Be2 Nd7 12. Bg4 Kf7 13. Ke2 Nc5 14. Bxe6+ Kxe6 15. f3 Na4 16. Rb1 Be7 17. Bd2 Rhd8 18. Rhd1 Nb6 19. Ng4 Rd7 20. Be3 Rxd1 21. Rxd1 Nc8 22. Nh6 b6 23. Nf5 Nd6 24. g4 Nxf5 25. exf5+ Kf7 26. Rd7 Rc8 27. b4 Ke8 28. Rd1 Rd8 29. Rxd8+ Kxd8 30. b5 Kd7 31. Kd3 c6 32. Kc4 Kc7 33. a4 Kb7 34. Kd3 h6 35. Ke4 Kc7 36. c4 Bb4 37. Kd3 Kd7 38. Kc2 Kd6 39. Kd3 Kd7 40. Kc2 Kd6 41. Kd3 Kd7 1/2-1/2',
+      id: '4276965',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '1-0',
+      e: 'A37',
+      t: 'GRENKE Chess Classic',
+      moves:
+        '1. c4 c5 2. g3 g6 3. Bg2 Bg7 4. Nc3 Nc6 5. Nf3 d6 6. O-O Bf5 7. h3 Nf6 8. d3 O-O  9. Be3 a6 10. Qd2 b5 11. cxb5 axb5 12. Nxb5 Qa5 13. Nc3 Rab8 14. Rfc1 Rfc8 15.  b3 e5 16. Bh6 Nd4 17. Bxg7 Nxf3+ 18. exf3 Kxg7 19. f4 Qa6 20. fxe5 dxe5 21. Na4  Nd7 22. Rc3 Rb4 23. g4 Be6 24. Nxc5 Nxc5 25. Rxc5 Rxb3 26. Rxc8 Bxc8 27. Rc1  Rxd3 28. Qe2 Be6 29. Qxe5+ Kg8 30. Rb1 Rd8 31. Rb8 Rxb8 32. Qxb8+ Kg7 33. Bd5  Bxd5 34. Qe5+ f6 35. Qxd5 h5 36. gxh5 gxh5 37. Qd7+ Kg6 38. a4 Qe2 39. Qd5 f5  40. a5 f4 41. Kg2 Kh6 42. Qf5 Qc4 43. Kf3 1-0',
+      id: '4191261',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '1-0',
+      e: 'B90',
+      t: "Cote d'Ivoire Rapid 2019",
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 Ng4 7. Bg5 h6 8. Bh4 g5 9. Bg3 Bg7 10. Qd2 Nc6 11. Nb3 Be6 12. h4 gxh4 13. Bxh4 b5 14. f4 b4 15. Na4 Qc7 16. O-O-O Rb8 17. Kb1 Na5 18. Nxa5 Qxa5 19. b3 Qc7 20. Be2 h5 21. f5 Bd7 22. Bxg4 hxg4 23. Qg5 Bf6 24. Qxg4 Bxa4 25. Bxf6 Rxh1 26. Rxh1 exf6 27. bxa4 Ke7 28. Qf3 Rc8 29. Qd3 a5 30. Rd1 Rg8 31. Qe2 Rg3 32. Qf2 Ra3 33. g4 Rxa4 34. g5 fxg5 35. f6+ Ke8 36. Qe2 b3 37. axb3 Rb4 38. e5 dxe5 39. Rd5 Kf8 40. Qh5 Rh4 41. Qxg5 Rh7 42. Qd2 1-0',
+      id: '4193587',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '0-1',
+      e: 'B90',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nf3 Be7 8. Bc4 O-O 9. O-O Be6 10. Bb3 b5 11. Bg5 Nbd7 12. Re1 Rc8 13. a3 h6 14. Bxf6 Nxf6 15. Nd2 Bg4 16. f3 Qb6+ 17. Kh1 Be6 18. Nf1 Rc5 19. Ne3 Rfc8 20. Re2 Rxc3 21. bxc3 Rxc3 22. Qe1 Qc6 23. a4 b4 24. Nd1 Bxb3 25. Nxc3 Bc4 26. Nd1 Bxe2 27. Qxe2 d5 28. exd5 Nxd5 29. Qe4 Qe6 30. Ne3 Nc3 31. Qc4 Qg6 32. a5 Kh7 33. Re1 e4 34. fxe4 Nxe4 35. Nd5 Nf2+ 36. Kg1 Nh3+ 37. Kf1 Qf5+ 38. Ke2 Qe5+ 39. Ne3 Nf4+ 40. Kf1 Ne6 41. Qxa6 Qxh2 42. Qd3+ Kg8 43. a6 Bh4 44. Qd2 Nf4 0-1',
+      id: '4193617',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'A30',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. c4 c5 2. Nf3 Nf6 3. Nc3 e6 4. g3 b6 5. Bg2 Bb7 6. O-O Be7 7. b3 O-O 8. Bb2 d6 9. e3 Nbd7 10. Qe2 a6 11. d4 Ne4 12. Rfd1 Nxc3 13. Bxc3 Be4 14. Rac1 Re8 15. Bh3 Qc7 16. Nd2 Bb7 17. e4 Bf6 18. Nf3 b5 19. cxb5 axb5 20. dxc5 Bxc3 21. Rxc3 b4 22. Rc2 dxc5 23. Qe3 h6 24. Bf1 Ba6 25. Rcd2 Nf6 26. Bxa6 Rxa6 27. Rc1 Rea8 28. Rxc5 Qa7 29. Rdc2 Rxa2 30. Rc8+ Kh7 31. Qxa7 R8xa7 32. Nd2 Ng4 33. Kg2 Ne5 34. f4 Nd3 35. Kf1 Ra1+ 36. Ke2 Rd7 37. Nf3 Rb1 38. Rd2 Rb2 39. Rxb2 Nxb2 40. Ne5 Rd4 41. Ke3 Rd1 42. Nxf7 Re1+ 43. Kd4 Re2 44. h4 Kg6 45. Ne5+ Kh5 46. Rg8 Rd2+ 47. Ke3 Rc2 48. Rxg7 Rc3+ 49. Ke2 Nd1 50. g4+ Kxh4 51. Kxd1 Kg3 52. f5 Kf4 53. Ng6+ Kxe4 54. f6 Rf3 55. f7 1-0',
+      id: '4193662',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '0-1',
+      e: 'B50',
+      t: '7th Norway Blitz 2019',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. b4 cxb4 4. d4 Nf6 5. Bd3 e5 6. a3 exd4 7. Nxd4 bxa3 8. O-O  Be7 9. Bxa3 O-O 10. Nc3 Nc6 11. Nxc6 bxc6 12. f4 d5 13. e5 Bxa3 14. Rxa3 Qb6+  15. Kh1 Ng4 16. Qe1 Qc5 17. Rb3 f5 18. h3 Nh6 19. Na4 Qe7 20. Qc3 Qc7 21. Nc5  Nf7 22. e6 Nd6 23. Qe5 Qe7 24. Rfb1 Ne4 25. Bxe4 fxe4 26. Rb8 Rxb8 27. Rxb8 Re8  28. f5 Qxc5 29. Qc7 Qf8 30. Qxc6 Bd7 31. Qxd7 Rxb8 32. e7 Qe8 33. Qxd5+ Kh8 34.  Qe5 Rb6 35. Qxe4 Rf6 0-1',
+      id: '4195777',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B33',
+      t: '7th Norway Chess 2019',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Nd5 Nxd5 8.  exd5 Nb8 9. a4 Be7 10. Be2 O-O 11. O-O Nd7 12. Kh1 a6 13. Na3 Nc5 14. Nc4 a5 15.  f4 exf4 16. Bxf4 f5 17. Bd3 b6 18. Qe2 Ba6 19. Nxb6 Nxd3 20. cxd3 Qxb6 21. Qxe7  Bxd3 22. Qe6+ Kh8 23. Qxd6 Qxd6 24. Bxd6 Bxf1 25. Bxf8 Bc4 26. Be7 Bxd5 27. Rd1  Bb3 28. Rd8+ Rxd8 29. Bxd8 Bxa4 30. Bxa5 Kg8 1/2-1/2',
+      id: '4197641',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'A29',
+      t: '7th Norway Chess 2019',
+      moves:
+        '1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Bc5 7. O-O O-O 8. d3  h6 9. Bd2 Nf6 10. Na4 Bb6 11. Rc1 Re8 12. Bc3 e4 13. dxe4 Nxe4 14. Qxd8 Rxd8 15.  Be5 Re8 16. Nxb6 axb6 17. Bxc7 Rxa2 18. Ne5 Bf5 19. Nxc6 bxc6 20. f3 Nd2 21. Rf2  Rxb2 22. e4 Be6 23. Be5 Rb5 24. Rxd2 Rxe5 25. Rxc6 Rb5 26. f4 g6 27. e5 Kg7 28.  Be4 Rb4 29. Bf3 Ra8 30. Kf2 Ra2 31. Rxa2 Bxa2 32. Bg4 h5 33. Bd7 Rb2+ 34. Ke3  Rxh2 35. Rc7 Kf8 36. Rc8+ Kg7 37. Rc7 Kf8 38. f5 gxf5 39. Bxf5 Be6 40. Bxe6 fxe6  41. Rb7 Rb2 42. Kf4 Rf2+ 43. Ke4 Re2+ 44. Kf4 Rf2+ 45. Ke4 Re2+ 1/2-1/2',
+      id: '4197655',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '1-0',
+      e: 'D85',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 c5 8.  Be3 Qa5 9. Qd2 Nc6 10. Rb1 cxd4 11. cxd4 O-O 12. Qxa5 Nxa5 13. Bd3 Bg4 14. O-O  Bxf3 15. gxf3 e6 16. Rfd1 Rfd8 17. Bf1 b6 18. Ba6 Rd6 19. Rbc1 Rad8 20. Bg5 f6  21. Be3 h6 22. Bb5 f5 23. d5 g5 24. Bd2 fxe4 25. fxe4 a6 26. Ba4 exd5 27. Bb4  Re6 28. Rxd5 Rxd5 29. exd5 Re4 30. Rc8+ Kf7 31. a3 Be5 32. Be8+ Kg7 33. d6 Rd4  34. d7 Nb7 35. Be7 Re4 36. Rc6 Bd4 37. Rc7 1-0',
+      id: '4202279',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'B31',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 bxc6 5. d4 cxd4 6. Qxd4 f6 7. O-O d6 8. c4  c5 9. Qd3 Bg7 10. b3 Nh6 11. Nc3 Rb8 12. Bd2 O-O 13. Rae1 Nf7 14. h4 Rb7 15. h5  g5 16. Nh2 Ne5 17. Qg3 Kh8 18. f4 gxf4 19. Bxf4 Rg8 20. Re3 Nc6 21. Qf2 f5 22.  Nf3 Bxc3 23. Rxc3 e5 24. Rd3 exf4 25. Qb2+ Rbg7 26. h6 fxe4 27. Rd2 exf3 28.  hxg7+ Rxg7 29. Rxf3 Qg5 30. Rdf2 Nd4 31. Rxf4 Bf5 32. b4 Be6 33. Rf8+ Bg8 34.  bxc5 dxc5 35. Qb8 Qe3 36. Qd6 Qc1+ 37. Kh2 Qg5 38. Qd5 Qh4+ 39. Kg1 Qe7 40. Qh5  Qe3 41. Qh4 Ne2+ 42. Kh1 Qc1+ 43. Rf1 Ng3+ 44. Kg1 Qe3+ 0-1',
+      id: '4216588',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '1-0',
+      e: 'D97',
+      t: 'Saint Louis Rapid 2019',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Nc6 8. h3 Nd7 9. Be3 Nb6 10. Qc5 a5 11. Rc1 Nd7 12. Qa3 e5 13. d5 Nd4 14. Nb5 c5 15. dxc6 Nxc6 16. Be2 Nf6 17. Rd1 Bd7 18. Bc5 Nxe4 19. Bxf8 Bxf8 20. Qe3 Nc5 21. O-O Qf6 22. Nc7 Rd8 23. Nd5 Qg7 24. Nb6 e4 25. Nd4 Be8 26. Nxc6 Rxd1 27. Rxd1 Bxc6 28. Bc4 Qe5 29. Qd4 Qg5 30. Nd5 Bxd5 31. Bxd5 Nd3 32. Qxe4 Nxb2 33. Rb1 Qf6 34. Bxf7+ 1-0',
+      id: '4211890',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '1-0',
+      e: 'E60',
+      t: 'Saint Louis Blitz 2019',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. h4 Bg7 4. Nc3 c5 5. d5 e6 6. e4 exd5 7. exd5 O-O 8. Be2 Re8 9. Kf1 a6 10. a4 d6 11. h5 Ne4 12. Nxe4 Rxe4 13. hxg6 hxg6 14. Nf3 Bg4 15. Bg5 Bf6 16. Be3 Nd7 17. Nd2 Rxe3 18. fxe3 Bxe2+ 19. Qxe2 Qe7 20. Rh3 Re8 21. Rb1 Bg5 22. Re1 Qf6+ 23. Qf2 Qxb2 24. Nf3 Qxf2+ 25. Kxf2 Bf6 26. Rb1 b6 27. Ke2 Re4 28. Kd3 Rg4 29. g3 Kf8 30. a5 bxa5 31. Rb7 Ke7 32. Ra7 a4 33. Rxa6 Ne5+ 34. Nxe5 Bxe5 35. Ra7+ Kf6 36. Rh7 Rxg3 37. Rhxf7+ Kg5 38. Rxa4 Rg1 39. Ra2 Kg4 40. Re7 Bg3 41. Re6 g5 42. Ra6 Rd1+ 43. Ke4 Rc1 44. Raxd6 Bxd6 45. Rxd6 Rxc4+ 46. Kd3 Rc1 47. Rf6 c4+ 48. Kd2 Ra1 49. d6 Ra3 50. e4 Rd3+ 51. Kc2 Kh3 52. e5 g4 53. Rh6+ Kg2 54. Rh7 g3 55. d7 Kf2 56. e6 g2 57. Rf7+ Ke2 58. Rg7 Kf2 59. Rxg2+ Kxg2 60. e7 Rxd7 61. e8=Q Rd3 62. Qe4+ Kf2 63. Qxc4 Rf3 64. Kd2 Kg3 65. Qe4 Rf4 66. Qg6+ Kf2 67. Qg5 Rf3 68. Qg4 Ra3 69. Qd4+ Kf1 70. Qf6+ Kg2 71. Ke2 Rg3 72. Qf5 Kh2 73. Qh5+ Kg1 74. Qh4 Kg2 75. Qe4+ Kg1 76. Qd5 Rg6 77. Qd4+ Kh2 78. Qh4+ Kg1 79. Kf3 Rg2 80. Qe1+ Kh2 81. Qe5+ Kh1 82. Qh8+ Kg1 83. Qh4 Rg8 84. Qd4+ Kh1 85. Qh4+ Kg1 86. Qe1+ Kh2 87. Qd2+ Kh1 88. Qc1+ Kh2 89. Qc2+ Kh1 90. Qh7+ 1-0',
+      id: '4213851',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B30',
+      t: 'Saint Louis Blitz 2019',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. c3 Nf6 4. e5 Nd5 5. Bc4 Nb6 6. Bb3 d5 7. exd6 Qxd6 8. O-O Be6 9. d4 cxd4 10. Na3 Bxb3 11. axb3 a6 12. Nxd4 Nxd4 13. Be3 Nf5 14. Qxd6 Nxd6 15. Bxb6 Rc8 16. Rad1 Rc6 17. Be3 e5 18. Rd5 f6 19. Rfd1 Kf7 20. Nc2 Ke6 21. f4 Be7 22. fxe5 fxe5 23. c4 Ne4 24. Ne1 Rd6 25. Nd3 Rxd5 26. cxd5+ Kd6 27. b4 Rb8 28. Bb6 Bd8 29. Bxd8 Rxd8 30. Re1 Kxd5 31. Nf4+ Kc6 32. Ne6 Rd6 33. Nxg7 Rd4 34. Nf5 Rxb4 35. Re2 a5 36. g4 Ng5 37. Kf2 Rxg4 38. Rxe5 Rb4 39. Rxa5 Rxb2+ 40. Kg3 Ne4+ 41. Kf4 Nc5 42. h4 Kd5 43. Ne3+ Kc6 44. Nf5 b6 45. Ra7 Rb4+ 46. Kg5 Ne4+ 47. Kh6 Nd6 48. Ne7+ Kb5 49. h5 Rh4 50. Nd5 Ne4 51. Rxh7 Kc6 52. Nxb6 Rxh5+ 53. Kxh5 Nf6+ 54. Kg6 Nxh7 55. Kxh7 1/2-1/2',
+      id: '4213896',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '&frac12;-&frac12;',
+      e: 'B95',
+      t: '11th London Classic 2019',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f3 h6 8. Be3 b5 9. a3 Nbd7 10. Qd2 Bb7 11. O-O-O h5 12. Kb1 Be7 13. Qe1 Rc8 14. Rg1 Qc7 15. g3 Ne5 16. Rg2 O-O 17. h3 d5 18. f4 Nc4 19. e5 Nxe3 20. Qxe3 Ne4 21. Nxe4 dxe4 22. Re2 Bd5 23. Bg2 Qc4 24. Nb3 Bc5 25. Nxc5 Qa2+ 26. Kc1 Rfd8 27. c4 bxc4 28. Red2 Qa1+ 29. Kc2 Qa2 30. Kc1 Qa1+ 31. Kc2 Qa2 32. Kc1 1/2-1/2',
+      id: '4232109',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C80',
+      t: '11th London Classic 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 Be7 7. Re1 b5 8. Rxe4 d5 9. Nxe5 Nxe5 10. Rxe5 bxa4 11. b3 O-O 12. Ba3 Bxa3 13. Nxa3 Re8 14. Rxe8+ Qxe8 15. Qd2 Bf5 16. Re1 Qc6 17. c4 axb3 18. axb3 h6 19. cxd5 Qxd5 20. Nc4 Be6 21. Re5 Qd7 22. d5 Rd8 23. dxe6 Qxd2 24. Nxd2 Rxd2 25. g3 fxe6 26. Rxe6 Ra2 27. Rc6 Ra3 28. Rxc7 Rxb3 29. Ra7 Ra3 30. g4 h5 31. gxh5 Kh7 32. Kg2 Ra5 33. f4 Ra3 34. Ra8 a5 35. Ra6 a4 36. f5 Rb3 37. Rxa4 Rb5 38. Rf4 Kh6 39. f6 gxf6 40. Rxf6+ Kxh5 41. h4 Rb2+ 42. Rf2 Rxf2+ 43. Kxf2 Kxh4 1/2-1/2',
+      id: '4233958',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C78',
+      t: '11th London Classic 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Bc5 6. c3 O-O 7. d4 Ba7 8. dxe5 Nxe4 9. Qd5 Nc5 10. Bc2 Ne7 11. Qd1 d5 12. exd6 Qxd6 13. Qxd6 cxd6 14. Re1 Re8 15. Na3 Bg4 16. Bf4 Bxf3 17. gxf3 d5 18. Rad1 Ne6 19. Be3 g6 20. Bb3 d4 21. cxd4 Nf5 22. d5 Ned4 23. Bxd4 Rxe1+ 24. Rxe1 Bxd4 25. Nc4 b5 26. Ne3 Nd6 27. Rc1 Bxb2 28. Rc6 Be5 29. Ng4 Bf4 30. Nf6+ Kg7 31. Ne4 Nf5 32. d6 Ra7 33. Bd1 Nd4 34. Rb6 Rd7 35. Rxa6 f5 36. Nc5 Rxd6 37. Rxd6 Bxd6 38. Nb3 Ne6 39. Be2 b4 40. Bc4 Nf4 41. Nc1 Kf6 42. Nd3 Nxd3 43. Bxd3 Bf4 44. Bc4 Bd6 45. Bd3 Bf4 46. Bc4 Bd6 1/2-1/2',
+      id: '4233960',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '&frac12;-&frac12;',
+      e: 'D87',
+      t: '11th London Classic 2019',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8. Ne2 O-O 9. Be3 Nc6 10. h4 cxd4 11. cxd4 Qa5+ 12. Kf1 Bd7 13. h5 Rac8 14. hxg6 hxg6 15. Bb3 Qa6 16. Kg1 Na5 17. Nf4 Rfe8 18. e5 Bf5 19. Kh2 Nxb3 20. axb3 Qc6 21. Rxa7 Red8 22. Qf3 Qxf3 23. gxf3 f6 24. Rxb7 fxe5 25. dxe5 Bxe5 26. Rxe7 Re8 27. Rxe8+ Rxe8 28. Kg2 Rb8 29. Nd5 Rxb3 30. Bf4 Bxf4 31. Nxf4 Kg7 32. Nd5 Rb5 33. Rd1 Be6 34. Ne3 Rg5+ 35. Kh2 Kf6 36. Rd6 Ke7 37. Rb6 Kf7 38. f4 Rc5 39. Kg3 g5 40. fxg5 Rxg5+ 41. Kf4 Ra5 42. f3 Ra4+ 43. Kg3 Ra3 44. Nc2 Ra4 45. Nb4 Ra3 46. Nc6 Bd5 47. Ne5+ Ke7 48. Kg4 Bxf3+ 49. Nxf3 Ra5 50. Kf4 Ra1 51. Nd4 Rf1+ 52. Ke5 Re1+ 53. Kd5 Rd1 54. Re6+ Kf7 55. Re4 Kf6 56. Kd6 Rf1 57. Re6+ Kf7 58. Rh6 Rf6+ 59. Rxf6+ Kxf6 1/2-1/2',
+      id: '4233962',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C80',
+      t: '11th London Classic 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 Be7 7. Re1 b5 8. Rxe4 d5 9. Nxe5 Nxe5 10. Rxe5 bxa4 11. Qe2 c6 12. Bd2 Be6 13. f4 g6 14. Nc3 a3 15. b3 Bd6 16. f5 gxf5 17. Rf1 Bxe5 18. Qxe5 Rg8 19. Na4 Qb8 20. Qe3 Rg4 21. Nc5 Re4 22. Nxe4 fxe4 23. Qh6 Qa7 24. Qg7 O-O-O 25. Bb4 Re8 26. Bxa3 h5 27. Bc5 Qd7 28. Qg5 e3 29. Qxe3 Bf5 30. Qf2 Bg6 31. c4 Bd3 32. Re1 Rxe1+ 33. Qxe1 dxc4 34. bxc4 Bxc4 35. h3 Qe6 36. Qxe6+ Bxe6 37. a3 Bd5 38. Kf2 Kd7 39. g3 Be6 40. h4 Bg4 41. Ke3 Ke6 42. Kf4 Kd5 43. Ke3 Ke6 44. Kf4 Kd5 45. Ke3 Ke6 46. Kf4 1/2-1/2',
+      id: '4233964',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '0-1',
+      e: 'A48',
+      t: '11th London Classic 2019',
+      moves:
+        '1. d4 Nf6 2. Nf3 g6 3. Nbd2 d5 4. b3 Bg7 5. Bb2 a5 6. a4 O-O 7. e3 Bf5 8. Be2 Nc6 9. O-O Nb4 10. Ne1 Ne4 11. c3 Nxd2 12. Qxd2 Nc6 13. Nd3 e5 14. Nxe5 Nxe5 15. dxe5 Bxe5 16. Rfd1 Qd6 17. Ba3 c5 18. Qxd5 Qxd5 19. Rxd5 Bxc3 20. Rad1 Bb4 21. Bxb4 cxb4 22. Bc4 Be6 23. Rb5 Rfd8 24. Rd4 Rac8 25. Rxd8+ Rxd8 26. Kf1 Bxc4+ 27. bxc4 Rd2 28. Rxb7 Ra2 29. c5 Rxa4 30. Ke2 Ra3 31. c6 Rc3 32. c7 Kg7 33. Ra7 b3 34. Rxa5 Rxc7 35. Rb5 Rc2+ 36. Kf3 b2 37. Rb6 h5 38. h3 Kf8 39. g4 h4 40. g5 Ke7 41. e4 Kd7 42. Ke3 Kc7 43. Rb5 Kc6 44. Rb8 Kc5 45. f4 Kc4 46. f5 Kc3 47. Kf4 Rg2 48. fxg6 fxg6 49. e5 Re2 50. Rb6 Kc2 51. Rc6+ Kd1 52. Rd6+ Kc1 53. Rc6+ Rc2 54. Rb6 Rc4+ 0-1',
+      id: '4233966',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'B56',
+      t: '11th London Classic 2019',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Bd7 6. Bg5 e6 7. Ndb5 Bxb5 8. Bxb5+ Nc6 9. Qf3 Be7 10. e5 dxe5 11. Bxc6+ bxc6 12. Qxc6+ Kf8 13. O-O Qc8 14. Qf3 Rb8 15. Rab1 h6 16. Bxf6 gxf6 17. Rfd1 f5 18. Qe3 Qc7 19. Na4 Kg7 20. b3 Qxc2 21. Qxe5+ Bf6 22. Qg3+ Kh7 23. Qd3 Rhc8 24. Qd2 Rc7 25. g3 Rbc8 26. a3 Kg6 27. Qxc2 Rxc2 28. b4 R8c4 29. Nc5 Bd4 30. Nd3 Ra2 31. Rbc1 Rxc1 32. Rxc1 Rxa3 33. Nf4+ Kf6 34. Kf1 Ra2 35. Ne2 Bb6 36. f4 Rb2 37. Rc4 Ke7 38. h4 Kd6 39. Nc3 Rf2+ 40. Ke1 Rf3 41. Ne2 Kd5 42. Rc8 Rb3 43. Kd2 Ke4 44. Nc3+ Kf3 45. Rh8 Bd4 0-1',
+      id: '4233968',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '&frac12;-&frac12;',
+      e: 'A37',
+      t: '11th London Classic 2019',
+      moves:
+        '1. c4 c5 2. g3 g6 3. Bg2 Bg7 4. Nc3 Nc6 5. Nf3 d6 6. O-O Bf5 7. h3 Nf6 8. d3 O-O 9. a3 a6 10. Rb1 Rb8 11. b4 cxb4 12. axb4 b5 13. cxb5 axb5 14. e4 Be6 15. Bd2 Nd7 16. Kh2 Nde5 17. Nxe5 dxe5 18. Be3 Nd4 19. Nd5 Bxd5 20. exd5 Qd6 21. Qd2 Rfc8 22. Rfc1 e6 23. Bxd4 exd4 24. Rc6 Rxc6 25. dxc6 h5 26. h4 Bf6 27. Kg1 Ra8 28. Qc2 Be7 29. Qc5 Qxc5 30. bxc5 Rb8 31. c7 Rc8 32. Rxb5 Rxc7 33. c6 Kg7 34. Ra5 Bd6 35. Ra8 Kf6 36. Be4 Ke7 37. Kg2 Bc5 38. Kh3 Kd6 39. Kg2 Ra7 40. Rd8+ Ke7 41. Rb8 Rc7 42. Kf1 Kd6 43. Ke2 Ba7 44. Rd8+ Ke7 45. Ra8 Bc5 46. Kd1 Bb4 47. Ke2 Bc3 48. Kf1 Bb4 49. Kg2 Bc3 50. Ra4 Kd6 51. Kh3 Ke7 52. Bg2 Be1 53. Ra2 Bb4 54. g4 hxg4+ 55. Kxg4 Bd6 56. Rb2 Kf6 57. Rb7 Kg7 58. Rb5 f5+ 59. Kh3 g5 60. hxg5 Kg6 61. Rb7 Kxg5 62. Rxc7 Bxc7 63. Bf3 Bd6 64. Bd1 Kf4 65. Kg2 e5 66. Kf1 e4 67. Ke2 Bc7 68. Bb3 Bd6 69. Be6 Bc7 70. Bd7 Bd6 71. Be6 Bc7 72. Bd7 Bd6 1/2-1/2',
+      id: '4233970',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '0-1',
+      e: 'B95',
+      t: '11th London Classic 2019',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f3 h6 8. Be3 b5 9. a3 Nbd7 10. Qd2 Bb7 11. O-O-O h5 12. Kb1 Be7 13. Rg1 Rc8 14. Be2 Nb6 15. Qe1 Nfd7 16. g4 hxg4 17. Rxg4 Bf8 18. Rg2 Ne5 19. f4 Nec4 20. Bc1 Qc7 21. Bxc4 Nxc4 22. Rd3 g6 23. b3 Bg7 24. Qd1 Qa5 25. f5 Ne5 26. b4 Qb6 27. fxg6 Nxg6 28. Be3 Bh6 29. Ndxb5 Bxe3 30. Nxd6+ Ke7 31. Nxb7 Ne5 32. Rxe3 Nc4 33. Rd3 Qxb7 34. Na4 Rhd8 35. Nc5 Rxd3 36. Nxd3 Nxa3+ 37. Kc1 Qxe4 38. Rf2 Qe3+ 39. Kb2 Nc4+ 40. Ka2 Nd6 41. Qh5 Nf5 42. Re2 Qg1 43. Qf3 Qb6 44. Ne5 Qb5 45. c4 Qa4+ 46. Qa3 Qxa3+ 47. Kxa3 f6 48. Nd3 Rxc4 49. Nc5 Nd4 50. Re4 a5 51. Ka2 Rxb4 52. Nd3 Nb5 53. Rxb4 axb4 54. Nxb4 f5 55. Kb2 Kf6 56. Kc2 Nd4+ 57. Kd3 Nf3 58. h3 e5 59. Ke3 Nh4 60. Nd5+ Kg5 61. Ne7 Ng6 62. Nc8 Nf4 63. h4+ Kxh4 64. Ne7 Kg5 65. Kf3 Ng6 66. Nd5 e4+ 67. Ke3 Ne5 68. Kd4 Ng4 69. Nc7 Nh2 70. Ke3 Nf1+ 71. Kf2 Nd2 72. Ke3 Nc4+ 73. Kd4 Nd6 74. Ne6+ Kg4 75. Ke3 Kg3 76. Nd4 f4+ 77. Ke2 Kg2 78. Ne6 f3+ 79. Ke3 Kg3 80. Nf4 Nc4+ 81. Kxe4 f2 82. Ne2+ Kg4 0-1',
+      id: '4233972',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B51',
+      t: '11th London Classic 2019',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. d4 cxd4 5. Qxd4 a6 6. Bxd7+ Qxd7 7. Nc3 e5 8. Qd3 Qc6 9. O-O Be6 10. Rd1 Rc8 11. a4 h6 12. Nd2 Nf6 13. Nf1 Be7 14. Ne3 O-O 15. Ncd5 Bxd5 16. exd5 Qd7 17. Nf5 Kh8 18. c4 e4 19. Qh3 Nh7 20. b3 Bf6 21. Ra2 b5 22. axb5 axb5 23. cxb5 Ng5 24. Qg4 Qxb5 25. Bxg5 hxg5 26. Nxd6 Qxb3 27. Nxc8 Qxa2 28. Nd6 e3 29. Qh3+ Kg8 30. Qxe3 Rd8 31. Ne4 Rxd5 32. Nxf6+ gxf6 33. Rf1 Kg7 34. h3 Qc4 35. Qf3 Qd3 36. Qxd3 Rxd3 37. Re1 Rd6 38. Rf1 Rd7 39. Re1 Rd8 40. g4 Rd7 41. Kg2 Rd8 42. Kg1 Rd7 43. Kg2 Rd8 44. Kg1 1/2-1/2',
+      id: '4233973',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B33',
+      t: 'World Rapid 2019',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Nd5 Nxd5 8. exd5 Ne7 9. c4 Ng6 10. Qa4 Bd7 11. Qb4 Qb8 12. h4 h5 13. Bd3 a6 14. Nc3 f5 15. Be3 Be7 16. Na4 Qc7 17. Nb6 Rd8 18. g3 e4 19. Be2 Ne5 20. O-O-O O-O 21. Kb1 Be8 22. Rc1 Bg6 23. Ka1 Kh7 24. Rhd1 Rfe8 25. Na4 Rc8 26. Qb6 Qb8 27. Qb3 Bf6 28. c5 Bf7 29. Nb6 Rcd8 30. Rd2 dxc5 31. Bxc5 Nd7 32. Be3 Nxb6 33. Bxb6 Rd7 34. Qd1 Qe5 35. Bc4 f4 36. Bd4 Qf5 37. Bxf6 Qxf6 38. gxf4 Qxf4 39. d6 Bg6 40. Be2 Red8 41. Bxh5 Bf5 42. Qe1 Rxd6 43. Rxd6 Rxd6 44. Be2 Qd2 45. a3 Qxe1 46. Rxe1 Rd2 47. Ka2 Be6+ 48. Kb1 Bb3 49. Kc1 Rc2+ 50. Kb1 Rc6 51. Bd1 Bxd1 52. Rxd1 Rh6 53. Rd7 b5 54. Kc2 Rxh4 55. Kd2 Rf4 56. Ke2 Kh6 57. Ra7 Rf6 58. Re7 Rc6 1/2-1/2',
+      id: '4241189',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B01',
+      t: 'World Blitz 2019',
+      moves:
+        '1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6 4. d4 Nf6 5. Nf3 c6 6. h3 g6 7. Ne5 Nbd7 8. Nc4 Qc7 9. Be2 Bg7 10. O-O b5 11. Nd2 O-O 12. Bf3 Bb7 13. Nde4 Rad8 14. Re1 b4 15. Nxf6+ Bxf6 16. Ne4 c5 17. Nxf6+ Nxf6 18. Bxb7 Qxb7 19. c3 cxd4 20. cxd4 Rd7 21. Be3 Nd5 22. Bh6 Rc8 23. Rc1 Rxc1 24. Qxc1 Rc7 25. Qd1 Qc6 26. Qf3 f6 27. Rc1 Qb5 28. Re1 Kf7 29. h4 Qd7 30. h5 Qf5 31. hxg6+ hxg6 32. Qxf5 gxf5 33. Rc1 Rxc1+ 34. Bxc1 Ke6 35. Kf1 Nc7 36. Bd2 a5 37. Ke2 Kd5 38. Kd3 Ne6 39. Be3 f4 40. Bd2 f3 41. gxf3 Nxd4 42. f4 Ne6 43. Be3 Nc5+ 44. Bxc5 Kxc5 45. b3 Kd5 46. Ke3 e5 47. fxe5 Kxe5 48. f4+ Kd5 49. Kd3 f5 50. Ke3 Kc5 1/2-1/2',
+      id: '4243846',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '&frac12;-&frac12;',
+      e: 'A04',
+      t: 'GRENKE Chess Classic 2018',
+      moves:
+        '1. Nf3 c5 2. c4 Nc6 3. Nc3 e5 4. e3 Nf6 5. d4 e4 6. d5 exf3 7. dxc6 fxg2 8. cxd7+ Bxd7 9. Bxg2 g6 10. b3 Bg7 11. Qd6 Qb6 12. Qxb6 axb6 13. Bb2 Bc6 14. O-O Ke7 15. Nd5+ Bxd5 16. cxd5 Rhg8 17. d6+ Kxd6 18. Rad1+ Ke7 19. Be5 Rgd8 20. Bxb7 Rxd1 21. Rxd1 Rd8 22. Rxd8 Kxd8 23. Kf1 Ne8 24. Bg3 Kd7 25. a4 f5 26. f3 Ke6 27. Bc8+ Kd5 28. Bb7+ Ke6 29. Bc6 Nd6 30. Bf2 Be5 31. h4 f4 32. exf4 Bxf4 33. a5 bxa5 34. Bxc5 Nf5 35. Bb6 Bd2 36. Bd8 Nd4 37. Ba4 Kd6 38. Kg2 Ne6 39. Bb6 Nc5 40. Bxc5+ Kxc5 1/2-1/2',
+      id: '4108396',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'A07',
+      t: '6th Norway Blitz 2018',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 Nd7 5. O-O Ngf6 6. a4 a5 7. Bf4 O-O 8. c3 b6 9. Re1 Bb7 10. Na3 Ne4 11. Nd2 e5 12. dxe5 Nxe5 13. Nxe4 dxe4 14. Qc2 f5 15. Rad1 Qe7 16. Nb5 Rae8 17. b4 Qf7 18. bxa5 bxa5 19. c4 h6 20. c5 Re7 21. Bxe5 Bxe5 22. e3 Bd5 23. Bf1 Bb3 24. Qc1 Kg7 25. Rd2 Bxa4 26. Nd4 Be8 27. Qa3 a4 28. c6 Bxd4 29. Rxd4 Bxc6 30. Rc1 Be8 31. Rc5 Qf6 32. Bb5 Bf7 33. Rc6 Qe5 34. Rc5 Qf6 35. Rc6 Qe5 36. Rc5 1/2-1/2',
+      id: '4117451',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C84',
+      t: '6th Norway Chess 2018',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3 O-O 9. Nc3 Na5 10. Ba2 Be6 11. b4 Bxa2 12. Rxa2 Nc6 13. Bg5 Ng4 14. Bd2 Nf6 15. Bg5 Ng4 16. Bd2 Nf6 17. Bg5 1/2-1/2',
+      id: '4118204',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'B07',
+      t: '51st Biel GM 2018',
+      moves:
+        '1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Bf4 c6 5. Nf3 Bg7 6. Qd2 O-O 7. h3 Qa5 8. e5 dxe5 9. dxe5 Nd5 10. Nxd5 Qxd2+ 11. Bxd2 cxd5 12. O-O-O Nc6 13. Bc3 e6 14. h4 h6 15. Bd3 Bd7 16. Rhe1 Rfc8 17. Rd2 Rab8 18. Rde2 b5 19. Nd4 b4 20. Nxc6 Bxc6 21. Bd4 Bb5 22. Kd2 h5 23. f4 Bf8 24. g4 hxg4 25. Rg1 Bc5 26. Bxc5 Rxc5 27. Rxg4 Kf8 28. Rh2 Bxd3 29. Kxd3 Rc4 30. h5 gxh5 31. Rxh5 Ke7 32. Rgh4 Rg8 33. f5 Rg3+ 34. Kd2 Rg2+ 35. Kd1 Rcxc2 36. f6+ Kd7 37. Rxb4 a5 38. Rb8 Rcf2 39. Ke1 Kc6 40. Rc8+ Kb5 41. Rh7 d4 42. Rg8 Re2+ 43. Kf1 Rgf2+ 44. Kg1 Rf4 45. Rxf7 Rxe5 46. Rc7 Rxf6 47. Rb8+ Ka6 48. Rc6+ Ka7 49. Rg8 Rf7 50. Rg6 Re1+ 51. Kg2 d3 52. Rd6 Re2+ 53. Kh3 d2 54. Rg8 Kb7 55. Rgd8 d1=Q 56. Rxd1 Rxb2 57. Re1 Rf6 58. Rd6 Rxa2 59. Kg3 Rb2 60. Re5 Rb3+ 61. Kg2 a4 62. Ra5 a3 63. Rda6 Rff3 64. Ra7+ Kc6 65. R7a6+ Kd7 66. Ra7+ Kd6 67. R7a6+ Ke7 68. Re5 Rfc3 69. Rexe6+ Kd7 70. Kf2 Rb2+ 71. Re2 Rh3 72. Kg2 Rxe2+ 73. Kxh3 a2 74. Kg3 Kc7 75. Kf3 Kb7 76. Ra4 Rh2 77. Ke3 Kb6 78. Kd3 Kb5 79. Ra8 Kb4 0-1',
+      id: '4124852',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '&frac12;-&frac12;',
+      e: 'B90',
+      t: '51st Biel GM 2018',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f3 e5 7. Nb3 Be6 8. Be3 h5 9. Qd2 Nbd7 10. Nd5 Bxd5 11. exd5 g6 12. Be2 Bg7 13. O-O a5 14. a4 O-O 15. Bb5 Qc7 16. c4 b6 17. h3 Nc5 18. Nxc5 bxc5 19. Ra3 Nh7 20. Rb3 f5 21. Bc6 Rab8 22. Rb5 f4 23. Bf2 e4 24. Qc2 Qe7 25. Qxe4 Qxe4 26. fxe4 Ng5 27. Re1 Nf7 28. Rb1 Ng5 29. Rxa5 Rb3 30. Rb5 Rd3 31. Re1 f3 32. h4 Nf7 33. a5 Ne5 34. a6 Rd2 35. a7 fxg2 36. a8=Q Nf3+ 37. Kxg2 Nxe1+ 38. Kf1 Rxf2+ 39. Kxe1 Rxa8 40. Kxf2 Rf8+ 41. Ke2 Rf4 42. b4 cxb4 43. c5 Be5 44. cxd6 Bxd6 45. Kd3 Kf7 46. Rb6 Bc5 47. Rb5 Bd6 48. Rb6 Bc5 49. Rb5 1/2-1/2',
+      id: '4125934',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B30',
+      t: '6th Sinquefield Cup 2018',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. Nc3 e5 4. Bc4 g6 5. h4 h6 6. h5 g5 7. Nh2 Nf6 8. d3 d6 9. Nf1 Bg4 10. f3 Be6 11. Ne3 Bg7 12. Ncd5 O-O 13. c3 Rb8 14. a4 a6 15. g4 b5 16. axb5 axb5 17. Bb3 Ne7 18. Nxe7+ Qxe7 19. O-O Qb7 20. Bxe6 fxe6 21. c4 b4 22. b3 Nd7 23. Qe2 Rbd8 24. Nc2 Nb8 25. Be3 Nc6 26. Kg2 Rf7 27. Ra4 Rdf8 28. Bg1 Bf6 29. Rfa1 Bd8 30. Ra8 Rxf3 31. Qxf3 Rxf3 32. Kxf3 Kg7 33. Ke2 Bb6 34. R8a6 Kf7 35. Ra8 Kg7 36. R8a6 Kf7 37. Ra8 Kg7 1/2-1/2',
+      id: '4130824',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '&frac12;-&frac12;',
+      e: 'B92',
+      t: '4th GRENKE Chess Classic',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. Be3 Be6 9. Qd3 Nbd7 10. Nd5 O-O 11. O-O Bxd5 12. exd5 Ne8 13. a4 Bg5 14. a5 Bxe3 15. Qxe3 Nef6 16. c4 Rb8 17. Rfb1 Qc7 18. Nd2 b6 19. Nb3 Nc5 20. axb6 Rxb6 21. Nxc5 dxc5 22. b4 Rfb8 23. Rd1 Rxb4 24. Rxa6 Rb3 25. Qg5 h6 26. Qf5 Qc8 27. Qxc8+ Rxc8 28. Rc6 Rbb8 29. Bd3 e4 30. Bc2 Rxc6 31. dxc6 Rc8 32. Ba4 Kf8 33. Bb5 Ke7 34. Ra1 Ng4 35. Ra7+ Ke6 36. f3 exf3 37. gxf3 Ne5 38. f4 Nf3+ 39. Kf2 Nd4 40. Ke3 g6 41. Ke4 Nxc6 42. Ra6 f5+ 43. Kf3 Kd6 44. h4 h5 45. Ke3 Rc7 46. Kd2 Rc8 47. Kc3 Rc7 48. Kb3 Rc8 49. Ka4 Rc7 50. Rb6 Rc8 51. Ba6 Rb8 52. Bb7 Ke7 53. Rxc6 Rxb7 54. Rxc5 Rb1 55. Rd5 Rh1 56. c5 Rxh4 57. c6 Rxf4+ 58. Kb3 Rf1 59. Kb2 Rf2+ 1/2-1/2',
+      id: '4045358',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '1-0',
+      e: 'A45',
+      t: '5th Norway Blitz 2017',
+      moves:
+        '1. d4 Nf6 2. Bf4 b6 3. c4 Bb7 4. e3 g6 5. Nc3 Bg7 6. Nf3 O-O 7. Be2 d6 8. O-O Nbd7 9. h3 e6 10. b4 a5 11. a3 Ne4 12. Nxe4 Bxe4 13. Nd2 Bb7 14. Bf3 Bxf3 15. Nxf3 e5 16. dxe5 Nxe5 17. Rc1 axb4 18. axb4 Qe7 19. Nd4 Ra2 20. b5 Rfa8 21. Bxe5 Bxe5 22. Nc6 Qe6 23. Nb4 R2a3 24. Nd5 R8a7 25. f4 Bb2 26. Rb1 Bg7 27. f5 gxf5 28. Rxf5 Ra1 29. Rf1 Qe4 30. Rxa1 Rxa1 31. Qg4 Qxg4 32. hxg4 Ra7 33. g5 Be5 34. Kf2 Kg7 35. Kf3 Kg6 36. Kg4 Ra4 37. Rc1 Ra2 38. Nxc7 Rxg2+ 39. Kf3 Rxg5 40. Nd5 h5 41. Nxb6 h4 42. Rh1 Rg3+ 43. Ke2 h3 44. Nd5 Rg2+ 45. Kf3 Rg3+ 46. Ke4 Rg4+ 47. Nf4+ Kg5 48. Rxh3 Bxf4 49. exf4+ Rxf4+ 50. Kd5 1-0',
+      id: '4051994',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '&frac12;-&frac12;',
+      e: 'A48',
+      t: '5th Norway Chess 2017',
+      moves:
+        '1. d4 Nf6 2. Bf4 g6 3. Nf3 Bg7 4. e3 O-O 5. Be2 d6 6. h3 c5 7. O-O Qb6 8. Nbd2 cxd4 9. Nc4 Qc7 10. exd4 Nd5 11. Bg3 b5 12. Ncd2 a6 13. c3 Nc6 14. a4 Rb8 15. axb5 axb5 16. Re1 Na5 17. Qb1 Nc4 18. Qa2 Ndb6 19. b3 Nxd2 20. Qxd2 Be6 21. Bxb5 Bxb3 22. Qe2 Bd5 23. Ra3 Bf6 24. Nd2 Rfc8 25. Rea1 Ra8 26. Ba6 Nc4 27. Bxc4 Rxa3 28. Rxa3 Bxc4 29. Qxc4 Qxc4 30. Nxc4 Rxc4 31. Kf1 e5 32. Ra6 exd4 33. cxd4 Rxd4 34. Rxd6 Rxd6 35. Bxd6 h5 36. g4 hxg4 37. hxg4 Bd8 38. Ke2 f5 39. Kf3 fxg4+ 40. Kxg4 Kf7 41. f4 Be7 42. Bxe7 Kxe7 43. f5 gxf5+ 44. Kxf5 1/2-1/2',
+      id: '4052847',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '1-0',
+      e: 'B92',
+      t: 'GCT Rapid Paris 2017',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nf3 Be7 8. Bg5 Nbd7 9. a4 b6 10. Nd2 h6 11. Bxf6 Nxf6 12. Nc4 Bb7 13. a5 b5 14. Nb6 Nxe4 15. Nxe4 Bxe4 16. Bf3 Bxf3 17. Qxf3 Ra7 18. c4 d5 19. cxb5 Bb4+ 20. Ke2 Bxa5 21. Nxd5 axb5 22. b4 Bb6 23. Rxa7 Bxa7 24. Ra1 Bb8 25. Qd3 O-O 26. Qxb5 e4 27. g3 Be5 28. Rd1 Qg5 29. Kf1 f5 30. Qe2 Kh8 31. f4 exf3 32. Qxe5 Qh5 33. Nf4 Qxh2 34. Ng6+ Kh7 35. Nxf8+ Kh8 36. Ng6+ Kh7 37. Nh4 Qh1+ 38. Kf2 Qxd1 39. Qxf5+ 1-0',
+      id: '4054265',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'C53',
+      t: 'GCT Blitz Paris 2017',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 a6 6. O-O d6 7. a4 Ba7 8. Re1 O-O 9. h3 h6 10. Nbd2 Re8 11. b4 Be6 12. Bxe6 Rxe6 13. Nf1 Ne7 14. Ng3 Ng6 15. d4 Qd7 16. d5 Ree8 17. a5 c6 18. c4 cxd5 19. cxd5 Rac8 20. Qd3 Rc7 21. Bd2 Rec8 22. Nf5 Rc4 23. Rac1 Rxe4 24. Rxc8+ Qxc8 25. Nxd6 Rxe1+ 26. Nxe1 Qd7 27. Ne4 Nxd5 28. Bxh6 Bd4 29. Qc4 Qc6 30. Qxc6 bxc6 31. Bd2 f5 32. Nd6 Nge7 33. Nf3 Ba1 34. Nb7 e4 35. Ng5 Nc7 36. Nc5 Bd4 37. Nge6 Nxe6 38. Nxe6 Ba7 39. Nc7 Nd5 40. Nxa6 Kf7 41. Nc5 Bxc5 42. bxc5 Nc7 43. h4 Na6 44. Be3 g6 45. g4 fxg4 46. Kg2 Ke6 47. Kg3 Kf5 48. Bd4 Nb4 49. Kg2 Na6 50. Be3 Ke5 51. Kh2 Ke6 52. Kg3 Kf5 53. Bd4 Nb4 54. Bb2 Na6 55. Ba3 Nc7 56. Kg2 Na6 57. Kf1 Ke5 58. Ke2 Kd4 59. Bb2+ Kxc5 60. Ke3 Kd5 61. Kf4 Nc5 62. Kxg4 Kc4 63. Ba3 Kb5 64. Bxc5 Kxc5 65. Kf4 Kb5 66. Kxe4 Kxa5 67. f4 c5 68. h5 gxh5 69. f5 h4 70. f6 h3 71. Kf3 1-0',
+      id: '4054328',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '0-1',
+      e: 'B92',
+      t: 'GCT Blitz Paris 2017',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nf3 h6 8. Nd2 b5 9. Nf1 Bb7 10. Bf3 Nbd7 11. Ne3 Nb6 12. O-O Rc8 13. Qd3 g6 14. Rd1 Be7 15. a4 b4 16. Na2 a5 17. c3 b3 18. Nb4 axb4 19. a5 bxc3 20. axb6 c2 21. Rd2 Qxb6 22. Ra3 O-O 23. Rxb3 Qa7 24. Ra3 Qd4 25. Qb3 Qxd2 26. Bxd2 c1=Q+ 27. Bxc1 Rxc1+ 28. Nf1 Bxe4 29. Qe3 Rc4 30. Qxh6 d5 31. Bxe4 Ng4 32. Qh3 Rxe4 33. Rc3 Rb4 34. Rc2 Kg7 35. Qd3 Nf6 36. Qg3 e4 37. Qe5 Re8 38. Ne3 d4 39. Ng4 d3 40. Rc1 Bd8 41. Qc3 Rb7 42. Ne3 Rc7 43. Qd2 Rxc1+ 44. Qxc1 Bb6 45. Kf1 Bxe3 46. Qxe3 Rb8 47. Qd4 Rb5 48. Ke1 Rg5 49. g3 Rd5 50. Qc3 d2+ 51. Kd1 Rd3 52. Qe5 Rd5 53. Qf4 g5 54. Qe3 Kg6 55. h3 Rd3 56. Qb6 Kg7 57. b4 Nd5 0-1',
+      id: '4054377',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '1-0',
+      e: 'A45',
+      t: 'GCT Rapid TB Paris 2017',
+      moves:
+        '1. d4 Nf6 2. Bf4 g6 3. e3 Bg7 4. Nf3 d6 5. Be2 Nh5 6. Bg5 h6 7. Bh4 g5 8. Nfd2 Nf4 9. exf4 gxh4 10. c3 c5 11. dxc5 dxc5 12. Na3 O-O 13. O-O Nc6 14. Re1 h3 15. g3 e5 16. fxe5 Nxe5 17. Nf3 Nxf3+ 18. Bxf3 Qf6 19. Nc4 Rd8 20. Qe2 Be6 21. Bg4 Bxg4 22. Qxg4 b5 23. Ne3 Rd2 24. Re2 Rad8 25. Rae1 Rxe2 26. Rxe2 Qe6 27. Qxe6 fxe6 28. Kf1 b4 29. cxb4 cxb4 30. Rc2 b3 31. axb3 Rb8 32. Rc6 Rxb3 33. Rxe6 Rxb2 34. Nf5 Bf8 35. Nxh6+ Kg7 36. Ng4 a5 37. Ra6 Ra2 38. f4 a4 39. f5 Bb4 40. Ra7+ Kf8 41. f6 Ra1+ 42. Ke2 a3 43. Nh6 Re1+ 44. Kd3 Re6 45. Ra8+ Re8 46. Ra6 Rc8 47. g4 Rd8+ 48. Ke4 Ke8 49. g5 Bf8 50. Kf5 Rd2 51. Ra8+ Rd8 52. Rxd8+ Kxd8 53. g6 a2 54. g7 Bxg7 55. fxg7 a1=Q 56. g8=Q+ Kc7 57. Qg3+ Kd7 58. Qxh3 Qg7 59. Kf4+ Kc7 60. Nf5 Qb2 61. Qh7+ Kc8 62. Qg8+ 1-0',
+      id: '4054388',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'C89',
+      t: 'GCT Rapid TB Paris 2017',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d3 Bd6 13. Re1 Bf5 14. Qf3 Qh4 15. g3 Qh3 16. Be3 Bxd3 17. Nd2 Qf5 18. Bd4 Rfe8 19. a4 Kf8 20. h4 Rxe1+ 21. Rxe1 f6 22. Qxf5 Bxf5 23. c4 Nb4 24. axb5 axb5 25. cxb5 cxb5 26. Rc1 Nd3 27. Rc6 Be5 28. Be3 Ra1+ 29. Kh2 Bd7 30. Rc2 Ne1 31. Rc5 Nd3 32. Rc2 Ne1 33. Rc5 Nd3 1/2-1/2',
+      id: '4054389',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B10',
+      t: 'GCT Rapid YourNextMove',
+      moves:
+        '1. e4 c6 2. Nf3 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Qe2 Bf5 6. Nxf6+ gxf6 7. d3 Nd7 8. g3 Ne5 9. Nxe5 Qa5+ 10. Bd2 Qxe5 11. Qxe5 fxe5 12. Bg2 h5 13. O-O h4 14. Rae1 f6 15. f4 hxg3 16. hxg3 exf4 17. Rxf4 Bh6 18. Rh4 Bg7 19. Rb4 Bc8 20. d4 Bf8 21. Rc4 Bh3 22. Bf3 Rd8 23. d5 cxd5 24. Rc7 Rd7 25. Rxd7 Bxd7 26. Bxd5 b6 27. c4 e5 28. b4 Ke7 29. c5 Be6 30. Bf3 Bh6 31. Bxh6 Rxh6 32. cxb6 axb6 33. a4 Rh7 34. Rc1 f5 35. Rc6 Bd7 36. Rxb6 Bxa4 37. b5 Rh8 38. Bd5 Rc8 39. Re6+ Kd7 40. Rxe5 Bxb5 41. Rxf5 Rc1+ 42. Kg2 Kd6 43. Be4 Bd7 44. Rf2 Ke5 45. Bf3 Bf5 46. g4 Rc2 47. gxf5 Rxf2+ 48. Kxf2 Kxf5 1/2-1/2',
+      id: '4054958',
+    },
+    {
+      w: 'Maxime_Vachier_Lagrave',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'C67',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Be7 6. Re1 Nd6 7. Bxc6 dxc6 8. dxe5 Nf5 9. Qxd8+ Bxd8 10. Bg5 Bxg5 11. Nxg5 Nd4 12. Na3 h6 13. Ne4 Bf5 14. c3 Ne6 15. Rad1 Ke7 16. Ng3 Bh7 17. Nc4 Rad8 18. Na5 Rxd1 19. Rxd1 Rb8 20. Ne2 c5 21. f3 Rd8 22. Rxd8 Nxd8 23. Kf2 Bb1 24. a3 Ke6 25. Nc4 g5 26. Ke3 Nc6 27. f4 Ba2 28. Nd2 Bd5 29. g3 b6 30. Ne4 Ne7 31. g4 Bc6 32. fxg5 Kxe5 33. N2g3 Nd5+ 34. Kd2 Nf4 35. Ke3 Ng2+ 36. Kd3 Bxe4+ 37. Nxe4 c4+ 38. Kxc4 Kxe4 39. gxh6 Nf4 40. h4 Ng6 41. h5 Nf8 42. g5 c6 43. b4 Kf5 44. g6 fxg6 45. hxg6 Nxg6 46. b5 Ne5+ 47. Kd4 Ke6 48. bxc6 Nxc6+ 49. Kc4 a6 50. h7 Ne5+ 51. Kd4 Nf7 52. a4 Kd6 53. c4 a5 54. Kd3 Kc5 55. Kc3 Nh8 56. Kd3 Kb4 57. Kd4 Kxa4 58. Ke5 Kb3 59. Kf6 a4 60. Kg7 a3 0-1',
+      id: '4054999',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '1-0',
+      e: 'A20',
+      t: 'GCT Blitz YourNextMove',
+      moves:
+        '1. c4 e5 2. e3 Nf6 3. Nc3 Nc6 4. g4 Bb4 5. g5 Bxc3 6. bxc3 Ng8 7. d4 Qxg5 8. d5 Nd8 9. d6 c6 10. Nf3 Qf5 11. Rg1 Ne6 12. e4 Qxe4+ 13. Be3 Qf5 14. Ng5 Nf4 15. Bxf4 Qxf4 16. Rg4 Qf6 17. Ne4 Qh6 18. Qf3 Nf6 19. Rxg7 Qxg7 20. Nxf6+ Kd8 21. Qf5 Re8 22. Nxe8 Kxe8 23. c5 b5 24. Bd3 f6 25. Ke2 Kf7 26. Rh1 Rb8 27. Kf1 Qg6 28. Qf3 Qh6 29. Rg1 Ba6 30. Qg4 Rd8 31. Rg3 e4 32. Qxe4 Re8 33. Qg4 Bc8 34. Kg2 Qg5 35. Qf3 Qd5 36. Qxd5+ cxd5 37. Bxh7 Re5 38. f4 Re2+ 39. Kf1 Rxh2 40. Bg8+ Kf8 41. Bxd5 Rh8 42. Kf2 Ba6 43. Ke3 Ke8 44. Kd4 Kd8 45. Rg7 Bc8 46. c6 dxc6 47. Bxc6 a5 48. Kc5 1-0',
+      id: '4055044',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Maxime_Vachier_Lagrave',
+      r: '0-1',
+      e: 'A34',
+      t: '5th Sinquefield Cup 2017',
+      moves:
+        '1. Nf3 Nf6 2. c4 c5 3. Nc3 d5 4. cxd5 Nxd5 5. e3 Nxc3 6. dxc3 Qxd1+ 7. Kxd1 Bf5 8. Nd2 Nc6 9. e4 Bg6 10. Bb5 Rc8 11. h4 h5 12. Re1 e6 13. a4 Be7 14. g3 O-O 15. a5 Rfd8 16. a6 b6 17. Kc2 Ne5 18. f4 Ng4 19. Kb3 f6 20. Nc4 Nf2 21. e5 Ne4 22. Be3 Bf5 23. Rg1 Rd5 24. Rae1 Kf7 25. Bc1 Bh7 26. Re3 Rcd8 27. Bc6 Nf2 28. Re2 Nd3 29. exf6 gxf6 30. Bb5 Rg8 31. Bd2 Rgd8 32. Be3 Be4 33. Rd2 Rg8 34. Ka4 Rgd8 35. Kb3 Rg8 36. Ka2 f5 37. Rh2 Rc8 38. Rd2 Rg8 39. Re2 Bf3 40. Rh2 Bf6 41. Nd2 Bg4 42. Rf1 Rgd8 43. Nc4 e5 44. fxe5 Bxe5 45. Bg5 Bxg3 46. Rg2 Bh3 47. Rxg3 Bxf1 48. Rf3 Be2 49. Bxd8 Bxf3 50. Bxb6 axb6 51. Bc6 Be4 52. a7 Rd8 53. Nd6+ Rxd6 54. Bxe4 Rd8 55. a8=Q Rxa8+ 56. Bxa8 Ne5 57. Kb3 f4 58. Kc2 Kg7 59. Kd2 Ng6 60. Kd3 Nxh4 61. Ke4 f3 62. Ke3 Kf6 63. b4 c4 64. Bd5 Kf5 65. Bxc4 Kg4 66. Kf2 Ng6 67. Be6+ Kf4 68. Bf7 Ne5 69. Bxh5 Nd3+ 70. Kf1 Kg3 71. Bf7 Nf2 0-1',
+      id: '4061784',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'E10',
+      t: 'Opera Euro Rapid Prelim',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 a6 4. Nc3 Bb4 5. Bg5 h6 6. Bh4 b6 7. e3 Bb7 8. Bd3 Bxc3+ 9. bxc3 d6 10. O-O Nbd7 11. Nd2 g5 12. Bg3 h5 13. h3 h4 14. Bh2 g4 15. hxg4 h3 16. g3 Rg8 17. f3 Qe7 18. e4 O-O-O 19. Rf2 Nh7 20. a4 a5 21. Rb1 Rde8 22. Nf1 f5 23. exf5 exf5 24. Bxf5 Ng5 25. c5 Kb8 26. cxb6 Nxb6 27. d5 Ba6 28. Qd4 Ka7 29. f4 Ne4 30. Re1 Nxf2 31. Rxe7 Rxe7 32. Kxf2 Re2+ 33. Kf3 Rge8 34. Bd3 Bxd3 35. Qxd3 Rg2 36. g5 1-0',
+      id: '4279168',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'B00',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 Nc6 2. Nf3 d5 3. exd5 Qxd5 4. Nc3 Qa5 5. d4 Bg4 6. Bb5 O-O-O 7. Bxc6 bxc6  8. h3 Qh5 9. Be3 Nf6 10. Qe2 Bxf3 11. gxf3 e6 12. O-O-O Kb7 13. Rhg1 h6 14. Rd3  Rg8 15. Ne4 Be7 16. Rb3+ Kc8 17. Qa6+ Kd7 18. Rd1 Qxf3 19. Nd2 Qxh3 20. Nc4 Ke8  21. Ne5 Bd6 22. Nxc6 Ra8 23. Qb7 Kd7 24. Ne5+ Ke7 25. Bf4 Qf5 26. Nc6+ Kd7 27.  Bxd6 Kxd6 28. Ne5 Qf4+ 29. Kb1 Rgf8 1-0',
+      id: '4260817',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'B21',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 c5 2. f4 g6 3. Nf3 Bg7 4. c3 Nf6 5. d3 Nc6 6. Be2 O-O 7. O-O b5 8. a3 d6  9. Kh1 a5 10. Be3 Bb7 11. Nbd2 b4 12. Qc2 e6 13. axb4 axb4 14. Rxa8 Qxa8 15. Nc4  Qb8 16. e5 Nd5 17. Bg1 dxe5 18. Bxc5 Nxf4 19. Bxf8 Bxf8 20. Re1 g5 21. Bf1 f6  22. Qf2 Ne7 23. Nfd2 Nf5 24. Ne4 Qd8 25. Qb6 Qxb6 26. Nxb6 Kg7 27. Nc4 Nh4 28.  Ra1 Kg6 29. Ra7 Bd5 30. g3 f5 31. Nxe5+ Kh6 32. c4 1-0',
+      id: '4260821',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'B30',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 c5 2. Nf3 Nc6 3. Bb5 h5 4. h3 e6 5. c3 Nf6 6. e5 Nd5 7. d4 cxd4 8. O-O  dxc3 9. Nxc3 Nxc3 10. bxc3 Qc7 11. Re1 b6 12. Ng5 Bb7 13. Qf3 Nxe5 14. Qf4 Bd6  15. Rxe5 Bxe5 16. Qxf7+ Kd8 17. Ba3 a6 18. Rd1 Kc8 19. Rxd7 Bh2+ 20. Kh1 axb5  21. Rxc7+ Bxc7 22. Nxe6 Be5 23. Bf8 Bc6 24. Bxg7 Bd6 25. Bxh8 Rxa2 26. Qg8+ Kd7  27. Nf8+ 1-0',
+      id: '4260825',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'C34',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 e5 2. f4 exf4 3. Nf3 Nf6 4. e5 Nh5 5. Qe2 Be7 6. d4 O-O 7. Nc3 d6 8. Bd2  Bg4 9. O-O-O Nd7 10. Qe1 c6 11. Be2 Re8 12. g3 dxe5 13. Nxe5 Nxe5 14. dxe5 f3  15. Bd3 Qd4 16. Qe4 Qxe4 17. Nxe4 f2 18. Rdf1 Bf3 19. g4 Bh4 20. gxh5 Rxe5 21.  Ng3 Rae8 22. Bc3 Bg5+ 23. Kb1 Bxh1 0-1',
+      id: '4260829',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D02',
+      t: 'Magnus Carlsen Invitational Final Four',
+      moves:
+        '1. d4 Nf6 2. Nf3 d5 3. Bf4 e6 4. Nbd2 Bd6 5. Bg5 Be7 6. e3 O-O 7. Bd3 b6 8. Qe2  Bb7 9. Bxf6 Bxf6 10. h4 Nd7 11. Ng5 h6 12. f4 c5 13. c3 Be7 14. g4 Nf6 15. a3  Rc8 16. Qg2 Bd6 17. Ngf3 cxd4 18. cxd4 Ne4 19. g5 h5 20. Ne5 Nxd2 21. Qxd2 g6  22. Kf2 Kg7 23. Rac1 Qe7 24. Qe2 Rc7 25. Rxc7 Qxc7 26. Rd1 Rc8 27. Rd2 Qc1 28.  Qd1 Qxd1 29. Rxd1 Bxe5 30. fxe5 Kf8 31. Ke2 Ke7 32. Kd2 Rc7 33. b4 a6 34. a4 Rc8  35. Rf1 Rd8 36. Rf6 Rg8 37. a5 b5 38. Rf1 Rc8 39. Rc1 Rxc1 40. Kxc1 Bc6 41. Kd2  Kd7 42. Ke2 Ke7 43. Bxg6 fxg6 44. Kd2 Bd7 45. Ke1 Bc6 46. Kd2 Bd7 47. Ke1 Bc6  48. Kd2 1/2-1/2',
+      id: '4260841',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'C50',
+      t: 'Magnus Carlsen Invitational Final Four',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 d6 6. c3 h6 7. Re1 O-O 8. h3 Re8  9. Nbd2 a6 10. a4 Be6 11. Bxe6 Rxe6 12. b4 Ba7 13. Qc2 Qd7 14. Nf1 d5 15. Be3  Bxe3 16. Nxe3 Ne7 17. a5 Ng6 18. g3 Rd8 19. Kg2 Qc6 20. Nf5 Ne7 21. Nxe7+ Rxe7  22. c4 dxe4 23. dxe4 Qe8 24. Rad1 c5 25. bxc5 Rc8 26. Nh4 Rxc5 27. Nf5 Rd7 28.  Rxd7 Qxd7 29. Rd1 Qc7 30. Rd6 Rxc4 31. Qd3 Kh7 32. Rxf6 gxf6 33. Qe3 1-0',
+      id: '4260842',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'D02',
+      t: 'Magnus Carlsen Invitational Final Four',
+      moves:
+        '1. d4 Nf6 2. Nf3 d5 3. Bf4 e6 4. Nbd2 c5 5. e3 Qb6 6. Rb1 Bd6 7. c3 cxd4 8. cxd4  Bxf4 9. exf4 Nc6 10. Nb3 a5 11. a3 a4 12. Nc1 Bd7 13. Na2 Ne4 14. Nc3 Qc7 15. g3  Nxc3 16. bxc3 Na5 17. Rc1 Nb3 18. Rc2 Qd6 19. Bd3 Qxa3 20. O-O f6 21. Re1 O-O  22. Qb1 Qd6 23. Rce2 h6 24. f5 exf5 25. Nh4 Rae8 26. Nxf5 Bxf5 27. Rxe8 Nd2 28.  Rxf8+ Kxf8 29. Qxb7 Nf3+ 30. Kh1 Nxe1 31. Bxf5 Nf3 32. Bg6 Ng5 33. Qc8+ 1-0',
+      id: '4260843',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'D45',
+      t: 'Magnus Carlsen Invitational Final Four',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Be2 Bd6 7. O-O O-O 8. b3 b6  9. Bb2 Bb7 10. a4 a5 11. Bd3 Rc8 12. Qe2 c5 13. Nb5 Bb8 14. Ne5 Qe7 15. f4 dxc4  16. bxc4 Ne4 17. Rad1 Rcd8 18. Ba3 Nxe5 19. fxe5 f5 20. Rb1 Qg5 21. Rb2 Rf7 22.  Qe1 Rfd7 23. Re2 h6 24. Bb2 Bc6 25. Bc2 Kh8 26. Rf3 Qg6 27. Rh3 Qg5 28. Rf3 Nc3  29. d5 Nxe2+ 30. Qxe2 Bb7 31. Rg3 Qh4 32. d6 Be4 33. Bd1 Bc6 34. Rh3 Qg5 35. Rg3  Qh4 36. Rh3 Qg5 37. Nc3 Rf8 38. Qf2 Qd8 39. Ne2 Kh7 40. Nf4 Bxd6 41. Nxe6 Qe8  42. Nxf8+ Bxf8 43. Qxf5+ g6 44. Qf1 Bg7 45. Bc2 Rd2 0-1',
+      id: '4260844',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'E01',
+      t: 'Lindores Abbey Rapid Challenge',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bb4+ 5. Bd2 a5 6. Nf3 dxc4 7. Qc2 b6 8. Ne5  Ra7 9. O-O Bxd2 10. Qxd2 Bb7 11. Bxb7 Rxb7 12. Nxc4 Nc6 13. Rd1 O-O 14. Nc3 Qa8  15. d5 exd5 16. Nxd5 Nxd5 17. Qxd5 Rbb8 18. Rac1 Rfd8 19. Qe4 Nb4 20. Rxd8+ Rxd8  21. Qxa8 Rxa8 22. a3 Na6 23. Rd1 Nc5 24. f3 a4 25. Kf2 f6 26. g4 Kf7 27. h4 Ke6  28. h5 g6 29. Ne3 gxh5 30. gxh5 Rg8 31. Nd5 Rg7 32. Nf4+ Ke7 33. h6 Rf7 34. Nd5+  Ke6 35. Nf4+ Ke7 36. e4 c6 37. Ke3 Nd7 38. Ne2 f5 39. Nd4 fxe4 40. fxe4 Ne5 41.  Nf5+ Kf6 42. Rd6+ Kg5 43. Kd4 Kf4 44. Ng7 Nf3+ 45. Kc3 Ne5 46. Kd4 Nf3+ 47. Kc3  Ne5 48. Kd4 1/2-1/2',
+      id: '4261175',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'B90',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f3 e6 7. Be3 h5 8. Qd2  Be7 9. O-O-O b5 10. a3 Bd7 11. Kb1 Nc6 12. Nxc6 Bxc6 13. Bf4 e5 14. Bg5 Qb6 15.  Bxf6 Bxf6 16. Nd5 Bxd5 17. Qxd5 Ke7 18. c4 Rac8 19. cxb5 Rc5 20. Qb3 axb5 21. a4  Rhc8 22. Bxb5 Bg5 23. Rd3 h4 24. Rhd1 Rc1+ 25. Ka2 Rxd1 26. Rxd1 Bf4 27. h3 Be3  28. Bc4 Qxb3+ 29. Kxb3 Bd4 30. Rd2 f5 31. Rc2 fxe4 32. fxe4 Kf6 33. Bb5 Rb8 34.  Kb4 Kg5 35. a5 Kf4 36. Re2 Rc8 37. a6 Bc5+ 38. Ka5 Ba7 39. b3 Rc1 40. Bc4 Ra1+  41. Kb5 Rb1 42. Kc6 Bc5 43. Kb7 Ra1 44. b4 1-0',
+      id: '4266239',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'A20',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. c4 e5 2. g3 d5 3. cxd5 Qxd5 4. Nf3 Nc6 5. Nc3 Qd8 6. Bg2 Nf6 7. O-O h6 8. d3  Bd6 9. a3 a5 10. b3 O-O 11. Bb2 Re8 12. Rc1 Bf5 13. h3 Qd7 14. Kh2 Nd4 15. Nd2  c6 16. e3 Nb5 17. Nxb5 cxb5 18. Nf3 Rad8 19. e4 Be6 20. Bxe5 Bxe5 21. Nxe5 Qd6  22. f4 Qxa3 23. d4 Bxb3 24. Qd3 Qb4 25. d5 Rc8 26. d6 Rcd8 27. d7 Nxd7 28. Nxd7  Bc4 29. Qd1 Qe7 0-1',
+      id: '4263865',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D38',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 Bb4 5. Qa4+ Nc6 6. e3 O-O 7. Qc2 Re8 8. Bd2  Bf8 9. Be2 dxc4 10. Bxc4 Nb4 11. Qb1 b6 12. O-O Bb7 13. Rd1 Qc8 14. a3 Nbd5 15.  Bd3 c5 16. dxc5 Qxc5 17. Nxd5 Qxd5 18. Bc3 Qh5 19. Bxf6 Bxf3 20. gxf3 gxf6 21.  f4 f5 22. Bf1 Bg7 23. Bg2 Rac8 24. Rd2 Red8 25. Rxd8+ Rxd8 26. Qc2 Bxb2 27. Qxb2  Rd1+ 28. Rxd1 Qxd1+ 29. Bf1 Qg4+ 30. Bg2 Qd1+ 31. Bf1 Qg4+ 32. Kh1 Qf3+ 33. Kg1  Qg4+ 1/2-1/2',
+      id: '4263863',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'A20',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. c4 e5 2. g3 Nf6 3. Bg2 Bc5 4. d3 O-O 5. Nc3 h6 6. Nf3 Re8 7. O-O d6 8. d4  exd4 9. Nxd4 c6 10. b3 a5 11. Bb2 Na6 12. Qd2 Qe7 13. Rad1 Bd7 14. h3 Bb6 15. e4  Nc5 16. Rfe1 Rad8 17. Kh2 Bc8 18. Nf5 Bxf5 19. exf5 Qc7 20. Rxe8+ Nxe8 21. Ne2  Nd7 22. Nf4 Ndf6 23. Qc2 Qe7 24. Rd2 Rd7 25. Bf3 Qd8 26. Qd1 Bc7 27. Nd3 Re7 28.  Kg2 Qc8 29. g4 Nh7 30. Re2 Qd8 31. Rxe7 Qxe7 32. Qe2 Qd8 33. Kg1 Nef6 34. Bg2  Nf8 35. Bd4 N8d7 36. Qe3 Bb6 37. Bxb6 Qxb6 38. Qxb6 Nxb6 39. f4 Nfd7 40. Kf2 Kf8  41. g5 f6 42. h4 Nc5 43. Ke3 Nxd3 44. Kxd3 Ke7 45. Kd4 Na8 46. Be4 Nc7 47. a3  Kd7 48. b4 axb4 49. axb4 b5 50. c5 Na6 51. cxd6 Kxd6 52. Kc3 c5 53. bxc5+ Kxc5  54. Bc2 Nb4 55. Bb3 Nd5+ 0-1',
+      id: '4263860',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'E90',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. h3 e5 7. d5 Na6 8. Bg5 Bd7  9. Nd2 c6 10. Be2 Qb6 11. Rb1 Kh8 12. O-O c5 13. a3 Qd8 14. b4 b6 15. Nb5 Qe7  16. Re1 h6 17. Bh4 Rfc8 18. Bd3 Qf8 19. Nf1 Nh5 20. Ne3 Bf6 21. Bxf6+ Nxf6 22.  Nc3 Qe7 23. Bc2 Nb8 24. Qd2 Kg7 25. Kh2 cxb4 26. axb4 a5 27. Ra1 Na6 28. bxa5  bxa5 29. Rxa5 Nc5 30. Rea1 Rxa5 31. Rxa5 Qd8 32. Ra3 Rb8 33. f3 Nh7 34. Ne2 Qh4  35. Ra1 Nf6 36. Qe1 Qg5 37. Ra3 Nh5 38. g3 Qd8 39. Qa1 Nf6 40. f4 Qe7 41. Nc3  Kh7 42. f5 Kg7 43. Ra7 g5 44. Kg2 Qd8 45. Kf3 h5 46. Qc1 Qb6 47. Ra1 Rg8 48. Qd2  Qd8 49. Rg1 Rh8 50. h4 g4+ 51. Ke2 Kh7 52. Rb1 Qa5 53. Ned1 Rg8 54. Nf2 Qa6 55.  Nb5 Rb8 56. Bd3 Bxb5 57. cxb5 Qa4 58. Qb4 Qa2+ 59. Qb2 Qa4 60. Qb4 Qa2+ 61. Rb2  Qa1 62. Rb1 Qa7 63. Qd2 Nxd3 64. Qxd3 Qa2+ 65. Kf1 Rc8 66. Qb3 Rc1+ 0-1',
+      id: '4263861',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D38',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 Bb4 5. Qa4+ Nc6 6. Bd2 O-O 7. a3 Bxc3 8.  Bxc3 Bd7 9. Qb3 dxc4 10. Qxc4 Ne7 11. e3 Bc6 12. Be2 Bd5 13. Qa4 Ne4 14. Rc1 Ng6  15. O-O c6 16. Qc2 f5 17. Rfd1 Nh4 18. Bb4 Nxf3+ 19. Bxf3 Rf6 20. Bxe4 fxe4 21.  a4 Rg6 22. Qe2 Qg5 23. Qf1 Rd8 24. Kh1 Rd7 25. a5 a6 26. Qg1 Rh6 27. h3 Qd8 28.  Qh2 Rf6 29. Rd2 h6 30. Ra1 Kh7 31. Bc5 Rf5 32. Bb6 Qe7 33. Kg1 Bc4 34. Rc2 Bd5  35. Bc5 Qd8 36. b4 Qc7 37. Qxc7 Rxc7 38. Bd6 Rcf7 39. Be5 h5 40. h4 g5 41. hxg5  Rxg5 42. Kh2 Rgf5 43. Bf4 Rg7 44. Rh1 Rg4 45. Kg1 Kg6 46. Kf1 h4 47. Rh3 Kf7 48.  f3 Rgxf4 49. exf4 Rxf4 50. Rd2 e3 51. Rc2 Rxd4 52. Ke2 Rxb4 53. Kxe3 Kf6 54. Rh1  e5 55. Re2 Kf5 56. Kf2 Kf6 57. Rhe1 e4 58. fxe4 Be6 59. e5+ Kf5 60. Re3 Rb2+ 61.  R1e2 Rb5 62. Rf3+ Kg5 63. Rf6 Bg4 64. Re1 Rxa5 65. Rd6 Ra2+ 66. Kg1 Re2 67. Rxe2  Bxe2 68. Rd7 b5 69. Rc7 Kf5 70. Rxc6 Kxe5 71. Rxa6 Kd4 72. Kf2 Bc4 73. Rh6 Kc3  74. Rxh4 b4 75. Rh1 b3 76. Rc1+ Kd3 77. g4 b2 78. Rb1 Kc2 79. Rxb2+ Kxb2 80. g5  Kc3 81. g6 Kd4 82. g7 Ke5 83. g8=Q Bxg8 1/2-1/2',
+      id: '4263859',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'E94',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. c4 Nf6 2. Nf3 g6 3. Nc3 Bg7 4. e4 d6 5. d4 O-O 6. Be2 e5 7. O-O exd4 8. Nxd4  Re8 9. f3 c6 10. Kh1 d5 11. cxd5 cxd5 12. Bg5 Nc6 13. Bb5 h6 14. Nxc6 bxc6 15.  Bxc6 hxg5 16. Bxa8 d4 17. Nd5 Ba6 18. Bc6 Re6 19. Rc1 Bxf1 20. Qxf1 g4 21. Nf4  Re7 22. Nd3 gxf3 23. Qxf3 Nd7 24. Bd5 Ne5 25. Nxe5 Bxe5 26. g3 Kg7 27. Kg2 Rc7  28. Rc4 d3 29. Qxd3 Rxc4 30. Qxc4 Bxb2 31. Bxf7 Qd2+ 32. Kh3 Qh6+ 33. Kg2 Qd2+  34. Kh3 Qh6+ 35. Kg2 Qd2+ 1/2-1/2',
+      id: '4263857',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D85',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Be3 c5 8.  Rc1 Qa5 9. Qd2 cxd4 10. cxd4 Qxd2+ 11. Bxd2 O-O 12. Nf3 Bg4 13. Be3 Nc6 14. d5  Bxf3 15. gxf3 Nd4 16. Bh3 f5 17. Rc7 Nxf3+ 18. Ke2 Nd4+ 19. Bxd4 Bxd4 20. exf5  gxf5 21. Rg1+ Kh8 22. Rxe7 Rae8 23. Re6 Rxe6+ 24. dxe6 Rf6 25. Kd3 Bxf2 26. Rf1  Bc5 27. Bxf5 Kg7 28. Ke4 Rh6 29. h3 Rh4+ 30. Kd5 b6 31. Bg4 h5 32. Rf7+ Kg6 33.  Bf5+ Kg5 34. Be4 Rxh3 35. e7 Bxe7 36. Rxe7 Ra3 37. Ke5 Rxa2 38. Rg7+ Kh4 39. Kf4  Kh3 40. Rg1 b5 41. Rh1+ Rh2 42. Rb1 a6 43. Rb3+ Kh4 44. Ra3 Rf2+ 45. Bf3 Kh3 46.  Rxa6 Rf1 47. Ra2 h4 48. Rb2 b4 49. Rxb4 Rg1 50. Rb3 Rf1 51. Kg5 Rf2 52. Bd5+ Kh2  53. Kxh4 Rf4+ 54. Kg5 Rd4 55. Rb2+ Kg1 56. Kf5 Rxd5+ 57. Ke4 Rg5 58. Kf3 Rf5+  59. Kg4 Rf8 60. Kg3 Rg8+ 61. Kf3 Rf8+ 62. Kg3 Rg8+ 63. Kf3 Rf8+ 64. Kg3 1/2-1/2',
+      id: '4263855',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'A13',
+      t: 'Chessable Masters Finals',
+      moves: '1. c4 e6 2. g3 Qg5 3. Bg2 Qxd2+ 4. Qxd2 1-0',
+      id: '4263853',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'D38',
+      t: 'Chessable Masters Finals',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. Qb3 c5 8. cxd5  exd5 9. e3 O-O 10. dxc5 Bxc3+ 11. Qxc3 Qxc3+ 12. bxc3 Nd7 13. Rd1 Nf6 14. Nd4  Bd7 15. f3 Rfc8 16. Nb3 Ba4 17. Rd4 Bxb3 18. axb3 Rxc5 19. Kd2 Ra5 20. Bd3 Nd7  21. Kc1 Rc5 22. Kb2 Re8 23. Re1 Ne5 24. b4 Nxd3+ 25. Rxd3 Rb5 26. Kb3 Kf8 27.  Ra1 a6 28. Ra5 Rxa5 29. bxa5 Re5 30. Kb4 Ke7 31. f4 Re4+ 32. Kc5 Ra4 33. Kb6 Ke6  34. Rd4 Ra3 35. e4 Rb3+ 36. Kc7 dxe4 37. Rxe4+ Kf5 38. Rb4 Rxc3+ 39. Kxb7 Rc2  40. g3 Rxh2 41. Kxa6 Kg4 42. Rb3 Ra2 43. Kb6 1-0',
+      id: '4263851',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'A05',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. Nf3 Nf6 2. g3 b5 3. d3 e6 4. e4 d5 5. exd5 Nxd5 6. Bg2 Bb7 7. O-O Nf6 8. a4  b4 9. Nbd2 Be7 10. Nc4 O-O 11. Nfe5 Bxg2 12. Kxg2 c5 13. b3 Qd5+ 14. Qf3 Qxf3+  15. Kxf3 Nd5 16. Bb2 f6 17. Ng4 Nc6 18. Nge3 Kf7 19. Kg2 Rfd8 20. Rae1 h5 21. f4  f5 22. Ne5+ Nxe5 23. Bxe5 Nxe3+ 24. Rxe3 Rd5 25. h4 Bf6 26. Rfe1 Re8 27. Kf3 Re7  28. R1e2 Re8 29. Re1 Re7 30. R1e2 Re8 31. Re1 1/2-1/2',
+      id: '4264786',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'D43',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. Bg5 h6 6. Bh4 dxc4 7. e4 g5 8. Bg3 b5  9. Be2 Bb7 10. O-O Nbd7 11. Nd2 Qb6 12. a4 a6 13. e5 Nd5 14. Nde4 c5 15. Nxd5  Bxd5 16. Nc3 cxd4 17. Nxd5 exd5 18. Bh5 Nc5 19. Qxd4 Qe6 20. Bg4 Nb3 21. Qd1 Qc6  22. axb5 Qxb5 23. e6 fxe6 24. Bxe6 Ra7 25. Bxd5 Nxa1 26. Qf3 1-0',
+      id: '4264791',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'D78',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 Nf6 5. O-O O-O 6. c4 c6 7. Qb3 dxc4 8. Qxc4  b5 9. Qc3 Bb7 10. Ne5 Nd5 11. Qc2 Na6 12. Nxc6 Qd7 13. Bxd5 Rac8 14. Qb3 Bxc6  15. Bxc6 Rxc6 16. Be3 Bxd4 17. Rd1 Rd6 18. Bxd4 Rxd4 19. Nc3 Nc7 20. Rxd4 Qxd4  21. Nxb5 Nxb5 22. Qxb5 Rc8 23. Qb7 Rc2 24. Qxe7 Kg7 25. Rb1 a5 26. a4 Rxb2 27.  Rxb2 Qxb2 28. Qe4 Qb4 29. Qc2 h5 30. h4 Kg8 31. Kf1 Kg7 32. e3 Kg8 33. Ke2 Kg7  34. Qc6 Qb2+ 35. Kf3 Qb4 36. Qd7 Qb3 37. Qd4+ Kh7 38. Kg2 Qb7+ 39. Kf1 Qb1+ 40.  Ke2 Qc2+ 41. Kf3 Qb3 42. Qe4 Qd1+ 43. Kg2 Qb3 44. g4 hxg4 45. Qxg4 Qd5+ 46. Qf3  Qc4 47. h5 g5 48. Qf5+ Kh6 49. e4 Qe6 50. Qxe6+ fxe6 51. Kg3 Kxh5 52. f4 Kg6 53.  Kg4 gxf4 54. Kxf4 Kf6 55. e5+ Kg6 56. Kg4 Kh6 57. Kh4 Kg6 58. Kg4 Kh6 59. Kh4  Kg6 60. Kg4 1/2-1/2',
+      id: '4264796',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'B51',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. d4 cxd4 5. Qxd4 a6 6. Bxd7+ Bxd7 7. c4 Nf6 8.  Nc3 g6 9. O-O Bg7 10. a4 Bc6 11. Qd3 Nd7 12. Be3 Nc5 13. Qc2 O-O 14. Nd4 Rc8 15.  a5 Ne6 16. Rfd1 Bxd4 17. Bxd4 f5 18. e5 f4 19. f3 Rf5 20. Bb6 Qf8 21. exd6 exd6  22. Qd3 Ng5 23. Qxd6 Qh6 24. Rd3 Nf7 25. Qd4 Rh5 26. h3 Ng5 27. Qf6 Nxh3+ 28.  Kf1 Ng5 29. Rd8+ Rxd8 30. Qxd8+ Qf8 31. Qxf8+ Kxf8 32. b4 Ne6 33. Rd1 Kf7 34. b5  axb5 35. cxb5 Bxb5+ 36. Nxb5 Rxb5 37. Rd7+ Kf6 38. Rxb7 Rb1+ 39. Ke2 Rb2+ 40.  Kf1 Rb1+ 41. Ke2 Rb2+ 42. Kf1 Rb1+ 1/2-1/2',
+      id: '4264801',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'D02',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. d4 Nf6 2. Nf3 d5 3. Bf4 c5 4. e3 e6 5. c3 Bd6 6. Nbd2 cxd4 7. Bxd6 dxe3 8.  Ba3 exd2+ 9. Qxd2 Nc6 10. Qg5 Rg8 11. Bd3 h6 12. Qe3 Qb6 13. Qe2 Bd7 14. O-O  O-O-O 15. b4 Kb8 16. b5 Na5 17. Ne5 Be8 18. Bb4 Rc8 19. a4 Ne4 20. Bxe4 dxe4 21.  Qxe4 f6 22. Qh7 Nb3 23. Qxg8 Nxa1 24. Qxe8 1-0',
+      id: '4266241',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'B13',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Bf4 Bg4 7. Qb3 Qc8 8. Nd2  e6 9. Ngf3 Be7 10. O-O Bh5 11. Rae1 Bg6 12. Bxg6 hxg6 13. h4 Nh5 14. Bh2 Nf6 15.  Bf4 Nh5 16. Bg5 f6 17. Be3 Qc7 18. c4 Rd8 19. cxd5 exd5 20. Nb1 Qd7 21. Nh2 Kf7  22. g4 Na5 23. Qd1 Bd6 24. gxh5 Rxh5 25. f4 Rxh4 26. Re2 Rdh8 27. Nd2 Nc4 28.  Nxc4 dxc4 29. Qc2 b5 30. Qe4 Re8 31. Qd5+ Qe6 32. Qxe6+ Rxe6 33. Nf3 Rg4+ 34.  Kf2 g5 35. fxg5 Bg3+ 36. Kg2 f5 37. Kh3 Bf4 38. Ne5+ Rxe5 39. dxe5 Rg3+ 40. Kh4  Rg4+ 41. Kh3 Rg3+ 42. Kh4 Rg4+ 43. Kh3 1/2-1/2',
+      id: '4266243',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C67',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Nxe5 Be7 7. Bf1 Nxe5 8.  Rxe5 O-O 9. d4 Bf6 10. Re1 Re8 11. c3 Rxe1 12. Qxe1 Ne8 13. Bf4 d5 14. Bd3 g6  15. Nd2 Ng7 16. Nf3 Bf5 17. Bxf5 Nxf5 18. Qe2 c6 19. Re1 Ng7 20. Be5 Ne6 21.  Bxf6 Qxf6 22. Ne5 Re8 23. Ng4 Qd8 24. Qe5 Ng7 25. Qxe8+ Nxe8 26. Rxe8+ Qxe8 27.  Nf6+ Kf8 28. Nxe8 Kxe8 29. f4 f5 30. b4 b5 31. Kf2 Kf7 32. Kf3 Kf6 33. h4 h5 34.  Ke3 Ke6 35. Ke2 Ke7 36. Ke1 Ke6 37. Ke2 Ke7 38. Ke3 Ke6 39. Ke2 1/2-1/2',
+      id: '4266245',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'B13',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Nf6 6. Bf4 Bg4 7. Qb3 Qc8 8. Nd2  e6 9. Ngf3 Be7 10. O-O Bh5 11. Rae1 Bg6 12. Bxg6 hxg6 13. h4 Nh5 14. Bg5 f6 15.  Be3 Qc7 16. Qc2 Kf7 17. Nb3 Bd6 18. Nc1 Rae8 19. Re2 Ne7 20. Nd3 Nf5 21. Bc1 Nf4  22. Bxf4 Bxf4 23. g3 Bd6 24. Qd2 Re7 25. a3 Ke8 26. Qe1 Kd7 27. Kg2 Kc8 28. Rh1  Rhe8 29. Nb4 Kb8 30. Nc2 Qb6 31. Qc1 a5 32. Ne3 Qc6 33. Rd1 Bc7 34. Qc2 Bb6 35.  Qd3 a4 36. Nc2 Bc7 37. Nb4 Qd6 38. Rg1 Qd7 39. Rge1 Rh8 40. c4 dxc4 41. Qxc4 Bd6  42. Rxe6 Bxb4 43. axb4 Rxe6 44. Qxe6 Qxe6 45. Rxe6 Rd8 46. Re4 1-0',
+      id: '4266247',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'D02',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. d4 Nf6 2. Nf3 d5 3. Bf4 c5 4. e3 e6 5. c3 Bd6 6. Bd3 Bxf4 7. exf4 Qb6 8. Qc2  cxd4 9. Nxd4 Nc6 10. Nf3 O-O 11. O-O Bd7 12. Nbd2 Rac8 13. a3 Rfd8 14. Rfe1 h6  15. Ne5 Nxe5 16. fxe5 Ne8 17. Nf3 Bb5 18. Bh7+ Kh8 19. a4 Ba6 20. Qb1 g6 21.  Bxg6 fxg6 22. Qxg6 Qc7 23. Qxh6+ Qh7 24. Qxh7+ Kxh7 25. Ng5+ Kg8 26. Nxe6 Rd7  27. Re3 Ng7 28. Nd4 Rf8 29. e6 Re7 30. g4 b6 31. Rae1 Bc8 32. Kg2 Rfe8 33. Kg3  Bxe6 34. h4 Kf8 35. h5 Bg8 36. Rxe7 Rxe7 37. Rxe7 Kxe7 38. Kf4 Ne6+ 39. Nxe6  Bxe6 40. Kg5 Kf7 41. a5 bxa5 42. f4 Kg7 43. f5 Bd7 44. h6+ Kh7 45. Kf6 Kxh6 46.  Ke7 1-0',
+      id: '4266249',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'A48',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 O-O 5. Be2 d6 6. h3 c5 7. Nbd2 cxd4 8. exd4  Nc6 9. c3 e5 10. dxe5 dxe5 11. Bg5 h6 12. Bxf6 Qxf6 13. O-O Rd8 14. Qb3 Qe7 15.  Rad1 e4 16. Nh2 e3 17. Ndf3 exf2+ 18. Rxf2 Be6 19. Qa4 a6 20. Re1 b5 21. Qf4 Qc5  22. a3 Ne5 23. Bf1 Nxf3+ 24. Nxf3 Ra7 25. Nd2 Rad7 26. Ne4 Qb6 27. Nf6+ Bxf6 28.  Qxf6 Rd2 29. Qf4 Rxb2 30. Re3 Rxf2 31. Qxf2 Kg7 32. Qe1 Rd1 33. Qxd1 Qxe3+ 34.  Kh2 Qxc3 35. Qd6 Bc4 36. Bxc4 bxc4 37. Qxa6 Qe5+ 38. Kg1 Qe1+ 39. Kh2 Qe5+ 40.  Kg1 Qe1+ 41. Kh2 Qe5+ 1/2-1/2',
+      id: '4266251',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'D41',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. d4 Nf6 2. Nf3 d5 3. c4 e6 4. Nc3 c5 5. cxd5 cxd4 6. Qxd4 exd5 7. e4 Nc6 8.  Bb5 dxe4 9. Qxd8+ Kxd8 10. Ng5 Be6 11. Bf4 Bb4 12. O-O-O+ Ke7 13. a3 Bxc3 14.  Bd6+ Ke8 15. bxc3 h6 16. Nxe6 fxe6 17. Bxc6+ bxc6 18. Rd4 Kf7 19. Rhd1 Rhd8 20.  c4 a5 21. Bc5 Rdb8 22. Kc2 Rb7 23. Rb1 Rab8 24. Rxb7+ Rxb7 25. Rd6 Nd7 26. Rxc6  Ne5 27. Ra6 Nxc4 28. Kc3 Nb2 29. Rxa5 Nd3 30. Bd4 Rc7+ 31. Kd2 Rc4 32. Ra7+ Kg6  33. Rxg7+ Kf5 34. Be3 Nc5 35. g4+ Ke5 36. Ra7 Nb3+ 37. Kd1 Rc3 38. Bxh6 Rd3+ 39.  Kc2 Nd4+ 40. Kb2 Kd5 41. Be3 e5 42. h4 Rb3+ 43. Ka2 Rc3 44. h5 Rc2+ 45. Kb1 Re2  46. Rc7 1-0',
+      id: '4266252',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'C50',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 d6 6. c3 a6 7. Re1 h6 8. a4 O-O  9. Nbd2 Re8 10. h3 Be6 11. Bxe6 Rxe6 12. b4 Ba7 13. Bb2 Ne7 14. c4 a5 15. bxa5  Nc6 16. Bc3 Nd7 17. Rb1 Nc5 18. Nf1 Rg6 19. Ne3 Ne6 20. Nd5 Rb8 21. Rb2 Ng5 22.  Nxg5 Qxg5 23. Qf3 Bd4 24. Reb1 Bxc3 25. Nxc3 Nxa5 26. Nd5 Nc6 27. Ne3 b6 28. Nf5  Ra8 29. h4 Qf4 30. Qxf4 exf4 31. d4 Rxa4 32. d5 Ne5 33. Ne7+ Kh7 34. Nxg6 Kxg6  35. c5 bxc5 36. Rb8 0-1',
+      id: '4266254',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'E91',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. Nf3 d6 6. Be2 Na6 7. O-O e5 8. Be3 c6  9. dxe5 dxe5 10. Qxd8 Rxd8 11. Rfd1 Re8 12. c5 Bf8 13. Bxa6 bxa6 14. h3 Rb8 15.  b3 Nd7 16. Nd2 Bxc5 17. Bxc5 Nxc5 18. Nc4 Be6 19. Na5 Rec8 20. Rac1 Kf8 21. f3  Ke7 22. Ne2 Rb5 23. b4 Na4 24. Nxc6+ Kf6 25. a3 Nb2 26. Nxa7 Rxc1 27. Rxc1 Rb7  28. Nc8 Rb8 29. Nd6 Ke7 30. Rc2 Nd3 31. Nc4 Ne1 32. Rc1 Nd3 33. Rc2 Ne1 34. Rc1  Nd3 35. Rc2 1/2-1/2',
+      id: '4266256',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'E62',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. c4 O-O 5. d4 d6 6. Nc3 c6 7. O-O Bf5 8. Ng5 d5  9. Qb3 Qb6 10. cxd5 Qxb3 11. axb3 cxd5 12. Nxd5 Nxd5 13. Bxd5 Nc6 14. e3 h6 15.  Ne4 Rfd8 16. Nc3 e5 17. dxe5 Bxe5 18. e4 Bh3 19. Rd1 Bg4 20. Rf1 Bh3 21. Rd1 Bg4  22. Rf1 Bh3 1/2-1/2',
+      id: '4266259',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'B90',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. Qd2  Be7 9. f3 h5 10. Be2 Nbd7 11. Nd5 Bxd5 12. exd5 b6 13. O-O-O Qc7 14. Kb1 b5 15.  Na5 Nb6 16. Bxb6 Qxb6 17. Nc6 Bd8 18. c4 bxc4 19. Bxc4 O-O 20. Rhe1 Nd7 21. g4  hxg4 22. fxg4 Bh4 23. g5 g6 24. Rf1 Kg7 25. Qg2 Rh8 26. Qg4 Qc7 27. Rf3 f5 28.  gxf6+ Nxf6 29. Qg2 Qd7 30. Rg1 Rh6 31. a3 Nh5 32. Rb3 Nf4 33. Qc2 Kh8 34. Ka2  Qf5 35. Qd2 Qe4 36. Rc1 Bg5 37. Rcc3 Ne6 38. Qc2 Qxc2 39. Rxc2 Nd4 40. Nxd4 exd4  41. Rb6 Bf4 42. Rxa6 Rxa6 43. Bxa6 Rh3 44. a4 Kg7 45. Rf2 Be3 46. Bf1 Rh5 47.  Rg2 Rxd5 48. Bd3 Rg5 49. Rxg5 Bxg5 50. a5 Bd8 51. a6 Bb6 52. Kb3 Kf6 53. Kc4 Ke5  54. Kb5 Ba7 55. Kc6 1-0',
+      id: '4266261',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'B90',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. Nf3 c5 2. e4 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6 7. f3 b5 8. a3 Bb7  9. g4 h6 10. Qd2 Nbd7 11. O-O-O Rc8 12. Kb1 d5 13. exd5 Nxd5 14. Nxd5 Bxd5 15.  Rg1 Bc5 16. f4 Nf6 17. Bd3 Qc7 18. Qe1 Ne4 19. h4 Qb7 20. c3 Bxa3 21. f5 b4 22.  c4 Nc3+ 23. Ka1 Bxc4 24. fxe6 O-O 25. Bxc4 Rxc4 26. Rd2 Bxb2+ 27. Kxb2 b3 28.  exf7+ Qxf7 29. Nxb3 Rb4 0-1',
+      id: '4266263',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'D43',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. Bg5 h6 6. Bh4 dxc4 7. e4 g5 8. Bg3 b5  9. Be2 b4 10. Na4 Nxe4 11. Be5 Nf6 12. Nc5 c3 13. bxc3 bxc3 14. O-O Nbd7 15.  Nxd7 Bxd7 16. Qb3 Bg7 17. Qa3 g4 18. Ne1 c5 19. dxc5 O-O 20. Bxc3 h5 21. Rd1 Nd5  22. Bxg7 Kxg7 23. Bc4 Bc6 24. Nc2 Qf6 25. Nd4 Ne7 26. f3 g3 27. hxg3 Rfd8 28.  Nxc6 Nxc6 29. Qe3 Nd4 30. g4 Rac8 31. g5 Qf5 32. Rxd4 Qxc5 33. Bxe6 Rc6 34. Re4  Qxe3+ 35. Rxe3 Rxe6 36. Rxe6 fxe6 37. Re1 Rd6 38. Kh2 Kg6 39. f4 Kf5 40. Kg3 h4+  41. Kxh4 Kxf4 42. g6 Rd8 43. Rf1+ Ke3 44. Kg5 e5 45. g7 1-0',
+      id: '4266266',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'E62',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. Nf3 Nc6 7. O-O e5 8. d5 Ne7  9. e4 b6 10. Rb1 a5 11. Re1 Nd7 12. a3 h6 13. Nh4 f5 14. exf5 gxf5 15. Qc2 Nf6  16. b4 Bd7 17. c5 axb4 18. axb4 e4 19. c6 Be8 20. f3 Nfxd5 21. Nxd5 Nxd5 22.  fxe4 fxe4 23. Bxe4 Nc3 24. Bxh6 Qf6 25. Bh7+ Kh8 26. Rxe8 Rfxe8 27. Ng6+ Kxh7  28. Nf8+ Kxh6 29. Qh7+ Kg5 30. Qh4+ Kf5 31. Qf4# 1-0',
+      id: '4266267',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 dxc4 5. e3 a6 6. a4 c5 7. Bxc4 Nc6 8. O-O  Be7 9. dxc5 Bxc5 10. Qxd8+ Kxd8 11. Bd2 Ke7 12. a5 Bb4 13. Nb1 Bd7 14. Rc1 Rhc8  15. Bf1 Ne4 16. Bxb4+ Nxb4 17. Nbd2 Nxd2 18. Nxd2 Rxc1 19. Rxc1 Rc8 20. Rxc8  Bxc8 21. f4 e5 22. fxe5 Nc6 23. Nc4 Be6 24. Kf2 Bxc4 25. Bxc4 Nxa5 26. Bd5 Nc6  27. Kg3 Nxe5 28. Bxb7 a5 29. Ba6 g5 30. h4 h6 31. hxg5 hxg5 32. Kf2 Kd6 33. Ke2  Kc5 34. Bb7 a4 35. Kd2 Nc4+ 36. Kc3 Nxe3 37. g3 Nf5 38. g4 Ne3 39. Bf3 f6 40.  Kd3 Nc4 41. Kc3 Nd6 42. Bg2 Nb5+ 43. Kd3 Kb4 44. Bc6 Nd6 45. Kd4 Nf7 46. Bf3 Nh6  47. Bd1 f5 48. gxf5 Nxf5+ 49. Ke5 Ne3 50. Bxa4 Kxa4 51. Ke4 Nc4 52. Kf5 Nxb2 53.  Kxg5 1/2-1/2',
+      id: '4266268',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'E60',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. g3 c5 4. dxc5 Qa5+ 5. Nc3 Qxc5 6. Be3 Qa5 7. Bg2 Bg7 8.  Bd2 O-O 9. Rc1 d6 10. Nh3 Nc6 11. Nf4 Bd7 12. O-O Rfc8 13. b3 Qd8 14. Ncd5 Nxd5  15. Nxd5 Ne5 16. Bg5 Nc6 17. Qd2 Be6 18. Rfd1 Qf8 19. b4 h6 20. Be3 Kh7 21. b5  Ne5 22. c5 dxc5 23. Bxc5 Qe8 24. Qb4 Bxd5 25. Bxd5 Rc7 26. Rb1 e6 27. Bg2 Bf8  28. Bxf8 Qxf8 29. Qf4 Qg7 30. Rbc1 Re7 31. Rc5 f6 32. Qc1 Rae8 33. h3 b6 34. Rc8  Qf8 35. Rxe8 Qxe8 36. f4 Nf7 37. Qc6 Qxc6 38. bxc6 Kg7 39. Kf2 Kf8 40. Ke3 Rc7  41. Kd4 Nd8 42. Rc1 Ke7 43. Ke3 Kd6 44. Rd1+ Ke7 45. Rc1 Kd6 46. Rd1+ Ke7 47.  Rc1 1/2-1/2',
+      id: '4266269',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D02',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. d4 Nf6 2. Nf3 d5 3. Bf4 c5 4. e3 Nc6 5. Nbd2 Qb6 6. dxc5 Qxb2 7. Rb1 Qc3 8.  Bb5 g6 9. O-O Bg7 10. Nb3 O-O 11. Bxc6 bxc6 12. Be5 Qc4 13. Nfd4 Bd7 14. Qd3 Ne4  15. Bxg7 Kxg7 16. Qxc4 dxc4 17. Na5 Nd2 18. Rb7 Bc8 19. Rxe7 Nxf1 20. Kxf1 Rd8  21. Naxc6 Rd7 22. Re5 Rc7 23. Na5 Kf6 24. f4 Re7 25. Rxe7 Kxe7 26. Ke2 Be6 27.  e4 Rc8 28. c6 Kd6 29. Nb7+ Kc7 30. Nc5 Kd6 31. Nb7+ Kc7 32. Nc5 Kd6 33. Nb7+ 1/2-1/2',
+      id: '4266270',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'E01',
+      t: 'Carlsen Tour Final',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bb4+ 5. Bd2 Be7 6. Nf3 O-O 7. O-O c6 8. Qc2  b6 9. Ne5 Bb7 10. cxd5 cxd5 11. Rc1 Nfd7 12. Nd3 Nc6 13. e3 Rc8 14. Nc3 Na5 15.  Qd1 Nc4 16. Be1 Nd6 17. a4 a5 18. Nb5 Rxc1 19. Rxc1 Qb8 20. b4 Nc4 21. bxa5 bxa5  22. e4 Ndb6 23. exd5 Bxd5 24. Bxd5 exd5 25. Ne5 Qb7 26. Bxa5 Bg5 27. Bxb6 Bxc1  28. Bc5 Ra8 29. Nxc4 dxc4 30. Qxc1 Rxa4 31. Nc3 Ra5 32. h4 Qa8 33. Qb2 Ra1+ 34.  Nb1 c3 35. Qb3 h6 36. d5 Qc8 37. Kg2 Qxc5 38. Nxc3 Ra8 39. Ne2 Rd8 40. Nf4 Qd4  41. h5 Qe5 42. Qb6 Rb8 43. Qc5 Qe4+ 44. Kh3 Rb1 45. Kg4 f5+ 0-1',
+      id: '4266271',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 h6 5. Bf4 Bd6 6. Bxd6 Qxd6 7. e3 O-O 8. Rc1 b6 9. cxd5 Nxd5 10. Nxd5 Qxd5 11. a3 Qd6 12. Qc2 c6 13. Qe4 Qd5 14. Bd3 Qxe4 15. Bxe4 Bb7 16. Ne5 f6 17. Ng6 Rd8 18. Nf4 Rd6 19. O-O Nd7 20. Rc3 Rd8 21. Rfc1 e5 22. dxe5 Nxe5 23. h3 Rd1+ 24. Kh2 Rxc1 25. Rxc1 Rd6 26. Ng6 Nxg6 27. Bxg6 Kf8 28. Be4 Rd2 29. Bxc6 Bxc6 30. Rxc6 Rxf2 31. b4 Re2 32. Rc8+ Kf7 33. Rc7+ Kg6 34. Rxa7 Rxe3 35. a4 Ra3 36. a5 bxa5 37. bxa5 f5 38. a6 f4 39. Ra8 Ra2 40. Rf8 Rxa6 41. Rxf4 Rf6 42. Kg3 Rxf4 43. Kxf4 Kf6 44. g4 g5+ 45. Ke4 Ke6 46. Kd4 Kd6 47. Ke4 Ke6 48. Kd4 Kd6 49. Ke4 Ke6 1/2-1/2',
+      id: '4274616',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'A05',
+      t: '81st Tata Steel GpA',
+      moves:
+        '1. Nf3 Nf6 2. g3 b5 3. d4 e6 4. Bg5 c5 5. d5 Qa5+ 6. Bd2 Qb6 7. dxe6 fxe6 8. a4  b4 9. a5 Qd8 10. Bg2 Nc6 11. Ne5 Nxe5 12. Bxa8 d5 13. a6 Bd7 14. Bb7 Bd6 15. Bg5  Nf7 16. Bxf6 Qxf6 17. Nd2 O-O 18. O-O Qxb2 19. e4 Qd4 20. exd5 e5 21. Nb3 Qe4  22. Qd3 Qg4 23. f3 Qh5 24. Nd2 Ng5 25. Bc6 Bh3 26. Bb5 Bxf1 27. Rxf1 Rxf3 28.  Nxf3 e4 29. Qe3 Nxf3+ 30. Rxf3 Qxf3 31. Qxf3 exf3 32. Kf2 1/2-1/2',
+      id: '4168167',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'E60',
+      t: 'Gashimov Memorial Shamkir',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. g3 c6 4. Bg2 d5 5. cxd5 cxd5 6. Nf3 Bg7 7. Ne5 O-O 8. Nc3  Bf5 9. O-O Ne4 10. Bf4 Nxc3 11. bxc3 Nc6 12. Nxc6 bxc6 13. Qa4 e6 14. Qxc6 Rc8  15. Qa4 Rxc3 16. Rfc1 Rxc1+ 17. Rxc1 Qb6 18. e3 Qb2 19. Qd1 h5 20. a4 Bg4 21.  Qe1 Be2 22. Bf1 Bxf1 23. Kxf1 Re8 24. Qc3 Qxc3 25. Rxc3 e5 26. dxe5 Bxe5 27. Rd3  Bxf4 28. gxf4 Rd8 29. a5 Kf8 30. Ke2 Ke7 31. Rb3 Kd6 32. Kd3 Rd7 33. h4 Rc7 34.  Rb8 Rc5 35. Rb7 Rxa5 36. Rxf7 Ra3+ 37. Kd4 Ra4+ 38. Kd3 Ra3+ 39. Kd4 Ra4+ 1/2-1/2',
+      id: '4184760',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D41',
+      t: "Cote d'Ivoire Rapid 2019",
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4 8. cxd4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 O-O 11. Bd3 Nc6 12. Bc2 Qa5 13. Qxa5 Nxa5 14. Bd3 Bd7 15. Ke2 Rac8 16. Rhc1 Rxc1 17. Rxc1 Rc8 18. Rxc8+ Bxc8 19. Kd2 Kf8 20. Kc3 Bd7 21. Ne5 Be8 22. f4 Ke7 23. Ng4 Nc6 24. Ne3 f6 25. d5 Nd8 26. e5 fxe5 27. fxe5 exd5 28. Nxd5+ Kf8 29. Nc7 Bf7 30. a3 Ke7 31. Be4 Bg6 32. Bf3 Kd7 33. Nb5 Nc6 34. Bd5 a6 35. Nd4 Nxd4 36. Kxd4 b6 37. Bc4 a5 38. Bb5+ Ke6 39. Bc6 Bh5 40. h4 h6 41. g3 Bd1 42. Bd5+ Ke7 43. Bc4 Ba4 44. Kd5 b5 45. Bd3 b4 46. axb4 axb4 47. Kc4 Ke6 48. Kxb4 Be8 49. Kc3 Kxe5 1/2-1/2',
+      id: '4193603',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'D39',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. d4 d5 2. c4 e6 3. Nc3 Bb4 4. Nf3 Nf6 5. Bg5 dxc4 6. e4 h6 7. Bxf6 Qxf6 8. Bxc4 c5 9. O-O cxd4 10. Nb5 Qe7 11. Qxd4 O-O 12. Nxa7 Bc5 13. Nxc8 Rxc8 14. Qd3 Nc6 15. Qe2 Rd8 16. Rad1 Qf6 17. e5 Qe7 18. Qe4 Rxd1 19. Rxd1 Rd8 20. Rxd8+ Qxd8 21. g3 Qb6 22. Qe2 Nd4 23. Nxd4 Bxd4 24. b3 Qc5 25. a4 Bxe5 26. Kg2 Bd4 27. h4 g6 28. f4 Kg7 29. Qe4 b6 30. Qf3 Bf6 31. Qe4 Qa3 32. Qe2 Qa1 33. Qf1 Qd4 34. Qd3 Qc5 35. Qd7 Kf8 36. Qd3 Ke7 37. Bb5 g5 38. hxg5 hxg5 39. Qc4 Qd6 40. Qd3 Qc7 41. Qc4 Qd6 42. Qd3 Qa3 43. f5 Qb2+ 44. Kf3 exf5 45. Qxf5 Qxb3+ 46. Qd3 Qe6 47. Qa3+ Kd8 48. Qd3+ Ke7 49. Qa3+ Kd8 50. Qd3+ 1/2-1/2',
+      id: '4193623',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D02',
+      t: "Cote d'Ivoire Blitz 2019",
+      moves:
+        '1. d4 Nf6 2. Nf3 d5 3. Bf4 c5 4. e3 Nc6 5. Be2 cxd4 6. exd4 Bg4 7. c3 e6 8. Nbd2 Bd6 9. Ne5 Bxe2 10. Qxe2 O-O 11. O-O Qc7 12. Rfe1 Nd7 13. Nxd7 Qxd7 14. Bxd6 Qxd6 15. Nb3 Rab8 16. Nc1 b5 17. a3 a5 18. b4 Ne7 19. Nb3 a4 20. Nc5 Qc6 21. Rad1 Nf5 22. Rd3 Nd6 23. Rh3 Nc4 24. Qh5 h6 25. Rg3 Kh8 26. f4 Rbe8 27. Nd3 f6 28. Nc5 Re7 29. Qg4 f5 30. Qh5 Qe8 31. Qxe8 Rfxe8 32. Ra1 Kh7 33. h4 g6 34. Kf2 Nd6 35. Ke2 Ne4 36. Rh3 h5 1/2-1/2',
+      id: '4193669',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'A28',
+      t: '7th Norway Blitz 2019',
+      moves:
+        '1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. e3 Bb4 5. Nd5 e4 6. Ng1 O-O 7. a3 Bd6 8. Nxf6+  Qxf6 9. f4 exf3 10. Nxf3 Ne5 11. d4 Nxf3+ 12. Qxf3 Qxf3 13. gxf3 c5 14. dxc5  Bxc5 15. b4 Bb6 16. c5 Bc7 17. Bb2 d6 18. cxd6 Bxd6 19. Rd1 Be7 20. Bc4 Be6 21.  Bxe6 fxe6 22. Rd7 Rf7 23. Ke2 Bf6 24. Rxf7 Kxf7 25. Bxf6 Kxf6 26. Rc1 Re8 27. a4  Re7 28. Kd3 Rd7+ 29. Ke4 b6 30. b5 g5 31. h3 h5 32. Rc8 h4 33. Rf8+ Kg7 34. Ra8  Kf6 35. f4 gxf4 36. exf4 Rc7 37. Kf3 Kf5 38. Rf8+ Kg6 39. Rg8+ Kf6 40. Kg4 Rc4  41. Rf8+ Kg6 42. Kxh4 Rxa4 43. Kg4 Rb4 44. h4 Rxb5 45. Rg8+ Kf7 46. Ra8 a5 47.  h5 Rb1 48. Ra7+ Kf6 49. h6 Rg1+ 50. Kf3 Rh1 51. h7 Kg6 52. Re7 Kf6 53. Ra7 Rh2  54. Ke4 Rh1 55. Kf3 a4 56. Rxa4 Rxh7 57. Rb4 Rb7 58. Rb5 Ke7 59. Ke4 Kd6 60. Kd4  Kc6 61. Re5 Rd7+ 62. Kc4 Rd6 63. f5 exf5 64. Rxf5 1/2-1/2',
+      id: '4195742',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'E24',
+      t: 'Lindores Abbey Stars',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 b6 6. f3 Nc6 7. e4 Ba6 8. Bg5  h6 9. Bh4 Na5 10. e5 g5 11. Bf2 Nh5 12. c5 Bxf1 13. Kxf1 d6 14. exd6 cxd6 15. h4  gxh4 16. Rxh4 Nf6 17. c4 dxc5 18. dxc5 Qxd1+ 19. Rxd1 Nd7 20. cxb6 axb6 21. Ne2  Rc8 22. Nc3 Rxc4 23. Ne4 Rc7 24. Nd6+ Kf8 25. Bg3 e5 26. Nf5 f6 27. Be1 Nb7 28.  Rg4 Rh7 29. Ra4 Nbc5 30. Ra8+ Kf7 31. Bb4 h5 32. Rd8 Ke6 33. Nd6 Rc6 34. Nc8 Kf5  35. Re8 Kg6 36. Kg1 Kf7 37. Rd8 Kg6 38. Kh2 Rg7 39. Re8 Kh7 40. Nd6 Rg8 41. Re7+  Rg7 42. Re8 Rg8 43. Re7+ Rg7 44. Re8 1/2-1/2',
+      id: '4195828',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'D30',
+      t: 'Lindores Abbey Stars',
+      moves:
+        '1. d4 d5 2. c4 e6 3. Nf3 a6 4. Bg5 Be7 5. Bxe7 Qxe7 6. Nbd2 Nf6 7. g3 O-O 8. Bg2  b6 9. cxd5 exd5 10. O-O Bb7 11. Rc1 a5 12. Re1 c5 13. dxc5 bxc5 14. e4 Nxe4 15.  Nh4 Qf6 16. Nxe4 dxe4 17. Rxc5 Na6 18. Rxa5 Qxb2 19. Bxe4 Bxe4 20. Rxe4 Rad8 21.  Rd5 Rxd5 22. Qxd5 Nb4 23. Qb3 Qxb3 24. axb3 Rb8 25. Nf3 Kf8 26. Kf1 Nd5 27. Nd2  g6 28. Rd4 Nb4 29. Ke2 Ke7 30. Re4+ Kd7 31. Ke3 Rb5 32. Kd4 Rd5+ 33. Kc3 Rd3+  34. Kxb4 Rxd2 35. Rf4 f5 36. Kc5 Kc7 37. b4 Kb7 38. h4 h5 39. Rf3 Rc2+ 40. Kd5  Re2 41. Kc5 Rc2+ 42. Kd4 Re2 43. Kd5 Kb6 44. Rf4 Kb5 45. Kd6 Kb6 46. f3 Kb5 47.  Kd5 Rg2 48. Ke5 Rxg3 49. Kf6 Ka4 50. Kg7 Kb5 51. Kh6 Ka4 52. Rd4 Kb5 53. Rd6  Kxb4 54. Rxg6 Rxf3 55. Kxh5 Kc5 56. Rf6 Kd5 57. Kg6 Ke5 58. h5 Rg3+ 59. Kf7 f4  60. h6 Rh3 61. Kg7 f3 62. Rf8 Rg3+ 63. Kh8 Ke4 64. h7 Ke3 65. Rxf3+ Kxf3 1/2-1/2',
+      id: '4195838',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'A15',
+      t: '7th Norway Chess 2019',
+      moves:
+        '1. c4 Nf6 2. g3 e5 3. Bg2 c6 4. d4 e4 5. Qb3 d5 6. Nc3 dxc4 7. Qxc4 b5 8. Qb3  Qxd4 9. Be3 Qb4 10. Bd2 Qxb3 11. axb3 Bf5 12. g4 Bxg4 13. Nxe4 Nxe4 14. Bxe4 g6  15. Bc3 Rg8 16. b4 a6 17. e3 Bg7 18. Ne2 Bxe2 19. Kxe2 Ra7 20. Bxg7 Rxg7 21.  Rhc1 Rc7 22. h4 Kd8 23. h5 Kc8 24. hxg6 fxg6 25. Rd1 Rge7 26. f3 Re6 27. Rh1 Kb7  28. Rh6 Rf7 29. Rah1 Ree7 30. Rc1 Kb6 31. Rh2 Re6 32. Rch1 Nd7 33. Rxh7 Rxh7 34.  Rxh7 Nf6 35. Rh4 Nxe4 36. fxe4 c5 37. bxc5+ Kxc5 38. Kd3 g5 39. Rg4 Rg6 40. Kc3  a5 41. b4+ axb4+ 42. Kc2 Kc4 43. e5+ Kd5 44. Rxb4 g4 45. Rxb5+ Ke4 46. Rb4+ Kxe3  47. e6 Kf3 48. Rb3+ Kf2 49. Rb4 Kf3 50. Rb3+ Kf4 51. Rb4+ Kf5 52. Rb5+ Kxe6 53.  Kd3 g3 54. Rb6+ Kf5 55. Rxg6 Kxg6 56. Ke2 Kg5 57. Kf3 Kh4 58. Kg2 Kg4 59. Kg1  Kh3 60. Kh1 g2+ 1/2-1/2',
+      id: '4197668',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C77',
+      t: '7th Norway Chess 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 b5 6. Bb3 Bc5 7. c3 d6 8. Bg5 h6  9. Bh4 g5 10. Bg3 Bb6 11. Nbd2 Na5 12. Bc2 Nh5 13. a4 Rb8 14. b4 Nxg3 15. hxg3  Nc6 16. Nf1 Qf6 17. Qe2 Ne7 18. Ne3 h5 19. Bb3 c6 20. axb5 axb5 21. d4 g4 22.  dxe5 dxe5 23. Nh4 Qg5 24. O-O O-O 25. Rad1 Ra8 26. Kh2 Ra3 27. Qb2 Ra7 28. Rd6  Kg7 29. c4 Bc7 30. f4 gxf3 31. Rd3 fxg2 32. Kxg2 f6 33. c5 Rd8 34. Rxd8 Bxd8 35.  Qe2 Ra3 36. Qd3 Bc7 37. Nef5+ Nxf5 38. Nxf5+ Kf8 39. Qc2 Qg4 40. Rf3 Bxf5 41.  Rxf5 h4 42. Rxf6+ Kg7 43. Rf7+ Kg6 44. Qf2 Qxg3+ 45. Qxg3+ hxg3 46. Be6 Bd8 47.  Kh3 Bg5 48. Rc7 Bf4 49. Rxc6 Kg5 50. Bf7 Bd2 51. Rg6+ Kf4 52. Rg4+ 1-0',
+      id: '4197673',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'E06',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 b5 8. a4 b4  9. Nfd2 Nd5 10. Nxc4 c5 11. dxc5 Ba6 12. Ne3 Nd7 13. Nxd5 exd5 14. c6 Rc8 15.  Bf4 Nc5 16. c7 Qd7 17. Nd2 g5 18. Be5 f6 19. Bd4 Rxc7 20. Qd1 Ne6 21. Nb3 Bc4  22. Na5 Nxd4 23. Qxd4 Kg7 24. Rfc1 Bxe2 25. Rxc7 Qxc7 26. Re1 Bc5 27. Qxd5 Re8  28. Qb7 Qxb7 29. Nxb7 Bf8 30. Bc6 Re7 31. f3 Bc4 32. Rxe7+ Bxe7 33. Kf2 f5 34.  Ke3 Bg8 35. Kd3 g4 36. Na5 Bc5 37. Nc4 Bg1 38. Ne3 Be6 39. fxg4 fxg4 40. Ke2 h5  41. Bd5 Bd7 42. Bb3 Bxh2 43. Kf2 h4 44. gxh4 Be5 45. Nc4 g3+ 46. Kg1 Bf4 47. Bd1  Bc6 48. b3 Kh6 49. a5 Be4 50. Kf1 Kg7 51. Kg1 Kf6 52. Kf1 Ke6 53. h5 Kd5 54. a6  Kd4 55. Bg4 Kc3 56. Be6 Bc2 57. Na5 Bc7 58. Nb7 Bd3+ 59. Kg1 Bxa6 0-1',
+      id: '4202261',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'C84',
+      t: '7th Sinquefield Cup TB',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. c3 Na5  9. Bc2 c5 10. d4 cxd4 11. cxd4 O-O 12. h3 Re8 13. d5 Bd7 14. Nc3 Qb8 15. Bd3 Rc8  16. Ne2 Nb7 17. g4 Nc5 18. Ng3 Nxd3 19. Qxd3 b4 20. Re1 Qb5 21. Qd1 Rc7 22. Be3  Rac8 23. Nd2 g6 24. b3 Qb7 25. Nc4 Bb5 26. Na5 Qb8 27. Qd2 Rc3 28. a3 bxa3 29.  Nc6 Bxc6 30. Qxc3 Bxd5 31. Qa5 Bxe4 32. g5 Ba8 33. Qxa6 Nd5 34. Ba7 Qc7 35. Rec1  Qxc1+ 36. Rxc1 Rxc1+ 37. Kh2 Bc6 38. Qxa3 Bxg5 39. Qxd6 Bf4 40. Bc5 Ne7 0-1',
+      id: '4216596',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D43',
+      t: '7th Sinquefield Cup TB',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. g3 dxc4 6. Ne5 Nbd7 7. Nxc4 b5 8. Ne5  Nxe5 9. dxe5 Qxd1+ 10. Kxd1 Nd5 11. Ne4 Bb7 12. Bg2 c5 13. Bd2 Be7 14. Rc1 c4  15. Kc2 O-O-O 16. Rhd1 f5 17. Nd6+ Bxd6 18. exd6 Rxd6 19. Bxd5 exd5 20. Bc3 Re8  21. e3 g5 22. Rd4 Re4 23. Rh1 Rh6 24. h4 Kd7 25. a3 g4 26. Rxe4 fxe4 27. b4 Ra6  28. Kb2 h5 29. Rd1 Ke6 30. Rd2 Bc6 31. Bd4 Be8 32. Bc3 Bc6 33. Bd4 Be8 34. Bc3  Bc6 1/2-1/2',
+      id: '4216593',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'A13',
+      t: '7th Sinquefield Cup TB',
+      moves:
+        '1. c4 Nf6 2. g3 e6 3. Bg2 d5 4. Nf3 dxc4 5. Qa4+ Nbd7 6. Qxc4 a6 7. Qc2 c5 8.  Nc3 Qc7 9. d4 cxd4 10. Nxd4 Bc5 11. Nb3 Bd6 12. O-O O-O 13. Rd1 Be5 14. Be3 Nd5  15. Bxd5 exd5 16. Rac1 Nf6 17. Nxd5 Nxd5 18. Rxd5 Qxc2 19. Rxc2 Bf6 20. Nc5 Re8  21. Bd4 Be7 22. Re5 f6 23. Re3 Bf5 24. Rd2 Bxc5 25. Rxe8+ Rxe8 26. Bxc5 Rc8 27.  b4 a5 28. a3 axb4 29. axb4 Rc7 30. f3 Rd7 31. Ra2 h5 32. Kf2 Kf7 33. h4 Be6 34.  Ra8 b5 35. e4 Bc4 36. Ke3 Rd3+ 37. Kf4 Rd7 38. Rh8 Kg6 39. g4 hxg4 40. fxg4 Kf7  41. h5 Bb3 42. e5 fxe5+ 43. Kxe5 Rd5+ 44. Kf4 Rd1 45. Rf8+ Ke6 46. Re8+ Kf7 47.  Rf8+ Ke6 48. Kg5 Bc2 49. Re8+ Kf7 50. Re7+ Kg8 51. Rb7 Rd5+ 52. Kh4 Bd3 53. g5  Rd8 54. g6 Bc4 55. Kg5 Rd5+ 56. Kf4 Rd8 57. Bd6 Be2 58. Be5 Bxh5 59. Kg5 Be2 60.  Rxg7+ Kf8 61. Rf7+ Ke8 62. Kf6 Bc4 63. Rh7 Rd1 64. Re7+ Kd8 65. Ra7 Rf1+ 66. Kg7  Ke8 67. Bf6 Re1 68. Kh8 Rh1+ 69. Kg7 Re1 70. Rb7 Re2 71. Ra7 Re1 72. Rc7 Re2 73.  Ra7 Re1 74. Ra3 Re2 75. Ra8+ Kd7 76. Kf8 Rf2 77. Kg7 Rg2 78. Rd8+ Ke6 79. Re8+  Kd7 80. Re5 Kd6 81. Re3 Kd7 82. Re7+ Kd6 83. Re3 Kd7 84. Kh6 Rh2+ 85. Kg7 Rg2  86. Bd4 Rg4 87. Bc5 Rg2 1-0',
+      id: '4216595',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'E03',
+      t: '7th Sinquefield Cup TB',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 dxc4 5. Qa4+ Nbd7 6. Qxc4 a6 7. Be3 Bd6 8.  Nh3 O-O 9. O-O h6 10. Nc3 b5 11. Qb3 Rb8 12. Nf4 Bb7 13. Bxb7 Rxb7 14. Nd3 Qe7  15. Rac1 Rbb8 16. Rfd1 Rfc8 17. a3 c5 18. dxc5 Nxc5 19. Bxc5 Bxc5 20. Nxc5 Rxc5  21. Na2 a5 22. Qe3 Rxc1 23. Nxc1 b4 24. axb4 Qxb4 25. Nd3 Qd6 26. Rc1 Nd5 27.  Qd4 Qb6 28. Rc5 Qb3 29. Kg2 Qb7 30. f3 Qa6 31. Kf2 a4 32. Qc4 Qa7 33. Qd4 Qa6  34. Qc4 Qa7 35. Qd4 1/2-1/2',
+      id: '4216594',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'E21',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 O-O 5. Bg5 c5 6. Rc1 h6 7. Bh4 cxd4 8. Nxd4  d5 9. cxd5 g5 10. Bg3 Qxd5 11. e3 Qxa2 12. Qc2 Nd5 13. h4 Nxc3 14. bxc3 Qxc2 15.  Rxc2 Be7 16. hxg5 hxg5 17. f4 Nc6 18. fxg5 Bxg5 19. Rh5 f6 20. Nf3 Bxe3 21. Re2  Bc1 22. Re4 e5 23. Bc4+ Kg7 24. Reh4 Kg6 25. Rh7 Bg4 26. Bd3+ f5 27. Nxe5+ Nxe5  28. Bxe5 Kg5 29. g3 Rg8 30. Rxb7 Rae8 31. Rb5 Rg6 32. Kf2 Rb6 33. Rxb6 axb6 34.  Rh1 Rxe5 35. Rxc1 f4 36. gxf4+ Kxf4 37. Rb1 Rc5 38. Rb4+ Kg5 39. Rxb6 Rxc3 40.  Ke3 Bf5 41. Rd6 Rxd3+ 42. Rxd3 Bxd3 1/2-1/2',
+      id: '4211842',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'D39',
+      t: 'Saint Louis Rapid 2019',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 dxc4 6. e4 b5 7. a4 c5 8. axb5 cxd4 9. Nxd4 h6 10. Be3 Nxe4 11. Qc2 Bb7 12. Bxc4 Qc7 13. Qb3 Bxc3+ 14. bxc3 O-O 15. O-O Rc8 16. Bd3 Nc5 17. Qb1 Nxd3 18. Qxd3 Nd7 19. Qe2 Nb6 20. Qg4 Kh7 21. Bf4 Qc5 22. Rfe1 Nc4 23. Rad1 Rd8 24. Rd3 Qe7 25. Nc6 Bxc6 26. Rxd8 Rxd8 27. bxc6 Nb6 28. Be5 Qg5 29. c7 Rd5 30. Qe4+ Qg6 31. Qb4 Qd3 32. h3 Qb5 33. Qe4+ f5 34. Qf4 Qd7 35. Bd4 Nc8 36. Qg3 Rd6 37. h4 Rc6 38. h5 Qf7 39. Be5 Nb6 40. Ra1 Nc4 41. Rxa7 Nxe5 42. Qxe5 Qxh5 43. Qxg7+ Kxg7 44. c8=Q+ Kf6 45. Qd8+ 1-0',
+      id: '4211859',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'D37',
+      t: 'Saint Louis Blitz 2019',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 b6 7. cxd5 Nxd5 8. Nxd5 exd5 9. Bd3 c5 10. b3 Nc6 11. O-O Be6 12. Rc1 a5 13. h3 g6 14. Bb5 Qc8 15. dxc5 bxc5 16. Nd4 Nxd4 17. exd4 Qb7 18. a4 Rfc8 19. Re1 cxd4 20. Qxd4 Rxc1 21. Rxc1 Rc8 22. Rxc8+ Qxc8 23. Bd2 Qc7 24. Bc3 f6 25. b4 axb4 26. Bxb4 Bxb4 27. Qxb4 Kg7 28. a5 d4 29. a6 Qb6 30. Qe7+ Kh6 31. a7 Bd5 32. Bc4 Bb7 33. a8=Q Bxa8 34. Qf8+ Kg5 35. Qxa8 f5 36. Qd5 Kh6 37. g3 Qf6 38. Kg2 Qb6 39. h4 Qf6 40. Qe6 Qd8 41. Qe5 Qb6 42. Qd5 Qf6 43. Bd3 Qb6 44. Qf3 Kg7 45. Qf4 Qc6+ 46. Kh2 Qc5 47. h5 Kf6 48. h6 g5 49. Qb8 Kg6 50. g4 Kxh6 51. gxf5 g4 52. Kg3 Qd5 53. Qf8+ Kh5 54. Qe8+ Kg5 55. Qe7+ 1-0',
+      id: '4213869',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'A28',
+      t: 'Saint Louis Blitz 2019',
+      moves:
+        '1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. d3 d5 5. cxd5 Nxd5 6. e3 Be7 7. Be2 O-O 8. O-O Be6 9. Bd2 Qd7 10. a3 a5 11. Rc1 Rfd8 12. Ne4 f6 13. Nc5 Bxc5 14. Rxc5 a4 15. Qb1 Nde7 16. h3 Bf5 17. e4 Be6 18. Be3 Na5 19. d4 Nb3 20. dxe5 Nxc5 21. Bxc5 fxe5 22. Nxe5 Qe8 23. f4 Ra5 24. Bb4 Rxe5 25. fxe5 b6 26. Bxe7 Qxe7 27. Qc2 Rd4 28. Qc6 Qd7 29. Bb5 Qxc6 30. Bxc6 h5 31. Kf2 Rd2+ 32. Ke3 Rxg2 33. Bd5 Rg6 34. h4 c5 35. Rf5 b5 36. Rg5 Rh6 37. Rg1 Kf7 38. Rc1 c4 39. Rg1 Rh8 40. Kd4 Rc8 41. Rg5 Rb8 42. Kc5 Rc8+ 43. Kxb5 Rb8+ 44. Kxc4 Rxb2 45. Kc5 Rb1 46. Rxh5 Rb3 47. Rf5+ Ke7 48. Bxb3 Bxf5 49. Bxa4 1-0',
+      id: '4213911',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C89',
+      t: 'Tata Steel India Rapid',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d5 9. exd5 Nxd5 10. Nxe5 Nxe5 11. Rxe5 c6 12. d3 Bd6 13. Re1 Bf5 14. Qf3 Qh4 15. g3 Qh3 16. Be3 Bxd3 17. Bxd5 cxd5 18. Qxd5 Rad8 19. Qg2 Qc8 20. Nd2 Bf5 21. Bd4 Rfe8 22. f3 Bf8 23. a3 Re6 24. Rxe6 Qxe6 25. Qf2 Re8 26. Nf1 h5 27. Ne3 Bh3 28. Re1 Qc6 29. Ng2 Rxe1+ 30. Nxe1 Qg6 31. Qc2 Bf5 32. Qd2 Be6 33. Qd3 Bf5 34. Qe3 Be6 35. Bc5 Bxc5 36. Qxc5 Qb1 37. Qf2 Bd5 38. Kg2 a5 39. Qe2 Qf5 40. Kf2 Be6 41. Nc2 Qh3 42. Kg1 Bc4 43. Qe8+ Kh7 44. Ne3 Qe6 45. Qxe6 Bxe6 46. b4 axb4 47. axb4 g5 48. h4 gxh4 49. gxh4 Kg6 50. Kf2 Kf6 51. Nf1 Ke5 52. Ng3 f5 53. Nxh5 f4 54. Ng7 Bf7 55. h5 Kf6 56. h6 Kg6 57. Nh5 Kxh6 58. Nxf4 Kg5 59. Ne2 Kf5 1-0',
+      id: '4230928',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'C85',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Bxc6 dxc6 7. d3 Nd7 8. Nbd2 O-O 9. a4 a5 10. b3 f6 11. Nh4 Nc5 12. Nf5 Ne6 13. Nc4 b6 14. Nxe7+ Qxe7 15. Ne3 g6 16. Bb2 c5 17. Qd2 Bb7 18. Rae1 Rad8 19. f3 Kf7 20. Qf2 Ke8 21. Qh4 Kd7 22. f4 Nxf4 23. Rxf4 exf4 24. Ng4 g5 25. Qh6 Qe6 26. Nxf6+ Kc8 27. Qxg5 f3 28. Rf1 Rg8 29. Nxg8 Rxg8 30. Qe5 Rxg2+ 31. Kh1 Qg6 32. h4 Bc6 33. Qf4 Rxc2 34. Rg1 Rg2 35. Qe3 Qg3 0-1',
+      id: '4230952',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '1-0',
+      e: 'A90',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. d4 e6 2. c4 f5 3. g3 Nf6 4. Bg2 d5 5. Nf3 Bd6 6. Bf4 Bxf4 7. gxf4 O-O 8. Nc3 c6 9. e3 b6 10. Ne5 Bb7 11. Rc1 Nbd7 12. Qa4 Nxe5 13. fxe5 Ne4 14. cxd5 cxd5 15. Ne2 Rc8 16. Rxc8 Qxc8 17. f3 Bc6 18. Qb4 Ng5 19. Kd2 Qd7 20. Rc1 Rc8 21. Nf4 Nf7 22. Bf1 Nd8 23. Ba6 Bb7 24. Bb5 Bc6 25. Ba6 Bb7 26. Rxc8 Bxc8 27. Bxc8 Qxc8 28. Qe7 h6 29. Qe8+ Kh7 30. Ng6 Qc4 31. Nf8+ Kg8 32. Nxe6+ Kh7 33. Nf8+ Kg8 34. Ng6+ Kh7 35. Ne7 Qb4+ 36. Ke2 Qxb2+ 37. Kf1 Qc1+ 38. Kg2 Qd2+ 39. Kh3 1-0',
+      id: '4232216',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C48',
+      t: 'Vugar Gashimov Mem 2018',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Nd4 5. Nxd4 exd4 6. e5 dxc3 7. exf6 Qxf6 8. Qe2+ Qe7 9. dxc3 Qxe2+ 10. Kxe2 Bc5 11. Be3 Bxe3 12. Kxe3 c6 13. Bd3 d5 14. Rae1 Ke7 15. c4 dxc4 16. Bxc4 Rd8 17. Rd1 Be6 18. Bxe6 Kxe6 19. Rhe1 Rxd1 20. Rxd1 Re8 21. f4 f5 22. Kf3 Re7 23. Re1+ Kf6 24. Rd1 Ke6 25. Re1+ Kf6 26. Rd1 Ke6 27. Re1+ 1/2-1/2',
+      id: '4113053',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'A20',
+      t: '6th Norway Blitz 2018',
+      moves:
+        '1. c4 e5 2. g3 Nf6 3. Bg2 Bc5 4. Nc3 c6 5. e3 O-O 6. Nge2 d5 7. cxd5 Nxd5 8. d4 exd4 9. Nxd5 cxd5 10. Nxd4 Nc6 11. Nxc6 bxc6 12. O-O Be6 13. Qc2 Qb6 14. b3 d4 15. exd4 Bxd4 16. Bb2 Bxb2 17. Qxb2 Rac8 18. Rac1 c5 19. Rc2 c4 20. bxc4 Rxc4 21. Qxb6 axb6 22. Rxc4 Bxc4 23. Rb1 Bxa2 24. Rxb6 Be6 25. Ra6 g6 26. Ra8 Rxa8 27. Bxa8 Kg7 28. f4 Kf6 1/2-1/2',
+      id: '4117456',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C47',
+      t: '34th ECC Open 2018',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nxd4 Bb4 6. Nxc6 bxc6 7. Bd3 d5 8. exd5 O-O 9. O-O cxd5 10. Bg5 c6 11. Qf3 Bd6 12. h3 h6 13. Bf4 Rb8 14. b3 Rb4 15. Bxd6 Qxd6 16. Rfe1 a5 17. Rad1 Bd7 18. Qe3 Rc8 19. Qa7 Rh4 20. Re3 Qc7 21. Qxc7 Rxc7 22. Na4 c5 23. g4 d4 24. Rf3 Nxg4 25. Re1 Nf6 26. Nb6 Bc6 27. Rg3 g5 28. Re5 Nh5 29. Bf5 Rf4 30. Rg4 Bf3 31. Rxf4 Nxf4 32. Nd7 c4 33. bxc4 Rxc4 34. Rxa5 Rb4 35. Kh2 Rb1 36. Ne5 Rh1+ 37. Kg3 Bd5 38. f3 Re1 39. Nd3 Rg1+ 40. Kf2 Rg2+ 41. Ke1 Re2+ 42. Kf1 Bc4 43. Kg1 Rg2+ 44. Kh1 Bxd3 45. Bxd3 Rg3 46. h4 Rh3+ 47. Kg1 Rxh4 48. Bf1 Kg7 49. a4 Ng6 50. Rc5 d3 51. a5 dxc2 52. Rxc2 Ra4 53. a6 h5 54. Rc5 Kf6 55. Rc6+ Kg7 56. Rc5 Kf6 57. Rc6+ Kg7 1/2-1/2',
+      id: '4148583',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C90',
+      t: 'Carlsen-Ding Showdown G30',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. c3 O-O 9. Re1 Na5 10. Bc2 c5 11. Nbd2 Re8 12. Nf1 Nc6 13. Ne3 Bf8 14. a4 b4 15. Bb3 h6 16. Nd5 Rb8 17. a5 Nxd5 18. Bxd5 Qc7 19. Nh4 Be6 20. Bxe6 Rxe6 21. Nf5 Rb5 22. Ne3 Rxa5 23. Nd5 Qd8 24. Be3 Rxa1 25. Qxa1 a5 26. Qa4 Ne7 27. Ra1 Nxd5 28. exd5 Re7 29. Qxa5 Qxa5 30. Rxa5 bxc3 31. bxc3 Rb7 32. Kf1 f5 33. Ke2 Kf7 34. Kd1 Be7 35. Kc2 g5 36. Ra6 h5 37. Bd2 g4 38. c4 h4 39. h3 Rb8 40. Ra7 Rg8 41. Kd1 f4 42. f3 gxf3 43. gxf3 Rg1+ 44. Be1 Rh1 45. Ke2 Rxh3 46. Bf2 Kf6 47. Kf1 Rxf3 48. Kg2 Rg3+ 49. Bxg3 hxg3 50. Kf3 Bf8 51. Ke4 Be7 52. Kf3 Bf8 53. Ke4 Be7 54. Kf3 Bf8 1/2-1/2',
+      id: '4079289',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'D11',
+      t: 'Carlsen-Ding Showdown G30',
+      moves:
+        '1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bg4 5. h3 Bh5 6. Nc3 e6 7. g4 Bg6 8. Ne5 Nbd7 9. Nxg6 hxg6 10. g5 Ng8 11. h4 Bb4 12. Qb3 Bxc3+ 13. bxc3 Ne7 14. Ba3 Nb6 15. Bxe7 Qxe7 16. c5 Nc8 17. c4 Qc7 18. cxd5 exd5 19. Bd3 Ne7 20. a4 b6 21. Rc1 bxc5 22. Rxc5 Rb8 23. Qd1 Rb4 24. Kf1 Qd7 25. Kg2 Qe6 26. Ra5 Rb7 27. Qf3 Qd6 28. Qg3 Qxg3+ 29. Kxg3 Kd7 30. Rb1 Kc7 31. Rxb7+ Kxb7 32. Rc5 Kc7 33. Rc1 Rb8 34. Rb1 Rxb1 35. Bxb1 a5 36. Kf4 Kd6 37. Bd3 Nc8 38. e4 dxe4 39. Kxe4 Nb6 40. Bc2 c5 41. dxc5+ Kxc5 42. Bb3 Nc4 43. Kd3 Nd6 44. Kc3 Ne4+ 45. Kc2 f6 46. gxf6 Nxf6 47. Bf7 Kb4 48. Bxg6 Kxa4 49. Kc3 Kb5 50. Bd3+ Kc5 51. Kb3 Nd5 52. Ka4 Nf4 53. Bf5 Kb6 54. f3 Ng2 55. h5 Nf4 56. Bg4 Nd3 57. Kb3 Kb5 58. Bd7+ Kc5 59. Ka4 Kb6 60. Bf5 Nc5+ 61. Ka3 Kb5 62. Bg6 Kc4 63. f4 Kd4 64. f5 Ke5 65. Bh7 Kf6 66. Bg6 Kg5 67. Ka2 Ne4 68. Kb3 Ng3 69. Ka4 Nxh5 70. Kxa5 Ng3 71. Kb4 Nxf5 72. Be8 Kf4 73. Kc3 Ke3 74. Bd7 Nd4 75. Kc4 Ke4 76. Kc3 Nf3 77. Bc8 g5 78. Bd7 Ke3 79. Bc8 Nd2 80. Kc2 Ne4 81. Kd1 Kf2 82. Kc2 Nd6 83. Bd7 Nf7 84. Kd2 Ne5 85. Bc8 1/2-1/2',
+      id: '4079290',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C84',
+      t: 'Carlsen-Ding Showdown G30',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a4 Bd7 9. c3 Na5 10. Ba2 bxa4 11. Nbd2 O-O 12. Bb1 Bb5 13. Bc2 Nb7 14. c4 Bd7 15. Bxa4 Bxa4 16. Qxa4 Nc5 17. Qc2 a5 18. b3 Ne6 19. Bb2 c5 20. Ra4 Nd7 21. Rfa1 Nb8 22. Nf1 Nc6 23. Ne3 Qd7 24. Bc3 Bd8 25. Qd1 Rb8 26. R4a2 g6 27. g3 f5 28. exf5 gxf5 29. Nd5 Rb7 30. Nd2 Qe8 31. f4 Qg6 32. Kh1 Nb4 33. Bxb4 cxb4 34. Nf3 exf4 35. gxf4 Rg7 36. Qe2 Re8 37. Rg1 Qh5 38. Rxg7+ Kxg7 39. Qf1 h6 40. Rg2+ Kh7 41. d4 Nc7 42. Qd1 Qf7 43. Nxc7 Bxc7 44. Qd3 Bd8 45. c5 Re4 46. cxd6 Rxf4 47. Ne5 Qd5 48. Qa6 Bb6 49. Nd7 Qf7 50. Qc4 Qxc4 51. Nf8+ Kh8 52. Ng6+ Kh7 53. Nf8+ Kh8 1/2-1/2',
+      id: '4079291',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'E06',
+      t: 'Carlsen-Ding Showdown G30',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 O-O 6. Qc2 c5 7. O-O cxd4 8. Nxd4 Nc6 9. Nxc6 bxc6 10. Rd1 Ba6 11. b3 Qb6 12. Nd2 Rfd8 13. Bb2 Rac8 14. Rac1 h6 15. e3 c5 16. cxd5 exd5 17. Nf3 d4 18. Qd2 Ne4 19. Qe1 d3 20. Nd2 Nxd2 21. Qxd2 c4 22. bxc4 Bb4 23. Bc3 Rxc4 24. Bxb4 Qxb4 25. Qxb4 Rxb4 26. Rd2 Rc4 27. Rcd1 Rc3 28. f4 Bc4 29. Kf2 Ra3 30. Bf1 a5 31. Ke1 a4 32. Rc1 Be6 33. Ra1 Kf8 34. Rb2 Rc3 35. Rd2 a3 36. Rb1 Bc4 37. Rb4 Rc1+ 38. Kf2 Bxa2 39. Ra4 Rc3 40. Rxa2 Rc2+ 0-1',
+      id: '4079292',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'E21',
+      t: 'Carlsen-Ding Showdown G20',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 O-O 5. Bg5 c5 6. e3 cxd4 7. exd4 d5 8. Be2 dxc4 9. O-O h6 10. Bh4 b6 11. Ne5 Bxc3 12. bxc3 Bb7 13. Nxc4 Nbd7 14. Nd6 Bc6 15. c4 Qe7 16. Bg3 Rfd8 17. d5 exd5 18. Nf5 Qe8 19. Bc7 dxc4 20. Bxd8 Rxd8 21. Bf3 Ne5 22. Bxc6 Nxc6 23. Qa4 Ne5 24. Qxa7 Qe6 25. Qc7 Re8 26. Ne3 Rc8 27. Qb7 Nd3 28. Rad1 Ne4 29. Qd5 b5 30. h3 Qe8 31. Rxd3 cxd3 32. Qxd3 Rd8 33. Nd5 Qe5 34. Nf6+ Qxf6 35. Qxe4 g6 36. a4 bxa4 1/2-1/2',
+      id: '4079293',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'E49',
+      t: 'Carlsen-Ding Showdown G20',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. a3 Bxc3+ 7. bxc3 dxc4 8. Bxc4 c5 9. Nf3 Qc7 10. Be2 b6 11. Bb2 Ba6 12. c4 cxd4 13. Nxd4 Nbd7 14. O-O Rac8 15. Nb5 Qb8 16. a4 Rfd8 17. Qd6 Bxb5 18. Qxb8 Nxb8 19. axb5 Rd2 20. Bxf6 gxf6 21. Rfe1 Rc7 22. Rad1 Rxd1 23. Rxd1 Nd7 24. g4 Kf8 25. Kg2 Ke7 26. Kg3 Nc5 27. f3 a5 28. bxa6 Nxa6 29. Ra1 Nc5 30. Ra8 Nd7 31. h4 Ne5 32. Ra4 h6 33. f4 Nc6 34. h5 Ra7 35. Rxa7+ Nxa7 36. Kh4 Kf8 37. g5 Kg7 38. gxh6+ Kxh6 39. Kg3 Nc8 40. Kf2 Nd6 41. Ke1 Ne4 42. Bf3 f5 43. Ke2 Nf6 44. Kd3 Ng4 45. Kc3 Kxh5 46. Kb4 Kh4 47. Kb5 Kg3 48. Bd1 Nxe3 49. Bb3 e5 50. Kxb6 exf4 51. c5 f3 52. c6 f2 53. c7 f1=Q 54. c8=Q f6 55. Qc7+ Qf4 56. Qxf4+ Kxf4 57. Kc5 Ke4 58. Ba4 f4 59. Bc6+ Kd3 60. Kd6 Nf5+ 61. Kd7 Nd4 62. Bb7 Ke3 63. Ke7 f5 64. Kf6 f3 65. Kg5 f2 66. Bg2 Nf3+ 67. Kf6 f4 0-1',
+      id: '4079294',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C50',
+      t: 'Carlsen-Ding Showdown G20',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. O-O O-O 6. h3 d6 7. c3 a5 8. Re1 h6 9. Nbd2 Be6 10. Bb5 Qb8 11. Nf1 Qa7 12. Be3 Bxe3 13. Nxe3 Ne7 14. a4 Ng6 15. Bc4 Bxc4 16. Nxc4 Qa6 17. g3 Rfe8 18. Qb3 Nf8 19. Qb5 Ne6 20. d4 exd4 21. cxd4 Qxb5 22. axb5 b6 23. Ncd2 a4 24. Nb1 d5 25. exd5 Ng5 26. Rxe8+ Rxe8 27. Nbd2 Nxf3+ 28. Nxf3 Re2 29. Rxa4 Rxb2 30. Ra8+ Kh7 31. Ne5 Rxb5 32. Nxf7 Rxd5 33. g4 g5 34. Rc8 Rxd4 35. Rxc7 Rd7 36. Rxd7 Nxd7 37. Nd6 Kg6 38. Kg2 Ne5 39. Kg3 Nd3 40. f3 h5 41. h4 hxg4 42. fxg4 gxh4+ 43. Kxh4 Ne5 44. Kg3 1/2-1/2',
+      id: '4079295',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'A28',
+      t: 'Carlsen-Ding Showdown G20',
+      moves:
+        '1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 Bb4 5. Qc2 d6 6. Nd5 Ba5 7. a3 Nxd5 8. cxd5 Ne7 9. b4 Bb6 10. Bc4 O-O 11. Bb2 Bf5 12. d3 Ng6 13. h4 h6 14. h5 Ne7 15. Nd2 Rc8 16. e4 Bg4 17. d4 exd4 18. f3 Bd7 19. Qd3 c6 20. dxc6 Bxc6 21. b5 Bd7 22. O-O d5 23. exd5 Bf5 24. Ne4 Nxd5 25. Bxd5 Qxd5 26. Rad1 Rfd8 27. Rfe1 Rc3 0-1',
+      id: '4079296',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C84',
+      t: 'Carlsen-Ding Showdown G20',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3 O-O 9. Nc3 Na5 10. Ba2 Be6 11. b4 Bxa2 12. Rxa2 Nc6 13. Bg5 Qd7 14. Bxf6 Bxf6 15. Nd5 a5 16. c4 Ne7 17. Rc2 Nxd5 18. cxd5 axb4 19. axb4 Ra4 20. Qd2 Rfa8 21. Rfc1 Bd8 22. h3 Ra1 23. Rxa1 Rxa1+ 24. Rc1 Ra4 25. d4 exd4 26. Nxd4 Bf6 27. Nc6 Qc8 28. e5 dxe5 29. d6 Ra8 30. Ne7+ Bxe7 31. dxe7 1-0',
+      id: '4079297',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: 'Carlsen-Ding Showdown G20',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4 Bd7 9. Qxc4 Bc6 10. Bg5 h6 11. Bxf6 Bxf6 12. Nc3 Bxf3 13. Bxf3 c6 14. e3 a5 15. b4 axb4 16. Qxb4 Ra7 17. a5 Nd7 18. a6 Be7 19. Qc4 bxa6 20. Rxa6 Nb6 21. Qa2 Rxa6 22. Qxa6 c5 23. Nb5 cxd4 24. Nxd4 Nd7 25. Nc6 Nb8 26. Nxd8 Nxa6 27. Nc6 Bf6 28. Rc1 Nb8 29. Kg2 Nxc6 30. Rxc6 g6 31. Ra6 Kg7 32. Ra8 Rxa8 33. Bxa8 Be7 1/2-1/2',
+      id: '4079298',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'B48',
+      t: 'Carlsen-Ding Showdown G10',
+      moves:
+        '1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. a3 b5 8. Nxc6 Qxc6 9. Bd3 Bb7 10. O-O Nf6 11. Re1 Rc8 12. Qf3 Bd6 13. Bd4 Qc7 14. Bxf6 gxf6 15. Qh5 Be5 16. Nd1 Ke7 17. c3 Rcg8 18. Ne3 Rg5 19. Qh3 h5 20. Qh4 Rhg8 21. g3 f5 22. exf5 Qc6 23. Nd5+ Qxd5 24. Be4 Qc4 25. b3 Qxc3 26. Bxb7 Bf6 27. Rac1 Qxb3 28. Qe4 Rg4 29. Qe2 h4 30. fxe6 fxe6 31. Rcd1 hxg3 32. fxg3 Rd4 33. Kg2 Rxd1 34. Rxd1 Qxa3 35. Qd2 Qb2 36. Qxb2 Bxb2 37. Bxa6 b4 38. Bd3 d5 39. Kf3 e5 40. Bc2 e4+ 41. Ke2 Rc8 42. Bb3 d4 43. Bd5 Rc2+ 44. Kf1 e3 45. Re1 Rf2+ 46. Kg1 Bc3 47. Rf1 Rxf1+ 0-1',
+      id: '4080119',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'A07',
+      t: 'Carlsen-Ding Showdown G10',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 c6 5. O-O Nf6 6. b3 O-O 7. Bb2 Bf5 8. c4 Nbd7 9. e3 Ne4 10. Nfd2 Ndf6 11. Nxe4 Bxe4 12. Bh3 Qb6 13. f3 Bxb1 14. Rxb1 e6 15. Qd3 Rfe8 16. c5 Qc7 17. e4 b6 18. e5 Nd7 19. b4 a5 20. a3 Reb8 21. Bc3 Bf8 22. Rfc1 axb4 23. axb4 bxc5 24. bxc5 Ra3 25. Bf1 Nxc5 26. dxc5 Bxc5+ 27. Kh1 d4 28. Rxb8+ Qxb8 29. Qc4 Rxc3 30. Rxc3 dxc3 31. Qxc5 Qb1 32. Kg2 c2 33. Qd6 Qd1 34. Bd3 Qd2+ 35. Kh3 Qh6+ 0-1',
+      id: '4080120',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'B40',
+      t: 'Carlsen-Ding Showdown G10',
+      moves:
+        '1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. g3 d5 5. Qe2 Nf6 6. Bg2 Be7 7. O-O O-O 8. e5 Nd7 9. c4 d4 10. Re1 Rb8 11. h4 b5 12. cxb5 Rxb5 13. Na3 Rb8 14. Nc4 Nb6 15. b3 Nxc4 16. bxc4 Rb6 17. Ng5 h6 18. Nh3 Bb7 19. Qg4 Kh8 20. Qh5 Qe8 21. Bxh6 f5 22. Qxe8 Rxe8 23. Bd2 Kg8 24. Nf4 Kf7 25. Bf3 g6 26. Rab1 Rxb1 27. Rxb1 Ba8 28. h5 g5 29. Ng6 Bd8 30. Rb5 g4 31. Bg2 Bb6 32. a4 1-0',
+      id: '4080121',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'E10',
+      t: 'Carlsen-Ding Showdown G10',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Bb4+ 5. Bd2 Be7 6. Bg2 O-O 7. O-O Nbd7 8. Bc3 b6 9. cxd5 Nxd5 10. e4 Nxc3 11. Nxc3 Bb7 12. Re1 Re8 13. Qc2 c6 14. Rad1 Qc7 15. e5 Rad8 16. h4 h6 17. Qe4 Qb8 18. Qg4 Bb4 19. Nd2 c5 20. Bxb7 Qxb7 21. Nde4 cxd4 22. Rxd4 Be7 23. Nd6 Bxd6 24. exd6 Nf6 25. Qe2 Rd7 26. Qe5 Rc8 27. Red1 Rc5 28. Qe2 Qc6 29. a3 Kf8 30. R4d3 Rc4 31. Qe1 Ne4 32. Nxe4 Rxe4 33. Qd2 Rc4 34. b3 Rc2 35. Qe3 Qc5 36. Qf3 Qc6 37. Qe3 Rc5 38. a4 a5 39. Qf4 Kg8 40. Qe3 Rc2 41. R3d2 Rc3 42. Rd3 Rc5 43. Qf4 Rd5 44. Rxd5 exd5 45. Rc1 Qxd6 46. Rc8+ Kh7 47. Qd4 Qe6 48. Qd3+ Qe4 49. Qxe4+ dxe4 50. Rc6 Rb7 51. Kf1 g6 52. Ke2 Kg7 53. Ke3 b5 54. Rc5 bxa4 55. bxa4 Rb3+ 56. Ke2 Rb2+ 57. Kf1 Ra2 58. Rxa5 Kf6 59. Ke1 Ke6 60. Kf1 f6 61. Ke1 g5 62. hxg5 hxg5 63. g4 e3 64. fxe3 Rg2 65. Ra6+ Kf7 66. a5 Rxg4 67. Rb6 Rg2 68. a6 Ra2 69. e4 Ra4 70. e5 Re4+ 71. Kd2 Rxe5 72. Kc3 Ra5 0-1',
+      id: '4080122',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C90',
+      t: 'Carlsen-Ding Showdown G10',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. c3 O-O 9. Re1 Na5 10. Bc2 c5 11. Nbd2 Re8 12. Nf1 Nc6 13. Ne3 Bf8 14. a4 b4 15. Nd5 h6 16. a5 Nxd5 17. exd5 Nxa5 18. Ba4 Re7 19. Nd2 Rb8 20. c4 Nb7 21. Ne4 f5 22. Ng3 f4 23. Ne4 Rf7 24. Bd2 Qb6 25. Be8 Re7 26. Qh5 Bf5 27. Qxf5 Rbxe8 28. Qg6 Kh8 29. g3 Na5 30. Nxd6 Kg8 31. Rxa5 Rd8 32. Rea1 Rxd6 33. Qe4 Qb7 34. Rxc5 Rf7 35. Rc6 Rxc6 36. dxc6 Qb6 37. gxf4 Bc5 38. Kh1 Bd4 39. fxe5 Rxf2 40. Bf4 Bxb2 41. Be3 Qb8 42. Rg1 Rf8 43. d4 1-0',
+      id: '4080123',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'E11',
+      t: 'Carlsen-Ding Showdown G10',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 O-O 5. a3 Be7 6. e4 d6 7. Be2 c5 8. d5 e5 9. Qc2 Nbd7 10. Nf1 a6 11. Bd2 Nh5 12. g3 g6 13. Ne3 Ng7 14. Bd3 Nf6 15. O-O Ng4 16. b4 b6 17. bxc5 bxc5 18. Rab1 Nxe3 19. Bxe3 Bh3 20. Rfe1 f5 21. exf5 gxf5 22. Bf1 Bxf1 23. Rxf1 Qd7 24. Bg5 e4 25. Bxe7 Qxe7 26. Nh4 f4 27. Ng2 Nf5 28. Nxf4 Nd4 29. Qb2 Qg5 30. Ne6 Nf3+ 31. Kg2 Qg4 32. h3 Nh4+ 33. Kh2 Nf3+ 34. Kg2 Nh4+ 35. Kh2 1/2-1/2',
+      id: '4080124',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C84',
+      t: 'Carlsen-Ding Showdown G10',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3 O-O 9. Nbd2 Na5 10. Ba2 c5 11. Re1 Nc6 12. c3 Re8 13. Nf1 h6 14. Ne3 Bf8 15. b4 Be6 16. Nd5 Rc8 17. Bd2 Bxd5 18. exd5 Ne7 19. c4 Nf5 20. a4 bxa4 21. bxc5 Rxc5 22. Qxa4 e4 23. dxe4 Nxe4 24. Bb4 Rc8 25. Qc2 Qf6 26. h3 Nd4 27. Nxd4 Qxd4 28. Rad1 Qb6 29. Rb1 Qd4 30. Rbd1 Qb6 31. Ba3 Qa5 32. Re3 Nf6 33. Rdd3 Rxe3 34. Rxe3 Re8 35. Bc1 Rxe3 36. Bxe3 Qe1+ 37. Kh2 Qa1 38. g3 a5 39. Kg2 Qe5 40. Bb1 g6 41. Bb6 Qe1 42. Bd4 Nd7 43. Bc3 Qe7 44. Bxa5 Bg7 45. Bd2 h5 46. Be3 Be5 47. Qd2 Nc5 48. Bc2 Kg7 49. Qe2 Qf6 50. Qf3 Qxf3+ 51. Kxf3 f5 52. Ke2 Kf6 53. Kd2 g5 54. f4 gxf4 55. gxf4 Bb2 56. Bf2 Kg6 57. Kd1 Bc3 58. Bh4 Bf6 59. Be1 Bd4 60. Ke2 Bb2 61. Ba5 Bc1 62. Kf3 Ba3 63. Bc7 Nd7 64. Ke2 Nf6 65. Bd3 Bc5 66. Kd1 Ne4 67. Kc2 Nf2 68. Bf1 Ne4 69. Bg2 Ng3 70. Bf3 Ne4 71. Bg2 Ng3 72. Kd3 h4 73. Bd8 Nh5 74. Bg5 Bf2 75. Bf3 Nf6 76. Ke2 Bg3 77. Ke3 Kf7 78. Kd3 Nh7 79. Bh5+ Kg7 80. Be7 Nf6 81. c5 dxc5 82. Bf3 Bxf4 83. Bxc5 Ne8 84. Be7 Nd6 85. Bxh4 Kg6 1-0',
+      id: '4080125',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'D37',
+      t: 'Carlsen-Ding Showdown G10',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 a6 5. cxd5 exd5 6. Bg5 Be6 7. e3 Nbd7 8. Bd3 h6 9. Bh4 Bd6 10. O-O O-O 11. Rc1 Re8 12. a3 c6 13. Bg3 Bxg3 14. hxg3 Bg4 15. Ne2 Ne4 16. Nf4 Ndf6 17. Be2 Nd6 18. Ne5 Bxe2 19. Qxe2 Nfe4 20. g4 Qg5 21. g3 f5 22. Kg2 fxg4 23. Rh1 Nf6 24. Rh4 Rxe5 25. dxe5 Qxe5 26. Rhh1 Qe4+ 27. Kg1 Nc4 28. Qc2 Ne5 29. Qxe4 Nxe4 30. Kg2 Rf8 31. Rc2 Rf6 32. Rd1 g5 33. Nd3 Nxd3 34. Rxd3 h5 35. b4 h4 36. a4 Kg7 37. b5 axb5 38. axb5 Kg6 39. bxc6 bxc6 40. Ra3 c5 41. Rd3 h3+ 42. Kg1 Rd6 43. Rd1 Kf5 44. Rb2 c4 45. Rb8 c3 46. Rf8+ Ke5 47. Re8+ Re6 48. Rd8 Rd6 49. Re8+ Kf5 50. Rf8+ Ke6 51. Re8+ Kd7 52. Ra8 Nd2 53. Rc1 Rc6 54. Ra3 Ne4 55. Rd1 Ke6 56. Rc1 Rb6 57. Raxc3 Nxc3 58. Rxc3 Rb1+ 59. Kh2 Rf1 60. Rc2 Kf5 61. Rb2 Ke4 62. Ra2 Kf3 63. e4 Kxe4 64. Re2+ Kd3 65. Re3+ Kc4 0-1',
+      id: '4080126',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'A04',
+      t: 'Carlsen-Ding Showdown G5',
+      moves:
+        '1. Nf3 c5 2. e3 Nf6 3. d4 e6 4. c4 d5 5. cxd5 exd5 6. Bb5+ Bd7 7. Bxd7+ Nbxd7 8. O-O c4 9. a4 a6 10. a5 Bd6 11. b3 Rc8 12. bxc4 dxc4 13. Qa4 O-O 14. Ba3 b5 15. axb6 Nxb6 16. Qc2 Nbd5 17. Nc3 Nxc3 18. Qxc3 Rc6 19. Bxd6 Qxd6 20. Ne5 Rc7 21. Qa3 Qxa3 22. Rxa3 c3 23. Rc1 c2 24. Kf1 Rb8 25. Rxa6 h5 26. Ra2 Rb1 27. Nd3 Rc3 28. Rxc2 Rxc1+ 29. Rxc1 Rxd3 30. Ke2 Ra3 31. Rc2 g6 32. Kf3 Kg7 33. h3 g5 34. Rc5 Kg6 35. Rc6 h4 36. g4 hxg3 37. Kxg3 Kf5 38. Rc5+ Kg6 39. Rc6 Kg7 40. h4 g4 41. h5 Nxh5+ 42. Kxg4 Nf6+ 43. Kf3 Nd5 44. Rc5 Nb4 45. Rb5 Nc6 46. Ke4 Ne7 47. Rb7 Kf6 48. Rb6+ Kg7 49. Rb7 Kf6 50. Rb6+ 1/2-1/2',
+      id: '4080127',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'E62',
+      t: 'Carlsen-Ding Showdown G5',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 d6 6. Nf3 c6 7. O-O Bf5 8. Ne1 Be6 9. d5 cxd5 10. cxd5 Bd7 11. Be3 a5 12. Bd4 Na6 13. Nd3 b5 14. a3 b4 15. axb4 Nxb4 16. Qd2 Rb8 17. Nxb4 Rxb4 18. e3 Qb8 19. Ne2 a4 20. Bc3 Rb5 21. Nd4 Rxd5 22. Bxd5 Nxd5 23. Rfc1 Qb7 24. Ne2 Nxc3 25. Nxc3 Rb8 26. Nd5 Bxb2 27. Rc7 Qxc7 28. Nxc7 Bxa1 29. Nd5 Kf8 30. Qa5 Bc6 31. Nb4 Bc3 32. Qc7 Rxb4 33. Qxc6 Bf6 34. Qa8+ Kg7 35. Qa5 Rb1+ 36. Kg2 Ra1 37. f4 a3 38. e4 Bb2 39. Qb4 Re1 40. Qb3 Rxe4 41. Kf3 Re1 42. h4 h5 43. Qc4 e6 44. Qb3 d5 45. Qa2 Ra1 46. Qb3 Rc1 47. Kg2 Rc3 48. Qa4 Rc4 49. Qa7 Rc2+ 50. Kf3 d4 51. Qa5 d3 52. Qa4 Rc1 53. Qb4 Rc8 54. g4 hxg4+ 55. Kxg4 Rd8 56. Qd2 Bf6 57. h5 a2 0-1',
+      id: '4080128',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'B23',
+      t: 'Carlsen-Ding Showdown G5',
+      moves:
+        '1. e4 c5 2. Nc3 d6 3. Nge2 Nf6 4. g3 Nc6 5. Bg2 g6 6. d3 Bg7 7. O-O O-O 8. h3 e6 9. Be3 b6 10. Qd2 d5 11. Bh6 Bxh6 12. Qxh6 Nd4 13. exd5 Nxe2+ 14. Nxe2 exd5 15. Rfe1 Bb7 16. g4 Re8 17. Ng3 Qd6 18. g5 Rxe1+ 19. Rxe1 Re8 20. Rxe8+ Nxe8 21. Nf1 Bc8 22. Qh4 d4 23. Qg3 Be6 24. a3 Kg7 25. Nd2 Qxg3 26. fxg3 Nd6 27. Kf2 Nf5 28. Nf1 f6 29. gxf6+ Kxf6 30. g4 Nd6 31. Nd2 h5 32. gxh5 gxh5 33. Kg3 Nf5+ 34. Kf4 Ne3 35. Bf3 h4 36. Ne4+ Ke7 37. Ng5 Nxc2 38. Nxe6 Kxe6 39. Kg5 Ke5 40. Kxh4 Kf4 41. Bc6 Ne1 42. Bb5 Ke3 43. Kg5 Nxd3 44. h4 Nf4 45. Kf5 Kf3 46. Bc6+ Kg3 47. Bb5 Kf3 48. Bc6+ Ke3 49. Bb5 Nh5 50. Kg5 Ng3 51. Kg4 Ne4 52. h5 Nf6+ 53. Kg5 Nxh5 54. Kxh5 d3 55. Kg4 d2 56. Ba4 Ke2 57. Kf4 d1=Q 0-1',
+      id: '4080129',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'A15',
+      t: 'Carlsen-Ding Showdown G5',
+      moves:
+        '1. Nf3 Nf6 2. c4 c5 3. Nc3 e6 4. g3 b6 5. Bg2 Bb7 6. O-O a6 7. Re1 d6 8. e4 Be7 9. d4 cxd4 10. Nxd4 Qc7 11. Be3 Nbd7 12. Rc1 Rc8 13. f4 Qb8 14. g4 h5 15. g5 Ng4 16. g6 Rxc4 17. gxf7+ Kxf7 18. Bf1 Nxe3 19. Rxe3 Rxd4 20. Qxd4 b5 21. Rg3 Bf6 22. e5 Bd8 23. Ne4 Bb6 0-1',
+      id: '4080130',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'A45',
+      t: 'Carlsen-Ding Showdown G5',
+      moves:
+        '1. d4 Nf6 2. Bf4 g6 3. Nc3 d5 4. e3 Bg7 5. Nf3 O-O 6. Be2 c5 7. O-O cxd4 8. exd4 Bg4 9. h3 Bxf3 10. Bxf3 Nc6 11. Ne2 b5 12. c3 e6 13. a3 a5 14. Nc1 b4 15. a4 Ne4 16. Bxe4 dxe4 17. Nb3 e5 18. dxe5 bxc3 19. bxc3 Nxe5 20. Bxe5 Bxe5 21. Rc1 Qg5 22. Qe2 e3 23. fxe3 Rae8 24. Rf3 Bc7 25. Nd4 Re4 26. Rcf1 Qe5 27. Qd3 Re8 28. Kf2 Qg5 29. Rb1 Qh4+ 30. Kf1 Qg5 31. Rb5 Qe7 32. Rb7 Qc5 33. Nb5 R4e7 34. c4 Be5 35. Rxe7 Qxe7 36. Nc3 Qa3 37. e4 Qc1+ 38. Qd1 Qxd1+ 39. Nxd1 Rb8 40. Rd3 Rb4 41. Rd5 f6 42. Rxa5 Rxc4 43. Ra8+ Kg7 44. Ra7+ Kh6 45. Ne3 Rxe4 46. Ng4+ Kg5 47. Nxe5 fxe5 48. a5 Ra4 49. a6 Kf4 50. Rxh7 Rxa6 51. Rh4+ Ke3 52. Kg1 e4 53. Rh8 Ke2 54. Rb8 e3 55. Rb2+ Kd1 56. Rb1+ Kc2 57. Rb8 Ra1+ 58. Kh2 e2 59. Rc8+ Kd3 60. Rd8+ Kc4 61. Rc8+ Kd5 62. Rd8+ Kc6 63. Re8 e1=Q 64. Rxe1 Rxe1 65. Kg3 Re4 66. Kf3 Kd5 67. h4 Ke5 68. g3 Rd4 69. Ke3 g5 70. hxg5 Rg4 71. Kf3 Rxg5 72. g4 Kf6 73. Kf4 Kg6 74. Kg3 Re5 75. Kf4 Kf6 76. Kf3 Kg5 77. Kg3 Re4 78. Kf3 Rxg4 79. Ke3 Rf4 80. Kd3 Kf5 81. Ke3 Re4+ 82. Kd3 Ke5 83. Kc3 Rd4 84. Kc2 Kd5 85. Kc3 1/2-1/2',
+      id: '4080131',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'A56',
+      t: 'Carlsen-Ding Showdown G5',
+      moves:
+        '1. d4 Nf6 2. c4 c5 3. d5 g6 4. Nc3 Bg7 5. e4 d6 6. Nf3 O-O 7. Be2 e6 8. Nd2 Re8 9. O-O Na6 10. f3 Nc7 11. a4 Na6 12. Ndb1 Nh5 13. Be3 e5 14. Na3 f5 15. Nc2 Nf4 16. exf5 gxf5 17. Qd2 Nb4 18. Bd1 Nbd3 19. Ne1 Nb4 20. Nc2 Bd7 21. Nxb4 cxb4 22. Ne2 Rc8 23. b3 a5 24. Nxf4 exf4 25. Bd4 Qg5 26. Bxg7 Qxg7 27. Bc2 Re3 28. Rae1 Rce8 29. Rxe3 fxe3 30. Qe2 f4 31. Rd1 b6 32. Kf1 Qh6 33. Kg1 Qf6 34. g4 h5 35. gxh5 Re5 36. Kh1 Rxh5 37. Rg1+ Rg5 38. Rxg5+ Qxg5 39. Qd3 Kf8 40. Qd4 e2 41. Qf2 Qe5 42. Qe1 Bh3 43. Bb1 Qc3 0-1',
+      id: '4080132',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'A25',
+      t: 'Carlsen-Ding Showdown G5',
+      moves:
+        '1. c4 g6 2. g3 Bg7 3. Bg2 e5 4. Nc3 Nc6 5. e3 Nge7 6. Nge2 O-O 7. O-O d6 8. d3 Be6 9. Nd5 Qd7 10. Nec3 Rae8 11. b4 e4 12. dxe4 Bxd5 13. exd5 Nxb4 14. Bd2 Nd3 15. Rb1 Nc5 16. Ne2 Nf5 17. Qc2 h5 18. Nc1 b6 19. Nb3 h4 20. Nxc5 dxc5 21. Bh3 Re7 22. Rfe1 hxg3 23. hxg3 Nd4 24. exd4 Rxe1+ 25. Rxe1 Qxh3 26. dxc5 bxc5 27. Bf4 Bd4 28. Bxc7 Rc8 29. Bf4 Kg7 30. Qe4 Rh8 31. Be5+ Bxe5 32. Qxe5+ Kg8 33. Qe4 Kg7 34. Qg2 Qf5 35. Qe4 Qh3 36. d6 Qh2+ 37. Kf1 Qh1+ 38. Qxh1 Rxh1+ 39. Ke2 Rxe1+ 40. Kxe1 Kf6 41. Ke2 Ke6 42. Ke3 Kxd6 43. Kf4 f6 44. g4 Ke6 45. f3 Kd6 46. Ke4 Ke6 47. f4 f5+ 48. Kf3 Kf6 49. Kg3 g5 50. fxg5+ Kxg5 51. gxf5 Kxf5 52. Kf3 Ke5 53. Ke3 Kf5 54. Kf3 Ke5 1/2-1/2',
+      id: '4080133',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'A56',
+      t: 'Carlsen-Ding Showdown G5',
+      moves:
+        '1. d4 Nf6 2. c4 c5 3. d5 g6 4. Nc3 Bg7 5. e4 d6 6. Nge2 O-O 7. Ng3 a6 8. a4 h5 9. Be2 e5 10. Bg5 Qe8 11. Qd2 Nbd7 12. O-O Nh7 13. Bh6 h4 14. Bxg7 Kxg7 15. Nh1 f5 16. exf5 gxf5 17. f4 Qg6 18. Nf2 e4 19. a5 Ndf6 20. Ncd1 Rb8 21. b4 cxb4 22. Qxb4 Nd7 23. Ne3 b6 24. Rfb1 Qf6 25. axb6 Rxb6 26. Qd2 Rxb1+ 27. Rxb1 Nc5 28. Rb6 Bd7 29. g3 hxg3 30. hxg3 Kh8 31. Kg2 Rg8 32. Nfd1 Qf8 33. Nf1 Nf6 34. Nde3 Qe7 35. Qd4 Kh7 36. Qd2 Ra8 37. Rb1 a5 38. g4 fxg4 39. Ng3 a4 40. Rh1+ Kg8 41. Qd4 Nb3 42. Qc3 Nc5 43. Ngf5 Bxf5 44. Nxf5 Qf8 45. Rh6 Ncd7 46. c5 a3 47. Rg6+ Kf7 48. Rg7+ Qxg7 49. Nxg7 Kxg7 50. c6 a2 51. cxd7 a1=Q 52. Qxa1 Rxa1 53. d8=Q Ra2 54. Kf2 g3+ 55. Ke3 g2 56. Qe7+ Kg6 57. f5+ Kxf5 58. Qg7 Nxd5+ 59. Kd4 Rxe2 60. Kxd5 Rd2+ 61. Kc4 e3 62. Qf7+ Ke4 63. Qg6+ Kf3 64. Qf5+ Ke2 65. Qg4+ Kf2 66. Qf4+ Ke2 67. Qg4+ Ke1 68. Qg3+ Rf2 69. Qxe3+ Re2 70. Qg3+ Kf1 71. Qf3+ Ke1 72. Qg3+ Kd1 73. Kd3 Rd2+ 74. Ke3 Re2+ 75. Kf3 Rd2 76. Ke3 Kc2 77. Ke4 d5+ 78. Ke3 Rd3+ 0-1',
+      id: '4080134',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'B51',
+      t: 'Carlsen-Ding Showdown G5',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. a4 Nf6 5. Nc3 a6 6. Bxd7+ Bxd7 7. a5 g6 8. O-O Bg7 9. e5 dxe5 10. Nxe5 O-O 11. d3 Be6 12. Re1 Nd5 13. Bd2 Qc7 14. Nxd5 Bxd5 15. Bc3 Rad8 16. Qe2 f6 17. Nc4 e5 18. b3 Rfe8 19. f3 Bf8 20. Qf2 Bc6 21. Re2 Qf7 22. Rae1 g5 23. Bd2 h6 24. Be3 Qd5 25. Nd2 f5 26. Nc4 e4 27. dxe4 fxe4 28. f4 gxf4 29. Qxf4 Bg7 30. Qh4 Kh7 31. Rd2 Qg8 32. Rxd8 Rxd8 33. Ne5 Re8 34. Ng4 Qe6 35. h3 Rf8 36. Bxc5 Rf5 37. Be3 h5 38. Nf2 Bf6 39. Qg3 Be5 40. Qh4 Bf6 41. Qg3 Be5 42. Qh4 Bf6 1/2-1/2',
+      id: '4080135',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'A40',
+      t: 'Carlsen-Ding Showdown G5',
+      moves:
+        '1. d4 g6 2. c4 Bg7 3. Nc3 c5 4. d5 d6 5. e4 Nf6 6. Nge2 O-O 7. Ng3 a6 8. a4 h5 9. Be2 e5 10. Bg5 Qe8 11. Qd2 Nbd7 12. a5 Nh7 13. Bh6 Rb8 14. Bxh5 Bxh6 15. Qxh6 b6 16. Bd1 bxa5 17. b3 Qd8 18. h4 Ndf6 19. Qd2 Bd7 20. Nf1 a4 21. bxa4 Rb4 22. Ne3 Qa5 23. f3 Qb6 24. a5 Qb7 25. Ra2 Nh5 26. Ne2 Rb8 27. g4 Nf4 28. Nxf4 exf4 29. Ng2 Rxc4 30. Nxf4 Rd4 31. Qc2 Qb4+ 32. Kf2 c4 33. Ne2 Rd3 34. Nf4 Rb3 35. Be2 c3 36. Kg3 Qd4 37. Nd3 Nf6 38. Rd1 Bxg4 39. fxg4 Nxe4+ 40. Kg2 Rb2 41. Ra4 Qe3 0-1',
+      id: '4080136',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'A05',
+      t: 'Carlsen-Ding Showdown G5',
+      moves:
+        '1. Nf3 Nf6 2. g3 g6 3. b3 Bg7 4. Bb2 O-O 5. Bg2 d6 6. d4 c5 7. c4 Qa5+ 8. Bc3 Qc7 9. Nbd2 Re8 10. O-O e5 11. d5 e4 12. Ng5 Bf5 13. Bxf6 Bxf6 14. Ngxe4 Bxa1 15. Qxa1 Bxe4 16. Nxe4 Nd7 17. f4 Re7 18. g4 Rae8 19. Ng3 b5 20. e4 bxc4 21. bxc4 Qa5 22. Qc1 Nf6 23. e5 dxe5 24. f5 Nxg4 25. Qg5 e4 26. d6 Re5 27. Qxg4 Qc3 28. fxg6 hxg6 29. d7 Rd8 30. Nxe4 Qd4+ 31. Kh1 Kg7 32. Nf6 Qxg4 33. Nxg4 Rg5 34. Nf6 Rf5 35. Rxf5 gxf5 36. Ne8+ Kf8 37. Bc6 Ke7 38. h4 Rb8 39. h5 Rb4 40. Nd6 1-0',
+      id: '4080137',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: 'Carlsen-Ding Showdown G5',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 a6 5. cxd5 exd5 6. Bg5 Be6 7. e3 Nbd7 8. Bd3 Bd6 9. O-O O-O 10. h3 h6 11. Bf4 Qe7 12. Re1 Rfe8 13. a3 c6 14. Qc2 a5 15. Na4 Ne4 16. Bxe4 dxe4 17. Qxe4 Nf6 18. Bxd6 Qxd6 19. Qe5 Qd8 20. Qf4 Bd5 21. Nc3 Ne4 22. Nxd5 Qxd5 23. Ne5 c5 24. Rad1 cxd4 25. exd4 Nf6 26. Qf3 Qxf3 27. Nxf3 Nd5 28. Re5 Red8 29. Rc1 f6 30. Re2 g5 31. g3 Kf7 32. Rec2 Rd7 33. Nd2 Ne7 34. Rc7 Rad8 35. Nb3 b6 36. a4 h5 37. R1c4 Nd5 38. Rxd7+ Rxd7 39. Nc1 Ke6 40. Ne2 h4 41. Nc3 Kf5 42. g4+ Kg6 43. Nxd5 Rxd5 44. Kg2 f5 45. Rc6+ Kf7 46. gxf5 Rxd4 47. Rxb6 Rxa4 48. Ra6 Rb4 49. Rxa5 Kf6 50. Rc5 Rxb2 51. Rd5 Rb4 52. Rc5 Rf4 1/2-1/2',
+      id: '4080138',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '0-1',
+      e: 'E01',
+      t: 'World Blitz 2017',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Bb4+ 5. Nd2 O-O 6. Nf3 b6 7. O-O Bb7 8. b3 c5 9. Bb2 Nbd7 10. a3 Bxd2 11. Nxd2 cxd4 12. Bxd4 Rc8 13. b4 Qe7 14. Rc1 Rfd8 15. Qb3 dxc4 16. Nxc4 Bxg2 17. Kxg2 e5 18. Bb2 Qe6 19. Rfd1 Nf8 20. Rxd8 Rxd8 21. Qf3 Rc8 22. Ne3 Rxc1 23. Bxc1 e4 24. Qf4 Qa2 25. Qc7 Qxe2 26. Qxa7 h5 27. Qxb6 h4 28. Qc6 Ng4 29. Nxg4 Qxg4 30. Qc4 h3+ 31. Kg1 Ng6 32. Be3 Ne5 33. Qf1 Nf3+ 34. Kh1 Ne5 35. b5 Nc4 36. Kg1 Nxe3 37. fxe3 Qe6 38. a4 Qb3 39. Qe1 Qxa4 40. Qb1 Qa5 41. b6 Qd2 42. Qf1 Qxe3+ 43. Qf2 Qc1+ 44. Qf1 Qc5+ 45. Qf2 e3 46. Qe2 Qxb6 47. Kf1 Qb1+ 48. Qe1 Qe4 49. Ke2 Qg2+ 50. Kxe3 Qxh2 51. Kf4 Qc2 52. g4 Qc7+ 53. Kf3 Qc6+ 54. Kg3 Qg2+ 55. Kf4 h2 0-1',
+      id: '4089894',
+    },
+    {
+      w: 'Magnus_Carlsen',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C80',
+      t: '78th Tata Steel GpA',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5 Be6 9. Nbd2 Nc5 10. c3 Be7 11. Bc2 d4 12. Nb3 d3 13. Nxc5 dxc2 14. Qxd8+ Rxd8 15. Nxe6 fxe6 16. Be3 Rd5 17. Rfc1 Nxe5 18. Nxe5 Rxe5 19. Bd4 Rg5 20. Rxc2 Kf7 21. Be3 Re5 22. c4 b4 23. Rd1 Rd8 24. Rxd8 Bxd8 25. Kf1 Bg5 26. Bd4 Ra5 27. b3 Bf6 28. Be3 Bg5 29. f4 Be7 30. g4 h5 31. h3 g6 32. Ke2 hxg4 33. hxg4 e5 34. Kf3 exf4 35. Bxf4 Bd6 36. c5 Bxc5 37. Bxc7 Rb5 38. Ke4 Ke6 39. Bf4 Ra5 40. Bd2 Be7 41. Rc6+ Kd7 42. Rxg6 Rxa2 43. Bf4 Ra3 44. g5 Rxb3 45. Rb6 Bxg5 46. Bxg5 a5 47. Ra6 a4 48. Rxa4 Kc6 49. Ra5 Ra3 50. Rf5 b3 51. Bf6 Ra2 52. Bd4 b2 53. Rc5+ Kb6 54. Rc3+ Kb5 55. Rb3+ Kc4 56. Rb8 b1=Q+ 57. Rxb1 Re2+ 58. Be3 Rc2 59. Rb8 Kc3 60. Rc8+ Kb3 61. Bc5 Kc4 62. Rc7 Kc3 63. Kd5 Kd3 64. Rh7 Re2 65. Rh3+ Kc2 66. Kc4 Re4+ 67. Bd4 Kd2 68. Rh2+ Re2 69. Rh4 Rg2 70. Re4 Re2 71. Bc3+ Kd1 72. Rf4 Kc2 73. Rd4 Rf2 74. Rd3 Re2 75. Bd4 Re4 76. Ra3 Re2 77. Be3 Kd1 78. Rd3+ Ke1 79. Rc3 Kf1 80. Kd3 Ra2 81. Rc1+ Kg2 82. Ke4 Kg3 83. Rc8 Rg2 84. Rf8 Kg4 85. Bf2 Kh3 86. Kf3 Rg3+ 87. Kf4 Rg4+ 88. Kf5 Rg7 89. Bd4 Rg3 90. Be5 Rf3+ 91. Bf4 Kg2 92. Kg4 Rf2 93. Rh8 Re2 94. Rh3 Kf2 95. Rf3+ Kg2 96. Be3 Rc2 97. Rg3+ Kf1 98. Kf3 Rf2+ 99. Bxf2 1/2-1/2',
+      id: '3977254',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Magnus_Carlsen',
+      r: '&frac12;-&frac12;',
+      e: 'D37',
+      t: '77th Tata Steel GpA',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 b6 7. Bd3 dxc4 8. Bxc4 Ba6 9. Qe2 Qc8 10. O-O c5 11. Nb5 Nbd7 12. Rac1 Qb7 13. dxc5 Nxc5 14. b4 Nce4 15. Nfd4 Rac8 16. a3 Nd5 17. Bd3 Bxb5 18. Nxb5 Nxf4 19. exf4 Nf6 20. f5 exf5 21. Bxf5 Rxc1 22. Rxc1 a5 23. Rc7 Qd5 24. Bd3 Bd8 25. Bc4 Qg5 26. Rxf7 Qc1+ 27. Qf1 Qxf1+ 28. Kxf1 Rxf7 29. Nd6 axb4 30. Nxf7 Be7 31. Nd8+ Kf8 32. Ne6+ Kf7 33. Nc7+ Kg6 34. axb4 Bxb4 35. Nd5 Nxd5 36. Bxd5 1/2-1/2',
+      id: '3926746',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C77',
+      t: 'Opera Euro Rapid Prelim',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. Nc3 Bc5 6. O-O O-O 7. Bxc6 dxc6 8. d3 Re8 9. Be3 Bd6 10. h3 Nd7 11. Nd2 Nf8 12. Ne2 Ng6 13. Ng3 Be6 14. Nf5 Bf8 15. Qf3 Qd7 16. h4 Ne7 17. Nxe7+ Bxe7 18. Qg3 f6 19. b3 Kh8 20. Kh1 Rad8 21. f4 exf4 22. Bxf4 Bd6 23. Rae1 h6 24. Nf3 Bxf4 25. Qxf4 c5 26. Rg1 b5 27. g4 Rf8 28. Qg3 Qd6 29. Kh2 c4 30. bxc4 bxc4 31. d4 Rb8 32. d5 Bd7 33. Qxd6 cxd6 34. Nd4 Rb2 35. a3 Ra2 36. Re3 Re8 37. Kg3 Ba4 38. Rg2 c3 39. Nf5 Rxa3 40. Nxd6 Rb8 41. g5 Bd7 42. Kf4 fxg5+ 43. hxg5 Rf8+ 44. Ke5 h5 45. g6 Kg8 46. Kd4 h4 47. Rh2 h3 48. e5 Rf4+ 49. Re4 Ra4+ 50. Ke3 Rfxe4+ 51. Nxe4 Bf5 52. Nd6 Bxg6 53. e6 Rh4 54. e7 a5 55. e8=Q+ Bxe8 56. Nxe8 Kf7 57. Nd6+ Kf6 58. Nb5 a4 59. d6 Ke6 60. Kd3 g5 61. Re2+ Kd7 62. Re7+ Kc6 63. d7 1-0',
+      id: '4279118',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'E00',
+      t: 'FIDE Candidates 2020',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 Bb4+ 4. Bd2 a5 5. Bg2 d5 6. Nf3 O-O 7. Qc2 c5 8. cxd5  cxd4 9. Nxd4 Qb6 10. e3 exd5 11. O-O Nc6 12. Nxc6 bxc6 13. Rc1 Rb8 14. Bxb4 Qxb4  15. b3 h5 16. Nc3 h4 17. Ne2 Bd7 18. Nf4 hxg3 19. hxg3 Rfc8 20. Bf3 a4 21. bxa4  Ra8 22. Nd3 Qxa4 23. Qxa4 Rxa4 24. Nc5 Ra5 25. a4 Rca8 26. Bd1 Be8 27. Kf1 Kf8  28. Rab1 Ne4 29. Nxe4 dxe4 30. Rb7 c5 31. Bb3 R5a7 32. Rxa7 Rxa7 33. Ke1 Ke7 34.  Ra1 c4 35. Bc2 Kd6 36. Kd2 Kc5 37. Kc3 Ra6 38. g4 g5 39. a5 Bc6 40. Ra2 Ra7 41.  Ra1 Ra6 42. Ra2 1/2-1/2',
+      id: '4259927',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A35',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. Nf3 c5 2. c4 Nf6 3. Nc3 Nc6 4. e3 e6 5. d4 d5 6. cxd5 exd5 7. Bb5 cxd4 8.  Nxd4 Bd7 9. O-O Bd6 10. b3 O-O 11. Bb2 Re8 12. Nce2 Be5 13. Nxc6 bxc6 14. Bxe5  Rxe5 15. Bd3 c5 16. Rc1 Qb6 17. Qd2 Rc8 18. Rfd1 a5 19. Nf4 a4 20. Rc3 axb3 21.  axb3 Rce8 22. h3 d4 23. exd4 cxd4 24. Rc4 Qxb3 25. Rxd4 Qxd1+ 26. Qxd1 Re1+ 27.  Qxe1 Rxe1+ 28. Kh2 Re7 29. Nd5 Nxd5 30. Rxd5 g6 31. Rd4 Be6 32. Bc4 Bxc4 33.  Rxc4 Kg7 34. g3 h5 35. Kg2 Re6 36. h4 Re7 37. Rc3 Re6 38. Rc4 Re7 39. Rc3 Re6  40. Rc4 1/2-1/2',
+      id: '4260774',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'D86',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 c5 8.  Ne2 Nc6 9. Be3 O-O 10. O-O b6 11. Rc1 Bb7 12. Bb5 cxd4 13. cxd4 Rc8 14. Qd2 e6  15. Rfd1 Na5 16. Rxc8 Qxc8 17. Bg5 Qc7 18. d5 exd5 19. exd5 Qc5 20. Qd3 Qd6 21.  Bf4 Be5 22. Bxe5 Qxe5 23. d6 Rd8 24. d7 Nc6 25. Nc3 a6 26. Bxa6 Bxa6 27. Qxa6  Qxc3 28. Qc8 Qc2 29. Re1 Qd2 30. Re8+ Kg7 31. h3 Qd1+ 32. Kh2 Qd6+ 33. g3 Rxd7 0-1',
+      id: '4260776',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '0-1',
+      e: 'E60',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. e3 O-O 5. Be2 c5 6. d5 d6 7. Nc3 e6 8. Nd2 Na6  9. O-O Re8 10. e4 b6 11. dxe6 Bxe6 12. Nb3 Qe7 13. Bf4 Rad8 14. Qd2 Nb4 15. Rad1  Qb7 16. f3 Qa6 17. a3 Nc6 18. Nb5 Qa4 19. Qc2 Na5 20. N3d4 Qxc2 21. Nxc2 Bxc4  22. Bxc4 Nxc4 23. b3 a6 24. bxc4 axb5 25. cxb5 d5 26. Ne3 dxe4 27. Bc7 Rd3 28.  Rfe1 Rxa3 29. Nc4 Rb3 30. Nd6 Ra8 31. Bxb6 Nd7 32. Bc7 Bd4+ 33. Kh1 e3 34. Nc4  Ra4 35. Nd6 Ra2 36. Nc4 Rc2 37. Rc1 Rxc1 38. Rxc1 Rxb5 39. Bf4 e2 40. g4 Nb6 41.  Nd2 Rb2 42. Re1 Nd5 43. Bh6 Nc3 44. Kg2 f5 45. Nc4 Rb4 46. Nd6 fxg4 47. fxg4 Be5  48. Bd2 Bxd6 49. Bxc3 Rxg4+ 50. Kf3 Rh4 0-1',
+      id: '4260778',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D41',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c5 5. cxd5 Nxd5 6. e4 Nxc3 7. bxc3 cxd4 8.  cxd4 Bb4+ 9. Bd2 Bxd2+ 10. Qxd2 O-O 11. Bc4 Nd7 12. O-O b6 13. d5 Nc5 14. Rfe1  Bb7 15. Rad1 Rc8 16. h4 Qf6 17. Qe3 exd5 18. exd5 a6 19. h5 b5 20. Bf1 h6 21.  Rd4 Rfd8 22. Qd2 Rd6 23. Rc1 Qd8 24. Qb4 Na4 25. Rxc8 Bxc8 26. Ne5 Bb7 27. Bc4  Qe7 28. Bb3 Qxe5 29. Re4 a5 30. Qe1 Qxh5 31. Re8+ Kh7 32. Bc2+ f5 33. Qe5 Rxd5  34. Qe6 Nc5 35. Qg8+ Kg6 36. Re3 Rd1+ 37. Bxd1 Qxd1+ 38. Kh2 f4 39. Re7 Qh5+ 40.  Kg1 Qd1+ 41. Kh2 Qh5+ 42. Kg1 Qd1+ 43. Kh2 1/2-1/2',
+      id: '4260780',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 O-O 7. Qe2 Re8 8.  Nc4 b5 9. Ncxe5 Qd6 10. Bf4 Nh5 11. g3 Nxf4 12. gxf4 f6 13. d4 Bxd4 14. Nd3 Bf5  15. e5 fxe5 16. fxe5 Bxd3 17. Qxd3 Bxe5 18. O-O-O Bf4+ 19. Kb1 Qxd3 20. Rxd3  Rad8 21. Rc3 Rd6 22. a3 Re2 23. Rf1 g5 24. h3 Kf7 25. Rc5 Kf6 26. Rg1 h6 27. h4  Rxf2 28. hxg5+ hxg5 29. Nxg5 Bxg5 30. Rcxg5 Ke6 31. Rg7 Rf7 32. Re1+ Kf6 33. Rg8  Re6 34. Rd1 Rd6 35. Rh1 a5 36. a4 bxa4 37. Rh4 Ke7 38. Rxa4 Rd5 39. Re4+ Kd7 40.  Ree8 Rf1+ 41. Ka2 Rf2 42. Rd8+ Ke7 43. Rge8+ Kf7 44. Rf8+ Ke7 45. Rfe8+ Kf7 46.  Rf8+ Ke7 47. Rxd5 Rxf8 48. Rxa5 Kd6 49. Rh5 Rf3 50. c3 c5 51. Kb3 Rf4 52. Rh6+  Kd7 53. Rh7+ Kc6 54. Rh8 Kb6 55. Rb8+ Kc6 56. Ra8 Kb6 57. Ra1 Kc6 58. Re1 Kb6 1/2-1/2',
+      id: '4260781',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'B52',
+      t: 'Chessable Masters Group B',
+      moves:
+        '1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. c4 Nf6 6. Nc3 Nc6 7. d4 cxd4 8.  Nxd4 g6 9. f3 Bg7 10. Be3 O-O 11. O-O a6 12. Qd3 Rab8 13. b3 Nxd4 14. Bxd4 b5  15. cxb5 axb5 16. Rfe1 Rfc8 17. Rad1 b4 18. Nd5 Nxd5 19. exd5 Bxd4+ 20. Qxd4 Rc2  21. Rd2 Rbc8 22. h3 Rc1 23. Rxc1 Rxc1+ 24. Kh2 Qb5 25. Qe4 Qc5 26. Qxe7 h5 27.  h4 Kg7 28. Qe4 Qc3 29. Qd4+ Qxd4 30. Rxd4 Rc2 31. Rxb4 Rxa2 32. Rb6 Ra5 33. Rxd6  Rb5 34. g4 hxg4 35. fxg4 Rxb3 36. h5 1-0',
+      id: '4263802',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A20',
+      t: 'Chessable Masters Group B',
+      moves:
+        '1. c4 e5 2. g3 c6 3. Nf3 e4 4. Nd4 d5 5. cxd5 Qxd5 6. Nc2 Nf6 7. Bg2 Qh5 8. h3  Qg6 9. Nc3 Bd6 10. O-O O-O 11. d3 exd3 12. Qxd3 Qxd3 13. exd3 Be6 14. Nd4 Bd7  15. Bg5 Na6 16. Bxf6 gxf6 17. Ne4 Be7 18. g4 Nc5 19. Rad1 Nxe4 20. Bxe4 Bc5 21.  Nf5 Bxf5 22. Bxf5 Rad8 23. Rfe1 Rfe8 24. Kg2 h6 25. b3 Kf8 26. h4 Rxe1 27. Rxe1  Re8 28. Rxe8+ Kxe8 29. f4 Ke7 30. Kf3 b6 31. Ke4 Bb4 32. d4 Bd2 33. h5 Bc1 34.  Kf3 Bd2 35. Ke4 Bc1 36. Kf3 Bd2 37. Ke4 1/2-1/2',
+      id: '4263787',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '0-1',
+      e: 'E06',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 O-O 6. Qd3 b6 7. cxd5 Nxd5 8. O-O  Ba6 9. Qc2 Nd7 10. Nc3 c5 11. Nxd5 exd5 12. Re1 Re8 13. Bf4 Bf6 14. e3 Bb7 15.  h4 h6 16. h5 Nf8 17. dxc5 Rc8 18. Qa4 bxc5 19. Qxa7 Re7 20. Qa3 Ne6 21. Be5 Bxe5  22. Nxe5 d4 23. e4 Ng5 0-1',
+      id: '4264808',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'A20',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. c4 e5 2. Nf3 e4 3. Nd4 Nc6 4. e3 Qf6 5. Nb5 Qd8 6. d3 Nf6 7. N1c3 a6 8. Nd4  Bb4 9. Qb3 Nxd4 10. exd4 Qe7 11. dxe4 Qxe4+ 12. Be3 Bxc3+ 13. Qxc3 d5 14. f3 Qe7  15. c5 O-O 16. O-O-O Re8 17. Re1 Bf5 18. g4 Bg6 19. h4 h5 20. g5 Nd7 21. Bh3 Nf8  22. Bd2 Qd8 23. b3 b6 24. Kb2 a5 25. a4 Ne6 26. Re5 bxc5 27. dxc5 Rb8 28. Rhe1  Rb4 29. Bxe6 fxe6 30. Rxe6 Rxe6 31. Rxe6 d4 32. Qc1 Rxb3+ 33. Kxb3 Qd5+ 34. Ka3  Qxe6 35. Qb2 Qe5 36. Bxa5 Qxc5+ 37. Bb4 Qe5 38. Qc1 Qd5 39. Qxc7 Qxf3+ 40. Kb2  Qf2+ 41. Ka3 Qxh4 42. a5 Qh3+ 43. Kb2 Qg2+ 44. Ka3 Qf3+ 45. Kb2 Qe2+ 46. Kc1 h4  47. a6 Qxa6 48. Qd8+ Kh7 49. Qxd4 Qf1+ 50. Kd2 Qg2+ 51. Ke1 Qg3+ 52. Qf2 Qe5+  53. Qe2 Qxg5 54. Be7 Qg3+ 55. Qf2 Qe5+ 56. Qe2 Qc3+ 57. Qd2 Qf3 58. Qf2 Qe4+ 59.  Qe2 Qb7 60. Kf2 h3 61. Kg3 Qh1 62. Bc5 Qd5 63. Be3 Qe6 64. Qf2 Bf5 65. Kh2 Qe4  66. Bf4 Be6 67. Qh4+ Kg8 68. Qf2 Kh7 69. Qh4+ Kg6 70. Qg3+ Kf7 71. Qf2 Ke8 72.  Bg3 g5 73. Qb2 Kf7 74. Qf2+ Kg6 75. Qf1 Bd7 76. Qf2 Bc6 77. Kxh3 Qh1+ 78. Bh2  Bd7+ 79. Kg3 Qe4 80. Qf3 Qe1+ 81. Kg2 Qd2+ 82. Kg1 Qc1+ 83. Qf1 Qe3+ 84. Qf2  Qc1+ 85. Qf1 Qe3+ 86. Qf2 Qe4 87. Qg2 Qd3 88. Bg3 Be6 89. Be1 Bd5 90. Qg3 Qe4  91. Bd2 Qd4+ 92. Be3 Qd1+ 93. Kf2 Qc2+ 94. Ke1 Qb1+ 1/2-1/2',
+      id: '4264813',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '0-1',
+      e: 'E48',
+      t: 'Legends of Chess Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. cxd5 exd5 7. Ne2 Re8 8. Bd2  b6 9. Rc1 Bd6 10. Nb5 c5 11. Nxd6 Qxd6 12. dxc5 bxc5 13. Bc3 Nbd7 14. O-O Ne5  15. Bb5 Bd7 16. Bxd7 Nexd7 17. Ng3 Ne4 18. Nxe4 Rxe4 19. Rc2 Rd8 20. Rd2 Nf8 21.  Qf3 Qe6 22. h3 Ng6 23. Rfd1 h6 24. Qg3 Rd7 25. b3 Kh7 26. Bb2 f5 27. Kh2 f4 28.  exf4 Rxf4 29. Qe3 Qc6 30. Qd3 d4 31. Rc1 Qd6 32. Kg1 Rdf7 33. Ba3 R4f5 34. Rdc2  Nf4 35. Qe4 Qg6 36. Kh1 Rg5 37. Qxg6+ Rxg6 38. f3 d3 39. Rf2 Re7 40. Bxc5 Re2  41. Rd1 Rc6 42. Bxa7 Ra6 43. Bd4 Raxa2 44. Kg1 Ne6 45. Bb6 Ra6 46. Rxd3 Re1+ 47.  Kh2 Rxb6 48. Rc2 Rb1 49. h4 Kg6 50. Rcc3 Rb2 51. Kg3 Kf6 52. Re3 g5 53. hxg5+  hxg5 54. Rc8 Nf4 55. Rf8+ Kg7 0-1',
+      id: '4264818',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A15',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. c4 Nf6 2. g3 c6 3. Bg2 d5 4. Nf3 dxc4 5. O-O Nbd7 6. Na3 Nb6 7. Qc2 Be6 8. Ne5 h5 9. Naxc4 Nxc4 10. Nxc4 h4 11. Ne5 hxg3 12. hxg3 Qd4 13. Qc3 Qd6 14. d4 Rd8 15. Qa5 Bh3 16. Qxa7 Bxg2 17. Kxg2 Qxd4 18. Qxd4 Rxd4 19. Be3 Rd5 20. f4 g5 21. a4 gxf4 22. gxf4 Nd7 23. Nc4 Bg7 24. Rad1 b5 25. axb5 Rxb5 26. Rd2 Nf6 27. Ra1 Nd5 28. Ra8+ Kd7 29. Rxh8 Bxh8 30. Kf3 Rb4 31. Nb6+ Ke6 32. Nxd5 cxd5 33. Bc5 Rb3+ 34. e3 Bxb2 35. f5+ Kxf5 36. Rxd5+ e5 37. Ba7 Ke6 38. Ra5 Bd4 39. Bxd4 exd4 40. Ke4 Rxe3+ 41. Kxd4 Re1 42. Ra2 f6 43. Rb2 Kf7 44. Rf2 Kg6 45. Rg2+ Kh5 46. Rf2 Kg5 47. Rg2+ Kf5 48. Rf2+ Ke6 49. Ra2 Ke7 50. Ra7+ Ke6 51. Ra2 f5 52. Ra6+ Kf7 53. Kd3 Kg7 54. Kd2 Re5 55. Kd3 Kf7 56. Rb6 Re7 57. Ra6 Kg7 58. Rb6 f4 59. Rb4 f3 60. Rf4 Rf7 61. Rxf7+ Kxf7 62. Ke3 f2 63. Kxf2 1/2-1/2',
+      id: '4275306',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'E10',
+      t: '81st Tata Steel GpA',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. g3 Bb4+ 5. Bd2 Be7 6. Bg2 O-O 7. O-O c6 8. Qc2  Nbd7 9. Bf4 b6 10. Rd1 Ba6 11. cxd5 cxd5 12. Ne5 Nxe5 13. dxe5 Ng4 14. Bf3 f5  15. exf6 Nxf6 16. Qa4 Bb7 17. Nd2 Qe8 18. Qxe8 Rfxe8 19. Nc4 Ba6 20. Ne5 Rac8  21. Rdc1 Bd6 22. a3 g5 23. Ng4 Bxf4 24. Rxc8 Rxc8 25. Nxf6+ Kf7 26. Nxd5 Rc1+  27. Rxc1 Bxc1 28. Nb4 Bc4 29. Nd3 Bxd3 1/2-1/2',
+      id: '4170910',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D38',
+      t: 'Gashimov Memorial Shamkir',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 O-O 8. Rc1  dxc4 9. Bxc4 c5 10. O-O cxd4 11. Nxd4 Bd7 12. Qb3 Nc6 13. Nxc6 Bxc3 14. Qxc3  Bxc6 15. Qxf6 gxf6 16. Rfd1 Rfd8 17. f3 f5 18. Kf2 Kg7 19. Be2 Kf6 20. Rxd8 Rxd8  21. Rd1 Rxd1 22. Bxd1 b6 23. a3 Bb5 24. Bc2 Bc6 25. Bd1 Bb5 26. Bc2 Bc6 1/2-1/2',
+      id: '4184774',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A14',
+      t: '3rd Du Te Cup 2019',
+      moves:
+        '1. c4 Nf6 2. g3 e6 3. Bg2 d5 4. Nf3 Be7 5. O-O O-O 6. b3 d4 7. e3 c5 8. Ne5 Qc7 9. f4 Nfd7 10. Nf3 Nc6 11. Na3 a6 12. exd4 cxd4 13. d3 b5 14. Bb2 Qb6 15. Kh1 Bb7 16. Nc2 Bf6 17. Ba3 b4 18. Bb2 a5 19. g4 g6 20. Nd2 Nc5 21. Ne4 Nxe4 22. dxe4 e5 23. f5 Nb8 24. Ne1 Nd7 25. Nd3 Nc5 26. Nxc5 Qxc5 27. Bc1 g5 28. a4 Kg7 29. h4 h6 30. h5 Rfd8 1/2-1/2',
+      id: '4190003',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C53',
+      t: '3rd Du Te Cup 2019',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 d6 6. O-O O-O 7. Re1 a5 8. h3 h6 9. Nbd2 Be6 10. Bb5 Qb8 11. Bxc6 bxc6 12. d4 exd4 13. cxd4 Bb4 14. a3 Bxd2 15. Nxd2 Re8 16. b3 d5 17. e5 Nd7 18. Qh5 c5 19. Re3 f5 20. exf6 Bf7 21. Qh4 Rxe3 22. fxe3 Qe8 23. Nf3 Nxf6 24. dxc5 Bg6 25. Bb2 Qxe3+ 26. Kh2 Rf8 27. Bd4 Qxb3 28. Ne5 Be4 29. Ng4 Qc2 30. Rg1 Nxg4+ 31. Qxg4 Rf7 32. Rf1 Bf5 33. Qf4 Qe2 34. Rf2 Qe6 35. Qe5 Qxe5+ 36. Bxe5 c6 37. g4 Be4 38. Rxf7 Kxf7 39. h4 g6 40. Kg3 Ke6 41. Bd4 h5 42. gxh5 gxh5 43. Kf4 a4 1/2-1/2',
+      id: '4191271',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'D45',
+      t: 'Croatia Grand Chess Tour 2019',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. e3 Nbd7 6. Qc2 Bd6 7. b3 O-O 8. Be2 b6  9. O-O Bb7 10. Bb2 Rc8 11. Rad1 c5 12. dxc5 Nxc5 13. cxd5 Nxd5 14. Bc4 Nb4 15.  Qe2 Qe7 16. a3 Nc6 17. b4 Nd7 18. Ne4 Be5 19. Bd3 Bxb2 20. Qxb2 Rcd8 21. Rd2 f6  22. Bb1 Nde5 23. Nxe5 Nxe5 24. Rc1 Rxd2 25. Qxd2 Rd8 26. Qe2 Qd7 27. Nc3 Rc8 28.  Rd1 Qe7 29. Ne4 Bd5 30. f4 Nf7 31. Qd2 Qc7 32. Nf2 Nd6 33. e4 Bb3 34. e5 Nf5 35.  Re1 fxe5 36. fxe5 Qc3 37. Qxc3 Rxc3 38. Ne4 Rc7 39. Kf2 Bd5 40. Rd1 h6 41. Nd6  Nxd6 42. exd6 Rc6 43. Be4 Rxd6 44. Ke3 Kf7 45. Rc1 Ke7 46. Rc8 Rd7 47. Bxd5 Rxd5  48. a4 Kd6 49. h4 Re5+ 50. Kd3 Rh5 51. Rd8+ Ke7 52. Rg8 Kf7 53. Ra8 a5 54. Ra6  axb4 55. Rxb6 Rxh4 56. a5 Rg4 57. a6 Rxg2 58. Kc4 Ra2 59. Kxb4 h5 60. Kb5 h4 61.  Rc6 h3 62. Rc3 h2 63. Rf3+ Ke7 64. Rh3 g5 0-1',
+      id: '4200129',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '1-0',
+      e: 'D38',
+      t: '7th Sinquefield Cup',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. Qa4+ Nc6 8. e3  O-O 9. Rc1 Rd8 10. Be2 dxc4 11. Bxc4 Bxc3+ 12. bxc3 Bd7 13. Be2 e5 14. Qc2 Bf5  15. Qb2 e4 16. Nd2 Na5 17. O-O c5 18. Rfd1 Rac8 19. Nf1 Bg6 20. Ng3 Qg5 21. Qb1  f5 22. dxc5 Rxc5 23. Rd4 Bf7 24. Rcd1 Rdc8 25. Bb5 g6 26. Ne2 Qf6 27. Ba4 Qe5  28. Bb3 Nxb3 29. axb3 R5c7 30. c4 a6 31. Nf4 b5 32. Nd5 Rc6 33. c5 a5 34. b4  axb4 35. Qxb4 Rb8 36. Nb6 Be6 37. Nd7 Bxd7 38. Rd5 Qe7 39. Rxd7 Qxc5 40. Qb3+  Qc4 41. Qb2 Qc3 42. Qa2+ Rc4 43. g3 Rc8 44. R1d6 Kf8 45. Rxg6 b4 46. Rxh6 f4 47.  gxf4 1-0',
+      id: '4211820',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D38',
+      t: 'Tata Steel India Rapid',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. e3 O-O 8. Qb3 c5 9. cxd5 exd5 10. dxc5 Bxc3+ 11. Qxc3 Qxc3+ 12. bxc3 Nd7 13. Rd1 Nf6 14. Nd4 Bd7 15. f3 Rfc8 16. Nb3 Kf8 17. Bd3 b6 18. cxb6 axb6 19. Ra1 Rxc3 20. Kd2 Rc7 21. Rhb1 Ba4 22. Nd4 Nd7 23. Rb4 h5 24. h4 Rc5 25. Rab1 g6 26. R1b2 Ke7 27. Ne2 Bc6 28. Nd4 Ba4 29. Ne2 Bc6 30. Nc3 Ra3 31. R2b3 Rxb3 32. Rxb3 Ra5 33. Rb4 Kd6 34. Rb2 Kc7 35. Nb5+ 1/2-1/2',
+      id: '4230920',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C84',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3 O-O 9. Nc3 Na5 10. Ba2 Be6 11. b4 Bxa2 12. Nxa2 Nc6 13. c4 Nd4 14. Nc3 Nxf3+ 15. Qxf3 c6 16. Rb1 Qd7 17. a4 bxa4 18. Nxa4 Rab8 19. Nc3 d5 20. exd5 cxd5 21. Bg5 e4 22. dxe4 dxe4 23. Qe2 Qd3 24. Qxd3 exd3 25. Bxf6 Bxf6 26. Nd5 Rfc8 27. Rfd1 Rxc4 28. Rxd3 a5 29. Rdb3 axb4 30. Rxb4 Rcxb4 1/2-1/2',
+      id: '4230944',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D38',
+      t: 'Tata Steel India Blitz',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Bg5 h6 6. Bxf6 Qxf6 7. Qa4+ Nc6 8. e3 O-O 9. Be2 dxc4 10. O-O Bd7 11. Bxc4 Bxc3 12. bxc3 Rfd8 13. Be2 Be8 14. Qa3 b6 15. e4 Qe7 16. Qb2 Na5 17. c4 Qf6 18. Rad1 c5 19. e5 Qf4 20. dxc5 Nxc4 21. Qc1 Qxc1 22. Rxc1 Na5 23. cxb6 axb6 24. Rb1 Nc6 25. Bc4 b5 26. Bxb5 Rxa2 27. Rfc1 Ne7 28. Bxe8 Rxe8 29. Rb7 Nd5 30. g3 Rea8 31. h4 g6 32. Nd4 1/2-1/2',
+      id: '4232208',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'A15',
+      t: 'Vugar Gashimov Mem 2018',
+      moves:
+        '1. c4 Nf6 2. Nf3 e6 3. b3 d5 4. Bb2 c5 5. cxd5 exd5 6. g3 Nc6 7. Bg2 d4 8. O-O Be7 9. Na3 O-O 10. Nc4 Be6 11. e3 Rc8 12. exd4 cxd4 13. Re1 Bd5 14. Nce5 Nxe5 15. Nxe5 Re8 16. Bf3 Bc5 17. Rc1 Qd6 18. Nd3 Rxe1+ 19. Nxe1 Re8 20. Nd3 Bb6 21. Nf4 Bxf3 22. Qxf3 Qd7 23. h4 h6 24. Ng2 Ng4 25. Re1 Ne5 26. Qe4 Re6 27. Ba1 Ng4 28. Qd3 Ne5 29. Qe4 g6 30. Rf1 f5 31. Qf4 Qd5 32. f3 Kg7 33. g4 Rf6 34. g5 hxg5 35. hxg5 Re6 36. Qg3 Nd3 37. Nf4 Nxf4 38. Qxf4 Kf7 39. Qh4 Ke7 40. Qh7+ Kd6 41. Bb2 f4 42. Kh1 Qxg5 43. Ba3+ Kc6 44. Rc1+ Kb5 45. Qxb7 Qh4+ 46. Kg1 Re1+ 47. Rxe1 Qxe1+ 48. Kg2 Qxd2+ 49. Kh3 Qc2 50. Qd5+ Ka6 51. Bd6 Qc8+ 52. Kg2 Qc2+ 53. Kh3 Qc1 54. Kg4 Qg1+ 55. Kxf4 Qh2+ 56. Kg4 Qh5+ 57. Qxh5 gxh5+ 58. Kxh5 d3 59. Bf4 Ba5 60. Kg4 Kb5 61. Kf5 d2 62. Bxd2 Bxd2 63. f4 Kb4 64. Ke4 Kc5 65. Ke5 Kc6 66. f5 Bb4 67. Ke6 Ba3 68. f6 a5 69. Kf7 Kd7 1/2-1/2',
+      id: '4111904',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A45',
+      t: '43rd Olympiad 2018',
+      moves:
+        '1. d4 Nf6 2. g3 d5 3. Bg2 e6 4. Nf3 Be7 5. O-O O-O 6. c4 dxc4 7. Qc2 a6 8. a4 Bd7 9. Qxc4 Bc6 10. Bf4 Nbd7 11. Qc2 Bd6 12. Bg5 h6 13. Bxf6 Nxf6 14. Nbd2 Bb4 15. e3 a5 16. Rfd1 Rc8 17. Rac1 Bxf3 18. Bxf3 c6 19. Nc4 Qe7 20. Kg2 Rfd8 21. h4 h5 22. e4 g6 23. Qe2 Kg7 24. b3 Rb8 25. Qe3 Re8 26. Ne5 Ba3 27. Rc2 Qd8 28. Nd3 Qb6 29. Nf4 Rbd8 30. e5 Ng8 31. Be4 Qc7 32. Nxh5+ gxh5 33. Qg5+ Kh8 34. Qxh5+ Kg7 35. Qg5+ Kh8 36. Qh5+ Kg7 37. Qg5+ Kh8 38. Rc3 Bb2 39. Rf3 Rxd4 40. Qh5+ Kg7 41. Qg5+ Kh8 42. Re1 Qe7 1/2-1/2',
+      id: '4142571',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C84',
+      t: '2nd Du Te Cup 2018',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3 O-O  9. Nc3 Bg4 10. Be3 Nd4 11. Bxd4 exd4 12. Nd5 c5 13. a4 Be6 14. Nxf6+ Bxf6 15.  Bxe6 fxe6 16. g3 Qd7 17. axb5 axb5 18. Kg2 Qc6 19. Qe2 c4 20. h4 c3 21. b3 e5  22. Ng1 b4 23. Rxa8 Rxa8 24. f4 exf4 25. gxf4 Bxh4 26. Qg4 d5 27. e5 Qg6 28.  Qxg6 hxg6 29. Nf3 Be7 30. Kg3 Kf7 31. Kg4 Ra2 32. Rf2 Ra1 33. Re2 Rf1 34. Rh2  Rc1 35. Rg2 Bc5 36. Ng5+ Ke7 37. Nf3 Kf7 38. Ng5+ Ke7 39. Nf3 1/2-1/2',
+      id: '4152203',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A29',
+      t: '2nd Du Te Cup 2018',
+      moves:
+        '1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6 4. g3 d5 5. cxd5 Nxd5 6. Bg2 Nb6 7. O-O Be7 8. a3 O-O 9. d3 Be6 10. Be3 f5 11. Rc1 Kh8 12. b4 a6 13. Re1 Rb8 14. Bxb6 cxb6 15. e3 Bf6 16. d4 exd4 17. exd4 Bg8 18. Ne2 Qd6 19. Qd3 g6 20. b5 axb5 21. Qxb5 Rbd8 22. a4 Bd5 23. Ne5 Bxg2 24. Kxg2 Nxe5 25. dxe5 Bxe5 26. Rb1 f4 27. gxf4 Bxf4 28. Red1 Qe6 29. Rxd8 Rxd8 30. Nxf4 Qg4+ 31. Kf1 Qxf4 32. Qb2+ Kg8 33. Qb3+ Kf8 34. Qa3+ Kg8 35. Qb3+ 1/2-1/2',
+      id: '4152798',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D11',
+      t: 'Du Te Cup 2017',
+      moves:
+        '1. c4 c6 2. d4 d5 3. Nf3 Nf6 4. e3 e6 5. Bd3 Nbd7 6. O-O Bd6 7. Nc3 O-O 8. e4 dxc4 9. Bxc4 e5 10. Be3 exd4 11. Bxd4 Qc7 12. Kh1 Ne5 13. Nxe5 Bxe5 14. Bxe5 Qxe5 15. f4 Qc5 16. Bd3 Rd8 17. Qf3 Be6 18. h3 Rxd3 19. Qxd3 Bc4 20. Qd2 Bxf1 21. Rxf1 Re8 22. Rd1 Qb4 23. a3 Qc4 24. Qd4 Qxd4 25. Rxd4 Re7 26. e5 Nd7 27. g3 Kf8 28. Kg2 Nc5 29. Kf3 f6 30. Rd8+ Kf7 31. Ne4 Nxe4 32. Kxe4 fxe5 33. fxe5 Re8 34. Rd7+ Re7 35. Rd8 Re8 36. Rd7+ Re7 37. Rd8 1/2-1/2',
+      id: '4040949',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A07',
+      t: 'Du Te Cup 2017',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 Nd7 5. O-O Ngf6 6. c4 dxc4 7. a4 a5 8. Qc2 Nb6 9. e4 O-O 10. Rd1 c6 11. Na3 Be6 12. h3 Ne8 13. Ng5 Bc8 14. Nxc4 Nxc4 15. Qxc4 e5 16. Nf3 exd4 17. Nxd4 Nc7 18. Be3 Qe7 19. Qc1 Qb4 20. Ra3 Re8 21. Rc3 Be6 22. b3 Na6 23. Rdd3 Qe7 24. Bg5 Qf8 25. Be3 Rad8 26. Nxe6 Rxe6 27. Qd1 Red6 28. Bf4 Rxd3 29. Rxd3 Rxd3 30. Qxd3 Nc5 31. Qd1 Ne6 32. Be3 Bd4 33. Bd2 Qc5 34. Qf3 Qc2 35. Bh6 Bg7 36. Bxg7 Kxg7 37. Bf1 Qc5 38. Bc4 Ng5 39. Qc3+ f6 40. Qd3 Qe7 41. h4 Nxe4 42. Qe3 Qe5 43. Qb6 Kh6 44. Qe3+ g5 45. Bd3 Nc5 46. hxg5+ Qxg5 47. f4 Qg4 48. Be2 Qf5 49. Qe7 Qe6 50. Qf8+ Kg6 51. Bc4 Qe3+ 52. Kg2 Qe4+ 53. Kh2 Qd4 54. Qg8+ Kh6 55. Qf8+ Kg6 56. Qg8+ Kh6 57. Qf8+ 1/2-1/2',
+      id: '4042462',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D02',
+      t: 'Moscow Grand Prix 2017',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. g3 Bb4+ 5. Bd2 Be7 6. Bg2 O-O 7. O-O Nbd7 8. Qc2 c6 9. Rd1 b6 10. b3 a5 11. Bc3 Ne4 12. Ne5 Nxe5 13. Bxe4 f5 14. Bxd5 exd5 15. dxe5 f4 16. cxd5 cxd5 17. Bd4 Ba6 18. Qc6 Bxe2 19. Re1 Qc8 20. Qxd5+ Kh8 21. Nc3 Ba6 22. e6 Rd8 23. Qe4 Bb7 24. Qxf4 Qc6 25. Bxg7+ Kxg7 26. Qf7+ Kh8 27. Ne4 Qe8 28. Ng5 1/2-1/2',
+      id: '4048735',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C84',
+      t: 'Ding Liren vs Giri Match',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a4 Bd7 9. c3 Na5 10. Bc2 c5 11. d4 Qb8 12. Bg5 h6 13. Bh4 Be6 14. Nbd2 O-O 15. h3 Rc8 16. Bg3 cxd4 17. cxd4 Nh5 18. Bh2 Nf4 19. Bxf4 exf4 20. d5 Bd7 21. Re1 Bf6 22. e5 Bxe5 23. Nxe5 dxe5 24. Nf3 Re8 25. axb5 axb5 26. d6 Nc6 27. Rxa8 Qxa8 28. Be4 Qa4 29. Bxc6 Qxd1 30. Rxd1 Bxc6 31. d7 Rd8 32. Nxe5 Ba8 33. Rd6 Kf8 34. f3 Ke7 35. Rb6 g5 36. Rxh6 f6 37. Rh7+ Ke6 38. Nd3 Kd6 39. h4 Rxd7 40. Rh8 Bd5 41. b4 Rg7 42. hxg5 fxg5 43. Rh6+ Kc7 44. Rf6 Bc4 45. Nc5 g4 46. Rxf4 gxf3 47. Rxf3 Bd5 48. Rf2 Rg4 49. Rd2 Kc6 50. Nd3 Kd6 51. Kf1 Bc4 52. Kf2 Bxd3 53. Rxd3+ Ke5 54. Rb3 Kf5 55. Rf3+ Ke5 56. Rb3 Kf5 57. Kf3 Kg5 1/2-1/2',
+      id: '4062789',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '0-1',
+      e: 'C50',
+      t: 'Ding Liren vs Giri Match',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 O-O 6. h3 d6 7. c3 a6 8. a4 Ba7 9. Re1 h6 10. Nbd2 Be6 11. Bxe6 fxe6 12. Nf1 Nh5 13. Be3 a5 14. Bxa7 Rxa7 15. d4 Qf6 16. Re3 Nf4 17. h4 Qg6 18. g3 Raa8 19. dxe5 Nxe5 20. Nxe5 dxe5 21. f3 Rad8 22. Qc2 Nh5 23. Kh2 Rf6 24. Rd1 Rdf8 25. Rdd3 Qf7 26. Qd1 Rg6 27. Qe1 Qe7 28. Kh3 Rxg3+ 29. Nxg3 Nf4+ 30. Kh2 Qxh4+ 31. Kg1 Rf6 32. Rd8+ Kh7 33. Rd2 Rg6 34. Rg2 h5 35. Rh2 Rxg3+ 36. Kh1 Qg5 37. Qf1 h4 38. Re1 h3 39. Rd1 Qh5 40. Rd7 Qxf3+ 41. Qxf3 Rxf3 42. Rhd2 Kh6 43. Rd8 Kh5 44. Rh8+ Kg4 45. Rd1 Ne2 0-1',
+      id: '4062790',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C88',
+      t: 'Ding Liren vs Giri Match',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. a4 b4 9. d4 d6 10. dxe5 Nxe5 11. Nxe5 dxe5 12. Qe2 a5 13. Rd1 Ba6 14. Qf3 Qc8 15. Bg5 c5 16. Bxf6 Bxf6 17. Bd5 Rb8 18. c4 Rb6 19. Nd2 Qc7 20. Nb3 Be7 21. Nc1 Bc8 22. Nd3 Rg6 23. Qe3 h5 24. b3 h4 25. Ra2 Bd6 26. f3 Qe7 27. Rf2 Qg5 28. Qxg5 Rxg5 29. Re1 Re8 30. Kf1 Kf8 31. Ree2 f6 32. Ke1 Ke7 33. Kd1 Kd7 34. Kc2 Kc7 35. Re1 Re7 36. Ree2 Rh5 37. Re1 Rh8 38. Rfe2 g6 39. Kd2 Kb6 40. Kc2 Rc7 41. Rf2 Re7 42. Rfe2 Rhe8 43. Kd2 Rh7 44. Kc2 Bf8 45. Rf2 Bh6 46. Rfe2 Bg5 47. Kd1 Ree7 48. Rg1 Rh5 49. Ke1 Bf4 50. Rh1 g5 51. h3 Rh8 52. Kd1 Rd8 53. Kc2 f5 54. Nxf4 gxf4 55. Rd1 fxe4 56. Bxe4 Rd4 57. Rxd4 exd4 58. Kd2 Kc7 59. Re1 Kd6 60. Re2 Re5 61. Re1 Be6 1/2-1/2',
+      id: '4062791',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'A09',
+      t: 'Ding Liren vs Giri Match',
+      moves:
+        '1. Nf3 d5 2. c4 d4 3. b4 f6 4. d3 e5 5. a3 a5 6. b5 Ne7 7. e3 dxe3 8. fxe3 Nf5 9. g4 Nd6 10. Rg1 Be6 11. Qc2 Nd7 12. d4 e4 13. Nh4 f5 14. Ng2 fxg4 15. c5 Nf7 16. Nd2 Be7 17. Nxe4 a4 18. Bb2 Bb3 19. Qe2 h5 20. Nd2 Bh4+ 21. Nxh4 Qxh4+ 22. Qf2 Qxf2+ 23. Kxf2 Ng5 24. Bg2 O-O+ 25. Ke2 Nf3 26. Bxf3 gxf3+ 27. Kd3 Ra5 28. Bc3 Rxb5 29. Bb4 c6 30. Raf1 b6 31. Nxb3 axb3 32. cxb6 Rf7 33. Kc3 1/2-1/2',
+      id: '4062792',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D77',
+      t: 'Palma De Mallorca GP 2017',
+      moves:
+        '1. Nf3 d5 2. g3 g6 3. Bg2 Bg7 4. d4 Nf6 5. O-O O-O 6. c4 dxc4 7. Na3 c5 8. dxc5 c3 9. Nb5 Na6 10. Nxc3 Nxc5 11. Be3 Nfe4 12. Nxe4 Nxe4 13. Bd4 Bxd4 14. Qxd4 Qxd4 15. Nxd4 Nd6 16. Rfc1 Rd8 17. Rc7 Kf8 18. Rac1 Ne8 19. R7c4 Nd6 20. Rc5 Bd7 21. f4 Rac8 22. Kf2 Rxc5 23. Rxc5 Rc8 24. b4 f5 25. Bd5 Kg7 26. Nf3 e6 27. Rxc8 Bxc8 28. Bb3 Kf6 29. Ke3 Bd7 30. a4 Nf7 31. Kd4 h6 32. a5 b6 33. axb6 axb6 34. e4 fxe4 35. Nd2 e5+ 36. fxe5+ Nxe5 37. Nxe4+ Kf5 38. Nd6+ Kf6 39. Bd5 g5 40. Ne4+ Kf5 41. Nd6+ Kf6 42. Ne4+ 1/2-1/2',
+      id: '4081653',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'D11',
+      t: '78th Tata Steel GpA',
+      moves:
+        '1. c4 c6 2. d4 d5 3. Nf3 Nf6 4. e3 e6 5. Bd3 Nbd7 6. b3 Bd6 7. Bb2 b6 8. O-O O-O 9. Nbd2 Bb7 10. Qe2 c5 11. cxd5 exd5 12. Ba6 Bxa6 13. Qxa6 Qe7 14. Rfd1 Rfd8 15. Rac1 Qe6 16. Nf1 Ne4 17. N3d2 Ndf6 18. Nxe4 Nxe4 19. Rc2 Rac8 20. Rdc1 h5 21. Qe2 h4 22. dxc5 Rxc5 23. h3 Rdc8 24. Bd4 Rxc2 25. Rxc2 Rxc2 26. Qxc2 Be5 27. Bxe5 Qxe5 28. Qc8+ Kh7 29. Qg4 Qf6 30. f3 Nc3 31. a4 d4 32. Kf2 Nd1+ 33. Ke2 Nxe3 1/2-1/2',
+      id: '3976234',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C84',
+      t: '4th Sinquefield Cup 2016',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 b5 7. Bb3 d6 8. a3 Na5 9. Ba2 c5 10. Nc3 Be6 11. Nh4 O-O 12. Nf5 Rc8 13. Bg5 Bxf5 14. exf5 Ne8 15. Be3 Bg5 16. Bd5 Bxe3 17. fxe3 Nf6 18. Qf3 Re8 19. b3 h6 20. Be4 c4 21. dxc4 Nxc4 22. bxc4 Rxc4 23. Bc6 Rxc3 24. Bxe8 Qxe8 25. Qb7 Ng4 26. f6 Nxf6 27. Qxa6 Qd7 28. Rab1 Rc5 29. a4 bxa4 30. Rb8+ Kh7 31. Rxf6 gxf6 32. Qa8 Qc6 33. Rh8+ Kg6 34. Qg8+ Kf5 35. Qxf7 Rxc2 36. Qh7+ Ke6 37. Qg8+ Kf5 38. Qh7+ Ke6 1/2-1/2',
+      id: '4003414',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'E92',
+      t: '77th Tata Steel GpA',
+      moves:
+        '1. c4 g6 2. d4 Nf6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. d5 a5 8. Bg5 h6 9. Bh4 Na6 10. Nd2 Bd7 11. O-O Qe8 12. b3 Nh7 13. f3 h5 14. a3 Bh6 15. Rb1 Nc5 16. Qc2 f5 17. b4 axb4 18. axb4 Na4 19. Nd1 g5 20. Bf2 g4 21. fxg4 Bxd2 22. Qxd2 f4 23. gxh5 Ng5 24. Bh4 Nxe4 25. Qc2 Bf5 26. g4 Ng3 27. gxf5 Nxf1 28. Kxf1 e4 29. f6 Kh8 30. Nf2 f3 31. Bd1 Qxh5 32. Qxe4 Nc3 33. Qd4 Rf7 34. Qxc3 Qxh4 35. Bxf3 Ra2 36. Rb2 Rxb2 37. Qxb2 Qxf6 38. Qxf6+ Rxf6 39. Kg2 Rf8 40. b5 Kg7 41. Ne4 b6 42. h4 Ra8 43. h5 Ra2+ 44. Kf1 Kh6 45. Be2 Ra8 46. Kf2 Rf8+ 47. Ke3 Rf7 48. Bf3 Rf8 49. Kf2 Ra8 50. Be2 Ra3 51. Nf6 Ra8 52. Ke3 Rf8 53. Ne4 Ra8 54. Kf4 Rf8+ 55. Kg3 Ra8 56. Nf2 Ra2 57. Bd1 Rb2 58. Ne4 Rb1 59. Be2 Rb2 60. Kf2 Ra2 61. Ke3 Ra8 62. Bg4 Ra4 63. Kf4 Rxc4 64. Bd7 Kxh5 65. Kf5 Kh6 66. Bc6 Kg7 67. Ng5 Rh4 68. Ke6 Kg6 69. Nf3 Rf4 70. Nd2 Kg5 71. Ke7 Rf5 72. Ne4+ Kf4 73. Nf6 Ke5 74. Nd7+ Kd4 75. Kd8 1-0',
+      id: '3926724',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Anish_Giri',
+      r: '&frac12;-&frac12;',
+      e: 'D78',
+      t: '8th Grand Slam Masters',
+      moves:
+        '1. d4 Nf6 2. c4 g6 3. g3 c6 4. Bg2 d5 5. Nf3 Bg7 6. O-O O-O 7. Qb3 Qb6 8. Nc3 Rd8 9. Na4 Qxb3 10. axb3 Na6 11. Bf4 Ne8 12. Nc3 Nac7 13. Ra5 Be6 14. Ra4 a6 15. Rfa1 h6 16. h4 Nd6 17. e3 Rac8 18. Nd2 f6 19. Ra5 dxc4 20. Bxd6 exd6 21. bxc4 f5 22. R5a4 c5 23. Ne2 Rb8 24. b4 b5 25. cxb5 Nxb5 26. bxc5 dxc5 27. Rxa6 cxd4 28. Nxd4 Nxd4 29. exd4 Bxd4 30. Rf1 Bb6 31. Re1 Bxf2+ 32. Kxf2 Rxd2+ 33. Kg1 Bf7 34. Ra3 Rbb2 35. Bf3 g5 36. hxg5 hxg5 37. Rae3 g4 38. Be2 Bd5 39. Bf1 Rh2 40. R1e2 Rh1+ 41. Kf2 Rb1 42. Re1 Rb4 43. Re7 f4 44. Rc1 Rb2+ 45. Ke1 Rb8 46. gxf4 Bg2 47. Kf2 Bxf1 48. f5 Kf8 49. Ree1 Rb2+ 50. Kg3 Rh3+ 51. Kxg4 Rb4+ 52. Kg5 Rg3+ 53. Kf6 Bc4 54. Rcd1 Bd3 55. Rc1 Bc4 56. Rcd1 Rb8 57. Rd7 Bb3 58. Ree7 Rc3 59. Rd6 Kg8 60. Rg7+ Kh8 61. Rg5 Rh3 62. Ke5 Bg8 63. Kf6 Rh6+ 64. Rg6 Rh5 65. Ke5 Rb5+ 66. Kf4 Rhxf5+ 67. Kg4 Rf1 68. Rh6+ Kg7 69. Rdg6+ Kf7 70. Rb6 Re5 71. Rhc6 Re7 72. Rc3 Kg7 73. Rbc6 Be6+ 74. Kg3 Bd7 75. Rd6 Be8 76. Rf3 Rfe1 77. Rd2 Bc6 78. Rc3 Rg1+ 79. Kh2 Rh1+ 80. Kg3 Rh6 81. Rd4 Re2 82. Rg4+ Kf7 83. Rcc4 Rg2+ 84. Kf4 Rf6+ 85. Ke5 Re6+ 86. Kf5 Rge2 87. Rgf4 Rg6 88. Rcd4 Re7 89. Rh4 Bd7+ 90. Kf4 Rf6+ 91. Kg3 Re3+ 92. Kh2 Re2+ 93. Kg3 Re3+ 94. Kh2 Bf5 95. Kg2 Kg6 96. Kf2 Rc3 97. Rhf4 Rc2+ 98. Kg3 Re6 99. Rd8 Ree2 100. Rg8+ Kh7 101. Rd8 Be6 102. Rdd4 Kg6 103. Rfe4 Rg2+ 104. Kf4 Rgf2+ 105. Ke5 Bf5 106. Re3 Ra2 107. Rd6+ Kg5 108. Rg3+ Bg4 109. Rd4 Ra5+ 110. Kd6 Ra6+ 111. Kc5 Rf5+ 112. Kb4 Rb6+ 113. Kc4 Rc6+ 114. Kb4 Rf4 115. Rxf4 Kxf4 116. Rc3 Rg6 117. Rc4+ Ke5 118. Rc5+ Kd6 119. Rc4 Be6 120. Rd4+ Bd5 121. Kc3 Ke5 122. Rd3 Rc6+ 123. Kd2 Be4 124. Rc3 Rh6 125. Ke2 Rf6 126. Ke3 Rf8 127. Ke2 Kd4 128. Ra3 Bc2 129. Rh3 Rg8 130. Kf3 Be4+ 131. Kf4 Rf8+ 132. Kg5 Ke5 133. Rg3 Bf3 134. Kh4 Ke4 135. Rg7 Rf5 136. Kg3 Ke3 137. Rg8 Rh5 138. Rg7 Be4 139. Rg8 Rh1 140. Rg5 Rf1 141. Kg4 Bf3+ 142. Kf5 Kd4 143. Ke6 Rh1 144. Rg6 Be4 145. Rf6 Rh8 146. Kd6 Ra8 147. Ke7 Ra5 148. Rd6+ Bd5 149. Kf6 Ra7 150. Kf5 Re7 151. Rf6 Re1 152. Kg5 Be6 153. Kf4 Re3 154. Rf8 Bd5 155. Rf6 Re1 156. Kf5 Re5+ 157. Kf4 Be6 158. Kf3 Re3+ 159. Kf4 Re4+ 160. Kf3 Bg4+ 161. Kg3 Ke3 162. Rg6 Bf3 163. Rg5 Ra4 164. Re5+ Be4 165. Kg4 Ra1 166. Rg5 Rf1 167. Kh4 Bf5 168. Rg3+ Kf4 169. Rg4+ Ke5 170. Rg3 Kf6 171. Ra3 Rg1 172. Ra4 1/2-1/2',
+      id: '3965908',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C92',
+      t: '8th Grand Slam Masters',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Re8 10. d4 Bb7 11. Nbd2 Bf8 12. a3 h6 13. d5 Nb8 14. Nh2 Nbd7 15. Qf3 c6 16. dxc6 Bxc6 17. Ng4 Nc5 18. Nxf6+ Qxf6 19. Qxf6 gxf6 20. Bc2 Red8 21. Nf1 d5 22. exd5 Bxd5 23. Ng3 Bb3 24. Bxb3 Nxb3 25. Rb1 Kh7 26. Be3 Kg6 27. f4 exf4 28. Bxf4 Nd2 29. Rbc1 Nc4 30. Rc2 Rd3 31. Ne2 Re8 32. Bc1 Bd6 33. Rf1 Rd2 34. Rxd2 Nxd2 35. Rd1 Rxe2 36. Rxd2 Re1+ 37. Kf2 Rxc1 38. Rxd6 Rc2+ 39. Kg1 Rxb2 40. Rxa6 Rb3 41. a4 bxa4 42. Rxa4 Rxc3 1/2-1/2',
+      id: '3965912',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'B17',
+      t: 'World Teams 2013',
+      moves:
+        '1. e4 c6 2. Nc3 d5 3. d4 dxe4 4. Nxe4 Nd7 5. Ng5 Ngf6 6. Bd3 e6 7. N1f3 Bd6 8. Qe2 h6 9. Ne4 Nxe4 10. Qxe4 Qc7 11. O-O b6 12. Qg4 Kf8 13. b3 Bb7 14. Re1 Rd8 15. Bb2 Nf6 16. Qh3 Nd5 17. g3 c5 18. dxc5 Bxc5 19. Be4 Nf6 20. Bxf6 gxf6 21. Qh4 Be7 22. Bxb7 Qxb7 23. Qf4 Kg7 24. Qg4+ Kh7 25. Qh5 Kg7 26. Qg4+ Kh7 27. Qh5 Kg7 28. Qg4+ Kh7 1/2-1/2',
+      id: '3874932',
+    },
+    {
+      w: 'Anish_Giri',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'C07',
+      t: 'SportAccord Blitz Men 2012',
+      moves:
+        '1. e4 e6 2. d4 d5 3. Nd2 c5 4. Ngf3 cxd4 5. exd5 Qxd5 6. Bc4 Qd6 7. O-O Nf6 8. Nb3 Nc6 9. Nbxd4 Nxd4 10. Nxd4 Be7 11. c3 O-O 12. Qf3 Qc7 13. Bb3 a6 14. Re1 Bd6 15. h3 Bh2+ 16. Kh1 Be5 17. Be3 Bd7 18. Rad1 Rfd8 19. Rd2 Be8 20. Red1 Qe7 21. Kg1 h6 22. a3 Rac8 23. Ba2 Ba4 24. Re1 Qc7 25. Bxe6 Bxd4 26. Bxc8 Bxe3 27. Qxb7 Rxc8 28. Qxc7 Bxf2+ 29. Kxf2 Rxc7 30. Rd4 Bb3 31. Rb4 Be6 32. Rb8+ Kh7 33. Rb6 a5 34. a4 Nd7 35. Rb5 Nc5 36. Rd1 Nxa4 37. Rd2 Nc5 38. Rd4 a4 39. Ke3 Bb3 40. Rd6 Ne6 41. Rdb6 Kg6 42. Rb7 Rc8 43. Rb8 Rc4 44. Rb4 Rc5 45. R8b5 Rc7 46. Rb7 Rc8 47. Rb8 Rxb8 48. Rxb8 f5 49. Rc8 Kf6 50. c4 Ke5 51. g3 g5 52. Kd3 f4 53. g4 Kd6 54. Rh8 Kc5 55. Rc8+ Kd6 56. Rh8 f3 57. Rxh6 Ke5 58. Ke3 Bxc4 59. Kxf3 Nc5 60. Rg6 Nd3 61. Rxg5+ Kd4 62. Ra5 Nxb2 63. g5 Kc3 64. g6 Kb4 65. Ra8 a3 66. Rb8+ Kc3 67. Ra8 Kb4 68. Rb8+ Kc3 69. Ra8 Bd5+ 70. Kf4 Bxa8 71. Ke5 Nc4+ 72. Ke6 Ne3 73. Ke5 a2 0-1',
+      id: '3837901',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Alireza_Firouzja',
+      r: '&frac12;-&frac12;',
+      e: 'E51',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. e3 O-O 6. Bd2 b6 7. cxd5 exd5 8. Rc1  a6 9. Bd3 Bb7 10. O-O Bd6 11. Ne5 c5 12. f4 Nc6 13. Be1 cxd4 14. Nxc6 Bxc6 15.  Ne2 Bd7 16. Nxd4 Re8 17. Qf3 Qe7 18. Bd2 Bc5 19. Rfe1 Bxd4 20. exd4 Ne4 21. Bxe4  dxe4 22. Qe3 Qe6 23. a3 Qd5 24. h3 h5 25. Qf2 Rac8 26. Rxc8 Rxc8 27. Rc1 Rxc1+  28. Bxc1 Qc4 29. Be3 b5 30. Qd2 Be6 31. Qc1 Qd3 32. Qd2 Bd5 33. Qxd3 exd3 34. g3  Kh7 35. Kf2 Kg6 36. Bd2 Kf5 37. Ke3 Bc4 38. Bb4 g6 39. Bd2 Ke6 40. g4 hxg4 41.  hxg4 f5 42. gxf5+ 1/2-1/2',
+      id: '4260714',
+    },
+    {
+      w: 'Alireza_Firouzja',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'B90',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 c5 2. Nc3 d6 3. Nf3 Nf6 4. d4 cxd4 5. Nxd4 a6 6. Be3 e5 7. Nb3 Be6 8. f3  h5 9. Qd2 Nbd7 10. O-O-O Be7 11. Kb1 b5 12. a3 Rc8 13. h3 h4 14. f4 O-O 15. f5  Bxb3 16. cxb3 Nc5 17. Bxc5 dxc5 18. Qe1 Qc7 19. g4 hxg3 20. Qxg3 Rfd8 21. Be2  Bf8 22. h4 Qb7 23. Qg2 Rd4 24. h5 Nxe4 25. Bf3 Nxc3+ 26. bxc3 e4 27. cxd4 exf3  28. Qg4 Qd5 29. Rd3 c4 30. Qxf3 Qd6 31. bxc4 bxc4 32. Rc3 Qxd4 33. Rhc1 Bxa3 34.  R1c2 Be7 35. Qb7 Qd8 36. Rd2 Qf8 37. Kc2 Bf6 38. Rd7 Rb8 39. Qc7 Bxc3 40. Kxc3  Qb4+ 41. Kd4 Qd2+ 42. Kc5 Rb5+ 43. Kxc4 Qc2+ 44. Kd4 Qxc7 45. Rxc7 Rxf5 0-1',
+      id: '4260716',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Alireza_Firouzja',
+      r: '&frac12;-&frac12;',
+      e: 'A07',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. Nf3 d5 2. g3 Nd7 3. d4 Nb6 4. Bg2 Bf5 5. O-O e6 6. Nbd2 c6 7. c4 dxc4 8. e4  Bg6 9. Qe2 Nf6 10. Rd1 Bb4 11. Ne5 c3 12. bxc3 Bxc3 13. Rb1 O-O 14. Nb3 Qe7 15.  Bg5 Qa3 16. Rd3 Na4 17. h4 c5 18. Bxf6 gxf6 19. Nc4 Qb4 20. Nbd2 Bxd2 21. Rxb4  Bxb4 22. h5 b5 23. hxg6 bxc4 24. gxh7+ Kh8 25. Rf3 c3 26. a3 cxd4 27. axb4 Rac8  28. Qc2 Nb2 29. Bf1 Rfd8 30. Bd3 e5 31. g4 Kxh7 32. Kf1 Nxd3 33. Rxd3 Rc4 34.  Qc1 Kg7 35. g5 f5 36. g6 fxe4 37. gxf7 exd3 38. Qg5+ Kxf7 39. Qf5+ Ke7 40. Qxe5+  Kf7 41. Qf5+ Ke7 42. Qe5+ Kf7 1/2-1/2',
+      id: '4260718',
+    },
+    {
+      w: 'Alireza_Firouzja',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Magnus Carlsen Invitational Preliminaries',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. O-O Nd7 7. c3 h6 8. d4  Bd6 9. Nbd2 exd4 10. cxd4 O-O 11. h3 Nb6 12. Nb3 f5 13. e5 Be7 14. Qc2 f4 15.  Nc5 Qd5 16. Qc3 Bxc5 17. Qxc5 Be6 18. b3 Qxc5 19. dxc5 Nd7 20. Re1 Rae8 21. Bb2  Bd5 22. Rad1 Nxc5 23. Ba3 b6 24. Bxc5 bxc5 25. Rc1 c4 26. Nd4 cxb3 27. axb3 Re7  28. e6 Rfe8 29. Re5 Bxe6 30. Rce1 Kf7 31. Nxc6 Rd7 32. R5e4 Rd6 33. Rxf4+ Kg8  34. Nxa7 Rb8 35. Rc1 Rb7 36. Nc6 Bxb3 37. Na5 Rb5 38. Nxb3 Rxb3 39. Rxc7 Rg6 40.  g3 Rbb6 41. h4 Rgf6 42. Re4 Rb1+ 43. Kg2 Rb2 44. Re8+ Kh7 45. Ree7 Rbxf2+ 46.  Kh3 Rg6 47. Re4 1/2-1/2',
+      id: '4260720',
+    },
+    {
+      w: 'Alireza_Firouzja',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'C65',
+      t: 'Lindores Abbey Rapid Challenge',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 Bc5 5. Bxc6 dxc6 6. Nbd2 Nd7 7. Nc4 f6 8.  Bd2 Nf8 9. b4 Be7 10. Nh4 g6 11. O-O Ne6 12. g3 O-O 13. Ng2 b6 14. Kh1 c5 15. a3  Bb7 16. Bh6 Rf7 17. c3 Qd7 18. Qe2 Rd8 19. Rad1 cxb4 20. axb4 c5 21. bxc5 Nxc5  22. f3 Nxd3 23. Nb2 Qh3 24. Nxd3 Qxh6 25. Qa2 a5 26. Nb2 Qf8 27. Qe6 Bc5 28. Na4  Bc8 29. Qc4 Rxd1 30. Rxd1 Kg7 31. Nxc5 Qxc5 32. Qxc5 bxc5 33. Ra1 Ra7 34. Ne3  Be6 35. Kg1 a4 36. Ra3 f5 37. Kf2 f4 38. Nd1 Bb3 39. Ke1 Bxd1 40. Kxd1 c4 41. g4  g5 42. Kc2 Ra6 43. Kb1 Rb6+ 44. Kc2 Rh6 45. Rxa4 Rxh2+ 46. Kd1 Rf2 47. Ra7+ Kg6  48. Ra6+ Kf7 49. Ra7+ Ke6 50. Ra6+ Kd7 51. Ra7+ Kc6 52. Ra6+ Kb5 53. Re6 Ka4 54.  Rxe5 h6 55. Re6 Kb3 56. Rxh6 Rxf3 57. Rg6 Rd3+ 58. Ke2 Kxc3 59. Rxg5 Re3+ 60.  Kf2 Rxe4 61. Rg8 Kd3 62. g5 c3 63. Rd8+ Kc2 64. Kf3 Re7 65. Kxf4 Rg7 66. Rc8 Kb2 1/2-1/2',
+      id: '4261172',
+    },
+    {
+      w: 'Alireza_Firouzja',
+      b: 'Liren_Ding',
+      r: '1-0',
+      e: 'C50',
+      t: 'Skilling Open Prelim',
+      moves:
+        '1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. c3 d6 6. O-O O-O 7. Re1 a5 8. h3 h6 9. Bb3 b5 10. d4 Bb6 11. Be3 a4 12. Bc2 exd4 13. cxd4 Nb4 14. Nc3 Nxc2 15. Qxc2 Ba5 16. Bd2 Rb8 17. e5 dxe5 18. dxe5 Bxc3 19. Qxc3 Nd5 20. Qc5 Be6 21. Rac1 Qd7 22. Red1 Rfc8 23. Nd4 c6 24. Kh2 Rb7 25. Be1 Qe8 26. a3 Bd7 27. Nf3 Nf4 28. Qe3 Nd5 29. Qe4 Nb6 30. Rc5 Be6 31. Nd4 Bd5 32. Qg4 Qxe5+ 33. f4 Qf6 34. Bc3 Qg6 35. Nf5 Qxg4 36. hxg4 Rd7 37. Nxg7 Be6 38. Rxd7 Bxd7 39. Nh5 Be6 40. Nf6+ Kf8 41. Rh5 Nd5 42. Nxd5 Bxd5 43. Rxh6 Re8 44. Bf6 1-0',
+      id: '4275273',
+    },
+    {
+      w: 'Alireza_Firouzja',
+      b: 'Liren_Ding',
+      r: '&frac12;-&frac12;',
+      e: 'E20',
+      t: 'FIDE World Cup 2019',
+      moves:
+        '1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3 c5 5. d5 O-O 6. e4 b5 7. Nh3 bxc4 8. Bxc4 Nxd5 9. Bxd5 exd5 10. Qxd5 Nc6 11. O-O Ba6 12. Rf2 Re8 13. Bg5 Qb6 14. Be3 Ne5 15. Na4 Qa5 16. b3 c4 17. Nf4 Bb5 18. Nb2 cxb3 19. Qxb3 Rab8 20. Qd5 Qa3 21. Qb3 Qa5 22. Qd5 Qa3 23. Qb3 Qa5 1/2-1/2',
+      id: '4219468',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Alireza_Firouzja',
+      r: '&frac12;-&frac12;',
+      e: 'E06',
+      t: 'FIDE World Cup 2019',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. g3 Be7 5. Bg2 O-O 6. O-O dxc4 7. Qc2 a6 8. a4 Nc6 9. Qxc4 Na5 10. Qc2 b6 11. Ne5 Bb7 12. Bxb7 Nxb7 13. Nc6 Qe8 14. Rd1 Bc5 15. Ne5 Bd6 16. Nc3 c5 17. Ne4 Nxe4 18. Qxe4 cxd4 19. Nc4 Nc5 20. Nxd6 Nxe4 21. Nxe8 Rfxe8 22. Rxd4 Nf6 23. Be3 Rec8 24. Rd6 Rc2 25. Rc1 Rxb2 26. Rxb6 Rxb6 27. Bxb6 h6 28. a5 Nd5 29. Rc6 Ne7 30. Rd6 Rc8 31. e4 Rc1+ 32. Kg2 Nc6 33. Kf3 Kf8 34. Ke2 1/2-1/2',
+      id: '4220175',
+    },
+    {
+      w: 'Liren_Ding',
+      b: 'Alireza_Firouzja',
+      r: '1-0',
+      e: 'D37',
+      t: 'FIDE World Cup 2019',
+      moves:
+        '1. Nf3 d5 2. d4 Nf6 3. c4 e6 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. Be2 dxc4 8. O-O c5 9. dxc5 Nxc5 10. Bxc4 Qxd1 11. Rfxd1 b6 12. Bd6 Bxd6 13. Rxd6 Bb7 14. Rad1 Bxf3 15. gxf3 Rfc8 16. Be2 g5 17. R6d4 Kf8 18. f4 gxf4 19. Rxf4 Ke7 20. Bf3 Rg8+ 21. Kf1 Rad8 22. Rfd4 Rxd4 23. Rxd4 Ncd7 24. h3 Rc8 25. Ke2 Rc5 26. Rb4 Ne5 27. Rb5 Nxf3 28. Kxf3 Nd7 29. Ke2 a5 30. f4 f5 31. Kd3 Rc6 32. e4 Nc5+ 33. Ke3 fxe4 34. Nxe4 Nxe4 35. Kxe4 Kf6 36. Kf3 Rd6 37. Kg4 Rc6 38. h4 Rd6 39. b3 Kg6 40. a4 Kf6 41. Kf3 Rc6 42. Ke4 Rd6 43. Rh5 Kg6 44. Rg5+ Kf6 45. Rb5 Rc6 46. f5 exf5+ 47. Rxf5+ Kg6 48. h5+ Kh6 49. Kd4 Kg7 50. Rg5+ Kh6 51. Rd5 Kg7 52. Rd7+ Kh6 53. Rb7 Rf6 54. Kc4 Rf4+ 55. Kb5 Kxh5 56. Rxh7+ Kg5 57. Rb7 Rb4+ 58. Ka6 Rxb3 59. Rxb6 Rd3 60. Kxa5 Kf5 61. Ka6 Ke5 62. a5 Rd7 63. Rc6 Kd5 64. Kb6 Rd8 65. a6 Rb8+ 66. Kc7 Ra8 67. Kb7 1-0',
+      id: '4220191',
+    },
+    {
+      w: 'Alireza_Firouzja',
+      b: 'Liren_Ding',
+      r: '0-1',
+      e: 'A06',
+      t: 'FIDE World Cup 2019',
+      moves:
+        '1. Nf3 d5 2. e3 Nf6 3. c4 e6 4. Nc3 b6 5. Qa4+ c6 6. Be2 Bd6 7. d3 O-O 8. e4 dxe4 9. dxe4 Qc7 10. c5 bxc5 11. O-O Nbd7 12. g3 Ne5 13. Nd2 Be7 14. f4 Ned7 15. g4 Rd8 16. g5 Ne8 17. h4 a5 18. e5 g6 19. Nde4 Ng7 20. Nf6+ Bxf6 21. gxf6 Nf5 22. h5 c4 23. hxg6 hxg6 24. Qc2 Qb6+ 25. Rf2 Nc5 26. Bxc4 Ba6 27. Bxa6 Rxa6 28. Kg2 Nd3 29. Rf1 Ra7 30. Ne4 Rad7 31. Qe2 Rd4 32. Bd2 Qxb2 33. Rab1 Rxe4 34. Qxd3 Qxd2+ 0-1',
+      id: '4220199',
+    },
+    {
       w: 'Alireza_Firouzja',
       b: 'Hikaru_Nakamura',
       r: '5-5',
