@@ -5,12 +5,11 @@ import { Title, Copy, DateForm } from './item.css';
 
 const Item = ({ title, subtitle, date, frontimg }) => (
   <figure>
-    <div style={{ overflow: 'hidden', maxHeight:'40vh', maxWidth:'20vw'}}>
     <Img
       fluid={frontimg ? frontimg.childImageSharp.fluid : {}}
       alt={title}
+      style={{ margin: '0 1rem 0 0', maxHeight: '25vh' }}
     />
-    </div>
     <figcaption>
       <Title>{title}</Title>
       <DateForm>{date}</DateForm>

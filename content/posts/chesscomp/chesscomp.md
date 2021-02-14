@@ -1,12 +1,10 @@
 ---
 type: 'project'
-link: '/02-12-chess-comp/'
+link: '/chess-comp/'
 title: 'Chess Graph'
-date: '2021-02-12'
-subtitle: 'Have an open IR spot on your fantasy football roster? Take a look at these available targets...'
-frontimg: '../../images/ir/nick-foles.jpeg'
+subtitle: 'Available IR-eligible fantasy football players to stash'
+frontimg: '../../images/chesscomp/carlsen_caruana.jpg'
 tags: ['Fantasy Football', 'Sports', 'Data Analysis']
 ---
 
 <chess-chart></chess-chart>
-

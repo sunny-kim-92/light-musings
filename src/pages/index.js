@@ -17,8 +17,8 @@ const Index = ({ data }) => {
   });
   return (
     <Layout>
-      <Gallery type='projects' items={projects} />
-      <Gallery type='articles' items={articles} />
+      <Gallery type="projects" items={projects} />
+      <Gallery type="articles" items={articles} />
     </Layout>
   );
 };
