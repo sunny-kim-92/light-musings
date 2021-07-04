@@ -10,7 +10,7 @@ import DateForm from 'components/format/dateform';
 import rehypeReact from 'rehype-react';
 import BlogPadding from 'components/format/blogpadding';
 
-import ChessChart from 'components/i-components/chesscomp/chart/ChessChart';
+import ChessChart from 'components/i-components/chesschart/chart/ChessChart';
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
@@ -20,7 +20,7 @@ const renderAst = new rehypeReact({
 }).Compiler;
 
 const IR = ({ data }) => {
-  const info = data.chesscompJson;
+  const info = data.chesschartJson;
   return (
     <Layout>
       <Img
@@ -52,8 +52,8 @@ IR.propTypes = {
 export default IR;
 
 export const query = graphql`
-  query ChesscompQuery {
-    chesscompJson {
+  query ChesschartQuery {
+    chesschartJson {
       title
       date
       content {

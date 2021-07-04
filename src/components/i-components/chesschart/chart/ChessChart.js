@@ -1,10 +1,10 @@
 import React, { Component, useState } from 'react';
-import { Radar } from 'react-chartjs-2';
+import { Radar, Doughnut } from 'react-chartjs-2';
 import Dropdown from 'react-select';
 import 'array-flat-polyfill';
 import { Container, DropdownContainer, RadarContainer } from './ChessChart.css';
 import Chessboard from 'chessboardjsx';
-import Chess, { setFen } from 'chess.js';
+import Chess from 'chess.js';
 
 import { data } from './complete';
 
@@ -100,41 +100,65 @@ class ChessChart extends Component {
   };
 
   handlePlayerOneChange = event => {
-    this.setState({ playerOne: event.value }, () => {
-      this.handlePlayerChange();
-    });
-  };
-
-  handlePlayerTwoChange = event => {
-    this.setState({ playerTwo: event.value }, () => {
-      this.handlePlayerChange();
-    });
-  };
-
-  handlePlayerThreeChange = event => {
-    this.setState({ playerThree: event.value }, () => {
-      this.handlePlayerChange();
-    });
-  };
-
-  handlePlayerFourChange = event => {
-    this.setState({ playerFour: event.value }, () => {
-      this.handlePlayerChange();
-    });
-  };
-
-  handlePlayerChange = event => {};
-
-  handleReset = () => {
-    this.setState({
+    this.setState({ playerOne: event.value,
       moves: [],
       labels: [],
       datasets: [
         {
           data: [],
         },
-      ],
-    });
+      ]
+  }, () => {
+    this.handleReset()
+  })
+}
+
+  handlePlayerTwoChange = event => {
+    this.setState({ playerTwo: event.value,
+      moves: [],
+      labels: [],
+      datasets: [
+        {
+          data: [],
+        },
+      ]
+  }, () => {
+    this.handleReset()
+  })
+}
+
+  handlePlayerThreeChange = event => {
+    this.setState({ playerThree: event.value,
+      moves: [],
+      labels: [],
+      datasets: [
+        {
+          data: [],
+        },
+      ]
+  }, () => {
+    this.handleReset()
+  })
+}
+
+  handlePlayerFourChange = event => {
+    this.setState({ playerFour: event.value,
+      moves: [],
+      labels: [],
+      datasets: [
+        {
+          data: [],
+        },
+      ]
+  }, () => {
+    this.handleReset()
+  })
+}
+
+  handlePlayerChange = event => {};
+
+  handleReset = () => {
+    this.generateChart({}, {}, this.state.games)
   };
 
   handleMoveSelect = event => {
@@ -201,7 +225,8 @@ class ChessChart extends Component {
 
     data.forEach(entry => {
       if (
-        (entry.white == this.state.playerOne || entry.black == this.state.playerOne) &&
+        (entry.white == this.state.playerOne ||
+          entry.black == this.state.playerOne) &&
         (entry.white == this.state.playerTwo ||
           entry.black == this.state.playerTwo ||
           entry.white == this.state.playerThree ||
@@ -246,10 +271,21 @@ class ChessChart extends Component {
   }
 
   render() {
-    let data = {
+    let radarData = {
       labels: this.state.labels,
       datasets: this.state.datasets,
     };
+
+    let doughnutData = JSON.parse(JSON.stringify(radarData));
+    doughnutData.datasets.forEach(circle => {
+      circle.backgroundColor = [
+        '#0051ff',
+        '#2f86ff',
+        '#51acff',
+        '#8bc3f6',
+        '#a1e0ff',
+      ];
+    });
 
     return (
       <Container>
@@ -291,11 +327,12 @@ class ChessChart extends Component {
         </DropdownContainer>
         <RadarContainer>
           <Radar
-            data={data}
+            data={radarData}
             onElementsClick={evt => {
               this.handleMoveSelect(evt);
             }}
           ></Radar>
+          <Doughnut data={doughnutData}></Doughnut>
         </RadarContainer>
         <Chessboard position={this.state.fen}></Chessboard>
       </Container>

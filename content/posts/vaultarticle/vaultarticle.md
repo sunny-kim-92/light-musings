@@ -1,6 +1,6 @@
 ---
 type: 'article'
-link: '/10-27-making-a-vault/'
+link: '/making-a-vault/'
 title: "Build Your Own Women's Gymnastics Vault"
 date: '2019-10-24'
 subtitle: "Explore the many vaults of elite women's gymnastics, then build your own!"

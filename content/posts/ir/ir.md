@@ -1,6 +1,6 @@
 ---
 type: 'article'
-link: '/10-4-ir-report/'
+link: '/ir-report/'
 title: 'IR-Eligible Fantasy Football Waiver Targets'
 date: '2019-10-04'
 subtitle: 'Have an open IR spot on your fantasy football roster? Take a look at these available targets...'

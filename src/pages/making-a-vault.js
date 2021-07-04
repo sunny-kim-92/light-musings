@@ -9,23 +9,23 @@ import Title from 'components/format/title';
 import DateForm from 'components/format/dateform';
 import rehypeReact from 'rehype-react';
 import BlogPadding from 'components/format/blogpadding';
-import LinkBox from 'components/format/linkbox'
+import LinkBox from 'components/format/linkbox';
 
-import Direction from 'components/i-components/vaultComp/galleries/direction'
-import FTurn from 'components/i-components/vaultComp/galleries/fTurn'
-import BP from 'components/i-components/vaultComp/galleries/bp'
-import Salto from 'components/i-components/vaultComp/galleries/salto'
-import STurn from 'components/i-components/vaultComp/galleries/sTurn'
+import Direction from 'components/i-components/vaultComp/galleries/direction';
+import FTurn from 'components/i-components/vaultComp/galleries/fTurn';
+import BP from 'components/i-components/vaultComp/galleries/bp';
+import Salto from 'components/i-components/vaultComp/galleries/salto';
+import STurn from 'components/i-components/vaultComp/galleries/sTurn';
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
-    'dire': Direction,
-    'fturn': FTurn,
-    'bp': BP,
-    'salto': Salto,
-    'sturn': STurn
-  }
+    dire: Direction,
+    fturn: FTurn,
+    bp: BP,
+    salto: Salto,
+    sturn: STurn,
+  },
 }).Compiler;
 
 const VaultArticle = ({ data }) => {
@@ -49,7 +49,7 @@ const VaultArticle = ({ data }) => {
       </Box>
       <BlogPadding>
         <LinkBox>
-        <Link to="/vault">Go to the Vault Builder App!</Link>
+          <Link to="/vault">Go to the Vault Builder App!</Link>
         </LinkBox>
         <div>{renderAst(info.content.childMarkdownRemark.htmlAst)}</div>
       </BlogPadding>
