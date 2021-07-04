@@ -34,7 +34,7 @@ class ChessChart extends Component {
       labels: [],
       datasets: [],
     };
-    this.handlePlayerChange = this.handlePlayerChange.bind(this);
+    this.handleDatasets = this.handleDatasets.bind(this);
     this.handlePlayerOneChange = this.handlePlayerOneChange.bind(this);
     this.handlePlayerTwoChange = this.handlePlayerTwoChange.bind(this);
     this.handlePlayerThreeChange = this.handlePlayerThreeChange.bind(this);
@@ -103,11 +103,6 @@ class ChessChart extends Component {
     this.setState({ playerOne: event.value,
       moves: [],
       labels: [],
-      datasets: [
-        {
-          data: [],
-        },
-      ]
   }, () => {
     this.handleReset()
   })
@@ -117,11 +112,6 @@ class ChessChart extends Component {
     this.setState({ playerTwo: event.value,
       moves: [],
       labels: [],
-      datasets: [
-        {
-          data: [],
-        },
-      ]
   }, () => {
     this.handleReset()
   })
@@ -131,11 +121,6 @@ class ChessChart extends Component {
     this.setState({ playerThree: event.value,
       moves: [],
       labels: [],
-      datasets: [
-        {
-          data: [],
-        },
-      ]
   }, () => {
     this.handleReset()
   })
@@ -145,20 +130,72 @@ class ChessChart extends Component {
     this.setState({ playerFour: event.value,
       moves: [],
       labels: [],
-      datasets: [
-        {
-          data: [],
-        },
-      ]
   }, () => {
     this.handleReset()
   })
 }
 
-  handlePlayerChange = event => {};
+handleDatasets = () => {
+  let totalMoveCountMap = {};
+  let playersMoveCountMap = {};
+
+  let newGames = [];
+  let opponentName = '';
+
+  data.forEach(entry => {
+    if (
+      (entry.white == this.state.playerOne ||
+        entry.black == this.state.playerOne) &&
+      (entry.white == this.state.playerTwo ||
+        entry.black == this.state.playerTwo ||
+        entry.white == this.state.playerThree ||
+        entry.black == this.state.playerThree ||
+        entry.white == this.state.playerFour ||
+        entry.black == this.state.playerFour)
+    ) {
+      let tempGame = entry;
+      let moveString = entry.moves;
+      let moves = moveString.split(' ');
+      tempGame['moves'] = moves;
+      for (let i = 0; i < moves.length; i++) {
+        if (moves[i].indexOf('.') != -1) {
+          moves.splice(i, 1);
+        }
+      }
+      if (!totalMoveCountMap[moves[0]]) {
+        totalMoveCountMap[moves[0]] = 1;
+      } else {
+        totalMoveCountMap[moves[0]]++;
+      }
+
+      if (this.state.playerOne == entry.white) {
+        opponentName = entry.black;
+      } else {
+        opponentName = entry.white;
+      }
+
+      if (!playersMoveCountMap[opponentName]) {
+        playersMoveCountMap[opponentName] = {};
+      }
+      if (!playersMoveCountMap[opponentName][moves[0]]) {
+        playersMoveCountMap[opponentName][moves[0]] = 1;
+      } else {
+        playersMoveCountMap[opponentName][moves[0]]++;
+      }
+      newGames.push(tempGame);
+    }
+  });
+
+  return {
+    totalMoveCountMap: totalMoveCountMap,
+    playersMoveCountMap: playersMoveCountMap,
+    newGames: newGames
+  }
+}
 
   handleReset = () => {
-    this.generateChart({}, {}, this.state.games)
+    let obj = this.handleDatasets()
+    this.generateChart(obj['totalMoveCountMap'], obj['playersMoveCountMap'], this.state.games)
   };
 
   handleMoveSelect = event => {
@@ -217,57 +254,8 @@ class ChessChart extends Component {
   };
 
   componentDidMount() {
-    let totalMoveCountMap = {};
-    let playersMoveCountMap = {};
-
-    let newGames = [];
-    let opponentName = '';
-
-    data.forEach(entry => {
-      if (
-        (entry.white == this.state.playerOne ||
-          entry.black == this.state.playerOne) &&
-        (entry.white == this.state.playerTwo ||
-          entry.black == this.state.playerTwo ||
-          entry.white == this.state.playerThree ||
-          entry.black == this.state.playerThree ||
-          entry.white == this.state.playerFour ||
-          entry.black == this.state.playerFour)
-      ) {
-        let tempGame = entry;
-        let moveString = entry.moves;
-        let moves = moveString.split(' ');
-        tempGame['moves'] = moves;
-        for (let i = 0; i < moves.length; i++) {
-          if (moves[i].indexOf('.') != -1) {
-            moves.splice(i, 1);
-          }
-        }
-        if (!totalMoveCountMap[moves[0]]) {
-          totalMoveCountMap[moves[0]] = 1;
-        } else {
-          totalMoveCountMap[moves[0]]++;
-        }
-
-        if (this.state.playerOne == entry.white) {
-          opponentName = entry.black;
-        } else {
-          opponentName = entry.white;
-        }
-
-        if (!playersMoveCountMap[opponentName]) {
-          playersMoveCountMap[opponentName] = {};
-        }
-        if (!playersMoveCountMap[opponentName][moves[0]]) {
-          playersMoveCountMap[opponentName][moves[0]] = 1;
-        } else {
-          playersMoveCountMap[opponentName][moves[0]]++;
-        }
-        newGames.push(tempGame);
-      }
-    });
-
-    this.generateChart(totalMoveCountMap, playersMoveCountMap, newGames);
+    let obj = this.handleDatasets()
+    this.generateChart(obj['totalMoveCountMap'], obj['playersMoveCountMap'], this.state.games);
   }
 
   render() {
@@ -276,7 +264,11 @@ class ChessChart extends Component {
       datasets: this.state.datasets,
     };
 
-    let doughnutData = JSON.parse(JSON.stringify(radarData));
+    let doughnutData = {
+      labels: this.state.labels,
+      datasets: this.state.datasets,
+    };
+
     doughnutData.datasets.forEach(circle => {
       circle.backgroundColor = [
         '#0051ff',
