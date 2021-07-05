@@ -23,7 +23,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -33,7 +33,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B51',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -43,7 +43,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -93,7 +93,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B50',
       tournament: 'Saint Louis Blitz 2020',
       moves:
@@ -113,7 +113,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B51',
       tournament: 'Airthings Masters Prelim',
       moves:
@@ -133,7 +133,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: "Cote d'Ivoire Blitz 2019",
       moves:
@@ -153,7 +153,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Croatia Grand Chess Tour 2019',
       moves:
@@ -163,7 +163,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: 'Grand Chess Tour Blitz Paris 2019',
       moves:
@@ -173,7 +173,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Grand Chess Tour Blitz Paris 2019',
       moves:
@@ -203,7 +203,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B51',
       tournament: 'Tata Steel India Rapid',
       moves:
@@ -213,7 +213,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A45',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -263,7 +263,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A06',
       tournament: 'World Blitz 2018',
       moves:
@@ -273,7 +273,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D31',
       tournament: '6th Zurich Opening Blitz',
       moves:
@@ -293,7 +293,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: 'Zurich Korchnoi CC Blitz',
       moves:
@@ -333,7 +333,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A05',
       tournament: 'Saint Louis Blitz 2017',
       moves:
@@ -343,7 +343,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B76',
       tournament: 'Saint Louis Blitz 2017',
       moves:
@@ -353,7 +353,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B91',
       tournament: '9th London Classic 2017',
       moves:
@@ -363,7 +363,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D27',
       tournament: 'FIDE World Cup 2015',
       moves:
@@ -373,7 +373,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'FIDE World Cup 2015',
       moves:
@@ -383,7 +383,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B22',
       tournament: 'FIDE World Cup 2015',
       moves:
@@ -393,7 +393,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'FIDE World Cup 2015',
       moves:
@@ -453,7 +453,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A45',
       tournament: 'FIDE World Rapid 2014',
       moves:
@@ -483,7 +483,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B70',
       tournament: '6th Tal Memorial',
       moves:
@@ -493,7 +493,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B01',
       tournament: 'VI World Blitz',
       moves:
@@ -523,7 +523,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D87',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -543,7 +543,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D87',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -553,7 +553,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B51',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -573,7 +573,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A46',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -583,7 +583,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A06',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -593,7 +593,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A33',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -623,7 +623,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D41',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -633,7 +633,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C41',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -653,7 +653,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D41',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -673,7 +673,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A28',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -693,7 +693,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A28',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -703,7 +703,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Chessable Masters Group B',
       moves:
@@ -713,7 +713,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'Chessable Masters Group B',
       moves:
@@ -743,7 +743,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Legends of Chess Preliminaries',
       moves:
@@ -753,7 +753,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Legends of Chess Final',
       moves:
@@ -783,7 +783,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C45',
       tournament: 'Legends of Chess Final',
       moves:
@@ -813,7 +813,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Legends of Chess Final',
       moves:
@@ -853,7 +853,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: 'Legends of Chess Final',
       moves:
@@ -863,7 +863,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Legends of Chess Final',
       moves:
@@ -873,7 +873,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: 'Legends of Chess Final',
       moves:
@@ -883,7 +883,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Legends of Chess Final',
       moves:
@@ -893,7 +893,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D87',
       tournament: 'Legends of Chess Final',
       moves:
@@ -913,7 +913,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D42',
       tournament: 'Skilling Open Prelim',
       moves:
@@ -923,7 +923,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D90',
       tournament: 'Airthings Masters Prelim',
       moves:
@@ -953,7 +953,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B23',
       tournament: 'Grand Chess Tour Blitz Paris 2019',
       moves:
@@ -973,7 +973,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B90',
       tournament: 'Grand Chess Tour Rapid Paris 2019',
       moves:
@@ -983,7 +983,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B10',
       tournament: 'Levitov Chess Week Blitz',
       moves:
@@ -1003,7 +1003,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A30',
       tournament: '78th Tata Steel GpA',
       moves:
@@ -1023,7 +1023,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C44',
       tournament: 'GCT Blitz Paris 2016',
       moves:
@@ -1043,7 +1043,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B90',
       tournament: 'GCT Rapid YourNextMove',
       moves:
@@ -1063,7 +1063,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A80',
       tournament: 'GCT Blitz YourNextMove',
       moves:
@@ -1083,7 +1083,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D38',
       tournament: '9th Masters Final 2016',
       moves:
@@ -1093,7 +1093,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E46',
       tournament: '77th Tata Steel GpA',
       moves:
@@ -1103,7 +1103,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A29',
       tournament: 'Vugar Gashimov Mem 2015',
       moves:
@@ -1123,7 +1123,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C97',
       tournament: 'Qatar Masters Open 2015',
       moves:
@@ -1133,7 +1133,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D87',
       tournament: 'FIDE Candidates 2020',
       moves:
@@ -1143,7 +1143,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C19',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -1153,7 +1153,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C78',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -1163,7 +1163,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C15',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -1243,7 +1243,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B90',
       tournament: '7th Sinquefield Cup',
       moves:
@@ -1253,7 +1253,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B23',
       tournament: '5th Sinquefield Cup 2017',
       moves:
@@ -1263,7 +1263,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A15',
       tournament: 'Saint Louis Rapid 2017',
       moves:
@@ -1293,7 +1293,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A07',
       tournament: '9th London Classic 2017',
       moves:
@@ -1303,7 +1303,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A07',
       tournament: '9th London Classic TB',
       moves:
@@ -1313,7 +1313,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B23',
       tournament: '9th London Classic TB',
       moves:
@@ -1323,7 +1323,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A05',
       tournament: '9th London Classic TB',
       moves:
@@ -1343,7 +1343,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A07',
       tournament: '43rd GM 2015',
       moves:
@@ -1383,7 +1383,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D43',
       tournament: 'Magistral',
       moves:
@@ -1393,7 +1393,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D38',
       tournament: 'Opera Euro Rapid Prelim',
       moves:
@@ -1403,7 +1403,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D14',
       tournament: 'Tata Steel Chess Tournament 2020',
       moves:
@@ -1413,7 +1413,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'Online Nations Cup Preliminaries',
       moves:
@@ -1423,7 +1423,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Online Nations Cup Preliminaries',
       moves:
@@ -1433,7 +1433,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A07',
       tournament: 'Skilling Open Prelim',
       moves:
@@ -1453,7 +1453,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: 'Croatia Grand Chess Tour 2019',
       moves:
@@ -1463,7 +1463,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: '7th Sinquefield Cup',
       moves:
@@ -1483,7 +1483,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A20',
       tournament: 'Superbet Blitz 2019',
       moves:
@@ -1493,7 +1493,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C53',
       tournament: 'Superbet Blitz 2019',
       moves:
@@ -1503,7 +1503,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E04',
       tournament: 'Tata Steel India Rapid',
       moves:
@@ -1523,7 +1523,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D45',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -1533,7 +1533,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D55',
       tournament: '80th Tata Steel GpA',
       moves:
@@ -1573,7 +1573,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D78',
       tournament: '79th Tata Steel GpA',
       moves:
@@ -1593,7 +1593,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A37',
       tournament: '5th Norway Chess 2017',
       moves:
@@ -1603,7 +1603,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D42',
       tournament: 'GCT Rapid YourNextMove',
       moves:
@@ -1623,7 +1623,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A35',
       tournament: 'GCT Blitz YourNextMove',
       moves:
@@ -1643,7 +1643,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D38',
       tournament: 'GCT Rapid Paris 2016',
       moves:
@@ -1653,7 +1653,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A45',
       tournament: 'GCT Blitz Paris 2016',
       moves:
@@ -1673,7 +1673,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D45',
       tournament: 'GCT Rapid YourNextMove',
       moves:
@@ -1683,7 +1683,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'GCT Blitz YourNextMove',
       moves:
@@ -1693,7 +1693,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A13',
       tournament: 'GCT Blitz YourNextMove',
       moves:
@@ -1703,7 +1703,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: '9th Masters Final 2016',
       moves:
@@ -1723,7 +1723,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: '4th Sinquefield Cup 2016',
       moves:
@@ -1733,7 +1733,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: '8th London Classic 2016',
       moves:
@@ -1763,7 +1763,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A30',
       tournament: '3rd Sinquefield Cup 2015',
       moves:
@@ -1773,7 +1773,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: '8th Grand Slam Masters',
       moves:
@@ -1783,7 +1783,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D45',
       tournament: '8th Grand Slam Masters',
       moves:
@@ -1803,7 +1803,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: '8th Grand Slam Masters TB',
       moves:
@@ -1813,7 +1813,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A07',
       tournament: 'Qatar Masters Open 2015',
       moves:
@@ -1823,7 +1823,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: '76th Tata Steel Masters',
       moves:
@@ -1833,7 +1833,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D45',
       tournament: '19th Sigeman & Co',
       moves:
@@ -1863,7 +1863,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D11',
       tournament: 'Corus C',
       moves:
@@ -1893,7 +1893,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C45',
       tournament: 'World Rapid 2015',
       moves:
@@ -1903,7 +1903,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C45',
       tournament: 'FIDE World Blitz 2014',
       moves:
@@ -1923,7 +1923,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B52',
       tournament: '6th Tal Memorial',
       moves:
@@ -1933,7 +1933,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B45',
       tournament: 'VI World Blitz',
       moves:
@@ -1943,7 +1943,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B06',
       tournament: 'VI World Blitz',
       moves:
@@ -1963,7 +1963,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Alireza_Firouzja',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Lindores Abbey Rapid Challenge',
       moves:
@@ -1973,7 +1973,7 @@ module.exports = {
     {
       white: 'Alireza_Firouzja',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: 'Saint Louis Rapid 2020',
       moves:
@@ -1983,7 +1983,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Alireza_Firouzja',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Saint Louis Blitz 2020',
       moves:
@@ -1993,7 +1993,7 @@ module.exports = {
     {
       white: 'Alireza_Firouzja',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Saint Louis Blitz 2020',
       moves:
@@ -2013,7 +2013,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: 'Opera Euro Rapid Prelim',
       moves:
@@ -2033,7 +2033,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -2083,7 +2083,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D45',
       tournament: 'Online Nations Cup Preliminaries',
       moves:
@@ -2103,7 +2103,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D39',
       tournament: 'Chessable Masters Group B',
       moves:
@@ -2133,7 +2133,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B11',
       tournament: 'Legends of Chess Preliminaries',
       moves:
@@ -2143,7 +2143,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Skilling Open Prelim',
       moves:
@@ -2153,7 +2153,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: '81st Tata Steel GpA',
       moves:
@@ -2203,7 +2203,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: '7th Sinquefield Cup',
       moves:
@@ -2223,7 +2223,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A04',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -2243,7 +2243,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: 'Sharjah Grand Prix 2017',
       moves:
@@ -2253,7 +2253,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C45',
       tournament: '11th World Teams 2017',
       moves:
@@ -2263,7 +2263,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C48',
       tournament: 'World Blitz 2017',
       moves:
@@ -2283,7 +2283,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E90',
       tournament: 'Breisacher Memorial',
       moves:
@@ -2293,7 +2293,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A34',
       tournament: 'Breisacher Memorial',
       moves:
@@ -2303,7 +2303,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C11',
       tournament: '8th RUS-CHN Summit Men Classical',
       moves:
@@ -2333,7 +2333,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C10',
       tournament: 'RUS-CHN Match Standard',
       moves:
@@ -2383,7 +2383,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D94',
       tournament: 'Tata Steel Chess Tournament 2020',
       moves:
@@ -2413,7 +2413,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Clutch Chess Champions Showdown International',
       moves:
@@ -2423,7 +2423,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C43',
       tournament: 'Clutch Chess Champions Showdown International',
       moves:
@@ -2443,7 +2443,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B47',
       tournament: 'Clutch Chess Champions Showdown International',
       moves:
@@ -2503,7 +2503,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E53',
       tournament: 'Clutch Chess Champions Showdown International',
       moves:
@@ -2513,7 +2513,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E04',
       tournament: '63rd ch-USA',
       moves:
@@ -2533,7 +2533,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C53',
       tournament: '7th Norway Chess 2019',
       moves:
@@ -2543,7 +2543,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: '7th Norway Chess 2019',
       moves:
@@ -2553,7 +2553,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C53',
       tournament: 'Croatia Grand Chess Tour 2019',
       moves:
@@ -2563,7 +2563,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A20',
       tournament: '7th Sinquefield Cup',
       moves:
@@ -2603,7 +2603,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E46',
       tournament: '80th Tata Steel GpA',
       moves:
@@ -2623,7 +2623,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: 'FIDE Candidates 2018',
       moves:
@@ -2633,7 +2633,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: 'ch-USA 2018',
       moves:
@@ -2673,7 +2673,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D78',
       tournament: 'GCT Blitz YourNextMove',
       moves:
@@ -2703,7 +2703,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A29',
       tournament: 'GCT Blitz Paris 2018',
       moves:
@@ -2713,7 +2713,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C24',
       tournament: 'GCT Blitz Paris 2018',
       moves:
@@ -2723,7 +2723,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'Saint Louis Rapid 2018',
       moves:
@@ -2743,7 +2743,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E46',
       tournament: 'Saint Louis Blitz 2018',
       moves:
@@ -2753,7 +2753,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: '6th Sinquefield Cup 2018',
       moves:
@@ -2763,7 +2763,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E04',
       tournament: 'Sinquefield GCT TB 2018',
       moves:
@@ -2783,7 +2783,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'ch-USA 2017',
       moves:
@@ -2803,7 +2803,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D27',
       tournament: '5th Norway Chess 2017',
       moves:
@@ -2843,7 +2843,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D27',
       tournament: '5th Sinquefield Cup 2017',
       moves:
@@ -2853,7 +2853,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C77',
       tournament: '9th London Classic 2017',
       moves:
@@ -2863,7 +2863,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: '78th Tata Steel GpA',
       moves:
@@ -2873,7 +2873,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A35',
       tournament: 'ch-USA 2016',
       moves:
@@ -2883,7 +2883,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E32',
       tournament: 'Opera Euro Rapid Prelim',
       moves:
@@ -2893,7 +2893,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'Lindores Abbey Rapid Challenge',
       moves:
@@ -2903,7 +2903,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: 'Saint Louis Rapid 2020',
       moves:
@@ -2913,7 +2913,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Saint Louis Blitz 2020',
       moves:
@@ -2923,7 +2923,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Saint Louis Blitz 2020',
       moves:
@@ -2933,7 +2933,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E32',
       tournament: 'ch-USA 2020',
       moves:
@@ -2943,7 +2943,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Skilling Open Prelim',
       moves:
@@ -2953,7 +2953,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C24',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -2973,7 +2973,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D41',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -2983,7 +2983,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A81',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -2993,7 +2993,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C70',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -3003,7 +3003,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C24',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -3013,7 +3013,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E32',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -3023,7 +3023,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A07',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -3033,7 +3033,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Airthings Masters Prelim',
       moves:
@@ -3043,7 +3043,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: '63rd ch-USA',
       moves:
@@ -3053,7 +3053,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: "Cote d'Ivoire Rapid 2019",
       moves:
@@ -3093,7 +3093,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: '7th Sinquefield Cup',
       moves:
@@ -3113,7 +3113,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -3123,7 +3123,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E32',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -3133,7 +3133,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E32',
       tournament: 'ch-USA 2018',
       moves:
@@ -3143,7 +3143,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D56',
       tournament: '6th Norway Chess 2018',
       moves:
@@ -3153,7 +3153,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A06',
       tournament: '6th Norway Blitz 2018',
       moves:
@@ -3193,7 +3193,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D04',
       tournament: 'GCT Rapid Paris 2018',
       moves:
@@ -3203,7 +3203,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'GCT Blitz Paris 2018',
       moves:
@@ -3213,7 +3213,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D41',
       tournament: 'GCT Blitz Paris 2018',
       moves:
@@ -3233,7 +3233,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E32',
       tournament: '6th Sinquefield Cup 2018',
       moves:
@@ -3253,7 +3253,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C45',
       tournament: 'Saint Louis Blitz 2018',
       moves:
@@ -3263,7 +3263,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A06',
       tournament: 'Tata Steel India Rapid',
       moves:
@@ -3283,7 +3283,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -3293,7 +3293,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E10',
       tournament: 'ch-USA 2017',
       moves:
@@ -3313,7 +3313,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D56',
       tournament: '5th Norway Chess 2017',
       moves:
@@ -3323,7 +3323,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A01',
       tournament: 'GCT Rapid Paris 2017',
       moves:
@@ -3353,7 +3353,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: '5th Sinquefield Cup 2017',
       moves:
@@ -3363,7 +3363,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A33',
       tournament: '9th London Classic 2017',
       moves:
@@ -3383,7 +3383,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C11',
       tournament: 'ch-USA 2016',
       moves:
@@ -3413,7 +3413,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Ultimate Blitz Challenge',
       moves:
@@ -3443,7 +3443,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D11',
       tournament: 'Ultimate Blitz Challenge',
       moves:
@@ -3453,7 +3453,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D38',
       tournament: 'GCT Rapid Paris 2016',
       moves:
@@ -3473,7 +3473,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D12',
       tournament: 'GCT Blitz Paris 2016',
       moves:
@@ -3483,7 +3483,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'GCT Rapid YourNextMove',
       moves:
@@ -3503,7 +3503,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D05',
       tournament: 'GCT Blitz YourNextMove',
       moves:
@@ -3513,7 +3513,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E32',
       tournament: '9th Masters Final 2016',
       moves:
@@ -3523,7 +3523,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: '9th Masters Final 2016',
       moves:
@@ -3543,7 +3543,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D58',
       tournament: 'ch-USA 2015',
       moves:
@@ -3563,7 +3563,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A05',
       tournament: 'Millionaire TB Final 2015',
       moves:
@@ -3573,7 +3573,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Millionaire TB Final 2015',
       moves:
@@ -3593,7 +3593,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D31',
       tournament: '76th Tata Steel Masters',
       moves:
@@ -3603,7 +3603,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C78',
       tournament: 'Opera Euro Rapid Prelim',
       moves:
@@ -3623,7 +3623,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B00',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -3643,7 +3643,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B30',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -3663,7 +3663,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A15',
       tournament: 'Legends of Chess Preliminaries',
       moves:
@@ -3683,7 +3683,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A13',
       tournament: 'Legends of Chess Preliminaries',
       moves:
@@ -3703,7 +3703,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A20',
       tournament: 'Legends of Chess Preliminaries',
       moves:
@@ -3723,7 +3723,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Legends of Chess Final',
       moves:
@@ -3743,7 +3743,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D79',
       tournament: 'Legends of Chess Final',
       moves:
@@ -3793,7 +3793,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A41',
       tournament: 'Legends of Chess Final',
       moves:
@@ -3823,7 +3823,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A22',
       tournament: 'Saint Louis Blitz 2020',
       moves:
@@ -3853,7 +3853,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B35',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -3863,7 +3863,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -3873,7 +3873,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -3903,7 +3903,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C84',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -3913,7 +3913,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B51',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -3923,7 +3923,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B33',
       tournament: 'Airthings Masters Prelim',
       moves:
@@ -3933,7 +3933,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: '81st Tata Steel GpA',
       moves:
@@ -3953,7 +3953,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A28',
       tournament: "Cote d'Ivoire Blitz 2019",
       moves:
@@ -3963,7 +3963,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B33',
       tournament: "Cote d'Ivoire Blitz 2019",
       moves:
@@ -3983,7 +3983,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: '7th Sinquefield Cup',
       moves:
@@ -4013,7 +4013,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A04',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -4023,7 +4023,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D87',
       tournament: 'World Blitz 2019',
       moves:
@@ -4033,7 +4033,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B33',
       tournament: 'World Blitz 2018',
       moves:
@@ -4043,7 +4043,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A21',
       tournament: '79th Tata Steel GpA',
       moves:
@@ -4053,7 +4053,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C45',
       tournament: 'GCT Rapid YourNextMove',
       moves:
@@ -4083,7 +4083,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A29',
       tournament: '5th Sinquefield Cup 2017',
       moves:
@@ -4103,7 +4103,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D41',
       tournament: 'Opera Euro Rapid Prelim',
       moves:
@@ -4113,7 +4113,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C24',
       tournament: 'Saint Louis Rapid 2020',
       moves:
@@ -4143,7 +4143,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Skilling Open Prelim',
       moves:
@@ -4153,7 +4153,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Airthings Masters Prelim',
       moves:
@@ -4173,7 +4173,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: "Cote d'Ivoire Blitz 2019",
       moves:
@@ -4183,7 +4183,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C55',
       tournament: "Cote d'Ivoire Blitz 2019",
       moves:
@@ -4193,7 +4193,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Croatia Grand Chess Tour 2019',
       moves:
@@ -4213,7 +4213,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B90',
       tournament: 'Tata Steel India Rapid',
       moves:
@@ -4223,7 +4223,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -4233,7 +4233,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -4243,7 +4243,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Jerusalem FIDE Grand Prix',
       moves:
@@ -4253,7 +4253,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C84',
       tournament: 'Jerusalem FIDE Grand Prix',
       moves:
@@ -4263,7 +4263,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A33',
       tournament: 'Jerusalem FIDE Grand Prix',
       moves:
@@ -4293,7 +4293,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A35',
       tournament: 'GCT Rapid YourNextMove',
       moves:
@@ -4313,7 +4313,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C45',
       tournament: 'GCT Blitz YourNextMove',
       moves:
@@ -4333,7 +4333,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: '9th London Classic 2017',
       moves:
@@ -4403,7 +4403,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A04',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -4413,7 +4413,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: '46th GM 2018',
       moves:
@@ -4423,7 +4423,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B92',
       tournament: 'World Rapid 2018',
       moves:
@@ -4453,7 +4453,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D84',
       tournament: 'GCT Blitz YourNextMove',
       moves:
@@ -4473,7 +4473,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D97',
       tournament: '10th Tal Mem 2016',
       moves:
@@ -4513,7 +4513,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A40',
       tournament: 'SportAccord Blitz Men 2013',
       moves:
@@ -4533,7 +4533,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C53',
       tournament: 'Opera Euro Rapid Prelim',
       moves:
@@ -4543,7 +4543,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Lindores Abbey Rapid Challenge',
       moves:
@@ -4553,7 +4553,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E32',
       tournament: 'Skilling Open Prelim',
       moves:
@@ -4563,7 +4563,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C88',
       tournament: "Cote d'Ivoire Rapid 2019",
       moves:
@@ -4573,7 +4573,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D41',
       tournament: "Cote d'Ivoire Blitz 2019",
       moves:
@@ -4603,7 +4603,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E04',
       tournament: '7th Norway Chess 2019',
       moves:
@@ -4633,7 +4633,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A14',
       tournament: '7th Sinquefield Cup',
       moves:
@@ -4653,7 +4653,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C45',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -4663,7 +4663,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -4673,7 +4673,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C89',
       tournament: 'FIDE Candidates 2018',
       moves:
@@ -4683,7 +4683,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'FIDE Candidates 2018',
       moves:
@@ -4703,7 +4703,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: 'FIDE World Cup 2017',
       moves:
@@ -4713,7 +4713,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'FIDE World Cup 2017',
       moves:
@@ -4723,7 +4723,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A13',
       tournament: 'FIDE World Cup 2017',
       moves:
@@ -4733,7 +4733,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D39',
       tournament: 'FIDE World Cup 2017',
       moves:
@@ -4753,7 +4753,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A60',
       tournament: 'FIDE World Cup 2017',
       moves:
@@ -4763,7 +4763,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D11',
       tournament: '78th Tata Steel GpA',
       moves:
@@ -4773,7 +4773,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D45',
       tournament: 'Ding vs So Match 2016',
       moves:
@@ -4783,7 +4783,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C83',
       tournament: 'Ding vs So Match 2016',
       moves:
@@ -4803,7 +4803,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C80',
       tournament: 'Ding vs So Match 2016',
       moves:
@@ -4813,7 +4813,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: '4th Sinquefield Cup 2016',
       moves:
@@ -4823,7 +4823,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D31',
       tournament: '77th Tata Steel GpA',
       moves:
@@ -4843,7 +4843,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: '8th Grand Slam Masters',
       moves:
@@ -4853,7 +4853,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: '6th SPICE Cup GM',
       moves:
@@ -4863,7 +4863,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E68',
       tournament: '6th SPICE Cup GM',
       moves:
@@ -4873,7 +4873,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E98',
       tournament: 'FIDE World Cup 2011',
       moves:
@@ -4883,7 +4883,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'FIDE World Cup 2011',
       moves:
@@ -4903,7 +4903,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E11',
       tournament: 'FIDE World Cup 2011',
       moves:
@@ -4923,7 +4923,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B90',
       tournament: 'VI World Blitz',
       moves:
@@ -4963,7 +4963,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A05',
       tournament: 'Ultimate Blitz Challenge',
       moves:
@@ -4993,7 +4993,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: 'Ultimate Blitz Challenge',
       moves:
@@ -5013,7 +5013,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'GCT Rapid Paris 2016',
       moves:
@@ -5063,7 +5063,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A05',
       tournament: 'GCT Blitz YourNextMove',
       moves:
@@ -5073,7 +5073,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: '4th Sinquefield Cup 2016',
       moves:
@@ -5083,7 +5083,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: '8th London Classic 2016',
       moves:
@@ -5093,7 +5093,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C84',
       tournament: '77th Tata Steel GpA',
       moves:
@@ -5123,7 +5123,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A15',
       tournament: '3rd Sinquefield Cup 2015',
       moves:
@@ -5143,7 +5143,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: '76th Tata Steel Masters',
       moves:
@@ -5153,7 +5153,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C53',
       tournament: 'AAI GM',
       moves:
@@ -5163,7 +5163,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'AAI GM',
       moves:
@@ -5203,7 +5203,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C47',
       tournament: 'Tata Steel Chess Tournament 2020',
       moves:
@@ -5213,7 +5213,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D86',
       tournament: 'Lindores Abbey Rapid Challenge',
       moves:
@@ -5243,7 +5243,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B13',
       tournament: 'Lindores Abbey Rapid Challenge Final 8',
       moves:
@@ -5263,7 +5263,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Lindores Abbey Rapid Challenge Final 8',
       moves:
@@ -5283,7 +5283,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B51',
       tournament: 'Saint Louis Rapid 2020',
       moves:
@@ -5293,7 +5293,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C78',
       tournament: 'Saint Louis Blitz 2020',
       moves:
@@ -5313,7 +5313,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E36',
       tournament: 'Skilling Open Prelim',
       moves:
@@ -5383,7 +5383,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C02',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -5393,7 +5393,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -5413,7 +5413,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D40',
       tournament: 'Skilling Open KO 2020',
       moves:
@@ -5423,7 +5423,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E92',
       tournament: 'Airthings Masters Prelim',
       moves:
@@ -5443,7 +5443,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B32',
       tournament: "Cote d'Ivoire Blitz 2019",
       moves:
@@ -5453,7 +5453,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A37',
       tournament: "Cote d'Ivoire Blitz 2019",
       moves:
@@ -5463,7 +5463,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C44',
       tournament: '7th Norway Blitz 2019',
       moves:
@@ -5473,7 +5473,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B33',
       tournament: '7th Norway Chess 2019',
       moves:
@@ -5483,7 +5483,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D70',
       tournament: '7th Norway Chess 2019',
       moves:
@@ -5493,7 +5493,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E34',
       tournament: 'Croatia Grand Chess Tour 2019',
       moves:
@@ -5513,7 +5513,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B90',
       tournament: 'Tata Steel India Rapid',
       moves:
@@ -5523,7 +5523,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E21',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -5533,7 +5533,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A56',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -5573,7 +5573,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D42',
       tournament: '6th Sinquefield Cup 2018',
       moves:
@@ -5583,7 +5583,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D12',
       tournament: '79th Tata Steel GpA',
       moves:
@@ -5603,7 +5603,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: '5th Norway Chess 2017',
       moves:
@@ -5663,7 +5663,7 @@ module.exports = {
     {
       white: 'Wesley_So',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B56',
       tournament: 'GCT Blitz YourNextMove',
       moves:
@@ -5683,7 +5683,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Wesley_So',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: '9th London Classic 2017',
       moves:
@@ -5703,7 +5703,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -5713,7 +5713,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -5723,7 +5723,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -5733,7 +5733,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -5753,7 +5753,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B22',
       tournament: 'Online Nations Cup Preliminaries',
       moves:
@@ -5773,7 +5773,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C53',
       tournament: 'Online Nations Cup Final',
       moves:
@@ -5783,7 +5783,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'Lindores Abbey Rapid Challenge',
       moves:
@@ -5803,7 +5803,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -5863,7 +5863,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B52',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -5883,7 +5883,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -5893,7 +5893,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -5903,7 +5903,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A88',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -5923,7 +5923,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A20',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -5933,7 +5933,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C53',
       tournament: 'Skilling Open Prelim',
       moves:
@@ -5963,7 +5963,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: "Cote d'Ivoire Blitz 2019",
       moves:
@@ -5973,7 +5973,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D27',
       tournament: 'Croatia Grand Chess Tour 2019',
       moves:
@@ -5983,7 +5983,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C88',
       tournament: '7th Sinquefield Cup',
       moves:
@@ -5993,7 +5993,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C84',
       tournament: 'Tata Steel India Rapid',
       moves:
@@ -6003,7 +6003,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A20',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -6013,7 +6013,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E32',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -6023,7 +6023,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A18',
       tournament: '6th Norway Chess 2018',
       moves:
@@ -6033,7 +6033,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A06',
       tournament: '6th Norway Blitz 2018',
       moves:
@@ -6043,7 +6043,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Hikaru_Nakamura',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Sharjah Grand Prix 2017',
       moves:
@@ -6053,7 +6053,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D41',
       tournament: 'Moscow Grand Prix 2017',
       moves:
@@ -6063,7 +6063,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D43',
       tournament: 'Palma De Mallorca GP 2017',
       moves:
@@ -6083,7 +6083,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E92',
       tournament: 'SportAccord Blindfold Men 2012',
       moves:
@@ -6163,7 +6163,7 @@ module.exports = {
     {
       white: 'Ian_Nepomniachtchi',
       black: 'Alireza_Firouzja',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B10',
       tournament: 'Saint Louis Rapid 2020',
       moves:
@@ -6193,7 +6193,7 @@ module.exports = {
     {
       white: 'Alireza_Firouzja',
       black: 'Ian_Nepomniachtchi',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: 'Skilling Open Prelim',
       moves:
@@ -6233,7 +6233,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A07',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -6243,7 +6243,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B90',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -6283,7 +6283,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A07',
       tournament: 'Chessable Masters Group B',
       moves:
@@ -6293,7 +6293,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E46',
       tournament: 'Chessable Masters Group B',
       moves:
@@ -6303,7 +6303,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C77',
       tournament: '7th Norway Blitz 2019',
       moves:
@@ -6323,7 +6323,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C88',
       tournament: 'Croatia Grand Chess Tour 2019',
       moves:
@@ -6343,7 +6343,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Saint Louis Rapid 2019',
       moves:
@@ -6373,7 +6373,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Fabiano_Caruana',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'FIDE Candidates 2018',
       moves:
@@ -6383,7 +6383,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E00',
       tournament: 'FIDE Candidates 2018',
       moves:
@@ -6403,7 +6403,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A28',
       tournament: '43rd Olympiad 2018',
       moves:
@@ -6423,7 +6423,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C92',
       tournament: '4th Sinquefield Cup 2016',
       moves:
@@ -6473,7 +6473,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Maxime_Vachier_Lagrave',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: 'Opera Euro Rapid Prelim',
       moves:
@@ -6483,7 +6483,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Maxime_Vachier_Lagrave',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B54',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -6493,7 +6493,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -6513,7 +6513,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D11',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -6523,7 +6523,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Skilling Open Prelim',
       moves:
@@ -6533,7 +6533,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Maxime_Vachier_Lagrave',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A15',
       tournament: 'Airthings Masters Prelim',
       moves:
@@ -6593,7 +6593,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B33',
       tournament: '7th Norway Chess 2019',
       moves:
@@ -6603,7 +6603,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A29',
       tournament: '7th Norway Chess 2019',
       moves:
@@ -6653,7 +6653,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B30',
       tournament: 'Saint Louis Blitz 2019',
       moves:
@@ -6663,7 +6663,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Maxime_Vachier_Lagrave',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B95',
       tournament: '11th London Classic 2019',
       moves:
@@ -6673,7 +6673,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C80',
       tournament: '11th London Classic 2019',
       moves:
@@ -6683,7 +6683,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C78',
       tournament: '11th London Classic 2019',
       moves:
@@ -6693,7 +6693,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Maxime_Vachier_Lagrave',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D87',
       tournament: '11th London Classic 2019',
       moves:
@@ -6703,7 +6703,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C80',
       tournament: '11th London Classic 2019',
       moves:
@@ -6733,7 +6733,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Maxime_Vachier_Lagrave',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A37',
       tournament: '11th London Classic 2019',
       moves:
@@ -6753,7 +6753,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B51',
       tournament: '11th London Classic 2019',
       moves:
@@ -6763,7 +6763,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B33',
       tournament: 'World Rapid 2019',
       moves:
@@ -6773,7 +6773,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B01',
       tournament: 'World Blitz 2019',
       moves:
@@ -6783,7 +6783,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Maxime_Vachier_Lagrave',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A04',
       tournament: 'GRENKE Chess Classic 2018',
       moves:
@@ -6793,7 +6793,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A07',
       tournament: '6th Norway Blitz 2018',
       moves:
@@ -6803,7 +6803,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C84',
       tournament: '6th Norway Chess 2018',
       moves:
@@ -6823,7 +6823,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Maxime_Vachier_Lagrave',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B90',
       tournament: '51st Biel GM 2018',
       moves:
@@ -6833,7 +6833,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B30',
       tournament: '6th Sinquefield Cup 2018',
       moves:
@@ -6843,7 +6843,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Maxime_Vachier_Lagrave',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B92',
       tournament: '4th GRENKE Chess Classic',
       moves:
@@ -6863,7 +6863,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Maxime_Vachier_Lagrave',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A48',
       tournament: '5th Norway Chess 2017',
       moves:
@@ -6913,7 +6913,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C89',
       tournament: 'GCT Rapid TB Paris 2017',
       moves:
@@ -6923,7 +6923,7 @@ module.exports = {
     {
       white: 'Maxime_Vachier_Lagrave',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B10',
       tournament: 'GCT Rapid YourNextMove',
       moves:
@@ -7013,7 +7013,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: 'Magnus Carlsen Invitational Final Four',
       moves:
@@ -7053,7 +7053,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E01',
       tournament: 'Lindores Abbey Rapid Challenge',
       moves:
@@ -7083,7 +7083,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D38',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -7113,7 +7113,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D38',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -7123,7 +7123,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E94',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -7133,7 +7133,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Chessable Masters Finals',
       moves:
@@ -7162,7 +7162,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A05',
       tournament: 'Legends of Chess Preliminaries',
       moves:
@@ -7182,7 +7182,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D78',
       tournament: 'Legends of Chess Preliminaries',
       moves:
@@ -7192,7 +7192,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B51',
       tournament: 'Legends of Chess Preliminaries',
       moves:
@@ -7212,7 +7212,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B13',
       tournament: 'Carlsen Tour Final',
       moves:
@@ -7222,7 +7222,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Carlsen Tour Final',
       moves:
@@ -7252,7 +7252,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A48',
       tournament: 'Carlsen Tour Final',
       moves:
@@ -7282,7 +7282,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E91',
       tournament: 'Carlsen Tour Final',
       moves:
@@ -7292,7 +7292,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E62',
       tournament: 'Carlsen Tour Final',
       moves:
@@ -7342,7 +7342,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Carlsen Tour Final',
       moves:
@@ -7352,7 +7352,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: 'Carlsen Tour Final',
       moves:
@@ -7362,7 +7362,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: 'Carlsen Tour Final',
       moves:
@@ -7382,7 +7382,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Skilling Open Prelim',
       moves:
@@ -7392,7 +7392,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A05',
       tournament: '81st Tata Steel GpA',
       moves:
@@ -7402,7 +7402,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: 'Gashimov Memorial Shamkir',
       moves:
@@ -7412,7 +7412,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D41',
       tournament: "Cote d'Ivoire Rapid 2019",
       moves:
@@ -7422,7 +7422,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D39',
       tournament: "Cote d'Ivoire Blitz 2019",
       moves:
@@ -7432,7 +7432,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: "Cote d'Ivoire Blitz 2019",
       moves:
@@ -7442,7 +7442,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A28',
       tournament: '7th Norway Blitz 2019',
       moves:
@@ -7452,7 +7452,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E24',
       tournament: 'Lindores Abbey Stars',
       moves:
@@ -7462,7 +7462,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D30',
       tournament: 'Lindores Abbey Stars',
       moves:
@@ -7472,7 +7472,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A15',
       tournament: '7th Norway Chess 2019',
       moves:
@@ -7512,7 +7512,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D43',
       tournament: '7th Sinquefield Cup TB',
       moves:
@@ -7532,7 +7532,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E03',
       tournament: '7th Sinquefield Cup TB',
       moves:
@@ -7542,7 +7542,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E21',
       tournament: '7th Sinquefield Cup',
       moves:
@@ -7612,7 +7612,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C48',
       tournament: 'Vugar Gashimov Mem 2018',
       moves:
@@ -7622,7 +7622,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A20',
       tournament: '6th Norway Blitz 2018',
       moves:
@@ -7632,7 +7632,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C47',
       tournament: '34th ECC Open 2018',
       moves:
@@ -7642,7 +7642,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C90',
       tournament: 'Carlsen-Ding Showdown G30',
       moves:
@@ -7652,7 +7652,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D11',
       tournament: 'Carlsen-Ding Showdown G30',
       moves:
@@ -7662,7 +7662,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C84',
       tournament: 'Carlsen-Ding Showdown G30',
       moves:
@@ -7682,7 +7682,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E21',
       tournament: 'Carlsen-Ding Showdown G20',
       moves:
@@ -7702,7 +7702,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: 'Carlsen-Ding Showdown G20',
       moves:
@@ -7732,7 +7732,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'Carlsen-Ding Showdown G20',
       moves:
@@ -7792,7 +7792,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E11',
       tournament: 'Carlsen-Ding Showdown G10',
       moves:
@@ -7822,7 +7822,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A04',
       tournament: 'Carlsen-Ding Showdown G5',
       moves:
@@ -7862,7 +7862,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A45',
       tournament: 'Carlsen-Ding Showdown G5',
       moves:
@@ -7882,7 +7882,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A25',
       tournament: 'Carlsen-Ding Showdown G5',
       moves:
@@ -7902,7 +7902,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B51',
       tournament: 'Carlsen-Ding Showdown G5',
       moves:
@@ -7932,7 +7932,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Carlsen-Ding Showdown G5',
       moves:
@@ -7952,7 +7952,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C80',
       tournament: '78th Tata Steel GpA',
       moves:
@@ -7962,7 +7962,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Magnus_Carlsen',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: '77th Tata Steel GpA',
       moves:
@@ -7982,7 +7982,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E00',
       tournament: 'FIDE Candidates 2020',
       moves:
@@ -7992,7 +7992,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A35',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -8022,7 +8022,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D41',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -8032,7 +8032,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -8052,7 +8052,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A20',
       tournament: 'Chessable Masters Group B',
       moves:
@@ -8072,7 +8072,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A20',
       tournament: 'Legends of Chess Preliminaries',
       moves:
@@ -8092,7 +8092,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A15',
       tournament: 'Skilling Open Prelim',
       moves:
@@ -8102,7 +8102,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E10',
       tournament: '81st Tata Steel GpA',
       moves:
@@ -8112,7 +8112,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D38',
       tournament: 'Gashimov Memorial Shamkir',
       moves:
@@ -8122,7 +8122,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A14',
       tournament: '3rd Du Te Cup 2019',
       moves:
@@ -8132,7 +8132,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C53',
       tournament: '3rd Du Te Cup 2019',
       moves:
@@ -8162,7 +8162,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D38',
       tournament: 'Tata Steel India Rapid',
       moves:
@@ -8172,7 +8172,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C84',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -8182,7 +8182,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D38',
       tournament: 'Tata Steel India Blitz',
       moves:
@@ -8192,7 +8192,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A15',
       tournament: 'Vugar Gashimov Mem 2018',
       moves:
@@ -8202,7 +8202,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A45',
       tournament: '43rd Olympiad 2018',
       moves:
@@ -8212,7 +8212,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C84',
       tournament: '2nd Du Te Cup 2018',
       moves:
@@ -8222,7 +8222,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A29',
       tournament: '2nd Du Te Cup 2018',
       moves:
@@ -8232,7 +8232,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D11',
       tournament: 'Du Te Cup 2017',
       moves:
@@ -8242,7 +8242,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A07',
       tournament: 'Du Te Cup 2017',
       moves:
@@ -8252,7 +8252,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: 'Moscow Grand Prix 2017',
       moves:
@@ -8262,7 +8262,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C84',
       tournament: 'Ding Liren vs Giri Match',
       moves:
@@ -8282,7 +8282,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C88',
       tournament: 'Ding Liren vs Giri Match',
       moves:
@@ -8292,7 +8292,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A09',
       tournament: 'Ding Liren vs Giri Match',
       moves:
@@ -8302,7 +8302,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D77',
       tournament: 'Palma De Mallorca GP 2017',
       moves:
@@ -8312,7 +8312,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D11',
       tournament: '78th Tata Steel GpA',
       moves:
@@ -8322,7 +8322,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C84',
       tournament: '4th Sinquefield Cup 2016',
       moves:
@@ -8342,7 +8342,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Anish_Giri',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'D78',
       tournament: '8th Grand Slam Masters',
       moves:
@@ -8352,7 +8352,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C92',
       tournament: '8th Grand Slam Masters',
       moves:
@@ -8362,7 +8362,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'B17',
       tournament: 'World Teams 2013',
       moves:
@@ -8382,7 +8382,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Alireza_Firouzja',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E51',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -8402,7 +8402,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Alireza_Firouzja',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'A07',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -8412,7 +8412,7 @@ module.exports = {
     {
       white: 'Alireza_Firouzja',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       moves:
@@ -8422,7 +8422,7 @@ module.exports = {
     {
       white: 'Alireza_Firouzja',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Lindores Abbey Rapid Challenge',
       moves:
@@ -8442,7 +8442,7 @@ module.exports = {
     {
       white: 'Alireza_Firouzja',
       black: 'Liren_Ding',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E20',
       tournament: 'FIDE World Cup 2019',
       moves:
@@ -8452,7 +8452,7 @@ module.exports = {
     {
       white: 'Liren_Ding',
       black: 'Alireza_Firouzja',
-      result: '&frac12;-&frac12;',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'FIDE World Cup 2019',
       moves:
@@ -8482,7 +8482,7 @@ module.exports = {
     {
       white: 'Alireza_Firouzja',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       id: 4260749,
@@ -8522,7 +8522,7 @@ module.exports = {
     {
       white: 'Alireza_Firouzja',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Online Nations Cup Preliminaries',
       id: 4260941,
@@ -8612,7 +8612,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       id: 4260733,
@@ -8622,7 +8622,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D10',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       id: 4260735,
@@ -8632,7 +8632,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C53',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       id: 4260737,
@@ -8642,7 +8642,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B93',
       tournament: 'Skilling Open Prelim',
       id: 4274574,
@@ -8662,7 +8662,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Croatia Grand Chess Tour 2019',
       id: 4202277,
@@ -8682,7 +8682,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B01',
       tournament: 'Grand Chess Tour Blitz Paris 2019',
       id: 4208492,
@@ -8692,7 +8692,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Grand Chess Tour Rapid Paris 2019',
       id: 4208467,
@@ -8702,7 +8702,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D38',
       tournament: '7th Sinquefield Cup',
       id: 4211858,
@@ -8722,7 +8722,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D56',
       tournament: 'Tata Steel India Blitz',
       id: 4230934,
@@ -8732,7 +8732,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D12',
       tournament: 'Tata Steel India Blitz',
       id: 4232198,
@@ -8742,7 +8742,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C26',
       tournament: 'World Rapid 2019',
       id: 4240990,
@@ -8752,7 +8752,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C26',
       tournament: 'World Blitz 2019',
       id: 4244053,
@@ -8792,7 +8792,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B01',
       tournament: 'World Blitz 2018',
       id: 4165180,
@@ -8802,7 +8802,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: 'Moscow Grand Prix 2017',
       id: 4048711,
@@ -8832,7 +8832,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A49',
       tournament: '8th London Classic 2016',
       id: 4024468,
@@ -8852,7 +8852,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B92',
       tournament: '5th Zurich CC 2016',
       id: 3979498,
@@ -8872,7 +8872,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D45',
       tournament: 'FIDE Candidates 2016',
       id: 3985307,
@@ -8882,7 +8882,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: 'FIDE Candidates 2016',
       id: 3986466,
@@ -8892,7 +8892,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A14',
       tournament: 'GCT Rapid Paris 2016',
       id: 3995381,
@@ -8942,7 +8942,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'GCT Blitz YourNextMove',
       id: 3996313,
@@ -8952,7 +8952,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D45',
       tournament: '9th Masters Final 2016',
       id: 4000422,
@@ -8962,7 +8962,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: '9th Masters Final 2016',
       id: 4001590,
@@ -8982,7 +8982,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C54',
       tournament: 'KM FIDE GP 2015',
       id: 3941180,
@@ -8992,7 +8992,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A22',
       tournament: '3rd Norway Blitz 2015',
       id: 3944417,
@@ -9002,7 +9002,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C78',
       tournament: '3rd Norway Chess 2015',
       id: 3944970,
@@ -9012,7 +9012,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B48',
       tournament: '3rd Sinquefield Cup 2015',
       id: 3955065,
@@ -9032,7 +9032,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A34',
       tournament: '76th Tata Steel Masters',
       id: 3881944,
@@ -9042,7 +9042,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B48',
       tournament: '41st Olympiad Open 2014',
       id: 3906269,
@@ -9052,7 +9052,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E32',
       tournament: 'Tashkent FIDE GP 2014',
       id: 3917245,
@@ -9092,7 +9092,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: '6th London Classic 2014',
       id: 3921670,
@@ -9102,7 +9102,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B40',
       tournament: '75th Tata Steel GpA',
       id: 3842277,
@@ -9112,7 +9112,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E11',
       tournament: 'Renova FIDE GP Zug',
       id: 3847786,
@@ -9122,7 +9122,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'FIDE GP Paris',
       id: 3870168,
@@ -9132,7 +9132,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D97',
       tournament: 'World Teams 2013',
       id: 3876038,
@@ -9152,7 +9152,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B77',
       tournament: '74th Tata Steel GMA',
       id: 3796396,
@@ -9162,7 +9162,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: '45th Biel GM',
       id: 3818023,
@@ -9172,7 +9172,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D11',
       tournament: '45th Biel GM',
       id: 3818038,
@@ -9202,7 +9202,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E04',
       tournament: '16th Unive Crown',
       id: 3832639,
@@ -9212,7 +9212,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C04',
       tournament: 'SportAccord Blitz Men 2012',
       id: 3837976,
@@ -9222,7 +9222,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E00',
       tournament: '73rd Tata Steel GMA',
       id: 3757744,
@@ -9242,7 +9242,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D91',
       tournament: '20th Amber Rapid',
       id: 3764425,
@@ -9252,7 +9252,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: '39th GM',
       id: 3778355,
@@ -9262,7 +9262,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E53',
       tournament: '39th GM',
       id: 3779282,
@@ -9352,7 +9352,7 @@ module.exports = {
     {
       white: 'Alireza_Firouzja',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       id: 4260736,
@@ -9392,7 +9392,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Alireza_Firouzja',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B13',
       tournament: 'Saint Louis Blitz 2020',
       id: 4270407,
@@ -9402,7 +9402,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Alireza_Firouzja',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D35',
       tournament: '8th Norway Chess 2020',
       id: 4272157,
@@ -9462,7 +9462,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E00',
       tournament: '83rd Tata Steel Masters',
       id: 4278877,
@@ -9472,7 +9472,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Tata Steel Chess Tournament 2020',
       id: 4248454,
@@ -9502,7 +9502,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C78',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       id: 4260752,
@@ -9512,7 +9512,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C46',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       id: 4260754,
@@ -9522,7 +9522,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A22',
       tournament: 'Clutch Chess Champions Showdown International',
       id: 4261372,
@@ -9532,7 +9532,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Clutch Chess Champions Showdown International',
       id: 4261373,
@@ -9592,7 +9592,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Clutch Chess Champions Showdown International',
       id: 4261379,
@@ -9662,7 +9662,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E46',
       tournament: 'Chessable Masters Finals',
       id: 4263831,
@@ -9672,7 +9672,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B51',
       tournament: 'Chessable Masters Finals',
       id: 4263818,
@@ -9712,7 +9712,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B31',
       tournament: '8th Norway Chess 2020',
       id: 4272172,
@@ -9732,7 +9732,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B33',
       tournament: 'GRENKE Chess Classic',
       id: 4187476,
@@ -9752,7 +9752,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B31',
       tournament: '7th Norway Chess 2019',
       id: 4197707,
@@ -9772,7 +9772,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C80',
       tournament: 'Croatia Grand Chess Tour 2019',
       id: 4200113,
@@ -9782,7 +9782,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: '7th Sinquefield Cup',
       id: 4211806,
@@ -9802,7 +9802,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C77',
       tournament: 'Saint Louis Blitz 2019',
       id: 4213871,
@@ -9822,7 +9822,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A28',
       tournament: 'FIDE Grand Swiss',
       id: 4224010,
@@ -9832,7 +9832,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: '80th Tata Steel GpA',
       id: 4094095,
@@ -9842,7 +9842,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: 'GRENKE Chess Classic 2018',
       id: 4106782,
@@ -9872,7 +9872,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: '6th Sinquefield Cup 2018',
       id: 4131862,
@@ -9882,7 +9882,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B31',
       tournament: 'World Championship Match 2018',
       id: 4152692,
@@ -9892,7 +9892,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'World Championship Match 2018',
       id: 4152693,
@@ -9902,7 +9902,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B31',
       tournament: 'World Championship Match 2018',
       id: 4152694,
@@ -9912,7 +9912,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A29',
       tournament: 'World Championship Match 2018',
       id: 4152695,
@@ -9922,7 +9922,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B31',
       tournament: 'World Championship Match 2018',
       id: 4152696,
@@ -9932,7 +9932,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: 'World Championship Match 2018',
       id: 4152697,
@@ -9942,7 +9942,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'World Championship Match 2018',
       id: 4152698,
@@ -9952,7 +9952,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B33',
       tournament: 'World Championship Match 2018',
       id: 4152699,
@@ -9962,7 +9962,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A29',
       tournament: 'World Championship Match 2018',
       id: 4154478,
@@ -9972,7 +9972,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B33',
       tournament: 'World Championship Match 2018',
       id: 4154479,
@@ -9982,7 +9982,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: 'World Championship Match 2018',
       id: 4154487,
@@ -9992,7 +9992,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B33',
       tournament: 'World Championship Match 2018',
       id: 4154488,
@@ -10032,7 +10032,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: '4th GRENKE Chess Classic',
       id: 4045345,
@@ -10052,7 +10052,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C88',
       tournament: '5th Norway Chess 2017',
       id: 4052830,
@@ -10062,7 +10062,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C84',
       tournament: 'GCT Rapid Paris 2017',
       id: 4054292,
@@ -10092,7 +10092,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C84',
       tournament: '5th Sinquefield Cup 2017',
       id: 4061769,
@@ -10112,7 +10112,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D27',
       tournament: '9th London Classic 2017',
       id: 4082977,
@@ -10122,7 +10122,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A00',
       tournament: '78th Tata Steel GpA',
       id: 3976233,
@@ -10142,7 +10142,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B40',
       tournament: 'GCT Blitz Paris 2016',
       id: 3995423,
@@ -10192,7 +10192,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B01',
       tournament: '42nd Olympiad 2016',
       id: 4010453,
@@ -10212,7 +10212,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: '3rd GRENKE Chess Classic',
       id: 3927573,
@@ -10232,7 +10232,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B01',
       tournament: '3rd Norway Blitz 2015',
       id: 3944412,
@@ -10262,7 +10262,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: '7th London Classic 2015',
       id: 3969966,
@@ -10332,7 +10332,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D70',
       tournament: '2nd Norway Chess 2014',
       id: 3897139,
@@ -10372,7 +10372,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B36',
       tournament: '2nd Sinquefield Cup 2014',
       id: 3911762,
@@ -10382,7 +10382,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A10',
       tournament: '75th Tata Steel GpA',
       id: 3841009,
@@ -10412,7 +10412,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: '74th Tata Steel GMA',
       id: 3796393,
@@ -10422,7 +10422,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: '7th Mikhail Tal Memorial',
       id: 3811912,
@@ -10492,7 +10492,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C41',
       tournament: 'Biel ACCENTUS GM',
       id: 3779180,
@@ -10502,7 +10502,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C77',
       tournament: 'Corus A',
       id: 3721361,
@@ -10532,7 +10532,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C53',
       tournament: '83rd Tata Steel Masters',
       id: 4278884,
@@ -10542,7 +10542,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A13',
       tournament: 'Opera Euro Rapid Prelim',
       id: 4279124,
@@ -10552,7 +10552,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A22',
       tournament: 'Tata Steel Chess Tournament 2020',
       id: 4248416,
@@ -10562,7 +10562,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E04',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       id: 4260782,
@@ -10582,7 +10582,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D87',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       id: 4260786,
@@ -10592,7 +10592,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B95',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       id: 4260788,
@@ -10602,7 +10602,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A28',
       tournament: 'Chessable Masters Finals',
       id: 4263882,
@@ -10612,7 +10612,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D52',
       tournament: 'Chessable Masters Finals',
       id: 4263883,
@@ -10632,7 +10632,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Chessable Masters Finals',
       id: 4263881,
@@ -10652,7 +10652,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D45',
       tournament: 'Chessable Masters Finals',
       id: 4263876,
@@ -10662,7 +10662,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D45',
       tournament: 'Chessable Masters Finals',
       id: 4263878,
@@ -10692,7 +10692,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D30',
       tournament: 'Chessable Masters Finals',
       id: 4263874,
@@ -10702,7 +10702,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D43',
       tournament: 'Legends of Chess Preliminaries',
       id: 4264683,
@@ -10722,7 +10722,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Legends of Chess Preliminaries',
       id: 4264693,
@@ -10742,7 +10742,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B53',
       tournament: 'Skilling Open Prelim',
       id: 4274625,
@@ -10752,7 +10752,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D38',
       tournament: 'Skilling Open KO 2020',
       id: 4275307,
@@ -10762,7 +10762,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B31',
       tournament: 'Skilling Open KO 2020',
       id: 4275311,
@@ -10772,7 +10772,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C47',
       tournament: 'Skilling Open KO 2020',
       id: 4275315,
@@ -10792,7 +10792,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C53',
       tournament: 'Skilling Open KO 2020',
       id: 4275322,
@@ -10802,7 +10802,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: 'Skilling Open KO 2020',
       id: 4275326,
@@ -10812,7 +10812,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Skilling Open KO 2020',
       id: 4275330,
@@ -10822,7 +10822,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B22',
       tournament: 'Skilling Open KO 2020',
       id: 4275334,
@@ -10832,7 +10832,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D94',
       tournament: 'Airthings Masters Prelim',
       id: 4276976,
@@ -10842,7 +10842,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B33',
       tournament: '81st Tata Steel GpA',
       id: 4170948,
@@ -10872,7 +10872,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A28',
       tournament: '7th Sinquefield Cup',
       id: 4211793,
@@ -10892,7 +10892,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B52',
       tournament: 'Tata Steel India Blitz',
       id: 4230937,
@@ -10902,7 +10902,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D45',
       tournament: 'Tata Steel India Blitz',
       id: 4232202,
@@ -10912,7 +10912,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C19',
       tournament: '80th Tata Steel GpA',
       id: 4095237,
@@ -10932,7 +10932,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C53',
       tournament: '80th Tata Steel GpA TB',
       id: 4098727,
@@ -10962,7 +10962,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D05',
       tournament: '79th Tata Steel GpA',
       id: 4033242,
@@ -10982,7 +10982,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: '5th Norway Chess 2017',
       id: 4052844,
@@ -10992,7 +10992,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E91',
       tournament: 'GCT Rapid YourNextMove',
       id: 4054973,
@@ -11012,7 +11012,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: 'GCT Blitz YourNextMove',
       id: 4055064,
@@ -11022,7 +11022,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D38',
       tournament: '78th Tata Steel GpA',
       id: 3977233,
@@ -11042,7 +11042,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C77',
       tournament: '4th Norway Chess 2016',
       id: 3989854,
@@ -11052,7 +11052,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C24',
       tournament: 'GCT Rapid Paris 2016',
       id: 3995399,
@@ -11092,7 +11092,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C55',
       tournament: 'GCT Blitz YourNextMove',
       id: 3996284,
@@ -11112,7 +11112,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D22',
       tournament: '9th Masters Final 2016',
       id: 4000424,
@@ -11132,7 +11132,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A40',
       tournament: '77th Tata Steel GpA',
       id: 3925507,
@@ -11142,7 +11142,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D38',
       tournament: 'Vugar Gashimov Mem 2015',
       id: 3937909,
@@ -11152,7 +11152,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C60',
       tournament: '3rd Norway Blitz 2015',
       id: 3944400,
@@ -11162,7 +11162,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B51',
       tournament: '3rd Norway Chess 2015',
       id: 3944966,
@@ -11172,7 +11172,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B33',
       tournament: '3rd Sinquefield Cup 2015',
       id: 3955059,
@@ -11182,7 +11182,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C91',
       tournament: '7th London Classic 2015',
       id: 3970716,
@@ -11192,7 +11192,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B92',
       tournament: 'Qatar Masters Open 2015',
       id: 3973734,
@@ -11212,7 +11212,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A34',
       tournament: '2nd Norway Chess 2014',
       id: 3897128,
@@ -11222,7 +11222,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: '75th Tata Steel GpA',
       id: 3842302,
@@ -11232,7 +11232,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A15',
       tournament: '74th Tata Steel GMA',
       id: 3796399,
@@ -11242,7 +11242,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: '45th Biel GM',
       id: 3818032,
@@ -11252,7 +11252,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E15',
       tournament: '45th Biel GM',
       id: 3819861,
@@ -11272,7 +11272,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: '20th Amber Blindfold',
       id: 3764390,
@@ -11382,7 +11382,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D52',
       tournament: 'Magnus Carlsen Invitational Final Four',
       id: 4260848,
@@ -11392,7 +11392,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Lindores Abbey Rapid Challenge',
       id: 4261184,
@@ -11442,7 +11442,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C45',
       tournament: 'Lindores Abbey Rapid Challenge Final 8',
       id: 4261277,
@@ -11452,7 +11452,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Lindores Abbey Rapid Challenge Final 8',
       id: 4261279,
@@ -11462,7 +11462,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C53',
       tournament: 'Lindores Abbey Rapid Challenge Final 8',
       id: 4261281,
@@ -11472,7 +11472,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C47',
       tournament: 'Lindores Abbey Rapid Challenge Final 8',
       id: 4261282,
@@ -11502,7 +11502,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C88',
       tournament: 'Lindores Abbey Rapid Challenge Final 8',
       id: 4261285,
@@ -11532,7 +11532,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B30',
       tournament: 'Chessable Masters Group A',
       id: 4263756,
@@ -11542,7 +11542,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B90',
       tournament: 'Carlsen Tour Final',
       id: 4266272,
@@ -11562,7 +11562,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B90',
       tournament: 'Carlsen Tour Final',
       id: 4266274,
@@ -11572,7 +11572,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A28',
       tournament: 'Carlsen Tour Final',
       id: 4266275,
@@ -11592,7 +11592,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Carlsen Tour Final',
       id: 4266277,
@@ -11612,7 +11612,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Carlsen Tour Final',
       id: 4266279,
@@ -11622,7 +11622,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D30',
       tournament: 'Carlsen Tour Final',
       id: 4266280,
@@ -11652,7 +11652,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Carlsen Tour Final',
       id: 4266283,
@@ -11672,7 +11672,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: 'Carlsen Tour Final',
       id: 4266285,
@@ -11692,7 +11692,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A20',
       tournament: 'Carlsen Tour Final',
       id: 4266287,
@@ -11702,7 +11702,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A20',
       tournament: 'Carlsen Tour Final',
       id: 4266288,
@@ -11712,7 +11712,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Carlsen Tour Final',
       id: 4266289,
@@ -11732,7 +11732,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Carlsen Tour Final',
       id: 4266291,
@@ -11742,7 +11742,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Carlsen Tour Final',
       id: 4266292,
@@ -11752,7 +11752,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: 'Carlsen Tour Final',
       id: 4266293,
@@ -11762,7 +11762,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Carlsen Tour Final',
       id: 4266294,
@@ -11772,7 +11772,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: 'Carlsen Tour Final',
       id: 4266295,
@@ -11822,7 +11822,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Carlsen Tour Final',
       id: 4266300,
@@ -11832,7 +11832,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Carlsen Tour Final',
       id: 4266301,
@@ -11862,7 +11862,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B31',
       tournament: 'Carlsen Tour Final',
       id: 4266304,
@@ -11882,7 +11882,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A20',
       tournament: 'Carlsen Tour Final',
       id: 4266306,
@@ -11912,7 +11912,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Carlsen Tour Final',
       id: 4266309,
@@ -11952,7 +11952,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C24',
       tournament: 'Skilling Open Prelim',
       id: 4275270,
@@ -11972,7 +11972,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A18',
       tournament: "Cote d'Ivoire Rapid 2019",
       id: 4193577,
@@ -11982,7 +11982,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C47',
       tournament: "Cote d'Ivoire Blitz 2019",
       id: 4193652,
@@ -12012,7 +12012,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B31',
       tournament: '7th Sinquefield Cup',
       id: 4211832,
@@ -12032,7 +12032,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D30',
       tournament: 'Tata Steel India Blitz',
       id: 4230942,
@@ -12042,7 +12042,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Tata Steel India Blitz',
       id: 4232206,
@@ -12052,7 +12052,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B31',
       tournament: 'World Rapid 2019',
       id: 4241596,
@@ -12062,7 +12062,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C78',
       tournament: 'World Blitz 2019',
       id: 4243435,
@@ -12072,7 +12072,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'World Blitz TB 2019',
       id: 4245602,
@@ -12092,7 +12092,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D55',
       tournament: '6th Norway Chess 2018',
       id: 4117424,
@@ -12102,7 +12102,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B09',
       tournament: '6th Norway Blitz 2018',
       id: 4117476,
@@ -12122,7 +12122,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D30',
       tournament: 'World Rapid 2018',
       id: 4163053,
@@ -12132,7 +12132,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'World Blitz 2018',
       id: 4165445,
@@ -12142,7 +12142,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D00',
       tournament: '5th Norway Blitz 2017',
       id: 4051969,
@@ -12152,7 +12152,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B90',
       tournament: '5th Norway Chess 2017',
       id: 4052832,
@@ -12162,7 +12162,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D11',
       tournament: 'GCT Rapid Paris 2017',
       id: 4054280,
@@ -12172,7 +12172,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: 'GCT Blitz Paris 2017',
       id: 4054337,
@@ -12192,7 +12192,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: '5th Sinquefield Cup 2017',
       id: 4062744,
@@ -12202,7 +12202,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'IoM Masters',
       id: 4074769,
@@ -12212,7 +12212,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C45',
       tournament: '9th London Classic 2017',
       id: 4084167,
@@ -12222,7 +12222,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E21',
       tournament: 'GCT Rapid Paris 2016',
       id: 3995389,
@@ -12262,7 +12262,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E11',
       tournament: 'GCT Blitz YourNextMove',
       id: 3996295,
@@ -12272,7 +12272,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E21',
       tournament: 'GCT Blitz YourNextMove',
       id: 3996340,
@@ -12292,7 +12292,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: '9th Masters Final 2016',
       id: 4001577,
@@ -12302,7 +12302,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D11',
       tournament: 'World Blitz 2016',
       id: 4030224,
@@ -12322,7 +12322,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D56',
       tournament: '3rd Norway Chess 2015',
       id: 3944979,
@@ -12332,7 +12332,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D31',
       tournament: '3rd Sinquefield Cup 2015',
       id: 3956090,
@@ -12372,7 +12372,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B51',
       tournament: 'Zurich CC Rapid 2014',
       id: 3883020,
@@ -12402,7 +12402,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C45',
       tournament: 'FIDE World Blitz 2014',
       id: 3899866,
@@ -12412,7 +12412,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C60',
       tournament: '2nd Sinquefield Cup 2014',
       id: 3911060,
@@ -12442,7 +12442,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C28',
       tournament: 'Supreme Masters 2013',
       id: 3850191,
@@ -12462,7 +12462,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A48',
       tournament: '8th Tal Mem Blitz',
       id: 3856583,
@@ -12482,7 +12482,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E62',
       tournament: 'Sinquefield Cup 2013',
       id: 3867186,
@@ -12492,7 +12492,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: 'Sinquefield Cup 2013',
       id: 3867190,
@@ -12502,7 +12502,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D15',
       tournament: '74th Tata Steel GMA',
       id: 3796969,
@@ -12512,7 +12512,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A30',
       tournament: '7th Tal Mem Blitz',
       id: 3811937,
@@ -12522,7 +12522,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E10',
       tournament: '7th Mikhail Tal Memorial',
       id: 3813117,
@@ -12532,7 +12532,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B53',
       tournament: '45th Biel GM',
       id: 3816930,
@@ -12542,7 +12542,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D91',
       tournament: '45th Biel GM',
       id: 3818035,
@@ -12552,7 +12552,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B30',
       tournament: '4th London Chess Classic',
       id: 3837065,
@@ -12572,7 +12572,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E47',
       tournament: '20th Amber Blindfold',
       id: 3763424,
@@ -12592,7 +12592,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C95',
       tournament: '5th Kings Tournament',
       id: 3775267,
@@ -12612,7 +12612,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D55',
       tournament: '4th Final Masters',
       id: 3785090,
@@ -12622,7 +12622,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D59',
       tournament: '4th Final Masters',
       id: 3787862,
@@ -12652,7 +12652,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C77',
       tournament: 'Corus A',
       id: 3721004,
@@ -12702,7 +12702,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D14',
       tournament: 'Aker CC Rapid',
       id: 3658173,
@@ -12762,7 +12762,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D17',
       tournament: 'Chess Classic',
       id: 3718834,
@@ -12772,7 +12772,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A30',
       tournament: 'Trophee CCAS GpB',
       id: 3631436,
@@ -12782,7 +12782,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Magnus_Carlsen',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C91',
       tournament: 'Biel GM',
       id: 3196090,
@@ -12792,7 +12792,7 @@ module.exports = {
     {
       white: 'Magnus_Carlsen',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D17',
       tournament: 'Biel GM',
       id: 3196105,
@@ -12802,7 +12802,7 @@ module.exports = {
     {
       white: 'Alireza_Firouzja',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C53',
       tournament: '83rd Tata Steel Masters',
       id: 4278888,
@@ -12862,7 +12862,7 @@ module.exports = {
     {
       white: 'Alireza_Firouzja',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A08',
       tournament: '8th Norway Chess 2020',
       id: 4272162,
@@ -12882,7 +12882,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Alireza_Firouzja',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B12',
       tournament: '8th Norway Chess 2020',
       id: 4272924,
@@ -12922,7 +12922,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       id: 4260794,
@@ -12932,7 +12932,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D11',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       id: 4260796,
@@ -12952,7 +12952,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: 'Magnus Carlsen Invitational Final Four',
       id: 4260835,
@@ -12962,7 +12962,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D10',
       tournament: 'Magnus Carlsen Invitational Final Four',
       id: 4260836,
@@ -13022,7 +13022,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B33',
       tournament: '63rd ch-USA',
       id: 4181685,
@@ -13032,7 +13032,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C80',
       tournament: '7th Sinquefield Cup',
       id: 4211794,
@@ -13072,7 +13072,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: 'FIDE Grand Swiss',
       id: 4224161,
@@ -13082,7 +13082,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'ch-USA 2018',
       id: 4113074,
@@ -13092,7 +13092,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: '6th Norway Blitz 2018',
       id: 4117444,
@@ -13102,7 +13102,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A18',
       tournament: '6th Norway Chess 2018',
       id: 4118196,
@@ -13122,7 +13122,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'GCT Blitz YourNextMove',
       id: 4119507,
@@ -13172,7 +13172,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D77',
       tournament: 'Saint Louis Rapid 2018',
       id: 4128598,
@@ -13182,7 +13182,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A06',
       tournament: 'Saint Louis Blitz 2018',
       id: 4130849,
@@ -13212,7 +13212,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: '10th London Classic 2018',
       id: 4158694,
@@ -13222,7 +13222,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C42',
       tournament: '10th London Classic 2018',
       id: 4158696,
@@ -13232,7 +13232,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A20',
       tournament: '10th London Classic 2018',
       id: 4158698,
@@ -13292,7 +13292,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D27',
       tournament: 'Gibraltar Masters 2017',
       id: 4034946,
@@ -13302,7 +13302,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B31',
       tournament: 'ch-USA 2017',
       id: 4042480,
@@ -13352,7 +13352,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A06',
       tournament: 'GCT Blitz Paris 2017',
       id: 4054362,
@@ -13362,7 +13362,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E71',
       tournament: '5th Sinquefield Cup 2017',
       id: 4062756,
@@ -13372,7 +13372,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A06',
       tournament: 'Saint Louis Rapid 2017',
       id: 4063712,
@@ -13402,7 +13402,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E32',
       tournament: '9th London Classic 2017',
       id: 4084176,
@@ -13412,7 +13412,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A30',
       tournament: 'FIDE Candidates 2016',
       id: 3984493,
@@ -13472,7 +13472,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Ultimate Blitz Challenge',
       id: 3990848,
@@ -13522,7 +13522,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'GCT Blitz Paris 2016',
       id: 3995460,
@@ -13542,7 +13542,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A05',
       tournament: 'GCT Blitz YourNextMove',
       id: 3996265,
@@ -13562,7 +13562,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A61',
       tournament: '4th Sinquefield Cup 2016',
       id: 4004026,
@@ -13572,7 +13572,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Champions Showdown 60m',
       id: 4020600,
@@ -13632,7 +13632,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'Champions Showdown Blitz',
       id: 4021756,
@@ -13662,7 +13662,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B01',
       tournament: '4th Zurich CC Blitz',
       id: 3928021,
@@ -13692,7 +13692,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B76',
       tournament: 'KM FIDE GP 2015',
       id: 3942095,
@@ -13722,7 +13722,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D81',
       tournament: '3rd Sinquefield Cup 2015',
       id: 3955057,
@@ -13732,7 +13732,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B30',
       tournament: 'Showdown Basque 2015',
       id: 3967564,
@@ -13742,7 +13742,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A45',
       tournament: 'Showdown Basque 2015',
       id: 3967565,
@@ -13752,7 +13752,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A01',
       tournament: 'Showdown Rapid 2015',
       id: 3967568,
@@ -13772,7 +13772,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A05',
       tournament: 'Showdown Rapid 2015',
       id: 3967570,
@@ -13802,7 +13802,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B52',
       tournament: 'Showdown Blitz 2015',
       id: 3967577,
@@ -13832,7 +13832,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A48',
       tournament: 'Showdown Blitz 2015',
       id: 3967580,
@@ -13852,7 +13852,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A07',
       tournament: 'Showdown Blitz 2015',
       id: 3967582,
@@ -13872,7 +13872,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: '7th London Classic 2015',
       id: 3969968,
@@ -13892,7 +13892,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D90',
       tournament: 'Zurich Chess Challenge 2014',
       id: 3882475,
@@ -13902,7 +13902,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E60',
       tournament: '76th Tata Steel Masters',
       id: 3881930,
@@ -13922,7 +13922,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A33',
       tournament: 'Vugar Gashimov Mem 2014',
       id: 3890456,
@@ -13932,7 +13932,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C80',
       tournament: 'Vugar Gashimov Mem 2014',
       id: 3891438,
@@ -13952,7 +13952,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: '2nd Sinquefield Cup 2014',
       id: 3911765,
@@ -13962,7 +13962,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D31',
       tournament: 'Baku FIDE Grand Prix 2014',
       id: 3914216,
@@ -13972,7 +13972,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E32',
       tournament: 'Tashkent FIDE GP 2014',
       id: 3917265,
@@ -14012,7 +14012,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: '6th London Classic 2014',
       id: 3921681,
@@ -14032,7 +14032,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D10',
       tournament: 'Renova FIDE GP Zug',
       id: 3849355,
@@ -14042,7 +14042,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D80',
       tournament: 'Makedonia Palace GP',
       id: 3852733,
@@ -14082,7 +14082,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B42',
       tournament: '54th Reggio Emilia',
       id: 3795385,
@@ -14092,7 +14092,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D86',
       tournament: '74th Tata Steel GMA',
       id: 3795895,
@@ -14102,7 +14102,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D22',
       tournament: '7th Mikhail Tal Memorial',
       id: 3811909,
@@ -14122,7 +14122,7 @@ module.exports = {
     {
       white: 'Hikaru_Nakamura',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A22',
       tournament: '54th Reggio Emilia',
       id: 3794844,
@@ -14132,7 +14132,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Hikaru_Nakamura',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B67',
       tournament: 'Corus A',
       id: 3721355,
@@ -14182,7 +14182,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A45',
       tournament: '83rd Tata Steel Masters',
       id: 4278543,
@@ -14192,7 +14192,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E32',
       tournament: 'Tata Steel Chess Tournament 2020',
       id: 4248429,
@@ -14202,7 +14202,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D12',
       tournament: 'FIDE Candidates 2020',
       id: 4259928,
@@ -14212,7 +14212,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A20',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       id: 4260820,
@@ -14252,7 +14252,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C47',
       tournament: 'Chessable Masters Group B',
       id: 4263812,
@@ -14272,7 +14272,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D78',
       tournament: 'Croatia Grand Chess Tour 2019',
       id: 4200139,
@@ -14282,7 +14282,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A08',
       tournament: 'Grand Chess Tour Blitz Paris 2019',
       id: 4208533,
@@ -14302,7 +14302,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A34',
       tournament: 'Grand Chess Tour Rapid Paris 2019',
       id: 4208457,
@@ -14312,7 +14312,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: '7th Sinquefield Cup',
       id: 4211836,
@@ -14322,7 +14322,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A40',
       tournament: 'Superbet Rapid 2019',
       id: 4229297,
@@ -14332,7 +14332,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: 'Superbet Blitz 2019',
       id: 4229351,
@@ -14342,7 +14342,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B23',
       tournament: 'Superbet Blitz 2019',
       id: 4229394,
@@ -14352,7 +14352,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: '80th Tata Steel GpA',
       id: 4096001,
@@ -14382,7 +14382,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C70',
       tournament: 'GCT Blitz YourNextMove',
       id: 4119497,
@@ -14392,7 +14392,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B42',
       tournament: 'GCT Blitz YourNextMove',
       id: 4119542,
@@ -14402,7 +14402,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: '43rd Olympiad 2018',
       id: 4138826,
@@ -14412,7 +14412,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D78',
       tournament: '5th Norway Blitz 2017',
       id: 4051988,
@@ -14422,7 +14422,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D27',
       tournament: '5th Norway Chess 2017',
       id: 4053578,
@@ -14432,7 +14432,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C80',
       tournament: '78th Tata Steel GpA',
       id: 3976696,
@@ -14442,7 +14442,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C65',
       tournament: 'FIDE Candidates 2016',
       id: 3984498,
@@ -14452,7 +14452,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D70',
       tournament: 'FIDE Candidates 2016',
       id: 3985326,
@@ -14462,7 +14462,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C81',
       tournament: 'Vugar Gashimov Mem 2016',
       id: 3994135,
@@ -14472,7 +14472,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C80',
       tournament: 'GCT Rapid Paris 2016',
       id: 3995375,
@@ -14502,7 +14502,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: 'GCT Rapid YourNextMove',
       id: 3996215,
@@ -14522,7 +14522,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C50',
       tournament: 'GCT Blitz YourNextMove',
       id: 3996301,
@@ -14542,7 +14542,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D27',
       tournament: '8th London Classic 2016',
       id: 4025560,
@@ -14552,7 +14552,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: '77th Tata Steel GpA',
       id: 3925520,
@@ -14562,7 +14562,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D02',
       tournament: 'Vugar Gashimov Mem 2015',
       id: 3937906,
@@ -14572,7 +14572,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A35',
       tournament: 'KM FIDE GP 2015',
       id: 3942757,
@@ -14592,7 +14592,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C80',
       tournament: '3rd Norway Chess 2015',
       id: 3946159,
@@ -14602,7 +14602,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: '3rd Sinquefield Cup 2015',
       id: 3956092,
@@ -14612,7 +14612,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A45',
       tournament: '7th London Classic 2015',
       id: 3970719,
@@ -14622,7 +14622,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C27',
       tournament: '76th Tata Steel Masters',
       id: 3881361,
@@ -14642,7 +14642,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A29',
       tournament: '2nd Norway Chess 2014',
       id: 3897141,
@@ -14652,7 +14652,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D37',
       tournament: 'Tashkent FIDE GP 2014',
       id: 3917252,
@@ -14662,7 +14662,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C46',
       tournament: '6th LCC Super Rapidplay Open 2014',
       id: 3921094,
@@ -14692,7 +14692,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C67',
       tournament: '6th London Classic 2014',
       id: 3921675,
@@ -14712,7 +14712,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'D85',
       tournament: 'Renova FIDE GP Zug',
       id: 3848481,
@@ -14722,7 +14722,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A41',
       tournament: 'FIDE GP Paris',
       id: 3870155,
@@ -14732,7 +14732,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Fabiano_Caruana',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A20',
       tournament: '54th Reggio Emilia',
       id: 3795393,
@@ -14772,7 +14772,7 @@ module.exports = {
     {
       white: 'Fabiano_Caruana',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'E06',
       tournament: 'YGM',
       id: 3736835,
@@ -14782,7 +14782,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Alireza_Firouzja',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'C11',
       tournament: '83rd Tata Steel Masters',
       id: 4278894,
@@ -14832,7 +14832,7 @@ module.exports = {
     {
       white: 'Anish_Giri',
       black: 'Alireza_Firouzja',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'B12',
       tournament: 'Magnus Carlsen Invitational Preliminaries',
       id: 4260806,
@@ -14852,7 +14852,7 @@ module.exports = {
     {
       white: 'Alireza_Firouzja',
       black: 'Anish_Giri',
-      result: '5-5',
+      result: '0.5-0.5',
       eco: 'A06',
       tournament: 'World Rapid 2019',
       id: 4240797,
