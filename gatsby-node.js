@@ -16,10 +16,6 @@ exports.onCreateWebpackConfig = ({
             test: /chessboardjsx/,
             use: loaders.null(),
           },
-          {
-            test: /chess.js/,
-            use: loaders.null(),
-          },
         ],
       },
     })
