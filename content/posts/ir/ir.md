@@ -65,10 +65,12 @@ Foles is inconsistent, but when he hits, he hits big. Gardner Minshew is current
 
 *References*
 
-*www.cbssports.com*
+*cbssports.com*
 
-*www.nfl.com*
+*nfl.com*
 
-*www.pff.com*
+*pff.com*
 
-*www.pro-football-reference.com*
+*pro-football-reference.com*
+
+*Photo - si.com*

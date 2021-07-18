@@ -75,6 +75,8 @@ Notably, in addition to a general correlation between justices and like-minded s
 
 *Programs developed for data collection can be found at www.github.com/sunny-kim-92/amici-link*
 
-*www.scotusblog.com*
+*scotusblog.com*
 
-*www.ballotopedia.org*
+*ballotopedia.org*
+
+*Photo - www.scotusblog.com*

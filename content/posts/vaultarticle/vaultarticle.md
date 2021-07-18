@@ -41,3 +41,7 @@ Just like pre-flight turns, only these occur from apparatus to landing.
 <sturn></sturn>
 
 Note that not all combinations of these 5 elements create a valid vault. For example, out of the 80 vaults, only one (the Tucked Double Salto AKA Produnova AKA [Flying Circus of Death](https://balancebeamsituation.com/elite-skill-database/produnova/)) involves 2 saltos. The vault builder  accounts for compatible options as you move through the selections.
+
+*Diagrams from Women's Artisti Gymnastics Code of Points (gymogturn.no)*
+
+*Simone Biles Photo - fosbury.cat*
