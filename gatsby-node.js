@@ -8,6 +8,22 @@ exports.onCreateWebpackConfig = ({
   loaders,
   actions,
 }) => {
+  if (stage === "build-html" || stage === "develop-html") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /chessboardjsx/,
+            use: loaders.null(),
+          },
+          {
+            test: /chess.js/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    })
+  }
   actions.setWebpackConfig({
     resolve: {
       modules: [path.resolve(__dirname, 'src'), 'node_modules'],
