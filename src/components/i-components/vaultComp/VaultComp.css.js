@@ -1,44 +1,44 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-display: block;
-height: 25vh;
-margin: 0 2.8vw;
-`
+  display: block;
+  height: 25vh;
+  margin: 0 2.8vw;
+`;
 
 export const Intro = styled.div`
-display: block;
+  display: block;
 
-h1 {
-  font-size: 4rem;
-}
+  h1 {
+    font-size: 4rem;
+  }
 
-h5 {
-  font-side: 4rem;
-}
-`
+  h5 {
+    font-side: 4rem;
+  }
+`;
 
 export const FlexBottom = styled.div`
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-gap: 4rem;
-margin: 3rem 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  margin: 3rem 5rem;
 
-span {
-  font-size: 3rem;
-}
-`
+  span {
+    font-size: 3rem;
+  }
+`;
 
 export const NextBottom = styled.div`
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-gap: 4rem;
-margin: 3rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  margin: 3rem 2rem;
 
-span {
-  font-size: 3rem;
-}
-`
+  span {
+    font-size: 3rem;
+  }
+`;
 
 export const FinalContainer = styled.div`
   padding-left: 4vw;
@@ -58,10 +58,10 @@ export const FinalContainer = styled.div`
 `;
 
 export const ListText = styled.h1`
-font-size: 3.5rem;
-font-weight: 450;
-padding-bottom: 2vh;
-`
+  font-size: 3.5rem;
+  font-weight: 450;
+  padding-bottom: 2vh;
+`;
 
 export const ButtonGrid = styled.div`
   display: grid;
@@ -69,20 +69,20 @@ export const ButtonGrid = styled.div`
   grid-gap: 4rem;
   padding: 0 4rem;
   margin: 2rem 0;
-`
+`;
 
 export const Question = styled.h1`
-font-size: 4rem;
-padding-bottom: 5vh;
-`
+  font-size: 4rem;
+  padding-bottom: 5vh;
+`;
 
 export const Big = styled.span`
-display: block;
-font-size: 4rem;
-.hide {
+  display: block;
+  font-size: 4rem;
+  .hide {
     opacity: 0;
     transition: opacity 1s;
-}
+  }
 `;
 
 export const Wrapper = styled.div`

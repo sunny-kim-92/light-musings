@@ -17,7 +17,7 @@ const Index = ({ data }) => {
   });
   return (
     <Layout>
-      <Gallery type="projects" items={projects} />
+      <Gallery type="explorations" items={projects} />
       <Gallery type="articles" items={articles} />
     </Layout>
   );
@@ -29,28 +29,25 @@ Index.propTypes = {
 
 export default Index;
 
-export const query = graphql`
-  query BlogpostQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          id
-          frontmatter {
-            link
-            date(formatString: "DD MMMM, YYYY")
-            title
-            subtitle
-            type
-            frontimg {
-              childImageSharp {
-                fluid(maxHeight: 500, quality: 90) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-              }
+export const query = graphql`query BlogpostQuery {
+  allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {
+    edges {
+      node {
+        id
+        frontmatter {
+          link
+          date(formatString: "DD MMMM, YYYY")
+          title
+          subtitle
+          type
+          frontimg {
+            childImageSharp {
+              gatsbyImageData(height: 500, quality: 90, layout: FULL_WIDTH)
             }
           }
         }
       }
     }
   }
+}
 `;

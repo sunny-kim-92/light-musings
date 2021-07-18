@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
-import Img from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 
 import Layout from 'components/format/layout';
 import Box from 'components/format/box';
@@ -32,15 +32,12 @@ const VaultArticle = ({ data }) => {
   const info = data.vaultarticleJson;
   return (
     <Layout>
-      <Img
-        fluid={
-          info.headerImg.childImageSharp.fluid
-            ? info.headerImg.childImageSharp.fluid
-            : {}
-        }
+      <GatsbyImage
+        image={info.headerImg.childImageSharp.gatsbyImageData
+          ? info.headerImg.childImageSharp.gatsbyImageData
+          : {}}
         alt={info.headerAlt}
-        style={{ margin: '1rem 0 0 0', maxHeight: '40vh' }}
-      />
+        style={{ margin: '1rem 0 0 0', maxHeight: '40vh' }} />
       <Box>
         <Title as="h2" size="large">
           {info.title}
@@ -63,24 +60,21 @@ VaultArticle.propTypes = {
 
 export default VaultArticle;
 
-export const query = graphql`
-  query VaultArticleQuery {
-    vaultarticleJson {
-      title
-      date
-      content {
-        childMarkdownRemark {
-          htmlAst
-        }
+export const query = graphql`query VaultArticleQuery {
+  vaultarticleJson {
+    title
+    date
+    content {
+      childMarkdownRemark {
+        htmlAst
       }
-      headerImg {
-        childImageSharp {
-          fluid(maxHeight: 500, quality: 90) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      headerAlt
     }
+    headerImg {
+      childImageSharp {
+        gatsbyImageData(height: 500, quality: 90, layout: FULL_WIDTH)
+      }
+    }
+    headerAlt
   }
+}
 `;

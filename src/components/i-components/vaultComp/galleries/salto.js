@@ -4,24 +4,21 @@ import { StaticQuery, graphql } from 'gatsby';
 
 const Salto = () => (
   <StaticQuery
-    query={graphql`
-      query {
-        vaultarticleJson {
-          galleries {
-            salto {
-              title
-              testimg {
-                childImageSharp {
-                  fluid(maxHeight: 500) {
-                    ...GatsbyImageSharpFluid_withWebp
-                  }
-                }
-              }
-            }
+    query={graphql`{
+  vaultarticleJson {
+    galleries {
+      salto {
+        title
+        testimg {
+          childImageSharp {
+            gatsbyImageData(height: 500, layout: FULL_WIDTH)
           }
         }
       }
-    `}
+    }
+  }
+}
+`}
     render={data => {
       return <PageGal items={data.vaultarticleJson.galleries.salto} num={3} />;
     }}

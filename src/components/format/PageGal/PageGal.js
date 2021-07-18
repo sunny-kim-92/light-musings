@@ -15,6 +15,7 @@ const PageGal = ({ items, num }) => (
 
 PageGal.propTypes = {
   items: PropTypes.arrayOf(PropTypes.object).isRequired,
+  num: PropTypes.number,
 };
 
 export default PageGal;

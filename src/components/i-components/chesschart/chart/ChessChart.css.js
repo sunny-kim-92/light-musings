@@ -51,6 +51,7 @@ export const GamesTable = styled.div`
   max-height: 30vh;
   overflow-y: auto;
   justify-content: center;
+  padding-bottom: 4px;
 `;
 
 export const TableHeader = styled.td`

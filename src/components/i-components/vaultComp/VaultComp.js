@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Animate } from 'react-animate-mount';
 import {
   Wrapper,
@@ -341,11 +340,11 @@ class VaultComp extends React.Component {
     });
   };
 
-  _handleNext = event => {
+  _handleNext = () => {
     this.setState({ switch: true });
   };
 
-  _handleReset = event => {
+  _handleReset = () => {
     this.setState({ switch: true, reset: true });
   };
 
@@ -514,7 +513,7 @@ class VaultComp extends React.Component {
                   color="primary"
                   onClick={this._handleNext}
                 >
-                  {currNum === 0 ? "Start!" : "Next"}
+                  {currNum === 0 ? 'Start!' : 'Next'}
                 </Button>
               </ButtonGrid>
             </NextBottom>

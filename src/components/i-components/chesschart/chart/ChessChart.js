@@ -66,12 +66,18 @@ class ChessChart extends Component {
     data.forEach(entry => {
       if (this.getColorFilter(entry)) {
         let tempGame = entry;
-        let moveString = entry.moves;
-        let moves = moveString.split(' ');
-        tempGame['moves'] = moves;
-        for (let i = 0; i < moves.length; i++) {
-          if (moves[i].indexOf('.') != -1) {
-            moves.splice(i, 1);
+        let moves = null;
+        if (typeof entry.moves == 'object') {
+          moves = entry.moves;
+          tempGame['moves'] = moves;
+        } else {
+          let moveString = entry.moves;
+          moves = moveString.split(' ');
+          tempGame['moves'] = moves;
+          for (let i = 0; i < moves.length; i++) {
+            if (moves[i].indexOf('.') != -1) {
+              moves.splice(i, 1);
+            }
           }
         }
         if (!totalMoveCountMap[moves[0]]) {
@@ -582,7 +588,13 @@ class ChessChart extends Component {
           </ChessboardContainer>
         </ChartLayout>
         <GamesTable>
-          <table style={{ width: '100%', justifyContent: 'center', borderCollapse: 'collapse'}}>
+          <table
+            style={{
+              width: '100%',
+              justifyContent: 'center',
+              borderCollapse: 'collapse',
+            }}
+          >
             <thead>
               <tr style={{ width: '100%', justifyContent: 'center' }}>
                 <TableHeader>Tournament</TableHeader>
@@ -593,7 +605,7 @@ class ChessChart extends Component {
               </tr>
             </thead>
             <tbody>
-              {this.state.games.map((game, i) => {
+              {this.state.games.map(game => {
                 return (
                   <tr
                     key={game.id}

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 
 import Layout from 'components/format/layout';
 import Box from 'components/format/box';
@@ -27,15 +27,12 @@ const IR = ({ data }) => {
   const info = data.irJson;
   return (
     <Layout>
-      <Img
-        fluid={
-          info.headerImg.childImageSharp.fluid
-            ? info.headerImg.childImageSharp.fluid
-            : {}
-        }
+      <GatsbyImage
+        image={info.headerImg.childImageSharp.gatsbyImageData
+          ? info.headerImg.childImageSharp.gatsbyImageData
+          : {}}
         alt={info.headerAlt}
-        style={{ maxHeight: '40vh'}}
-      />
+        style={{ maxHeight: '40vh' }} />
       <Box>
         <Title as="h1" size="large">
           {info.title}
@@ -55,24 +52,21 @@ IR.propTypes = {
 
 export default IR;
 
-export const query = graphql`
-  query IRQuery {
-    irJson {
-      title
-      date
-      content {
-        childMarkdownRemark {
-          htmlAst
-        }
+export const query = graphql`query IRQuery {
+  irJson {
+    title
+    date
+    content {
+      childMarkdownRemark {
+        htmlAst
       }
-      headerImg {
-        childImageSharp {
-          fluid(maxHeight: 500, quality: 90) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-      headerAlt
     }
+    headerImg {
+      childImageSharp {
+        gatsbyImageData(height: 500, quality: 90, layout: FULL_WIDTH)
+      }
+    }
+    headerAlt
   }
+}
 `;

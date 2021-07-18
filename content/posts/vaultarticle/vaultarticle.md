@@ -1,10 +1,10 @@
 ---
 type: 'article'
 link: '/making-a-vault/'
-title: "Build Your Own Women's Gymnastics Vault"
+title: "Breaking Down Gymnastics Vaults"
 date: '2019-10-24'
-subtitle: "Explore the many vaults of elite women's gymnastics, then build your own!"
-frontimg: '../../images/vault/bilesvault.jpg'
+subtitle: "Learn the components that compose an elite women's gymnastics vault"
+frontimg: '../../images/vault/4STurn.png'
 tags: ['Sports']
 ---
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 import { Title } from './unit.css';
 
 const Unit = ({ title, testimg }) => (
@@ -8,12 +8,11 @@ const Unit = ({ title, testimg }) => (
     <figcaption>
       <Title>{title}</Title>
     </figcaption>
-    <Img
-      fluid={testimg ? testimg.childImageSharp.fluid : {}}
+    <GatsbyImage
+      image={testimg ? testimg.childImageSharp.gatsbyImageData : {}}
       alt={title}
       style={{ maxHeight: '25vh' }}
-      imgStyle={{ objectFit: 'contain' }}
-    />
+      imgStyle={{ objectFit: 'contain' }} />
   </figure>
 );
 
