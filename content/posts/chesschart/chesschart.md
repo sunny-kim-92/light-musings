@@ -11,6 +11,4 @@ Explore the differences in opening repertoire between top-rated chess players. G
 
 <br></br>
 
-*Photo - abc.go.com*
-
 <chess-chart></chess-chart>

@@ -26,6 +26,7 @@ class ChessChart extends Component {
       playerTwo: { value: 'Anish_Giri', label: 'Anish Giri' },
       playerThree: { value: 'Fabiano_Caruana', label: 'Fabiano Caruana' },
       playerFour: { value: 'Ian_Nepomniachtchi', label: 'Ian Nepomniachtchi' },
+      displayChessBoard: false,
       playerOptions: [
         { value: 'Magnus_Carlsen', label: 'Magnus Carlsen' },
         { value: 'Anish_Giri', label: 'Anish Giri' },
@@ -104,6 +105,9 @@ class ChessChart extends Component {
       }
     });
 
+    this.setState({
+      displayChessBoard: true,
+    });
     this.generateChart(totalMoveCountMap, playersMoveCountMap, newGames);
   }
 
@@ -580,11 +584,13 @@ class ChessChart extends Component {
             </button>
           </DoughnutContainer>
           <ChessboardContainer>
+          {this.state.displayChessBoard && (
             <Chessboard
               allowDrag={() => false}
               width={480}
               position={this.state.fen}
             ></Chessboard>
+          )}
           </ChessboardContainer>
         </ChartLayout>
         <GamesTable>
